@@ -1,0 +1,1340 @@
+[
+  {
+    "id": "abstract",
+    "de": "Abstrakte Spielbereiche",
+    "en": "Abstract game areas",
+    "rule": "4.8.3",
+    "aliases": [
+      "abstrakter Bereich"
+    ],
+    "deText": "Bereiche des Spiels, die nicht unmittelbar auf dem Spielfeld abgebildet werden, beispielsweise ASP-Vorrat und Reaktionskette.",
+    "enText": "Areas used by the game but not directly represented on the battlefield, such as the ASP reserve and Reaction Chain.",
+    "kind": ""
+  },
+  {
+    "id": "active",
+    "de": "Aktive Zonen",
+    "en": "Active zones",
+    "rule": "4.8.1",
+    "aliases": [
+      "aktiven Zonen"
+    ],
+    "deText": "Kampfzone, Sicherheitszone und Regierungszone bilden das regeltechnische Spielfeld. Nur Karten in diesen Zonen gelten als im Spiel.",
+    "enText": "The Combat Zone, Safety Zone and Government Zone form the battlefield in rules terms. Only cards in these zones are in play.",
+    "kind": ""
+  },
+  {
+    "id": "activated",
+    "de": "Aktivierte Fähigkeit",
+    "en": "Activated ability",
+    "rule": "4.2",
+    "aliases": [
+      "aktivierte Fähigkeiten",
+      "activated abilities"
+    ],
+    "deText": "Ein durch einen Spieler mit Priorität durch Bezahlen von Kosten aktivierbarer Effekt. Erkennbar am Schema [Kosten]: [Effekt].",
+    "enText": "An effect a player with priority can activate by paying costs. Identified by [cost]: [effect].",
+    "kind": ""
+  },
+  {
+    "id": "current",
+    "de": "Aktueller Wert",
+    "en": "Current value",
+    "rule": "4.9.3",
+    "aliases": [
+      "aktuellen Wert",
+      "current HP"
+    ],
+    "deText": "Der tatsächliche Wert eines Objekts nach Anwendung aller Modifikatoren. Bei HP wird akkumulierter Schaden abgezogen. Für geturnte RES und INI unterscheiden sich Systemabfragen und Karteneffekt-Referenzen; siehe Regel 4.9.3.",
+    "enText": "The actual value after modifiers. For HP, subtract accumulated damage. Turned RES and INI differ between system checks and card references; see section 4.9.3.",
+    "kind": ""
+  },
+  {
+    "id": "attack",
+    "de": "Angriff",
+    "en": "Attack",
+    "rule": "3.1.4",
+    "aliases": [
+      "Angreifen",
+      "angreifend",
+      "attacking"
+    ],
+    "deText": "Wählbare Aktion des handelnden Charakters in der Kampfphase. Die Voraussetzungen und Prioritätsfenster sind in Regel 3.1.4 beschrieben.",
+    "enText": "An action chosen for the acting Character during combat. Requirements and priority windows are in section 3.1.4.",
+    "kind": ""
+  },
+  {
+    "id": "artifact",
+    "de": "Artefakt",
+    "en": "Artifact",
+    "rule": "2.2.3",
+    "aliases": [
+      "Artefakte",
+      "Artifacts"
+    ],
+    "deText": "Bleibender Kartentyp. Wird in der Regierungszone im Bereich für bleibende Karten platziert.",
+    "enText": "A permanent card type placed in the Government Zone's permanent area.",
+    "kind": ""
+  },
+  {
+    "id": "asp",
+    "de": "Astralpunkte (ASP)",
+    "en": "Astral points (ASP)",
+    "rule": "4.4",
+    "aliases": [
+      "ASP",
+      "Astralpunkte",
+      "ASP-Vorrat",
+      "ASP reserve",
+      "astral points"
+    ],
+    "deText": "Ressourceneinheit zum Bezahlen von Karten und Fähigkeiten. ASP werden im abstrakten ASP-Vorrat gesammelt. Erzeugende Fähigkeiten nutzen die Reaktionskette. Verbleibende ASP verfallen am Rundenende.",
+    "enText": "The resource used to pay for cards and abilities, collected in the abstract ASP reserve. Generating abilities use the Reaction Chain. Remaining ASP expire at the end of the round.",
+    "kind": ""
+  },
+  {
+    "id": "back-row",
+    "de": "Back-Row",
+    "en": "Back Row",
+    "rule": "2.3.3",
+    "aliases": [
+      "Back Row",
+      "Backrow"
+    ],
+    "deText": "Die zwei Charakter-Slots je Lane in der Safety Zone direkt hinter der War Zone und über Binding- und Ressourcen-Slot.",
+    "enText": "The two Character slots per Lane in the Safety Zone directly behind the War Zone and above the Binding and Resource slots.",
+    "kind": ""
+  },
+  {
+    "id": "banished",
+    "de": "Banished Zone",
+    "en": "Banished area",
+    "rule": "2.3.5",
+    "aliases": [
+      "Banished-Platz",
+      "Banished Platz",
+      "Banish"
+    ],
+    "deText": "Ablageort für alle aus dem Spiel verbannten Karten; ein inaktiver Platz.",
+    "enText": "The inactive area holding cards banished from play.",
+    "kind": ""
+  },
+  {
+    "id": "summon",
+    "de": "Beschwören",
+    "en": "Summon",
+    "rule": "4.1",
+    "aliases": [
+      "Beschwörung",
+      "Summoning"
+    ],
+    "deText": "Ausspielen einer bleibenden Karte auf die Reaktionskette.",
+    "enText": "Playing a permanent card onto the Reaction Chain.",
+    "kind": ""
+  },
+  {
+    "id": "owner",
+    "de": "Besitzer",
+    "en": "Owner",
+    "rule": "4.7",
+    "aliases": [
+      "Besitzerin"
+    ],
+    "deText": "Der Spieler, in dessen Deck die Karte zu Spielbeginn war. Bei Token ist es der Spieler, unter dessen Kontrolle das Token erzeugt wurde. Bei Fähigkeiten ist es der Spieler, der die auslösende Karte kontrolliert. Besitz einer Karte kann sich nicht ändern.",
+    "enText": "The player whose deck contained the card at game start. For a token, the player under whose control it was created. For an ability, the controller of the card that triggers it. Card ownership cannot change.",
+    "kind": ""
+  },
+  {
+    "id": "binding",
+    "de": "Binding-Slot",
+    "en": "Binding slot",
+    "rule": "2.3.3",
+    "aliases": [
+      "Binding Slot"
+    ],
+    "deText": "Charakter-Slot in der Safety Zone unter der Back-Row und links neben dem Ressourcen-Slot.",
+    "enText": "The Character slot in the Safety Zone below the Back Row and left of the Resource slot.",
+    "kind": ""
+  },
+  {
+    "id": "permanent",
+    "de": "Bleibende Karte",
+    "en": "Permanent",
+    "rule": "2.2.3",
+    "aliases": [
+      "bleibenden Karten",
+      "bleibende Karten",
+      "permanents"
+    ],
+    "deText": "Eine Karte, die einen Platz in den aktiven Zonen auf dem Spielfeld einnehmen kann und nach dem Ausspielen dort verbleibt.",
+    "enText": "A card that can occupy a position in an active battlefield zone and stays in play after being played.",
+    "kind": ""
+  },
+  {
+    "id": "block",
+    "de": "Blocken",
+    "en": "Block",
+    "rule": "3.1.4",
+    "aliases": [
+      "Block",
+      "Block-Reaktion",
+      "Blockreaction",
+      "blocking"
+    ],
+    "deText": "Kampfaktion als freiwillige Reaktion auf einen Angriff. Grundsätzlich sind dieselbe War Zone, ein ungeturnter Charakter und eine verbleibende Aktion erforderlich.",
+    "enText": "A voluntary combat reaction to an attack. Normally requires the same War Zone, an unturned Character and an available action.",
+    "kind": ""
+  },
+  {
+    "id": "character",
+    "de": "Charakter",
+    "en": "Character",
+    "rule": "2.2.3",
+    "aliases": [
+      "Charaktere",
+      "Charakteren",
+      "Characters"
+    ],
+    "deText": "Bleibender Kartentyp, der in dafür vorgesehene Charakter-Slots platziert werden kann.",
+    "enText": "A permanent card type placed in designated Character slots.",
+    "kind": ""
+  },
+  {
+    "id": "continuous",
+    "de": "Dauerhafter Effekt",
+    "en": "Continuous effect",
+    "rule": "4.7",
+    "aliases": [
+      "dauerhafte Effekte",
+      "continuous effects"
+    ],
+    "deText": "Ein Effekt, der wirkt, ohne aktiviert oder ausgelöst werden zu müssen.",
+    "enText": "An effect that applies without needing to be activated or triggered.",
+    "kind": ""
+  },
+  {
+    "id": "degenerating",
+    "de": "Degenerierende Effekt-Counter",
+    "en": "Degenerating effect counters",
+    "rule": "6.2",
+    "aliases": [
+      "Degenerating Effect",
+      "Degenerierende Effekt Counter"
+    ],
+    "deText": "Marker, die einen Statuswert verringern, oder einen in Regel 6.2 beschriebenen und als negativ gekennzeichneten Zustand verursachen.",
+    "enText": "Counters that reduce a characteristic or cause a condition under section 6.2 marked as negative.",
+    "kind": ""
+  },
+  {
+    "id": "graveyard",
+    "de": "Friedhof",
+    "en": "Graveyard",
+    "rule": "2.3.6",
+    "aliases": [
+      "Friedhofs"
+    ],
+    "deText": "Ablageort für zerstörte, geopferte oder abgeworfene Karten, verrechnete Spells und durch einen GSC dorthin gelegte Karten.",
+    "enText": "The area for destroyed, sacrificed or discarded cards, resolved Spells and cards sent there by a GSC.",
+    "kind": ""
+  },
+  {
+    "id": "gsc",
+    "de": "Gamestate Check (GSC)",
+    "en": "Gamestate Check (GSC)",
+    "rule": "4.10",
+    "aliases": [
+      "GSC",
+      "Gamestate Check",
+      "Game State Check",
+      "Game-State-Check",
+      "Spielstatus-Prüfung"
+    ],
+    "deText": "Automatische Prüfung und Korrektur des Spielzustands vor der Vergabe von Priorität, nach der Verrechnung sowie zwischen First Damage und normalem Kampfschaden. Nutzt nicht die Reaktionskette.",
+    "enText": "An automatic check and correction before priority, after resolution and between First Damage and normal combat damage. It does not use the Reaction Chain.",
+    "kind": ""
+  },
+  {
+    "id": "base",
+    "de": "Grundwert",
+    "en": "Base value",
+    "rule": "4.9.1",
+    "aliases": [
+      "Grundwerte",
+      "base values"
+    ],
+    "deText": "Aufgedruckter numerischer Wert der physischen Karte oder Kopie. Außerhalb des Spiels existieren nur Grundwerte. Wertsetzende Effekte können im Spiel einen neuen Grundwert festlegen.",
+    "enText": "A printed numerical value of the physical card or copy. Outside play, only base values exist. Value-setting effects can establish a new base in play.",
+    "kind": ""
+  },
+  {
+    "id": "hand",
+    "de": "Handkarten",
+    "en": "Hand",
+    "rule": "4.8.3",
+    "aliases": [
+      "Hand",
+      "Handkarte",
+      "hand cards"
+    ],
+    "deText": "Karten in der verdeckten abstrakten Spielzone Hand eines Spielers.",
+    "enText": "Cards in a player's hidden, abstract hand area.",
+    "kind": ""
+  },
+  {
+    "id": "sovereign",
+    "de": "Herrscher",
+    "en": "Sovereign",
+    "rule": "2.2.3",
+    "aliases": [
+      "Herrscherkarte",
+      "Sovereigns",
+      "Sovereign card"
+    ],
+    "deText": "Startet das Spiel im Herrscher-Slot und bestimmt zulässige Pool-Deck-Farben und Zusatzkosten für farbfremde Karten. Exakt ein Herrscher gehört zum Gesamtdeck.",
+    "enText": "Starts in the Sovereign slot and determines permitted Pool Deck colours and off-colour additional costs. Exactly one belongs to the complete deck.",
+    "kind": ""
+  },
+  {
+    "id": "hp",
+    "de": "Hitpoints (HP)",
+    "en": "Hitpoints (HP)",
+    "rule": "4.9.3",
+    "aliases": [
+      "HP",
+      "Hitpoints",
+      "Trefferpunkte"
+    ],
+    "deText": "Statuswert eines Charakters. Schaden senkt die aktuellen HP. Bei 0 oder weniger wird der Charakter durch einen GSC zerstört und in den Friedhof gelegt.",
+    "enText": "A Character's hit points. Damage reduces current HP. At 0 or less, a GSC destroys the Character and puts it in the Graveyard.",
+    "kind": ""
+  },
+  {
+    "id": "inactive",
+    "de": "Inaktive Plätze",
+    "en": "Inactive areas",
+    "rule": "4.8.2",
+    "aliases": [
+      "inaktiven Plätze",
+      "inaktiven Zonen"
+    ],
+    "deText": "Bereiche, die nicht als im Spiel gelten: Friedhof, Banished Zone und Deck-Plätze.",
+    "enText": "Areas not considered in play: Graveyard, Banished area and deck positions.",
+    "kind": ""
+  },
+  {
+    "id": "ini",
+    "de": "Initiative (INI)",
+    "en": "Initiative (INI)",
+    "rule": "3.1.4",
+    "aliases": [
+      "INI",
+      "Initiative",
+      "INI-Check",
+      "INI Check"
+    ],
+    "deText": "Statuswert von Charakteren für INI-Checks und Kampfreihenfolge. Die Spieler-Initiative entscheidet außerdem über Hauptphasen und Gleichstände. Für geturnte Karten gelten die Besonderheiten aus Regel 4.9.3.",
+    "enText": "A Character value used for INI Checks and combat order. Player Initiative also determines Main Phase order and ties. Turned cards follow the exceptions in section 4.9.3.",
+    "kind": ""
+  },
+  {
+    "id": "interzone",
+    "de": "Interzonen-Bewegung",
+    "en": "Interzone movement",
+    "rule": "4.8.1",
+    "aliases": [
+      "Interzone-Bewegung"
+    ],
+    "deText": "Bewegung zwischen verschiedenen aktiven Zonen. Das Objekt behält seine Identität; dies ist kein Zonenwechsel mit Reset.",
+    "enText": "Movement between active zones. The object keeps its identity; this is not a resetting zone change.",
+    "kind": ""
+  },
+  {
+    "id": "combat-action",
+    "de": "Kampfaktion",
+    "en": "Combat action",
+    "rule": "3.1.4",
+    "aliases": [
+      "Kampfaktionen",
+      "combat actions"
+    ],
+    "deText": "Angriff und Block sowie Ranged Combat sind Kampfaktionen.",
+    "enText": "Attack, Block and Ranged Combat are combat actions.",
+    "kind": ""
+  },
+  {
+    "id": "combat-zone",
+    "de": "Kampfzone",
+    "en": "Combat Zone",
+    "rule": "2.3.2",
+    "aliases": [
+      "Combat Zone"
+    ],
+    "deText": "Die Gesamtheit aller drei War Zones in der Mitte des Spielfelds.",
+    "enText": "All three War Zones in the centre of the battlefield.",
+    "kind": ""
+  },
+  {
+    "id": "card-type",
+    "de": "Kartentyp",
+    "en": "Card type",
+    "rule": "2.2.3",
+    "aliases": [
+      "Kartentypen",
+      "card types"
+    ],
+    "deText": "Regelkategorie einer Karte, die ihre allgemeinen Ausspielrestriktionen und ihre Platzierung auf dem Spielfeld bestimmt.",
+    "enText": "A rules category determining a card's general play restrictions and battlefield placement.",
+    "kind": ""
+  },
+  {
+    "id": "control",
+    "de": "Kontrolle",
+    "en": "Control",
+    "rule": "4.7",
+    "aliases": [
+      "kontrollierender Spieler",
+      "Kontrolleur",
+      "controller"
+    ],
+    "deText": "Legt fest, wer Fähigkeiten und Entscheidungen für eine Karte ausführen darf. Bestimmung nach dem EBS, Ebene 2. Kontrolle ist unabhängig vom Besitzer und physischen Aufenthaltsort.",
+    "enText": "Determines who may use a card's abilities and make its decisions, under EBS layer 2. Control is distinct from ownership and physical location.",
+    "kind": ""
+  },
+  {
+    "id": "war-zone",
+    "de": "Kriegszone",
+    "en": "War Zone",
+    "rule": "2.3.2",
+    "aliases": [
+      "War Zone",
+      "War Zones",
+      "Kriegszonen"
+    ],
+    "deText": "Die Front-Rows beider Spieler innerhalb derselben Lane bilden eine War Zone.",
+    "enText": "Both players' Front Rows within one Lane form a War Zone.",
+    "kind": ""
+  },
+  {
+    "id": "lane",
+    "de": "Lane",
+    "en": "Lane",
+    "rule": "2.3.1",
+    "aliases": [
+      "Lanes"
+    ],
+    "deText": "Vertikaler Bereich mit Safety Zone und Front-Row beider Spieler, zwei Slots breit. Es gibt drei Lanes.",
+    "enText": "A vertical area including both players' Safety Zone and Front Row, two slots wide. There are three Lanes.",
+    "kind": ""
+  },
+  {
+    "id": "lp",
+    "de": "Lebenspunkte (LP)",
+    "en": "Life points (LP)",
+    "rule": "2.1",
+    "aliases": [
+      "LP",
+      "Lebenspunkte",
+      "life points"
+    ],
+    "deText": "Statuswert eines Herrschers. Schaden reduziert LP um denselben Betrag. Bei 0 oder weniger verliert sein Spieler das Spiel.",
+    "enText": "A Sovereign's life total. Damage reduces it by the same amount. At 0 or less, its player loses the game.",
+    "kind": ""
+  },
+  {
+    "id": "spellpower",
+    "de": "Magiewert / Spellpower",
+    "en": "Spellpower",
+    "rule": "4.3.1",
+    "aliases": [
+      "Spellpower",
+      "Magiewert",
+      "RES-Check",
+      "RES Check"
+    ],
+    "deText": "Wert für den Vergleich mit Resistenz bei der Verrechnung. Spellpower mindestens so hoch wie RES: Effekt wirkt. Höhere RES: kein Effekt auf diese betroffene Karte.",
+    "enText": "A value compared to Resistance on resolution. If Spellpower is at least RES, the effect applies; higher RES prevents it affecting that card.",
+    "kind": ""
+  },
+  {
+    "id": "modified",
+    "de": "Modifizierter Wert",
+    "en": "Modified value",
+    "rule": "4.9.2",
+    "aliases": [
+      "modifizierten Wert",
+      "modifizierte Werte"
+    ],
+    "deText": "Wert nach Anwendung aller permanenten und temporären Modifikatoren. Dient als Regenerations-Obergrenze und Grundlage des aktuellen Werts.",
+    "enText": "The value after all permanent and temporary modifiers. It caps Regeneration and forms the basis of the current value.",
+    "kind": ""
+  },
+  {
+    "id": "nonpermanent",
+    "de": "Nicht bleibende Karte",
+    "en": "Non-permanent",
+    "rule": "2.2.3",
+    "aliases": [
+      "nicht bleibenden Karten",
+      "non-permanents"
+    ],
+    "deText": "Karte, die aufgrund ihres Typs keinen Platz in einer aktiven Zone einnehmen kann. Sie wird nach der Verrechnung in den Friedhof gelegt.",
+    "enText": "A card whose type cannot occupy an active-zone position. It goes to the Graveyard after resolution.",
+    "kind": ""
+  },
+  {
+    "id": "sacrifice",
+    "de": "Opfern",
+    "en": "Sacrifice",
+    "rule": "4.5",
+    "aliases": [
+      "geopfert",
+      "sacrificed"
+    ],
+    "deText": "Nur eine kontrollierte Karte kann zum Bezahlen von Kosten oder durch einen Effekt geopfert werden. Sie wird direkt aus dem Spiel in den Friedhof gelegt. Dies ist ein Zonenwechsel, kein Zerstöreffekt. Der Spieler, der opfern muss, wählt das Opfer; die physische Spielfeldhälfte spielt keine Rolle.",
+    "enText": "Only a controlled card can be sacrificed as a cost or effect. Move it directly from play to the Graveyard. This is a zone change, not destruction. The player required to sacrifice chooses the card; physical battlefield side is irrelevant.",
+    "kind": ""
+  },
+  {
+    "id": "pool",
+    "de": "Pool-Deck",
+    "en": "Pool Deck",
+    "rule": "2.4",
+    "aliases": [
+      "Pool Deck",
+      "Pool"
+    ],
+    "deText": "Verdeckter Stapel von Karten mit Pool-Symbol. Zulässig sind die Farbe des Herrschers und Equilibra. Die Anzahl hängt vom Format ab.",
+    "enText": "A face-down deck of Pool-icon cards, in the Sovereign's colour or Equilibra. Size depends on format.",
+    "kind": ""
+  },
+  {
+    "id": "pow",
+    "de": "Power (POW)",
+    "en": "Power (POW)",
+    "rule": "4.9.3",
+    "aliases": [
+      "POW",
+      "Power"
+    ],
+    "deText": "Statuswert, der die Höhe des Schadens bestimmt, den ein Charakter im Kampf zufügt.",
+    "enText": "The value determining the damage a Character deals in combat.",
+    "kind": ""
+  },
+  {
+    "id": "priority",
+    "de": "Priorität",
+    "en": "Priority",
+    "rule": "3.2.1",
+    "aliases": [
+      "Prioritätssystem",
+      "priority system"
+    ],
+    "deText": "Bestimmt, welcher Spieler Karten ausspielen oder Fähigkeiten aktivieren darf. Der Spieler behält Priorität, bis er passt. Nach beidseitigem Passen wird das oberste Element der Reaktionskette verrechnet.",
+    "enText": "Determines who may play cards or activate abilities. A player retains priority until passing. After both pass, the top item on the Reaction Chain resolves.",
+    "kind": ""
+  },
+  {
+    "id": "chain",
+    "de": "Reaktionskette",
+    "en": "Reaction Chain",
+    "rule": "3.2.1",
+    "aliases": [
+      "Reaction Chain",
+      "Last in First out",
+      "LIFO"
+    ],
+    "deText": "Abstrakter Bereich für ausgespielte Karten sowie aktivierte und ausgelöste Fähigkeiten vor ihrer Verrechnung. Verrechnung nach dem Prinzip „zuletzt hinein, zuerst heraus“.",
+    "enText": "The abstract area for played cards and activated or triggered abilities before resolution. Resolves last in, first out.",
+    "kind": ""
+  },
+  {
+    "id": "government",
+    "de": "Regierungszone",
+    "en": "Government Zone",
+    "rule": "2.3.4",
+    "aliases": [
+      "Government Zone"
+    ],
+    "deText": "Enthält Herrscher-, Runen- und Advisor-Slot sowie Plätze für andere geeignete bleibende Karten.",
+    "enText": "Contains the Sovereign, Rune and Advisor slots and positions for other eligible permanents.",
+    "kind": ""
+  },
+  {
+    "id": "res",
+    "de": "Resistenz (RES)",
+    "en": "Resistance (RES)",
+    "rule": "4.3.1",
+    "aliases": [
+      "RES",
+      "Resistenz",
+      "Resistance"
+    ],
+    "deText": "Charakterwert zum Vergleich mit Spellpower, um die Wirksamkeit eines Effekts zu bestimmen. Bei geturnten Charakteren gilt für Systemabgleiche RES 0; siehe Regel 4.9.3.",
+    "enText": "A Character value compared with Spellpower to determine effect application. For system checks, turned Characters have RES 0; see section 4.9.3.",
+    "kind": ""
+  },
+  {
+    "id": "resource",
+    "de": "Ressource",
+    "en": "Resource",
+    "rule": "2.2.3",
+    "aliases": [
+      "Ressourcen",
+      "Resources"
+    ],
+    "deText": "Kartentyp für Ressourcen-Slots. Die Rune ist eine Ausnahme und gehört ausschließlich in den Runen-Slot. Pro Spieler und Runde darf nur eine Ressource ins Spiel gebracht werden.",
+    "enText": "A card type placed in Resource slots. The Rune is an exception and belongs only in its Rune slot. Each player may put only one Resource into play per round.",
+    "kind": ""
+  },
+  {
+    "id": "ritual",
+    "de": "Ritual",
+    "en": "Ritual",
+    "rule": "2.2.3",
+    "aliases": [
+      "Rituale",
+      "Rituals"
+    ],
+    "deText": "Bleibender Kartentyp für den Bereich der bleibenden Karten in der Regierungszone.",
+    "enText": "A permanent type placed in the Government Zone's permanent area.",
+    "kind": ""
+  },
+  {
+    "id": "rune",
+    "de": "Rune",
+    "en": "Rune",
+    "rule": "2.2.3",
+    "aliases": [
+      "Runen",
+      "Runes"
+    ],
+    "deText": "Kartentyp, der zu Spielbeginn im Runen-Slot platziert wird. Genau eine Rune gehört zum Gesamtdeck, aber weder zum Spell- noch zum Pool-Deck.",
+    "enText": "A card type placed in the Rune slot at game start. Exactly one is part of the complete deck, but neither the Spell Deck nor Pool Deck.",
+    "kind": ""
+  },
+  {
+    "id": "damage",
+    "de": "Schaden (DMG)",
+    "en": "Damage (DMG)",
+    "rule": "5.3",
+    "aliases": [
+      "DMG",
+      "Schaden",
+      "damage"
+    ],
+    "deText": "Effekt, der LP oder HP um denselben Betrag senkt. Schaden auf Charakteren wird akkumuliert.",
+    "enText": "An effect reducing life points or HP by the same amount. Damage on Characters accumulates.",
+    "kind": ""
+  },
+  {
+    "id": "safety",
+    "de": "Sicherheitszone",
+    "en": "Safety Zone",
+    "rule": "2.3.3",
+    "aliases": [
+      "Safety Zone",
+      "Safety-Zone",
+      "Safety-Zonen"
+    ],
+    "deText": "Bereich zwischen Regierungszone und Front-Row. Je Lane enthält sie zwei Back-Row-Slots, einen Binding-Slot und einen Ressourcen-Slot.",
+    "enText": "The area between Government Zone and Front Row, with two Back Row slots, one Binding slot and one Resource slot per Lane.",
+    "kind": ""
+  },
+  {
+    "id": "spell-deck",
+    "de": "Spell-Deck",
+    "en": "Spell Deck",
+    "rule": "2.4",
+    "aliases": [
+      "Spell Deck"
+    ],
+    "deText": "Verdeckter Stapel auf dem Spell-Deck-Platz. Zulässig sind Karten mit ASP-Kosten, die der Herrscher nicht ausschließt.",
+    "enText": "The face-down deck in the Spell Deck position, containing cards with ASP costs not excluded by the Sovereign.",
+    "kind": ""
+  },
+  {
+    "id": "dies",
+    "de": "Sterben",
+    "en": "Dying",
+    "rule": "4.8.4",
+    "aliases": [
+      "stirbt",
+      "dies",
+      "gestorben"
+    ],
+    "deText": "Zonenwechsel eines Charakters aus dem Spiel direkt in den Friedhof, durch 0 HP oder direkte Effekte. Jeder Charakter, der diesen Wechsel vollzieht, gilt als gestorben.",
+    "enText": "A Character moving directly from play to the Graveyard, through 0 HP or a direct effect, counts as dying.",
+    "kind": ""
+  },
+  {
+    "id": "token",
+    "de": "Token",
+    "en": "Token",
+    "rule": "4.8.4",
+    "aliases": [
+      "Tokens"
+    ],
+    "deText": "Durch einen Spieleffekt erzeugte bleibende Karte. Der erzeugende Effekt bestimmt Typ und Eigenschaften. Außerhalb der aktiven Zonen hört sie durch GSC auf zu existieren.",
+    "enText": "A permanent created by an effect that defines its type and characteristics. It ceases to exist through a GSC outside active zones.",
+    "kind": ""
+  },
+  {
+    "id": "training",
+    "de": "Training",
+    "en": "Training",
+    "rule": "2.2.3",
+    "aliases": [
+      "Trainings",
+      "trained"
+    ],
+    "deText": "Kartentyp, der an andere bleibende Karten angelegt wird und keinen eigenen Slot belegt. Die Karte mit angelegtem Training gilt als trainiert.",
+    "enText": "A card type attached to another permanent without taking a separate slot. The attached permanent is trained.",
+    "kind": ""
+  },
+  {
+    "id": "values",
+    "de": "Werte",
+    "en": "Values",
+    "rule": "4.9",
+    "aliases": [
+      "Values"
+    ],
+    "deText": "Unterschieden werden Grundwert, modifizierter Wert und aktueller Wert. Der Glossareintrag im PDF enthält keine eigene Definition; die Erläuterung steht in Regel 4.9.",
+    "enText": "Distinguish base, modified and current values. The PDF glossary entry has no definition of its own; section 4.9 provides the explanation.",
+    "kind": ""
+  },
+  {
+    "id": "cast",
+    "de": "Wirken",
+    "en": "Cast",
+    "rule": "4.1",
+    "aliases": [
+      "Cast",
+      "Casting"
+    ],
+    "deText": "Ausspielen einer nicht bleibenden Karte auf die Reaktionskette.",
+    "enText": "Playing a non-permanent onto the Reaction Chain.",
+    "kind": ""
+  },
+  {
+    "id": "spell",
+    "de": "Zauberspruch",
+    "en": "Spell",
+    "rule": "2.2.3",
+    "aliases": [
+      "Spells",
+      "Zaubersprüche",
+      "Miracle"
+    ],
+    "deText": "Nicht bleibender Kartentyp. Wird nach der Verrechnung in den Friedhof gelegt. Miracle zählen ebenfalls als Spell.",
+    "enText": "A non-permanent card type that goes to the Graveyard after resolution. Miracles also count as Spells.",
+    "kind": ""
+  },
+  {
+    "id": "zone-change",
+    "de": "Zonenwechsel",
+    "en": "Zone change",
+    "rule": "4.8.4",
+    "aliases": [
+      "Reset",
+      "zone changes"
+    ],
+    "deText": "Wechsel zwischen Zonen-Kategorien, beispielsweise aus einer aktiven Zone in einen inaktiven Platz. Die Karte wird zu einem neuen Objekt. Bewegung innerhalb aktiver Zonen ist davon zu unterscheiden.",
+    "enText": "Movement between zone categories, such as from an active zone to an inactive area. The card becomes a new object. Movement within active zones is distinct.",
+    "kind": ""
+  },
+  {
+    "id": "condition",
+    "de": "Zustände",
+    "en": "Conditions",
+    "rule": "6.2",
+    "aliases": [
+      "Zustand",
+      "Conditions",
+      "Condition"
+    ],
+    "deText": "Binäre Keyword-Mechaniken: Eine Karte hat einen Zustand einmal oder gar nicht. Mehrere Quellen desselben Zustands erzeugen keine mehrfachen Instanzen. Turned und Bound sind keine Zustände in diesem Sinn.",
+    "enText": "Binary keyword mechanics: a card has a condition once or not at all. Multiple sources do not create multiple instances. Turned and Bound are not conditions in this sense.",
+    "kind": ""
+  },
+  {
+    "id": "poisoned",
+    "de": "Poisoned",
+    "en": "Poisoned",
+    "rule": "6.2",
+    "aliases": [
+      "vergiftet"
+    ],
+    "deText": "Degenerativer Zustand: Zu Beginn jeder Kampfphase erhält dieser Charakter 1 DMG, wenn er bereits zu Beginn der Runde Poisoned hatte. Das Keyword Poisoned verleiht diesen Zustand.",
+    "enText": "Degenerative condition: at the beginning of each Combat Phase, if this Character had Poisoned at the beginning of the round, deal 1 DMG to it. The Poisoned keyword grants this condition.",
+    "kind": ""
+  },
+  {
+    "id": "madness",
+    "de": "Madness",
+    "en": "Madness",
+    "rule": "6.2",
+    "aliases": [
+      "Madness Counter"
+    ],
+    "deText": "Degenerativer Zustand: Am Ende jeder Runde wird diesem Charakter 1 DMG zugefügt.",
+    "enText": "Degenerative condition: at the end of each round, deal 1 DMG to this Character.",
+    "kind": ""
+  },
+  {
+    "id": "drenched",
+    "de": "Drenched",
+    "en": "Drenched",
+    "rule": "6.2",
+    "aliases": [
+      "Drenched Counter"
+    ],
+    "deText": "Degenerativer Zustand: Am Ende jeder Runde wird ein INI−1-Counter auf diesen Charakter gelegt.",
+    "enText": "Degenerative condition: at the end of each round, put one INI−1 counter on this Character.",
+    "kind": ""
+  },
+  {
+    "id": "move",
+    "de": "Move",
+    "en": "Move",
+    "rule": "4.6",
+    "aliases": [
+      "Bewegungsaktion"
+    ],
+    "deText": "Sonderaktion zum Bewegen eines ungeturnten Charakters mit INI > 0. Turnt den Charakter und verbraucht eine Aktion. Im Kampf nur als Aktion des handelnden Charakters zulässig.",
+    "enText": "A special action moving an unturned Character with INI greater than 0. Turns it and consumes an action. In combat, only the acting Character may use it as its action.",
+    "kind": ""
+  },
+  {
+    "id": "ebs",
+    "de": "Eigenschaftsbestimmung-System (EBS)",
+    "en": "Characteristic determination system (EBS)",
+    "rule": "4.7",
+    "aliases": [
+      "EBS",
+      "Eigenschaftsbestimmungssystem",
+      "Timestamp"
+    ],
+    "deText": "Sieben Ebenen bestimmen Identität, Kontrolle, Text, Typ und Farbe, Fähigkeiten, Grundwerte und modifizierte Werte. Innerhalb einer Ebene gewinnt bei Widersprüchen der jüngere Zeitstempel.",
+    "enText": "Seven layers determine identity, control, text, type and colour, abilities, base values and modified values. Within a layer, the newer timestamp wins conflicts.",
+    "kind": ""
+  },
+  {
+    "id": "epic",
+    "de": "Epic",
+    "en": "Epic",
+    "rule": "4.10",
+    "aliases": [
+      "Epic-Regel"
+    ],
+    "deText": "Ein Spieler darf in derselben Lane nicht mehrere gleichnamige Epic-Permanents behalten. Bei der Spielstatus-Prüfung wählt er eine; die übrigen werden geopfert.",
+    "enText": "A player cannot keep multiple same-name Epic permanents in one Lane. During a GSC, choose one and sacrifice the rest.",
+    "kind": ""
+  },
+  {
+    "id": "mythic",
+    "de": "Mythic",
+    "en": "Mythic",
+    "rule": "4.10",
+    "aliases": [
+      "Mythic-Regel"
+    ],
+    "deText": "Ein Spieler darf auf dem gesamten Spielfeld nicht mehrere gleichnamige Mythic-Permanents behalten. Bei der Spielstatus-Prüfung wählt er eine; die übrigen werden geopfert.",
+    "enText": "A player cannot keep multiple same-name Mythic permanents anywhere on the battlefield. During a GSC, choose one and sacrifice the rest.",
+    "kind": ""
+  },
+  {
+    "id": "rel",
+    "de": "Rule Enforcement Level (REL)",
+    "en": "Rule Enforcement Level (REL)",
+    "rule": "7.3",
+    "aliases": [
+      "REL",
+      "Turnierlevel",
+      "Rule Enforcement Level"
+    ],
+    "deText": "REL 0: Casual Play, nicht sanktioniert. REL 1: Basic Play. REL 2: Advanced Play. REL 3: Competitive Play. Beeinflusst Erwartungen, Fehlerbehandlung und Maßnahmen.",
+    "enText": "REL 0: unsanctioned Casual Play. REL 1: Basic Play. REL 2: Advanced Play. REL 3: Competitive Play. Affects expectations, corrections and measures.",
+    "kind": ""
+  },
+  {
+    "id": "mulligan",
+    "de": "Mulligan",
+    "en": "Mulligan",
+    "rule": "3",
+    "aliases": [
+      "Mulligan-Entscheidung"
+    ],
+    "deText": "Einmal beliebig viele Starthandkarten verdeckt beiseitelegen, dieselbe Anzahl vom Spell-Deck ziehen und die beiseitegelegten Karten zurückmischen. Entscheidung in Initiative-Reihenfolge.",
+    "enText": "Once, set aside any number of starting hand cards face down, draw that many from the Spell Deck, then shuffle the set-aside cards back. Decide in Initiative order.",
+    "kind": ""
+  },
+  {
+    "id": "penalty",
+    "de": "Spielstrafe (Penalty)",
+    "en": "Penalty",
+    "rule": "13.2",
+    "aliases": [
+      "Penalty",
+      "Spielstrafe"
+    ],
+    "deText": "Der Herrscher verliert sofort 5 LP. Kann zum Spielverlust führen. Bei REL 1 nur nach Eskalation, ab REL 2 regulär möglich, bei REL 0 nicht vorgesehen.",
+    "enText": "The Sovereign immediately loses 5 life points, potentially losing the game. Only after escalation at REL 1, regularly available from REL 2, not intended at REL 0.",
+    "kind": ""
+  },
+  {
+    "id": "kw-advisor",
+    "de": "Advisor",
+    "en": "Advisor",
+    "rule": "2.2.3",
+    "aliases": [],
+    "deText": "Dieser Charakter kann ausschließlich in einen Advisor-Slot platziert werden.",
+    "enText": "This Character can only be placed into an Advisor slot.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-antidote",
+    "de": "Provide Antidote",
+    "en": "Provide Antidote",
+    "rule": "6.2",
+    "aliases": [
+      "Antidote"
+    ],
+    "deText": "Entferne alle Counter mit degenerierendem Effekt vom anvisierten Charakter. Dazu zählen wertsenkende Marken und Counter, die negative Zustände verursachen.",
+    "enText": "Remove all counters with degenerating effect from target Character, including value-reducing counters and counters causing negative conditions.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-barrier",
+    "de": "Barrier",
+    "en": "Barrier",
+    "rule": "5.2",
+    "aliases": [
+      "Barriere"
+    ],
+    "deText": "Nur in einer War Zone platzierbar, in der keine andere Barrier liegt. Belegt keinen Slot und kann keine Kampfaktionen ausführen. Ist sie der einzige eigene Charakter in dieser War Zone, erhalten dortige Angreifer Targeted Strike mit dieser Barrier als Angriffswahl.",
+    "enText": "May only be placed in a War Zone with no other Barrier. Occupies no slot and cannot perform combat actions. While it is your only Character in that War Zone, attackers there gain Targeted Strike with this Barrier as their attack choice.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-blood-mage",
+    "de": "Blood Mage",
+    "en": "Blood Mage",
+    "rule": "4.2",
+    "aliases": [
+      "Blood Trinket"
+    ],
+    "deText": "{1}: Erzeuge ein Blood Trinket Token. Dies ist ein Artefakt-Token mit „{1}, opfere dieses Artefakt: Erhalte {1} ASP.“",
+    "enText": "{1}: Create a Blood Trinket token, an Artifact token with “{1}, sacrifice this artifact: Gain {1} ASP.”",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-blood-rush",
+    "de": "Blood Rush [X]",
+    "en": "Blood Rush [X]",
+    "rule": "4.2",
+    "aliases": [
+      "Blood Rush"
+    ],
+    "deText": "Dieser Charakter erhält +X/+X POW/HP bis zum Ende dieser Runde. Verbanne ihn am Ende dieser Runde.",
+    "enText": "This Character gains +X/+X POW/HP until the end of this round. At the end of this round, banish it.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-defender",
+    "de": "Defender",
+    "en": "Defender",
+    "rule": "3.1.4",
+    "aliases": [],
+    "deText": "Dieser Charakter wird beim Ausführen einer Block-Reaktion nicht geturnt.",
+    "enText": "This Character does not turn when using a Block reaction.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-dual-slot",
+    "de": "Dual Slot",
+    "en": "Dual Slot",
+    "rule": "4.10",
+    "aliases": [],
+    "deText": "Dieser Charakter belegt zwei Slots statt einem. Sind keine zwei Slots frei, kann er nicht legal auf dem Spielfeld liegen.",
+    "enText": "This Character occupies two slots instead of one. Without two free slots, it cannot legally remain on the battlefield.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-ecstasy",
+    "de": "Ecstasy",
+    "en": "Ecstasy",
+    "rule": "3.1.4",
+    "aliases": [],
+    "deText": "Der anvisierte Charakter erhält Two-Handed Combat und Indestructable bis zum Rundenende. Er darf in diesem Kampf nur Angriffsaktionen nutzen und muss mit allen verfügbaren Aktionen Angriff wählen. Opfere ihn am Ende des Kampfes.",
+    "enText": "Target Character gains Two-Handed Combat and Indestructable until end of round. It can only use attack actions this combat and must choose Attack with all available actions. Sacrifice it at the end of combat.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-fear",
+    "de": "Fear",
+    "en": "Fear",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Wenn dieser Charakter Fear erhält, würfle einen W6. Ist seine RES kleiner oder gleich dem Ergebnis, turne ihn, falls er ungeturnt ist. Er wird zu Beginn der nächsten Runde nicht ungeturnt.",
+    "enText": "When this Character gets Fear, roll a six-sided die. If its RES is at most the result, turn it if unturned; it does not unturn at the beginning of the next round.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-fight",
+    "de": "Fight",
+    "en": "Fight",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Dieser Charakter fügt dem anvisierten Charakter DMG in Höhe seiner POW zu. Jener Charakter fügt diesem Charakter DMG in Höhe seiner eigenen POW zu.",
+    "enText": "This Character deals DMG equal to its POW to target Character. That Character deals DMG equal to its own POW to this Character.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-first-damage",
+    "de": "First Damage",
+    "en": "First Damage",
+    "rule": "5.3",
+    "aliases": [
+      "Erster Schaden"
+    ],
+    "deText": "Dieser Charakter fügt Kampfschaden im First-Damage-Segment statt im normalen Schadenssegment zu. Dazwischen erfolgt ein GSC.",
+    "enText": "This Character deals combat damage in the First Damage segment instead of the normal segment. A GSC occurs between them.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-flying",
+    "de": "Flying",
+    "en": "Flying",
+    "rule": "5.2",
+    "aliases": [
+      "Flugfähigkeit"
+    ],
+    "deText": "Dieser Charakter kann nur von Charakteren mit Flying oder Skyguard geblockt werden.",
+    "enText": "This Character can only be blocked by Characters with Flying or Skyguard.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-force",
+    "de": "Force of Nature",
+    "en": "Force of Nature",
+    "rule": "2.3.2",
+    "aliases": [],
+    "deText": "Du darfst Charaktere in jede deiner War Zones platzieren, als hätte sie drei Slots statt zwei.",
+    "enText": "You may place Characters into each of your War Zones as if it had three slots instead of two.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-fuse",
+    "de": "Fuse",
+    "en": "Fuse",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Opfere die gewählten bleibenden Karten und erzeuge anschließend das durch den Fuse-Effekt beschriebene Permanent-Token. Beispiel: drei Creeper Plant Token zu einem 4/4 Giant Creeper Plant Token verbinden.",
+    "enText": "Sacrifice the chosen permanents, then create the permanent token described by the Fuse effect. Example: fuse three Creeper Plant tokens into a 4/4 Giant Creeper Plant token.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-hideout",
+    "de": "Hideout",
+    "en": "Hideout",
+    "rule": "4.6",
+    "aliases": [],
+    "deText": "Beim Ausspielen darfst du 2 ASP bezahlen, um die Karte statt regulärer Beschwörung verdeckt in einen gegnerischen Front-Row-Slot zu spielen. Gegner dürfen dort Charaktere ausspielen, als wäre der Slot frei. Du darfst 2 ASP bezahlen, um sie aufzudecken und in einen freien eigenen War-Zone-Slot derselben Lane zu legen. Platziert der Gegner einen Charakter in denselben Slot, decke sie auf und opfere sie. Das Aufdecken ist eine Sonderaktion und erfordert Priorität.",
+    "enText": "When playing this card, you may pay 2 ASP to play it face down into an opponent's Front Row slot instead of normal summoning. Opponents may play Characters there as if it were empty. You may pay 2 ASP to turn it face up and place it in an empty slot in your War Zone in the same Lane. If an opponent places a Character in its face-down slot, turn it face up and sacrifice it. Turning it face up is a special action requiring priority.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-indestructable",
+    "de": "Indestructable",
+    "en": "Indestructable",
+    "rule": "4.10",
+    "aliases": [
+      "Indestructible"
+    ],
+    "deText": "Diese bleibende Karte kann nicht zerstört werden. Verhindere allen DMG, der diesem Charakter zugefügt würde. Der Zonenwechsel durch Zerstören findet nicht statt.",
+    "enText": "This permanent cannot be destroyed. Prevent all DMG that would be dealt to this Character. The zone change caused by destruction does not occur.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-infiltrate",
+    "de": "Infiltrate",
+    "en": "Infiltrate",
+    "rule": "2.3.3",
+    "aliases": [],
+    "deText": "Kennzeichnet einen Effekt dieser Karte auf bleibende Karten in der Safety Zone.",
+    "enText": "Indicates that this card has an effect on permanents in the Safety Zone.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-lord",
+    "de": "Lord of the Dead",
+    "en": "Lord of the Dead",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Kennzeichnet eine ausgelöste Fähigkeit, die auslöst, wenn ein von dir kontrollierter Charakter stirbt.",
+    "enText": "Indicates a triggered ability whenever a Character you control dies.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-overrun",
+    "de": "Overrun",
+    "en": "Overrun",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Beim Betreten des Spiels fügt dieser Charakter einem anvisierten gegnerischen Charakter derselben Lane DMG in Höhe seiner POW zu. Der Schadenswert wird beim Auslösen festgelegt, nicht erst beim Verrechnen.",
+    "enText": "When this Character enters play, it deals DMG equal to its POW to target opposing Character in the same Lane. Damage is fixed when the ability triggers, not at resolution.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-paralyze",
+    "de": "Paralyze",
+    "en": "Paralyze",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Ausgelöste Fähigkeit: Wenn dieser Charakter Ranged Combat nutzt, würfle für jeden Charakter in der War Zone derselben Lane einen W6. Bei 1–3 turne jenen Charakter; er wird zu Beginn der nächsten Runde nicht ungeturnt.",
+    "enText": "Triggered ability: when this Character uses Ranged Combat, roll a six-sided die for each Character in that Lane's War Zone. On 1–3, turn that Character; it does not unturn at the beginning of the next round.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-poison",
+    "de": "Poison",
+    "en": "Poison",
+    "rule": "6.2",
+    "aliases": [
+      "Poisoncounter"
+    ],
+    "deText": "Immer wenn dieser Charakter einem anderen Charakter Schaden zufügt, lege einen Poisoncounter auf jenen Charakter.",
+    "enText": "Whenever this Character deals damage to another Character, put a Poison counter on that Character.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-protection",
+    "de": "Protection from Everything",
+    "en": "Protection from Everything",
+    "rule": "6.1",
+    "aliases": [],
+    "deText": "Diese Karte kann nicht Ziel gegnerischer Spells, Fähigkeiten oder Trainings sein. Verhindere allen Schaden, der ihr zugefügt würde.",
+    "enText": "This card cannot be targeted by opposing Spells, abilities or Trainings. Prevent all damage that would be dealt to it.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-shield",
+    "de": "Protective Shield",
+    "en": "Protective Shield",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "(T): Das nächste Mal, dass ein anvisierter eigener Charakter derselben War Zone Schaden erhalten würde, erhält stattdessen dieser Charakter diesen Schaden.",
+    "enText": "(T): The next time target Character you control in the same War Zone would take damage, this Character takes that damage instead.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-punch",
+    "de": "Punch",
+    "en": "Punch",
+    "rule": "5.3",
+    "aliases": [
+      "Harter Schlag"
+    ],
+    "deText": "Beim Angriff in einer War Zone wird Kampfschaden über die aktuellen HP des Blockers hinaus dem gegnerischen Herrscher zugefügt. Die Aufteilung ist fest durch die Differenz bestimmt; es gibt keine freie Verteilungswahl. Weitere Voraussetzungen in Regel 5.3.",
+    "enText": "When attacking in a War Zone, combat damage exceeding the blocker's current HP is dealt to the opposing Sovereign. The split is fixed by that difference, not chosen freely. See section 5.3 for requirements.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-ranged",
+    "de": "Ranged Combat",
+    "en": "Ranged Combat",
+    "rule": "5.1",
+    "aliases": [
+      "Fernkampf"
+    ],
+    "deText": "Aus der Back-Row darf dieser Charakter einen gegnerischen Charakter in der War Zone derselben Lane angreifen. Dieser erhält keine Block-Reaktion. Füge ihm Kampfschaden in Höhe der POW zu. Eine Angriffsmodifikation, kein regeltechnisches Zielen.",
+    "enText": "From the Back Row, this Character may attack an opposing Character in the same Lane's War Zone, dealing combat damage equal to its POW. The defender gets no Block reaction. This is an attack modification, not targeting.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-regenerate",
+    "de": "Regenerate [X]",
+    "en": "Regenerate [X]",
+    "rule": "4.9.2",
+    "aliases": [
+      "Regenerate",
+      "Regeneration",
+      "Regenerieren"
+    ],
+    "deText": "Entferne X Schaden von einem Charakter. Dadurch steigen seine aktuellen HP bis höchstens zum modifizierten Maximum. Ohne verbleibenden Schaden kann nichts regeneriert werden.",
+    "enText": "Remove X damage from a Character, increasing current HP up to the modified maximum. With no remaining damage, nothing can be regenerated.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-rise",
+    "de": "Rise",
+    "en": "Rise",
+    "rule": "4.1",
+    "aliases": [],
+    "deText": "Suche im Spell-Deck nach der im Rise-Effekt benannten Karte und platziere sie im Slot dieser bleibenden Karte. Übertrage alle Counter und opfere dann die ursprüngliche Karte. Aktivierung und alternative Ausspielmodi sind auf den jeweiligen Karten definiert.",
+    "enText": "Search your Spell Deck for the named rise-into card and place it in this permanent's slot. Transfer all counters, then sacrifice the original permanent. Activation and alternative play modes are defined on individual cards.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-round",
+    "de": "Second Round; Third Round",
+    "en": "Second Round; Third Round",
+    "rule": "3.1",
+    "aliases": [
+      "Second Round",
+      "Third Round"
+    ],
+    "deText": "Kennzeichnet das Zählen der seit dem Betreten des Spiels vergangenen Runden.",
+    "enText": "Tracks the total rounds elapsed since this permanent entered play.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-skyguard",
+    "de": "Skyguard",
+    "en": "Skyguard",
+    "rule": "5.2",
+    "aliases": [
+      "Himmelswache"
+    ],
+    "deText": "Dieser Charakter kann Charaktere mit Flying blocken, als hätten diese kein Flying.",
+    "enText": "This Character may block Characters with Flying as though they did not have Flying.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-spectral",
+    "de": "Spectral Ward",
+    "en": "Spectral Ward",
+    "rule": "6.1",
+    "aliases": [],
+    "deText": "Dieser Charakter kann nicht Ziel von Fähigkeiten oder Trainings sein. Verhindere allen Schaden, außer von Magical Items. Trainierte Charaktere, Artefakte und Rituale gelten als Magical Items. Ausschließlich Spells können den Charakter legal anvisieren.",
+    "enText": "This Character cannot be targeted by abilities or Trainings. Prevent all damage to it unless the source is a Magical Item. Trained Characters, Artifacts and Rituals count as Magical Items. Only Spells can legally target it.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-speed",
+    "de": "Speed",
+    "en": "Speed",
+    "rule": "3.1.4",
+    "aliases": [],
+    "deText": "Dieser Charakter wird beim Ausführen einer Kampfaktion (Angriff oder Block) nicht geturnt.",
+    "enText": "This Character does not turn when performing a combat action: Attack or Block.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-spread",
+    "de": "Spread",
+    "en": "Spread",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Erzeuge eine Kopie einer anvisierten eigenen Flora und platziere sie in einen freien Slot derselben Lane.",
+    "enText": "Create a copy of target Flora you control and place it in an unoccupied slot in the same Lane.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-surge",
+    "de": "Surge",
+    "en": "Surge",
+    "rule": "4.1",
+    "aliases": [],
+    "deText": "Diese Karte darf zu jedem Zeitpunkt gespielt werden, zu dem eine aktivierte Fähigkeit aktiviert werden dürfte. Priorität ist weiterhin erforderlich.",
+    "enText": "You may play this card whenever you could activate an activated ability. Priority is still required.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-tactical",
+    "de": "Tactical Shift",
+    "en": "Tactical Shift",
+    "rule": "4.6",
+    "aliases": [],
+    "deText": "Einmal pro Runde darf dieser Charakter bewegt werden, ohne zu turnen oder eine Aktion zu verbrauchen. Er muss trotzdem ungeturnt sein, INI > 0 und mindestens eine Aktion verfügbar haben.",
+    "enText": "Once per round, move this Character without turning it or spending an action. It must still be unturned, have INI greater than 0 and an action available.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-targeted",
+    "de": "Targeted Strike",
+    "en": "Targeted Strike",
+    "rule": "5.1",
+    "aliases": [
+      "Gezielter Stich"
+    ],
+    "deText": "Statt des Herrschers darf ein gegnerischer Charakter in der War Zone derselben Lane angegriffen werden. Dieser wird zum Blocker, wird geturnt und verliert eine Aktion, soweit verfügbar. Auch geturnte Charaktere ohne Aktion können angegriffen werden. Dies ist kein regeltechnisches Zielen.",
+    "enText": "Instead of the Sovereign, attack an opposing Character in the same Lane's War Zone. It becomes the blocker, turns and loses an action if available. Turned Characters with no action can also be attacked. This is not targeting.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-thorn",
+    "de": "Thorn Defense",
+    "en": "Thorn Defense",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Immer wenn ein gegnerischer Charakter einen Slot in derselben War Zone betritt oder dorthin bewegt wird, fügt dieser Charakter ihm 1 DMG zu.",
+    "enText": "Whenever an opposing Character enters or moves into a slot in this Character's War Zone, this Character deals 1 DMG to it.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-twin",
+    "de": "Twin-Shot",
+    "en": "Twin-Shot",
+    "rule": "5.1",
+    "aliases": [],
+    "deText": "Bei einem Angriff mittels Ranged Combat darf ein zusätzlicher gegnerischer Charakter in derselben War Zone angegriffen werden. Falls nicht, fügt dieser Charakter bis Rundenende Kampfschaden in Höhe der doppelten POW zu.",
+    "enText": "When attacking with Ranged Combat, you may attack an additional opposing Character in the same War Zone. If you do not, this Character deals combat damage equal to twice its POW until end of round.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-two-handed",
+    "de": "Two-Handed Combat",
+    "en": "Two-Handed Combat",
+    "rule": "5.1",
+    "aliases": [
+      "Zweihändiger Kampf"
+    ],
+    "deText": "Dieser Charakter hat eine zusätzliche Aktion pro Runde. Beim Angriff darf eine Aktion für einen zusätzlichen Angriff ausgegeben werden. Für jeden Angriff gibt es eine eigene Block-Reaktion; beide Angriffe werden in denselben Kampfschritten abgewickelt.",
+    "enText": "This Character has an additional action each round. When attacking, spend an action for an additional attack. Each attack gets a separate Block reaction; both resolve in the same combat steps.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-untargetable",
+    "de": "Untargetable",
+    "en": "Untargetable",
+    "rule": "6.1",
+    "aliases": [],
+    "deText": "Diese bleibende Karte kann nicht Ziel von Spells, Fähigkeiten oder Trainings des Gegners sein.",
+    "enText": "This permanent cannot be targeted by opposing Spells, abilities or Trainings.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-horde",
+    "de": "Horde",
+    "en": "Horde",
+    "rule": "4.2",
+    "aliases": [],
+    "deText": "Kennzeichnet, dass diese bleibende Karte für Horde-Effekte zählt.",
+    "enText": "Indicates that this permanent counts for Horde effects.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-alliance",
+    "de": "Alliance",
+    "en": "Alliance",
+    "rule": "5.3",
+    "aliases": [],
+    "deText": "Würde dein Herrscher Kampfschaden erhalten, darfst du den gesamten Schaden stattdessen auf diesen Charakter umlenken. Die Entscheidung fällt bei der Schadensverrechnung für jede Alliance-Instanz. Der Schaden kann nur einmalig und nur vollständig umgeleitet werden.",
+    "enText": "Whenever your Sovereign would take combat damage, you may redirect all of it to this Character. Decide for each Alliance instance at damage resolution. Damage may be redirected only once and only in full.",
+    "kind": "Keyword"
+  },
+  {
+    "id": "kw-unblockable",
+    "de": "Unblockable",
+    "en": "Unblockable",
+    "rule": "5.2",
+    "aliases": [
+      "Unblockbar"
+    ],
+    "deText": "Dieser Charakter kann nicht von anderen Charakteren geblockt werden. Sein Angriff löst keine Block-Reaktion aus.",
+    "enText": "This Character cannot be blocked by other Characters. Its attack does not trigger a Block reaction.",
+    "kind": "Keyword"
+  }
+]

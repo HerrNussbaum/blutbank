@@ -1,0 +1,938 @@
+[
+  {
+    "id": "1",
+    "title": "Allgemeine Bestimmungen",
+    "body": "",
+    "page": 8
+  },
+  {
+    "id": "1.1",
+    "title": "Zweck des Turnierregelwerks",
+    "body": "Das Bluthelden ® Turnierregelwerk soll eindeutige Festlegungen bezüglich der Spielmechaniken und daraus resultierende Regelklärungen ermöglichen. Zudem sollen die Durchführung von Turnieren inklusive der Korrektur von Regelverstößen sowie den Umgang mit wiederholt auftretenden bis hin zu absichtlichen Regelverstößen (Cheating) geregelt werden.",
+    "page": 8
+  },
+  {
+    "id": "1.2",
+    "title": "Geltungsbereich (offizielle Turniere, Ligaspiele, Online-Events)",
+    "body": "Das Turnierregelwerk dient als Referenz für alle Bluthelden ® Regelfragen. Für offizielle Turniere ist dieses Regelwerk verpflichtend einzuhalten. Ein Turnier, welches dieses Regelwerk nicht anwendet oder nur in Teilen, kann nicht als offizielles Bluthelden ® Turnier geführt werden bzw. kann nicht für das Erlangen von Punkten im Organized-Play von Bluthelden ® sanktioniert werden.",
+    "page": 8
+  },
+  {
+    "id": "1.3",
+    "title": "Verbindlichkeit der Kartentexte",
+    "body": "Der offizielle Kartentext einer jeden Bluthelden ® Karte ist in der Kartenübersicht (Spoiler) unter www.bluthelden.com/pages/Kartenspoiler für das jeweilige Set zu finden. Der offizielle Kartentext ist in Turnierspielen verbindlich anzuwenden.",
+    "page": 8
+  },
+  {
+    "id": "1.4",
+    "title": "Verhältnis von Kartentext zu Regeltext",
+    "body": "Sofern ein Kartentext einer gültigen Regel des Regelwerks widerspricht oder diese aussetzt, ist der Kartentext vor dem Regelwerk heranzuziehen.",
+    "page": 8
+  },
+  {
+    "id": "2",
+    "title": "Spielübersicht: Ziel, Kartentypen, Zonen & Material",
+    "body": "Im folgenden Kapitel wird das Spielziel sowie die zum Spielen nutzbaren Materialien und Spielzonen erläutert.",
+    "page": 9
+  },
+  {
+    "id": "2.1",
+    "title": "Spielziel und Siegbedingungen",
+    "body": "Reguläre Siegbedingungen Das Spiel endet zu dem Zeitpunkt, in dem eine der folgenden Bedingungen erfüllt ist (als Game State Check, siehe Kapitel. 4.10):\n 1. Ein Herrscher weist 0 Lebenspunkte auf\n a. In diesem Fall verliert der diesen Herrscher kontrollierende Spieler das Spiel, sein Kontrahent gewinnt das Spiel\n 2. Ein Spieler muss eine Karte ziehen, jedoch ist in dem Deck (Spell-Deck und/oder Pool-Deck) aus dem gezogen werden soll keine Karte vorhanden.\n a. In diesem Fall wird verliert der Spieler, welcher die Karte nicht ziehen kann, das Spiel. Sein Kontrahent gewinnt das Spiel. Tritt eine der vorgenannten Bedingungen gleichzeitig für beide Spieler auf, so endet das Spiel in einem Unentschieden.\n\nWeitere Siegbedingungen Sofern eine Karte eine alternative Siegbedingung benennt, gilt diese, sobald die Bedingung erreicht wurde und gemäß Reaktionskette verrechnet wurde.\n\nZudem endet ein Spiel in einem Unentschieden, wenn eine Folge von verpflichtenden Effekten eintritt, die nicht unterbrochen werden kann und eine Weiterführung des Spiels regulär nicht möglich ist (Endlos-Loop).",
+    "page": 9
+  },
+  {
+    "id": "2.2",
+    "title": "Kartenarten und Kartentypen",
+    "body": "",
+    "page": 9
+  },
+  {
+    "id": "2.2.1",
+    "title": "Grundsatz zur Kartenverwendung (Turnierlegalität)",
+    "body": "Die verwendeten Karten sind nur dann turnierlegal, wenn sie folgende Anforderungen erfüllen:\n • Es dürfen nur Original-Blutheldenkarten verwendet werden.\n • Digitale Karten sind nur zulässig, wenn sie über offiziell sanktionierte Plattformen von Bluthelden ® bereitgestellt werden.\n • Der Einsatz von Ersatzkarten (Proxys) ist bei offiziellen Turnieren nicht gestattet. Die Turnierleitung kann in Ausnahmefällen Ersatzkarten bereitstellen.\n\n • Die in einem Deck (Spell- oder Pool-Deck) verwendeten Karten müssen in einem Zustand sein, dass sie mit der Bildseite nach unten abgelegt nicht durch Abnutzung oder Beschädigung voneinander unterscheidbar sind.\n • Bei Verwendung von Blutheldenkarten mit vom Standard (Leros) Kartenrücken abweichenden Kartenrückseiten sind blickdichte Hüllen mit nicht voneinander unterscheidbaren Rückseiten verpflichtend zu verwenden. Dies gilt nur für Karten, die Teil des Spell- oder Pool-Decks sein können.\n • Sofern Kartenhüllen verwendet werden, sind diese einheitlich für das Pool und das Spell Deck zu verwenden (gleiche Kartenhüllen für beide Decks).",
+    "page": 9
+  },
+  {
+    "id": "2.2.2",
+    "title": "Aufbau einer Blutheldenkarte",
+    "body": "Blutheldenkarten weisen eine Vorderseite mit spielrelevanten Angaben sowie eine Rückseite, in der Regel ohne spielrelevante Angaben, auf. Als Vorderseite wird immer die Seite verstanden, welche die Ausspielkosten sowie den Namen der Karte und Angaben zum Kartentyp aufweisen. Hiervon ausgenommen sind doppelseitige Herrscher Karten. Hier ist eine der beiden Seiten verbindlich für das verwendete Deck zu bestimmen und die Wahl für das vollständige Turnier beizubehalten. Auf der Vorderseite einer Blutheldenkarte werden abhängig von ihrem Kartentyp unterschiedliche Angaben gemacht. Jede Blutheldenkarte enthält aber die folgenden Angaben:\n 1. Name der Karte (zentral am oberen Rand der Vorderseite)\n 2. Kartentyp (Erste Bezeichnung direkt unter dem Namen der Karten, ggf. mit Zusatz Mythic oder Epic)\n 3. Regeltext, mit Angaben welche Auswirkungen und Fähigkeiten die Karte im Spiel hat, in der Regeltextbox. Hier findet sich, falls kein spielrelevanter Regeltext vorhanden ist, in kursiver Schrift ein Ambiente-Text.\n 4. Seltenheit (Fußzeile der Karte unten links) K, N, L oder F\n 5. Angabe zum Herkunftsset der Karte und Sprache\n 6. Copyright Hinweis\n 7. Name des Künstlers des Kartenartworks\n\nKartentypabhängig sind weitere Angaben vorhanden, die im Abschnitt 2.2.3 Kartentypen in ihren jeweiligen Unterabschnitten aufgeführt werden. Durch die Hintergrundfarbe der Textfelder für den Namen der Karte sowie Regeltext, wird die Farbidentität der Blutheldenkarte identifiziert. Es können folgende Farbidentitäten vorliegen: Weiß, Schwarz, Orange, Grün, Blau, Lila, Braun, Rot und Grau (Equilibra).",
+    "page": 10
+  },
+  {
+    "id": "2.2.3",
+    "title": "Kartentypen",
+    "body": "Der Kartentyp einer Blutheldenkarte wird unterhalb ihres Namens angegeben. Sind mehrere Kartentypen angegeben, so besitzt die Karte auch alle Attribute der beiden angegebenen Kartentypen. Ergeben sich hierdurch unterschiedliche Ausspielrestriktionen bezüglich des Ausspieltimings, gilt das Timing mit den meisten Ausspielzeitpunkten.\n\nGrundsätzlich sind alle Karten bei Bluthelden in zwei Kategorien eingeteilt:\n\n 1. Bleibende Karten Bleibende Karten sind alle Karten, welche auf dem Spielfeld verbleiben, nachdem sie ausgespielt wurden. Bleibende Karten benötigen einen Slot oder definierten Ort, an dem sie platziert werden können. Ist kein solcher Slot verfügbar, kann die bleibende Karte nicht ins Spiel gebracht werden und wird stattdessen in den Friedhof gelegt. Bleibende Karten werden auf das Spielfeld „beschworen“ (summon), siehe auch Kapitel 4.1 (Ausspielen einer Karte).\n\n 2. nicht bleibende Karten Nicht bleibende Karten werden nach dem Verrechnen direkt in den Friedhof gelegt. Sie benötigen keinen Slot in den sie platziert werden. Nicht bleibende Karten werden gewirkt (cast), siehe auch 4.1 (Ausspielen einer Karte).\n\nBisher sind folgende Kartentypen in Bluthelden ® definiert: A) Herrscher B) Runen C) Ressourcen D) Charaktere E) Training F) Artefakte G) Rituale H) Zaubersprüche\n\nAbhängig vom Kartentyp gelten die nachfolgend genannten Regeln für alle Karten des jeweiligen Kartentyps:\n\nA) Herrscher Karten mit dem Typ Herrscher weisen folgende zusätzliche Kartenmerkmale auf:\n 1. Lebenspunkte (oben Links)\n\n 2. Zusatzkosten für Karten anderer Farben (Farbleiste linker Bildrand)\n\nJedes Bluthelden Deck muss exakt einen Herrscher enthalten. Der Herrscher wird zu Beginn des Spiels in den Herrscher-Slot in der Regierungszone platziert. Der Herrscher zählt weder zum Spell- noch zum Pool-Deck, allerdings zur Gesamtzahl des Blutheldendecks.\n\nDeckbau-Restriktion durch den Herrscher: Die Farbe des Herrschers begrenzt die verwendbaren Karten für das Pool-Deck. Es dürfen nur Karten der Farbe des Herrschers sowie graue (Equilibra) Karten enthalten sein.\n\nB) Runen Runen weisen keine zusätzlichen Icons auf. Sie zählen als Ressourcen Karte und Rune. Jedes Bluthelden Deck muss exakt eine Rune enthalten. Die Rune wird zu Beginn des Spiels in den Runen-Slot in der Regierungszone platziert. Die Rune zählt weder zum Spell- noch zum Pool-Deck, allerdings zur Gesamtzahl des Blutheldendecks.\n\nBleibende Karten: C) Ressourcen Ressourcen weisen zusätzlich die Icons für Pool, Binding sowie einen Level auf.\n\nJe Spieler darf pro Runde nur eine Ressource ins Spiel gebracht werden. Dies umfasst sowohl das Ausspielen aus der Hand, als auch das Verwenden der Runenfähigkeit zum Heraussuchen einer Ressource. Für Ressourcen ist je Lane 1 Slot in der Safety Zone vorhanden. In einen leeren Ressourcen Slot dürfen nur Level 1 Ressourcen platziert werden.\n\nAusspielen von Ressourcen Eine Ressource mit einem Level > 1 erfordert, das sie zum Ausspielen auf eine Ressource mit einem um 1 niedrigeren Level platziert werden. Die Ressource mit dem niedrigeren Level wird infolge des Platzierens in den Friedhof gelegt. Das Ausspielen einer Ressource aus der Hand wird als Sonderaktion (s. Kapitel 4.6), ohne Verwendung der Reaktionskette, durchgeführt. Eine Ressource eröffnet die Lane für den jeweiligen Spieler. Nur in eine Lane mit einer Ressource können Charaktere und bleibende Karten auf der eigenen Seite platziert werden (siehe auch Abschnitt 2.3.1).\n\nD) Charaktere Charaktere weisen folgende zusätzliche Merkmale auf:\n 1. Ausspielkosten in Astralpunkten (ASP) (oben Links)\n 2. Level-Icon\n 3. Optional Binding Icon\n 4. Optional Pool-Icon\n 5. Resistenzwert\n 6. Inititativewert\n 7. Stärke (POW) und Trefferpunkte (HP) Wertebox\n\nAusspielen von Charakteren Grundsätzlich können Charaktere nur in Slots auf dem Spielfeld platziert werden, die für Charaktere vorgesehen sind, solange dort kein anderer Charakter bereits platziert ist. Ein Charakter kann aus der Hand nur ausgespielt werden, wenn sein Level gleich groß oder kleiner als das höchste Level der eigenen im Spiel befindlichen Ressourcen ist. Dies gilt auch für die Fähigkeit der Rune, sofern ein Charakter aus dem Pool-Deck direkt ins Spiel platziert wird.\n\nFähigkeiten von Charakteren Unabhängig vom konkreten Regeltext, kann jeder Charakter die jeweiligen Aktionen: Move, Block und Angriff durchführen, sofern sie im dafür notwendigen Slot liegen. Ein Charakter hat pro Runde eine Aktion zur Verfügung, sofern der Charakter ein INI-Icon aufweist.\n\nWerte von Charakteren: Die auf der jeweiligen Karte aufgedruckten RES-, INI- und POW/HP-Werte werden als Grundwerte bezeichnet. Die genaue Erläuterung hierzu findet sich in Kapitel 4.9.\n\nSondertypus: Advisor Ein Charakter mit dem Typus „Advisor“ hat keine INI und POW/HP-Werte. Ein Advisor kann nur in den Advisor-Slot platziert werden. Alle übrigen Restriktionen von Charakteren gelten auch für einen Charakter mit dem Typus „Advisor“.\n\nE) Training Trainings weisen folgende zusätzliche Merkmale auf:\n 1. Ausspielkosten in ASP (oben Links)\n 2. Typ des Trainings in der Kartennamensbox\n a. Fundamental oder\n\n b. Martial\n 3. Optional: Icon für Magiewert (Spellpower)\n\nAusspielen von Trainings Ein Training kann nur dann auf dem Spielfeld platziert werden, wenn es beim Ausspielen bzw. ins Spielbringen an eine andere bleibende Karte angebracht werden kann. Die anvisierte Karte wird beim Ausspielen als Ziel ausgewählt (vgl. Kapitel 4.1 und 6.1). Diese Karte muss sich sowohl beim Ausspielen als auch beim Verrechnen des Trainings im Spiel befinden. Sofern ein Training eine Spellpower aufweist, wird beim Verrechnen bzw. ins Spielkommen geprüft, ob die mit dem Training anvisierte Karte einen Resistenzwert aufweist. Ist die Spellpower gleich oder größer als der Resistenzwert wird das Training an die Karte angebracht (attached). Ansonsten geht das Training ohne Wirkung in den Friedhof. Ein einmal erfolgreich angebrachtes Training bleibt auch dann weiterhin angebracht, wenn die Resistenz der trainierten Karte größer sein sollte als die Spellpower des Trainings (falls vorhanden).\n\nZusätzliche Regeln für Trainings: Die bleibende Karte, an der ein Training angebracht ist, gilt als trainiert (trained). Alle Referenzen des Trainings, die sich auf eine trainierte Karte (z.B. trained Character) beziehen, nehmen Bezug auf die Karte, an die das Training angelegt wurde. Verlässt eine Karte, an die ein Training angebracht wurde, das Spielfeld, wird das angebrachte Training in den Friedhof gelegt (vgl. Kapitel 4.8).\n\nF) Artefakte Artefakte weisen folgende zusätzliche Merkmale auf:\n 1. Ausspielkosten in ASP (oben Links)\n 2. Optional: Icon für Spellpower\n\nAusspielen von Artefakten Artefakte werden in der Zone für bleibende Karten platziert. Es können dort beliebig viele bleibende Karten platziert werden.\n\nG) Rituale Rituale weisen folgende zusätzliche Merkmale auf:\n 1. Ausspielkosten in ASP (oben Links)\n 2. Optional: Icon für Spellpower Rituale sind bleibende Karten, welche in der Zone für bleibende Karten platziert werden. Es können dort beliebig viele bleibende Karten platziert werden.\n\nH) Zaubersprüche Zaubersprüche (Spell) weisen folgende zusätzliche Merkmale auf:\n 1. Ausspielkosten in ASP (oben Links)\n 2. Optional: Icon für Spellpower Zusätzlich können Zaubersprüche weitere Subtypen enthalten.\n\nTypen von Zaubersprüchen (Spell)\n o Spell\n o Miracle (alle Miracle zählen auch als Spell)\n\nZaubersprüche sind keine bleibenden Karten. Sie werden nach dem Verrechnen in den Friedhof gelegt. Das Ausspielen eines Zauberspruchs wird als „wirken“ (cast) bezeichnet.",
+    "page": 11
+  },
+  {
+    "id": "2.3",
+    "title": "Spielfeld und Zonen",
+    "body": "Das physische Spielfeld umfasst alle Zonen und Plätze aller an der Partie beteiligten Personen. Jeder Spieler kontrolliert seine eigene Spielfeldhälfte und die darin befindlichen Slots; Karten können aber in Zonen/Slots liegen, die „physisch“ auf der anderen Seite sind, ohne dass die Kontrolle über die Zone oder den Slot wechselt. Das Spielfeld von Bluthelden ® ist je Spieler in drei Zonen aufgeteilt. Jede Zone enthält Plätze, welche für verschiedene Kartentypen vorgesehen sind:\n • Regierungszone,\n • Sicherheitszone (Safety Zone) und\n • Kampfzone (Combat Zone). Diese Zonen bilden die Aktiven Zonen bzw. das regeltechnische Spielfeld (siehe Kapitel 4.8.1). Zusätzlich sind vier Plätze ohne Zugehörigkeit zu einer Zone vorhanden:\n • Banished-Platz,\n • Friedhof,\n • Pool-Deck Platz und\n • Spell-Deck Platz. Diese Plätze bilden regeltechnisch die Inaktiven Plätze bzw. Ablagebereiche (siehe Kapitel 4.8.2) Teil des Spiels, aber nicht des Spielfelds, ist die Reaktionskette (Reaction Chain), auf die alle Effekte und Karten beim Ausspielen platziert werden (siehe Abschnitt 4.1) sowie\n\n„die Hand“ für Handkarten. Diese Bereiche bilden regeltechnisch die Abstrakten Spielbereiche (vgl. Kapitel 4.8.3)",
+    "page": 15
+  },
+  {
+    "id": "2.3.1",
+    "title": "Lanes",
+    "body": "Die Plätze der Sicherheitszone und Kampfzone werden in 3 vertikale Linien (Lanes) unterteilt. Eine Lane umfasst dabei jeweils einen Teil der Safety Zone und Combat Zone beider Spieler. Die innerhalb einer Lane befindlichen Plätze der Kampfzone (Combat Zone) werden als Kriegszone (War Zone) bezeichnet.",
+    "page": 16
+  },
+  {
+    "id": "2.3.2",
+    "title": "Kampfzone (Combat Zone) und Kriegszonen (War Zones)",
+    "body": "Die Combat Zone befindet sich mittig zwischen beiden Spielern auf dem Spielfeld. Innerhalb der Combat Zone sind drei War Zones enthalten. Eine War Zone je Lane. Die Kampfzone umfasst je Spieler insgesamt 6 Plätze für Charaktere (2 je War Zone). Die War Zone wird durch die beiden Front Reihen (Front-Row, oberhalb der Back Row) der beiden Spieler je Lane gebildet.",
+    "page": 16
+  },
+  {
+    "id": "2.3.3",
+    "title": "Safety-Zonen",
+    "body": "Hinter der Combat Zone befindet sich je Spieler eine Safety Zone, welche in 3 Abschnitte durch die jeweiligen Lanes unterteilt sind. Insgesamt können 9 Charaktere und 3 Ressourcen in der eigenen Safety Zone platziert werden (3 Charaktere und 1 Ressource je Lane). Die Safety Zone wird je Lane in die Back-Row (2 Charakter-Slots direkt unter der War Zone) und den Binding-Slot (1 Charakter-Slot unter der Back-Row, links neben dem Ressourcen-Slot) unterteilt.",
+    "page": 16
+  },
+  {
+    "id": "2.3.4",
+    "title": "Regierungszone",
+    "body": "Die Regierungszone befindet sich je Spieler unterhalb der Safety Zone. Sie besteht aus einem Platz für den Herrscher, einem Platz für die Rune und einem Platz für den Advisor. Zusätzlich beliebig viele Plätze für bleibende Karten, die nicht in der Safety- oder Combat Zone platziert werden können.",
+    "page": 16
+  },
+  {
+    "id": "2.3.5",
+    "title": "Banished Platz",
+    "body": "Die Banished Platz ist der Ablageort für Karten, welche durch einen Banish-Effekt dorthin platziert werden.",
+    "page": 16
+  },
+  {
+    "id": "2.3.6",
+    "title": "Friedhof",
+    "body": "Der Friedhof (Graveyard) ist der Ablageort für alle Karten welche durch Spieleffekte\n • zerstört oder geopfert werden,\n • von der Hand abzuwerfen sind,\n • gewirkt wurden und verrechnet sind (Spells) oder\n • aufgrund eines Gamestate-Checks dorthin platziert werden (siehe Kapitel 4.10).",
+    "page": 16
+  },
+  {
+    "id": "2.4",
+    "title": "Aufbau eines Bluthelden Decks",
+    "body": "Bluthelden Gesamtdeck:\n\nDas gesamte Bluthelden Deck besteht aus dem Spell-Deck, dem Pool-Deck sowie der Herrscher- und Runenkarte. Die verwendete Herrscherkarte ist Teil des Decks und bestimmt welche Karten im Pool-Deck gespielt werden dürfen. Zudem bestimmt die verwendete Herrscherkarte darüber, welche Karten nicht im Deck enthalten sein dürfen.\n\nPool-Deck Es dürfen im Pool-Deck nur Karten gespielt werden, welche das Pool-Icon aufweisen. Zudem dürfen nur Karten enthalten sein, die der Farbe des Herrschers entsprechen oder Equilibra (grau) sind. Die Kartenzahlbeschränkung (min. und max.) sind abhängig vom gespielten Turnierformat (siehe Kapitel 11).\n\nSpell-Deck Im Spell-Deck dürfen nur Karten vorhanden sein, welche Astralpunktekosten aufweisen und nicht durch die Herrscherkarte ausgeschlossen sind. Die Kartenzahlbeschränkung (min. und max.) sind abhängig vom gespielten Turnierformat (siehe Kapitel 11).\n\nBegrenzung von Karten Die erlaubte Anzahl an gleichnamigen Karten in einem Bluthelden-Deck (egal ob Pool- oder Spell-Deck) wird durch ihre Seltenheit bestimmt: F – Faboulus Karten dürfen im Deck insgesamt 1-mal enthalten sein L – Legendary Karten dürfen im Deck insgesamt 2-mal enthalten sein N – Noted Karten dürfen im Deck insgesamt 3-mal enthalten sein K – Known Karten dürfen im Deck insgesamt 4-mal enthalten sein.\n\nNicht erlaubte Karten Nicht erlaubte oder anders als durch ihre Seltenheit eingeschränkte Karten werden gesondert in einer Banned & Restricted Liste je Turnierformat aufgeführt.",
+    "page": 16
+  },
+  {
+    "id": "3",
+    "title": "Spielablauf",
+    "body": "Der Spielablauf einer Runde von Bluthelden ist aufgeteilt in eine gemeinsame Startphase, der Hauptphase des Spielers mit Initiative, der Hauptphase des Spielers ohne Initiative, der Kampfphase sowie der Endphase. Nachfolgend werden die jeweiligen Phasen und die dortigen Schritte (Steps) näher beschrieben. Anschließend wird eine detaillierte Darstellung der Reaktionskette und des Prioritätsystems gegeben. Abschließend findet sich in Abschnitt 3.2 die Regelungen zum Timing von Fähigkeiten und Effekten. Zu Beginn des Spiels werden der Herrscher sowie die Rune in die jeweiligen Slots platziert. Anschließend ziehen beide Spieler jeweils 6 Karten von ihrem Spell-Deck. Danach wird durch einen Zufallsmechanismus (Würfelwurf, Münzwurf etc.) bestimmt welcher Spieler zunächst die INI erhält. Der Sieger des Zufallsmechanismus entscheidet, ob er selbst die INI erhält oder sein Gegner. Anschließend erfolgen die Mulligan-Entscheidungen. Nach Abschluss der Mulligan-Entscheidungen beginnt die erste Runde. In dieser wird mit Step 2 „Karten ziehen“ begonnen. Step 1 „Beginn der Runde“ wird übersprungen. In der ersten Runde werden keine „zu Beginn der Runde“ Effekte ausgelöst.\n\nMulligan Einmalig darf je Spieler von der Starthand eine beliebige Anzahl an Karten verdeckt zur Seite gelegt werden. Anschließend werden gleich viele Karten vom Spell-Deck nachgezogen und die beiseitegelegten Karten in das Spell-Deck zurückgemischt. Der Mulligan erfolgt in INI-Reihenfolge. Zuerst trifft der Spieler mit INI seine Mulligan- Entscheidung, anschließend der andere Spieler.",
+    "page": 18
+  },
+  {
+    "id": "3.1",
+    "title": "Rundenstruktur",
+    "body": "",
+    "page": 18
+  },
+  {
+    "id": "3.1.1",
+    "title": "Startphase",
+    "body": "Die Startphase teilt sich in folgende einzelne Schritte auf:\n 1. Beginn der Runde\n 2. Karten ziehen\n 3. Bestimmung des Spielers mit Initiative (INI-Check) In keinem der Schritte erhalten die Spieler Priorität, d.h. es können weder Handkarten noch Fähigkeiten gespielt werden. In Schritt 1 „Beginn der Runde“, werden zunächst alle Karten beider Spieler wieder bereitgemacht (unturned). Sollten Fähigkeiten ausgelöst werden, welche „Zu Beginn der Runde“ ausgelöst werden, so werden diese nach dem Bereitmachen auf die Reaktionskette gelegt und abgehandelt, ohne dass auf diese reagiert werden kann. Sollten mehrere solcher Effekte gleichzeitig ausgelöst werden, so gehen zunächst alle Effekte des Spielers, der die Initiative hält, dann die des Spielers ohne Initiative auf die Reaktionskette. Anschließend werden diese verrechnet.\n\nDann wird in den Schritt 2 „Karten ziehen“ gewechselt. Hier ziehen beide Spieler gemäß den Kartenziehregeln:\n • 1 Karte vom Spell- oder Pool-Deck, falls die Anzahl der gehaltenen Handkarten 3 oder mehr beträgt\n • 2 Karten in beliebiger Kombination vom Spell- oder Pool-Deck, falls die Anzahl der gehaltenen Handkarten 2 oder weniger beträgt. Das Ziehen erfolgt in der Reihenfolge nach Initiative, dabei ist anzusagen, ob vom Spell- oder Pool-Deck gezogen wird. Haben beide Spieler ihre Karte(n) für die Runde gezogen, wird in Schritt 3 gewechselt. In Schritt 3 wird ein INI-Check durchgeführt. Hierbei wird ermittelt, welcher Charakter auf dem Spielfeld die höchste Initiative aufweist. Der Spieler, welcher diesen kontrolliert, erhält die Initiative. Bei Gleichstand behält der bisherige Initiativespieler die Initiative. Kann kein Charakter mit INI > 0 ermittelt werden, gilt dies als Gleichstand und die Gleichstandsregelung (siehe Kapitel 3.1.4) wird angewendet. Ist die Initiative ermittelt, wird in die Hauptphase 1 gewechselt.",
+    "page": 18
+  },
+  {
+    "id": "3.1.2",
+    "title": "Hauptphase 1 (Turn Player with Inititative)",
+    "body": "Die Hauptphase 1 ist der Zug (Turn) des Spielers mit der Initiative. Es werden zunächst alle Fähigkeiten ausgelöst und auf die Reaktionskette gelegt, welche „zu Beginn deines Zuges“ („at the beginning of your turn“) ausgelöst werden, anschließend werden alle Fähigkeiten ausgelöst und auf die Reaktionskette gelegt, welche „zu Beginn des Zuges deines Gegners“ (at the beginning of your opponents turn) ausgelöst werden. In der Hauptphase 1 darf der Spieler mit der Initiative:\n • Jeden Typ von Handkarten ausspielen\n • Fähigkeiten aktivieren Dabei können die Handkarten und Fähigkeiten in beliebiger Folge gespielt bzw. aktiviert werden. Zudem dürfen die Sonderaktionen „Ausspielen einer Ressource“ und „Move“ genutzt werden (siehe Kapitel 4.6). In der Hauptphase 1 darf der Spieler ohne Inititative:\n • Fähigkeiten aktivieren Er darf jedoch keine Handkarten ausspielen oder die Sonderaktionen „Ausspielen einer Ressource“ und „Move“ nutzen (siehe Kapitel 4.6). Sofern beide Spieler passen und die Reaktionskette leer ist, wechselt die Hauptphase 1 zur Hauptphase 2.",
+    "page": 19
+  },
+  {
+    "id": "3.1.3",
+    "title": "Hauptphase 2 (Turn Player without Initiative)",
+    "body": "Die Hauptphase 2 ist der Turn des Spielers ohne Initiative. Es werden zunächst alle Fähigkeiten ausgelöst und auf die Reaktionskette gelegt, welche „zu Beginn des Zuges“ („at the beginning of your turn“) ausgelöst werden, anschließend werden alle Fähigkeiten\n\nausgelöst und auf die Reaktionskette gelegt, welche „zu Beginn des Zuges deines Gegners“ (at the beginning of your opponent turn) ausgelöst werden.\n\nIn der Hauptphase 2 darf der Spieler ohne Initiative:\n • Jeden Typ von Handkarten ausspielen\n • Fähigkeiten aktivieren Dabei können die Handkarten und Fähigkeiten in beliebiger Folge gespielt bzw. aktiviert werden. Zudem dürfen die Sonderaktionen „Ausspielen einer Ressource“ und „Move“ genutzt werden (siehe Kapitel 4.6). In der Hauptphase 2 darf der Spieler mit der Initiative:\n • Fähigkeiten aktivieren Er darf jedoch keine Handkarten ausspielen oder die Sonderaktionen „Ausspielen einer Ressource“ und „Move“ nutzen (siehe Kapitel 4.6). Sofern beide Spieler passen und die Reaktionskette leer ist, wird ein INI-Check durchgeführt. Nach dem INI-Check wird in die Kampfphase gewechselt.",
+    "page": 19
+  },
+  {
+    "id": "3.1.4",
+    "title": "Kampfphase",
+    "body": "Die Kampfphase wird in mehreren Schritten abgewickelt. In der Kampfphase dürfen von beiden Spielern keine Handkarten ausgespielt werden. Jeder im Spiel befindliche Charakter hat pro Runde eine Aktion zur Verfügung. Sofern die Aktion nicht vorher verbraucht wurde, kann der Charakter diese in der Kampfphase als handelnder Charakter für die Aktion „Angriff“ oder „Move“ oder als nicht handelnder Charakter als Reaktion zum Blocken verwenden. Die Durchführung einer dieser Handlungen verbraucht die Aktion des Charakters für die laufende Runde.\n\nSchritt 1 – Bestimmung des handelnden Charakters und der aktiven Lane\n • Es wird der Charakter mit der höchsten Initiative ermittelt, der sich in einer nicht abgehandelten Lane befindet und der in dieser Kampfphase noch mindestens eine Aktion zur Verfügung hat sowie noch nicht handelnder Charakter war und eine INI > 0 aufweist. Der ermittelte Charakter wird zum handelnden Charakter.\n • Die Lane, in der sich dieser Charakter befindet, wird zur aktiven Lane erklärt.\n\nSchritt 2 – Auswahl der durchzuführenden Aktion Der Spieler des handelnden Charakters erhält Priorität. Passen beide Spieler, folgt die Aktion des handelnden Charakters. Für diesen darf der kontrollierende Spieler folgende Aktionen auswählen:\na) Angriff deklarieren, dies verbraucht eine Aktion des Charakters\nb) Bewegungsaktion (Move) durchführen, dies verbraucht eine Aktion des Charakters\nc) nicht handeln, dies verbraucht keine Aktion des Charakters\n\nVoraussetzungen für die Aktion „Angriff“: Die Aktion „Angriff“ darf nur durchgeführt werden, wenn der handelnde Charakter\n • in der War Zone der aktiven Lane platziert ist,\n • ungeturned ist,\n • noch eine Aktion verfügbar hat,\n • nicht innerhalb der Kampfphase auf dem Spielfeld platziert wurde sowie\n • eine INI > 0 aufweist.\n\nAbhandlung des Angriffs Wird Angriff als Aktion gewählt, so wird der angreifende Charakter geturned und gilt als angreifend. Ein Angriff erfolgt immer auf den Herrscher des Gegners. Der Spieler, welcher den handelnden Charakter kontrolliert, erhält nun die Priorität, bevor Blocker bestimmt werden. Passen beide Spieler, darf nun der angegriffene Spieler für jede Angriffsaktion einen Blocker bestimmen. Ist dies erfolgt, wird der jeweilige Blocker geturned und seine Aktion verbraucht, der Angriff gilt als geblockt. Anschließend erhält der den handelnden Charakter kontrollierende Spieler erneut Priorität. Passen beide Spieler, folgt nun das Zufügen des Kampfschadens. Angreifer und Blocker fügen sich gleichzeitig gegenseitig Schaden in Höhe ihrer Power (POW) zu, sofern sie sich noch in der gleichen War Zone befinden. Wenn der Angriff des Angreifers nicht geblockt wurde, fügt er seinen Schaden dem angegriffenen Herrscher zu. Anschließend erhält der den handelnden Charakter kontrollierende Spieler erneut Priorität. Passen beide Spieler folgt Schritt 3. Voraussetzung für die Reaktion „Blocken“ Die Reaktion „Blocken“, darf nur von einem Charakter durchgeführt werden, wenn er\n • sich in der gleichen War Zone wie der angreifende Charakter befindet,\n • ungeturnt ist und\n • noch mindestens eine Aktion in diesem Kampf zur Verfügung hat. Die Block-Reaktion ist eine freiwillige Reaktion. Effekte, die einem Objekt das Blocken verbieten, verhindern ausschließlich der Wahl dieser Reaktion. Sie beeinflussen nicht, ob ein Objekt durch einen Effekt zu einem blockenden Verteidiger wird.\n\nSchritt 3 – Bestimmung des nächsten handelnden Charakters in der aktiven Lane\n • In der aktiven Lane wird nun der Charakter mit der höchsten Initiative ermittelt, der noch mindestens eine Aktion verfügbar hat, ungeturned ist, bisher nicht handelnder Charakter war und eine INI > 0 aufweist.\n • Dieser Charakter wird zum neuen handelnden Charakter, und es folgt wieder Schritt 2. Dieser Ablauf (Schritte 2 und 3) wiederholt sich in der aktiven Lane, bis kein Charakter in dieser Lane mehr zum handelnden Charakter werden kann. Die Lane gilt dann als\n\nabgehandelt (resolved) und Schritt 1 wird erneut durchgeführt. Dies wird so lange wiederholt, bis alle Lanes abgehandelt sind. Sofern ein Charakter in eine schon abgehandelte Lane während der Kampfphase platziert wird, bleibt diese weiterhin abgehandelt, der Charakter kann nicht mehr zum handelnden Charakter werden.\n\nGleichstandsregelung bei Initiative\n • Haben zwei Charaktere unterschiedlicher Spieler die gleiche Initiative und könnten zum handelnden Charakter werden, handelt der Charakter des Spielers, der gemäß letztem INI-Check die Initiative besitzt, zuerst.\n • Haben zwei Charaktere des gleichen Spielers die gleiche Initiative und könnten beide zum handelnden Charakter werden, entscheidet der diese Charaktere kontrollierende Spieler, welcher Charakter zuerst zum handelnden Charakter wird.\n\nSchritt 4 – Ende des Kampfes Sind alle Lanes abgehandelt, folgt das Ende des Kampfes. Alle Fähigkeiten, die „am Ende des Kampfes“ (at the end of combat) ausgelöst werden, werden nun ausgelöst. Alle Charaktere, die am Ende des Kampfes in einer War Zone platziert sind und eine Kampfhandlung (combat action: Angriff oder Block) durchgeführt haben, gelten als „überlebend“ (survived) bis zum Ende der Runde. Der Spieler mit der Initiative erhält Priorität. Passen beide Spieler, folgt die Ermittlung der Initiative (INI-Check) für das Ende der Runde – der Spieler der den Charakter mit der höchsten Initiative kontrolliert, erhält die Initiative. Dann wird in das Ende der Runde gewechselt.",
+    "page": 20
+  },
+  {
+    "id": "3.1.5",
+    "title": "Endphase",
+    "body": "Am Ende der Runde dürfen beide Spieler Karten vom Typ Zaubersprüche (Spell) und Training aus der Hand ausspielen. Das Ende der Runde ist in 3 Schritte unterteilt. Schritt 1 - Am Ende der Runde Alle ausgelösten Fähigkeiten die am Ende der Runde (at the end of this round) auslösen, werden nun ausgelöst. Dabei werden zunächst die Fähigkeiten des Spielers mit Initiative, dann die des Spielers ohne Initiative auf die Reaktionskette gelegt. Der Spieler mit Initiative erhält anschließend Priorität. Ist die Reaktionskette leer und passen beide Spieler, folgt der Schritt 2. Schritt 2 – Abwerfen von Handkarten Es werden von beiden Spielern, beginnend mit dem Initiative Spieler, auf die maximale Handkartengröße von 8 abgeworfen. Sofern hierdurch Effekte ausgelöst werden, werden diese abgehandelt und Schritt 2 wiederholt. Sofern gleichzeitig Effekte ausgelöst werden, folgt dies der Initiative Regelung. Die Effekte des Spielers mit Initiative werden zuerst auf die Reaktionskette gelegt, dann die des Spielers ohne Initiative. Kein Spieler erhält Priorität. Anschließend folgt Schritt 3.\n\nSchritt 3 – Rundenwechsel Alle Effekte, die bis zum Ende der Runde andauern, enden. Kein Spieler erhält Priorität. Sofern hierdurch Charaktere sterben oder Effekte ausgelöst werden, so werden diese abgehandelt und Schritt 2 wiederholt. Sofern gleichzeitig Effekte ausgelöst werden, folgt dies der Initiative Regelung. Die Effekte des Spielers mit Initiative werden zuerst auf die Reaktionskette gelegt, dann die des Spielers ohne Initiative. Zuletzt vergehen alle noch vorhandenen Astralpunkte und sind nicht mehr verfügbar. Anschließend wird in die Startphase der nächsten Runde gewechselt.",
+    "page": 22
+  },
+  {
+    "id": "3.2",
+    "title": "Priorität und Reaktionskette",
+    "body": "Die Reaktionskette dient dazu, dass in eindeutiger Reihenfolge Karten und Fähigkeiten bzw. deren Effekte abgehandelt werden können. Dazu wird mittels eines Prioritätssystems festgelegt, wer gerade auf die Reaktionskette etwas aktiv einbringen kann.",
+    "page": 23
+  },
+  {
+    "id": "3.2.1",
+    "title": "Priorität",
+    "body": "Die Priorität bestimmt, welcher Spieler durch Ausspielen von Karten oder Aktivieren von Fähigkeiten etwas auf die Reaktionskette legen darf. Hat ein Spieler Priorität, behält er diese, bis er nichts mehr der Reaktionskette zuzufügen will und durch Passen die Priorität abgibt. Passen beide Spiele nacheinander wird der zuletzt auf die Reaktionskette gelegte Effekt (Karte oder Fähigkeit) abgearbeitet. Danach erhält wieder der Spieler die Priorität, welcher gemäß der aktuellen Phase die Priorität zuerst erhalten hat:\n • Hauptphase 1: Spieler mit Initiative,\n • Hauptphase 2: Spieler ohne Initiative,\n • Kampfphase: kontrollierender Spieler des handelnden Charakters,\n • Endphase: Spieler mit Initiative. Passen beide Spieler nacheinander, während die Reaktionskette leer ist, wechselt der jeweilige Schritt (Step) einer Phase in den nächsten Step. Die Reaktionskette wird immer nach dem „last in first out“ Prinzip abgearbeitet. Die Reaktionskette ist Teil des Spiels, aber nicht des Spielfeldes (vgl. Kapitel 2.3). Karten, die ausgespielt werden, gehen von ihrem jeweiligen Ort (z.B. der Hand) auf die Reaktionskette und von dort nach dem Verrechnen an den zugehörigen Platz auf dem Spielfeld. Sie befinden sich nach dem Ausspielen also nicht mehr in der Hand oder dem jeweiligen Ort von dem sie ausgespielt wurden. Im Falle von aktivierten und ausgelösten Fähigkeiten, sind die Effekt auf der Reaktionskette unabhängig von ihrer Quelle. Das bedeutet, sie verbleiben dort und werden auch verrechnet, selbst wenn die ursprüngliche Quelle nicht mehr im Spiel ist oder einen Zonenwechsel vollzogen hat. If an effect affects one or more cards without using the term “target”, without instructing a player to “choose”, and without a deterministic rule to identify those cards, the controller of the effect determines which cards are affected when the effect is applied.\n\nThis determination does not constitute targeting.",
+    "page": 23
+  },
+  {
+    "id": "4",
+    "title": "Spielhandlungen & Kartenregeln",
+    "body": "Karten und Fähigkeiten dürfen von einem Spieler nur ausgespielt bzw. aktiviert werden, wenn dieser Priorität hat. Handkarten dürfen zudem nur unter Beachtung der für den jeweiligen Kartentyp geltenden Timing Restrictions ausgespielt werden (vgl.Kapitel 3.1).\n\nTabelle 1 Timing Restriction Übersicht\n\n| Kartentyp | Timing Restriction |\n| --- | --- |\n| Charaktere | Nur im eigenen Turn |\n| Artefakte | Nur im eigenen Turn |\n| Rituale | Nur im eigenen Turn |\n| Training | Im eigenen Turn und am Ende der Runde |\n| Spells | Im eigenen Turn und am Ende der Runde |\n| Ressourcen | Nur als Sonderaktion im eigenen Turn mit leerer Reaktionskette |\n\nAktivierte Fähigkeiten können ebenfalls Aktivierungsrestriktionen aufweisen; diese sind im jeweiligen Kartentext angegeben. Sofern keine solchen Restriktionen bestehen, unterliegen aktivierte Fähigkeiten keinen weiteren zeitlichen Einschränkungen",
+    "page": 24
+  },
+  {
+    "id": "4.1",
+    "title": "Ausspielen einer Karte",
+    "body": "Um eine Karte auszuspielen, sind in vielen Fällen entsprechende Kosten zu bezahlen. Bei Handkarten sind dies in der Regel die ASP-Kosten, welche oben links auf der Karte aufgedruckt sind. Es können jedoch auch zusätzliche Kosten anfallen. Sofern eine Karte ausgespielt werden darf (Timing-Restriktion, Priorität), geschieht dies immer in folgender Reihenfolge:\n 1. Ansage des Ausspielens einer Handkarte.\n 2. Bestimmung eines verdeckten Spielmodus, falls möglich:\n a. Anwendung von Hideout.\n b. Anwendung anderer Modi, welche die Karte verdeckt ins Spiel bringen.\n 3. Platzieren der Karte auf der Reaktionskette an der nächsten unbesetzten Position:\n a. Verdeckt, falls in Schritt 2 ein verdeckter Spielmodus bestimmt wurde.\n\n b. Offen, falls in Schritt 2 kein verdeckter Spielmodus gewählt wurde oder möglich ist.\n c. Die Karte zählt ab diesem Moment nicht mehr als Handkarte, sondern als Objekt auf der Reaktionskette.\n 4. Bestimmung weiterer Spielmodi:\n a. Anwendung von Rise.\n b. Auswahl eines oder mehrerer Effekt-Modi, falls erforderlich.\n 5. Bestimmung aller Ziele der Karte:\n a. Bestimmung des Slots, in den eine bleibende Karte platziert werden soll.\n b. Ansage aller erforderlichen Ziele (erkennbar an den Worten „choose“/„wähle“ und „target“/„ziele“).\n 6. Ermittlung der Gesamtkosten:\n a. Alle ASP kostensteigernden Effekte werden angewendet (z.B. ASP- Zusatzkosten durch Farbrestriktion des Herrschers).\n b. Alle ASP kostensenkenden Effekte werden angewendet.\n c. Alle ASP Mindestkosten festlegenden Effekte werden angewendet.\n d. Alle ASP Gesamtkosten festlegenden Effekte werden angewendet.\n e. Alle Zusatzkosten steigernden Effekte werden angewendet\n f. Alle Zusatzkosten senkenden Effekte werden angewendet\n g. Alle Zusatz- Mindestkosten festlegenden Effekte werden angewendet\n h. Alle Zusatzkosten festlegenden Effekte werden angewendet\n 7. Bezahlung der Gesamtkosten:\n a. ASP-Kosten: Reduzieren des ASP-Vorrats um den ermittelten Wert.\n b. Nicht ASP-Zusatzkosten: Bezahlen von Kosten, welche keine ASP sind (z.B. Lebenspunkte, Abwerfen, Opfern). Werden während dieses Prozesses (z.B. durch das Bezahlen der Kosten) Fähigkeiten ausgelöst, warten diese, bis das Ausspielen der Karte vollständig abgeschlossen ist. Danach werden zunächst die ausgelösten Fähigkeiten des aktiven Spielers und dann die des inaktiven Spielers auf die Reaktionskette gelegt. Die Priorität verbleibt beim Spieler, der die Karte ausgespielt hat. Sollte eine Karte fehlerhaft ausgespielt werden (z.B. illegales Ziel oder ungenügend Ressourcen), ist dies eine illegale Spielhandlung. Der Prozess wird abgebrochen und rückgängig gemacht. Siehe hierzu Kapitel 14 (Fehlerkorrekturen).",
+    "page": 24
+  },
+  {
+    "id": "4.2",
+    "title": "Aktivieren und Auslösen von Fähigkeiten",
+    "body": "Fähigkeiten können auf zwei Arten auf die Reaktionskette gelegt werden. Zum einen durch das Aktivieren einer Fähigkeit (aktivierte Fähigkeiten), wobei entsprechende\n\nAktivierungskosten zu zahlen sind. Zum anderen durch Eintreten eines Auslöseereignisses (ausgelöste Fähigkeiten), wodurch die Fähigkeit direkt auf die Reaktionskette gelegt wird. Sowohl beim aktivierten als auch bei ausgelösten Fähigkeiten werden beim Aktivieren bzw. Auslösen alle für diese Fähigkeit relevanten Werte, Entscheidungen und Referenzen bestimmt und fixiert. Spätere Änderungen an der Quelle der Fähigkeit oder an dessen Referenzwerten haben keinen Einfluss auf die Verrechnung der Fähigkeit, sofern dies nicht explizit durch den Fähigkeitstext vorgegeben ist. Beispielsweise durch den Zusatz „as this resolves“.\n\nAktvierte Fähigkeiten Um Fähigkeiten einer Karte zu aktivieren, sind immer die entsprechende Aktivierungskosten zu bezahlen. Aktivierte Fähigkeiten sind alle Fähigkeiten die das Schema [Kosten]: Effekt in ihrem Regeltext aufweisen. Formulierungen wie „activate only if…“, „activate only once per round…” oder “activate only as long as…” definieren zusätzliche Voraussetzungen für die Aktivierung einer Fähigkeit. Ist eine solche Voraussetzung nicht erfüllt, kann die Fähigkeit nicht aktiviert werden. Um eine Fähigkeit zu aktivieren, muss der Spieler Priorität haben und die Karte mit der Aktivierten-Fähigkeit kontrollieren. Dann wird das Aktivieren in folgender Reihenfolge durchgeführt:\n 1. Ansage welche Fähigkeit aktiviert werden soll.\n 2. Platzieren der Fähigkeit auf der Reaktionskette an der nächsten unbesetzten Position (die Position ist damit festgelegt)\n 3. Bestimmung von Auswahlmodi:\n a. Auswahl eines oder mehrerer Effekt-Modi, falls erforderlich.\n 4. Bestimmung aller Ziele der Fähigkeit:\n a. Ansage aller erforderlichen Ziele (erkennbar an den Worten „choose“/„wähle“ und „target“/„ziele“).\n 5. Ermittlung der Gesamtkosten:\n a. Alle ASP kostensteigernden Effekte werden angewendet (z.B. ASP- Zusatzkosten durch Farbrestriktion des Herrschers).\n b. Alle ASP kostensenkenden Effekte werden angewendet.\n c. Alle ASP Mindestkosten festlegenden Effekte werden angewendet.\n d. Alle ASP Gesamtkosten festlegenden Effekte werden angewendet.\n e. Alle Zusatzkosten steigernden Effekte werden angewendet\n f. Alle Zusatzkosten senkenden Effekte werden angewendet\n g. Alle Zusatz- Mindestkosten festlegenden Effekte werden angewendet\n h. Alle Zusatzkosten festlegenden Effekte werden angewendet\n\n 6. Bezahlung der Gesamtkosten:\n a. ASP-Kosten: Reduzieren des ASP-Vorrats um den ermittelten Wert.\n b. Nicht ASP-Zusatzkosten: Bezahlen von Kosten, welche keine ASP sind (z.B. Turnen, Lebenspunkte, Abwerfen, Opfern usw.). Werden während dieses Prozesses (z.B. durch das Bezahlen der Kosten) Fähigkeiten ausgelöst, warten diese, bis das Aktivieren der Fähigkeit vollständig abgeschlossen ist. Danach werden zunächst die ausgelösten Fähigkeiten des aktiven Spielers und dann die des inaktiven Spielers auf die Reaktionskette gelegt. Die Priorität verbleibt beim Spieler, der die Fähigkeit aktiviert hat.\n\nSollte eine Fähigkeit fehlerhaft aktiviert werden (z.B. illegales Ziel oder ungenügend Ressourcen, unerlaubtes Timing), ist dies eine illegale Spielhandlung. Der Prozess wird abgebrochen und rückgängig gemacht. Siehe hierzu Kapitel 14 (Fehlerkorrekturen).\n\nAusgelöste Fähigkeiten Ausgelöste Fähigkeiten werden automatisch ausgelöst, sobald ihr Auslöseereignis eintritt. Dies ist erkennbar an Formulierungen wie „when“, „whenever“ oder „at the beginning/end of …“. Wird eine ausgelöste Fähigkeit ausgelöst, wird ein entsprechender Effekt auf die Reaktionskette gelegt. Für das Auslösen einer ausgelösten Fähigkeit ist keine Priorität erforderlich.\n\nZeitpunkt des Platzierens auf der Reaktionskette: Ausgelöste Fähigkeiten werden auf die Reaktionskette gelegt, sobald das auslösende Ereignis vollständig abgeschlossen ist. Müssen mehrere ausgelöste Fähigkeiten gleichzeitig ausgelöst werden, werden sie gemäß den Regeln zur Reaktionskette in einer festgelegten Reihenfolge auf diese gelegt: zunächst die Fähigkeiten des Spielers, der in der Aktuellen Phase als erster Priorität erhält, danach die des Spielers, der in der aktuellen Phase nicht die Priorität als erstes erhält. Sollten mehrere Fähigkeiten beim gleichen Spieler ausgelöst werden, bestimmt dieser die Reihenfolge, in der die von ihm kontrollierten Fähigkeiten auf die Reaktionskette gehen.\n\nVerzögerte ausgelöste Fähigkeiten Effekte können verzögerte ausgelöste Fähigkeiten erzeugen. Eine verzögerte ausgelöste Fähigkeit wird nicht sofort ausgelöst, sondern wartet auf das in ihrem Text definierte Auslöseereignis. Eine verzögerte ausgelöste Fähigkeit besitzt bis zu ihrem Auslösen keinen eigenen Karten- oder Zonenbezug und wird erst beim Eintreten ihres Auslöseereignisses auf die Reaktionskette gelegt.\n\nBeim Erzeugen einer verzögerten ausgelösten Fähigkeit werden alle für diese Fähigkeit festgelegten Werte, Bedingungen und Referenzen bestimmt. Wird die verzögerte ausgelöste Fähigkeit später ausgelöst, wird sie wie jede andere ausgelöste Fähigkeit auf die Reaktionskette gelegt und gemäß den Regeln für ausgelöste Fähigkeiten verrechnet.\n\nZiel- und Moduswahl: Sind für eine ausgelöste Fähigkeit Ziele oder Spielmodi zu bestimmen, werden diese beim Platzieren der Fähigkeit auf der Reaktionskette durch den Spieler gewählt, der die Quelle der Fähigkeit kontrolliert. Alle gewählten Ziele müssen zu diesem Zeitpunkt legal sein. Nach dem Platzieren aller ausgelösten Fähigkeit auf der Reaktionskette wird die Priorität gemäß der aktuellen Phase vergeben (siehe Kapitel 3.1). Die Fähigkeit wird anschließend wie jeder andere Effekt gemäß den Regeln zur Reaktionskette und zur Verrechnung verrechnet (siehe Kapitel 4.3).",
+    "page": 25
+  },
+  {
+    "id": "4.3",
+    "title": "Verrechnen einer Karte oder einer Fähigkeit",
+    "body": "Sofern beide Spieler nacheinander die Priorität abgeben (passen) wird immer die auf der Reaktionskette oberste Karte oder Fähigkeit verrechnet (Last in First out). Hierzu wird der Effekt der Karte oder Fähigkeit in der Reihenfolge durchgeführt, wie dessen Regeltext es vorgibt. Bei bleibenden Karten erfolgt der Zonenwechsel von der Reaktionskette in den designierten Platz auf dem Spielfeld, sofern der Zielplatz frei ist. Anderenfalls werden sie in den Friedhof gelegt. Bei Zaubersprüchen erfolgt der Zonenwechsel der Karte in den Friedhof. Fähigkeiten führen keinen Zonenwechsel durch, sondern hören nach dem Verrechnen auf zu existieren. Anschließend wird die Priorität gemäß Kapitel 3.2.1 wieder zugeteilt. Sofern eine Karte oder Fähigkeit ein oder mehrere ausgewählte Ziele hatte („target“), beim Verrechnen jedoch alle diese Ziele illegal wurden (z.B. durch einen Zonenwechsel), hat die Fähigkeit oder Karte keinen Effekt. Im Falle von Fähigkeiten hören diese nach der Verrechnung auf zu existieren. Karten werden in diesem Fall von der Reaktionskette in den Friedhof gelegt.",
+    "page": 28
+  },
+  {
+    "id": "4.3.1",
+    "title": "Magiewert vs. Resistenz Check (RES-Check)",
+    "body": "Soll der Effekt einer Karte oder einer Fähigkeit einer Quelle mit Spellpower auf eine Karte mit Resistenzwert wirken, wird bei der Verrechnung für jedes betroffene Effekt-Ziel ein Resistenz-Check durchgeführt. Dabei wird der Magiewert der Effekt-Quelle mit dem Resistenzwert des jeweiligen Effekt-Ziels verglichen. Ist der Magiewert der Effekt-Quelle gleich hoch oder höher als der Resistenzwert des Effekt-Ziels, wirkt der Effekt regulär auf dieses Effekt-Ziel.\n\nIst der Resistenzwert des Effekt-Ziels höher als der Magiewert der Effekt-Quelle, hat der Effekt in Bezug auf dieses Effekt-Ziel keine Wirkung. Andere Effekt-Ziele sowie andere Teile desselben Effekts bleiben hiervon unberührt, soweit sie nicht ebenfalls einem Resistenz-Check unterliegen.",
+    "page": 28
+  },
+  {
+    "id": "4.4",
+    "title": "Astralpunkte",
+    "body": "Astralpunkte sind die Ressourceneinheit, welche zum Bezahlen von Effekten und dem Ausspielen von Karten genutzt wird. Generierte Astralpunkte werden im ASP-Vorrat gesammelt. Dieser Vorrat ist keine Spielzone auf dem Spielfeld, sondern ein abstrakter Bereich. In der Regel werden ASP durch Fähigkeiten erzeugt. Diese Fähigkeiten nutzen die Reaktionskette. Das bedeutet, ihre Abhandlung erfolgt nicht sofort und Spieler können darauf reagieren. Da das Ausspielen einer Karte (siehe 4.1) bzw. das Aktivieren einer Fähigkeit (siehe 4.2) eine geschlossene Abfolge ist, müssen die benötigten ASP vor Beginn des Ausspielens generiert werden und sich bereits im ASP-Vorrat befinden. Erzeugte Astralpunkte bleiben bis zum Ende der Runde im Vorrat. Im Schritt 3 der Endphase (siehe 3.1.5) verfallen alle im Vorrat verbliebenen ASP.",
+    "page": 29
+  },
+  {
+    "id": "4.5",
+    "title": "Zusatzkosten",
+    "body": "Sind beim Ausspielen von Karten oder Effekten zusätzliche Kosten benannt, so sind diese als Teil des Ausspielens bzw. Aktivieren zu bezahlen. Das Bezahlen geht hierbei, wie auch bei ASP Kosten, nicht über die Reaktionskette. Es sind sämtliche Zusatzkosten in der Reihenfolge zu bezahlen, wie sie auf der Karte oder dem Effekt verlangt werden. Die Zusatzkosten durch den Herrscher bei farbfremden Karten zählen als Zusatzkosten, die gemäß Abschnitt 4.1 unter 6.a angewendet werden.\n\nÜbersicht von üblichen Zusatzkosten:\n • Opfern einer bleibenden Karte\n o Eine bleibende Karte kann nur durch den sie kontrollierenden Spieler geopfert werden. Zum Opfern wird die bleibende Karte aus dem Spiel in den Friedhof gelegt.\n\n • Abwerfen von Handkarten\n o Das Abwerfen von Handkarten bezieht sich nur auf die eigenen Handkarten, welche sich in der Hand befinden (siehe 4.4.3). Die Karten werden von der Hand in den Friedhof gelegt.\n\n • Entfernen von Countern\n o Ein bestimmter Typus von Countern wird von einer bleibenden Karte entfernt. Der genaue Name des Counters muss mit dem verlangten\n\n Kosten übereinstimmen. Bleibende Karten, die auf einen Typus von Countern als Zusatzkosten referenzieren, meinen dabei immer die auf ihnen selbst liegenden Counter, sofern der Kartentext nichts anderes vorgibt. Beispiel: Ein Artefakt mit einem Time Counter und folgender Fähigkeit „Remove 1 Time Counter: Draw a card“, meint nur die Time Counter auf sich selbst als zahlbare Zusatzkosten, keine Time Counter anderer bleibender Karten.\n\n • Lebenspunkte zahlen\n o Die zu zahlenden Lebenspunkte werden direkt von dem aktuellen LP Wert des Herrschers abgezogen. Es handelt sich nicht um einen Schadenseffekt. Es können nur dann Lebenspunkte bezahlt werden, wenn ausreichend LP übrig sind, um die verlangten Kosten zu decken.\n • Turnen\n o Eine nicht geturnte Karte wird um 180° gedreht und gilt dann als geturned. Eine geturnte Karte kann nicht zum Bezahlen von „Turnen“ als Zusatzkosten verwendet werden .\n • Zonenwechsel vollziehen\n o Beispielsweise das Zurückschicken von bleibenden Karten auf die Hand oder aus dem Friedhof in die Banished Zone als Zusatzkosten.",
+    "page": 29
+  },
+  {
+    "id": "4.6",
+    "title": "Sonderaktionen",
+    "body": "Sonderaktionen sind Spielhandlungen, die nicht die Reaktionskette nutzen. Sie geschehen sofort und können nicht durch Reaktionen der Gegner unterbrochen oder verhindert werden. Um eine Sonderaktion durchzuführen, muss der Spieler Priorität haben.\n\nDie Sonderaktionen sind:\n 1. Ausspielen einer Ressource: Das Platzieren einer Ressourcenkarte aus der Hand in einen freien Ressourcen-Slot (oder das Ersetzen einer Ressource beim Level-Up) gilt als Sonderaktion. Sie ist nur zulässig, sofern keine Ressource in einen Ressourcen-Slot in dieser Runde durch den durchführenden Spieler platziert wurde. Das Platzieren als Sonderaktion kann nur erfolgen, wenn die Reaktionskette leer ist und es die Hauptphase des Spielers ist, der die Sonderaktion durchführt.\n\n 2. Bewegungsaktion („Move“): Das Bewegen eines Charakters (z. B. von der Safety Zone in die War Zone) ist eine Sonderaktion. Der Charakter wird geturned\n\n und in den neuen designierten Slot gelegt. Die Aktion „Move“ ist nur möglich, sofern der Charakter ungeturned ist und eine INI > 0 aufweist. Die Aktion Move verbraucht eine Aktion des Charakters für die Runde.\n o Einschränkung in der Kampfphase: In der Kampfphase ist die Durchführung nur als Aktion möglich, wenn der Charakter der gerade handelnde Charakter ist und noch mindestens eine Aktion verfügbar hat.\n\n 3. Aufdecken einer verdeckten Karte: Sofern eine Karte eine Fähigkeit besitzt, die es erlaubt, sie durch Bezahlen von Kosten aufzudecken (z.B. bei verdeckt liegenden Karten mit Hideout), ist dies eine Sonderaktion. Sofern ein Karteneffekt das Ausführen einer Sonderaktion, z.B. Move, verlangt, sind alle Restriktionen hinsichtlich der Anwendung der Sonderaktion (Timing-Regel, Verbrauch der Aktion usw.) zu berücksichtigen, sofern durch den Effekt nicht anders geregelt. Beispiel: Der Spell „Move It!“ sagt als Effekt „Move target Character“. Der anvisierte Charakter würde beim Verrechnen des Spruchs die Moveaktion durchführen, wobei der den Spell Move It kontrollierende Spieler die Bewegungsaktion kontrolliert und alle Entscheidungen im Rahmen der Sonderaktion trifft. Das Bewegen würde eine Aktion des Charakters verbrauchen, diesen turnen und nur in einen freien Slot in der jeweils angrenzenden Reihe (War Zone, Back Row, Binding Slot) erlauben.",
+    "page": 30
+  },
+  {
+    "id": "4.7",
+    "title": "Eigenschaftsbestimmung-System (EBS)",
+    "body": "Jede Karte und jedes Spielobjekt besitzen zu jedem Zeitpunkt eine definierte Menge an Eigenschaften. Das EBS legt fest, in welcher Reihenfolge diese Eigenschaften ermittelt werden. Um den aktuellen Status einer Karte zu bestimmen, werden die Eigenschafts- Ebenen (EE) von 1 bis 7 strikt nacheinander durchlaufen.\n\nEE 1: Besitzer, Identität und Basis-Charakteristika Auf dieser Ebene wird die grundlegende Identität des Objekts festgelegt. Hier wird bestimmt, wem die Karte gehört und welche Eigenschaften sie als physisches Objekt (oder Kopie) mitbringt, bevor andere Effekte greifen.\n1. Besitzer (Owner): Der Besitzer ist der Spieler, in dessen Deck (Spell- oder Pool- Deck) sich die physische Karte zu Beginn des Spiels befand. Bei Tokens ist der Besitzer der Spieler, unter dessen Kontrolle das Token erzeugt wurde.\n o Unveränderlichkeit: Der Besitzer einer Karte ist eine Konstante und kann niemals durch Spielmechaniken geändert werden.\n2. Basis-Objekt Die Ausgangsbasis für alle Eigenschaften ist entweder die bedruckte Karte (Text, Symbole, Werte) oder die Definition des Tokens bei dessen Erschaffung.\n\n o Kopier-Effekte: Effekte, die besagen, dass ein Objekt \"eine Kopie von [X] wird\", werden hier angewendet. Sie überschreiben die Informationen der bedruckten Karte vollständig mit den Eigenschaften des kopierten Objekts.\n3. Festlegung der Basis-Eigenschaften: Nach Anwendung etwaiger Kopier-Effekte stehen auf dieser Ebene folgende Eigenschaften für die weiteren Ebenen fest:\n o Name: Der Kartenname.\n o Kosten: Die ASP-Kosten und etwaige Zusatzkosten-Symbole.\n o Kartentypen:\n ▪ Haupttyp: (z.B. Charakter, Ressource, Zauberspruch).\n ▪ Supertyp: (z.B. Mythic, Epic, Fundamental, Martial, Advisor).\n ▪ Subtyp: (z.B. Spezies wie Human/Undead).\n o Farbidentität: Bestimmt durch den Rahmen, Farbindikatoren oder Kosten.\n o Regeltext: Der gesamte Text in der Textbox.\n o Numerische Grundwerte: Die aufgedruckten Zahlen für POW, HP, RES, INI und Magiewert. EE 2: Kontrolle Hier wird bestimmt, wer das Objekt aktuell kontrolliert. Der Kontrolleur ist standardmäßig der Spieler, der die Karte ins Spiel gebracht hat. Kontrollwechsel-Effekte (z.B. „Übernimm die Kontrolle“) ändern den kontrollierenden Spieler. EE 3: Text und Name Hier wird bestimmt, wie die Karte heißt und was auf ihr steht. Grundsätzlich gilt der Regeltext und Name der Identität aus EE 1. Effekte, die Text oder Namen ändern (z.B. „Diese Karte heißt jetzt...“), werden hier angewendet. EE 4: Typus und Farbe Hier wird bestimmt, welcher Kartentyp und welche Farbidentität vorliegt. Grundsätzlich gilt der Kartentyp und die Farbidentität aus EE 1. Effekte, die Typen oder Farben ändern oder hinzufügen, werden hier angewendet (z.B. „Wird zu einem Artefakt“ oder „Wird zusätzlich Schwarz“). EE 5: Fähigkeiten (Abilities) Hier wird das Set an Fähigkeiten ermittelt, über das die Karte verfügt. Grundsätzlich hat die Karte alle Fähigkeiten, die im Regeltext (nach EE 3) stehen. Effekte, die Fähigkeiten gewähren (z.B. „Erhält Flugfähigkeit“) oder entfernen (z.B. „Verliert alle Fähigkeiten“), werden hier angewendet. EE 6: Festlegung der Basiswerte (Setting) Hier werden die numerischen Grundwerte (POW/HP, RES, INI, Magiewert) für die weitere Berechnung fixiert. Grundsätzlich gelten die aufgedruckten Zahlenwerte der Identität aus EE 1. Effekte, die einen Wert auf eine spezifische Zahl festsetzen (z.B. „Wird zu einem 1/1“), werden hier angewendet und überschreiben den aufgedruckten Wert als neuen Grundwert für die folgende Ebene.\n\nEE 7: Berechnung der Modifizierten Werte Hier werden die finalen Zahlenwerte (die Modifizierten Werte, siehe 4.5) berechnet. Dies geschieht, indem Boni und Mali auf die in EE 6 ermittelte Basis angewendet werden. Die Berechnung erfolgt in dieser strikten Unter-Reihenfolge:\n 1. Anwendung von Multiplikatoren auf die Werte\n 2. Anwendung von additiven Modifikatoren auf die Werte\n 3. Anwendung von subtraktiven Modifikatoren auf die Werte\n 4. Tausch: Werte werden vertauscht (z.B. POW und RES tauschen).\n\nZeitstempel-Regel (Timestamp Order): Widersprechen sich zwei Effekte innerhalb derselben Eigenschafts-Ebene (EE), gewinnt der Effekt mit dem jüngeren Zeitstempel (der später ins Spiel kam oder später aktiviert wurde).\n\nRestriktion von Handlungen und Aktionen: Beziehen sich widersprüchliche Effekte auf die Durchführung einer Handlung oder Aktion (z.B. Ausspielen, Aktivieren, Angriff, Bewegen usw.) so hat ein Effekt, der diese Handlung oder Aktion verbietet, Vorrang vor Effekten, die sie erlauben (can’t over can Prinzip). Beispiel: Ein Charakter mit der Fähigkeit „This Character must attack each combat if able“ wird mit einem Training ausgestattet, welches sagt „This Character can’t attack“. Die durch das Training hinzukommende Restriktion hat Vorrang, so dass der Character nicht angreifen kann.",
+    "page": 31
+  },
+  {
+    "id": "4.8",
+    "title": "Zonen und Objekt-Identität",
+    "body": "Dieses Kapitel definiert den Status von Karten basierend auf ihrem Aufenthaltsort gemäß der Spielfeld-Definition in Kapitel 2 sowie die mechanischen Folgen bei einem Ortswechsel.",
+    "page": 33
+  },
+  {
+    "id": "4.8.1",
+    "title": "Aktive Zonen (Das Spielfeld)",
+    "body": "Nur Karten, die sich physisch in einer der drei aktiven Zonen befinden, gelten als „Im Spiel“ (In Play). Karten in diesen Zonen werden als Bleibende Karten (Permanents) bezeichnet. Zonen-Definition: Die aktiven Zonen umfassen die Kampfzone, die Sicherheitszone und die Regierungszone. Objekt-Status: Solange sich eine Karte innerhalb der aktiven Zonen befindet, behält sie ihre Identität als dasselbe Objekt. Zustände (z. B. „Geturned“), Counter und angelegte Karten (Trainings) bleiben erhalten.\n\nInterzone-Bewegung: Bewegt sich eine Karte zwischen verschiedenen aktiven Zonen (z. B. per Move von der Sicherheitszone in die Kampfzone), gilt dies nicht als Zonenwechsel im Sinne der Objekt-Identität. Es werden keine „Betritt das Spiel“- oder „Verlässt das Spiel“-Effekte ausgelöst.",
+    "page": 33
+  },
+  {
+    "id": "4.8.2",
+    "title": "Inaktive Plätze (Ablagebereiche)",
+    "body": "Diese Bereiche gelten regelmechanisch als „Nicht im Spiel“. Zonen-Definition: Die inaktiven Plätze umfassen den Friedhof, die Banished Zone und die Deck-Plätze. Objekt-Eigenschaften: Karten in diesen Bereichen sind inaktive Objekte. Sie besitzen keine modifizieren Werte. Sofern ein Effekt einen Wert explizit für eine Suche oder Referenz abfragt, gilt der aufgedruckte Wert der jeweiligen Karte.",
+    "page": 34
+  },
+  {
+    "id": "4.8.3",
+    "title": "Abstrakte Bereiche (Außerhalb)",
+    "body": "Abstrakte Bereiche sind weder Zonen noch Plätze auf dem Spielfeld.\n\n1. Die Hand: Karten hier sind „Handkarten“ und gelten als verdeckte Information (für den jeweiligen Gegner).\n\n2. Die Reaktionskette: Ein temporärer Bereich für die Abwicklung von Effekten und ausgespielten Karten.\n\n3. Der ASP-Vorrat: Ein abstrakter Zähler für verfügbare Astralpunkte.",
+    "page": 34
+  },
+  {
+    "id": "4.8.4",
+    "title": "Mechanik des Zonenwechsels (Reset)",
+    "body": "Wechselt eine Karte zwischen den Zonen-Kategorien (z. B. von einer Aktiven Zone auf einen Inaktiven Platz oder von der Hand in eine Aktive Zone), wird sie zu einem neuen Spielobjekt.\n • Reset-Regel: Das neue Objekt hat keinerlei Verbindung zum vorherigen Objekt. Alle Marken und Schadenscounter werden entfernt und temporäre sowie statische Effekte enden. Alle bestehenden oder zukünftigen Referenzbezüge auf das vorherige Objekt, sofern nicht explizit durch den Effekt, der den Zonenwechsel auslöst, festgelegt, verlieren ihre Gültigkeit.\n • Tokens: Ein Token kann nur in einer aktiven Zone existieren. Sobald ein Token eine aktive Zone verlässt, hört es als automatischer Gamestate-Check (GSC) sofort auf zu existieren.\n\n • Trainings: Wechselt eine Karte, an der ein Training angelegt ist, die Zone, so verbleibt das Training ohne weiterhin angelegt zu sein in der alten Position. Das Training folgt nicht dem Zonenwechsel und wird in Folge des Game-State- Checks in den Friedhof gelegt (siehe Kapitel 4.10).",
+    "page": 34
+  },
+  {
+    "id": "4.9",
+    "title": "Definition von Werten (Values)",
+    "body": "Um Spielsituationen eindeutig zu lösen, unterscheidet Bluthelden ® zwischen drei Arten von Werten: Grundwert, modifizierter Wert und aktueller Wert.",
+    "page": 35
+  },
+  {
+    "id": "4.9.1",
+    "title": "Der Grundwert (Base Value)",
+    "body": "Der Grundwert ist der Ausgangspunkt jeder Berechnung. Der Grundwert entspricht den auf der Karte aufgedruckten numerischen Werten (POW, HP, RES, INI, Magiewert, Kosten). Für Karten, die sich nicht im Spiel befinden (Friedhof, Hand, Deck, Banished-Zone), ist der Grundwert der einzig existierende Wert. Modifikationen werden hier ignoriert. Wird ein Wert durch einen Effekt festgesetzt (z.B. „Wird zu 3/3“; siehe Kapitel 4.7 EE 6), wird dieser neue Wert temporär zum Grundwert für das Objekt im Spiel.",
+    "page": 35
+  },
+  {
+    "id": "4.9.2",
+    "title": "Der Modifizierte Wert (Modified Value)",
+    "body": "Der Modifizierte Wert stellt das rechnerische Maximum dar, das ein Charakter basierend auf seinen Werten und Modifikationen erreichen kann.\n • Definition: Der Wert, der sich ergibt, nachdem auf den Grundwert alle permanenten und temporären Modifikatoren (Boni, Mali, Multiplikatoren) angewendet wurden (EBS Ebene 1-7).\n • Funktion: Der Modifizierte Wert dient als Obergrenze für Heilung (Regeneration) und als Basis zur Ermittlung des Aktuellen Werts.",
+    "page": 35
+  },
+  {
+    "id": "4.9.3",
+    "title": "Der Aktuelle Wert (Current Value)",
+    "body": "Der Aktuelle Wert beschreibt den tatsächlichen Zustand eines Objekts im Spiel. Wann immer eine Karte oder ein Effekt im Spiel nach einem numerischen Wert fragt (z. B. „Zerstöre Charakter mit HP 2 oder weniger“), wird der Aktuelle Wert herangezogen.\n\nDie Ermittlung unterscheidet sich nach Attribut und Status:\n\nA) Aktuelle HP: Modifizierter HP-Wert - akkumulierter Schaden.\n o Sinkt der Aktuelle HP-Wert auf 0 oder weniger, wird der Charakter in Folge des Game-State-Checks zerstört (siehe Kapitel 4.10). Aktuelle LP: Modifizierter LP-Wert – akkumulierter Schaden.\n\nB) Aktuelle POW, RES und INI: Entspricht grundsätzlich dem Modifizierten Wert. Ausnahme für RES und INI beim Status „geturned“\n • Spielmechanische Abfragen (System Checks): Prüft das Spielsystem Voraussetzungen für Aktionen (Angriff, Blocken, Move) oder führt automatische Vergleiche durch (INI-Check, Resistenz-Check gegen Magiewert z.B. beim Anlegen von Training), ist der Aktuelle Wert für INI und RES 0.\n\n • Karteneffekte und Referenzen (Card References): Fragt eine Karte oder Fähigkeit einen Wert ab (z. B. zur Zielauswahl: „Zerstöre einen Charakter mit INI 5“ oder „Tausche RES und POW-Wert“), bleibt der Aktuelle Wert gleich dem Modifizierten Wert.\n\n Sofern ein aktueller Wert durch Modifikationen kleiner als 0 wird, wird dieser bei allen Abfragen gewertet, als wäre dieser 0. Bei der Berechnung über Modifikatoren wird jedoch weiterhin der tatsächliche Wert verwendet. Beispiel: Die RES eines Charakters ist 1 und wird durch zwei RES-1 Counter reduziert. Die RES des Charakters ist daher -1. Für alle Abgleiche, die die RES erfordert, wird dies wie 0 behandelt.",
+    "page": 35
+  },
+  {
+    "id": "4.10",
+    "title": "Spielstatus-Prüfung (Gamestate Check - GSC)",
+    "body": "Der GSC ist ein automatischer Prozess, der illegale Spielzustände bereinigt. Er nutzt nicht die Reaktionskette und kann nicht durch Spieleraktionen unterbrochen werden.\n\n1. Zeitpunkt der Prüfung Der GSC wird automatisch durchgeführt:\n • Nach dem Verrechnen eines Effekts auf der Reaktionskette.\n • Immer unmittelbar, bevor ein Spieler Priorität erhalten würde.\n • Während der Schadensermittlung im Kampf, spezifisch zwischen dem Segment für Erster Schaden (First Damage) und dem Segment für normalen Schaden.\n\n2. Ablauf der Prüfung Folgende Zustände werden geprüft und in der genannten Reihenfolge bereinigt. Sollten durch die Bereinigung neue Zustände entstehen (z.B. Auslösen von Fähigkeiten durch Sterben eines Charakters), wird der GSC wiederholt, bevor ein Spieler Priorität erhält.\n 1. Ein Herrscher mit 0 LP: Sind die LP eines Herrschers 0 oder weniger, so verliert der Spieler des Herrschers das Spiel. Trifft dies gleichzeitig auf beide Herrscher zu, resultiert das Spiel in einem Unentschieden.\n 2. Decktod: Eine Karte muss gezogen werden, aber keine Karte ist mehr im jeweiligen Deck, die Handlung kann nicht vollzogen werden. In diesem Fall verliert der Spieler, der die Karte aufgrund des leeren Pool- oder Spell-Decks nicht ziehen kann. Trifft dies gleichzeitig auf beide Spieler zu, resultiert das Spiel in einem Unentschieden.\n 3. Zerstörung durch Schaden: Charaktere, deren Aktuelle HP ≤ 0 sind, werden zerstört und in den Friedhof gelegt.\n 4. Token-Bereinigung: Token, die sich in einer inaktiven Zone (z.B. Hand, Friedhof) befinden, hören auf zu existieren.\n 5. Epic-Regel (Lane-Limit): Kontrolliert ein Spieler in derselben Lane mehr als eine bleibende Karte mit dem Attribut Epic und demselben Namen, muss er eine dieser Karten auswählen. Alle anderen identischen Epic-Karten in dieser Lane werden geopfert.\n 6. Mythic-Regel (Global-Limit): Kontrolliert ein Spieler auf dem gesamten Spielfeld mehr als eine bleibende Karte mit dem Attribut Mythic und demselben Namen, muss er eine dieser Karten auswählen. Alle anderen identischen Mythic- Karten werden geopfert.\n 7. Unverbundenes Training: Sofern ein Training auf dem Spielfeld liegt, ohne dass dieses an eine andere bleibende Karte angebunden ist, wird dieses Training zerstört und in den Friedhof gelegt.\n 8. Bleibende Karte ohne Slot: Kann eine bleibende Karte aufgrund fehlender freier Slots nicht regelkonform platziert werden, wird sie stattdessen in den Friedhof des Besitzers gelegt.",
+    "page": 36
+  },
+  {
+    "id": "5",
+    "title": "Spezielle Kampfmechaniken",
+    "body": "Der strukturelle Ablauf der Kampfphase, die Bestimmung der Initiative und die Grundregeln für Angriff und Blocken sind in Kapitel 3.1.4 definiert. Angaben zu Sonderaktionen, insbesondere „Move“ sind in Kapitel 4.6 beschrieben. Dieses Kapitel erläutert spezifische Modifikationen des Standardkampfes.",
+    "page": 37
+  },
+  {
+    "id": "5.1",
+    "title": "Angriffs-Varianten",
+    "body": "Dieses Kapitel erläutert spezifische Modifikationen des Standardkampfes bezogen auf die Angriffsaktion.\n 1. Fernkampf (Ranged Combat) Charaktere mit dieser Fähigkeit können die Fähigkeit „Ranged Combat“ durchführen, sofern diese in der Back-Row liegen. Dies zählt als Kampfaktion „Angriff“ und darf nur auf Charaktere in der gleichen Lane in der zugehörigen War Zone erfolgen. Sie verbraucht eine Aktion für die Runde. Es wird keine Blockreaktion durch einen Ranged Combat Angriff ausgelöst.\n\n 2. Gezielter Stich (Targeted Strike) Ein Charakter mit dieser Fähigkeit darf bei der Deklaration des Angriffs entscheiden, ob er den Herrscher oder einen Charakter in der gegnerischen War Zone (in derselben Lane) angreift. Wird ein Charakter als Angriffsziel gewählt, wird dieser zu einem Block gezwungen. Dies gilt selbst dann, wenn diesem keine Blockaktion mehr zur Verfügung steht. Sofern noch verfügbar, wird die Aktion des blockenden Charakters verbraucht und er wird geturned, als wäre regulär ein Block angesagt worden. Gezielter Stich ist keine ausgelöste Fähigkeit, sondern eine Modifizierung der Angriffsdeklaration. Daher wird sie nicht durch Fähigkeiten beeinflusst, die ein Anvisieren des blockenden Charakters unterbinden (z. B. „Untargetable“ oder „Spectral Ward“).\n\n 3. Zweihändiger Kampf (Two-Handed Combat) Ein Charakter mit dieser Fähigkeit verfügt abweichend von der Grundregel über zwei Aktionen pro Runde anstelle von einer. Wählt der Spieler für diesen Charakter die Option „Angriff“ (siehe Kapitel 3.1.4 Schritt 2), muss er festlegen, ob eine oder zwei Angriffsaktionen erfolgen. Werden zwei Angriffe deklariert, werden beide verfügbaren Aktionen des Charakters verbraucht. Für jede deklarierte Angriffsaktion erhält der verteidigende Spieler die Möglichkeit, eine separate Blockreaktion zu deklarieren (sofern er über genügend blockfähige Charaktere verfügt). Die Schadenszuweisung erfolgt für alle Angriffsaktionen dieses Charakters gleichzeitig. Beispiel: Ein Charakter mit Two-Handed Combat (POW/HP 3/3) ist handelnder Charakter und hat noch beide Aktionen offen. Der Spieler deklariert zwei Angriffe gleichzeitig. Dem Gegner steht für jeden der beiden Angriffe eine Blockreaktion zur Verfügung. Er besitzt nur einen blockfähigen Charakter (POW/HP 2/2) und deklariert diesen als Blocker für den ersten Angriff. Der zweite Angriff bleibt ungeblockt. Schadensresultat:\n 1. Der Blocker erleidet 3 Schaden (POW des Angreifers).\n 2. Der gegnerische Herrscher erleidet 3 Schaden (POW des Angreifers durch den ungeblockten zweiten Angriff).\n 3. Der Angreifer erleidet 2 Schaden (POW des Blockers).",
+    "page": 37
+  },
+  {
+    "id": "5.2",
+    "title": "Block-Varianten",
+    "body": "Kapitel 3.1.4 definiert die Grundvoraussetzung für Blocker (gleiche War Zone, ungeturned, noch verbleibende Aktion). Folgende Fähigkeiten schränken dies ein:\n\n 1. Flugfähigkeit (Flying) Ein angreifender Charakter mit Flying kann nur von Charakteren geblockt werden, die ebenfalls Flying oder die Fähigkeit Himmelswache (Skyguard) besitzen.\n\n 2. Unblockbar (Unblockable) Ein Charakter mit dieser Fähigkeit kann nicht geblockt werden. Der Angriff löst keine zulässige Blockreaktion aus (siehe Kapitel 3.1.4 Kampfphase)\n\n 3. Barriere (Barrier) Eine Barriere nimmt keinen Slot in der War Zone ein, wird aber der regeltechnisch der zugordnet, in der sie sich befindet. Ist eine Barriere als einziger Charakter in der War Zone eines Spielers, erhalten alle angreifenden Charaktere Targeted Strike mit der Barriere als automatisch ausgewähltem Ziel des Angriffs.",
+    "page": 39
+  },
+  {
+    "id": "5.3",
+    "title": "Erweiterte Schadensermittlung",
+    "body": "Kapitel 3 legt fest, dass Schaden simultan (gleichzeitig) zugefügt wird. Folgende Fähigkeiten ändern diesen Ablauf:\n 1. Erster Schaden (First Damage) Sind am Kampf Charaktere mit First Damage beteiligt, wird ein zusätzliches Schadens-Segement eingefügt: First Damage-Segment: nur Charaktere mit First Damage fügen Schaden zu. Es wird gemäß Kapitel 4.10 ein GSC durchgeführt vor dem normalen Schadenssegment durchgeführt. Normales Segment: Charaktere, die noch keinen Schaden im First Damage- Segment ausgeteilt haben und noch im Spiel befindlich sind, fügen ihren Schaden zu.\n\n 2. Harter Schlag (Punch) Fügt ein Charakter mit Punch einem Blocker Kampfschaden zu und würde dieser Schaden die Aktuellen HP des Blockers übersteigen, wird die Differenz stattdessen dem gegnerischen Herrscher zugefügt. Voraussetzung hierfür ist, dass Angreifer und Blocker zum Zeitpunkt der Schadensverrechnung in der gleichen War Zone platziert sind. Wird der Blocker vorher entfernt, ist als aktuelle HP des Blockers der Wert 0 anzuwenden. Berechnung: Schaden am Herrscher = POW des Angreifers - Aktuelle HP des Blockers.",
+    "page": 39
+  },
+  {
+    "id": "6",
+    "title": "Regelbegriffe",
+    "body": "Eine Übersicht der verwendeten Regelbegriffe findet sich im Anhang I. Eine Auflistung der Zustände findet sich in Anhang II. Eine Auflistung der regeltechnischen Formulierung der Fähigkeiten und Key-Words findet sich in Anhang III. Nachfolgend werden Erläuterungen zu Regelbegriffen dargestellt, welche unabhängig von einzelnen Fähigkeiten, Keywords und Zuständen gültig sind.",
+    "page": 40
+  },
+  {
+    "id": "6.1",
+    "title": "Bestimmung betroffener Karten",
+    "body": "Bezieht sich ein Effekt auf eine oder mehrere Karten, ohne die Begriffe „Ziel“ („target“) oder „wähle“ („choose“) zu verwenden und ohne die betroffenen Karten durch eine eindeutige Regel bereits deterministisch festzulegen, bestimmt der kontrollierende Spieler des Effekts, welche Karten betroffen sind, wenn der Effekt angewendet wird. Diese Bestimmung gilt nicht als Zielwahl und löst dementsprechend keine Fähigkeiten aus, die durch das Anzielen entstehen können und werden auch nicht durch auswahlbeschränkende Effekte beeinflusst. Beispiel: Ein Spell mit Magiewert 4 und folgendem Effekt: „Return a Character to its owners Hand“ wird verrechnet. Im Spiel befinden sich zwei Charaktere jeweils unter Kontrolle des Gegners und der Fähigkeit „Untargetable“. Charakter A hat RES 3, Charakter B hat RES 5. Der Spieler, der den gerade verrechneten Spell kontrolliert, kann nun einen Charakter auswählen, auch wenn dieser beispielsweise nicht angezielt werden darf wegen der Fähigkeit Untargetable. Es erfolgt dennoch ein RES-Check, da dieser darüber bestimmt, ob ein Charakter von einem Effekt tatsächlich betroffen wird. Wählt der Spieler also Charakter A (RES 3 < Magiewert 4), dann wird dieser auf die Hand des Gegners zurückgeschickt. Wählt er Charakter B (RES 5 > Magiewert 4), hat der Spell auf den Charakter B keinen Effekt.",
+    "page": 40
+  },
+  {
+    "id": "6.2",
+    "title": "Zustände (Conditions)",
+    "body": "Zustände (Conditions) sind binäre Keyword-Mechaniken, die durch Effekte im Spiel entstehen. Eine Karte kann einen Zustand entweder haben oder nicht haben; mehrere Instanzen desselben Zustands sind nicht möglich. Zustände können durch Zustands- Counter verursacht werden oder durch Keyword Abilities. Der Zustand selbst tritt jedoch nur einmalig auf, auch wenn mehrere Quellen einen Zustand verursachen. Binäre Spielzustände, die ausschließlich durch Spielregeln entstehen und nicht durch Effekte oder Karten verliehen werden sind keine Zustände in diesem Sinne (insbesondere „turned“ und „bound“).\n\nEine Übersicht der bestehenden Zustände findet sich in Anhang II (Tabelle II.1).",
+    "page": 40
+  },
+  {
+    "id": "7",
+    "title": "Turnierbetrieb",
+    "body": "",
+    "page": 42
+  },
+  {
+    "id": "7.1",
+    "title": "Zweck und Anwendungsbereich",
+    "body": "Dieses Turnierregelwerk regelt die Durchführung von Turnieren für Bluthelden® und ergänzt das Spielregelwerk um organisatorische, formale und verfahrensbezogene Bestimmungen für den kompetitiven Spielbetrieb.\n\nEs dient insbesondere dazu,\n\n • einen einheitlichen, fairen und nachvollziehbaren Turnierablauf sicherzustellen,\n • vergleichbare Wettbewerbsbedingungen für alle Teilnehmer zu schaffen und\n • Regelverstöße, deren Behandlung sowie mögliche Konsequenzen klar zu definieren.\n\nDas Turnierregelwerk findet Anwendung auf sanktionierte Turniere, die von der Turnierleitung ausdrücklich als solche ausgewiesen werden. Für nicht sanktionierte Spiele, Demorunden oder private Veranstaltungen gilt dieses Turnierregelwerk nur insoweit, wie es von der Turnierleitung oder den beteiligten Spielern vereinbart wird.\n\nDas Turnierregelwerk ersetzt nicht das Spielregelwerk von Bluthelden®. Alle spielmechanischen Abläufe, Karteneffekte, Timing-Regeln und Definitionen richten sich ausschließlich nach dem Spielregelwerk sowie dem verbindlichen Kartentext.\n\nHausregeln, abweichende Formate oder vereinfachte Regelungen sind in sanktionierten Turnieren nicht zulässig.",
+    "page": 42
+  },
+  {
+    "id": "7.2",
+    "title": "Verbindlichkeit und Regelhierachie",
+    "body": "Für Turniere gilt folgende Reihenfolge der Verbindlichkeit von Regeln und Entscheidungen:\n 1. Kartentext Der gemäß offiziellem Bluthelden Spoiler (www.bluthelden.com/pages/spoiler) veröffentlichte Regeltext ist verbindlich und hat Vorrang vor allen allgemeinen Regelbeschreibungen sowie vor abweichenden gedruckten Kartentexten.\n 2. Spielregelwerk Das offizielle Spielregelwerk regelt alle spielmechanischen Abläufe, Definitionen, Timing-Strukturen und Interaktionen.\n 3. Turnierregelwerk Dieses Turnierregelwerk regelt Organisation, Ablauf, Verantwortlichkeiten, Regelverstöße und deren Behandlung im Turnierkontext.\n 4. Entscheidungen der Turnierleitung bzw. der Schiedsrichter Entscheidungen der Turnierleitung oder der eingesetzten Schiedsrichter sind\n\n während eines Turniers verbindlich. Sie dienen der Auslegung und Durchsetzung der bestehenden Regeln und sollen die Integrität des Turniers wahren. Im Falle widersprüchlicher Auslegungen innerhalb eines laufenden Turniers ist die Entscheidung der Turnierleitung maßgeblich. Diese Entscheidung gilt für das laufende Turnier, unabhängig davon, ob sie später korrigiert oder präzisiert wird.",
+    "page": 42
+  },
+  {
+    "id": "7.3",
+    "title": "Turnierlevel (Rule Enforcement Level)",
+    "body": "Turniere werden einem Turnierlevel (Rule Enforcement Level, REL) zugeordnet. Das Turnierlevel beschreibt den angestrebten Grad an Regelstrenge, Organisation und Durchsetzung. Das Turnierlevel beeinflusst insbesondere:\n • die Erwartungen an Regelkenntnis der Spieler,\n • den Umgang mit Regelverstößen,\n • die Art und Schwere möglicher Maßnahmen und Strafen,\n • die Auslegung von Fehlerkorrekturen. Die konkreten Turnierlevel sowie deren Anwendung werden von der Turnierleitung vor Turnierbeginn festgelegt und den Spielern bekanntgegeben. Grundsätzlich gilt:\n • Bei niedrigeren Turnierleveln steht der reibungslose Spielablauf und das Spielerlebnis im Vordergrund.\n • Bei höheren Turnierleveln stehen Regelkonformität, Wettbewerbsintegrität und einheitliche Durchsetzung im Vordergrund. Unabhängig vom Turnierlevel sind absichtliche Regelverstöße, Täuschung oder unsportliches Verhalten in keinem Turnier zulässig und werden entsprechend behandelt.\n\nEs werden 4 REL unterschieden: REL 0 – Casual Play (nicht sanktioniert) REL 1 – Basic Play REL 2 – Advanced Play REL 3 – Competetive Play",
+    "page": 43
+  },
+  {
+    "id": "7.4",
+    "title": "Turniersoftware und Ergebnisübermittlung",
+    "body": "Sanktionierte Turniere von Bluthelden® müssen mit der offiziellen Bluthelden- Turniersoftware durchgeführt und ausgewertet werden. Die Nutzung dieser Software ist Voraussetzung für die Anerkennung eines Turniers als sanktioniertes Turnier. Die offizielle Turniersoftware dient insbesondere:\n\n • der Verwaltung von Spielern, Runden und Paarungen,\n • der Erfassung und Auswertung von Match-Ergebnissen,\n • der einheitlichen Dokumentation des Turnierverlaufs,\n • der offiziellen Ergebnisübermittlung und Archivierung. Turniere, die nicht mit der offiziellen Bluthelden-Turniersoftware durchgeführt oder nicht ordnungsgemäß über diese Software reportet werden, gelten nicht als sanktioniert, unabhängig davon, ob sie organisatorisch oder öffentlich als Turnier bezeichnet werden. Solche Veranstaltungen sind als Casual Play einzuordnen. Die Turnierleitung ist dafür verantwortlich, die Turniersoftware korrekt zu verwenden und die vollständigen und korrekten Turnierdaten zu übermitteln. Spieler sind verpflichtet, an der Nutzung der Turniersoftware mitzuwirken, insbesondere bei der Ergebnisbestätigung und der korrekten Identifikation ihrer Matches. Informationen zur offiziellen Bluthelden-Turniersoftware, zu deren Nutzung sowie zu aktuellen Versionen und Zugangsbedingungen sind unter www.bluthelden.net verfügbar.",
+    "page": 43
+  },
+  {
+    "id": "8",
+    "title": "Turnierorganisation und Rollen",
+    "body": "",
+    "page": 44
+  },
+  {
+    "id": "8.1",
+    "title": "Turnierleitung",
+    "body": "Die Turnierleitung ist die organisatorisch verantwortliche Instanz eines Turniers. Sie stellt sicher, dass das Turnier nach den Vorgaben dieses Turnierregelwerks durchgeführt wird, und trägt die Verantwortung für Ablauf, Zeitplan, Kommunikation sowie die Einhaltung der grundlegenden Anforderungen an Fairness und Turnierintegrität. Die Turnierleitung ist verpflichtet, alle turnierrelevanten Rahmenbedingungen so festzulegen und bekanntzugeben, dass jeder Teilnehmer das Turnier unter gleichen und nachvollziehbaren Bedingungen bestreiten kann. Dies umfasst insbesondere das Turnierformat, das Turnierlevel (REL), die Matchstruktur, die Zeitregeln sowie organisatorische Anforderungen an Decklisten, Spielmaterial und Ergebnisübermittlung.",
+    "page": 44
+  },
+  {
+    "id": "8.1.1",
+    "title": "Festlegung und Bekanntgabe des Turnierrahmens",
+    "body": "Die Turnierleitung legt vor Turnierbeginn mindestens folgende Punkte fest und gibt sie in geeigneter Form bekannt:\n • das gespielte Turnierformat (z. B. Constructed oder Limited sowie die jeweils verwendete Variante),\n • die Matchstruktur,\n\n • die Zeitregeln (insbesondere Rundenlänge),\n • das Turnierlevel (REL) und die daraus folgenden Erwartungen an Regelstrenge und Fehlerbehandlung,\n • den Ablauf der Ergebnisübermittlung sowie ggf. die Rundenanzahl, Cut-Regeln oder Finalrundenstruktur. Änderungen an diesen Rahmenbedingungen nach Turnierbeginn sind nur zulässig, wenn sie zwingend erforderlich sind, den Turnierablauf nicht unverhältnismäßig beeinträchtigen und für alle Teilnehmer gleichermaßen gelten. Änderungen sind unverzüglich bekanntzugeben.",
+    "page": 44
+  },
+  {
+    "id": "8.1.2",
+    "title": "Verantwortung für Turnierablauf und Zeitmanagement",
+    "body": "Die Turnierleitung organisiert den Turnierablauf, erstellt Paarungen, verwaltet Rundenstarts und -enden und stellt die Erfassung von Ergebnissen sicher. Sie trägt die Verantwortung dafür, dass Runden unter den festgelegten Zeitbedingungen durchgeführt werden können und dass organisatorische Verzögerungen minimiert werden. Die Turnierleitung ist berechtigt, angemessene organisatorische Maßnahmen zu treffen, um den Turnierablauf sicherzustellen. Dazu gehören insbesondere das Festlegen von Sitzordnungen, die Zuweisung von Matchbereichen, das Anordnen von Pausen sowie das Erteilen oder Verweigern von Zeitverlängerungen im Rahmen der Zeitregeln.",
+    "page": 45
+  },
+  {
+    "id": "8.1.3",
+    "title": "Entscheidungsbefugnis und Durchsetzung",
+    "body": "Die Turnierleitung setzt dieses Turnierregelwerk durch. Sie kann hierfür Schiedsrichter (Judges) einsetzen und ihnen Aufgaben übertragen. Sofern Judges eingesetzt sind, koordiniert die Turnierleitung deren Einsatz und stellt sicher, dass Entscheidungen und Maßnahmen im Turnier einheitlich angewendet werden. Sind mehrere Judges im Einsatz, kann die Koordination und Turnierleitung durch einen Headjudge übernommen werden. Dieser ist in Fragen der Regelauslegung und Turnierregelwerksanwendung die letzte Instanz. Bei organisatorischen Streitfragen entscheidet die Turnierleitung verbindlich. Bei Regelfragen oder Regelverstößen gilt die in Kapitel 7.2 definierte Regelhierarchie. In jedem Fall sind Entscheidungen der Turnierleitung für das laufende Turnier verbindlich, um einen Abschluss des Turniers unter konsistenten Bedingungen zu gewährleisten.",
+    "page": 45
+  },
+  {
+    "id": "8.2",
+    "title": "Schiedsrichter (Judges)",
+    "body": "Schiedsrichter (Judges) sind von der Turnierleitung eingesetzte Personen, die im Turnierbetrieb Entscheidungen zu Regelfragen treffen, die Einhaltung der Regeln überwachen und bei Regelverstößen Maßnahmen nach Maßgabe dieses Turnierregelwerks anwenden. Judges dienen dem Schutz der Turnierintegrität und dem reibungslosen Turnierablauf.\n\nSofern Judges eingesetzt sind, handeln sie im Auftrag der Turnierleitung innerhalb ihres Zuständigkeitsbereichs. Ihre Entscheidungen sind für das laufende Match und den laufenden Turnierablauf verbindlich, sofern sie nicht durch ein zulässiges Einspruchsverfahren ersetzt oder aufgehoben werden.",
+    "page": 45
+  },
+  {
+    "id": "8.2.1",
+    "title": "Zuständigkeit im Match",
+    "body": "Ein Judge ist zuständig, wenn ein Spieler eine Regelfrage stellt, ein Spielzustand unklar ist, ein Regelverstoß vermutet wird oder der Turnierablauf im Matchkontext beeinträchtigt wird. Der Judge stellt den relevanten Sachverhalt fest, trifft eine Entscheidung und weist die Spieler an, wie das Match fortzuführen ist. Ein Judge kann ein laufendes Match unterbrechen, soweit dies erforderlich ist, um eine Entscheidung zu treffen, einen Spielzustand zu klären oder eine Maßnahme anzuwenden. Eine Unterbrechung ist auf das notwendige Maß zu begrenzen.",
+    "page": 46
+  },
+  {
+    "id": "8.2.2",
+    "title": "Regelauslegung und Verfahrensentscheidungen",
+    "body": "Judges legen Regeln auf Grundlage des Kartentextes und des Spielregelwerks aus und wenden turnierbezogene Vorgaben dieses Turnierregelwerks an. Bei der Auslegung ist der Zweck der Regel zu berücksichtigen, insbesondere die Sicherstellung eines fairen, konsistenten und nachvollziehbaren Turnierablaufs. Wenn ein Sachverhalt nicht vollständig geklärt werden kann, trifft der Judge eine Entscheidung nach bestem Wissen und Gewissen auf Grundlage der vorliegenden Informationen. Spieler sind verpflichtet, hierbei mitzuwirken und Fragen wahrheitsgemäß zu beantworten. Judges dürfen keine Informationen preisgeben oder durch ihr Verhalten nahelegen, die verdeckte Informationen betreffen. Fragen an Spieler sind so zu stellen, dass sie der Sachverhaltsklärung dienen und keine unzulässigen Hinweise geben.",
+    "page": 46
+  },
+  {
+    "id": "8.2.3",
+    "title": "Behandlung von Regelverstößen",
+    "body": "Stellt ein Judge einen Regelverstoß fest oder wird ihm ein solcher gemeldet, ordnet er den Vorfall einer Fehlerkategorie nach Kapitel 12 zu und wendet Maßnahmen nach Kapitel 13 an. Soweit erforderlich und zulässig, ordnet er Fehlerkorrekturen nach Kapitel 14 an. Ein Judge dokumentiert Vorfälle, wenn dies nach Schweregrad, Wiederholung, Eskalationsrisiko oder Turnierlevel erforderlich ist. Die Dokumentation soll eine spätere Nachvollziehbarkeit von Entscheidungen ermöglichen und der Turnierleitung helfen, einheitliche Standards umzusetzen.",
+    "page": 46
+  },
+  {
+    "id": "8.2.4",
+    "title": "Fehlen von Judges",
+    "body": "Sind keine Judges eingesetzt, übernimmt die Turnierleitung die Aufgaben der Schiedsrichter. Alle Regel- und Verfahrensentscheidungen, die in diesem Turnierregelwerk Judges zugewiesen sind, werden dann von der Turnierleitung getroffen.",
+    "page": 46
+  },
+  {
+    "id": "8.3",
+    "title": "Spielerpflichten",
+    "body": "Spieler sind verpflichtet, durch ihr Verhalten und ihre Spielweise zur Integrität des Turniers beizutragen. Sie tragen Verantwortung für ihr eigenes Spielmaterial, für die regelkonforme Durchführung ihrer Spielhandlungen und für eine Kommunikation, die dem Gegner eine regelkonforme Interaktion ermöglicht. Spieler dürfen die Regeln nicht absichtlich verletzen, keine Täuschungshandlungen vornehmen und keine Verfahrensregeln missbrauchen. Unabhängig vom Turnierlevel ist von allen Spielern ein respektvoller und fairer Umgang zu erwarten.",
+    "page": 47
+  },
+  {
+    "id": "8.3.1",
+    "title": "Regelkenntnis und Mitwirkung",
+    "body": "Spieler müssen die im Turnier geltenden Regelwerke in einem Umfang kennen, der eine ordnungsgemäße Teilnahme ermöglicht. Unkenntnis einer Regel befreit nicht von der Pflicht zur regelkonformen Spielweise. Spieler sind verpflichtet, bei Regelfragen, der Klärung eines Spielzustands oder der Aufklärung eines Vorfalls aktiv mitzuwirken. Aussagen gegenüber Turnierleitung oder Judges sind wahrheitsgemäß zu machen. Das bewusste Zurückhalten relevanter Informationen, das Irreführen oder das widersprüchliche Darstellen eines Sachverhalts kann als schwerwiegender Regelverstoß gewertet werden.",
+    "page": 47
+  },
+  {
+    "id": "8.3.2",
+    "title": "Klarer Spielzustand",
+    "body": "Spieler müssen ihren Spielbereich so führen, dass der Spielzustand jederzeit nachvollziehbar ist. Dazu gehört insbesondere, dass Karten in den vorgesehenen Bereichen liegen, Zonen eindeutig erkennbar sind und die Bedeutung von Markern, Countern, Zuständen und sonstigen Hilfsmitteln klar ist. Spieler sind verpflichtet, den Spielzustand in angemessener Zeit zu klären, wenn Unklarheiten entstehen. Besteht Uneinigkeit oder ist die Klärung nicht möglich, ist unverzüglich ein Judge bzw. die Turnierleitung zu rufen. Das Spiel darf nicht auf Grundlage eines unklaren oder strittigen Zustands „weitergespielt“ werden, wenn dadurch ein Vorteil entstehen kann.",
+    "page": 47
+  },
+  {
+    "id": "8.3.3",
+    "title": "Kommunikation und Nachvollziehbarkeit von Spielhandlungen",
+    "body": "Spieler müssen Spielhandlungen so ausführen, dass der Gegner diese erkennen, verstehen und - sofern vorgesehen - darauf reagieren kann. Dies betrifft insbesondere Handlungen, die Timing-Fenster, Priorität oder Reaktionsmöglichkeiten betreffen. Spieler dürfen Spielhandlungen nicht in einer Weise „zusammenziehen“, beschleunigen oder verschleiern, die dem Gegner eine regelkonforme Reaktion praktisch unmöglich macht. Wenn zur ordnungsgemäßen Interaktion eine eindeutige Ansage oder eine erkennbare Handlungspause erforderlich ist, muss der Spieler diese ermöglichen.",
+    "page": 47
+  },
+  {
+    "id": "8.3.4",
+    "title": "Verwendung von Spielhilfen (Marker, Tokens, Notizen)",
+    "body": "Spieler dürfen Marker, Tokens und sonstige Spielhilfen verwenden, sofern sie den Spielzustand eindeutig darstellen und nicht zu Verwechslungen führen. Die Bedeutung von Spielhilfen muss für den Gegner auf Nachfrage eindeutig erklärbar sein.\n\nSpielhilfen dürfen nicht dazu genutzt werden, verdeckte Informationen zu markieren oder abzuleiten. Insbesondere ist jede Form von Markierung, die Rückschlüsse auf verdeckte Informationen ermöglicht (z. B. unterschiedliche Sleeves, gezielte Abnutzung, erkennbare Kartenrücken), unzulässig. Ob und in welchem Umfang Notizen zulässig sind, wird durch die Turnierleitung im Rahmen der Turnierankündigung festgelegt, sofern dieses Turnierregelwerk hierzu keine zwingenden Vorgaben macht.",
+    "page": 47
+  },
+  {
+    "id": "8.3.5",
+    "title": "Schutz verdeckter Informationen und ordnungsgemäßer Umgang mit Spielmaterial",
+    "body": "Spieler müssen verdeckte Informationen so handhaben, dass der Gegner keinen unzulässigen Einblick erhält. Handkarten und andere verdeckte Bereiche sind so zu halten und zu verwalten, dass die Anzahl und Identität verdeckter Karten nicht unbeabsichtigt offenbart wird. Spieler sind verpflichtet, nur zulässiges Spielmaterial zu verwenden und dieses in einem Zustand zu halten, der keine Markierungen oder Erkennungsmerkmale erzeugt. Entstehen während des Turniers Probleme mit Spielmaterial (z. B. beschädigte Sleeves), ist dies unverzüglich der Turnierleitung oder einem Judge zu melden.",
+    "page": 48
+  },
+  {
+    "id": "8.3.6",
+    "title": "Aufruf von Turnierleitung/Judges und Verbot des Missbrauchs",
+    "body": "Bei Regelfragen, Unklarheiten oder Verdacht auf einen Regelverstoß sollen Spieler unverzüglich die Turnierleitung oder einen Judge rufen. Spieler dürfen einen Aufruf nicht als Druckmittel oder zur gezielten Verzögerung missbrauchen. Ein Spieler darf nicht absichtlich abwarten, um aus einem vermuteten Fehler später einen größeren Vorteil zu ziehen. Wird ein Fehler erkannt, ist er zeitnah anzusprechen. Die Turnierleitung oder ein Judge entscheidet über die weitere Behandlung.",
+    "page": 48
+  },
+  {
+    "id": "9",
+    "title": "Turniermaterial und Spielvorbereitung",
+    "body": "",
+    "page": 48
+  },
+  {
+    "id": "9.1",
+    "title": "Zugelassenes Spielmaterial",
+    "body": "In sanktionierten Turnieren dürfen ausschließlich zugelassene Spielmaterialien verwendet werden. Jeder Spieler ist dafür verantwortlich, dass sein gesamtes Spielmaterial den Anforderungen dieses Turnierregelwerks entspricht und keine unzulässigen Vorteile erzeugt. Zugelassen sind ausschließlich Originalkarten von Bluthelden®. Proxys, selbstgedruckte Karten, handschriftliche Ersatzkarten oder digitale Darstellungen physischer Karten sind in sanktionierten Turnieren nicht zulässig, sofern sie nicht ausdrücklich von der Turnierleitung genehmigt wurden (z. B. Ausgegeben als temporärer Ersatz bei beschädigten Karten durch die Turnierleitung selbst).\n\nZum Schutz der Karten und zur Sicherstellung eines fairen und einheitlichen Turnierablaufs wird die Verwendung von Kartenhüllen (Sleeves) ausdrücklich empfohlen. Kartenhüllen sind jedoch nicht verpflichtend, sofern der Zustand der Karten keine Markierungen, Abnutzung oder sonstigen Unterscheidungsmerkmale aufweist. Alle Karten eines Decks müssen sich in einem Zustand befinden, der keine Rückschlüsse auf ihre Identität oder Zugehörigkeit zulässt. Karten dürfen insbesondere nicht durch Abnutzung, Markierungen, Verformungen oder sonstige Merkmale unterscheidbar sein.",
+    "page": 48
+  },
+  {
+    "id": "9.1.1",
+    "title": "Sleeves und Kartenhüllen",
+    "body": "Sofern Karten in Hüllen (Sleeves) verwendet werden, müssen diese folgende Anforderungen erfüllen:\n • Alle Karten eines Decks müssen in identischen Sleeves stecken. Dies umfasst sowohl für das Spell-Deck als auch das Pool-Deck.\n • Sleeves dürfen keine Markierungen, Beschriftungen, Symbole oder Abnutzungen aufweisen, die einzelne Karten identifizierbar machen.\n • Transparente Sleeves sind nur zulässig, wenn Kartenrückseiten vollständig identisch sind und keine Rückschlüsse auf Kartenidentität oder Kartenart erlauben. Beschädigte oder auffällige Sleeves sind auf Aufforderung der Turnierleitung oder eines Judges unverzüglich zu ersetzen.",
+    "page": 49
+  },
+  {
+    "id": "9.1.2",
+    "title": "Tokens, Marker und sonstige Spielhilfen",
+    "body": "Tokens, Marker, Counter und sonstige Spielhilfen dürfen verwendet werden, sofern sie den Spielzustand eindeutig und nachvollziehbar darstellen. Ihre Bedeutung muss für beide Spieler jederzeit klar erkennbar sein. Spielhilfen dürfen keine verdeckten Informationen darstellen oder ersetzen und dürfen nicht dazu geeignet sein, Rückschlüsse auf verdeckte Karten oder Spielzustände zu ziehen. Die Turnierleitung kann die Verwendung bestimmter Spielhilfen untersagen, wenn sie geeignet sind, Verwirrung zu stiften oder den Turnierablauf zu beeinträchtigen.",
+    "page": 49
+  },
+  {
+    "id": "9.2",
+    "title": "Deckbau und Turnierlegalität",
+    "body": "Die grundlegenden Regeln zum Deckbau sind im Spielregelwerk von Bluthelden® festgelegt. Dieses Turnierregelwerk ergänzt diese Vorgaben um verbindliche Anforderungen für sanktionierte Turniere. Ein Deck gilt in einem sanktionierten Turnier nur dann als turnierlegal, wenn es:\n • den im Spielregelwerk definierten Deckbauvorgaben entspricht,\n\n • ausschließlich zugelassene Karten enthält,\n • der für das jeweilige Turnier offiziell festgelegten Banned- und Restricted-Liste entspricht,\n • während des gesamten Turniers unverändert verwendet wird, sofern dieses Turnierregelwerk oder eine Anordnung der Turnierleitung nichts anderes erlaubt. Die für ein sanktioniertes Turnier geltende Banned- und Restricted-Liste ist fest an dieses Turnier gebunden und Bestandteil der offiziellen Turnierausschreibung. Sie ist für alle Teilnehmer verbindlich. Eine Abweichung von der offiziell festgelegten Banned- und Restricted-Liste ist in sanktionierten Turnieren nicht zulässig. Turniere, in denen bewusst von der geltenden Banned- und Restricted-Liste abgewichen wird, gelten nicht als sanktioniert und sind als Casual Play einzuordnen, auch wenn sie organisatorisch oder öffentlich als Turnier bezeichnet werden. Die Turnierleitung ist verpflichtet, die für das Turnier gültige Banned- und Restricted- Liste vor Turnierbeginn eindeutig bekanntzugeben oder durch einen eindeutigen Verweis auf eine offizielle Quelle zugänglich zu machen.",
+    "page": 49
+  },
+  {
+    "id": "9.3",
+    "title": "Decklisten",
+    "body": "Sofern durch die Turnierleitung vorgesehen oder durch dieses Turnierregelwerk vorgeschrieben, müssen Spieler vor Turnierbeginn eine Deckliste einreichen. Die Deckliste dient der Überprüfung der Turnierlegalität des Decks und der Sicherstellung einheitlicher Wettbewerbsbedingungen.",
+    "page": 50
+  },
+  {
+    "id": "9.3.1",
+    "title": "Anforderungen an Decklisten",
+    "body": "Eine Deckliste muss vollständig, eindeutig und lesbar sein. Sie muss mindestens enthalten:\n • den Namen des Spielers,\n • Name des Spielers gemäß Turniersoftware,\n • die vollständige Auflistung aller Karten des Decks einschließlich Kartenanzahl,\n • gegebenenfalls zusätzliche Angaben, sofern diese für das Turnierformat erforderlich sind (z. B. getrennte Auflistung eines Sealed Pools). Unvollständige, unleserliche oder widersprüchliche Decklisten gelten als fehlerhaft.",
+    "page": 50
+  },
+  {
+    "id": "9.3.2",
+    "title": "Abgabe und Korrekturen",
+    "body": "Decklisten sind zum von der Turnierleitung festgelegten Zeitpunkt abzugeben. Nach Turnierbeginn dürfen Decklisten grundsätzlich nicht mehr geändert werden.\n\nWerden Fehler vor Turnierbeginn festgestellt, kann die Turnierleitung eine Korrektur zulassen. Fehler, die erst nach Turnierbeginn festgestellt werden, werden gemäß Kapitel 12 und 13 als Regelverstoß behandelt.",
+    "page": 50
+  },
+  {
+    "id": "9.4",
+    "title": "Deckchecks",
+    "body": "Die Turnierleitung oder eingesetzte Judges sind berechtigt, Deckchecks durchzuführen, um die Übereinstimmung zwischen Deck und Deckliste sowie die Turnierlegalität des verwendeten Spielmaterials zu überprüfen. Deckchecks können:\n • stichprobenartig,\n • planmäßig in bestimmten Turnierabschnitten oder\n • aufgrund eines konkreten Verdachts durchgeführt werden.",
+    "page": 51
+  },
+  {
+    "id": "9.4.1",
+    "title": "Umfang von Deckchecks",
+    "body": "Ein Deckcheck kann insbesondere umfassen:\n • die Überprüfung der Kartenanzahl,\n • die Übereinstimmung mit der eingereichten Deckliste,\n • die Einhaltung von Seltenheits-, Format- und sonstigen Deckbauregeln,\n • die Prüfung von Sleeves und Karten auf Markierungen oder Abnutzung.\n\nDeckchecks sollen den Turnierablauf möglichst wenig beeinträchtigen. Entstehende Verzögerungen können im Rahmen der Zeitregeln berücksichtigt werden.",
+    "page": 51
+  },
+  {
+    "id": "9.4.2",
+    "title": "Abweichungen und Konsequenzen",
+    "body": "Werden bei einem Deckcheck Abweichungen festgestellt, entscheidet die Turnierleitung oder der Judge über die Einordnung des Vorfalls als Regelverstoß und über das weitere Vorgehen gemäß Kapitel 12 und 13 und in Abhängigkeit vom Rules Enforcement Level. Es kann angeordnet werden, dass ein Deck in einen regelkonformen Zustand versetzt wird. Ein solcher Eingriff entbindet den Spieler nicht von möglichen Maßnahmen oder Strafen.",
+    "page": 51
+  },
+  {
+    "id": "10",
+    "title": "Match- und Rundenstruktur",
+    "body": "",
+    "page": 52
+  },
+  {
+    "id": "10.1",
+    "title": "Begriffsdefinition",
+    "body": "Für den Turnierbetrieb von Bluthelden® gelten die folgenden Begriffsdefinitionen: Ein Spiel ist eine einzelne, in sich abgeschlossene Partie von Bluthelden®, die gemäß dem Spielregelwerk begonnen, durchgeführt und beendet wird. Ein Match ist die kleinste für die Turnierwertung relevante Einheit. Ein Match besteht in Bluthelden®-Turnieren grundsätzlich aus genau einem Spiel. Eine Runde ist ein Turnierabschnitt, in dem mehrere Matches parallel ausgetragen werden. Eine Runde endet, wenn alle zugehörigen Matches abgeschlossen oder gemäß den Zeitregeln entschieden wurden.",
+    "page": 52
+  },
+  {
+    "id": "10.2",
+    "title": "Matchformate",
+    "body": "Bluthelden® ist prinzipiell auf das Matchformat Best-of-One (BO1) ausgelegt. Ein einzelnes Spiel bildet die vollständige Entscheidungsgrundlage eines Matches. Abweichungen vom Best-of-One-Format sind nur zulässig, wenn sie von der Turnierleitung ausdrücklich vorgesehen und organisatorisch abgesichert sind.\n\nAls optionale Ausnahme kann die Turnierleitung für klar abgegrenzte Turnierabschnitte das Matchformat Best-of-Three (BO3) festlegen. Ein Best-of-Three-Match besteht aus bis zu drei Spielen. Das Match gilt als gewonnen, sobald ein Spieler zwei Spiele gewonnen hat. Aufgrund der Spielstruktur und Spieldauer von Bluthelden® erfordern Best-of-Three- Matches einen deutlich erhöhten Zeitaufwand. Best-of-Three-Matches sollen daher nur dann angesetzt werden, wenn:\n • für den betreffenden Turnierabschnitt kein festes Zeitlimit erforderlich ist, oder\n • die Turnierleitung sicherstellen kann, dass ausreichend Zeit für die vollständige Austragung aller möglichen Spiele zur Verfügung steht. Der Einsatz von Best-of-Three-Matches kann eingesetzt werden für:\n • Finalrunden nach einem Cut (z. B. Top 4/ Top 8),\n • Turniere mit Single-Elimination-Struktur,\n • Einladungsturniere (Invite Only),\n • Turnierabschnitte mit besonders hohen Wettbewerbsanforderungen.\n\nBest-of-Three-Matches werden nicht empfohlen für reguläre Runden mit strikt festgelegten Rundenzeiten.",
+    "page": 52
+  },
+  {
+    "id": "10.3",
+    "title": "Spielvorbereitung und Startspielerbestimmung",
+    "body": "Vor dem Spielstart sind Pool-Deck und Spell-Deck durch Mischen in eine zufällige Reihenfolge zu bringen. Dies sollte nicht mehr als 3 Minuten in Anspruch nehmen. Das Pool-Deck und das Spell-Deck werden jeweils anschließend dem Gegner zum einmaligen Abheben (cuten) präsentiert. Entscheidet sich der Gegner für ein Abheben, ist der ehemals oben befindliche Deckbestandteil mit dem unteren Deckbestandteil zu tauschen. Der Spielstart erfolgt dann gemäß den Vorgaben des Spielregelwerks. Besteht ein Match aus mehreren Spielen (z. B. bei Best-of-Three), wird der Startspieler für das zweite und alle folgenden Spiele nicht zufällig bestimmt, stattdessen entscheidet der Spieler, der das vorherige Spiel verloren hat. Im Fall eines Unentschiedens bleibt der Startspieler des vorherigen Spiels unverändert.",
+    "page": 53
+  },
+  {
+    "id": "10.4",
+    "title": "Zeitregeln",
+    "body": "Die Turnierleitung legt die Rundenlänge vor Turnierbeginn fest und gibt diese den Spielern bekannt. Die Rundenlänge ist so zu wählen, dass ein Match im vorgesehenen Turnierlevel unter normalen Umständen vollständig ausgespielt werden kann. Eine Rundenzeit 50 Minuten sollte in der Regel nicht unterschritten werden. Die Zeitmessung beginnt mit dem offiziellen Start der Runde und endet mit dem von der Turnierleitung bekanntgegebenen Zeitablauf.",
+    "page": 53
+  },
+  {
+    "id": "10.4.1",
+    "title": "Zeitverlängerungen",
+    "body": "Die Turnierleitung oder ein Judge kann einem Match eine Zeitverlängerung gewähren, wenn eine Verzögerung des Spiels durch nicht von den Spielern verursachten Umständen entsteht, insbesondere durch:\n • einen Judge-Call,\n • einen Deckcheck,\n • organisatorische Unterbrechungen. Zeitverlängerungen dienen dem Ausgleich solcher Verzögerungen und sind auf das notwendige Maß zu begrenzen.",
+    "page": 53
+  },
+  {
+    "id": "10.4.2",
+    "title": "Ablauf bei Zeitende",
+    "body": "Erreicht eine Runde ihr Zeitende, werden laufende Matches gemäß den von der Turnierleitung vor Turnierbeginn festgelegten Verfahren behandelt.\n\nKommt es innerhalb des vorgesehenen Zeitrahmens zu keiner Entscheidung, werden für das laufende Spiel zwei zusätzliche Spielrunden gewährt, beginnend nach der aktuellen Runde. Steht nach den Extrarunden kein Sieger fest, resultiert das Spiel und in der Regel damit auch das Match in einem Unentschieden. Unabhängig von der Durchführung zusätzlicher Spielrunden sind beide Spieler verpflichtet, das Spiel zügig und ohne unnötige Verzögerungen fortzuführen. Für Matches im Best-of-Three-Format sollte grundsätzlich auf ein Zeitlimit verzichtet werden, sofern nicht ein spezieller Turniermodus ausdrücklich etwas anderes vorsieht. Sofern in einem Best-of-Three Match nach Ablauf der Zeit kein Sieger feststeht, gewinnt der Spieler mit den meisten gewonnenen Spielen das Match. Besteht auch hier Gleichstand, wird das Match als unentschieden gewertet.",
+    "page": 53
+  },
+  {
+    "id": "11",
+    "title": "Turnierformate",
+    "body": "Dieses Kapitel beschreibt die in sanktionierten Turnieren von Bluthelden® zulässigen Turnierformate. Ein Turnierformat legt fest, wie Decks gebildet werden, welche Karten zulässig sind und unter welchen strukturellen Bedingungen ein Turnier ausgetragen wird. Die grundlegenden Deckbau- und Spielregeln sind im Spielregelwerk definiert. Dieses Kapitel ergänzt diese Vorgaben ausschließlich um formatbezogene Festlegungen für den Turnierbetrieb. Die Turnierleitung ist verpflichtet, das verwendete Turnierformat vor Turnierbeginn eindeutig festzulegen und bekanntzugeben.",
+    "page": 54
+  },
+  {
+    "id": "11.1",
+    "title": "Constructed",
+    "body": "In Constructed-Formaten verwenden Spieler vorab zusammengestellte Decks, die den Vorgaben des Spielregelwerks sowie den für das Turnier geltenden Einschränkungen entsprechen.",
+    "page": 54
+  },
+  {
+    "id": "11.1.1",
+    "title": "Allgemeine Grundsätze",
+    "body": "Für alle Constructed-Turniere gilt:\n • Decks müssen vor Turnierbeginn vollständig zusammengestellt sein.\n • Änderungen am Deck nach Turnierbeginn bzw. Abgabe der Deckliste sind nicht zulässig.\n • Es gilt ausschließlich die für das jeweilige Turnier offiziell festgelegte Banned- und Restricted-Liste (siehe Kapitel 9.2).",
+    "page": 54
+  },
+  {
+    "id": "11.1.2",
+    "title": "Traditional Bluthelden Constructed",
+    "body": "Traditional Bluthelden Constructed ist das primäre und vorgesehene Constructed- Format für sanktionierte Turniere von Bluthelden®. Es können Karten aus allen bisher veröffentlichten Sets und Erweiterungen sowie für sanktionierte Turniere freigegebene Promo-Karten verwendet werden. In diesem Format gelten die vollständigen Deckbauvorgaben des Spielregelwerks ohne zusätzliche Einschränkungen, abgesehen von der jeweils gültigen Banned- und Restricted-Liste.\n\nEin Deck im Traditional Constructed darf eine Größe von 60 Karten nicht unterschreiten und eine Größe von 80 Karten nicht überschreiten. Herrscher und Rune zählen zur Gesamtdeckgröße. Das Pool-Deck muss mindestens 18, höchstens jedoch 20 Karten aufweisen. Das Spell-Deck muss mindestens 40 Karten enthalten.",
+    "page": 55
+  },
+  {
+    "id": "11.2",
+    "title": "Limited",
+    "body": "In Limited-Formaten werden Decks ganz oder teilweise erst im Rahmen des Turniers aus einem vorgegebenen Kartenpool gebildet. Die Turnierleitung legt vor Turnierbeginn fest, welches Limited-Format verwendet wird und wie die Kartenverteilung erfolgt.",
+    "page": 55
+  },
+  {
+    "id": "11.2.1",
+    "title": "Allgemeine Grundsätze",
+    "body": "Für alle Limited-Turniere gilt:\n • Spieler dürfen nur Karten aus dem ihnen zugewiesenen Kartenpool verwenden.\n • Die Deckzusammenstellung erfolgt innerhalb eines von der Turnierleitung festgelegten Zeitrahmens.\n • Nach Abschluss der Deckzusammenstellung gelten die gleichen Anforderungen an Deckkonsistenz und Turnierlegalität wie in Constructed-Formaten, mit Ausnahme der modifizierten Deckgrößen.",
+    "page": 55
+  },
+  {
+    "id": "11.2.2",
+    "title": "Starter Limited",
+    "body": "Starter Limited ist ein Limited-Format, bei dem Spieler mit vorgegebenen Starterprodukten (Starterdecks) spielen. Die Turnierleitung legt fest:\n • welche Starterprodukte verwendet werden,\n • ob und in welchem Umfang Anpassungen am Deck erlaubt sind (bspw. Durch ergänzende Booster)",
+    "page": 55
+  },
+  {
+    "id": "11.2.3",
+    "title": "Sealed",
+    "body": "Im Sealed Format wird eine fixe Anzahl an Boostern sowie ein halbes Event Booster als Ausgangsmaterial zur Deckerstellung verwendet. Die Auswahl des Herrschers und der zugehörigen Rune erfolgt nach der Öffnung der verschlossenen Booster innerhalb der Deckbau-Zeit. Die Auswahl der hierfür verfügbaren Karten orientiert sich dabei an den in den Event Boostern verfügbaren Herrschern bzw. Runen. Sofern Herrscher oder Runen Teil des Booster Inhalts ist, können diese verwendet werden. Änderungen am erstellten Deck sind nach der Deckbauzeit nicht zulässig Das Gesamtdeck muss mindestens 50 Karten umfassen. Dabei zählen die gewählte Rune und Herrscher zur Gesamtdeckszahl. Es sind mindestens 9 höchsten 18 Karten im Pool-Deck vorzusehen. Die übrigen Karten sind im Spell-Deck vorzusehen. Alle übrigen Deckbauregeln bleiben bestehen.",
+    "page": 55
+  },
+  {
+    "id": "11.2.4",
+    "title": "Draft",
+    "body": "Beim Draft werden verschlossene Bluthelden Booster Packungen verwendet und in einer festgelegten Reihenfolge geöffnet und der Inhalt der aus der Booster Packung entnommen. Die aus den Boostern ausgewählten Karten dienen als Kartenpool zur Deckerstellung. Zusätzlich erhält jeder Spieler die Hälfte eines Event-Boosters.\n\nDas Gesamtdeck muss mindestens 40 Karten umfassen. Dabei zählen die gewählte Rune und Herrscher zur Gesamtdeckszahl. Es sind mindestens 9 höchsten 18 Karten im Pool-Deck vorzusehen. Die übrigen Karten sind im Spell-Deck vorzusehen. Die weiteren Deckbauregeln sind vom jeweiligen Draftformat abhängig, welche im Vorfeld eines Turniers durch die Turnierleitung bekannt gegeben werden müssen.",
+    "page": 56
+  },
+  {
+    "id": "11.3",
+    "title": "Formatbindung und Sanktionierung",
+    "body": "Das für ein Turnier gewählte Format ist verbindlicher Bestandteil der Sanktionierung. Ein Turnier gilt nur dann als sanktioniert, wenn:\n • ein zulässiges Turnierformat verwendet wird,\n • keine nicht autorisierten Abweichungen vom festgelegten Format vorgenommen werden,\n • die Durchführung und Ergebnisübermittlung gemäß Kapitel 7.4 erfolgt. Turniere, die bewusst von den festgelegten Formatregeln abweichen oder zusätzliche, nicht autorisierte Sonderregeln einführen, gelten nicht als sanktioniert, sondern als Casual Play.",
+    "page": 56
+  },
+  {
+    "id": "12",
+    "title": "Regelverstöße und Fehlerkategorien",
+    "body": "Im Turnierbetrieb von Bluthelden® sind Regelverstöße nicht vollständig vermeidbar. Das Spiel kann zu sehr komplexen Spielzuständen führen, die selbst bei sorgfältigem Spiel\n\nzu Fehlanwendungen führen kann. Dieses Turnierregelwerk verfolgt daher nicht das Ziel, jedes Fehlverhalten „hart“ zu sanktionieren, sondern einen einheitlichen, fairen und manipulationsresistenten Umgang mit Regelabweichungen zu definieren. Kapitel 12 legt die begriffliche Grundlage dafür fest, was als Regelverstoß gilt und wie ein Vorfall einer Fehlerkategorie zugeordnet wird. Maßnahmen und Strafen sind Gegenstand von Kapitel 13, Fehlerkorrekturen von Kapitel 14. Im Turnierkontext ist außerdem zu beachten, dass nicht jede Regelabweichung dieselbe Relevanz besitzt. Entscheidend ist nicht, ob sich „irgendwie ein Vorteil ergeben könnte“, sondern ob ein Vorfall die Wettbewerbsgleichheit gefährdet oder Cheating-Potenzial erzeugt. Aufbauend auf den Fehlerkategorien sind die für den Turnierbetrieb relevanten Maßnahmen und Strafen in Kapitel 13 in Abhängigkeit vom Rules Enforcement Level (REL) anzuwenden.",
+    "page": 56
+  },
+  {
+    "id": "12.1",
+    "title": "Regelverstöße und Fehlerkategorien",
+    "body": "Regelverstöße sind Ereignisse oder Handlungen, die von den Vorgaben des Kartentextes, des Spielregelwerks oder dieses Turnierregelwerks abweichen und dadurch den regelkonformen Turnierablauf oder die Integrität eines Matches beeinträchtigen können. Dieses Kapitel definiert Grundsätze für die Einordnung von Regelverstößen sowie die Fehlerkategorien (Infractions). Maßnahmen, Strafen und Fehlerkorrekturen werden in den Kapiteln 13 und 14 geregelt.",
+    "page": 57
+  },
+  {
+    "id": "12.2",
+    "title": "Allgemeine Grundsätze",
+    "body": "Ein Turnierspiel soll in erster Linie fair entschieden werden. Das bedeutet: Ein Spieler soll nicht dadurch gewinnen oder verlieren, dass Regeln zufällig oder bewusst missachtet werden. Gleichzeitig soll der Turnierbetrieb praktikabel bleiben. Nicht jeder Fehler kann vollständig „rückgängig“ gemacht werden, ohne neue Ungleichheiten zu erzeugen. Daher gilt als Leitidee: Integrität und Fairness vor perfekter Rekonstruktion. Regelverstöße werden im Turnierbetrieb behandelt, um die Turnierintegrität und Gleichbehandlung aller Spieler zu sichern, einen klaren, nachvollziehbaren Spielzustand herzustellen bzw. zu erhalten, Missbrauch durch geplante oder wiederholte Regelabweichungen zu verhindern sowie durch Konsistenz und Transparenz die Akzeptanz von Entscheidungen zu gewährleisten.",
+    "page": 57
+  },
+  {
+    "id": "12.2.1",
+    "title": "Verantwortung und Mitwirkungspflichten",
+    "body": "Jeder Spieler ist verantwortlich für:\n • die korrekte Durchführung eigener Spielhandlungen,\n • die ordnungsgemäße Verwaltung des eigenen Spielmaterials,\n • die Aufrechterhaltung eines klaren und nachvollziehbaren Spielzustands (Boardstate) sowie\n\n • die Einhaltung turnierbezogener Pflichten (z.B. Zeit- und Kommunikationspflichten). Beide Spieler tragen gemeinsam Verantwortung dafür, erkannte Unklarheiten oder mögliche Regelverstöße zeitnah anzusprechen. Ein Spieler darf nicht abwarten, um aus einem späteren Eingriff einen Vorteil zu ziehen. Wenn ein Spieler einen Regelverstoß bemerkt oder vermutet, soll unverzüglich ein Judge bzw. die Turnierleitung gerufen werden. Das Match darf nicht „auf Verdacht“ weitergespielt werden, wenn dadurch die spätere Klärung erschwert oder der Vorteil eines Fehlers vergrößert werden kann.",
+    "page": 57
+  },
+  {
+    "id": "12.3",
+    "title": "Absicht, Vorteil und Einordnung",
+    "body": "Bei der Einordnung eines Vorfalls ist insbesondere zu unterscheiden zwischen:\n • Unbeabsichtigten Fehlern (ohne Täuschungsabsicht), und\n • absichtlichen oder bewusst in Kauf genommenen Regelverstößen. Ein Verstoß kann auch dann als schwerwiegend eingestuft werden, wenn er ohne klare Absicht geschieht, aber:\n • wiederholt auftritt,\n • erhebliche Auswirkungen auf das Match hat,\n • oder die Integrität des Turniers objektiv gefährdet. Die Frage, ob ein Vorteil entstanden ist, ist für die Einordnung relevant, aber nicht allein entscheidend. Ein Vorteil kann auch unbeabsichtigt entstehen.",
+    "page": 58
+  },
+  {
+    "id": "12.4",
+    "title": "Cheating Potenzial und „kritische“ Vorfälle",
+    "body": "Nicht jeder Regelverstoß ist im Turniersinn „kritisch“. Kritisch sind Vorfälle nur dann, wenn sie geeignet sind, den Wettbewerb einseitig zu verzerren oder bewusst ausgenutzt zu werden. Ein Vorfall gilt als kritisch, wenn folgende Merkmale erfüllt sind:\n • Er führt oder kann führen zu einem einseitigen Informations- oder Entscheidungsvorteil oder zu einem nicht regelkonformen Spielzustand, der einen solchen Vorteil ermöglicht.\n • er Vorfall ist geeignet, wiederholt oder geplant als Strategie eingesetzt zu werden (Cheating-Potenzial). Erfüllt ein Regelverstoß die o.g. Merkmale, ist durch den Judge oder die Turnierleitung der Vorfall gemäß Kapitel 15 zu vermerken und weiterzuleiten.",
+    "page": 58
+  },
+  {
+    "id": "12.5",
+    "title": "Fehlerkategorien (Infractions)",
+    "body": "Die folgenden Kategorien dienen der eindeutigen Einordnung von Vorfällen. Ein Vorfall ist grundsätzlich der passendsten Kategorie zuzuordnen. Ist eine speziellere Kategorie anwendbar, geht sie einer allgemeinen Kategorie vor.",
+    "page": 58
+  },
+  {
+    "id": "12.5.1",
+    "title": "Regelverstoß (Game Rule Violation, GRV)",
+    "body": "Ein Regelverstoß (GRV) liegt vor, wenn ein Spieler unbeabsichtigt eine Spielregel falsch anwendet oder eine verpflichtende Spielhandlung nicht regelkonform ausführt und keine speziellere Fehlerkategorie zutrifft. GRV umfasst insbesondere:\n • falsche Reihenfolge von Spielhandlungen, wenn diese regelrelevant ist,\n • falsche Anwendung von Timing-Fenstern, Priorität oder Reaktionsmöglichkeiten,\n • fehlerhafte Ausführung von Karteneffekten (sofern nicht als „vergessener Effekt“ einzuordnen),\n • fehlerhafte Platzierung von Karten in Zonen,\n • falsche Behandlung von Zuständen, Countern oder Markern. In Bluthelden® sind GRVs häufig mit der Struktur aus GSC-Zeitpunkten und der Reaktionskette verbunden. Ein GRV kann daher auch vorliegen, wenn ein Spieler Handlungen ausführt, obwohl der Gegner regelkonform hätte reagieren dürfen, diese Reaktionsmöglichkeit aber praktisch oder formal verhindert wurde. Eine GRV ist nicht zu verwenden, wenn der Vorfall besser als „Verstoße gegen verdeckte Informationen“, „Deck/Deckliste Fehler“, „Unsportliches Verhalten“ oder „Cheating“ zu klassifizieren ist.",
+    "page": 59
+  },
+  {
+    "id": "12.5.2",
+    "title": "Vergessene verpflichtende Effekte (Missed Mandatory Effect / Missed Trigger)",
+    "body": "Ein vergessener verpflichtender Effekt liegt vor, wenn ein Effekt, der gemäß Kartentext oder Spielregelwerk zwingend auszuführen ist, nicht ausgeführt wird, obwohl sein Auslösezeitpunkt oder seine Bedingung eingetreten ist. Diese Kategorie betrifft insbesondere:\n • Effekte, die zu einem bestimmten Zeitpunkt eintreten („zu Beginn…“, „am Ende…“, „wenn…“),\n • fortlaufende verpflichtende Zustands- oder Degenerationseffekte, sofern sie als verpflichtend definiert sind,\n • sowie andere automatische oder zwingende Abwicklungen. Für die Einordnung ist entscheidend:\n • Der Effekt ist verpflichtend (nicht optional).\n • Die Bedingung ist eingetreten.\n • Die Ausführung wurde unterlassen oder verspätet versucht, sodass der regelkonforme Ablauf verlassen wurde. Ob und wie ein vergessener verpflichtender Effekt nachträglich noch abgewickelt wird, richtet sich nach Kapitel 14 (Fehlerkorrekturen) und kann REL-abhängig sein.",
+    "page": 59
+  },
+  {
+    "id": "12.5.3",
+    "title": "Verstoß gegen verdeckte Informationen (Hidden Information Error)",
+    "body": "Ein Fehler bei verdeckten Informationen liegt vor, wenn verdeckte Informationen unzulässig offengelegt, unzulässig eingesehen oder unzulässig beeinflusst werden, oder wenn der Umgang mit verdeckten Bereichen regelwidrig erfolgt. Diese Kategorie umfasst insbesondere:\n • unzulässiges Sehen von Karten, die verdeckt sein müssen (Handkarten, verdeckte Auslagen, verdeckte Deckbereiche),\n • fehlerhafte Handhabung von verdeckten Karten (z. B. Ziehen zu vieler Karten, falsches Nachziehen, falsches Einmischen),\n • Situationen, in denen ein Spieler durch eine Regelabweichung Informationen erhält, die er regulär nicht hätte. Diese Fehlerkategorie ist besonders sensibel, da verdeckte Informationen häufig nicht vollständig „zurückgenommen“ werden können.",
+    "page": 60
+  },
+  {
+    "id": "12.5.4",
+    "title": "Deck- und Decklistenfehler (Deck / Decklist Error)",
+    "body": "Ein Deck- oder Decklistenfehler liegt vor, wenn das verwendete Deck nicht den Vorgaben entspricht, die für das Turnier verbindlich sind. Dazu zählen insbesondere Abweichungen zwischen Deck und Deckliste (sofern Decklistenpflicht besteht), illegale Karten, illegale Mengen, nicht zulässige Deckstruktur oder unzulässige Markierungen. Diese Kategorie umfasst insbesondere:\n • Deck entspricht nicht der eingereichten Deckliste,\n • Deckliste ist unvollständig, unleserlich oder widersprüchlich,\n • Karten sind markiert oder unterscheidbar (Sleeves/Kartenrücken/Abnutzung),\n • illegale Karten (z. B. Banned-Karten, unzulässige Restricted-Mengen),\n • Deck verstößt gegen verbindliche Strukturvorgaben des Formats. Bei sanktionierten Turnieren ist zu beachten, dass Banned- und Restricted-Listen fest an das offizielle Turnier gekoppelt sind; Abweichungen davon sind in sanktionierten Turnieren nicht zulässig (Kapitel 9.2). Ein Verstoß hiergegen ist als Deck- /Decklistenfehler zu behandeln.",
+    "page": 60
+  },
+  {
+    "id": "12.5.5",
+    "title": "Unsportliches Verhalten (Unsporting Conduct)",
+    "body": "Unsportliches Verhalten liegt vor, wenn ein Spieler durch Verhalten oder Kommunikation den fairen Ablauf eines Matches oder Turniers beeinträchtigt, ohne dass bereits Cheating vorliegt. Dies umfasst insbesondere:\n • beleidigendes, aggressives oder einschüchterndes Verhalten,\n • absichtliche Störung des Gegners (z. B. Ablenkung),\n • Verweigerung angemessener Kooperation mit Turnierleitung/Judges,\n • Missbrauch organisatorischer Prozesse (z. B. Judge-Calls) zur Störung oder Verzögerung.\n\nZu unsportlichem Verhalten zählt auch vermeidbare Spielverzögerung im Sinne eines Verstoßes gegen die Pflicht, zügig zu spielen, insbesondere wenn sie:\n • wiederholt auftritt,\n • in entscheidenden Matchphasen eingesetzt wird,\n • oder zum Eintritt in Extrarunden erkennbar als „Zeitspiel“ genutzt wird. Spielverzögerungen die vermeidbar sind, werden als unsportliches Verhalten gem äß Kapitel 13 behandelt.",
+    "page": 60
+  },
+  {
+    "id": "12.5.6",
+    "title": "Cheating (Täuschung / Betrug)",
+    "body": "Cheating liegt vor, wenn ein Spieler absichtlich gegen Regeln verstößt oder bewusst falsche Informationen nutzt bzw. erzeugt, um sich einen Vorteil zu verschaffen oder einen Nachteil des Gegners herbeizuführen. Cheating umfasst insbesondere:\n • absichtliches Brechen von Spielregeln oder Turnierregeln,\n • absichtliches Erzeugen oder Ausnutzen unzulässiger Spielzustände,\n • absichtliche Manipulation von verdeckten Informationen,\n • absichtliche Falschangaben gegenüber Judges/Turnierleitung,\n • absichtliches Markieren oder Manipulieren von Karten/Sleeves/Deckzuständen,\n • sowie jede Form von Täuschung, die den Wettbewerb verfälscht. Cheating setzt keine „Erfolgsgarantie“ voraus; der Versuch oder das bewusste Inkaufnehmen kann ausreichend sein. Cheating wird unabhängig vom Turnierlevel als schwerwiegender Verstoß behandelt.",
+    "page": 61
+  },
+  {
+    "id": "12.6",
+    "title": "Mehrfachverstöße und Zusammenhänge",
+    "body": "Treten mehrere Regelverstöße im Zusammenhang auf, sind sie getrennt zu klassifizieren, sofern sie unterschiedliche Kategorien betreffen. Ein einziger Vorfall kann jedoch nur dann mehreren Kategorien zugeordnet werden, wenn tatsächlich mehrere abgrenzbare Verstöße vorliegen. Wiederholte Verstöße desselben Typs innerhalb eines Turniers oder Matches können auf mangelnde Regelkenntnis, unzureichende Sorgfalt oder absichtliches Verhalten hindeuten und sind bei der weiteren Behandlung (Kapitel 13) zu berücksichtigen.",
+    "page": 61
+  },
+  {
+    "id": "13",
+    "title": "Maßnahmen und Strafen bei Regelverstößen",
+    "body": "Dieses Kapitel regelt, welche Maßnahmen und Strafen im Turnierbetrieb von Bluthelden® aus Regelverstößen gemäß Kapitel 12 resultieren können. Es beschreibt dabei ausschließlich die turnierrelevanten Konsequenzen. Fehlerkorrekturen im\n\nSpielzustand (z. B. Rückabwicklung, Wiederherstellung eines regelkonformen Boardstates) sind in Kapitel 14 geregelt. Maßnahmen und Strafen dienen insbesondere dazu,\n • die Integrität des Matches und des Turniers zu schützen,\n • die Gleichbehandlung aller Spieler sicherzustellen,\n • Cheating-Potenzial zu unterbinden und\n • wiederholte oder eskalierende Vorfälle konsistent zu behandeln. Die Anwendung von Maßnahmen und Strafen erfolgt durch Judges bzw. die Turnierleitung und richtet sich nach der Einordnung des Vorfalls (Kapitel 12) sowie nach dem Rule Enforcement Level (REL) des Turniers (Kapitel 7.3).",
+    "page": 61
+  },
+  {
+    "id": "13.1",
+    "title": "Grundsätze der Anwendung",
+    "body": "Maßnahmen und Strafen dienen nicht dazu, einen entstandenen spielerischen Vorteil auszugleichen, sondern dazu, die Integrität von Match und Turnier zu schützen, Wiederholungen zu verhindern und Cheating-Potenzial zu unterbinden. Sie sind ein Instrument der Turnierorganisation, nicht der Spielkorrektur. Maßnahmen und Strafen sind einheitlich, nachvollziehbar und verhältnismäßig anzuwenden. Bei der Entscheidung sind insbesondere der Umfang des Regelverstoßes, seine Auswirkungen auf Match und Turnier, mögliche Wiederholungen, die Mitwirkung der beteiligten Spieler sowie das Cheating-Potenzial des Vorfalls zu berücksichtigen. Ein Regelverstoß wird nicht allein dadurch schwerwiegend, dass er spielrelevant ist. Ebenso führt eine fehlende Absicht nicht automatisch zu einer milderen Behandlung. Maßgeblich ist die objektive Beeinträchtigung des Wettbewerbs. Regelverstöße, die gemäß Kapitel 12.1.4 als kritisch einzustufen sind, sind unabhängig von der konkret verhängten Maßnahme zu dokumentieren und gemäß Kapitel 15 zu vermerken und weiterzuleiten.",
+    "page": 62
+  },
+  {
+    "id": "13.2",
+    "title": "Maßnahmenkatalog",
+    "body": "Die nachfolgend beschriebenen Maßnahmen stehen der Turnierleitung und den Judges zur Verfügung, um auf Regelverstöße gemäß Kapitel 12 zu reagieren. Die Maßnahmen sind abgestuft und können – abhängig vom Vorfall, vom Turnierlevel (REL) und vom Gesamtzusammenhang – einzeln oder in Kombination angewendet werden. Nicht jede Maßnahme stellt eine Strafe dar. Insbesondere Hinweise, organisatorische Eingriffe und Zeitmaßnahmen dienen der Sicherstellung eines ordnungsgemäßen Turnierablaufs und sind nicht als Sanktion zu verstehen. Wertungsbezogene Maßnahmen greifen erst dann, wenn die Integrität eines fairen Matches nicht mehr anderweitig gewährleistet werden kann. Die Auswahl und Anwendung einer Maßnahme erfolgt nach pflichtgemäßem Ermessen der Turnierleitung oder der Judges unter Beachtung der Grundsätze aus Kapitel 13.1.\n\n(1) Hinweis / Regelhinweis (Caution) Ein Hinweis dient der Klarstellung der korrekten Regelanwendung und ist keine strafende Maßnahme. Er kann mit einer kurzen Erläuterung der relevanten Regelstelle verbunden sein und soll sicherstellen, dass das Match regelkonform fortgesetzt wird. Hinweise sind insbesondere geeignet bei:\n • erstmaligen, geringfügigen Regelverstößen,\n • offensichtlichen Missverständnissen ohne Vorteilspotenzial,\n • niedrigerem REL oder Lernumgebungen, insbesondere bei REL 0 (Casual-Play) oder 1. Ein Hinweis wird in der Regel nicht über Turniere hinweg dokumentiert, kann jedoch im Ermessen der Turnierleitung intern vermerkt werden.\n\n(2) Verwarnung (Warning) Eine Verwarnung ist eine formale Maßnahme, die dokumentiert wird und der Nachverfolgbarkeit von Regelverstößen dient. Sie signalisiert, dass ein Regelverstoß über ein bloßes Missverständnis hinausgeht oder dass bei Wiederholung eine Eskalation zu erwarten ist. Verwarnungen kommen insbesondere in Betracht, wenn:\n • ein Regelverstoß den Spielablauf oder die Entscheidungsfindung beeinflusst hat,\n • derselbe oder ein ähnlicher Fehler wiederholt auftritt,\n • ein Hinweis bereits erfolgt ist,\n • oder erhöhte Sorgfalt erwartet werden kann, insbesondere bei REL von 2 oder 3.\n\n(3) Upgrade / Eskalation von Hinweis oder Verwarnnung Ein Upgrade beschreibt die Verschärfung einer Maßnahme aufgrund von Wiederholung, Schwere oder Gesamtbild eines Vorfalls. Es handelt sich nicht um eine eigenständige Maßnahme, sondern um eine Erhöhung der Eingriffsintensität. Ein Upgrade ist insbesondere angezeigt, wenn:\n • ein Spieler trotz Hinweisen oder Verwarnungen erneut gegen Regeln verstößt,\n • mehrere gleichartige Verstöße im Zusammenhang auftreten,\n • der Vorfall durch die Wiederholung geeignet ist, den Wettbewerb strukturell zu verzerren,\n • oder sich aus dem Gesamtbild ein erhöhtes Cheating-Potenzial ergibt. Ein Upgrade kann bis zu wertungsrelevanten Maßnahmen reichen. Ein Hinweis kann bei Wiederholung des gleichen Regelverstoßes zu einer Verwarnung aufgewertet werden. Eine Verwarnung kann bei Wiederholung oder erhöhter Schwere zu wertungsrelevanten Maßnahmen aufgewertet werden. Es ist zu beachten, dass die Aufwertung von\n\neinzelnen Verstößen zu einem Turnierausschluss nicht automatisch durch eine Aufwertung vorzusehen ist, sondern in der schwere des Gesamtbilds und des Cheat- Potentials begründet wird.\n\n(4) Spielstrafe (Penalty) Eine Spielstrafe ist eine wertungsrelevante Maßnahme, die im laufenden Spiel angewendet wird, ohne das Match unmittelbar zu beenden. Als Spielstrafe verliert der betroffene Spieler 5 Lebenspunkte seines Herrschers. Die Spielstrafe ist sofort wirksam und kann – abhängig vom Spielverlauf – zum Verlust des Spiels führen, ohne diesen zwingend herbeizuführen. Spielstrafen kommen insbesondere dann in Betracht, wenn ein Regelverstoß über eine Verwarnung hinausgeht, ein Match Loss jedoch unverhältnismäßig wäre. Dies gilt insbesondere bei wiederholten Regelverstößen oder bei komplexen, unübersichtlichen Spielzuständen mit erhöhtem Cheating-Potenzial. In Turnieren mit REL 1 ist die Spielstrafe grundsätzlich nur im Rahmen einer Eskalationskette (Hinweis, Verwarnung, Spielstrafe) anzuwenden. In Turnieren ab REL 2 kann die Spielstrafe als reguläre Maßnahme eingesetzt werden. In Turnieren mit REL 0 ist die Anwendung von Spielstrafen nicht vorgesehen. Ein Penalty kann als Teil einer Eskalationskette auf ein Match Loss aufgewertet werden.\n\n(5) Match Loss Ein Match Loss ist eine spielbezogene Wertungssanktion und stellt die schwerste reguläre Maßnahme innerhalb eines laufenden Matches dar. Ein Match Loss greift, wenn ein fairer Wettbewerb nicht mehr durch Hinweise, Verwarnungen, Spielstrafen oder Korrekturen gewährleistet werden kann oder wenn eine Eskalation aufgrund fortgesetzter Regelverstöße erforderlich wird. Ein Match Loss kommt insbesondere dann in Betracht, wenn:\n • ein nicht mehr korrigierbarer einseitiger Vorteil entstanden ist,\n • ein regelkonformer Spielzustand nicht mehr herstellbar ist, oder\n • der Vorfall die Grundlage eines fairen Matches objektiv zerstört hat. In Turnieren ab REL 1 kann ein Match Loss als Ergebnis einer Eskalationskette (Hinweis → Verwarnung → Spielstrafe → Match Loss) angewendet werden, wenn ein Spieler trotz mehrfacher Korrektur- und Lernmöglichkeiten weiterhin gegen Regeln verstößt. In Turnieren ab REL 2 kann ein Match Loss auch als unmittelbare Maßnahme angewendet werden, sofern die o.g. Voraussetzungen zutreffen und anhand des Gesamtbilds des Vorfalls eine Spielkorrektur nicht mehr möglich oder ausreichend ist und eine Spielstrafe (Penalty) den Regelverstoß nicht angemessen abbilden würde.\n\n(6) Disqualifikation und Turnierausschluss\n\nDie Disqualifikation ist die schwerste Maßnahme im Turnierbetrieb. Sie kommt insbesondere bei Cheating oder schwerwiegendem unsportlichem Verhalten in Betracht. Allerdings auch, sofern ein nicht behebbarer Decklistenfehler oder Deckfehler vorliegt oder das Missbrauchspotenzial eines solchen Fehlers zu groß ist. Eine Disqualifikation kann unabhängig vom bisherigen Turnierverlauf ausgesprochen werden und schließt den betroffenen Spieler vom laufenden Turnier aus. Sie ist stets zu dokumentieren und gemäß Kapitel 15 weiterzuleiten. Eine Disqualifikation setzt nicht zwingend voraus, dass ein Vorteil tatsächlich realisiert wurde. Bereits der Versuch, die bewusste Inkaufnahme oder das planbare Ausnutzen eines Regelverstoßes kann ausreichend sein. Die Disqualifikation ist das letzte Mittel und ist ausschließlich dann anzuwenden, wenn ein erhebliches Missbrauchspotenzial, Cheating oder ein wiederholtes und uneinsichtiges Verhalten bei Regelverstößen vorliegt, das die Integrität des Turniers gefährdet. Die Disqualifikation bezieht sich ausschließlich auf die Teilnahme am sanktionierten Turnier. Ob und in welchem Umfang ein disqualifizierter Spieler darüber hinaus verpflichtet ist, den Turnierbereich oder die Veranstaltungsstätte zu verlassen, richtet sich nicht nach diesem Turnierregelwerk, sondern nach dem Hausrecht des Turnierveranstalters. Die Ausübung des Hausrechts liegt im alleinigen Ermessen des Veranstalters und ist unabhängig von der turnierrechtlichen Bewertung des Vorfalls.",
+    "page": 62
+  },
+  {
+    "id": "13.3",
+    "title": "Anwendung nach Rule Enforcement Level",
+    "body": "Nachfolgend wird eine Übersicht der möglichen Maßnahmen und ihrer üblichen Anwendung anhand der REL dargestellt.\n\nTabelle 2: Übersicht Anwendung der Maßnahmen entsprechend REL.\n\n| Maßnahme | REL 1 (Basic) | REL 2 (Advanced) | REL 3 (Professional) |\n| --- | --- | --- | --- |\n| Hinweis | Standardmaßnahme | selten | selten |\n| Verwarnung | Möglich, nach Art des Verstoßes | Standardmaßnahme | Standardmaßnahme |\n| Spielstrafe (Penalty) | möglich, nach Verwarnung | regulär möglich | regulär möglich |\n| Match Loss | Möglich, nach Spielstrafe | Möglich, nach Spielstrafe, selten regulär | regulär möglich |\n| Disqualifikation (DQ) | Einzelfall | Einzelfall | Einzelfall |\n\nFür die jeweiligen Regelverstöße gemäß Kapitel 12 sind die Maßnahmen gemäß Tabelle 3 vorgesehen. Sie stellt keine starre Vorgabe dar und ersetzt nicht die Bewertung des Gesamtbilds. Tabelle 3: Übersicht der Infractions und Maßnahmen nach REL.\n\n| Fehlerkategorie | REL 1 | REL 2 | REL 3 |\n| --- | --- | --- | --- |\n| Game Rule Violation (GRV) | H → W → P → ML | W / P → ML | W / P → ML |\n| Vergessene verpflichtende Effekte | H → W → P → ML | W / P → ML | W / P → ML |\n| Fehler bei verdeckten Informationen | W → P → ML | P oder ML | P oder ML |\n| Deck- / Decklistenfehler | W → P → ML | P → ML ggf. DQ | ML ggf. DQ |\n| Kommunikations- / Verfahrensfehler | H → W → P → ML | W / P → ML | W / P → ML |\n| Unsportliches Verhalten (ohne Cheating) | W → P → ML | W / P / ML | W / P / ML |\n| Cheating | DQ | DQ | DQ |\n\nLegende: H = Hinweis, W = Verwarnung, P = Spielstrafe (-5 LP), ML = Match Loss, DQ= Disqualifizierung.",
+    "page": 65
+  },
+  {
+    "id": "14",
+    "title": "Fehlerkorrekturen",
+    "body": "Dieses Kapitel regelt die Korrektur fehlerhafter Spielzustände während eines Turniers. Es beschreibt ausschließlich die spieltechnische Behandlung eines Fehlers auf der Spielebene. Ob ein Regelverstoß zusätzlich eine Maßnahme oder Sanktion gemäß Kapitel 13 nach sich zieht, wird unabhängig von der Fehlerkorrektur beurteilt. Ziel jeder Fehlerkorrektur ist es, das Spiel in einen regelkonformen und fairen Zustand zurückzuführen, ohne dabei neue Ungleichgewichte oder Informationsvorteile zu erzeugen.",
+    "page": 66
+  },
+  {
+    "id": "14.1",
+    "title": "Grundsätze der Fehlerkorrektur",
+    "body": "Bei allen Fehlerkorrekturen gelten die folgenden Grundsätze:\n\nFairness vor Perfektion Ziel ist ein fairer, spielbarer Zustand, nicht die exakte Rekonstruktion eines hypothetisch korrekten Verlaufs.\n\nMinimale Eingriffe\n\nEingriff in den Spielverlauf ist so gering wie möglich zu halten. Je weiter ein Fehler zurückliegt und je mehr Folgeentscheidungen getroffen wurden, desto zurückhaltender ist eine Rückabwicklung.\n\nKeine neuen Informationsvorteile Eine Korrektur darf keine zusätzlichen Informationen erzeugen oder Spielern ermöglichen, Entscheidungen nachträglich auf Basis von Wissen zu treffen, das sie regelkonform nicht gehabt hätten.\n\nSpiel sofort pausieren Wird ein Fehler bemerkt, ist das Spiel unverzüglich zu pausieren. Weitere Spielhandlungen sind bis zur Klärung durch einen Judge oder die Turnierleitung zu unterlassen.\n\nJudge-Entscheidung Fehlerkorrekturen werden durch einen Judge oder die Turnierleitung angeordnet. Spieler dürfen nur dann selbst korrigieren, wenn der Fehler offensichtlich, eindeutig und ohne Einfluss auf verdeckte Informationen ist und die Korrektur einvernehmlich zwischen beiden Spielern erfolgt. In Turnieren ab REL 2 sollte eine Fehlerkorrektur grundsätzlich nicht ohne Einbindung eines Judges vorgenommen werden.",
+    "page": 66
+  },
+  {
+    "id": "14.2",
+    "title": "Ablauf bei der Feststellung eines Fehlers",
+    "body": "Bei Feststellung eines möglichen Regelverstoßes wird wie folgt vorgegangen: (1) Spiel pausieren (2) Sachverhalt klären–\n a. Welche Regel(n) wurde(n) verletzt?\n b. Wann ist der Fehler entstanden?\n c. Welche Karten, Marker oder Zonen sind betroffen?\n d. Was ist bis zum Erkennen des Fehlers bereits passiert? (3) Auswirkungen bestimmen\n a. Welcher Spielzustand ist nicht regelkonform?\n b. Wurden Folgehandlungen auf Basis des fehlerhaften Zustands getroffen? (4) Geeignete Korrektur festlegen\n a. Sofern die in Kapitel 14.1 benannten Grundsätze eingehalten werden, erfolgt eine Rückabwicklung bis zum letzten eindeutig regelkonformen Spielzustand.\n b. Ist eine Rekonstruktion nicht möglich oder nicht sinnvoll, wird ausschließlich der aktuelle Spielzustand korrigiert, sofern dieser eine Game Rule Violation darstellt.\n c. Verpasste verpflichtende Trigger werden nachgeholt, sofern deren Ausführung regelkonform möglich ist. Dabei ist sicherzustellen, dass\n\n die Trigger in der vorgesehenen Reihenfolge und vollständig ausgeführt werden und dass durch die Korrektur kein unzulässiger oder einseitiger Informations- oder Entscheidungsvorteil entsteht. (5) Korrektur durchführen (6) Spielzustand eindeutig herstellen Die für eine Korrektur durch einen Judge notwendige Zeit wird gemäß Kapitel 10.4.1 auf die Rundenzeit aufgeschlagen. Das Ausmaß der geeigneten Korrektur liegt im Ermessen des Judges und hat stets nach den Grundsätzen aus Kapitel 14.1erfolgen.",
+    "page": 67
+  },
+  {
+    "id": "14.3",
+    "title": "Rückabwicklung (Backup)",
+    "body": "Eine Rückabwicklung ist das Zurücknehmen von Spielhandlungen, um einen früheren Spielzustand wiederherzustellen.\n\nZulässigkeit Eine Rückabwicklung ist nur dann zulässig, wenn:\n • die Abfolge der Handlungen klar rekonstruierbar ist,\n • seit dem Fehler nur wenige Folgehandlungen stattgefunden haben,\n • keine oder nur kontrollierbare Eingriffe in verdeckte Informationen erfolgt sind,\n • durch die Rückabwicklung kein neuer Vorteil entsteht.\n\nGrenzen der Rückabwicklung Eine Rückabwicklung ist in der Regel nicht geeignet, wenn:\n • Karten gezogen oder gesucht wurden,\n • Decks gemischt oder zufällige Effekte ausgeführt wurden,\n • mehrere Entscheidungen auf Basis verdeckter Informationen getroffen wurden,\n • der Fehler erst deutlich später erkannt wurde. In diesen Fällen ist ein direkte Korrektur des fehlerhaften Spielzustands einer Rückabwicklung vorzuziehen.",
+    "page": 68
+  },
+  {
+    "id": "14.4",
+    "title": "Korrekturen nach Fehlerkategorie",
+    "body": "Die folgenden Abschnitte beschreiben typische Korrekturmaßnahmen zu den in Kapitel 12 definierten Fehlerkategorien. Sie stellen Leitlinien dar und ersetzen nicht die Bewertung im Einzelfall.",
+    "page": 68
+  },
+  {
+    "id": "14.4.1",
+    "title": "Game Rule Violation (GRV)",
+    "body": "Eine Game Rule Violation liegt vor, wenn Spielregeln falsch angewendet wurden oder ein nicht regelkonformer Spielzustand entstanden ist.\n\nTypische Korrekturen:\n • Marker-, Zustands- oder Wertefehler\n o Marker oder Zustände korrekt setzen, anpassen oder entfernen.\n • Falsche Zonen- oder Lane-Zuordnung\n o Karten in die korrekte Zone oder Lane verschieben.\n o Korrekte Lane zur aktiven Lane deklarieren\n • Falsch angewendete Modifikatoren\n o Aktuelle Werte korrekt feststellen; bereits ausgetragener Schaden bleibt bestehen, sofern keine sichere Rekonstruktion möglich ist.\n • Rückabwicklung eines Ausspielfehlers\n o Typische Ausspielfehler ohne weitere Konsequenz (LVL 2 Charakter ausspielen, obwohl nur LVL 1 Ressource liegt)\n\nWenn die GRV ohne Eingriff in verdeckte Informationen korrigierbar ist, ist eine direkte Korrektur einer Rückabwicklung vorzuziehen.",
+    "page": 68
+  },
+  {
+    "id": "14.4.2",
+    "title": "Vergessene verpflichtende Effekte",
+    "body": "Verpflichtende Effekte sind Effekte, die zwingend eintreten müssen (z. B. degenerierende Zustände) und deren Auslösen oder Wirkung nicht optional ist. Der kontrollierende Spieler hat bei solchen Effekten keine Wahl, ob der Effekt ausgelöst wird. Der Korrekturweg hängt hierbei insbesondere von dem zeitlichen Zusammenhang, wann der Effekt vergessen wurde, ab.\n\nZeitnah erkannter Fehler Wird das Ausbleiben eines verpflichtenden Effekts zeitnah erkannt (in der Regel in der gleichen Runde) und ist dessen Ausführung eindeutig rekonstruierbar, wird der Effekt nachträglich ausgeführt. Enthält der Effekt Entscheidungen (z. B. Modus-, Ziel- oder Reihenfolgeentscheidungen), die regelkonform ohne Auswirkung auf den Spielzustand getroffen werden können, wird angenommen, dass diese Entscheidung entsprechend getroffen wurde.\n\nSpäter erkannter Fehler Wird das Ausbleiben eines verpflichtenden Effekts erst zu einem späteren Zeitpunkt erkannt, wird der Effekt nicht rückwirkend vollständig nachgeholt. Stattdessen wird der Spielverlauf ab dem nächstmöglichen korrekten Zeitpunkt wieder regelkonform fortgeführt.\n\nGrundsatz Eine Fehlerkorrektur darf nicht ermöglichen, Entscheidungen rückwirkend neu zu treffen oder auf Basis inzwischen bekannter Informationen zu verändern.",
+    "page": 69
+  },
+  {
+    "id": "14.4.3",
+    "title": "Fehler bei verdeckten Informationen",
+    "body": "Fehler mit verdeckten Informationen liegen vor, wenn verdeckte Informationen ungewollt offengelegt wurden oder die Zufälligkeit einer verdeckten Zone (insbesondere die Reihenfolge eines Decks) beeinträchtigt wurde.\n\nDa eine bereits erhaltene Information nicht rückgängig gemacht werden kann, bestehen Fehlerkorrekturen in dieser Kategorie in der Regel nicht darin, den Informationsstand zurückzusetzen, sondern darin, bestehende Unsymmetrien zu reduzieren und soweit möglich die Zufälligkeit wiederherzustellen.\n\nKorrekturleitlinien\n\nKorrekturen bei ungewolltem Einsehen von verdeckten Karten Wenn ein Spieler Karten gesehen hat, darf die Korrektur nicht dazu führen, dass dieser Spieler im Anschluss Entscheidungen über diese Karten treffen kann (z. B. gezieltes Zurücklegen, Anordnen oder Auswählen), sofern ein solcher Entscheidungsspielraum nicht ohnehin regelkonform vorgesehen war. Soweit möglich ist die betroffene verdeckte Zone so zu behandeln, dass ihre Reihenfolge wieder zufällig ist und kein Spieler einen zusätzlichen strukturellen Vorteil aus der Kenntnis einzelner Karten ziehen kann.\n\nTypische Fälle und Fixes\n\nA) Unbeabsichtiges Angucken von Deck-Inhalten Unbeabsichtigtes Sehen einer einzelnen Karte eines Decks (z. B. oberste Karte sichtbar geworden) Wenn die Reihenfolge des Decks ansonsten als zufällig gilt und keine weiteren bekannten Informationen zur Deckreihenfolge vorliegen, wird das betroffene Deck randomisiert (gemischt) und dem Gegner zum Cut präsentiert. Bestehen bereits bekannte Informationen über die Deckreihenfolge, die durch Mischen verfälscht würden (z. B. eindeutig bekannte unterste Karte oder ein Effekt, der eine bestimmte Karte an eine definierte Position gelegt hat), erfolgt keine pauschale Randomisierung. Stattdessen ist der Spielzustand so zu stabilisieren, dass keine\n\nzusätzliche Auswahlentscheidung entsteht; der Judge entscheidet im Einzelfall nach den Grundsätzen aus Kapitel 14.1.\n\nB) Zu viele Karten gezogen Ist eindeutig feststellbar, welche Karte(n) zu viel gezogen wurden (z. B. sofort bemerkt, keine weiteren Handlungen), wird/werden diese Karte(n) aus der Hand bestimmt und in die korrekte Zone zurückgeführt. War die ursprüngliche Position im Deck nicht bestimmbar, wird das Deck anschließend randomisiert und dem Gegner zum Cut präsentiert. Ist nicht mehr eindeutig rekonstruierbar, welche Karte(n) zusätzlich gezogen wurden, erfolgt keine Rückabwicklung. Der Spielzustand wird nur soweit korrigiert, wie dies ohne weitere Unsymmetrie möglich ist (z. B. durch Wiederherstellung der korrekten Handkartenzahl mittels Zufallsbestimmung). Aufgrund des hohen Missbrauchpotenzials bei gezogenen Handkarten, ist hier hohe Sorgfalt an die Korrektur zu legen.\n\nC) Unzutreffende Offenlegung von Handkarten Eine Offenlegung von Handkarten ist im Rahmen der Fehlerkorrektur nur dann relevant, wenn sie auf einer falschen Regelannahme beruht, insbesondere wenn ein Spieler irrtümlich davon ausgegangen ist, zur Offenlegung verpflichtet zu sein (z. B. durch einen Effekt oder eine Spielanweisung, die tatsächlich keine Offenlegung vorsieht). In diesen Fällen gilt:\n • Die offengelegten Informationen können nicht rückgängig gemacht werden.\n • Die Korrektur besteht ausschließlich darin, die falsche Annahme zu korrigieren und das Spiel regelkonform fortzusetzen.\n • Es dürfen keine weiteren Handkarten offengelegt oder zusätzliche Entscheidungen auf Basis der Offenlegung ermöglicht werden. Eine Offenlegung von Handkarten, die freiwillig, beabsichtigt oder durch Unachtsamkeit des Spielers erfolgt (z. B. Karten fallen herunter, werden versehentlich sichtbar), stellt keinen Fehler dar, der eine spieltechnische Korrektur erfordert. Das Spiel wird in diesen Fällen unverändert fortgesetzt.",
+    "page": 70
+  },
+  {
+    "id": "14.4.4",
+    "title": "Deck- und Decklistenfehler",
+    "body": "Deck- und Decklistenfehler betreffen die Turnierlegalität oder die Übereinstimmung zwischen Deck und Deckliste. Grundsatz: Das Deck ist in einen eindeutig legalen Zustand während eines Turniers zu halten. Typische Korrekturfälle:\n\n • Deck entspricht nicht der Deckliste\n o Deck an die Deckliste anpassen, anschließend randomisieren.\n • Offensichtliche Schreib- oder Benennungsfehler in der Deckliste\n o Korrektur gemäß Kapitel 12/13, sofern eindeutig.\n • Karte im falschen Deck (Pool-Deck / Spell-Deck)\n o Karte korrekt zuordnen, beide Decks randomisieren.\n • Markierte oder beschädigte Karten/Hüllen\n o Hüllen ersetzen oder vereinheitlichen, anschließend Deck randomisieren.\n • Deck enthält nicht die korrekte Anzahl an Karten (zu viele oder zu wenige) trotz Übereinstimmung mit der Deckliste\n o Entfernen von zu vielen Karten aus dem betroffenen Deck, falls zu viele vorhanden sind.\n o Ergänzen von Standard Ressourcen Karten, die sowohl im Spell-Deck oder Pool-Deck gespielt werden können (z.B. Priest, Smith) falls zu wenig Karten im Deck enthalten sind.\n • Deckliste stimmt nicht mit den Vorgaben (Format, Bannliste, Anzahl Karten, Seltenheitsbegrenzungen) überein\n o Abgleich mit dem verwendeten Deck und Korrektur Deckliste, falls das Deck legal ist. Bei allen Korrekturen der Decks und Deckliste ist zu beachten, dass ab REL 2 je nach schwere des Deck- / Decklistenfehlers eine Disqualifikation erfolgen kann. Daher ist bei der Ermittlung des Fehlers eine hohe Sorgfalt erforderlich.",
+    "page": 71
+  },
+  {
+    "id": "14.4.5",
+    "title": "Kommunikations- und Verfahrensfehler",
+    "body": "Diese Fehler betreffen unklare oder unzureichende Kommunikation über Spielhandlungen, Ziele, Zustände oder Lane-Zuordnungen. Korrekturleitlinien:\n • Judge stellt den objektiv nachvollziehbaren Spielzustand durch Befragung der Beteiligten fest. Spielentscheidungen werden nur soweit zurückgenommen, dass ein regelkonformer Spielzustand erzeugt wird.\n • Es wird auf die klare Kommunikation und Abwicklung hingewiesen Fehlerhafte Kommunikation kann auch unsportliches Verhalten darstellen, wenn dies vorsätzlich unklar oder geeignet ist nachhaltig das Spiel oder den Turnierablauf zu stören.",
+    "page": 72
+  },
+  {
+    "id": "14.4.6",
+    "title": "Abgrenzung zu Cheating und Unsportlichem Verhalten",
+    "body": "Fehlerkorrekturen dienen nicht dazu, Cheating zu beheben. Allerdings ist die Feststellung des Fehlers ein wichtiger Bestandteil, mögliches Cheating zu identifizieren.\n\nBesteht der Verdacht auf Cheating oder schwerwiegendes unsportliches Verhalten, ist das Spiel zu pausieren und gemäß Kapitel 13 und 15 zu verfahren.",
+    "page": 72
+  },
+  {
+    "id": "15",
+    "title": "Einsprüche, Dokumentation und Cheating-Verfahren",
+    "body": "",
+    "page": 73
+  },
+  {
+    "id": "15.1",
+    "title": "Zweck und Anwendungsbereich",
+    "body": "Dieses Kapitel regelt das Einspruchsverfahren gegen Entscheidungen von Judges und Turnierleitung, die Dokumentation turnierrelevanter Vorfälle sowie das Verfahren bei Verdacht auf Cheating. Es ergänzt die in Kapitel 12 definierten Fehlerkategorien, die in Kapitel 13 geregelten Maßnahmen und Strafen sowie die in Kapitel 14 beschriebenen Fehlerkorrekturen um verfahrensbezogene Bestimmungen. Insbesondere regelt es die Rechte und Pflichten aller Beteiligten in Situationen, in denen die Integrität eines Matches oder Turniers über die unmittelbare Spielsituation hinaus betroffen sein kann.",
+    "page": 73
+  },
+  {
+    "id": "15.2",
+    "title": "Einsprüche (Appeals)",
+    "body": "Jeder an einem Match beteiligte Spieler hat das Recht, gegen eine Regel- oder Verfahrensentscheidung eines Judges Einspruch einzulegen. Einspruchsberechtigt ist nur der unmittelbar betroffene Spieler; unbeteiligte Zuschauer oder Spieler anderer Matches sind nicht einspruchsberechtigt. Ein Einspruch ist zulässig gegen Entscheidungen zu Regelauslegungen, gegen die Zuordnung eines Vorfalls zu einer Fehlerkategorie gemäß Kapitel 12 sowie gegen die Anwendung einer Maßnahme gemäß Kapitel 13. Nicht einspruchsfähig sind rein organisatorische Entscheidungen der Turnierleitung, insbesondere Zeitentscheidungen, Sitzordnungen, Paarungen und Rundenablauf, sofern sie alle Spieler gleichermaßen betreffen.",
+    "page": 73
+  },
+  {
+    "id": "15.2.1",
+    "title": "Einspruchsverfahren",
+    "body": "Ein Einspruch muss unverzüglich nach Bekanntgabe der Entscheidung eingelegt werden. Das Match wird für die Dauer des Einspruchsverfahrens pausiert. Die benötigte Zeit wird gemäß Kapitel 10.4.1 auf die Rundenzeit aufgeschlagen. Der Einspruch ist gegenüber dem entscheidenden Judge mündlich zu erklären. Der Judge leitet den Einspruch an die zuständige Einspruchsinstanz weiter.",
+    "page": 73
+  },
+  {
+    "id": "15.2.2",
+    "title": "Entscheidungsinstanz",
+    "body": "In Turnieren mit REL 2 oder höher ist ein Head Judge zu benennen. Der Head Judge ist die höchste Regelinstanz des Turniers und entscheidet über Einsprüche gegen Entscheidungen anderer Judges. Der Head Judge kann selbst Matches beobachten, Regelfragen klären und Entscheidungen treffen. Gegen die Entscheidung des Head Judges ist kein weiterer Einspruch möglich.\n\nIn Turnieren mit REL 0 oder REL 1 übernimmt die Turnierleitung die Funktion der Einspruchsinstanz, sofern kein Head Judge benannt wurde. Die Turnierleitung entscheidet in diesem Fall abschließend über Einsprüche. Der Head Judge bzw. die Turnierleitung als Einspruchsinstanz prüft den Sachverhalt eigenständig. Die Einspruchsinstanz ist nicht an die Bewertung des ursprünglich entscheidenden Judges gebunden. Sie kann die Entscheidung bestätigen, abändern oder aufheben.",
+    "page": 73
+  },
+  {
+    "id": "15.2.3",
+    "title": "Wirkung und Verbindlichkeit",
+    "body": "Ein Einspruch hat keine aufschiebende Wirkung. Bis zur Entscheidung der Einspruchsinstanz gilt die ursprüngliche Entscheidung des Judges, sofern die Einspruchsinstanz nicht ausdrücklich eine vorläufige Aussetzung anordnet. Die Entscheidung der Einspruchsinstanz ist für das laufende Turnier endgültig und verbindlich. Sie kann nicht erneut angefochten werden. Wird eine Entscheidung im Einspruchsverfahren abgeändert, sind alle daraus resultierenden spieltechnischen Konsequenzen unverzüglich umzusetzen, soweit dies den Grundsätzen der Fehlerkorrektur gemäß Kapitel 14 entsprich.",
+    "page": 74
+  },
+  {
+    "id": "15.3",
+    "title": "Dokumentation von Vorfällen",
+    "body": "",
+    "page": 74
+  },
+  {
+    "id": "15.3.1",
+    "title": "Dokumentationspflicht",
+    "body": "Die Turnierleitung ist verpflichtet, turnierrelevante Vorfälle zu dokumentieren, um die Nachvollziehbarkeit von Entscheidungen zu gewährleisten und eine einheitliche Anwendung des Turnierregelwerks über einzelne Turniere hinaus zu ermöglichen. Dokumentationspflichtig sind mindestens die folgenden Vorfälle:\n • ausgesprochenen Verwarnungen (Warnings) gemäß Kapitel 13.2 Nr. (2).\n • Spielstrafen (Penalties) gemäß Kapitel 13.2 Nr. (4).\n • Match Losses gemäß Kapitel 13.2 Nr. (5).\n • Disqualifikationen gemäß Kapitel 13.2 Nr. (6).\n • Alle Vorfälle, die gemäß Kapitel 12.4 als kritisch eingestuft wurden.\n • Alle Einspruchsverfahren und deren Ergebnis gemäß Kapitel 15.2.\n • Alle Vorfälle, bei denen ein Cheating-Verdacht geprüft wurde, unabhängig vom Ergebnis der Prüfung. In Turnieren mit REL 0 oder REL 1 kann die Dokumentationspflicht auf Disqualifikationen, Cheating-Verdachtsfälle und kritische Vorfälle beschränkt werden. In Turnieren ab REL 2 ist die vollständige Dokumentation aller vorgenannten Vorfälle verpflichtend.",
+    "page": 74
+  },
+  {
+    "id": "15.3.2",
+    "title": "Inhalt der Dokumentation",
+    "body": "Jede Dokumentation eines Vorfalls soll mindestens die folgenden Angaben enthalten: Name des Turniers, Datum und Turnierlevel (REL). Runde und ggf. Matchnummer. Beteiligte Spieler (Name und ggf. Spieler-ID gemäß Turniersoftware). Beschreibung des\n\nSachverhalts in nachvollziehbarer Form. Zuordnung zu einer Fehlerkategorie gemäß Kapitel 12. Angewendete Maßnahme gemäß Kapitel 13. Durchgeführte Fehlerkorrektur gemäß Kapitel 14, soweit zutreffend. Name des entscheidenden Judges oder der entscheidenden Person der Turnierleitung. Sofern ein Einspruch stattgefunden hat: Ergebnis des Einspruchsverfahrens. Die Dokumentation soll sachlich, knapp und auf die turnierrelevanten Fakten beschränkt sein.",
+    "page": 74
+  },
+  {
+    "id": "15.3.3",
+    "title": "Zuständigkeit und Aufbewahrung",
+    "body": "Die Turnierleitung trägt die Verantwortung für die Dokumentation. Sie kann diese Aufgabe an Judges delegieren, bleibt jedoch für die Vollständigkeit und Richtigkeit der Dokumentation verantwortlich. Die Dokumentation ist im Rahmen der von der offiziellen Turniersoftware vorgesehenen Möglichkeiten zu erfassen. Ergänzend können handschriftliche oder elektronische Aufzeichnungen geführt werden, sofern die Turniersoftware keine vollständige Erfassung ermöglicht. Die Aufbewahrung und Archivierung der Dokumentation richtet sich nach den Vorgaben des Organized-Play-Programms von Bluthelden®.",
+    "page": 75
+  },
+  {
+    "id": "15.3.4",
+    "title": "Weiterleitung an das Organized Play",
+    "body": "Die Dokumentierten Vorfälle sind nach Abschluss des Turniers zeitnah an das Organized Play von Bluthelden® zu übermitteln. Hierzu sind die Kontaktmöglichkeiten (z.B. per E-Mail) gemäß Organized Play vorgaben zu nutzen.",
+    "page": 75
+  },
+  {
+    "id": "15.4",
+    "title": "Verfahren bei Cheating-Verdacht",
+    "body": "",
+    "page": 75
+  },
+  {
+    "id": "15.4.1",
+    "title": "Grundsatz",
+    "body": "Das Verfahren bei Cheating-Verdacht dient dem Schutz der Turnierintegrität und gleichzeitig dem Schutz der beteiligten Spieler vor unberechtigten Beschuldigungen. Die Feststellung von Cheating ist eine schwerwiegende Entscheidung mit potenziell weitreichenden Konsequenzen und erfordert daher ein sorgfältiges und faires Verfahren. Cheating im Sinne dieses Kapitels entspricht der Definition in Kapitel 12.5.6. Die dort beschriebenen Merkmale – insbesondere Absicht, Regelverstoß und die Herbeiführung oder versuchte Herbeiführung eines Vorteils – müssen kumulativ vorliegen.",
+    "page": 75
+  },
+  {
+    "id": "15.4.2",
+    "title": "Einleitung einer Untersuchung",
+    "body": "Eine Untersuchung wegen Cheating-Verdacht wird eingeleitet, wenn ein Judge, die Turnierleitung oder ein Spieler einen konkreten und begründeten Verdacht auf absichtlichen Regelverstoß im Sinne von Kapitel 12.5.6 äußert. Die Untersuchung wird von einem Judge oder der Turnierleitung durchgeführt. In Turnieren ab REL 2 soll die Untersuchung nach Möglichkeit durch den Head Judge oder unter Einbindung des Head Judges durchgeführt werden.\n\nBei Einleitung einer Untersuchung wird das laufende Match unverzüglich pausiert. Die benötigte Zeit wird auf die Rundenzeit aufgeschlagen. Beide Spieler sind verpflichtet, am Verfahren mitzuwirken und Fragen wahrheitsgemäß zu beantworten.",
+    "page": 75
+  },
+  {
+    "id": "15.4.3",
+    "title": "Sachverhaltsaufnahme und Anhörung",
+    "body": "Die Sachverhaltsaufnahme dient der möglichst vollständigen Feststellung des relevanten Geschehens. Der untersuchende Judge oder die Turnierleitung stellt den Sachverhalt so weit wie möglich anhand objektiver Indizien und Aussagen fest. Die Sachverhaltsaufnahme umfasst insbesondere: Getrennte Befragung der beteiligten Spieler. Die Befragungen sollen so durchgeführt werden, dass kein Spieler die Aussagen des anderen hören oder darauf reagieren kann. Sicherstellung und Prüfung des aktuellen Spielzustands, einschließlich Kartenpositionen, Marker, Zustände, Lebenspunkte und Friedhofsinhalt. Sofern relevant: Prüfung von Deck, Deckliste, Sleeves und sonstigem Spielmaterial. Befragung unbeteiligter Zeugen, sofern solche verfügbar sind (z. B. Zuschauer, benachbarte Spieler). Prüfung, ob vergleichbare Vorfälle im bisherigen Turnierverlauf oder anderen Turnieren dokumentiert wurden. Beide Spieler haben das Recht, den Sachverhalt aus ihrer Perspektive darzustellen. Die Anhörung ist so zu gestalten, dass jeder beteiligte Spieler seine Sicht der Dinge vollständig vortragen kann, bevor eine Entscheidung getroffen wird. Der untersuchende Judge darf während der Anhörung keine Informationen offenlegen, die verdeckte Spielinformationen betreffen oder die Aussagen des jeweils anderen Spielers in unzulässiger Weise vorwegnehmen.",
+    "page": 76
+  },
+  {
+    "id": "15.4.4",
+    "title": "Bewertungsmaßstab",
+    "body": "Cheating erfordert nach der Definition in Kapitel 12.5.6 das kumulative Vorliegen folgender Elemente: Ein Regelverstoß im Sinne des Kartentexts, des Spielregelwerks oder des Turnierregelwerks. Absicht, d. h. der Spieler handelte wissentlich und willentlich regelwidrig oder nahm den Regelverstoß bewusst in Kauf. Die Herbeiführung oder versuchte Herbeiführung eines Vorteils für den handelnden Spieler oder eines Nachteils für den Gegner. Für die Feststellung von Cheating gilt der Maßstab der klaren Überzeugung. Das bedeutet: Die untersuchende Instanz muss auf Grundlage der vorliegenden Informationen und Indizien mit hoher Sicherheit davon überzeugt sein, dass alle drei Elemente vorliegen. Bloße Verdachtsmomente, das Vorliegen eines Vorteils allein oder die theoretische Möglichkeit einer Absicht genügen nicht. Im Zweifel ist zugunsten des beschuldigten Spielers zu entscheiden. Ein Vorfall, der nicht mit klarer Überzeugung als Cheating eingestuft werden kann, ist der jeweils passenden Fehlerkategorie gemäß Kapitel 12 zuzuordnen und entsprechend zu behandeln.",
+    "page": 76
+  },
+  {
+    "id": "15.4.5",
+    "title": "Entscheidung und Maßnahmen",
+    "body": "Kommt die untersuchende Instanz zu der klaren Überzeugung, dass Cheating vorliegt, ist der Vorfall als Cheating gemäß Kapitel 12.5.6 einzuordnen. Die Maßnahme bei bestätigtem Cheating ist die Disqualifikation gemäß Kapitel 13.2 (6). Die Disqualifikation ist unabhängig vom Turnierlevel (REL) anzuwenden. Kommt die untersuchende Instanz nicht zu einer klaren Überzeugung, dass Cheating vorliegt, wird der Vorfall nicht als Cheating eingeordnet. Der Vorfall ist stattdessen der zutreffenden Fehlerkategorie gemäß Kapitel 12 zuzuordnen und mit der für diese Kategorie und das jeweilige REL vorgesehenen Maßnahme zu behandeln. Unabhängig vom Ergebnis der Bewertung ist jeder untersuchte Cheating-Verdacht gemäß Kapitel 15.3 zu dokumentieren und gemäß Kapitel 15.3.4 an das Organized Play weiterzuleiten. Dem beschuldigten Spieler ist die getroffene Entscheidung und deren Begründung mitzuteilen. Im Falle einer Disqualifikation wegen Cheating ist der Spieler darüber zu informieren, dass der Vorfall an das Organized-Play-Programm weitergeleitet wird und dort turnierübergreifende Konsequenzen nach sich ziehen kann. Gegen eine Cheating-Feststellung steht dem betroffenen Spieler das Einspruchsverfahren gemäß Kapitel 15.2 offen, sofern die Feststellung nicht bereits durch den Head Judge oder die Turnierleitung als Einspruchsinstanz getroffen wurde.",
+    "page": 77
+  },
+  {
+    "id": "15.4.6",
+    "title": "Schutz vor Falschbeschuldigungen",
+    "body": "Der Cheating-Vorwurf ist ein schwerwiegender Vorwurf. Das Verfahren ist daher so zu gestalten, dass Spieler nicht leichtfertig oder missbräuchlich beschuldigt werden. Das absichtliche Erheben eines Cheating-Vorwurfs, obwohl der beschuldigende Spieler weiß oder erkennen müsste, dass kein hinreichender Anlass besteht, kann als schwerwiegendes unsportliches Verhalten gemäß Kapitel 12.5.5 gewertet werden. Gleiches gilt für den wiederholten Missbrauch von Cheating-Vorwürfen als Druckmittel, zur Einschüchterung oder zur gezielten Verzögerung des Spielablaufs. Die Turnierleitung und die Judges sind gehalten, auch den beschuldigten Spieler fair und respektvoll zu behandeln. Ein Cheating-Verdacht begründet keine Vorverurteilung. Bis zur abschließenden Feststellung ist der Grundsatz „im Zweifel zugunsten des beschuldigten Spielers\" zu wahren.",
+    "page": 77
+  },
+  {
+    "id": "15.5",
+    "title": "Turnierübergreifende Konsequenzen",
+    "body": "",
+    "page": 77
+  },
+  {
+    "id": "15.5.1",
+    "title": "Grundsatz",
+    "body": "Bestimmte Vorfälle im Turnierbetrieb können Konsequenzen nach sich ziehen, die über das einzelne Turnier hinausgehen. Dies betrifft insbesondere bestätigte Cheating- Feststellungen, Disqualifikationen sowie wiederholte schwerwiegende Regelverstöße über mehrere Turniere hinweg. Turnierübergreifende Konsequenzen dienen dem Schutz der Wettbewerbsintegrität des gesamten Bluthelden®-Organized-Play-Programms und der Sicherstellung gleicher Wettbewerbsbedingungen für alle Teilnehmer.",
+    "page": 77
+  },
+  {
+    "id": "15.5.2",
+    "title": "Zuständigkeit",
+    "body": "Die Entscheidung über turnierübergreifende Konsequenzen liegt nicht bei der Turnierleitung des einzelnen Turniers, sondern beim Organized-Play-Programm von Bluthelden®. Die Turnierleitung ist ausschließlich dafür zuständig, Vorfälle gemäß Kapitel 15.3.4 vollständig und korrekt zu dokumentieren und weiterzuleiten. Sie trifft keine Entscheidung über Sperren, Suspendierungen oder sonstige turnierübergreifende Maßnahmen.",
+    "page": 78
+  },
+  {
+    "id": "15.5.3",
+    "title": "Mögliche turnierübergreifende Maßnahmen",
+    "body": "Turnierübergreifende Konsequenzen können insbesondere umfassen:\n • Befristete Sperren für sanktionierte Turniere.\n • Unbefristete Sperren für sanktionierte Turniere.\n • Entzug von im Organized Play erworbenen Punkten oder Qualifikationen.\n • Ausschluss von Einladungsturnieren oder besonderen Wettbewerben. Die konkreten Voraussetzungen, Abstufungen, Dauer und Verfahren für turnierübergreifende Konsequenzen sowie die Möglichkeit einer Rehabilitation werden obliegen dem Organized-Play von Bluthelden®.",
+    "page": 78
+  },
+  {
+    "id": "15.5.4",
+    "title": "Verweis",
+    "body": "Für alle turnierübergreifenden Konsequenzen ist ausschließlich das Organized-Play von Bluthelden® verantwortlich. Dieses Turnierregelwerk begründet keine eigenständigen turnierübergreifenden Ansprüche oder Maßnahmen. Es stellt lediglich sicher, dass die für eine turnierübergreifende Bewertung notwendigen Informationen ordnungsgemäß erfasst und weitergeleitet werden.",
+    "page": 78
+  }
+]

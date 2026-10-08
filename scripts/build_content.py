@@ -43,7 +43,7 @@ save('card-texts.json',[{'id':c['id'],'name':c['name'],'set':c['set'],**texts[c[
 import csv
 with (ROOT/'dist/data/card-texts.csv').open('w',newline='',encoding='utf-8-sig') as f:
  columns=['id','name','set','typeLine','colors','rarity','asp','level','pow','hp','res','ini','magic','lp','rulesText','additionalCostsText','status','source']
- writer=csv.DictWriter(f,fieldnames=columns);writer.writeheader()
+ writer=csv.DictWriter(f,fieldnames=columns,lineterminator="\n");writer.writeheader()
  for c in cards:
   d=texts[c['id']];row={k:d.get(k,'') for k in columns};row.update(id=c['id'],name=c['name'],set=c['set'],colors=', '.join(d['colors']),**d['stats'])
   # Spreadsheet-safe export for source text beginning with formula characters.

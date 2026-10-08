@@ -38,3 +38,16 @@ assert(rune.text.types.includes('Rune')&&rune.text.types.includes('Resource'));
 const exports=JSON.parse(readFileSync(new URL('../dist/data/card-texts.json',import.meta.url)));
 assert.equal(exports.length,cards.length);assert(exports.every(c=>ids.has(c.id)));
 console.log(`Card search: ${cards.length} complete text records, numeric/range, language, AND and unknown-value checks passed.`);
+const printings=[
+ {...fixture,id:'a',name:'Same Name',set:'Origin',text:{...fixture.text,stats:{asp:2},colors:['green']}},
+ {...fixture,id:'b',name:'SAME  NAME',set:'Alliances',text:{...fixture.text,stats:{asp:5},colors:['blue']}},
+ {...fixture,id:'c',name:'Another Name'}
+];
+assert.equal(S.group(printings).length,2,'Same names appear once');
+assert.equal(S.group(printings,{set:'Alliances'})[0].card.id,'b','Show a matching printing');
+assert.equal(S.group(printings,{set:'Alliances'})[0].variants.length,2,'Keep other printings accessible');
+assert.equal(S.group(printings,{set:'Alliances',aspMax:'2'}).length,0,'All filters must match the same printing');
+const grouped=S.group(cards);
+assert.equal(grouped.reduce((n,g)=>n+g.variants.length,0),cards.length,'No printing lost');
+assert.equal(new Set(grouped.map(g=>g.key)).size,grouped.length);
+console.log(`Grouping: ${cards.length} printings in ${grouped.length} name groups; variant filtering passed.`);

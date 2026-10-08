@@ -135,3 +135,11 @@ Die frühere private Sites-Zuordnung bleibt in `.openai/hosting.json` dokumentie
 ## Quellen und Rechte
 
 Regelgrundlage: `TournamentRulebook_de.pdf`, bereitgestellt im Projekt; Autoren laut Impressum Dr. Tobias Wels, Marcel Schottkowski und Jounes Erojo. Illustration: Anna Lesnikova. Regeln, Kartenbilder, Kartentexte und Marke: © Bluthelden. Die CAS-Seite dient als strukturelle Vorlage; ihre Unterrichtsinhalte wurden nicht übernommen. Fira Code wird unter der SIL Open Font License mitgeliefert; siehe `dist/fonts/OFL.txt`.
+
+### Bildprüfung vom 08.10.2026
+
+Die 151 priorisierten Einträge mit Erkennungslücken wurden gezielt geprüft: sechs gemeinsam mit dem Nutzer und 145 durch direkten Bildvergleich. Das Prüfprotokoll unter `review/visual-review-2026-10-08.json` enthält Quelle, geprüfte Felder und Änderungen. `review/karten-pruefliste.md` hält den Stand fest. Diese Prüfung deckt die markierten Lücken und weitere lesbare Eigenschaften ab; sie ist keine vollständige Prüfung aller Kartentexte. Die betreffenden Korrekturen stehen in `content/card-overrides.json`, bestätigte Namen in `content/cards.json`.
+
+### Karten nach Namen gruppieren
+
+Katalog und Archivsuche zeigen pro Kartenname einen Treffer. Groß-/Kleinschreibung, Leerzeichen und typografische Satzzeichen werden beim Vergleich vereinheitlicht; ähnlich klingende Namen werden nicht automatisch zusammengelegt. Eine passende reguläre Ausgabe wird bevorzugt. Bei aktiven Filtern muss eine einzelne Ausgabe alle Bedingungen erfüllen; Bedingungen verschiedener Ausgaben werden nicht vermischt. Beim Öffnen sind alle Ausgaben über Bildminiaturen auswählbar. Jede Ausgabe behält ihre eigenen Texte, Eigenschaften, Quellen und Direktlinks. Leere Eigenschaften und Textabschnitte werden ausgeblendet; gedruckte Nullwerte bleiben sichtbar.

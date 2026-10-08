@@ -141,8 +141,14 @@
       "typeLine",
       "types",
       "subtypes",
-      "rulesText"
-    ]
+      "rulesText",
+      "stats.asp",
+      "rarity"
+    ],
+    "stats": {
+      "asp": null
+    },
+    "rarity": "T"
   },
   "7be6b2c6dd9a": {
     "types": [
@@ -150,7 +156,10 @@
     ],
     "typeLine": "Rule card · Front",
     "subtypes": [],
-    "rarity": null
+    "rarity": null,
+    "reviewedFields": [
+      "rarity"
+    ]
   },
   "54c2b5434ba5": {
     "types": [
@@ -158,6 +167,2970 @@
     ],
     "typeLine": "Rule card · Back",
     "subtypes": [],
-    "rarity": null
+    "rarity": null,
+    "reviewedFields": [
+      "rarity"
+    ]
+  },
+  "ee37ad941634": {
+    "colors": [
+      "white"
+    ],
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "F",
+    "typeLine": "Epic Character, Human",
+    "types": [
+      "Character"
+    ],
+    "subtypes": [
+      "Human"
+    ],
+    "traits": [
+      "Epic"
+    ],
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits"
+    ]
+  },
+  "e0d1b5ae81c1": {
+    "colors": [
+      "green"
+    ],
+    "stats": {
+      "asp": 3,
+      "level": null,
+      "res": null,
+      "ini": null,
+      "pow": null,
+      "hp": null
+    },
+    "rarity": "L",
+    "typeLine": "Martial Training",
+    "types": [
+      "Training"
+    ],
+    "subtypes": [
+      "Martial"
+    ],
+    "traits": [
+      "Martial"
+    ],
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits"
+    ]
+  },
+  "976ed1199383": {
+    "colors": [
+      "green"
+    ],
+    "stats": {
+      "asp": null,
+      "level": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "T",
+    "typeLine": "Token Character, Boar",
+    "types": [
+      "Character",
+      "Token"
+    ],
+    "subtypes": [
+      "Boar"
+    ],
+    "traits": [
+      "Token"
+    ],
+    "rulesText": "",
+    "flavorText": "When the forest runs, it runs first.",
+    "keywords": [],
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "rulesText",
+      "flavorText"
+    ]
+  },
+  "d372e5c24bc7": {
+    "rulesText": "When Crypt Walker enters play, return an Undead Character from your Graveyard to your hand.\n[Turn] Gain 1 ASP, as long as this Character remains Bound.",
+    "reviewedFields": [
+      "rulesText.activationSymbol",
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "mechanics.pool",
+      "mechanics.binding"
+    ],
+    "colors": [
+      "black"
+    ],
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 2,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "N",
+    "typeLine": "Character, Undead",
+    "types": [
+      "Character"
+    ],
+    "subtypes": [
+      "Undead"
+    ],
+    "traits": [],
+    "mechanics": {
+      "pool": true,
+      "binding": true
+    }
+  },
+  "ec2852690de1": {
+    "colors": [
+      "orange"
+    ],
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": null,
+      "pow": null,
+      "hp": null
+    },
+    "rarity": "F",
+    "typeLine": "Mythic Character, Spirit Advisor",
+    "types": [
+      "Character"
+    ],
+    "subtypes": [
+      "Spirit",
+      "Advisor"
+    ],
+    "traits": [
+      "Mythic",
+      "Advisor"
+    ],
+    "mechanics": {
+      "pool": true
+    },
+    "rulesText": "Advisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nSpectral Ward\nWhen Erojo, Warden of the Beyond enters play, create a\nShadow Token in target War Zone.\n1 ASP, [Turn]: All Characters in target War Zone gain POW/HP -1/-1\nequal to the number of Shadow Tokens in that War Zone.",
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "mechanics.pool",
+      "keywords",
+      "rulesText.activationCost"
+    ]
+  },
+  "3c093632d870": {
+    "colors": [
+      "white"
+    ],
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 6,
+      "ini": 3,
+      "pow": 1,
+      "hp": 3
+    },
+    "rarity": "N",
+    "typeLine": "Character, Human",
+    "types": [
+      "Character"
+    ],
+    "subtypes": [
+      "Human"
+    ],
+    "traits": [],
+    "rulesText": "2 ASP, [Turn]: Target Character in the same Lane gains RES +1 or -1 until the end of the round. This effect ignores the target’s Magic Resistance.",
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "rulesText.activationCost"
+    ]
+  },
+  "d9130d64b8c9": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
+  },
+  "d5639fce5ba2": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 7,
+      "pow": 5,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "e35106b66d82": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "bbb9821d9d86": {
+    "stats": {
+      "asp": 4,
+      "res": 4,
+      "ini": 4,
+      "pow": 4,
+      "hp": 3
+    },
+    "rarity": "N",
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name",
+      "mechanics.rise"
+    ]
+  },
+  "92d20fd8105b": {
+    "stats": {
+      "asp": 4,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "N",
+    "mechanics": {
+      "binding": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
+  },
+  "86a57eb7d095": {
+    "stats": {
+      "asp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "82bb2778a1da": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "de87a97fb350": {
+    "stats": {
+      "asp": 4,
+      "res": 4,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
+  },
+  "47eb90a6d39e": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
+  },
+  "a24a6cd02937": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "64bfe52cd805": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 2,
+      "ini": 4,
+      "pow": 2,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "16ed36a22e1a": {
+    "rarity": "L",
+    "reviewedFields": [
+      "rarity"
+    ]
+  },
+  "20c365a0956a": {
+    "stats": {
+      "asp": 1,
+      "res": 2,
+      "ini": 2,
+      "pow": 1,
+      "hp": 1
+    },
+    "rarity": "K",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "de6d829a687a": {
+    "stats": {
+      "asp": null,
+      "level": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 1
+    },
+    "rarity": "T",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
+  },
+  "de56dfced149": {
+    "stats": {
+      "asp": 6,
+      "magic": 5
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
+  },
+  "5196adc8545d": {
+    "stats": {
+      "asp": 5
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "1594d323378c": {
+    "stats": {
+      "asp": 3,
+      "lp": null,
+      "res": 6,
+      "ini": 6,
+      "pow": 4,
+      "hp": 6
+    },
+    "rarity": "F",
+    "types": [
+      "Training"
+    ],
+    "subtypes": [
+      "Sovereign"
+    ],
+    "reviewedFields": [
+      "stats.asp",
+      "stats.lp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "types",
+      "subtypes",
+      "name"
+    ]
+  },
+  "41490da25258": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": 5,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
+  },
+  "a7658198b7f6": {
+    "stats": {
+      "lp": 30,
+      "asp": null
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.lp",
+      "stats.asp",
+      "rarity",
+      "name"
+    ]
+  },
+  "19a4f837a013": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 5,
+      "ini": 3,
+      "pow": 6,
+      "hp": 8
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "7ff079424c21": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "b8183c47968f": {
+    "stats": {
+      "asp": 6,
+      "res": 3,
+      "ini": 4,
+      "pow": 4,
+      "hp": 5
+    },
+    "rarity": "L",
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
+  },
+  "8084f7f92e95": {
+    "stats": {
+      "asp": 3
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "3a01cb13d5d6": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "res": 4,
+      "ini": 4,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "6f6821ab8e4d": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "91c022a42ae8": {
+    "stats": {
+      "asp": 3,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 3
+    },
+    "rarity": "K",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "0ff8b9ee0bf8": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 1,
+      "ini": 1,
+      "pow": 1,
+      "hp": 1
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "6e4b640b22a2": {
+    "stats": {
+      "asp": 6,
+      "magic": 5
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity",
+      "name"
+    ]
+  },
+  "5e2bfbfdcfd8": {
+    "stats": {
+      "asp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "c4b764c986f7": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 1,
+      "hp": 3
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "e938c47bc748": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 6,
+      "ini": 5,
+      "pow": 6,
+      "hp": 2
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
+  },
+  "ca942e423d53": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "667dfd082c45": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 4,
+      "pow": 4,
+      "hp": 4
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "71bad37ab4ab": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 1,
+      "ini": 2,
+      "pow": 1,
+      "hp": 1
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "aad01215d642": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 3,
+      "ini": 6,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "67529f84897b": {
+    "stats": {
+      "asp": null,
+      "level": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "T",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "95cf3ee93471": {
+    "stats": {
+      "asp": 5,
+      "res": 5,
+      "ini": 3,
+      "pow": 3,
+      "hp": 5
+    },
+    "rarity": "F",
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
+  },
+  "b1bf248ba944": {
+    "stats": {
+      "asp": 6,
+      "res": 6,
+      "ini": null,
+      "pow": null,
+      "hp": null
+    },
+    "rarity": "F",
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
+  },
+  "54b16b340768": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 4,
+      "pow": 4,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "33bb522fa82f": {
+    "stats": {
+      "asp": 5,
+      "res": 5,
+      "ini": null,
+      "pow": null,
+      "hp": null
+    },
+    "rarity": "F",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "540714eca9d2": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "magic": 5
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "rarity"
+    ]
+  },
+  "56cd5aa44acb": {
+    "stats": {
+      "asp": null,
+      "level": null,
+      "res": 1,
+      "ini": 1,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "T",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "4957f7df2018": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 5,
+      "pow": 4,
+      "hp": 6
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "f38ce3cc7866": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 2,
+      "ini": 4,
+      "pow": 0,
+      "hp": 1
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "ae58645f146a": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 4,
+      "ini": 3,
+      "pow": 0,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "bd0b062c5404": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "eb8c29c13b61": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "968e9c9b9340": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 5,
+      "ini": 1,
+      "pow": 0,
+      "hp": 6
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "b16f2cef8494": {
+    "stats": {
+      "asp": 2
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "121e923571ce": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 4,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "08d6aab91314": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "eedf4fa414f4": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "a418fa031fd5": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 4,
+      "ini": 1,
+      "pow": 1,
+      "hp": 6
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "d653b0a90cce": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 4,
+      "pow": 3,
+      "hp": 6
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "9843dc84cfaf": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": 3,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "736c16e79e51": {
+    "stats": {
+      "asp": 2,
+      "res": 4,
+      "ini": 3,
+      "pow": 1,
+      "hp": 3
+    },
+    "rarity": "N",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "1ee7165dceb1": {
+    "stats": {
+      "asp": null,
+      "res": 1,
+      "ini": 2,
+      "pow": 0,
+      "hp": 4
+    },
+    "rarity": "T",
+    "mechanics": {
+      "binding": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
+  },
+  "6994c8c0cb66": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 6,
+      "ini": 4,
+      "pow": 3,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "0be3ffa6aafe": {
+    "stats": {
+      "asp": 5,
+      "magic": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
+  },
+  "3deaf0c12e9a": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 4,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "6d4393f0ffb5": {
+    "rarity": "F",
+    "reviewedFields": [
+      "rarity"
+    ]
+  },
+  "6c5c8b637b13": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 2,
+      "ini": 4,
+      "pow": 2,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "56bb2bb395a9": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "c118c281a4af": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 3,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "eccd4e0b8924": {
+    "stats": {
+      "asp": 5,
+      "res": 5,
+      "ini": null,
+      "pow": null,
+      "hp": null
+    },
+    "rarity": "L",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "a785e82afca6": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 4,
+      "ini": 5,
+      "pow": 5,
+      "hp": 5
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "567654ef1c3d": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 4,
+      "hp": 5
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "405f2379e206": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "magic": 4,
+      "res": 4,
+      "ini": 2,
+      "pow": 1,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "25acf35791e0": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "5ecbf1e448cf": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 3,
+      "pow": 3,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "db3db58a3612": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 5,
+      "hp": 4
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "844548a951dd": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 4,
+      "ini": 3,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "cdcc720f3b9a": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 3,
+      "hp": 4
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "2e030f958a21": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 2,
+      "ini": 1,
+      "pow": 1,
+      "hp": 6
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "af8266b0af83": {
+    "stats": {
+      "asp": 4,
+      "res": 3,
+      "ini": 2,
+      "pow": 1,
+      "hp": 4
+    },
+    "rarity": "N",
+    "mechanics": {
+      "binding": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
+  },
+  "a6062ab2b5af": {
+    "stats": {
+      "asp": 3,
+      "res": 3,
+      "ini": 3,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "N",
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
+  },
+  "7086568b4266": {
+    "stats": {
+      "asp": 2,
+      "res": 2,
+      "ini": 2,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "N",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "04d46a1e9b5c": {
+    "rarity": "L",
+    "reviewedFields": [
+      "rarity"
+    ]
+  },
+  "63ae223dbe40": {
+    "rarity": "T",
+    "reviewedFields": [
+      "rarity"
+    ]
+  },
+  "c513d6b68ad4": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 4,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "6f065018f8cb": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 4,
+      "ini": 5,
+      "pow": 4,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "b0d60c89587b": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 2,
+      "ini": 3,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "c083a7dbea23": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "res": 2,
+      "ini": 2,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "54ed89eb88a8": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "c7af70b1081f": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 2,
+      "ini": 4,
+      "pow": 6,
+      "hp": 6
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "646a9649e32c": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 4,
+      "hp": 5
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "93cfb7a51e90": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 2,
+      "ini": 2,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "d6de9c29b187": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "84d128d0bd09": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 4,
+      "ini": 3,
+      "pow": 6,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "b5bf92853d6a": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "9d464615b5c9": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 7,
+      "hp": 7
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "8267309289a3": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 4,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "d84c0c20cb27": {
+    "stats": {
+      "asp": null,
+      "level": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 6,
+      "hp": 6
+    },
+    "rarity": "T",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "92d1a2966858": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "3a927405245c": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 4,
+      "ini": 5,
+      "pow": 5,
+      "hp": 4
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "8903845d1f3f": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 4,
+      "hp": 4
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "a08d84e2532f": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 4,
+      "ini": 5,
+      "pow": 6,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "150eb898a2f8": {
+    "stats": {
+      "asp": 3,
+      "res": 3,
+      "ini": 4,
+      "pow": 4,
+      "hp": 2
+    },
+    "rarity": "N",
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
+  },
+  "d7c496f76973": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 2,
+      "ini": 1,
+      "pow": 3,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "81247977a842": {
+    "stats": {
+      "asp": 1,
+      "magic": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
+  },
+  "8cbe640fa17d": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 2,
+      "ini": 3,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "281a11cbdbd1": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 4,
+      "pow": 4,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "d6a5766e3923": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 2,
+      "ini": 2,
+      "pow": 3,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "420c126a4826": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 4,
+      "pow": 3,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "a0aef33a3c97": {
+    "stats": {
+      "asp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "2e0c589aa407": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "8101fe7b71b4": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 2,
+      "ini": 2,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "4aad05bc0f91": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 2,
+      "ini": 4,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "992d501c0b65": {
+    "stats": {
+      "asp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "e3dce45a60bd": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "25ff21c84d82": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "2f916ad3697e": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "ebfae2ef5d6f": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 4,
+      "ini": 3,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "f6d7609b7263": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 2,
+      "ini": 3,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
+  },
+  "a94354042837": {
+    "stats": {
+      "asp": 5
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
+  },
+  "80f41aedc1b9": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 2,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "719f76cd9ea5": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 4,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "818cf70fa568": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 3
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "43fd93c49b9a": {
+    "stats": {
+      "asp": null,
+      "level": null,
+      "res": 3,
+      "ini": 1,
+      "pow": 0,
+      "hp": 6
+    },
+    "rarity": "T",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "ce4f3621f0c2": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "magic": 4,
+      "res": 4,
+      "ini": 4,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "22ccddbf4169": {
+    "stats": {
+      "asp": 2,
+      "magic": 4
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
+  },
+  "ea0f5f120c73": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "7f564ee80b3e": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "068743b8e66f": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 4,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "ffe3ebeaa3c0": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 4,
+      "ini": 5,
+      "pow": 4,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "6f8aa1a0ca4a": {
+    "stats": {
+      "asp": 4,
+      "res": 3,
+      "ini": 2,
+      "pow": 1,
+      "hp": 4
+    },
+    "rarity": "N",
+    "mechanics": {
+      "binding": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
+  },
+  "473c000d848f": {
+    "stats": {
+      "asp": 4,
+      "res": 3,
+      "ini": 2,
+      "pow": 1,
+      "hp": 4
+    },
+    "rarity": "N",
+    "mechanics": {
+      "binding": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
+  },
+  "4ae59401672a": {
+    "stats": {
+      "asp": 2,
+      "res": 2,
+      "ini": 2,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "N",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "ea38137d0191": {
+    "stats": {
+      "asp": 2,
+      "res": 2,
+      "ini": 2,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "N",
+    "mechanics": {
+      "pool": true
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
+  },
+  "a60c85ef6f79": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "8f1b0dd75a7e": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 4,
+      "pow": 4,
+      "hp": 4
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "e005537a46cf": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 4,
+      "pow": 3,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "ac355275934a": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "43f38f0dca63": {
+    "stats": {
+      "asp": 3,
+      "level": 2,
+      "res": 4,
+      "ini": 3,
+      "pow": 2,
+      "hp": 2
+    },
+    "rarity": "N",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "cbfc3d42a664": {
+    "stats": {
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 5,
+      "pow": 5,
+      "hp": 5
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "363471639f30": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 3,
+      "ini": 4,
+      "pow": 2,
+      "hp": 3
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "32ee8d52234d": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 6,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "bfe8309c2c3d": {
+    "stats": {
+      "asp": 3,
+      "level": 1,
+      "res": 3,
+      "ini": 3,
+      "pow": 2,
+      "hp": 4
+    },
+    "rarity": "K",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "e19dd1bb8065": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 4,
+      "ini": 3,
+      "pow": 6,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "ab1cf79dd829": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 3,
+      "ini": 3,
+      "pow": 7,
+      "hp": 7
+    },
+    "rarity": "F",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "c24dc21b5ce8": {
+    "stats": {
+      "asp": 6,
+      "level": 2,
+      "res": 3,
+      "ini": 2,
+      "pow": 4,
+      "hp": 6
+    },
+    "rarity": "L",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
+  },
+  "dc9b3a6103a8": {
+    "stats": {
+      "asp": null,
+      "level": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 6,
+      "hp": 6
+    },
+    "rarity": "T",
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   }
 }

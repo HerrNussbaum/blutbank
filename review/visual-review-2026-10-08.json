@@ -1,0 +1,4148 @@
+[
+  {
+    "id": "d9130d64b8c9",
+    "name": "Consecrated Monk",
+    "queueNumber": 7,
+    "source": "https://bluthelden.com/cdn/shop/files/WH14_highly_concerated_monk.png?v=1749546355&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "name",
+        "before": "highly concerated monk",
+        "after": "Consecrated Monk"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "d5639fce5ba2",
+    "name": "Griffin",
+    "queueNumber": 8,
+    "source": "https://bluthelden.com/cdn/shop/files/WH21_Griffin_92532640-50c9-4cbc-b7a2-c2b33aadb04d.png?v=1750753921&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "e35106b66d82",
+    "name": "Healing Wizard",
+    "queueNumber": 9,
+    "source": "https://bluthelden.com/cdn/shop/files/WH22_Healing_Wizard_31126ea8-76ac-4ed8-ae0b-b3330acbe618.png?v=1750753906&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "bbb9821d9d86",
+    "name": "Master Alchemist of Strength",
+    "queueNumber": 10,
+    "source": "https://bluthelden.com/cdn/shop/files/WH26_Master_Alchemist_of_Strengh_03450933-2452-440f-97df-60ee144a864f.png?v=1750753905&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name",
+      "mechanics.rise"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "name",
+        "before": "Master Alchemist of Strengh",
+        "after": "Master Alchemist of Strength"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "92d20fd8105b",
+    "name": "Master Blacksmith",
+    "queueNumber": 11,
+    "source": "https://bluthelden.com/cdn/shop/files/WH27_Master_Blacksmith_7116b734-ceff-4bf7-adf8-8137056b483a.png?v=1750753915&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "86a57eb7d095",
+    "name": "Melody of Courage",
+    "queueNumber": 12,
+    "source": "https://bluthelden.com/cdn/shop/files/WH29_Melody_of_Courage_3696a857-957e-4738-ae97-820a6867f412.png?v=1750753937&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "K"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "82bb2778a1da",
+    "name": "Royal Scout",
+    "queueNumber": 13,
+    "source": "https://bluthelden.com/cdn/shop/files/WH33_Royal_Scout_5afe789b-ee58-4de8-8e7c-4d5dd13edc99.png?v=1750753932&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "de87a97fb350",
+    "name": "Silas the Protection Mage",
+    "queueNumber": 14,
+    "source": "https://bluthelden.com/cdn/shop/files/WH36_Silas_the_Protection_Mage_7d76a992-3468-4fc6-9c53-534773ec6437.png?v=1750753911&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "47eb90a6d39e",
+    "name": "Spearmen of the Sovereign’s Guard",
+    "queueNumber": 15,
+    "source": "https://bluthelden.com/cdn/shop/files/WH37_Spearmen_of_the_Guard_1d7cabbd-80c1-4e86-b0e4-dfbb6abe1e87.png?v=1750753901&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "name",
+        "before": "Spearmen of the Guard",
+        "after": "Spearmen of the Sovereign’s Guard"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a24a6cd02937",
+    "name": "War Falcon",
+    "queueNumber": 16,
+    "source": "https://bluthelden.com/cdn/shop/files/WH43_War_Falcon_77ffa53b-4448-4fab-99f0-1d310f49341c.png?v=1750753938&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "64bfe52cd805",
+    "name": "Warrior of The Shieldwall",
+    "queueNumber": 17,
+    "source": "https://bluthelden.com/cdn/shop/files/WH44_Warrior_of_The_Shieldwall_8a91de15-8857-4c00-adb7-c4cac3474fda.png?v=1750753917&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "16ed36a22e1a",
+    "name": "The River Forge",
+    "queueNumber": 18,
+    "source": "https://bluthelden.com/cdn/shop/files/WH54_The_River_Forge_e9c81a07-87fe-45aa-b7ca-88e29907d694.png?v=1750753930&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "20c365a0956a",
+    "name": "Young Blacksmith",
+    "queueNumber": 19,
+    "source": "https://bluthelden.com/cdn/shop/files/WH55_Young_Blacksmith_f1b14b81-a9c0-4958-bc88-d1274f9c9cef.png?v=1750753928&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "de6d829a687a",
+    "name": "Falcon",
+    "queueNumber": 20,
+    "source": "https://bluthelden.com/cdn/shop/files/WH-TK-56_Falcon_Token_alle_weiss_b72a2628-897e-47b7-b761-26fb79933131.png?v=1750947366&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "name",
+        "before": "WH-TK-56 Falcon Token alle weiss",
+        "after": "Falcon"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "de56dfced149",
+    "name": "Flying Swords",
+    "queueNumber": 21,
+    "source": "https://bluthelden.com/cdn/shop/files/Flying_Swords.png?v=1758106369&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.magic",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "5196adc8545d",
+    "name": "Horns of Camorrus",
+    "queueNumber": 22,
+    "source": "https://bluthelden.com/cdn/shop/files/Horns_of_Camorrus.png?v=1758106391&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "1594d323378c",
+    "name": "Sovereign’s Charge",
+    "queueNumber": 23,
+    "source": "https://bluthelden.com/cdn/shop/files/Sovereigns_Charge.png?v=1758106416&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.lp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "types",
+      "subtypes",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      },
+      {
+        "field": "types",
+        "before": [
+          "Sovereign",
+          "Training"
+        ],
+        "after": [
+          "Training"
+        ]
+      },
+      {
+        "field": "subtypes",
+        "before": [],
+        "after": [
+          "Sovereign"
+        ]
+      },
+      {
+        "field": "name",
+        "before": "Sovereigns Charge",
+        "after": "Sovereign’s Charge"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "41490da25258",
+    "name": "Toshi, the Blessed",
+    "queueNumber": 24,
+    "source": "https://bluthelden.com/cdn/shop/files/Toshi.png?v=1758106505&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      },
+      {
+        "field": "name",
+        "before": "Toshi",
+        "after": "Toshi, the Blessed"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a7658198b7f6",
+    "name": "Valdar Stormwing, General of the Falcon Guard",
+    "queueNumber": 25,
+    "source": "https://bluthelden.com/cdn/shop/files/Valdar.png?v=1758106694&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.lp",
+      "stats.asp",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.lp",
+        "before": null,
+        "after": 30
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      },
+      {
+        "field": "name",
+        "before": "Valdar",
+        "after": "Valdar Stormwing, General of the Falcon Guard"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "19a4f837a013",
+    "name": "Fighting Tree",
+    "queueNumber": 26,
+    "source": "https://bluthelden.com/cdn/shop/files/GR076_Fighting_Tree_074a3c3c-e551-4adc-83ca-fb1135cc3d25.png?v=1750754948&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "7ff079424c21",
+    "name": "Luminary of Growth",
+    "queueNumber": 27,
+    "source": "https://bluthelden.com/cdn/shop/files/GR083_Luminary_of_Growth.png?v=1750754957&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "b8183c47968f",
+    "name": "Nidhogg, the Appealing Dragon",
+    "queueNumber": 28,
+    "source": "https://bluthelden.com/cdn/shop/files/GR085_Nidhogg_The_Appealing_Dragon.png?v=1750754909&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "8084f7f92e95",
+    "name": "Seed Rain",
+    "queueNumber": 29,
+    "source": "https://bluthelden.com/cdn/shop/files/GR093_Seed_Rain.png?v=1750754941&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "N"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "3a01cb13d5d6",
+    "name": "Tracker",
+    "queueNumber": 30,
+    "source": "https://bluthelden.com/cdn/shop/files/GR098_TRacker.png?v=1750754949&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "6f6821ab8e4d",
+    "name": "Wild Boar",
+    "queueNumber": 31,
+    "source": "https://bluthelden.com/cdn/shop/files/GR100_Wild_Boar.png?v=1750754965&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "91c022a42ae8",
+    "name": "The Unified",
+    "queueNumber": 32,
+    "source": "https://bluthelden.com/cdn/shop/files/GR110_The_Unified.png?v=1750754928&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "0ff8b9ee0bf8",
+    "name": "Growing Beast",
+    "queueNumber": 33,
+    "source": "https://bluthelden.com/cdn/shop/files/growing.png?v=1758620915&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "6e4b640b22a2",
+    "name": "Hornets Rage",
+    "queueNumber": 34,
+    "source": "https://bluthelden.com/cdn/shop/files/Hornets.png?v=1758620935&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.magic",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "name",
+        "before": "Hornet Rage",
+        "after": "Hornets Rage"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "5e2bfbfdcfd8",
+    "name": "Solidarity",
+    "queueNumber": 35,
+    "source": "https://bluthelden.com/cdn/shop/files/solida.png?v=1758620952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "7c202ab6d014",
+    "name": "Tree Token Part 2",
+    "queueNumber": 36,
+    "source": "https://bluthelden.com/cdn/shop/files/tree.png?v=1758620971&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "T"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "c4b764c986f7",
+    "name": "Bloodmonger Maiden",
+    "queueNumber": 37,
+    "source": "https://bluthelden.com/cdn/shop/files/BK124_Bloodmonger_Maiden.png?v=1749546892&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "e938c47bc748",
+    "name": "Buragaor, Flying Demon",
+    "queueNumber": 38,
+    "source": "https://bluthelden.com/cdn/shop/files/BK128_Flying_Demon.png?v=1749546885&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.ini",
+        "before": 3,
+        "after": 5
+      },
+      {
+        "field": "name",
+        "before": "Buragor, Flying Demon",
+        "after": "Buragaor, Flying Demon"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ca942e423d53",
+    "name": "Demon Pactmaker",
+    "queueNumber": 39,
+    "source": "https://bluthelden.com/cdn/shop/files/BK134_Demon_Paktmaker.png?v=1750063314&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "667dfd082c45",
+    "name": "Raymond, Harbinger of Cunning",
+    "queueNumber": 40,
+    "source": "https://bluthelden.com/cdn/shop/files/BK148_Raymond_Harbinger_of_Cunning.png?v=1750754299&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "71bad37ab4ab",
+    "name": "Slave of the Abyss",
+    "queueNumber": 41,
+    "source": "https://bluthelden.com/cdn/shop/files/BK154_Slave_of_the_Abyss.png?v=1750754275&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": 4,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "aad01215d642",
+    "name": "Two-Headed Demon",
+    "queueNumber": 42,
+    "source": "https://bluthelden.com/cdn/shop/files/BK157_Two_Headed_Demon.png?v=1750754270&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "67529f84897b",
+    "name": "Barbarian Mercenary Token",
+    "queueNumber": 43,
+    "source": "https://bluthelden.com/cdn/shop/files/BK-TK-171_Barbarian-Mercenary-Token.png?v=1750754286&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "95cf3ee93471",
+    "name": "Ascendant Darklord",
+    "queueNumber": 44,
+    "source": "https://bluthelden.com/cdn/shop/files/ascendant.png?v=1758621188&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "b1bf248ba944",
+    "name": "Kalakai, Undead Emissary",
+    "queueNumber": 45,
+    "source": "https://bluthelden.com/cdn/shop/files/kalaki.png?v=1758621211&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "54b16b340768",
+    "name": "Merciless Warrior",
+    "queueNumber": 46,
+    "source": "https://bluthelden.com/cdn/shop/files/merciless_warrior.png?v=1759310052&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.level",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "33bb522fa82f",
+    "name": "Nekravar, Advisor of the Damned",
+    "queueNumber": 47,
+    "source": "https://bluthelden.com/cdn/shop/files/Nekravar.jpg?v=1788691615&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "mechanics.pool",
+        "before": null,
+        "after": true
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "540714eca9d2",
+    "name": "Prison",
+    "queueNumber": 48,
+    "source": "https://bluthelden.com/cdn/shop/files/prison.png?v=1758621244&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.level",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.magic",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "N"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "56cd5aa44acb",
+    "name": "Zombie Token",
+    "queueNumber": 49,
+    "source": "https://bluthelden.com/cdn/shop/files/zombie_token.png?v=1759310147&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "T"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "4957f7df2018",
+    "name": "Avatar of Control",
+    "queueNumber": 50,
+    "source": "https://bluthelden.com/cdn/shop/files/OR178_Avatar_of_Control.png?v=1749547260&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "f38ce3cc7866",
+    "name": "Bowpiper",
+    "queueNumber": 51,
+    "source": "https://bluthelden.com/cdn/shop/files/OR180_Bowpiper.png?v=1749547263&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ae58645f146a",
+    "name": "Medium",
+    "queueNumber": 52,
+    "source": "https://bluthelden.com/cdn/shop/files/OR196_Medium_f8429328-bd2a-4236-96e1-1201264ccbed.png?v=1750754527&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 0
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "bd0b062c5404",
+    "name": "Mistheart, the Ghost Shaman",
+    "queueNumber": 53,
+    "source": "https://bluthelden.com/cdn/shop/files/OR199_Mistheart_The_Ghost_Shaman_e4f4ac6d-8635-441c-97b0-85d2f5521585.png?v=1750839436&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "eb8c29c13b61",
+    "name": "Moth Conjurer",
+    "queueNumber": 54,
+    "source": "https://bluthelden.com/cdn/shop/files/OR200_Moth_COnjurer.png?v=1750754531&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "968e9c9b9340",
+    "name": "Palisades Wall",
+    "queueNumber": 55,
+    "source": "https://bluthelden.com/cdn/shop/files/OR204_Palisades_wall.png?v=1750754537&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 0
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "b16f2cef8494",
+    "name": "Ring of Ghosts",
+    "queueNumber": 56,
+    "source": "https://bluthelden.com/cdn/shop/files/ring_of_ghosts.png?v=1759499369&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "121e923571ce",
+    "name": "Shadow Caster",
+    "queueNumber": 57,
+    "source": "https://bluthelden.com/cdn/shop/files/OR208_Shadow_Caster.png?v=1750754539&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "08d6aab91314",
+    "name": "Small Ghost",
+    "queueNumber": 58,
+    "source": "https://bluthelden.com/cdn/shop/files/OR209_Small_Ghost.png?v=1750754539&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "eedf4fa414f4",
+    "name": "Snake Charmer",
+    "queueNumber": 59,
+    "source": "https://bluthelden.com/cdn/shop/files/OR210_Snake_Charmer.png?v=1750754541&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a418fa031fd5",
+    "name": "Snake Trap",
+    "queueNumber": 60,
+    "source": "https://bluthelden.com/cdn/shop/files/OR211_Snake_Trap.png?v=1750754542&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "d653b0a90cce",
+    "name": "Soul of Confusion",
+    "queueNumber": 61,
+    "source": "https://bluthelden.com/cdn/shop/files/OR212_Soul_of_confusion.png?v=1750754543&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "9843dc84cfaf",
+    "name": "The Invisible Ones",
+    "queueNumber": 62,
+    "source": "https://bluthelden.com/cdn/shop/files/OR215_The_Invisible_ones.png?v=1750754547&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "736c16e79e51",
+    "name": "Shadow Summoner",
+    "queueNumber": 63,
+    "source": "https://bluthelden.com/cdn/shop/files/OR227_Shadow_Summoner.png?v=1750754558&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "1ee7165dceb1",
+    "name": "Smith Ghost",
+    "queueNumber": 64,
+    "source": "https://bluthelden.com/cdn/shop/files/OR-TK232_Smiths_Ghost_Token.png?v=1750754564&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 0
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "6994c8c0cb66",
+    "name": "Ghostking, Arvelian Seehoff of Falkenheim",
+    "queueNumber": 65,
+    "source": "https://bluthelden.com/cdn/shop/files/ghostking.png?v=1758621762&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "0be3ffa6aafe",
+    "name": "Spirit of Mastery",
+    "queueNumber": 66,
+    "source": "https://bluthelden.com/cdn/shop/files/spirit_of_mastery_b1e21ae8-0705-4251-ac2b-4b53005ef8ad.png?v=1758621733&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.magic",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "3deaf0c12e9a",
+    "name": "Thalvoryn, Spirit of the Dragon",
+    "queueNumber": 67,
+    "source": "https://bluthelden.com/cdn/shop/files/Thalvoryn.png?v=1758621703&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      },
+      {
+        "field": "stats.level",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": 3,
+        "after": 4
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "6d4393f0ffb5",
+    "name": "Rune of the Wise",
+    "queueNumber": 68,
+    "source": "https://bluthelden.com/cdn/shop/files/245_RUNE_OF_THE_WISE_Alexander_Zimmermann_20250409_a0621236-210f-40a7-b0f2-dfb5469c68d5.png?v=1750755483&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "7be6b2c6dd9a",
+    "name": "RuleCard (Token) (F)",
+    "queueNumber": 69,
+    "source": "https://bluthelden.com/cdn/shop/files/TK250_RULE_CARD_FRONT_Rodolfo_Costa_20250409.png?v=1750755364&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "rarity"
+    ],
+    "changes": [],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "54c2b5434ba5",
+    "name": "RuleCard (Token) (B)",
+    "queueNumber": 70,
+    "source": "https://bluthelden.com/cdn/shop/files/TK250B_RULE_CARD_BACK_Rodolfo_Costa_20250409.png?v=1750755362&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "rarity"
+    ],
+    "changes": [],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "6c5c8b637b13",
+    "name": "Warrior of the Shieldwall",
+    "queueNumber": 71,
+    "source": "https://bluthelden.com/cdn/shop/files/warrior_of_the_shieldwall_1von1_Foil_20250515.png?v=1749545344&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "56bb2bb395a9",
+    "name": "Rockaxe Loyalist",
+    "queueNumber": 72,
+    "source": "https://bluthelden.com/cdn/shop/files/BR_PR-008_Rockaxe_Loyalist.png?v=1788509894&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "K"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "c118c281a4af",
+    "name": "Gokuen Shijin",
+    "queueNumber": 73,
+    "source": "https://bluthelden.com/cdn/shop/files/EQ_PR-021_gokuen_shijin.png?v=1788790708&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "eccd4e0b8924",
+    "name": "Kimrethil, Space and Time Traveller",
+    "queueNumber": 74,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_PR-027_Kimrethil_Space_and_Time_Traveler.png?v=1788790955&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a785e82afca6",
+    "name": "Avatar of Water",
+    "queueNumber": 75,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_005_Avatar_of_water.png?v=1785846790&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "567654ef1c3d",
+    "name": "Captain Draken",
+    "queueNumber": 76,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_008_Captain_Draken.png?v=1785846790&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "405f2379e206",
+    "name": "Field Nullifier",
+    "queueNumber": 77,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_013_Field_Nullifier.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.magic",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "25acf35791e0",
+    "name": "Harpoon Hunter",
+    "queueNumber": 78,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_016_Harpoon_Hunter.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "5ecbf1e448cf",
+    "name": "High Wizard of Glimmertal",
+    "queueNumber": 79,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_019_High_WIzard_of_Glimmertal.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "db3db58a3612",
+    "name": "Hydra",
+    "queueNumber": 80,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_020_Hydra.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "N"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "844548a951dd",
+    "name": "Lezikar, Arcane Seer",
+    "queueNumber": 81,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_022_Lezikar_Arcane_Seeker.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "cdcc720f3b9a",
+    "name": "Seafolk of Glimmertal",
+    "queueNumber": 82,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_035_Seafolk_of_glimmertal.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "2e030f958a21",
+    "name": "Wall of Water",
+    "queueNumber": 83,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_040_Wall_of_water.png?v=1785846790&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "af8266b0af83",
+    "name": "Waterpriestress",
+    "queueNumber": 84,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_043_Waterpriestress.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a6062ab2b5af",
+    "name": "Wizard of Glimmertal",
+    "queueNumber": 85,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_045_Wizard_of_glimmertal.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "7086568b4266",
+    "name": "Novice of the Water",
+    "queueNumber": 86,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_053_Novice_of_the_water.png?v=1785846790&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "04d46a1e9b5c",
+    "name": "Temple of Water",
+    "queueNumber": 87,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_056_Temple_of_water.png?v=1785846791&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "63ae223dbe40",
+    "name": "Shield of Water",
+    "queueNumber": 88,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_TK-057_Shield_of_water.png?v=1785846790&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "T"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "c513d6b68ad4",
+    "name": "Rex, Dragon of Deception",
+    "queueNumber": 89,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-28_Rex__Lizard_of_deception.png?v=1781882027&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "6f065018f8cb",
+    "name": "Waron, Water Dragon",
+    "queueNumber": 90,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-37_Waron_Water_Dragon.png?v=1781882030&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "b0d60c89587b",
+    "name": "Brokk Sparkshaper",
+    "queueNumber": 91,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-064_Brokk_Sparkshaper.png?v=1785846662&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "c083a7dbea23",
+    "name": "Bronmarks Guard",
+    "queueNumber": 92,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-066_Bronmarks_Guard.png?v=1785846662&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "54ed89eb88a8",
+    "name": "Dwarven Miner",
+    "queueNumber": 93,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-072_Dwarven_Miner.png?v=1785846661&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "c7af70b1081f",
+    "name": "Juggernaut of the Bronmark",
+    "queueNumber": 94,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-081_Juggernaut_of_the_Bronmark.png?v=1785846662&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "646a9649e32c",
+    "name": "Lerium Guard",
+    "queueNumber": 95,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-084_Lerium_Guard.png?v=1785846661&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "93cfb7a51e90",
+    "name": "Retrieval Commando",
+    "queueNumber": 96,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-089_Retrieval_Commando.png?v=1785846662&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "d6de9c29b187",
+    "name": "Stonemason",
+    "queueNumber": 97,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-097_Stonemason.png?v=1785846661&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "84d128d0bd09",
+    "name": "Stoneworm",
+    "queueNumber": 98,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-099_Stonewurm.png?v=1785846662&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "b5bf92853d6a",
+    "name": "Strongarm Weapon Smith",
+    "queueNumber": 99,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-100_Strongarm_Weaponsmith.png?v=1785846663&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "9d464615b5c9",
+    "name": "The Giant Golem",
+    "queueNumber": 100,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-102_Giant_Golem.png?v=1785846662&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 7
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "8267309289a3",
+    "name": "Vorax, the Worm",
+    "queueNumber": 101,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-105_Vorax_the_Wurm.png?v=1785846662&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "d84c0c20cb27",
+    "name": "Stone Giant",
+    "queueNumber": 102,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-TK119_Stone_Giant.png?v=1785846661&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "92d1a2966858",
+    "name": "Fireshaman",
+    "queueNumber": 103,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_131_FIreshaman.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "3a927405245c",
+    "name": "Krakhan, the Hellfire",
+    "queueNumber": 104,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_132_Krakhan_the_hellfire.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "8903845d1f3f",
+    "name": "Firedemon",
+    "queueNumber": 105,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_136_Firedemon.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a08d84e2532f",
+    "name": "Firedragon",
+    "queueNumber": 106,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_137_Firedragon.png?v=1785846953&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "150eb898a2f8",
+    "name": "Fireelemental",
+    "queueNumber": 107,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_138_Fireelemental.png?v=1785846953&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "d7c496f76973",
+    "name": "Firewall",
+    "queueNumber": 108,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_141_Firewall.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "81247977a842",
+    "name": "Goblin Fire",
+    "queueNumber": 109,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_145_Goblin_Fire.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "8cbe640fa17d",
+    "name": "Goblin Slayer",
+    "queueNumber": 110,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_147_GOblin_Slayer.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "K"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "281a11cbdbd1",
+    "name": "Horde Leader",
+    "queueNumber": 111,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_149_Horde_Leader.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "d6a5766e3923",
+    "name": "Mad Pyromancer",
+    "queueNumber": 112,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_150_Mad_Pyromancer.png?v=1785846952&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "420c126a4826",
+    "name": "Orc Archer",
+    "queueNumber": 113,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_153_ORC_Archer.png?v=1785846953&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a0aef33a3c97",
+    "name": "War Drums of the Horde",
+    "queueNumber": 114,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_D-42_War_Drums.png?v=1782382063&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "2e0c589aa407",
+    "name": "Arcane Spider",
+    "queueNumber": 115,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_184_Arcane_Spider.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "8101fe7b71b4",
+    "name": "Guardian of the Last Light",
+    "queueNumber": 116,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_198_guardian_of_the_last_light.png?v=1785845290&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "4aad05bc0f91",
+    "name": "Illuminated Fairy",
+    "queueNumber": 117,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_202_illuminated_fairy.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "992d501c0b65",
+    "name": "Magical Infusion",
+    "queueNumber": 118,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_204_Magical_infusion.png?v=1785845290&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "K"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "e3dce45a60bd",
+    "name": "Pixie Assassin",
+    "queueNumber": 119,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_213_Pixie_Assassin.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "25ff21c84d82",
+    "name": "Pixie Trickster",
+    "queueNumber": 120,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_214_pixie_trickster.png?v=1785845290&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "2f916ad3697e",
+    "name": "Pollen Fairy",
+    "queueNumber": 121,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_215_Pollen_FAiry.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ebfae2ef5d6f",
+    "name": "Pollen Gun",
+    "queueNumber": 122,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_216_Pollen_Gun.png?v=1785845290&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "f6d7609b7263",
+    "name": "Soldiers of the Covenant",
+    "queueNumber": 123,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_222_Soldiers_of_the_covenant.png?v=1785845292&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "name",
+        "before": "Soldiers of the Convenant",
+        "after": "Soldiers of the Covenant"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a94354042837",
+    "name": "Summoning of the Protector",
+    "queueNumber": 124,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_226_Summoning_of_theProtector.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "F"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "80f41aedc1b9",
+    "name": "Voice of the Fae Court",
+    "queueNumber": 125,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_227_Voice_of_the_fae_court.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "719f76cd9ea5",
+    "name": "Whispering Pixie",
+    "queueNumber": 126,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_228_WHispering_Pixie.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "818cf70fa568",
+    "name": "Wise Fairy",
+    "queueNumber": 127,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_229_Wise_FAiry.png?v=1785845291&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "43fd93c49b9a",
+    "name": "Barrier between the Worlds",
+    "queueNumber": 128,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_241_Barrier_Between_worlds_Token.png?v=1785845290&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 0
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ce4f3621f0c2",
+    "name": "Fairy of the Wind",
+    "queueNumber": 129,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_D-15_Fairy_of_Wind.png?v=1783244419&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.magic",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "22ccddbf4169",
+    "name": "Karma Hatchling",
+    "queueNumber": 130,
+    "source": "https://bluthelden.com/cdn/shop/files/EQ_247_KARMA_HATCHLING_Jounes_Erojo.png?v=1789038818&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "K"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ea0f5f120c73",
+    "name": "Harpoon Hunter",
+    "queueNumber": 131,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-17_Harpoon_Hunter.png?v=1781882025&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "7f564ee80b3e",
+    "name": "Harpoon Hunter",
+    "queueNumber": 132,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-18_Harpoon_Hunter.png?v=1781882024&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 2
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "068743b8e66f",
+    "name": "Rex, Dragon of Deception",
+    "queueNumber": 133,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-27_Rex__Lizard_of_deception.png?v=1781882027&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ffe3ebeaa3c0",
+    "name": "Waron, Water Dragon",
+    "queueNumber": 134,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-36_Waron_Water_Dragon.png?v=1781882030&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "6f8aa1a0ca4a",
+    "name": "Waterpriestress",
+    "queueNumber": 135,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-40_Waterpriestress.png?v=1781882032&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "473c000d848f",
+    "name": "Waterpriestress",
+    "queueNumber": 136,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-39_Waterpriestress.png?v=1781882031&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      },
+      {
+        "field": "stats.pow",
+        "before": 4,
+        "after": 1
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "4ae59401672a",
+    "name": "Novice of the Water",
+    "queueNumber": 137,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-50_Novice_of_the_water.png?v=1781882035&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ea38137d0191",
+    "name": "Novice of the Water",
+    "queueNumber": 138,
+    "source": "https://bluthelden.com/cdn/shop/files/BL_D-51_Novice_of_the_water.png?v=1781882035&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ],
+    "changes": [
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 1
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "a60c85ef6f79",
+    "name": "Fireshaman",
+    "queueNumber": 139,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_D-14_FIreshaman.png?v=1782382063&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "8f1b0dd75a7e",
+    "name": "Horde Leader",
+    "queueNumber": 140,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_D-25_Horde_Leader.png?v=1782382064&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "rarity",
+        "before": null,
+        "after": "L"
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "e005537a46cf",
+    "name": "Orc Archer",
+    "queueNumber": 141,
+    "source": "https://bluthelden.com/cdn/shop/files/RD_D-29_ORC_Archer.png?v=1782382065&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ac355275934a",
+    "name": "Pollen Fairy",
+    "queueNumber": 142,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_D-28_Pollen_FAiry.png?v=1783244420&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 2
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "43f38f0dca63",
+    "name": "Pollen Gun",
+    "queueNumber": 143,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_D-30_Pollen_Gun.png?v=1783244418&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 3
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "cbfc3d42a664",
+    "name": "Ralin, Toshi's Brother",
+    "queueNumber": 144,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_D-34_Ralin_Toshi_Bruder.png?v=1783244419&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 5
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "363471639f30",
+    "name": "Whispering Pixie",
+    "queueNumber": 145,
+    "source": "https://bluthelden.com/cdn/shop/files/PU_D-41_WHispering_Pixie.png?v=1783244419&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "32ee8d52234d",
+    "name": "Stone Giant",
+    "queueNumber": 146,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-D-27_Stone_Giant.png?v=1783769545&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "bfe8309c2c3d",
+    "name": "Stonemason",
+    "queueNumber": 147,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-D-29_Stonemason.png?v=1783769539&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "e19dd1bb8065",
+    "name": "Stoneworm",
+    "queueNumber": 148,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-D-34_Stonewurm.png?v=1783769543&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 4
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "ab1cf79dd829",
+    "name": "The Giant Golem",
+    "queueNumber": 149,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-D-37_Giant_Golem.png?v=1783769541&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 7
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "c24dc21b5ce8",
+    "name": "Vorax, the Worm",
+    "queueNumber": 150,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-D-39_Vorax_the_Wurm.png?v=1783769543&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.asp",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  },
+  {
+    "id": "dc9b3a6103a8",
+    "name": "Stone Giant",
+    "queueNumber": 151,
+    "source": "https://bluthelden.com/cdn/shop/files/BR-TK03a_Stone_Giant_Token.png?v=1783769539&width=3200",
+    "method": "Visual comparison with the cached official card image",
+    "date": "2026-10-08",
+    "checkedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ],
+    "changes": [
+      {
+        "field": "stats.res",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.ini",
+        "before": null,
+        "after": 3
+      },
+      {
+        "field": "stats.pow",
+        "before": null,
+        "after": 6
+      },
+      {
+        "field": "stats.hp",
+        "before": null,
+        "after": 6
+      }
+    ],
+    "unresolvedInPriorityCheck": []
+  }
+]

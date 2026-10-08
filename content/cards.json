@@ -313,7 +313,7 @@
   },
   {
     "id": "d9130d64b8c9",
-    "name": "highly concerated monk",
+    "name": "Consecrated Monk",
     "code": "WH14",
     "set": "Origin",
     "group": "Weißer Herrscher",
@@ -322,7 +322,7 @@
     "original": "https://bluthelden.com/cdn/shop/files/WH14_highly_concerated_monk.png?v=1749546355&width=3200",
     "notes": "Kann der Consecrated Monk mehrfach blocken? Nein, es steht dem Charakter weiterhin nur eine Kampfhandlung zur Verfügung.",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "ed88cdc1f406",
@@ -469,7 +469,7 @@
   },
   {
     "id": "bbb9821d9d86",
-    "name": "Master Alchemist of Strengh",
+    "name": "Master Alchemist of Strength",
     "code": "WH26",
     "set": "Origin",
     "group": "Weißer Herrscher",
@@ -478,7 +478,7 @@
     "original": "https://bluthelden.com/cdn/shop/files/WH26_Master_Alchemist_of_Strengh_03450933-2452-440f-97df-60ee144a864f.png?v=1750753905&width=3200",
     "notes": "Kann auch ein gegnerischer Charakter mit der Fähigkeit verstärkt werden? Ja, solange dieser Charakter in der gleichen Lane ist, ist er ein gültiges Ziel für  die Fähigkeit.",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "92d20fd8105b",
@@ -612,7 +612,7 @@
   },
   {
     "id": "47eb90a6d39e",
-    "name": "Spearmen of the Guard",
+    "name": "Spearmen of the Sovereign’s Guard",
     "code": "WH37",
     "set": "Origin",
     "group": "Weißer Herrscher",
@@ -621,7 +621,7 @@
     "original": "https://bluthelden.com/cdn/shop/files/WH37_Spearmen_of_the_Guard_1d7cabbd-80c1-4e86-b0e4-dfbb6abe1e87.png?v=1750753901&width=3200",
     "notes": "Die Seltenheit im Starterdeck ist mit N angegeben. Welche Seltenheit gilt für den  Deckbau? Die korrekte Seltenheit ist für offizielle Turniere und Constructed Decks: K.",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "467bc75d7ac1",
@@ -859,7 +859,7 @@
   },
   {
     "id": "de6d829a687a",
-    "name": "WH-TK-56 Falcon Token alle weiss",
+    "name": "Falcon",
     "code": "",
     "set": "Origin",
     "group": "Origin",
@@ -868,7 +868,7 @@
     "original": "https://bluthelden.com/cdn/shop/files/WH-TK-56_Falcon_Token_alle_weiss_b72a2628-897e-47b7-b761-26fb79933131.png?v=1750947366&width=3200",
     "notes": "",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "b8a79e09705c",
@@ -911,7 +911,7 @@
   },
   {
     "id": "1594d323378c",
-    "name": "Sovereigns Charge",
+    "name": "Sovereign’s Charge",
     "code": "",
     "set": "Origin",
     "group": "Nur im weißen Starter Deck enthalten",
@@ -920,11 +920,11 @@
     "original": "https://bluthelden.com/cdn/shop/files/Sovereigns_Charge.png?v=1758106416&width=3200",
     "notes": "Wird der Sovereign nach der Transformation ein Charakter? Nein, der Kartentyp ist nach der Transformation ein Sovereign Token.",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "41490da25258",
-    "name": "Toshi",
+    "name": "Toshi, the Blessed",
     "code": "",
     "set": "Origin",
     "group": "Nur im weißen Starter Deck enthalten",
@@ -933,11 +933,11 @@
     "original": "https://bluthelden.com/cdn/shop/files/Toshi.png?v=1758106505&width=3200",
     "notes": "Toshi hat zwei Kampfaktionen zur Verfügung. Er kann also 2 x attackieren, 2 x blocken oder jeweils 1 x attackieren und 1 x blocken. Wann muss ich den zweiten Angriff ansagen? Bei deinem Angriff musst du unmittelbar entscheiden, ob er zwei Angriffsaktionen  auf einmal durchführen soll, oder ob er nur eine durchführen will. Für jede  Angriffsaktion darf ein Blocker bestimmt werden, falls vorhanden.",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "a7658198b7f6",
-    "name": "Valdar",
+    "name": "Valdar Stormwing, General of the Falcon Guard",
     "code": "",
     "set": "Origin",
     "group": "Nur im weißen Starter Deck enthalten",
@@ -946,7 +946,7 @@
     "original": "https://bluthelden.com/cdn/shop/files/Valdar.png?v=1758106694&width=3200",
     "notes": "Valdar ist doch auch im Set zu finden, oder? Ja das stimmt, jedoch ist er im Set nur als Artist Sketch, 10 verschiedene Collecor Editions oder als 1/1 zu finden. Die Version im Starter Deck ist in Foil mit der Standard Rückseite \"Leros\".",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "67996634c395",
@@ -1717,7 +1717,7 @@
   },
   {
     "id": "6e4b640b22a2",
-    "name": "Hornet Rage",
+    "name": "Hornets Rage",
     "code": "",
     "set": "Origin",
     "group": "Nur im grünen Starter Deck enthalten",
@@ -1899,7 +1899,7 @@
   },
   {
     "id": "e938c47bc748",
-    "name": "Buragor, Flying Demon",
+    "name": "Buragaor, Flying Demon",
     "code": "BK128",
     "set": "Origin",
     "group": "Schwarzer Herrscher",
@@ -3706,7 +3706,7 @@
   },
   {
     "id": "e0d1b5ae81c1",
-    "name": "Staff of Enchantment",
+    "name": "Staff of Enchantments",
     "code": "",
     "set": "Origin",
     "group": "250 Unique Cards in the first Edition \"Origin\" - 1/1 Cards",
@@ -3715,7 +3715,7 @@
     "original": "https://bluthelden.com/cdn/shop/files/Staff_of_enchantment_1von1_Foil_20250515.png?v=1749545343&width=3200",
     "notes": "",
     "source": "https://bluthelden.com/pages/kartenspoiler",
-    "nameFromFilename": true
+    "nameFromFilename": false
   },
   {
     "id": "14d34d564f40",
@@ -7099,7 +7099,7 @@
   },
   {
     "id": "f6d7609b7263",
-    "name": "Soldiers of the Convenant",
+    "name": "Soldiers of the Covenant",
     "code": "PU_222",
     "set": "Alliances",
     "group": "Purple Sovereign",

@@ -216,9 +216,9 @@
       "asp": null,
       "level": null,
       "res": 3,
-      "ini": null,
+      "ini": 3,
       "pow": 2,
-      "hp": null,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -228,13 +228,29 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "\"When the forest runs, it runs first.\"",
+    "rulesText": "",
     "additionalCostsText": "",
     "rawText": "WILD BOAR\nToken Character, Boar\n\"When the forest runs, it runs first.\"\nT GRPR017 ORI•EN ©Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Wild_Boar_Token.png?v=1785397795&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "rulesText",
+      "flavorText"
+    ],
+    "flavorText": "When the forest runs, it runs first."
   },
   {
     "id": "d372e5c24bc7",
@@ -256,7 +272,7 @@
     "artist": "Jounes Erojo",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 1,
       "res": 3,
       "ini": 2,
@@ -266,18 +282,34 @@
       "lp": null
     },
     "mechanics": {
-      "pool": null,
-      "binding": null,
+      "pool": true,
+      "binding": true,
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Crypt Walker enters play, return an Undead.\nCharacter from your Graveyard to your hand.\n• Gain O ASP, as long as this Character remains",
+    "rulesText": "When Crypt Walker enters play, return an Undead Character from your Graveyard to your hand.\n[Turn] Gain 1 ASP, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "CRYPT WALKER\nCharacter, Undead\n†22\n3\nWhen Crypt Walker enters play, return an Undead.\nCharacter from your Graveyard to your hand.\n• Gain O ASP, as long as this Character remains\nBound.\nN BK PR-019 ORI•EN ©2 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WhatsApp_Image_2026-07-30_at_09.58.58.jpg?v=1785398413&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "rulesText.activationSymbol",
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "mechanics.pool",
+      "mechanics.binding"
+    ]
   },
   {
     "id": "6d57b3d7530d",
@@ -397,7 +429,7 @@
     "artist": "Jounes Erojo",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 4,
       "ini": null,
@@ -407,7 +439,7 @@
       "lp": null
     },
     "mechanics": {
-      "pool": null,
+      "pool": true,
       "binding": null,
       "rise": null
     },
@@ -415,13 +447,29 @@
       "Advisor",
       "Spectral Ward"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nSpectral Ward\nWhen Erojo, Warden of the Beyond enters play, create a\nShadow Token in target War Zone.\n: All Characters in target War Zone gain POW/HP -1/-1\nequal to the number of Shadow Tokens in that War Zone.",
+    "rulesText": "Advisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nSpectral Ward\nWhen Erojo, Warden of the Beyond enters play, create a\nShadow Token in target War Zone.\n1 ASP, [Turn]: All Characters in target War Zone gain POW/HP -1/-1\nequal to the number of Shadow Tokens in that War Zone.",
     "additionalCostsText": "",
     "rawText": "EROJO, WARDEN OF THE BEYOND\nMythic Character, Spirit Advisor\n2\nAdvisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nSpectral Ward\nWhen Erojo, Warden of the Beyond enters play, create a\nShadow Token in target War Zone.\n: All Characters in target War Zone gain POW/HP -1/-1\nequal to the number of Shadow Tokens in that War Zone.\nF ORPR-016 ORI•EN ©28 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WhatsApp_Image_2026-07-30_at_09.58.58_2.jpg?v=1785398413&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "mechanics.pool",
+      "keywords",
+      "rulesText.activationCost"
+    ]
   },
   {
     "id": "83ffeed6cc65",
@@ -569,7 +617,7 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "N",
     "collectorNumber": "WH02",
     "artist": "André Bueno",
     "language": "en",
@@ -578,7 +626,7 @@
       "level": 1,
       "res": 6,
       "ini": 3,
-      "pow": null,
+      "pow": 1,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -589,13 +637,27 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "2, [Turn]: Target Character in the same Lane gains RES +1\nor -1 until the end of the round. This effect ignores the\ntarget's Magic Resistance.",
+    "rulesText": "2 ASP, [Turn]: Target Character in the same Lane gains RES +1 or -1 until the end of the round. This effect ignores the target’s Magic Resistance.",
     "additionalCostsText": "",
     "rawText": "ALCHEMIST OF RESISTANCE\nCharacter, Human\n3 3\n2, ©: Target Character in the same Lane gains RES +1\nor -1 until the end of the round. This effect ignores the\ntarget's Magic Resistance.\nORI•EN ©24 Bluthelden® Art: André Bueno",
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH02_F__Alchemist_of_Resistance.png?v=1749546342&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits",
+      "rulesText.activationCost"
+    ]
   },
   {
     "id": "f8dbbb09d20f",
@@ -1082,7 +1144,7 @@
   },
   {
     "id": "d9130d64b8c9",
-    "name": "highly concerated monk",
+    "name": "Consecrated Monk",
     "set": "Origin",
     "typeLine": "Character, Human",
     "types": [
@@ -1105,7 +1167,7 @@
       "res": 4,
       "ini": 4,
       "pow": 2,
-      "hp": null,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -1123,7 +1185,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH14_highly_concerated_monk.png?v=1749546355&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "ed88cdc1f406",
@@ -1408,7 +1479,7 @@
       "level": 2,
       "res": 5,
       "ini": 7,
-      "pow": null,
+      "pow": 5,
       "hp": 4,
       "magic": null,
       "lp": null
@@ -1425,7 +1496,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH21_Griffin_92532640-50c9-4cbc-b7a2-c2b33aadb04d.png?v=1750753921&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "e35106b66d82",
@@ -1451,7 +1530,7 @@
       "asp": 3,
       "level": 2,
       "res": 4,
-      "ini": null,
+      "ini": 4,
       "pow": 1,
       "hp": 2,
       "magic": null,
@@ -1469,7 +1548,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH22_Healing_Wizard_31126ea8-76ac-4ed8-ae0b-b3330acbe618.png?v=1750753906&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "ed979e1401f1",
@@ -1598,7 +1685,7 @@
   },
   {
     "id": "bbb9821d9d86",
-    "name": "Master Alchemist of Strengh",
+    "name": "Master Alchemist of Strength",
     "set": "Origin",
     "typeLine": "Character, Human",
     "types": [
@@ -1618,9 +1705,9 @@
     "stats": {
       "asp": 4,
       "level": 2,
-      "res": null,
-      "ini": null,
-      "pow": null,
+      "res": 4,
+      "ini": 4,
+      "pow": 4,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -1639,7 +1726,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH26_Master_Alchemist_of_Strengh_03450933-2452-440f-97df-60ee144a864f.png?v=1750753905&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name",
+      "mechanics.rise"
+    ]
   },
   {
     "id": "92d20fd8105b",
@@ -1661,7 +1757,7 @@
     "artist": "Anthony Catillaz",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 3,
@@ -1684,7 +1780,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH27_Master_Blacksmith_7116b734-ceff-4bf7-adf8-8137056b483a.png?v=1750753915&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
   },
   {
     "id": "870cd997311d",
@@ -1742,7 +1846,7 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "K",
     "collectorNumber": "WH29",
     "artist": "Bruno Moreira",
     "language": "en",
@@ -1768,7 +1872,10 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH29_Melody_of_Courage_3696a857-957e-4738-ae97-820a6867f412.png?v=1750753937&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "581d5c7128ea",
@@ -1917,7 +2024,7 @@
     "artist": "Anna Lesnikova//Lavinia",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 2,
       "res": 3,
       "ini": 3,
@@ -1940,7 +2047,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH33_Royal_Scout_5afe789b-ee58-4de8-8e7c-4d5dd13edc99.png?v=1750753932&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "b08c11642077",
@@ -2053,7 +2168,7 @@
     "stats": {
       "asp": 4,
       "level": 2,
-      "res": null,
+      "res": 4,
       "ini": 3,
       "pow": 1,
       "hp": 2,
@@ -2074,11 +2189,19 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH36_Silas_the_Protection_Mage_7d76a992-3468-4fc6-9c53-534773ec6437.png?v=1750753911&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
   },
   {
     "id": "47eb90a6d39e",
-    "name": "Spearmen of the Guard",
+    "name": "Spearmen of the Sovereign’s Guard",
     "set": "Origin",
     "typeLine": "Character, Human_",
     "types": [
@@ -2094,9 +2217,9 @@
     "artist": "Muhammad Fatih",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
-      "res": null,
+      "res": 4,
       "ini": 4,
       "pow": 3,
       "hp": 3,
@@ -2115,7 +2238,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH37_Spearmen_of_the_Guard_1d7cabbd-80c1-4e86-b0e4-dfbb6abe1e87.png?v=1750753901&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "467bc75d7ac1",
@@ -2366,7 +2498,7 @@
       "asp": 3,
       "level": 1,
       "res": 3,
-      "ini": null,
+      "ini": 3,
       "pow": 1,
       "hp": 2,
       "magic": null,
@@ -2384,7 +2516,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH43_War_Falcon_77ffa53b-4448-4fab-99f0-1d310f49341c.png?v=1750753938&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "64bfe52cd805",
@@ -2401,12 +2541,12 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "WH44",
     "artist": "Darline Herbst",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 2,
       "ini": 4,
@@ -2430,7 +2570,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH44_Warrior_of_The_Shieldwall_8a91de15-8857-4c00-adb7-c4cac3474fda.png?v=1750753917&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "298e64796878",
@@ -2845,7 +2993,7 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "WH54",
     "artist": "Jounes Erojo",
     "language": "en",
@@ -2871,7 +3019,9 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH54_The_River_Forge_e9c81a07-87fe-45aa-b7ca-88e29907d694.png?v=1750753930&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "rarity"
+    ]
   },
   {
     "id": "20c365a0956a",
@@ -2893,11 +3043,11 @@
     "artist": "Thais Valandra",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 1,
       "level": 1,
       "res": 2,
       "ini": 2,
-      "pow": 4,
+      "pow": 1,
       "hp": 1,
       "magic": null,
       "lp": null
@@ -2916,11 +3066,19 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH55_Young_Blacksmith_f1b14b81-a9c0-4958-bc88-d1274f9c9cef.png?v=1750753928&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "de6d829a687a",
-    "name": "WH-TK-56 Falcon Token alle weiss",
+    "name": "Falcon",
     "set": "Origin",
     "typeLine": "Token Character, Bird",
     "types": [
@@ -2943,10 +3101,10 @@
     "stats": {
       "asp": null,
       "level": null,
-      "res": null,
+      "res": 3,
       "ini": 3,
-      "pow": null,
-      "hp": null,
+      "pow": 1,
+      "hp": 1,
       "magic": null,
       "lp": null
     },
@@ -2962,7 +3120,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH-TK-56_Falcon_Token_alle_weiss_b72a2628-897e-47b7-b761-26fb79933131.png?v=1750947366&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "b8a79e09705c",
@@ -3022,18 +3189,18 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "",
     "artist": "Anthony Catillaz",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": null,
       "res": null,
       "ini": null,
       "pow": null,
       "hp": null,
-      "magic": null,
+      "magic": 5,
       "lp": null
     },
     "mechanics": {
@@ -3050,7 +3217,11 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Flying_Swords.png?v=1758106369&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
   },
   {
     "id": "5196adc8545d",
@@ -3065,12 +3236,12 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "",
     "artist": "James Binks",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": null,
       "res": null,
       "ini": null,
@@ -3091,33 +3262,37 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Horns_of_Camorrus.png?v=1758106391&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "1594d323378c",
-    "name": "Sovereigns Charge",
+    "name": "Sovereign’s Charge",
     "set": "Origin",
     "typeLine": "Sovereign Training",
     "types": [
-      "Sovereign",
       "Training"
     ],
-    "subtypes": [],
+    "subtypes": [
+      "Sovereign"
+    ],
     "traits": [],
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "",
     "artist": "María Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": null,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 6,
+      "ini": 6,
+      "pow": 4,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -3135,11 +3310,22 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Sovereigns_Charge.png?v=1758106416&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.lp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "types",
+      "subtypes",
+      "name"
+    ]
   },
   {
     "id": "41490da25258",
-    "name": "Toshi",
+    "name": "Toshi, the Blessed",
     "set": "Origin",
     "typeLine": "Epic Character, Human",
     "types": [
@@ -3154,17 +3340,17 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "",
     "artist": "Anna Lesnikova",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 4,
+      "ini": 5,
+      "pow": 3,
+      "hp": 3,
       "magic": null,
       "lp": null
     },
@@ -3183,11 +3369,20 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Toshi.png?v=1758106505&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "a7658198b7f6",
-    "name": "Valdar",
+    "name": "Valdar Stormwing, General of the Falcon Guard",
     "set": "Origin",
     "typeLine": "White Sovereign",
     "types": [
@@ -3198,7 +3393,7 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "",
     "artist": "Amar Sekarwangi",
     "language": "en",
@@ -3210,7 +3405,7 @@
       "pow": null,
       "hp": null,
       "magic": null,
-      "lp": null
+      "lp": 30
     },
     "mechanics": {
       "pool": null,
@@ -3226,7 +3421,12 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Valdar.png?v=1758106694&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.lp",
+      "stats.asp",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "67996634c395",
@@ -4003,7 +4203,7 @@
     "artist": "Anna Lesnikova",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 5,
       "ini": 3,
@@ -4027,7 +4227,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/GR076_Fighting_Tree_074a3c3c-e551-4adc-83ca-fb1135cc3d25.png?v=1750754948&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "b791a4b77dea",
@@ -4311,11 +4519,11 @@
     "artist": "Darline Herbst",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 1,
       "res": 3,
       "ini": 3,
-      "pow": 4,
+      "pow": 1,
       "hp": 2,
       "magic": null,
       "lp": null
@@ -4334,7 +4542,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/GR083_Luminary_of_Growth.png?v=1750754957&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "c0f508adda10",
@@ -4401,7 +4617,7 @@
     "artist": "Maria Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 3,
       "ini": 4,
@@ -4425,7 +4641,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/GR085_Nidhogg_The_Appealing_Dragon.png?v=1750754909&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
   },
   {
     "id": "8388a8d3b7ee",
@@ -4742,7 +4966,7 @@
     "colors": [
       "green"
     ],
-    "rarity": null,
+    "rarity": "N",
     "collectorNumber": "GR093",
     "artist": "Agustín Vergara Koller",
     "language": "en",
@@ -4768,7 +4992,10 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/GR093_Seed_Rain.png?v=1750754941&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "92b34e515d41",
@@ -4964,7 +5191,7 @@
     "artist": "Marcelo \"Mahdasah\"",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 1,
       "res": 4,
       "ini": 4,
@@ -4987,7 +5214,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/GR098_TRacker.png?v=1750754949&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "00e72eb238ce",
@@ -5054,7 +5289,7 @@
     "artist": "Luan Pereira Santos",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 1,
       "res": 3,
       "ini": 3,
@@ -5077,7 +5312,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/GR100_Wild_Boar.png?v=1750754965&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "1081029876cb",
@@ -5490,9 +5733,9 @@
       "asp": 3,
       "level": 2,
       "res": 3,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "ini": 3,
+      "pow": 1,
+      "hp": 3,
       "magic": null,
       "lp": null
     },
@@ -5508,7 +5751,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/GR110_The_Unified.png?v=1750754928&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "075a46df9f69",
@@ -5806,12 +6057,12 @@
     "artist": "Anthony Catillaz",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 1,
+      "ini": 1,
+      "pow": 1,
+      "hp": 1,
       "magic": null,
       "lp": null
     },
@@ -5827,11 +6078,19 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/growing.png?v=1758620915&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "6e4b640b22a2",
-    "name": "Hornet Rage",
+    "name": "Hornets Rage",
     "set": "Origin",
     "typeLine": "Spell",
     "types": [
@@ -5847,13 +6106,13 @@
     "artist": "Anna Lesnikova",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": null,
       "res": null,
       "ini": null,
       "pow": null,
       "hp": null,
-      "magic": null,
+      "magic": 5,
       "lp": null
     },
     "mechanics": {
@@ -5868,7 +6127,12 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Hornets.png?v=1758620935&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "5e2bfbfdcfd8",
@@ -5892,7 +6156,7 @@
     "artist": "Luan Pereira Santos",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 2,
       "level": null,
       "res": null,
       "ini": null,
@@ -5913,7 +6177,10 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/solida.png?v=1758620952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "7c202ab6d014",
@@ -5932,7 +6199,7 @@
     "colors": [
       "green"
     ],
-    "rarity": null,
+    "rarity": "T",
     "collectorNumber": "",
     "artist": "",
     "language": "en",
@@ -5962,7 +6229,9 @@
       "typeLine",
       "types",
       "subtypes",
-      "rulesText"
+      "rulesText",
+      "stats.asp",
+      "rarity"
     ]
   },
   {
@@ -6297,7 +6566,7 @@
       "level": 2,
       "res": 3,
       "ini": 2,
-      "pow": null,
+      "pow": 1,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -6314,7 +6583,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BK124_Bloodmonger_Maiden.png?v=1749546892&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "0d82085169e2",
@@ -6441,7 +6718,7 @@
   },
   {
     "id": "e938c47bc748",
-    "name": "Buragor, Flying Demon",
+    "name": "Buragaor, Flying Demon",
     "set": "Origin",
     "typeLine": "Character, Demon",
     "types": [
@@ -6459,10 +6736,10 @@
     "artist": "Anthony Catillaz",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 6,
-      "ini": 3,
+      "ini": 5,
       "pow": 6,
       "hp": 2,
       "magic": null,
@@ -6482,7 +6759,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BK128_Flying_Demon.png?v=1749546885&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "1b0ed703e111",
@@ -6723,7 +7009,7 @@
     "stats": {
       "asp": 5,
       "level": 2,
-      "res": null,
+      "res": 4,
       "ini": 4,
       "pow": 3,
       "hp": 3,
@@ -6744,7 +7030,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BK134_Demon_Paktmaker.png?v=1750063314&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "9f777da6bd74",
@@ -7327,7 +7621,7 @@
     "colors": [
       "black"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "BK148",
     "artist": "Kane Matos",
     "language": "en",
@@ -7353,7 +7647,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BK148_Raymond_Harbinger_of_Cunning.png?v=1750754299&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "a95f22a65ac0",
@@ -7586,12 +7888,12 @@
     "artist": "Amar Sekarwangi",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 2,
       "level": 1,
       "res": 1,
       "ini": 2,
-      "pow": 4,
-      "hp": 4,
+      "pow": 1,
+      "hp": 1,
       "magic": null,
       "lp": null
     },
@@ -7609,7 +7911,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BK154_Slave_of_the_Abyss.png?v=1750754275&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "886cfb7e623d",
@@ -7676,7 +7986,7 @@
     "artist": "Agustín Vergara Koller",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 3,
       "ini": 6,
@@ -7699,7 +8009,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BK157_Two_Headed_Demon.png?v=1750754270&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "736e354e5c73",
@@ -8292,8 +8610,8 @@
       "level": null,
       "res": 3,
       "ini": 3,
-      "pow": null,
-      "hp": null,
+      "pow": 2,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -8309,7 +8627,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BK-TK-171_Barbarian-Mercenary-Token.png?v=1750754286&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "65c49f2f6a0d",
@@ -8510,12 +8836,12 @@
     "artist": "Amar Sekarwangi",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": null,
-      "res": null,
+      "res": 5,
       "ini": 3,
-      "pow": null,
-      "hp": null,
+      "pow": 3,
+      "hp": 5,
       "magic": null,
       "lp": null
     },
@@ -8533,7 +8859,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/ascendant.png?v=1758621188&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
   },
   {
     "id": "026046c8cba1",
@@ -8598,14 +8932,14 @@
     "colors": [
       "black"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "",
     "artist": "",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": null,
-      "res": null,
+      "res": 6,
       "ini": null,
       "pow": null,
       "hp": null,
@@ -8627,7 +8961,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/kalaki.png?v=1758621211&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
   },
   {
     "id": "54b16b340768",
@@ -8649,12 +8991,12 @@
     "artist": "Anthony Catillaz",
     "language": "en",
     "stats": {
-      "asp": null,
-      "level": null,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "asp": 5,
+      "level": 2,
+      "res": 5,
+      "ini": 4,
+      "pow": 4,
+      "hp": 3,
       "magic": null,
       "lp": null
     },
@@ -8672,7 +9014,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/merciless_warrior.png?v=1759310052&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "33bb522fa82f",
@@ -8698,7 +9048,7 @@
     "artist": "Amar Sekarwangi",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 5,
       "ini": null,
@@ -8708,7 +9058,7 @@
       "lp": null
     },
     "mechanics": {
-      "pool": null,
+      "pool": true,
       "binding": null,
       "rise": null
     },
@@ -8721,7 +9071,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Nekravar.jpg?v=1788691615&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "540714eca9d2",
@@ -8740,18 +9098,18 @@
     "colors": [
       "black"
     ],
-    "rarity": null,
+    "rarity": "N",
     "collectorNumber": "",
     "artist": "Brandon). Ortega",
     "language": "en",
     "stats": {
-      "asp": null,
-      "level": null,
+      "asp": 4,
+      "level": 1,
       "res": null,
       "ini": null,
       "pow": null,
       "hp": null,
-      "magic": null,
+      "magic": 5,
       "lp": null
     },
     "mechanics": {
@@ -8766,7 +9124,12 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/prison.png?v=1758621244&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "rarity"
+    ]
   },
   {
     "id": "56cd5aa44acb",
@@ -8786,17 +9149,17 @@
     "colors": [
       "black"
     ],
-    "rarity": null,
+    "rarity": "T",
     "collectorNumber": "",
     "artist": "",
     "language": "en",
     "stats": {
       "asp": null,
       "level": null,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 1,
+      "ini": 1,
+      "pow": 1,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -8812,7 +9175,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/zombie_token.png?v=1759310147&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "bed8b1e3fa7a",
@@ -8920,8 +9291,8 @@
       "level": 2,
       "res": 5,
       "ini": 5,
-      "pow": null,
-      "hp": null,
+      "pow": 4,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -8939,7 +9310,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR178_Avatar_of_Control.png?v=1749547260&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "e89de24584da",
@@ -9006,7 +9385,7 @@
     "artist": "Anna Lesnikova",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 1,
       "res": 2,
       "ini": 4,
@@ -9030,7 +9409,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR180_Bowpiper.png?v=1749547263&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "90993b867fda",
@@ -9707,7 +10094,7 @@
       "level": 1,
       "res": 4,
       "ini": 3,
-      "pow": null,
+      "pow": 0,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -9724,7 +10111,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR196_Medium_f8429328-bd2a-4236-96e1-1201264ccbed.png?v=1750754527&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "1624b327873a",
@@ -9830,11 +10225,11 @@
     "artist": "Pri Araújo",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 5,
       "ini": 3,
-      "pow": 4,
+      "pow": 1,
       "hp": 2,
       "magic": null,
       "lp": null
@@ -9853,7 +10248,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR199_Mistheart_The_Ghost_Shaman_e4f4ac6d-8635-441c-97b0-85d2f5521585.png?v=1750839436&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "eb8c29c13b61",
@@ -9879,7 +10282,7 @@
       "level": 1,
       "res": 3,
       "ini": 3,
-      "pow": null,
+      "pow": 1,
       "hp": 2,
       "magic": null,
       "lp": null
@@ -9898,7 +10301,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR200_Moth_COnjurer.png?v=1750754531&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "fdbb1ca4f1a6",
@@ -10050,9 +10461,9 @@
       "asp": 2,
       "level": 1,
       "res": 5,
-      "ini": 4,
-      "pow": null,
-      "hp": null,
+      "ini": 1,
+      "pow": 0,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -10070,7 +10481,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR204_Palisades_wall.png?v=1750754537&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "3a77d05e439e",
@@ -10178,7 +10597,7 @@
     "artist": "",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 2,
       "level": null,
       "res": null,
       "ini": null,
@@ -10201,7 +10620,10 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/ring_of_ghosts.png?v=1759499369&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "121e923571ce",
@@ -10227,7 +10649,7 @@
       "level": 1,
       "res": 4,
       "ini": 3,
-      "pow": null,
+      "pow": 1,
       "hp": 2,
       "magic": null,
       "lp": null
@@ -10244,7 +10666,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR208_Shadow_Caster.png?v=1750754539&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "08d6aab91314",
@@ -10268,10 +10698,10 @@
     "stats": {
       "asp": 2,
       "level": 1,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 1,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -10287,7 +10717,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR209_Small_Ghost.png?v=1750754539&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "eedf4fa414f4",
@@ -10309,7 +10747,7 @@
     "artist": "Darline Herbst",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 2,
       "level": 1,
       "res": 3,
       "ini": 3,
@@ -10332,7 +10770,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR210_Snake_Charmer.png?v=1750754541&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "a418fa031fd5",
@@ -10357,7 +10803,7 @@
       "asp": 3,
       "level": 1,
       "res": 4,
-      "ini": null,
+      "ini": 1,
       "pow": 1,
       "hp": 6,
       "magic": null,
@@ -10377,7 +10823,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR211_Snake_Trap.png?v=1750754542&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "d653b0a90cce",
@@ -10402,7 +10856,7 @@
       "asp": 3,
       "level": 1,
       "res": 3,
-      "ini": null,
+      "ini": 4,
       "pow": 3,
       "hp": 6,
       "magic": null,
@@ -10420,7 +10874,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR212_Soul_of_confusion.png?v=1750754543&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "fe5594f8b521",
@@ -10532,7 +10994,7 @@
     "stats": {
       "asp": 4,
       "level": 2,
-      "res": null,
+      "res": 4,
       "ini": 3,
       "pow": 3,
       "hp": 3,
@@ -10553,7 +11015,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR215_The_Invisible_ones.png?v=1750754547&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "ed554508ec2c",
@@ -11063,8 +11533,8 @@
       "asp": 2,
       "level": 2,
       "res": 4,
-      "ini": null,
-      "pow": 4,
+      "ini": 3,
+      "pow": 1,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -11081,7 +11551,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR227_Shadow_Summoner.png?v=1750754558&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "b234e2c72130",
@@ -11287,7 +11765,7 @@
       "level": null,
       "res": 1,
       "ini": 2,
-      "pow": null,
+      "pow": 0,
       "hp": 4,
       "magic": null,
       "lp": null
@@ -11304,7 +11782,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/OR-TK232_Smiths_Ghost_Token.png?v=1750754564&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
   },
   {
     "id": "bdc5676aa323",
@@ -11417,12 +11903,12 @@
     "artist": "Anna Lesnikova",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 6,
+      "ini": 4,
+      "pow": 3,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -11440,7 +11926,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/ghostking.png?v=1758621762&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "0be3ffa6aafe",
@@ -11464,13 +11958,13 @@
     "artist": "Anthony Catillaz",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": null,
       "res": null,
       "ini": null,
       "pow": null,
       "hp": null,
-      "magic": null,
+      "magic": 4,
       "lp": null
     },
     "mechanics": {
@@ -11485,7 +11979,11 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/spirit_of_mastery_b1e21ae8-0705-4251-ac2b-4b53005ef8ad.png?v=1758621733&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
   },
   {
     "id": "3deaf0c12e9a",
@@ -11509,12 +12007,12 @@
     "artist": "Anna Lesnikova",
     "language": "en",
     "stats": {
-      "asp": null,
-      "level": null,
-      "res": null,
-      "ini": null,
-      "pow": 3,
-      "hp": null,
+      "asp": 5,
+      "level": 2,
+      "res": 4,
+      "ini": 4,
+      "pow": 4,
+      "hp": 3,
       "magic": null,
       "lp": null
     },
@@ -11530,7 +12028,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Thalvoryn.png?v=1758621703&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "fdf26f59f959",
@@ -12003,7 +12509,7 @@
     "colors": [
       "grey"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "",
     "artist": "Alexander Zimmermann",
     "language": "en",
@@ -12032,7 +12538,9 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/245_RUNE_OF_THE_WISE_Alexander_Zimmermann_20250409_a0621236-210f-40a7-b0f2-dfb5469c68d5.png?v=1750755483&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "rarity"
+    ]
   },
   {
     "id": "b344d89af992",
@@ -12244,7 +12752,9 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/TK250_RULE_CARD_FRONT_Rodolfo_Costa_20250409.png?v=1750755364&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "rarity"
+    ]
   },
   {
     "id": "54c2b5434ba5",
@@ -12287,7 +12797,9 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/TK250B_RULE_CARD_BACK_Rodolfo_Costa_20250409.png?v=1750755362&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "rarity"
+    ]
   },
   {
     "id": "41fc1db142a6",
@@ -12348,13 +12860,15 @@
     "traits": [
       "Epic"
     ],
-    "colors": [],
-    "rarity": null,
+    "colors": [
+      "white"
+    ],
+    "rarity": "F",
     "collectorNumber": "",
     "artist": "Helge C. Balzer",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 3,
@@ -12375,7 +12889,20 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Zyphor_Teller_of_Talesl_1von1_Foil_20250515.png?v=1749545346&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits"
+    ]
   },
   {
     "id": "f89474bf8e21",
@@ -12478,12 +13005,12 @@
     "colors": [
       "white"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "",
     "artist": "Darline Herbst",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 2,
       "ini": 4,
@@ -12507,11 +13034,19 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/warrior_of_the_shieldwall_1von1_Foil_20250515.png?v=1749545344&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color; color shared with same-name variant",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "e0d1b5ae81c1",
-    "name": "Staff of Enchantment",
+    "name": "Staff of Enchantments",
     "set": "Origin",
     "typeLine": "Martial Training",
     "types": [
@@ -12523,7 +13058,9 @@
     "traits": [
       "Martial"
     ],
-    "colors": [],
+    "colors": [
+      "green"
+    ],
     "rarity": "L",
     "collectorNumber": "094",
     "artist": "Jounes Erojo",
@@ -12550,7 +13087,20 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/Staff_of_enchantment_1von1_Foil_20250515.png?v=1749545343&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "colors",
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "typeLine",
+      "types",
+      "subtypes",
+      "traits"
+    ]
   },
   {
     "id": "14d34d564f40",
@@ -13037,7 +13587,7 @@
     "colors": [
       "brown"
     ],
-    "rarity": null,
+    "rarity": "K",
     "collectorNumber": "",
     "artist": "Bruno Moreira",
     "language": "en",
@@ -13063,7 +13613,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR_PR-008_Rockaxe_Loyalist.png?v=1788509894&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "bbe2d4d418d9",
@@ -13262,7 +13820,7 @@
     "artist": "Florian Stitz",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 4,
       "ini": 4,
@@ -13283,7 +13841,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/EQ_PR-021_gokuen_shijin.png?v=1788790708&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "a5eba95f6cf6",
@@ -13433,7 +13999,7 @@
     "colors": [
       "blue"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "BL_PR-027",
     "artist": "Alexander Zimmermann",
     "language": "en",
@@ -13461,7 +14027,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_PR-027_Kimrethil_Space_and_Time_Traveler.png?v=1788790955&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "72001b9155f6",
@@ -13778,7 +14352,7 @@
     "artist": "Luan Pereira Santos",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 4,
       "ini": 5,
@@ -13799,7 +14373,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_005_Avatar_of_water.png?v=1785846790&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "4e69f6d46008",
@@ -13911,7 +14493,7 @@
     "artist": "Luan Pereira Santos",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 4,
       "ini": 4,
@@ -13932,7 +14514,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_008_Captain_Draken.png?v=1785846790&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "624a94566938",
@@ -14125,13 +14715,13 @@
     "artist": "Amar Sekarwangi",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
-      "res": null,
+      "res": 4,
       "ini": 2,
-      "pow": 4,
-      "hp": null,
-      "magic": null,
+      "pow": 1,
+      "hp": 4,
+      "magic": 4,
       "lp": null
     },
     "mechanics": {
@@ -14146,7 +14736,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_013_Field_Nullifier.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "4f47086e069f",
@@ -14252,12 +14851,12 @@
     "artist": "Carlos Manzano",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 2,
       "level": 1,
       "res": 3,
       "ini": 3,
-      "pow": 4,
-      "hp": null,
+      "pow": 1,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -14275,7 +14874,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_016_Harpoon_Hunter.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "d470e7645c97",
@@ -14384,7 +14991,7 @@
     "artist": "Barticevich",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 5,
       "ini": 3,
@@ -14407,7 +15014,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_019_High_WIzard_of_Glimmertal.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "db3db58a3612",
@@ -14424,7 +15039,7 @@
     "colors": [
       "blue"
     ],
-    "rarity": null,
+    "rarity": "N",
     "collectorNumber": "BL_020",
     "artist": "Agustín Vergara Koller",
     "language": "en",
@@ -14450,7 +15065,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_020_Hydra.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "a97f394bcbd4",
@@ -14519,7 +15142,7 @@
     "artist": "Florian Stitz",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 2,
       "res": 4,
       "ini": 3,
@@ -14540,7 +15163,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_022_Lezikar_Arcane_Seeker.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "4e189ab10de5",
@@ -15074,8 +15705,8 @@
       "level": 1,
       "res": 3,
       "ini": 3,
-      "pow": null,
-      "hp": null,
+      "pow": 3,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -15091,7 +15722,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_035_Seafolk_of_glimmertal.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "3552a1c39cbf",
@@ -15287,11 +15926,11 @@
     "artist": "Juan Bisceglia",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 1,
       "res": 2,
       "ini": 1,
-      "pow": 4,
+      "pow": 1,
       "hp": 6,
       "magic": null,
       "lp": null
@@ -15308,7 +15947,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_040_Wall_of_water.png?v=1785846790&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "e8785e7e122c",
@@ -15413,12 +16060,12 @@
     "artist": "Maria Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 2,
-      "pow": 4,
-      "hp": null,
+      "pow": 1,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -15437,7 +16084,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_043_Waterpriestress.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
   },
   {
     "id": "b51ddf894bb1",
@@ -15502,7 +16157,7 @@
     "stats": {
       "asp": 3,
       "level": 1,
-      "res": null,
+      "res": 3,
       "ini": 3,
       "pow": 3,
       "hp": 3,
@@ -15523,7 +16178,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_045_Wizard_of_glimmertal.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
   },
   {
     "id": "b554688173c7",
@@ -15850,8 +16513,8 @@
       "level": 1,
       "res": 2,
       "ini": 2,
-      "pow": null,
-      "hp": null,
+      "pow": 1,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -15869,7 +16532,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_053_Novice_of_the_water.png?v=1785846790&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "eaf698f745f0",
@@ -15968,7 +16639,7 @@
     "colors": [
       "blue"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "BL_056",
     "artist": "Carl Haucke",
     "language": "en",
@@ -15994,7 +16665,9 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_056_Temple_of_water.png?v=1785846791&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "rarity"
+    ]
   },
   {
     "id": "63ae223dbe40",
@@ -16015,7 +16688,7 @@
     "colors": [
       "blue"
     ],
-    "rarity": null,
+    "rarity": "T",
     "collectorNumber": "BL_TK-057",
     "artist": "Carlos Manzano",
     "language": "en",
@@ -16041,7 +16714,9 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_TK-057_Shield_of_water.png?v=1785846790&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "rarity"
+    ]
   },
   {
     "id": "95ddd3f3f913",
@@ -16239,7 +16914,7 @@
     "colors": [
       "blue"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "BL_D-28",
     "artist": "Agustín Vergara Koller",
     "language": "en",
@@ -16249,7 +16924,7 @@
       "res": 4,
       "ini": 4,
       "pow": 4,
-      "hp": null,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -16265,7 +16940,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-28_Rex__Lizard_of_deception.png?v=1781882027&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "6c37f2b73daa",
@@ -16330,7 +17013,7 @@
     "artist": "Bruno Moreira",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 4,
       "ini": 5,
@@ -16351,7 +17034,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-37_Waron_Water_Dragon.png?v=1781882030&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "aac7663227d2",
@@ -16589,11 +17280,11 @@
     "artist": "André Bueno",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 2,
       "ini": 3,
-      "pow": null,
+      "pow": 2,
       "hp": 4,
       "magic": null,
       "lp": null
@@ -16612,7 +17303,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-064_Brokk_Sparkshaper.png?v=1785846662&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "e99d120f218e",
@@ -16677,7 +17376,7 @@
     "artist": "Rodolfo Costa",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 1,
       "res": 2,
       "ini": 2,
@@ -16700,7 +17399,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-066_Bronmarks_Guard.png?v=1785846662&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "0f1f6ed058b9",
@@ -16945,7 +17652,7 @@
     "artist": "Bruno Moreira",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 1,
       "res": 3,
       "ini": 3,
@@ -16966,7 +17673,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-072_Dwarven_Miner.png?v=1785846661&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "39cd4f177fec",
@@ -17339,7 +18054,7 @@
     "artist": "Kane Matos",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 2,
       "ini": 4,
@@ -17360,7 +18075,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-081_Juggernaut_of_the_Bronmark.png?v=1785846662&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "deb3e3ead00a",
@@ -17470,7 +18193,7 @@
       "level": 2,
       "res": 3,
       "ini": 3,
-      "pow": null,
+      "pow": 4,
       "hp": 5,
       "magic": null,
       "lp": null
@@ -17487,7 +18210,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-084_Lerium_Guard.png?v=1785846661&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "09e03b2f62db",
@@ -17691,7 +18422,7 @@
     "artist": "Barticevich",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 1,
       "res": 2,
       "ini": 2,
@@ -17712,7 +18443,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-089_Retrieval_Commando.png?v=1785846662&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "20e14ad55c10",
@@ -18040,7 +18779,7 @@
       "res": 3,
       "ini": 3,
       "pow": 2,
-      "hp": null,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -18056,7 +18795,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-097_Stonemason.png?v=1785846661&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "6f5306041aaf",
@@ -18119,9 +18866,9 @@
     "artist": "Rodolfo Costá®",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
-      "res": null,
+      "res": 4,
       "ini": 3,
       "pow": 6,
       "hp": 6,
@@ -18140,7 +18887,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-099_Stonewurm.png?v=1785846662&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "b5bf92853d6a",
@@ -18162,7 +18917,7 @@
     "artist": "Rodolfo Costa",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 2,
       "res": 3,
       "ini": 2,
@@ -18183,7 +18938,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-100_Strongarm_Weaponsmith.png?v=1785846663&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "db14e5a44a01",
@@ -18246,11 +19009,11 @@
     "artist": "Jounes Erojo",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 3,
       "ini": 3,
-      "pow": null,
+      "pow": 7,
       "hp": 7,
       "magic": null,
       "lp": null
@@ -18270,7 +19033,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-102_Giant_Golem.png?v=1785846662&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "d9beba3d3f49",
@@ -18384,12 +19155,12 @@
     "artist": "Jounes Erojo",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 3,
       "ini": 2,
       "pow": 4,
-      "hp": null,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -18409,7 +19180,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-105_Vorax_the_Wurm.png?v=1785846662&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "57b929813a0e",
@@ -18956,10 +19735,10 @@
     "stats": {
       "asp": null,
       "level": null,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 6,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -18977,7 +19756,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-TK119_Stone_Giant.png?v=1785846661&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "5ced66cdc004",
@@ -19698,7 +20485,7 @@
     "artist": "Thais Valandra",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 2,
@@ -19719,7 +20506,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_131_FIreshaman.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "3a927405245c",
@@ -19743,7 +20538,7 @@
     "artist": "Paul Takahashi",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 4,
       "ini": 5,
@@ -19764,7 +20559,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_132_Krakhan_the_hellfire.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "2ab8f7d0660c",
@@ -19909,7 +20712,7 @@
     "artist": "Agustín Vergara Koller",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 3,
       "ini": 3,
@@ -19930,7 +20733,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_136_Firedemon.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "a08d84e2532f",
@@ -19957,7 +20768,7 @@
       "res": 4,
       "ini": 5,
       "pow": 6,
-      "hp": null,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -19973,7 +20784,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_137_Firedragon.png?v=1785846953&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "150eb898a2f8",
@@ -19995,7 +20814,7 @@
     "artist": "Agustín Vergara Koller",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 1,
       "res": 3,
       "ini": 4,
@@ -20018,7 +20837,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_138_Fireelemental.png?v=1785846953&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.rise"
+    ]
   },
   {
     "id": "edc9fa8b30bb",
@@ -20129,7 +20956,7 @@
       "asp": 2,
       "level": 1,
       "res": 2,
-      "ini": null,
+      "ini": 1,
       "pow": 3,
       "hp": 2,
       "magic": null,
@@ -20147,7 +20974,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_141_Firewall.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "3418ebf7ed04",
@@ -20295,7 +21130,7 @@
     "colors": [
       "red"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "RD_145",
     "artist": "Kane Matos",
     "language": "en",
@@ -20321,7 +21156,11 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_145_Goblin_Fire.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
   },
   {
     "id": "d4185faa3657",
@@ -20381,7 +21220,7 @@
     "colors": [
       "red"
     ],
-    "rarity": null,
+    "rarity": "K",
     "collectorNumber": "RD_147",
     "artist": "Jounes Erojo",
     "language": "en",
@@ -20407,7 +21246,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_147_GOblin_Slayer.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "7fc4c7c80462",
@@ -20469,7 +21316,7 @@
     "colors": [
       "red"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "RD_149",
     "artist": "Jounes Erojo",
     "language": "en",
@@ -20495,7 +21342,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_149_Horde_Leader.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "d6a5766e3923",
@@ -20517,7 +21372,7 @@
     "artist": "Agustín Vergara Koller",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 2,
       "ini": 2,
@@ -20538,7 +21393,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_150_Mad_Pyromancer.png?v=1785846952&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "27a5f5f20534",
@@ -20648,7 +21511,7 @@
     "artist": "Thais Valandra",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 4,
@@ -20671,7 +21534,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_153_ORC_Archer.png?v=1785846953&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "70bc32be5449",
@@ -21993,7 +22864,7 @@
     "colors": [
       "red"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "",
     "artist": "ounes Erojo",
     "language": "en",
@@ -22021,7 +22892,10 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_D-42_War_Drums.png?v=1782382063&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "b95337f64d3a",
@@ -22219,10 +23093,10 @@
     "artist": "Barticevich",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
-      "ini": null,
+      "ini": 2,
       "pow": 2,
       "hp": 4,
       "magic": null,
@@ -22240,7 +23114,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_184_Arcane_Spider.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "c7c6ea27ae70",
@@ -22824,7 +23706,7 @@
     "artist": "Maria Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 2,
       "res": 2,
       "ini": 2,
@@ -22847,7 +23729,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_198_guardian_of_the_last_light.png?v=1785845290&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "03059d97f2e0",
@@ -23000,8 +23890,8 @@
       "level": 1,
       "res": 2,
       "ini": 4,
-      "pow": null,
-      "hp": null,
+      "pow": 1,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -23017,7 +23907,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_202_illuminated_fairy.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "9499f046ead7",
@@ -23073,7 +23971,7 @@
     "colors": [
       "purple"
     ],
-    "rarity": null,
+    "rarity": "K",
     "collectorNumber": "PU_204",
     "artist": "Muhammad Fathi",
     "language": "en",
@@ -23099,7 +23997,10 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_204_Magical_infusion.png?v=1785845290&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "f747ac0f60e0",
@@ -23473,7 +24374,7 @@
     "artist": "Ragil Nursaleh",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 1,
       "res": 3,
       "ini": 3,
@@ -23494,7 +24395,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_213_Pixie_Assassin.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "25ff21c84d82",
@@ -23516,11 +24425,11 @@
     "artist": "mochiimuffin_vt",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 2,
       "res": 3,
       "ini": 3,
-      "pow": 4,
+      "pow": 1,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -23537,7 +24446,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_214_pixie_trickster.png?v=1785845290&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "2f916ad3697e",
@@ -23564,7 +24481,7 @@
       "res": 3,
       "ini": 3,
       "pow": 1,
-      "hp": null,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -23582,7 +24499,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_215_Pollen_FAiry.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "ebfae2ef5d6f",
@@ -23604,7 +24529,7 @@
     "artist": "Luan Pereira Santos",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 2,
       "res": 4,
       "ini": 3,
@@ -23627,7 +24552,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_216_Pollen_Gun.png?v=1785845290&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "90afc4c5f96a",
@@ -23844,7 +24777,7 @@
   },
   {
     "id": "f6d7609b7263",
-    "name": "Soldiers of the Convenant",
+    "name": "Soldiers of the Covenant",
     "set": "Alliances",
     "typeLine": "Character, Fairy",
     "types": [
@@ -23866,7 +24799,7 @@
       "level": 1,
       "res": 2,
       "ini": 3,
-      "pow": null,
+      "pow": 2,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -23883,7 +24816,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_222_Soldiers_of_the_covenant.png?v=1785845292&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "name"
+    ]
   },
   {
     "id": "3593e3282a79",
@@ -24023,7 +24965,7 @@
     "colors": [
       "purple"
     ],
-    "rarity": null,
+    "rarity": "F",
     "collectorNumber": "PU_226",
     "artist": "Zebi Art",
     "language": "en",
@@ -24053,7 +24995,10 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_226_Summoning_of_theProtector.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "rarity"
+    ]
   },
   {
     "id": "80f41aedc1b9",
@@ -24075,7 +25020,7 @@
     "artist": "Thais Valandra",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 1,
       "res": 3,
       "ini": 2,
@@ -24098,7 +25043,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_227_Voice_of_the_fae_court.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "719f76cd9ea5",
@@ -24120,7 +25073,7 @@
     "artist": "Maria Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 4,
@@ -24141,7 +25094,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_228_WHispering_Pixie.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "818cf70fa568",
@@ -24165,9 +25126,9 @@
     "stats": {
       "asp": 4,
       "level": 2,
-      "res": null,
+      "res": 3,
       "ini": 3,
-      "pow": null,
+      "pow": 1,
       "hp": 3,
       "magic": null,
       "lp": null
@@ -24184,7 +25145,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_229_Wise_FAiry.png?v=1785845291&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "d8f7d89a5bf2",
@@ -24702,7 +25671,7 @@
       "level": null,
       "res": 3,
       "ini": 1,
-      "pow": null,
+      "pow": 0,
       "hp": 6,
       "magic": null,
       "lp": null
@@ -24719,7 +25688,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_241_Barrier_Between_worlds_Token.png?v=1785845290&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "ce4f3621f0c2",
@@ -24743,11 +25720,11 @@
     "stats": {
       "asp": 4,
       "level": 2,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
-      "magic": null,
+      "res": 4,
+      "ini": 4,
+      "pow": 2,
+      "hp": 3,
+      "magic": 4,
       "lp": null
     },
     "mechanics": {
@@ -24762,7 +25739,16 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_D-15_Fairy_of_Wind.png?v=1783244419&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.magic",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "30333fcbad37",
@@ -25165,7 +26151,7 @@
     "colors": [
       "grey"
     ],
-    "rarity": null,
+    "rarity": "K",
     "collectorNumber": "EQ_247",
     "artist": "Jounes Erojo",
     "language": "en",
@@ -25191,7 +26177,11 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/EQ_247_KARMA_HATCHLING_Jounes_Erojo.png?v=1789038818&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic",
+      "rarity"
+    ]
   },
   {
     "id": "389e8e23ea2f",
@@ -26014,12 +27004,12 @@
     "artist": "Carlos Manzano",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 2,
       "level": 1,
       "res": 3,
       "ini": 3,
-      "pow": 4,
-      "hp": null,
+      "pow": 1,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -26037,7 +27027,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-17_Harpoon_Hunter.png?v=1781882025&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "7f564ee80b3e",
@@ -26059,12 +27057,12 @@
     "artist": "Carlos Manzano",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 2,
       "level": 1,
       "res": 3,
       "ini": 3,
-      "pow": 4,
-      "hp": null,
+      "pow": 1,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -26082,7 +27080,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-18_Harpoon_Hunter.png?v=1781882024&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "468257060a9a",
@@ -26359,7 +27365,7 @@
     "colors": [
       "blue"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "BL_D-27",
     "artist": "Agustín Vergara Koller",
     "language": "en",
@@ -26369,7 +27375,7 @@
       "res": 4,
       "ini": 4,
       "pow": 4,
-      "hp": null,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -26385,7 +27391,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-27_Rex__Lizard_of_deception.png?v=1781882027&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "04ef8283f7fa",
@@ -26661,7 +27675,7 @@
     "artist": "Bruno Moreira",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 4,
       "ini": 5,
@@ -26682,7 +27696,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-36_Waron_Water_Dragon.png?v=1781882030&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "73fed58bc2c4",
@@ -26745,12 +27767,12 @@
     "artist": "Maria Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 2,
-      "pow": 4,
-      "hp": null,
+      "pow": 1,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -26769,7 +27791,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-40_Waterpriestress.png?v=1781882032&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
   },
   {
     "id": "473c000d848f",
@@ -26791,12 +27821,12 @@
     "artist": "Maria Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 2,
-      "pow": 4,
-      "hp": null,
+      "pow": 1,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -26815,7 +27845,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-39_Waterpriestress.png?v=1781882031&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.binding"
+    ]
   },
   {
     "id": "31c7fc12eddb",
@@ -27223,7 +28261,7 @@
       "level": 1,
       "res": 2,
       "ini": 2,
-      "pow": null,
+      "pow": 1,
       "hp": 2,
       "magic": null,
       "lp": null
@@ -27242,7 +28280,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-50_Novice_of_the_water.png?v=1781882035&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "ea38137d0191",
@@ -27268,7 +28314,7 @@
       "level": 1,
       "res": 2,
       "ini": 2,
-      "pow": null,
+      "pow": 1,
       "hp": 2,
       "magic": null,
       "lp": null
@@ -27287,7 +28333,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BL_D-51_Novice_of_the_water.png?v=1781882035&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity",
+      "mechanics.pool"
+    ]
   },
   {
     "id": "62aff185a703",
@@ -27959,7 +29013,7 @@
     "artist": "Thais Valandra",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 2,
@@ -27980,7 +29034,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_D-14_FIreshaman.png?v=1782382063&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "ac0fdaa7085a",
@@ -28214,7 +29276,7 @@
     "colors": [
       "red"
     ],
-    "rarity": null,
+    "rarity": "L",
     "collectorNumber": "",
     "artist": "Jounes Erojo",
     "language": "en",
@@ -28240,7 +29302,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_D-25_Horde_Leader.png?v=1782382064&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "e005537a46cf",
@@ -28262,7 +29332,7 @@
     "artist": "Thais Valandra",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 4,
@@ -28285,7 +29355,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/RD_D-29_ORC_Archer.png?v=1782382065&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "3c2f0f53424e",
@@ -29620,7 +30698,7 @@
       "res": 3,
       "ini": 3,
       "pow": 1,
-      "hp": null,
+      "hp": 2,
       "magic": null,
       "lp": null
     },
@@ -29638,7 +30716,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_D-28_Pollen_FAiry.png?v=1783244420&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "43f38f0dca63",
@@ -29660,7 +30746,7 @@
     "artist": "Luan Pereira Santos",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 3,
       "level": 2,
       "res": 4,
       "ini": 3,
@@ -29683,7 +30769,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_D-30_Pollen_Gun.png?v=1783244418&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "af2ca3dd8f16",
@@ -29750,7 +30844,7 @@
     "artist": "Anna Lesnikova",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 5,
       "level": 2,
       "res": 5,
       "ini": 5,
@@ -29773,7 +30867,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_D-34_Ralin_Toshi_Bruder.png?v=1783244419&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "65243ac4ad82",
@@ -29920,7 +31022,7 @@
     "artist": "Maria Trigueros",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 4,
       "level": 2,
       "res": 3,
       "ini": 4,
@@ -29941,7 +31043,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/PU_D-41_WHispering_Pixie.png?v=1783244419&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "db925daa75be",
@@ -30968,7 +32078,7 @@
       "res": 3,
       "ini": 3,
       "pow": 6,
-      "hp": null,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -30987,7 +32097,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-D-27_Stone_Giant.png?v=1783769545&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "bfe8309c2c3d",
@@ -31014,7 +32132,7 @@
       "res": 3,
       "ini": 3,
       "pow": 2,
-      "hp": null,
+      "hp": 4,
       "magic": null,
       "lp": null
     },
@@ -31030,7 +32148,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-D-29_Stonemason.png?v=1783769539&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "8f4f9c1d64ad",
@@ -31093,9 +32219,9 @@
     "artist": "Rodolfo Costa 26",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
-      "res": null,
+      "res": 4,
       "ini": 3,
       "pow": 6,
       "hp": 6,
@@ -31114,7 +32240,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-D-34_Stonewurm.png?v=1783769543&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "ebdd3b2d8c11",
@@ -31177,11 +32311,11 @@
     "artist": "Jounes Erojo",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 3,
       "ini": 3,
-      "pow": null,
+      "pow": 7,
       "hp": 7,
       "magic": null,
       "lp": null
@@ -31201,7 +32335,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-D-37_Giant_Golem.png?v=1783769541&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "c24dc21b5ce8",
@@ -31225,12 +32367,12 @@
     "artist": "Jounes Erojo",
     "language": "en",
     "stats": {
-      "asp": null,
+      "asp": 6,
       "level": 2,
       "res": 3,
       "ini": 2,
       "pow": 4,
-      "hp": null,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -31250,7 +32392,15 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-D-39_Vorax_the_Wurm.png?v=1783769543&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   },
   {
     "id": "0b1d191aaf2d",
@@ -31746,10 +32896,10 @@
     "stats": {
       "asp": null,
       "level": null,
-      "res": null,
-      "ini": null,
-      "pow": null,
-      "hp": null,
+      "res": 3,
+      "ini": 3,
+      "pow": 6,
+      "hp": 6,
       "magic": null,
       "lp": null
     },
@@ -31767,6 +32917,14 @@
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/BR-TK03a_Stone_Giant_Token.png?v=1783769539&width=3200",
     "method": "Apple Vision OCR + layout/Tesseract; source group and filename for color",
-    "reviewedFields": []
+    "reviewedFields": [
+      "stats.asp",
+      "stats.level",
+      "stats.res",
+      "stats.ini",
+      "stats.pow",
+      "stats.hp",
+      "rarity"
+    ]
   }
 ]

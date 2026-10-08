@@ -24,22 +24,21 @@ Characters, or double its POW to one Character.)
 Whenever a Character dies from Ranged Combat
 dealt by a Character you control, choose one: Put 1
 POW/HP +1/+1 counter on target Character you control, or gain 1 ASP at the beginning of the next round.",,machine,https://bluthelden.com/cdn/shop/files/WhatsApp_Image_2026-07-30_at_09.58.59.jpg?v=1785398414&width=3200
-976ed1199383,Wild Boar Token,Origin,"Token Character, Boar",green,T,,,2,,3,,,,"""When the forest runs, it runs first.""",,machine,https://bluthelden.com/cdn/shop/files/Wild_Boar_Token.png?v=1785397795&width=3200
-d372e5c24bc7,Crypt Walker,Origin,"Character, Undead",black,N,,1,2,2,3,2,,,"When Crypt Walker enters play, return an Undead.
-Character from your Graveyard to your hand.
-• Gain O ASP, as long as this Character remains",,machine,https://bluthelden.com/cdn/shop/files/WhatsApp_Image_2026-07-30_at_09.58.58.jpg?v=1785398413&width=3200
+976ed1199383,Wild Boar Token,Origin,"Token Character, Boar",green,T,,,2,2,3,3,,,,,machine,https://bluthelden.com/cdn/shop/files/Wild_Boar_Token.png?v=1785397795&width=3200
+d372e5c24bc7,Crypt Walker,Origin,"Character, Undead",black,N,3,1,2,2,3,2,,,"When Crypt Walker enters play, return an Undead Character from your Graveyard to your hand.
+[Turn] Gain 1 ASP, as long as this Character remains Bound.",,machine,https://bluthelden.com/cdn/shop/files/WhatsApp_Image_2026-07-30_at_09.58.58.jpg?v=1785398413&width=3200
 6d57b3d7530d,Skeleton Token,Origin,"Token Character, Undead",black,T,,,2,2,1,2,,,"Skeleton Token must attack every round, if able.
 If Skeleton Token attacked, sacrifice it at the end of the",,machine,https://bluthelden.com/cdn/shop/files/Skeleton_Token.png?v=1785397796&width=3200
 53ed10bcbf91,Mutant Demon Token,Origin,"Token Character, Demon",black,T,,,2,2,3,2,,,"If you control a LVL 2 Resource, 2, . Rise (Search your
 Spell Deck for a card named Two-Headed Demon and
 place it on this slot. Transfer all counters from Mutant
 Demon Token to it. Then destroy Mutant Demon",,machine,https://bluthelden.com/cdn/shop/files/Mutant_Demon_Token.png?v=1785397795&width=3200
-ec2852690de1,"Erojo, Warden of the Beyond",Origin,"Mythic Character, Spirit Advisor",orange,F,,2,,,4,,,,"Advisor (You have to place this card in the Advisor slot. It is
+ec2852690de1,"Erojo, Warden of the Beyond",Origin,"Mythic Character, Spirit Advisor",orange,F,4,2,,,4,,,,"Advisor (You have to place this card in the Advisor slot. It is
 still a Character that can be the target of spells or abilities.)
 Spectral Ward
 When Erojo, Warden of the Beyond enters play, create a
 Shadow Token in target War Zone.
-: All Characters in target War Zone gain POW/HP -1/-1
+1 ASP, [Turn]: All Characters in target War Zone gain POW/HP -1/-1
 equal to the number of Shadow Tokens in that War Zone.",,machine,https://bluthelden.com/cdn/shop/files/WhatsApp_Image_2026-07-30_at_09.58.58_2.jpg?v=1785398413&width=3200
 83ffeed6cc65,Rune of Leros,Origin,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Resources you control enter play turned.
 You may put an addtional Resource into play once
@@ -57,9 +56,7 @@ Use this ability only once per round.",Green / Blue: +0 ASP; Brown / Purple: +1 
 or less and put it into your hand.
 Birds you control have Speed.
 (They don't turn when performing a combat action.)",,machine,https://bluthelden.com/cdn/shop/files/WH58_Valdar_Stormwing_General_of_the_Falcon_Guard.png?v=1749546401&width=3200
-3c093632d870,Alchemist of Resistance,Origin,"Character, Human",white,,3,1,,3,6,3,,,"2, [Turn]: Target Character in the same Lane gains RES +1
-or -1 until the end of the round. This effect ignores the
-target's Magic Resistance.",,machine,https://bluthelden.com/cdn/shop/files/WH02_F__Alchemist_of_Resistance.png?v=1749546342&width=3200
+3c093632d870,Alchemist of Resistance,Origin,"Character, Human",white,N,3,1,1,3,6,3,,,"2 ASP, [Turn]: Target Character in the same Lane gains RES +1 or -1 until the end of the round. This effect ignores the target’s Magic Resistance.",,machine,https://bluthelden.com/cdn/shop/files/WH02_F__Alchemist_of_Resistance.png?v=1749546342&width=3200
 f8dbbb09d20f,Alchemist of Strength,Origin,"Character, Human",white,N,2,1,3,3,2,3,,,"If you control a LVL 2 Resource, Q, : Rise (Search
 your Spell Deck for a card named Master Alchemist of
 Strength and place it on this Slot. Transfer all counters
@@ -95,7 +92,7 @@ everything until end of this round. (It can't be the target
 of spells or abilities your opponent controls. All DMG that
 would be dealt to it, is prevented.)
 Then destroy Cape of Protection at the end of the round.",,machine,https://bluthelden.com/cdn/shop/files/WH13_Cape_of_Protection.png?v=1749546354&width=3200
-d9130d64b8c9,highly concerated monk,Origin,"Character, Human",white,N,4,2,2,,4,4,,,"Defender (This Character doesn't turn when performing a
+d9130d64b8c9,Consecrated Monk,Origin,"Character, Human",white,N,4,2,2,4,4,4,,,"Defender (This Character doesn't turn when performing a
 defend action.)",,machine,https://bluthelden.com/cdn/shop/files/WH14_highly_concerated_monk.png?v=1749546355&width=3200
 ed88cdc1f406,Consecration Ritual,Origin,Spell,white,N,3,,,,,,,,"Choose one: Until the end of the round target
 Character gains RES. +2 or gains POW/HP +1/+2.",,machine,https://bluthelden.com/cdn/shop/files/WH15_Consecration_Ritual.png?v=1749546353&width=3200
@@ -110,22 +107,22 @@ c15dd3b7f35a,Falcon Guard Diplomat,Origin,"Character, Human",white,K,2,1,4,2,2,3
 can't attack nor defend during the next combat phase.",,machine,https://bluthelden.com/cdn/shop/files/WH19_Falcon_Guard_Diplomat.png?v=1749546360&width=3200
 161ddca31386,Golden Light Paladin,Origin,"Character, Human",white,N,4,1,2,4,4,4,,,"The first time it survives combat, regenerate
 Golden Light Paladin completely. It gains 1 RES +1 counter.",,machine,https://bluthelden.com/cdn/shop/files/WH20_Golden_Light_Paladin.png?v=1749546361&width=3200
-d5639fce5ba2,Griffin,Origin,"Character, Bird",white,L,5,2,,4,5,7,,,,,machine,https://bluthelden.com/cdn/shop/files/WH21_Griffin_92532640-50c9-4cbc-b7a2-c2b33aadb04d.png?v=1750753921&width=3200
-e35106b66d82,Healing Wizard,Origin,"Character, Human Bird",white,K,3,2,1,2,4,,,,"[Turn]: Target Sovereign regenerates 1 HP.
+d5639fce5ba2,Griffin,Origin,"Character, Bird",white,L,5,2,5,4,5,7,,,,,machine,https://bluthelden.com/cdn/shop/files/WH21_Griffin_92532640-50c9-4cbc-b7a2-c2b33aadb04d.png?v=1750753921&width=3200
+e35106b66d82,Healing Wizard,Origin,"Character, Human Bird",white,K,3,2,1,2,4,4,,,"[Turn]: Target Sovereign regenerates 1 HP.
 1, [Turn]: Prevent 1 DMG to target Character you control.",,machine,https://bluthelden.com/cdn/shop/files/WH22_Healing_Wizard_31126ea8-76ac-4ed8-ae0b-b3330acbe618.png?v=1750753906&width=3200
 ed979e1401f1,Heavens Amulet,Origin,Miracle,white,K,3,,,,,,,,"During this round prevent up to 1DMG to all
 Characters you control in target Lane.",,machine,https://bluthelden.com/cdn/shop/files/WH23_Heavens_Amulet_aab20729-307b-40d6-af97-79ec027ec7f6.png?v=1750753903&width=3200
 12d37fb07492,Light of Retribution,Origin,Spell,white,K,2,,,,,,3,,"Deal 1 DMG to target Character.
 If it dies this way, gain 1 LP.",,machine,https://bluthelden.com/cdn/shop/files/WH24_Light_of_Retribution_42c12d9a-38cb-4096-8064-653999157e74.png?v=1750753923&width=3200
 3981be57bc0f,Magic Missle,Origin,Miracle,white,N,4,,,,,,4,,Deal up to 2 DMG to each of up to two target Characters.,,machine,https://bluthelden.com/cdn/shop/files/WH25_Magic_Missle_60e66072-c5e3-4c19-8031-3c2c9ebc4e39.png?v=1750753935&width=3200
-bbb9821d9d86,Master Alchemist of Strengh,Origin,"Character, Human",white,N,4,2,,3,,,,,"If you control Alchemist of Strength, pay ASP less
+bbb9821d9d86,Master Alchemist of Strength,Origin,"Character, Human",white,N,4,2,4,3,4,4,,,"If you control Alchemist of Strength, pay ASP less
 to summon Master Alchemist of Strength, then Rise
 Alchemist of Strength. (Place this card on Alchemist
 of Strength. Transfer all counters from Alchemist of
 Strength to it. Then destroy Alchemist of Strength.)
 2, [Turn], Put 1 POW/HP +1/+1 counter on target Character
 in the Lane.",,machine,https://bluthelden.com/cdn/shop/files/WH26_Master_Alchemist_of_Strengh_03450933-2452-440f-97df-60ee144a864f.png?v=1750753905&width=3200
-92d20fd8105b,Master Blacksmith,Origin,"Character, Human",white,N,,2,2,3,3,3,,,"If you control Young Blacksmith, pay 2 ASP less to
+92d20fd8105b,Master Blacksmith,Origin,"Character, Human",white,N,4,2,2,3,3,3,,,"If you control Young Blacksmith, pay 2 ASP less to
 summon Master Blacksmith, then Rise Young Blacksmith.
 (Place this card on Young Blacksmith. Transfer all
 counters from Young Blacksmith to it. Then destroy
@@ -135,7 +132,7 @@ Young Blacksmith.)
 [Turn]: Medica provides an antidote to target Character in the
 same Lane. (Remove all degenerative effect counters from
 that Character immediately.)",,machine,https://bluthelden.com/cdn/shop/files/WH28_Medica_47151ba3-c69d-4fcf-95ae-d1eac20e67b0.png?v=1750753925&width=3200
-86a57eb7d095,Melody of Courage,Origin,Spell,white,,2,,,,,,,,"All Characters you control in target Lane
+86a57eb7d095,Melody of Courage,Origin,Spell,white,K,2,,,,,,,,"All Characters you control in target Lane
 gain 1 RES +1 counter.",,machine,https://bluthelden.com/cdn/shop/files/WH29_Melody_of_Courage_3696a857-957e-4738-ae97-820a6867f412.png?v=1750753937&width=3200
 581d5c7128ea,Nobleman,Origin,"Character, Human",white,K,3,1,2,2,2,3,,,"Draw a card, then discard one when Nobleman
 enters play.",,machine,https://bluthelden.com/cdn/shop/files/WH30_Nobleman_37135c53-0afa-40f7-be21-3c0ae9297806.png?v=1750753909&width=3200
@@ -146,7 +143,7 @@ If not, they remain in the War Zone.",,machine,https://bluthelden.com/cdn/shop/f
 8c21d488821e,Ring of Wisdom,Origin,Mythic Artifact,white,F,3,,,,,,,,"[Turn]: Gain O ASP.
 Whenever a Character regenerates HP, it regenerates
 that many HP +1.",,machine,https://bluthelden.com/cdn/shop/files/WH32_Ring_of_Wisdom_d099f990-24bc-47f2-a267-b3f1fd950991.png?v=1750753909&width=3200
-82bb2778a1da,Royal Scout,Origin,"Character, Human",white,K,,2,2,3,3,3,,,"As Royal Scout enters play or is turned face up, target
+82bb2778a1da,Royal Scout,Origin,"Character, Human",white,K,3,2,2,3,3,3,,,"As Royal Scout enters play or is turned face up, target
 Character your opponent controls can't attack nor defend
 this round.
 Hideout - You may play this card face down in one of your
@@ -166,14 +163,14 @@ Put 1 RES +1 counter, or 2 INI +1 counter, or 1 POW/HP
 +1/+1 counter on that Character.
 Use this ability only once per round.
 2, [Turn]: Put 1 Wisdom Counter on Shield of Wisdom.",,machine,https://bluthelden.com/cdn/shop/files/WH35_Shield_of_Wisdom_89928ae3-7752-4229-a166-abafc69a6446.png?v=1750753936&width=3200
-de87a97fb350,Silas the Protection Mage,Origin,"Epic Character, Human Wizard",white,K,4,2,1,2,,3,,,"If you control Apprentice, pay 2 ASP less to summon
+de87a97fb350,Silas the Protection Mage,Origin,"Epic Character, Human Wizard",white,K,4,2,1,2,4,3,,,"If you control Apprentice, pay 2 ASP less to summon
 Silas, the Protection Mage, then Rise Apprentice.
 (Place this card on Apprentice. Transfer all counters from
 Àpprentice to it. Then destroy Apprentice.)
 ): Create one Healing Vessel Token (It's an artifact
 with ""[Turn], Sacrifice this artifact: Target character
 regenerates 1 HP."").",,machine,https://bluthelden.com/cdn/shop/files/WH36_Silas_the_Protection_Mage_7d76a992-3468-4fc6-9c53-534773ec6437.png?v=1750753911&width=3200
-47eb90a6d39e,Spearmen of the Guard,Origin,"Character, Human_",white,K,,2,3,3,,4,,,,,machine,https://bluthelden.com/cdn/shop/files/WH37_Spearmen_of_the_Guard_1d7cabbd-80c1-4e86-b0e4-dfbb6abe1e87.png?v=1750753901&width=3200
+47eb90a6d39e,Spearmen of the Sovereign’s Guard,Origin,"Character, Human_",white,K,4,2,3,3,4,4,,,,,machine,https://bluthelden.com/cdn/shop/files/WH37_Spearmen_of_the_Guard_1d7cabbd-80c1-4e86-b0e4-dfbb6abe1e87.png?v=1750753901&width=3200
 467bc75d7ac1,Swiftstrike,Origin,Martial Training,white,L,3,,,,,,,,"Trained Character gains Targeted Strike
 (You may attack target Character directly).",,machine,https://bluthelden.com/cdn/shop/files/WH38_Swiftstrike_d34375f4-da78-4d24-8f95-89a625e8ae90.png?v=1750753939&width=3200
 99c6e52042f9,Swordsman,Origin,"Character, Human",white,N,3,1,2,2,3,3,,,"If you control a LVL 2 Resource,
@@ -191,8 +188,8 @@ turn when performing a combat action.) and Two-Handed
 Combat. (It can perform two attack or defend actions until
 the end of this round. It may attack and or dejend up to
 two times in total during this combat, distributed as you",,machine,https://bluthelden.com/cdn/shop/files/WH42_Toshis_Gift_f087e676-c104-4d3a-9d3f-d89b1e6568f3.png?v=1750753912&width=3200
-a24a6cd02937,War Falcon,Origin,"Character, Bird",white,K,3,1,1,2,3,,,,,,machine,https://bluthelden.com/cdn/shop/files/WH43_War_Falcon_77ffa53b-4448-4fab-99f0-1d310f49341c.png?v=1750753938&width=3200
-64bfe52cd805,Warrior of The Shieldwall,Origin,"Character, Human",white,,,2,2,6,2,4,,,"•: Protective Shield (Choose a Character in the same
+a24a6cd02937,War Falcon,Origin,"Character, Bird",white,K,3,1,1,2,3,3,,,,,machine,https://bluthelden.com/cdn/shop/files/WH43_War_Falcon_77ffa53b-4448-4fab-99f0-1d310f49341c.png?v=1750753938&width=3200
+64bfe52cd805,Warrior of The Shieldwall,Origin,"Character, Human",white,L,4,2,2,6,2,4,,,"•: Protective Shield (Choose a Character in the same
 War Zone. Absorb the DMG from an attack on that
 Character.)
 Surge (You may use this ability anytime, without
@@ -240,45 +237,45 @@ abilities.)
 , Remove 1 Peace counter: Choose a Lane.
 Characters in that Lane can't deal any DMG in this round.
 O, [Turn]: Put 1 Peace counter on this Advisor.",,machine,https://bluthelden.com/cdn/shop/files/WH53_Magister_Tillion_of_Weidenheim_0cb2fba7-475c-4dbe-8c85-45f56a28644e.png?v=1750753931&width=3200
-16ed36a22e1a,The River Forge,Origin,Resource,white,,,2,,,,,,,"[Turn]: Gain O ASP. Gain 2 ASP instead, if you control at
+16ed36a22e1a,The River Forge,Origin,Resource,white,L,,2,,,,,,,"[Turn]: Gain O ASP. Gain 2 ASP instead, if you control at
 least three Resources with different names.
 [Turn]: Create one ""Healing Vessel"" Token.
 (It's an Artifact Token with ""[Turn], Sacrifice this Artifact:
 Target Character regenerates 1 HPi)",,machine,https://bluthelden.com/cdn/shop/files/WH54_The_River_Forge_e9c81a07-87fe-45aa-b7ca-88e29907d694.png?v=1750753930&width=3200
-20c365a0956a,Young Blacksmith,Origin,"Character, Human",white,K,,1,4,1,2,2,,,"If you control a LVL 2 Resource, U, O: Rise (Search
+20c365a0956a,Young Blacksmith,Origin,"Character, Human",white,K,1,1,1,1,2,2,,,"If you control a LVL 2 Resource, U, O: Rise (Search
 your Spell Deck for a card named Master Blacksmith
 and place it on this slot. Iransfer all counters from Young
 Blacksmith to it. Then destroy Young Blacksmith.)
 [Turn]: Gain O ASP, as long as this Character remains",,machine,https://bluthelden.com/cdn/shop/files/WH55_Young_Blacksmith_f1b14b81-a9c0-4958-bc88-d1274f9c9cef.png?v=1750753928&width=3200
-de6d829a687a,WH-TK-56 Falcon Token alle weiss,Origin,"Token Character, Bird",white,T,,,,,,3,,,OLOO,,machine,https://bluthelden.com/cdn/shop/files/WH-TK-56_Falcon_Token_alle_weiss_b72a2628-897e-47b7-b761-26fb79933131.png?v=1750947366&width=3200
+de6d829a687a,Falcon,Origin,"Token Character, Bird",white,T,,,1,1,3,3,,,OLOO,,machine,https://bluthelden.com/cdn/shop/files/WH-TK-56_Falcon_Token_alle_weiss_b72a2628-897e-47b7-b761-26fb79933131.png?v=1750947366&width=3200
 b8a79e09705c,WH-TK-57 Healing Vessel,Origin,"Token, Artifact",white,T,,,,,,,,,"X1°1++10 T
 [Turn], Sacrifice this Artifact: Target Character regenerates 1 HP.",,machine,https://bluthelden.com/cdn/shop/files/WH-TK-57_Healing_Vessel_26e7e5ab-5b20-4703-8004-d982cac3a3f7.png?v=1750947386&width=3200
-de56dfced149,Flying Swords,Origin,MIRACLE,white,,,,,,,,,,"Choose up to three target Characters in the Combat
+de56dfced149,Flying Swords,Origin,MIRACLE,white,F,6,,,,,,5,,"Choose up to three target Characters in the Combat
 Flying Swords deal 4 DMG to up to one Character,
 3 DMG to up to one other Character, and 2 DMG to up
 to one additional Character.
 If two or more Characters died this way, you gain 4 LP.
 F WHD-18 ORI•EN ©2 Bluthelden®",,machine,https://bluthelden.com/cdn/shop/files/Flying_Swords.png?v=1758106369&width=3200
-5196adc8545d,Horns of Camorrus,Origin,Artifact,white,,,,,,,,,,"Horns of Camorrus enter play with 2 Horn counters on them.
+5196adc8545d,Horns of Camorrus,Origin,Artifact,white,F,5,,,,,,,,"Horns of Camorrus enter play with 2 Horn counters on them.
 Remove 1 Horn counter from Horns of Camorrus, [Turn]: Put 1
 RES +1 counter, 1INI +1 counter, and 1 POW/HP +1/+1 counter
 on all Characters you control. If there is no counter on it,
 sacrifice Horns of Camorrus.
 F WH D-21 ORI•EN ©24 Bluthelden®",,machine,https://bluthelden.com/cdn/shop/files/Horns_of_Camorrus.png?v=1758106391&width=3200
-1594d323378c,Sovereigns Charge,Origin,Sovereign Training,white,,,,,,,,,,"When this Training enters play, attach it to your
+1594d323378c,Sovereign’s Charge,Origin,Sovereign Training,white,F,3,,4,6,6,6,,,"When this Training enters play, attach it to your
 Sovereign.
 Q your Sovereign, : Transform this Training into
 a Sovereign Token with the same card type as your
 Sovereign. Place it to target War Zone with the stats
 on this card and it has ""Skyguard"".
 F WHD-30 ORI•EN ©2 Bluthelden®",,machine,https://bluthelden.com/cdn/shop/files/Sovereigns_Charge.png?v=1758106416&width=3200
-41490da25258,Toshi,Origin,"Epic Character, Human",white,,,2,,,,,,,"Speed (This Character does not turn when performing a
+41490da25258,"Toshi, the Blessed",Origin,"Epic Character, Human",white,L,4,2,3,3,4,5,,,"Speed (This Character does not turn when performing a
 combat action.)
 Two-Handed Combat (It can perform two attack or defend
 actions each round. It may attack and/or defend up to two
 times total during each combat, distributed as you choose.)
 L WHD-39 ORI•EN ©2 Bluthelden®",,machine,https://bluthelden.com/cdn/shop/files/Toshi.png?v=1758106505&width=3200
-a7658198b7f6,Valdar,Origin,White Sovereign,white,,,,,,,,,,"O, Pay 1 LP: Gain O ASP.
+a7658198b7f6,"Valdar Stormwing, General of the Falcon Guard",Origin,White Sovereign,white,F,,,,,,,,30,"O, Pay 1 LP: Gain O ASP.
 2,O: Search your Spell Deck for a Human with O ASP or
 less and put it into your hand.
 Birds you control have Speed.
@@ -347,7 +344,7 @@ If a Character with Flying takes DMG, it loses Flying.",,machine,https://bluthel
 65e3790e2bde,Elvish Armor,Origin,Martial Training,green,K,2,,,,,,,,Trained Character gains POW/HP +0/+2.,,machine,https://bluthelden.com/cdn/shop/files/GR074_Elvish_ARmor.png?v=1750063131&width=3200
 90a189a911a2,Elvish Picker,Origin,"Character, Elf",green,N,2,1,2,2,3,4,,,"If you control three different card types in the same Lane,
 Eifish Picker gains O ASP at the beginning of your turn.",,machine,https://bluthelden.com/cdn/shop/files/GR075_Elvish_Picker.png?v=1750063128&width=3200
-19a4f837a013,Fighting Tree,Origin,"Character, Tree",green,L,,2,6,8,5,3,,,"Punch (If this Character deals DMG to another Character
+19a4f837a013,Fighting Tree,Origin,"Character, Tree",green,L,6,2,6,8,5,3,,,"Punch (If this Character deals DMG to another Character
 that exceeds its HP, the excess DMG is dealt to the
 opponent's Sovereign.)
 Dual Slot (This Character occupies 2 Slots in the War",,machine,https://bluthelden.com/cdn/shop/files/GR076_Fighting_Tree_074a3c3c-e551-4adc-83ca-fb1135cc3d25.png?v=1750754948&width=3200
@@ -370,7 +367,7 @@ the same Lane.",,machine,https://bluthelden.com/cdn/shop/files/GR080_Gardener.pn
 that exceeds its HP, the excess DMG is dealt to the
 opponent's Sovereign.)",,machine,https://bluthelden.com/cdn/shop/files/GR081_Garran_Ironroot_Protector.png?v=1750754937&width=3200
 9ffef488db12,Green Dragon,Origin,"Character, Dragon",green,F,5,2,4,4,6,7,,,,,machine,https://bluthelden.com/cdn/shop/files/GR082_Green_Dragon.png?v=1750754959&width=3200
-7ff079424c21,Luminary of Growth,Origin,"Character, Elf",green,N,,1,4,2,3,3,,,"As Luminary of Growth enters play or is turned face up,
+7ff079424c21,Luminary of Growth,Origin,"Character, Elf",green,N,4,1,1,2,3,3,,,"As Luminary of Growth enters play or is turned face up,
 create two 1/2 Creeper Plant Tokens to two target Slots.
 Hideout - You may play this card face down in one of
 your opponent's War Zones for 2. Other cards can still
@@ -382,7 +379,7 @@ up immediately and sacrifice it.",,machine,https://bluthelden.com/cdn/shop/files
 c0f508adda10,Mammoth,Origin,"Character, Mammoth",green,N,4,2,3,4,4,3,,,"When Mammoth enters play, it fights up to one target
 Character in the same Lane. If it survives combat,
 regenerate Mammoth completely.",,machine,https://bluthelden.com/cdn/shop/files/GR084_Mammoth.png?v=1750754916&width=3200
-b8183c47968f,"Nidhogg, the Appealing Dragon",Origin,"Epic Character, Dragon",green,L,,2,4,5,3,4,,,"If you control Dragon Babe, pay 3 ASP less, then Rise
+b8183c47968f,"Nidhogg, the Appealing Dragon",Origin,"Epic Character, Dragon",green,L,6,2,4,5,3,4,,,"If you control Dragon Babe, pay 3 ASP less, then Rise
 Dragon Babe. (Place this card on Dragon Babe. Transfer
 all counters from Dragon Babe to it. Then remove
 Dragon Babe from the game.)
@@ -406,7 +403,7 @@ b62601d7c3cb,Ranger,Origin,"Character, Human",green,K,3,1,2,3,3,3,,,"""I need no
 0bd5330a4a97,Ring of Nature,Origin,Mythic Artifact,green,F,2,,,,,,,,"1: Gain 1 ASP.
 Whenever Characters you control attack, they gain",,machine,https://bluthelden.com/cdn/shop/files/GR091_Ring_of_Nature.png?v=1750754943&width=3200
 4e8784c39ff5,Seed,Origin,Spell,green,K,2,,,,,,,,Create one 1/2 Creeper Plant Token in target Slot.,,machine,https://bluthelden.com/cdn/shop/files/GR092_Seed.png?v=1750754943&width=3200
-8084f7f92e95,Seed Rain,Origin,Spell,green,,3,,,,,,,,"Create one 1/2 Creeper Plant Token in target Slot . At the
+8084f7f92e95,Seed Rain,Origin,Spell,green,N,3,,,,,,,,"Create one 1/2 Creeper Plant Token in target Slot . At the
 beginning of your next round, if this Token is still in play,
 transform it into a 4/4 Giant Creeper Plant Token.",,machine,https://bluthelden.com/cdn/shop/files/GR093_Seed_Rain.png?v=1750754941&width=3200
 92b34e515d41,Staff of Enchantments,Origin,Martial Training,green,L,3,,,,,,,,"Trained Character gains POW/HP +1/+1 for each Training
@@ -422,7 +419,7 @@ fused Token on an unoccupied Slot in the same Lane.",,machine,https://bluthelden
 7d08e47ec084,Thunderclap,Origin,Spell,green,N,6,,,,,,5,,"Deal 1 DMG to every Character in target Lane. It deals
 X additional DMG for each Training you control in the
 same Lane.",,machine,https://bluthelden.com/cdn/shop/files/GR097_Thunderclap.png?v=1750754951&width=3200
-3a01cb13d5d6,Tracker,Origin,"Character, Human",green,K,,1,2,3,4,4,,,"As Tracker enters play or is turned face up, all other
+3a01cb13d5d6,Tracker,Origin,"Character, Human",green,K,4,1,2,3,4,4,,,"As Tracker enters play or is turned face up, all other
 Characters you control gain INI +2 until end of this round.
 Hideout - You may play this card face down in one of your
 opponent's War Zones for 2. Other cards can still be
@@ -433,7 +430,7 @@ opponent summons a Character on this card, turn it tace
 up immediately and sacrifice it.",,machine,https://bluthelden.com/cdn/shop/files/GR098_TRacker.png?v=1750754949&width=3200
 00e72eb238ce,Ulfreds Hornets,Origin,"Character, Insect",green,K,2,1,1,2,2,3,,,"Targeted Strike (You may attack one target Character
 directly.)",,machine,https://bluthelden.com/cdn/shop/files/GR099_Ulfreds_Hornets.png?v=1750754924&width=3200
-6f6821ab8e4d,Wild Boar,Origin,"Character, Boar",green,K,,1,2,2,3,3,,,"As Wild Boar enters play or is turned face up, create one
+6f6821ab8e4d,Wild Boar,Origin,"Character, Boar",green,K,4,1,2,2,3,3,,,"As Wild Boar enters play or is turned face up, create one
 2/2 Wild Boar Token to target unoccupied Slot in the
 same Lane.
 Hideout - You may play this card face down in one of your
@@ -466,7 +463,7 @@ Plant Token in target Slot in the same Lane.
 ea9d61987402,The Two Rivers,Origin,Resource,green,L,,2,,,,,,,"®: Gain 1 ASP.
 1: Gain 2 ASP. Activate only if you control three or
 more Unbound Characters in the same Lane.",,machine,https://bluthelden.com/cdn/shop/files/GR109_The_Two_Rivers.png?v=1750754929&width=3200
-91c022a42ae8,The Unified,Origin,"Character, Human",green,K,3,2,,,3,,,,"When The Unified enters play, create a Training called
+91c022a42ae8,The Unified,Origin,"Character, Human",green,K,3,2,1,3,3,3,,,"When The Unified enters play, create a Training called
 Growth and attach it to target Character you control in
 the same Lane. It gains POW/HP +2/+1.
 [Turn]: Gain 1 ASP, as long as this Character remains Bound.",,machine,https://bluthelden.com/cdn/shop/files/GR110_The_Unified.png?v=1750754928&width=3200
@@ -490,15 +487,15 @@ O: Target Character you control gains Tactical Shift until
 the end of the round. (It may move once per round without
 turning and using an action.) Use this ability once per round.","'+0
 +2",machine,https://bluthelden.com/cdn/shop/files/GR116-Elaria_Windwhisper.png?v=1750754974&width=3200
-0ff8b9ee0bf8,Growing Beast,Origin,"Character, Bear",green,L,,2,,,,,,,"OПАDІ
+0ff8b9ee0bf8,Growing Beast,Origin,"Character, Bear",green,L,4,2,1,1,1,1,,,"OПАDІ
 Growing Beast gains RES +1, INI +1 and POW/HP +1/+1 for
 each other Unbound Character you control in the same
 ORI•EN ©ź Bluthelden®",,machine,https://bluthelden.com/cdn/shop/files/growing.png?v=1758620915&width=3200
-6e4b640b22a2,Hornet Rage,Origin,Spell,green,F,,,,,,,,,"Hornets Rage may attack all zones.
+6e4b640b22a2,Hornets Rage,Origin,Spell,green,F,6,,,,,,5,,"Hornets Rage may attack all zones.
 Deal 2 DMG to up to five target Characters.",,machine,https://bluthelden.com/cdn/shop/files/Hornets.png?v=1758620935&width=3200
-5e2bfbfdcfd8,Solidarity,Origin,Martial Training,green,N,,,,,,,,,"Trained Character gains POW/HP +1/+1.
+5e2bfbfdcfd8,Solidarity,Origin,Martial Training,green,N,2,,,,,,,,"Trained Character gains POW/HP +1/+1.
 ORI •EN ©2 Bluthelden®",,machine,https://bluthelden.com/cdn/shop/files/solida.png?v=1758620952&width=3200
-7c202ab6d014,Tree Token Part 2,Origin,Token,green,,,,,,,,,,Part 2,,machine,https://bluthelden.com/cdn/shop/files/tree.png?v=1758620971&width=3200
+7c202ab6d014,Tree Token Part 2,Origin,Token,green,T,,,,,,,,,Part 2,,machine,https://bluthelden.com/cdn/shop/files/tree.png?v=1758620971&width=3200
 0a443f510b68,"Barabas Ulfaran, Prince of Nachtheim",Origin,Black Sovereign,black,F,,,,,,,,30,"Lord of the Dead - Whenever a nontoken Character you
 control dies, create one 2/2 Skeleton Token.
 ®, Pay 1 LP: Gain 1 ASP.
@@ -527,7 +524,7 @@ Resistance.",,machine,https://bluthelden.com/cdn/shop/files/BK121_Black_Mage.png
 c1ab454e9b80,Blood Chalice,Origin,Artifact,black,N,2,,,,,,5,,"2,[Turn]: Put 1 Poison counter on each of up to two target
 Characters. (A poisoned Character takes 1 DMG at the
 beginning of each combat phase, starting next round.)",,machine,https://bluthelden.com/cdn/shop/files/BK123_blood_chalice.png?v=1749546883&width=3200
-c4b764c986f7,Bloodmonger Maiden,Origin,"Character, Human",black,N,4,2,,3,3,2,,,"Whenever a Human you control dies, you may pay 2 LP.
+c4b764c986f7,Bloodmonger Maiden,Origin,"Character, Human",black,N,4,2,1,3,3,2,,,"Whenever a Human you control dies, you may pay 2 LP.
 If you do, create one 2/2 Barbarian Mercenary Token in
 target War Zone. It has ""This Character can't block.""",,machine,https://bluthelden.com/cdn/shop/files/BK124_Bloodmonger_Maiden.png?v=1749546892&width=3200
 0d82085169e2,Blood Ritual,Origin,Spell,black,K,2,,,,,,3,,"As an additional cost to summon Blood Ritual, it deals
@@ -538,7 +535,7 @@ controls. X can't exceed the HP of the Character you",,machine,https://bluthelde
 (It gains POW/HP +2/+2. Banish it at the end of this round.)",,machine,https://bluthelden.com/cdn/shop/files/Bk126_Blood_Rush.png?v=1749546890&width=3200
 32432757f4c3,Blood Victim,Origin,Spell,black,N,3,,,,,,,,"As an additional cost to summon Blood Victim,
 sacritice target Resource. Draw a card.",,machine,https://bluthelden.com/cdn/shop/files/BK127_Blood_Victim.png?v=1749546885&width=3200
-e938c47bc748,"Buragor, Flying Demon",Origin,"Character, Demon",black,L,,2,6,2,6,3,,,"At the beginning of your turn Buragaor, Flying Demon
+e938c47bc748,"Buragaor, Flying Demon",Origin,"Character, Demon",black,L,6,2,6,2,6,5,,,"At the beginning of your turn Buragaor, Flying Demon
 deals 1 DMG to another Character you control or to your
 Sovereign.",,machine,https://bluthelden.com/cdn/shop/files/BK128_Flying_Demon.png?v=1749546885&width=3200
 1b0ed703e111,Dark Rider,Origin,"Character, Undead",black,L,5,2,4,5,5,4,,,"Poisoned (A poisoned Character takes 1 DMG at the
@@ -556,7 +553,7 @@ this damaging ability in the same War Zone. Sacrifice
 Demonic Fire then.",,machine,https://bluthelden.com/cdn/shop/files/BK132_Demonic_Fire.png?v=1750063312&width=3200
 dc4f714c34f5,Demon of the Avatar,Origin,"Character, Demon",black,L,4,2,3,4,5,4,,,"2: Sacrife X Characters you control, deal X DMG to
 target Character.",,machine,https://bluthelden.com/cdn/shop/files/BK133_Demon_of_The_Avatar.png?v=1750063313&width=3200
-ca942e423d53,Demon Pactmaker,Origin,"Epic Character, Human",black,K,5,2,3,3,,4,,,"If you control Demon Summoner, pay 2 ASP less to
+ca942e423d53,Demon Pactmaker,Origin,"Epic Character, Human",black,K,5,2,3,3,4,4,,,"If you control Demon Summoner, pay 2 ASP less to
 summon Demon Pactmaker, then Rise Demon Summoner.
 (Place this card on Demon Summoner. Transfer all counters
 from Demon Summoner to it. Then destroy Demon
@@ -602,7 +599,7 @@ beginning of each combat phase, starting next round.)",,machine,https://blutheld
 7949f249a2c8,Poisoned Blood,Origin,Spell,black,K,3,,,,,,4,,"Poisoned Blood deals 1 DMG to target Character, then put 1
 Poison counter on it. (A poisoned Character takes 1 DMG at
 the beginning of each combat phase, starting next round.)",,machine,https://bluthelden.com/cdn/shop/files/BK147_Poisoned_Blood.png?v=1750754300&width=3200
-667dfd082c45,"Raymond, Harbinger of Cunning",Origin,"Epic Character, Human",black,,5,2,4,4,5,4,,,"Whenever a nontoken Undead Character enters play,
+667dfd082c45,"Raymond, Harbinger of Cunning",Origin,"Epic Character, Human",black,F,5,2,4,4,5,4,,,"Whenever a nontoken Undead Character enters play,
 draw one card, then discard a card",,machine,https://bluthelden.com/cdn/shop/files/BK148_Raymond_Harbinger_of_Cunning.png?v=1750754299&width=3200
 a95f22a65ac0,Revival,Origin,Spell,black,K,2,,,,,,,,"Search your Graveyard for an Undead Character and add it
 into your hand.",,machine,https://bluthelden.com/cdn/shop/files/BK149_Revival.png?v=1750754294&width=3200
@@ -618,7 +615,7 @@ On a 1-2: It changes sides. Your opponent may place
 it unturned to an unoccupied Slot in the same Lane.
 Sacrifice it at the end of the next round.",,machine,https://bluthelden.com/cdn/shop/files/BK152_Sell-Sword.png?v=1750754297&width=3200
 3bcb96637a4b,Skeleton Warrior,Origin,"Character,Undead",black,K,2,1,2,2,1,1,,,"This Character must attack every round, if able.",,machine,https://bluthelden.com/cdn/shop/files/BK153_Skeleton.png?v=1750754274&width=3200
-71bad37ab4ab,Slave of the Abyss,Origin,"Character, Human",black,K,,1,4,4,1,2,,,"As Slave of the Abyss enters play or is turned tace up,
+71bad37ab4ab,Slave of the Abyss,Origin,"Character, Human",black,K,2,1,1,1,1,2,,,"As Slave of the Abyss enters play or is turned tace up,
 it immediately explodes, dealing 1 DMG to all Characters
 your opponent controls and to itselt in the same War Zone.
 Hideout - You may play this card face down in one
@@ -629,7 +626,7 @@ Character on this card.",,machine,https://bluthelden.com/cdn/shop/files/BK154_Sl
 886cfb7e623d,Storm of Violence,Origin,Martial Training,black,N,3,,,,,,,,"You may only train a Legendary, Fabulous, or Epic Character. The trained Character gains POW/HP +1/+0.
 Whenever it destroys another Character, put the top card
 of your Spell Deck into your Graveyard.",,machine,https://bluthelden.com/cdn/shop/files/BK155_Storm_of_Violence.png?v=1750754273&width=3200
-aad01215d642,Two-Headed Demon,Origin,"Character, Demon",black,K,,2,2,2,3,6,,,"If you control Mutant Demon Token, pay 2 ASP less to
+aad01215d642,Two-Headed Demon,Origin,"Character, Demon",black,K,5,2,2,2,3,6,,,"If you control Mutant Demon Token, pay 2 ASP less to
 summon Two-Headed Demon, then Rise Mutant Demon
 Token. (Place this card on Mutant Demon Token. Transfer
 all counters from Mutant Demon Token to it. Then destroy
@@ -690,7 +687,7 @@ to the Combat Lone, without turning and using an action.
 They gain Bloodrush 3. (They gain POW/HP +3/+3 until
 the end of this round. Banish them at the end of this round)
 ®: Gain 1 ASP.",,machine,https://bluthelden.com/cdn/shop/files/BK170_Xalgiris_Tower.png?v=1750754287&width=3200
-67529f84897b,Barbarian Mercenary Token,Origin,"Token Character, Human",black,T,,,,,3,3,,,"СВ122
+67529f84897b,Barbarian Mercenary Token,Origin,"Token Character, Human",black,T,,,2,2,3,3,,,"СВ122
 Barbarian Mercenary Token can't block.",,machine,https://bluthelden.com/cdn/shop/files/BK-TK-171_Barbarian-Mercenary-Token.png?v=1750754286&width=3200
 65c49f2f6a0d,Blood Trinket (Token),Origin,Token Artifact,black,T,,,,,,,,,"®, Sacrifice this Artifact: Gain O ASP.",,machine,https://bluthelden.com/cdn/shop/files/BK-TK-172_Blood_Trinket.png?v=1750754284&width=3200
 2f27c4c91fed,Mutant Demon Token,Origin,"Token Character, Demon",black,T,,,4,2,3,2,,,"If you control a LVL 2 Resource, 2, O: Rise (Search your
@@ -705,7 +702,7 @@ may create one Blood Trinket Token.
 Bloodmage
 •, Pay 1 LP: Gain O ASP.
 •, Pay 5 LP: Summon a Demon card from your hand.",'+2,machine,https://bluthelden.com/cdn/shop/files/BK175-Vorathis_Demonlord_General.png?v=1750754277&width=3200
-95cf3ee93471,Ascendant Darklord,Origin,"Character, Undead",black,F,,,,,,3,,,"Whenever this Character destroys another Character,
+95cf3ee93471,Ascendant Darklord,Origin,"Character, Undead",black,F,5,,3,5,5,3,,,"Whenever this Character destroys another Character,
 put a Level counter on it.
 Once it has 3 Level counters, you may Rise it for O
 (Search your Spell Deck for a card named Kalakai, Undead
@@ -720,7 +717,7 @@ Character. (Each poisoned Character takes 1 DMG at the
 beginning of each combat phase, starting next rouna.)
 Sacrifice this Training at the end of this round.
 ORI•EN 02 Bluthelden®",,machine,https://bluthelden.com/cdn/shop/files/dark_inf.png?v=1758621268&width=3200
-b1bf248ba944,"Kalakai, Undead Emissary",Origin,"Mythic Character, Undead Advisor",black,,,,,,,,,,"If you control Ascendant Darklord, pay 2 ASP less
+b1bf248ba944,"Kalakai, Undead Emissary",Origin,"Mythic Character, Undead Advisor",black,F,6,,,,6,,,,"If you control Ascendant Darklord, pay 2 ASP less
 to summon Kalakai, Undead Emissary, then Rise
 Ascendant Darklord. When this card is Risen or comes
 into play, you must place it in the Advisor Slot. If there
@@ -730,20 +727,20 @@ Target Character loses 2 HP and is Zombified until
 the end of next round. If the Character dies while being
 Zombified, it becomes a 1/2 Zombie Token under your
 ORI•EN 02 Bluthelden® Art: Amar Sekarwangi",,machine,https://bluthelden.com/cdn/shop/files/kalaki.png?v=1758621211&width=3200
-54b16b340768,Merciless Warrior,Origin,"Character, Undead",black,L,,,,,,,,,"Untargetable (It can't be targeted by spells or abilities
+54b16b340768,Merciless Warrior,Origin,"Character, Undead",black,L,5,2,4,3,5,4,,,"Untargetable (It can't be targeted by spells or abilities
 your opponent controls.)",,machine,https://bluthelden.com/cdn/shop/files/merciless_warrior.png?v=1759310052&width=3200
-33bb522fa82f,"Nekravar, Advisor of the Damned",Origin,"Mythic Character, Undead Advisor",black,F,,2,,,5,,,,"Advisor (You have to place this card in the Advisor slot. It is
+33bb522fa82f,"Nekravar, Advisor of the Damned",Origin,"Mythic Character, Undead Advisor",black,F,5,2,,,5,,,,"Advisor (You have to place this card in the Advisor slot. It is
 still a Character that can be the target of spells or abilities.)
 3, Q, Sacrifice another Character you control: Summon
 target Character from your graveyard without paying its
 ASP cost, It gains Bloodrush 2. (It has POW/HP +2/+2 until
 the end of this round. Banish it at the end of this round.)",,machine,https://bluthelden.com/cdn/shop/files/Nekravar.jpg?v=1788691615&width=3200
-540714eca9d2,Prison,Origin,Fundamental Training,black,,,,,,,,,,"Intiltrate - When Prison enters play, train target
+540714eca9d2,Prison,Origin,Fundamental Training,black,N,4,1,,,,,5,,"Intiltrate - When Prison enters play, train target
 Character an opponent controls in it's satety zone.
 That character loses all abilities (it has no rules text) and
 its base INI, RES, and PW become O. Its HP remains
 unchanged.",,machine,https://bluthelden.com/cdn/shop/files/prison.png?v=1758621244&width=3200
-56cd5aa44acb,Zombie Token,Origin,"Token Character, Undead",black,,,,,,,,,,"CONtOz
+56cd5aa44acb,Zombie Token,Origin,"Token Character, Undead",black,T,,,1,2,1,1,,,"CONtOz
 ""Still dead. Still dangerous.""
 T BKTK-03a ORI-EN ©2 Bluthelden® Art Amar Sekarwangı",,machine,https://bluthelden.com/cdn/shop/files/zombie_token.png?v=1759310147&width=3200
 bed8b1e3fa7a,"Kaela al Shamal, Shaman King",Origin,Orange Sovereign,orange,F,,,,,,,,30,", Pay 1LP : Gain 1 ASP,
@@ -756,14 +753,14 @@ Whenever a Spirit dies, put one Time counter on
 Amulet of Ghosts.
 3, Sacritice 4 Time counters: Create a Copy of target
 Spirit you control.",,machine,https://bluthelden.com/cdn/shop/files/OR177_Amulett_of_Ghosts.png?v=1749547260&width=3200
-4957f7df2018,Avatar of Control,Origin,"Character, Spirit",orange,F,5,2,,,5,5,,,"If you control two other Spirits in the same Lane, Avatar
+4957f7df2018,Avatar of Control,Origin,"Character, Spirit",orange,F,5,2,4,6,5,5,,,"If you control two other Spirits in the same Lane, Avatar
 of Control gains Spectral Ward. (Characters with Spectral
 Ward can only be targeted by Spells and can only be damaged
 by Spells and Magical Items. Magical Items include Artifacts,
 Rituals, and Trained Characters.)",,machine,https://bluthelden.com/cdn/shop/files/OR178_Avatar_of_Control.png?v=1749547260&width=3200
 e89de24584da,Bloodline Scion,Origin,Fundamental Training,orange,K,3,,,,,,,,"If Trained Character dies or is banished, create a copy of it
 and place it in this Slot.",,machine,https://bluthelden.com/cdn/shop/files/OR179_Bloodline_Scion.png?v=1749547262&width=3200
-f38ce3cc7866,Bowpiper,Origin,"Character, Converter",orange,N,,1,0,1,2,4,,,"•: Ranged Combat (It deals DMG equal to its Power
+f38ce3cc7866,Bowpiper,Origin,"Character, Converter",orange,N,3,1,0,1,2,4,,,"•: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as combat action and only if this card is in the
 Back Row.)
@@ -826,7 +823,7 @@ same War Zone:
 On a 1,3 or 5: That Character destroys Mask of Illusion.
 On a 2, 4 or 6: That Character attacks the trained
 Character (without damaging it) and becomes turned.",,machine,https://bluthelden.com/cdn/shop/files/OR195_Mask_of_Illusions.png?v=1750754527&width=3200
-ae58645f146a,Medium,Origin,"Character, Human",orange,K,2,1,,3,4,3,,,"•: Create one Shadow Token.
+ae58645f146a,Medium,Origin,"Character, Human",orange,K,2,1,0,3,4,3,,,"•: Create one Shadow Token.
 , 3, Sacrifice three Shadow Tokens: Deal 2 DMG to
 target Sovereign.",,machine,https://bluthelden.com/cdn/shop/files/OR196_Medium_f8429328-bd2a-4236-96e1-1201264ccbed.png?v=1750754527&width=3200
 1624b327873a,Minor Illusion,Origin,Spell,orange,N,2,,,,,,4,,"Gain control of target Bound Character until the end of
@@ -838,7 +835,7 @@ next round.",,machine,https://bluthelden.com/cdn/shop/files/OR197_Minor_Illusion
 the target of a spell or activated ability an opponent
 controls with a single target. (You may not change to an
 illegal target.)",,machine,https://bluthelden.com/cdn/shop/files/OR198_Mirror_of_The_PAst.png?v=1750754529&width=3200
-bd0b062c5404,"Mistheart, the Ghost Shaman",Origin,"Epic Character, Spirit",orange,N,,2,4,2,5,3,,,"If you control Tribal Shaman pay 2 ASP less to summon
+bd0b062c5404,"Mistheart, the Ghost Shaman",Origin,"Epic Character, Spirit",orange,N,5,2,1,2,5,3,,,"If you control Tribal Shaman pay 2 ASP less to summon
 Mistheart, the Ghost Shaman, then Rise Tribal Shaman.
 (Place this card on Tribal Shaman. Transfer all countersfrom
 Tribal Shaman to it. Then destroy Tribal Shaman.)
@@ -846,7 +843,7 @@ Tribal Shaman to it. Then destroy Tribal Shaman.)
 Training Token called Mistheart's Punishment withThis
 Character doesn't unturn anymoret and attach it to target
 Character in the same Lane.",,machine,https://bluthelden.com/cdn/shop/files/OR199_Mistheart_The_Ghost_Shaman_e4f4ac6d-8635-441c-97b0-85d2f5521585.png?v=1750839436&width=3200
-eb8c29c13b61,Moth Conjurer,Origin,"Character, Moth",orange,K,3,1,,2,3,3,,,2: Create one 1/1 Spectral Moth Token with Flying.,,machine,https://bluthelden.com/cdn/shop/files/OR200_Moth_COnjurer.png?v=1750754531&width=3200
+eb8c29c13b61,Moth Conjurer,Origin,"Character, Moth",orange,K,3,1,1,2,3,3,,,2: Create one 1/1 Spectral Moth Token with Flying.,,machine,https://bluthelden.com/cdn/shop/files/OR200_Moth_COnjurer.png?v=1750754531&width=3200
 fdbb1ca4f1a6,Mother of the Spectral Moth Swarm,Origin,"Character, Moth",orange,N,3,2,2,2,2,3,,,"Surge (You may play this card at any time.)
 When Mother of the Spectral Moth Swarm enters play,
 target spell, or activated ability loses its rule text.",,machine,https://bluthelden.com/cdn/shop/files/OR201_mother_of_the_Spectral_moth_swarm.png?v=1750754532&width=3200
@@ -855,7 +852,7 @@ At the beginning of the next round, return it to an
 unoccupied Slot under its owner's control. Put 1 RES +1
 counter and 1 POW/HP +1/+1 counter on it.",,machine,https://bluthelden.com/cdn/shop/files/OR202_Offspring.png?v=1750754533&width=3200
 da098d4a667d,Oblation,Origin,Spell,orange,N,4,,,,,,,,Your opponent sacrifices a Character of their choice.,,machine,https://bluthelden.com/cdn/shop/files/OR203_Oblation.png?v=1750754535&width=3200
-968e9c9b9340,Palisades Wall,Origin,"Character, Barrier",orange,K,2,1,,,5,4,,,"Barrier (Deploy this card in your War Zone if you control no
+968e9c9b9340,Palisades Wall,Origin,"Character, Barrier",orange,K,2,1,0,6,5,1,,,"Barrier (Deploy this card in your War Zone if you control no
 other Barrier there. It doesn't occupy a War Slot. Barriers
 can only block as long asyou control no other Characters in
 this War Zone.)
@@ -864,16 +861,16 @@ DMG, create one Shadow Token in the same Lane.",,machine,https://bluthelden.com/
 3a77d05e439e,Pipe of Peace,Origin,Fundamental Training,orange,N,3,,,,,,3,,Trained Character can't attack anymore.,,machine,https://bluthelden.com/cdn/shop/files/OR205_pipe_of_Peace.png?v=1750754535&width=3200
 86e5f7493528,Purple Smoke,Origin,Spell,orange,K,3,,,,,,,,"Put 1 Madness counter on up to two target Characters.
 (At the end of each round, a Character with Madness takes",,machine,https://bluthelden.com/cdn/shop/files/OR206_Purple_Smoke.png?v=1750754537&width=3200
-b16f2cef8494,Ring of Ghosts,Origin,Mythic Artifact,orange,F,,,,,,,,,"®: Gain 1 ASP.
+b16f2cef8494,Ring of Ghosts,Origin,Mythic Artifact,orange,F,2,,,,,,,,"®: Gain 1 ASP.
 Once per Lane each round, when a Shadow Token
 enters play, you may choose a Character an opponent
 controls in that Lane. That Character gains Fear. (Roll a
 D6 . If the result is equal to or higher than that Character's
 RES, turn it. It remains turned until the end of the next
 Art: María Trigueros",,machine,https://bluthelden.com/cdn/shop/files/ring_of_ghosts.png?v=1759499369&width=3200
-121e923571ce,Shadow Caster,Origin,"Character, Human",orange,K,3,1,,2,4,3,,,"2, Q: Create one Shadow Token to target Slot.",,machine,https://bluthelden.com/cdn/shop/files/OR208_Shadow_Caster.png?v=1750754539&width=3200
-08d6aab91314,Small Ghost,Origin,"Character, Spirit",orange,N,2,1,,,,,,,,,machine,https://bluthelden.com/cdn/shop/files/OR209_Small_Ghost.png?v=1750754539&width=3200
-eedf4fa414f4,Snake Charmer,Origin,"Character, Human",orange,K,,1,2,4,3,3,,,"When Snake Charmer blocks or is blocked by another
+121e923571ce,Shadow Caster,Origin,"Character, Human",orange,K,3,1,1,2,4,3,,,"2, Q: Create one Shadow Token to target Slot.",,machine,https://bluthelden.com/cdn/shop/files/OR208_Shadow_Caster.png?v=1750754539&width=3200
+08d6aab91314,Small Ghost,Origin,"Character, Spirit",orange,N,2,1,1,2,3,3,,,,,machine,https://bluthelden.com/cdn/shop/files/OR209_Small_Ghost.png?v=1750754539&width=3200
+eedf4fa414f4,Snake Charmer,Origin,"Character, Human",orange,K,2,1,2,4,3,3,,,"When Snake Charmer blocks or is blocked by another
 Character, roll a D6:
 On a 1,3 or 5: Put1 Poison counter on Snake Charmer.
 (A poisoned Character takes 1 DMG at the beginning of each
@@ -882,11 +879,11 @@ On a 2, 4 or 6: The other Character retreats before taking
 DMG. If it cannot be moved (if there is no empty slot), it
 takes the combat DMG. Then turn it. It doesn't unturn
 at the beginning of the next round.",,machine,https://bluthelden.com/cdn/shop/files/OR210_Snake_Charmer.png?v=1750754541&width=3200
-a418fa031fd5,Snake Trap,Origin,"Character, Barrier",orange,K,3,1,1,6,4,,,,"Barrier (Deploy this card in your War Zone if you control no
+a418fa031fd5,Snake Trap,Origin,"Character, Barrier",orange,K,3,1,1,6,4,1,,,"Barrier (Deploy this card in your War Zone if you control no
 other Barrier there. It does not occupy a War Slot. Barriers
 can only block as long as you control no other Characters in
 this War Zone.)",,machine,https://bluthelden.com/cdn/shop/files/OR211_Snake_Trap.png?v=1750754542&width=3200
-d653b0a90cce,Soul of Confusion,Origin,"Character, Human",orange,N,3,1,3,6,3,,,,"Madness (At the end of each round, a Character with
+d653b0a90cce,Soul of Confusion,Origin,"Character, Human",orange,N,3,1,3,6,3,4,,,"Madness (At the end of each round, a Character with
 Madness takes 1 DMG.)
 : Sacrifice three Moth Tokens: Deal 1 DMG to target
 Character.",,machine,https://bluthelden.com/cdn/shop/files/OR212_Soul_of_confusion.png?v=1750754543&width=3200
@@ -895,7 +892,7 @@ fe5594f8b521,Spectral Bolt,Origin,Spell,orange,K,3,,,,,,,,Create three 1/1 Spect
 be targeted by Spells and can only be damaged by Spells and
 Magical Items. Magical Items include Artifacts, Rituals,
 and Trained Characters.)",,machine,https://bluthelden.com/cdn/shop/files/OR214_Spirit_Wolf.png?v=1750754544&width=3200
-9843dc84cfaf,The Invisible Ones,Origin,"Character, Spirit",orange,N,4,2,3,3,,3,,,"Spectral Ward (Characters with Spectral Ward can only
+9843dc84cfaf,The Invisible Ones,Origin,"Character, Spirit",orange,N,4,2,3,3,4,3,,,"Spectral Ward (Characters with Spectral Ward can only
 be targeted by Spells and can only be damaged by Spells and
 Magical Items. Magical Items include Artifacts, Rituals,
 and Trained Characters.)",,machine,https://bluthelden.com/cdn/shop/files/OR215_The_Invisible_ones.png?v=1750754547&width=3200
@@ -941,7 +938,7 @@ the beginning of the next round.",,machine,https://bluthelden.com/cdn/shop/files
 2, [Turn]: Create one Smith Ghost Token and bind it to target
 Resource. It is a 0/4 Token Character, Spirit with Madness
 andi [Turn]: Gain O ASP, as long as this Character remains",,machine,https://bluthelden.com/cdn/shop/files/OR226_Sacred_Site.png?v=1750754557&width=3200
-736c16e79e51,Shadow Summoner,Origin,"Character, Spirit",orange,N,2,2,4,3,4,,,,"®: Gain 1 ASP, as long as this Character remains Bound.
+736c16e79e51,Shadow Summoner,Origin,"Character, Spirit",orange,N,2,2,1,3,4,3,,,"®: Gain 1 ASP, as long as this Character remains Bound.
 [Turn]: Create one Shadow Token.",,machine,https://bluthelden.com/cdn/shop/files/OR227_Shadow_Summoner.png?v=1750754558&width=3200
 b234e2c72130,Shaman Tent,Origin,Resource,orange,N,,2,,,,,,,"®: Gain 1 ASP. Instead gain 2 ASP if you control 4
 Shadow Tokens in the same Lane.",,machine,https://bluthelden.com/cdn/shop/files/OR228_Shaman_Tent.png?v=1750754559&width=3200
@@ -956,7 +953,7 @@ War Zone, all Characters in that zone gain Madness.
 Madness dies, create one 1/2 Ghost Token under your
 control in the same Lane. When any Character with
 Madness dies, sacrifice all Shadow Tokensin that zone.)",,machine,https://bluthelden.com/cdn/shop/files/OR-TK231_shadow_token.png?v=1750754563&width=3200
-1ee7165dceb1,Smith Ghost,Origin,"Token Character, Spirit",orange,T,,,,4,1,2,,,"Madness (At the end ofeach round, a Character with
+1ee7165dceb1,Smith Ghost,Origin,"Token Character, Spirit",orange,T,,,0,4,1,2,,,"Madness (At the end ofeach round, a Character with
 Madness takes 1 DMG.)
 ®: Gain O ASP, as long as this Character remains",,machine,https://bluthelden.com/cdn/shop/files/OR-TK232_Smiths_Ghost_Token.png?v=1750754564&width=3200
 bdc5676aa323,Spectral Moth (Token),Origin,"Token Character, Moth",orange,T,,,4,1,1,2,,,,,machine,https://bluthelden.com/cdn/shop/files/OR-TK233_Spectral_Moth_Token.png?v=1750754565&width=3200
@@ -966,20 +963,20 @@ card, create one 1/1 Spectral Moth Token with Flying.
 •, Pay 2 LP, Sacrifice three Spectral Moth Tokens:
 Change the target of a spell or ability your opponent
 controls.",,machine,https://bluthelden.com/cdn/shop/files/OR-234_Noctara_Queen_of_Moths.png?v=1750754560&width=3200
-6994c8c0cb66,"Ghostking, Arvelian Seehoff of Falkenheim",Origin,"Epic Character, Spirit",orange,L,,2,,,,,,,"As an additional cost, you must summon Ghostking,
+6994c8c0cb66,"Ghostking, Arvelian Seehoff of Falkenheim",Origin,"Epic Character, Spirit",orange,L,5,2,3,4,6,4,,,"As an additional cost, you must summon Ghostking,
 Arvelian Seehoff of Falkenheim to target War Zone.
 When Ghostking, Arvelian Seehoff of Falkenheim enters
 play, each Character in the same War Lone gains Fear.
 ( For each of your opponent's Characters, roll a D6. If the
 result is equal to or higher than that Character's RES, turn
 it. It remains turned until the end of the next round.)",,machine,https://bluthelden.com/cdn/shop/files/ghostking.png?v=1758621762&width=3200
-0be3ffa6aafe,Spirit of Mastery,Origin,Fundamental Training,orange,L,,,,,,,,,"Banish target Character an opponent controls.
+0be3ffa6aafe,Spirit of Mastery,Origin,Fundamental Training,orange,L,5,,,,,,4,,"Banish target Character an opponent controls.
 Then this Training becomes a copy of that Character,
 summoned to target War Zone you control. It's a Spirit in
 addition to it's other types.
 If Spirit of Mastery dies, the banished Character enters
 play in a War Zone of it's owner's choice.",,machine,https://bluthelden.com/cdn/shop/files/spirit_of_mastery_b1e21ae8-0705-4251-ac2b-4b53005ef8ad.png?v=1758621733&width=3200
-3deaf0c12e9a,"Thalvoryn, Spirit of the Dragon",Origin,"Epic Character, Spirit",orange,L,,,3,,,,,,,,machine,https://bluthelden.com/cdn/shop/files/Thalvoryn.png?v=1758621703&width=3200
+3deaf0c12e9a,"Thalvoryn, Spirit of the Dragon",Origin,"Epic Character, Spirit",orange,L,5,2,4,3,4,4,,,,,machine,https://bluthelden.com/cdn/shop/files/Thalvoryn.png?v=1758621703&width=3200
 fdf26f59f959,Blooming Fruit,Origin,Resource,orange,F,,,,,,,,,"Every Character in the War Zone in this Lane gains RES-1.
 ®: Gain 1 ASP.
 •: Gain 2 ASP. Activate only if you control three
@@ -1010,7 +1007,7 @@ phase, it takes the same amount in return.",,machine,https://bluthelden.com/cdn/
 669898a25bc7,Priest,Origin,Equilibra Character,grey,K,1,1,4,2,4,2,,,"[Turn]: Gain 1 ASP, as long as this Character remains Bound.",,machine,https://bluthelden.com/cdn/shop/files/243_PRIEST_Amar_Sekarwangi_20250409.png?v=1750755361&width=3200
 5260b7850ae3,Rise,Origin,Equilibra Spell,grey,K,1,,,,,,,,"Rise target Character you control with Rise
 immediately without turning.",,machine,https://bluthelden.com/cdn/shop/files/244_RISE_Anna_Lesnikova_20250409.png?v=1750755361&width=3200
-6d4393f0ffb5,Rune of the Wise,Origin,"Equilibra Resource, Rune",grey,,,,,,,,,,"Rune (You have to place this card in the Rune Slot at the
+6d4393f0ffb5,Rune of the Wise,Origin,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune (You have to place this card in the Rune Slot at the
 beginning of the game.)
 For all Characters you control Rise costs 1 less
 permanentely.
@@ -1052,7 +1049,7 @@ Training, Artifacts) may be activated at any time.
 Important: If a character is turned, it loses its RES and INI
 until it is unturned.",,machine,https://bluthelden.com/cdn/shop/files/TK250B_RULE_CARD_BACK_Rodolfo_Costa_20250409.png?v=1750755362&width=3200
 41fc1db142a6,"Thalor, Falcon of Accuracy",Origin,"Character, Bird",white,L,4,2,2,3,3,4,,,Targeted Strike (You may attack target Character directly.),,machine,https://bluthelden.com/cdn/shop/files/Thalor_Falcon_of_Accuracy_1von1_Foil_20250515.png?v=1749545347&width=3200
-ee37ad941634,"Zyphor, Teller of Lost Tales",Origin,"Epic Character, Human",,,,2,2,4,3,3,,,"When Zyphor, Teller of Lost Tales enters play, look at the
+ee37ad941634,"Zyphor, Teller of Lost Tales",Origin,"Epic Character, Human",white,F,4,2,2,4,3,3,,,"When Zyphor, Teller of Lost Tales enters play, look at the
 top 3 cards of your Spell deck, draw one card and put the
 rest back on top in any order.",,machine,https://bluthelden.com/cdn/shop/files/Zyphor_Teller_of_Talesl_1von1_Foil_20250515.png?v=1749545346&width=3200
 f89474bf8e21,Poison Cellar,Origin,Resource,black,L,,2,,,,,,,"Poison Cellar enters play with 3 Cellar counters
@@ -1069,12 +1066,12 @@ Deals DMG → Regenerate HP
 Gain stats → Lose stats
 Lose Life → Gain Life
 Sacrifice Zayas Ritual then.",,machine,https://bluthelden.com/cdn/shop/files/Zayas_ritual_1von1_Foil_20250515.png?v=1749545345&width=3200
-6c5c8b637b13,Warrior of the Shieldwall,Origin,"Character, Human",white,,,2,2,6,2,4,,,"•: Protective Shield (Choose a Character in the same
+6c5c8b637b13,Warrior of the Shieldwall,Origin,"Character, Human",white,L,4,2,2,6,2,4,,,"•: Protective Shield (Choose a Character in the same
 War Zone. Absorb the DMG from an attack on that
 Character.)
 Surge (You may use this ability anytime, without
 comparing the INI.)",,machine,https://bluthelden.com/cdn/shop/files/warrior_of_the_shieldwall_1von1_Foil_20250515.png?v=1749545344&width=3200
-e0d1b5ae81c1,Staff of Enchantment,Origin,Martial Training,,L,3,,,,,,,,"Trained Character gains POW/HP +1/+1 for each Training
+e0d1b5ae81c1,Staff of Enchantments,Origin,Martial Training,green,L,3,,,,,,,,"Trained Character gains POW/HP +1/+1 for each Training
 you control in the same Lane. It has ""Whenever this
 Character attacks, look at the top five Cards of your Spell
 Deck. You may reveal a Training Card from among them
@@ -1135,7 +1132,7 @@ bd7753a9c13f,Loo Taku the Present,Alliances,Fundamental Training,grey,N,2,,,,,,,
 Reduce the extra costs for summoning Characters and
 Trainings in this Lane by 1.",,machine,https://bluthelden.com/cdn/shop/files/EQ_PR-006_Loo_Taku_the_present.png?v=1788509894&width=3200
 e12aa2fa4cbf,Orc Baby,Alliances,"Character, Orc",red,K,2,1,2,2,2,2,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_PR-007_Orc_Baby.png?v=1788509893&width=3200
-56bb2bb395a9,Rockaxe Loyalist,Alliances,"Character, Dwarf",brown,,3,2,2,2,3,2,,,"Whenever you sacrifice a Lerium, Rockaxe Loyalist
+56bb2bb395a9,Rockaxe Loyalist,Alliances,"Character, Dwarf",brown,K,3,2,2,2,3,2,,,"Whenever you sacrifice a Lerium, Rockaxe Loyalist
 gains POW/HP +1/+0 until the end of round.",,machine,https://bluthelden.com/cdn/shop/files/BR_PR-008_Rockaxe_Loyalist.png?v=1788509894&width=3200
 bbe2d4d418d9,Stellar Magic,Alliances,Spell,purple,N,3,,,,,,5,,"Return an Artifact, Character, Ritual or Training to its
 owner's hand.",,machine,https://bluthelden.com/cdn/shop/files/PU_PR-017_Stellar_Magic.png?v=1788790465&width=3200
@@ -1149,7 +1146,7 @@ summon this Character.",,machine,https://bluthelden.com/cdn/shop/files/BL_PR-019
 • Your Sovereign loses 1 LP. Draw 1 card.
 • Your Sovereign regenerates 1 LP. Banish 1 card from
 your hand.",,machine,https://bluthelden.com/cdn/shop/files/EQ_PR-020_Nik_Teller_of_tales.png?v=1788790707&width=3200
-c118c281a4af,Gokuen Shijin,Alliances,"Character, Oni",grey,L,,2,3,4,4,4,,,"Combat Veteran - Whenever this Character survives
+c118c281a4af,Gokuen Shijin,Alliances,"Character, Oni",grey,L,4,2,3,4,4,4,,,"Combat Veteran - Whenever this Character survives
 the Combat Phase, choose one:
 • It gains 1 ASP.
 • Put 1 RES +1 counter and 1 POW/HP +1/+1 counter
@@ -1163,7 +1160,7 @@ Character's POW.",,machine,https://bluthelden.com/cdn/shop/files/RD_PR-022_Baere
 target Character in the same Lane (A Drenched Character gains 1 INI -1 counter at the end ofeach round.).",,machine,https://bluthelden.com/cdn/shop/files/BL_PR-023_Fizrak_Lizard.png?v=1788790658&width=3200
 4cf81255b90a,Sigun Stone Dragon,Alliances,"Epic Character, Stone",brown,L,4,2,4,4,4,3,,,"Sacrifice 2 Lerium Tokens: This Character gains
 POW/HP +1/+1 until the end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BR_PR-024_Stone_Dragon.png?v=1788790658&width=3200
-eccd4e0b8924,"Kimrethil, Space and Time Traveller",Alliances,"Mythic Character, Human Advisor",blue,,5,2,,,5,,,,"Advisor (You have to place this card in the Advisor Slot.
+eccd4e0b8924,"Kimrethil, Space and Time Traveller",Alliances,"Mythic Character, Human Advisor",blue,L,5,2,,,5,,,,"Advisor (You have to place this card in the Advisor Slot.
 It is still a Character that can be the target of spells or
 abilities.)
 3, D: Return a permanent you control with ASP costs to
@@ -1209,7 +1206,7 @@ target of a Spell or Ability your opponent controls, if it is
 unturned, reduce the Spellpower of that Spell or Ability by 1.
 IJ it has no Spellpower value, it gains Spelpower equal to 5
 minus this Character's RES instead.)",,machine,https://bluthelden.com/cdn/shop/files/BL_004_Astral_Lizard.png?v=1785846790&width=3200
-a785e82afca6,Avatar of Water,Alliances,"Epic Character, Avatar",blue,F,,2,5,5,4,5,,,"When Avatar of Water enters play, every Drenched
+a785e82afca6,Avatar of Water,Alliances,"Epic Character, Avatar",blue,F,6,2,5,5,4,5,,,"When Avatar of Water enters play, every Drenched
 Character gains 1 additional INI-1 counter.
 Drowning Touch (Characters damaged by this Character
 get a Drenched counter. A drenched Character gains 1 INI-1
@@ -1219,7 +1216,7 @@ as they remain unturned. Characters you control gain
 POW/HP +1/+1 as long as they remain turned.",,machine,https://bluthelden.com/cdn/shop/files/BL_006_Banner_of_Tribes.png?v=1785846789&width=3200
 7bae4f9627dc,Brilliance,Alliances,Fundamental Training,blue,K,3,,,,,,,,"Trained Characters' activated Abilities cost 1 ASP less
 to activate. This can't lower the costs to less than 1",,machine,https://bluthelden.com/cdn/shop/files/BL_007_Brilliance.png?v=1785846788&width=3200
-567654ef1c3d,Captain Draken,Alliances,"Epic Character, Human",blue,L,,2,4,5,4,4,,,"When Captain Draken enters play, create a Mythic
+567654ef1c3d,Captain Draken,Alliances,"Epic Character, Human",blue,L,5,2,4,5,4,4,,,"When Captain Draken enters play, create a Mythic
 Artifact Token named The Seagull with '2, ®: Return
 a Character you control named Captain Draken to your
 hand."" and ""3 •: Put a Character card named Captain
@@ -1233,7 +1230,7 @@ be16faa0ab54,Ebb Guardian,Alliances,"Character, Lizard",blue,K,2,1,2,3,3,3,,,"�
 Zone would take DMG, this Character takes that DMG
 instead.)",,machine,https://bluthelden.com/cdn/shop/files/BL_011_Ebb_Guardian.png?v=1785846791&width=3200
 0c10dee7007c,Elixir of Life,Alliances,Spell,blue,N,2,,,,,,,,Unturn target Character you control.,,machine,https://bluthelden.com/cdn/shop/files/BL_012_Elixir_of_Life.png?v=1785846791&width=3200
-405f2379e206,Field Nullifier,Alliances,"Character, Wizard, Human",blue,L,,2,4,,,2,,,"*********
+405f2379e206,Field Nullifier,Alliances,"Character, Wizard, Human",blue,L,4,2,1,4,4,2,4,,"*********
 Magic Control (Whenever this Character becomes the
 target of a Spell or Ability your opponent controls, if it is
 unturned, reduce the Spellpower of that Spell or Ability by 1.
@@ -1245,7 +1242,7 @@ owner's hand.",,machine,https://bluthelden.com/cdn/shop/files/BL_013_Field_Nulli
 target Character in the same Lane (A Drenched Character gains 1 INI -1 counter at the end of each round.).",,machine,https://bluthelden.com/cdn/shop/files/BL_014_Fizrak_Lizard.png?v=1785846791&width=3200
 f42c0ce5bf47,Foresight,Alliances,Spell,blue,N,3,,,,,,,,"Look at the top 4 Cards of your Spell Deck. Draw one of
 them, then put the rest back on top in any order.",,machine,https://bluthelden.com/cdn/shop/files/BL_015_Foresight.png?v=1785846791&width=3200
-25acf35791e0,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,,1,4,,3,3,,,"Drowning Touch (Characters damaged by this Character
+25acf35791e0,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,2,1,1,2,3,3,,,"Drowning Touch (Characters damaged by this Character
 get a Drenched counter. They gain 1 INI-1 counter at the
 end of each round.)
 •: Ranged Combat (It deals DMG equal to its Power
@@ -1256,20 +1253,20 @@ d470e7645c97,Healing Water,Alliances,Spell,blue,K,2,,,,,,,,Regenerate up to 3 HP
 5e8522c7fe93,High Curator of Tirash’Ka,Alliances,"Character, Lizard",blue,F,5,2,3,5,6,3,,,", ®: Unturn your Sovereign. This ability costs an
 additional amount of ASP equal to the extra costs to
 summon this Character.",,machine,https://bluthelden.com/cdn/shop/files/BL_018_High_Curator_of_Trishka.png?v=1785846790&width=3200
-5ecbf1e448cf,High Wizard of Glimmertal,Alliances,"Epic Character, Wizard, Human",blue,L,,2,3,6,5,3,,,"If you control a Wizard of Glimmertal you may pay 2
+5ecbf1e448cf,High Wizard of Glimmertal,Alliances,"Epic Character, Wizard, Human",blue,L,5,2,3,6,5,3,,,"If you control a Wizard of Glimmertal you may pay 2
 less to summon High Wizard of Glimmertal.
 If you do, Rise Wizard of Glimmertal.
 Magic Control
 : Neutralize target Spell on the Reaction Chain.
 Put it from the Reaction Chain into its owner's Gravevard.)",,machine,https://bluthelden.com/cdn/shop/files/BL_019_High_WIzard_of_Glimmertal.png?v=1785846791&width=3200
-db3db58a3612,Hydra,Alliances,"Character, Hydra",blue,,5,2,5,4,3,3,,,"Hydra enters play with 1 Head counter.
+db3db58a3612,Hydra,Alliances,"Character, Hydra",blue,N,5,2,5,4,3,3,,,"Hydra enters play with 1 Head counter.
 3, remove a Head counter: Hydra regenerates 3 HP.",,machine,https://bluthelden.com/cdn/shop/files/BL_020_Hydra.png?v=1785846791&width=3200
 a97f394bcbd4,Hydromancer,Alliances,"Character, Wizard, Human",blue,K,3,1,2,3,3,3,,,"жках яко*езткеаУвУDис
 When Hydromancer enters play, put one Drenched
 counter on target Character in the same Lane.
 (A drenched Character gains 1 INI-1 counter at the end of
 each round.)",,machine,https://bluthelden.com/cdn/shop/files/BL_021_Hydromancer.png?v=1785846791&width=3200
-844548a951dd,"Lezikar, Arcane Seer",Alliances,"Epic Character, Wizard, Human",blue,L,,2,3,3,4,3,,,": Choose one -
+844548a951dd,"Lezikar, Arcane Seer",Alliances,"Epic Character, Wizard, Human",blue,L,3,2,3,3,4,3,,,": Choose one -
 • Look at the top Card of your Spell and Pool Deck
 • Look at the top Card of your opponent's Spell and
 Pool Deck.",,machine,https://bluthelden.com/cdn/shop/files/BL_022_Lezikar_Arcane_Seeker.png?v=1785846791&width=3200
@@ -1309,7 +1306,7 @@ INI -1 counter on it.",,machine,https://bluthelden.com/cdn/shop/files/BL_032_Rin
 unturn target Character or Artifact.",,machine,https://bluthelden.com/cdn/shop/files/BL_033_Sage_of_the_waves.png?v=1785846790&width=3200
 47e6ffe89105,Sea Pearl,Alliances,Artifact,blue,K,3,,,,,,,,"When Sea Pearl enters play, gain O ASP.
 O, Sacrifice this Artifact: Gain 2 ASP.",,machine,https://bluthelden.com/cdn/shop/files/BL_034_Sea_Pearl.png?v=1785846791&width=3200
-cdcc720f3b9a,Seafolk of Glimmertal,Alliances,"Character, Human",blue,K,4,1,,,3,3,,,"""Glimmertal ahoi!""",,machine,https://bluthelden.com/cdn/shop/files/BL_035_Seafolk_of_glimmertal.png?v=1785846791&width=3200
+cdcc720f3b9a,Seafolk of Glimmertal,Alliances,"Character, Human",blue,K,4,1,3,4,3,3,,,"""Glimmertal ahoi!""",,machine,https://bluthelden.com/cdn/shop/files/BL_035_Seafolk_of_glimmertal.png?v=1785846791&width=3200
 3552a1c39cbf,Secrets of Glimmertal,Alliances,Fundamental Training,blue,L,4,,,,,,,,"Trained Character gainsi2, O: Look at the top 3 Cards
 ofyour Spell Deck, draw one of them, then put the rest on
 top in any orderii",,machine,https://bluthelden.com/cdn/shop/files/BL_036_Secrets_of_Glimmertal.png?v=1785846791&width=3200
@@ -1318,7 +1315,7 @@ opponent's hand.",,machine,https://bluthelden.com/cdn/shop/files/BL_037_The_Seer
 797b58059dd7,Teleportation,Alliances,Spell,blue,L,2,,,,,,4,,"Banish target Character, then return it into target Slot
 in a War Zone.",,machine,https://bluthelden.com/cdn/shop/files/BL_038_Teleportation.png?v=1785846790&width=3200
 1cc6fe2103e1,Tide Guardian,Alliances,"Character, Serpent",blue,K,2,1,2,3,3,3,,,Targeted Strike,,machine,https://bluthelden.com/cdn/shop/files/BL_039_Tide_Guardian.png?v=1785846790&width=3200
-2e030f958a21,Wall of Water,Alliances,"Character, Elemental",blue,N,,1,4,6,2,1,,,"Drowning Touch (Characters damaged by this Character
+2e030f958a21,Wall of Water,Alliances,"Character, Elemental",blue,N,3,1,1,6,2,1,,,"Drowning Touch (Characters damaged by this Character
 get a Drenched counter. They gain 1 INI-1 counter at the
 end of each round.)",,machine,https://bluthelden.com/cdn/shop/files/BL_040_Wall_of_water.png?v=1785846790&width=3200
 e8785e7e122c,Water Jet,Alliances,Spell,blue,K,1,,,,,,3,,"Move target Character without turning it or spending
@@ -1327,14 +1324,14 @@ its action. If it can't be moved, turn it instead.",,machine,https://bluthelden.
 Artifact you control. It becomes a Character with
 Drowning Touch and RES 2, INI 2 and POW/HP 3/4.
 Place it into target War Zone.",,machine,https://bluthelden.com/cdn/shop/files/BL_042_Water_Play.png?v=1785846791&width=3200
-af8266b0af83,Waterpriestress,Alliances,"Character, Lizard",blue,N,,2,4,,3,2,,,"If you control Novice of the Water you may pay 2 less
+af8266b0af83,Waterpriestress,Alliances,"Character, Lizard",blue,N,4,2,1,4,3,2,,,"If you control Novice of the Water you may pay 2 less
 to summon Waterpriestress.
 If you do, Rise Novice of the Water.
 O: Gain O ASP as long as this Character remains
 3: Target Character in the same Lane gains
 Unblockable until the end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BL_043_Waterpriestress.png?v=1785846791&width=3200
 b51ddf894bb1,Wave,Alliances,Spell,blue,L,5,,,,,,5,,Deal 2 DMG to all non-Lizard Characters in target Lane.,,machine,https://bluthelden.com/cdn/shop/files/BL_044_Wave.png?v=1785846790&width=3200
-a6062ab2b5af,Wizard of Glimmertal,Alliances,"Character, Lizard",blue,N,3,1,3,3,,3,,,"Magic Control
+a6062ab2b5af,Wizard of Glimmertal,Alliances,"Character, Lizard",blue,N,3,1,3,3,3,3,,,"Magic Control
 If you control a LVL 2 Resource, 2, Q: Rise into High
 Wizard of Glimmertal.",,machine,https://bluthelden.com/cdn/shop/files/BL_045_Wizard_of_glimmertal.png?v=1785846791&width=3200
 b554688173c7,Wizard of Lizards,Alliances,"Character, Lizard Wizard",blue,K,2,1,2,2,3,3,,,"Magic Control
@@ -1357,7 +1354,7 @@ discard a card.
 d1707f4181a2,Coral Reef,Alliances,Resource,blue,N,,2,,,,,,,®: Gain 1 ASP for each Coral Reef you control.,,machine,https://bluthelden.com/cdn/shop/files/BL_051_Coral_reef.png?v=1785846791&width=3200
 79c9e55fe232,High Tower of Glimmertal,Alliances,Mythic Resource,blue,L,,2,,,,,,,"): Gain O ASP, gain 2 ASP if you control an Artifact
 2, Discard a Card: Turn target Character in the same",,machine,https://bluthelden.com/cdn/shop/files/BL_052_high_tower_of_glimmertal.png?v=1785846790&width=3200
-7086568b4266,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,,,2,2,,,"If you control a LVL 2 Resource, 1, [Turn]: Rise into
+7086568b4266,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,1,2,2,2,,,"If you control a LVL 2 Resource, 1, [Turn]: Rise into
 Waterpriestress
 [Turn]: Gain 1 ASP, as long as this Character remains",,machine,https://bluthelden.com/cdn/shop/files/BL_053_Novice_of_the_water.png?v=1785846790&width=3200
 eaf698f745f0,Seer of Ebb and Flow,Alliances,"Character, Lizard",blue,N,3,2,2,3,2,2,,,"Gain 1 ASP, as long as this Character remains
@@ -1367,11 +1364,11 @@ Flow is Bound.",,machine,https://bluthelden.com/cdn/shop/files/BL_054_Seer_of_eb
 When Subsea Flow enters play, turn or unturn target
 Character in the same Lane.
 ®: Gain O ASP.",,machine,https://bluthelden.com/cdn/shop/files/BL_055_Subsea_FLow.png?v=1785846790&width=3200
-04d46a1e9b5c,Temple of Water,Alliances,Resource,blue,,,2,,,,,,,"®: Gain 1 ASP, gain 2 ASP instead if a Character is
+04d46a1e9b5c,Temple of Water,Alliances,Resource,blue,L,,2,,,,,,,"®: Gain 1 ASP, gain 2 ASP instead if a Character is
 bound to this Resource.
 1,9: Return target Character that is bound to this
 Resource to its owner's hand.",,machine,https://bluthelden.com/cdn/shop/files/BL_056_Temple_of_water.png?v=1785846791&width=3200
-63ae223dbe40,Shield of Water,Alliances,"Token, Fundamental Training",blue,,,,,,,,,,"YRЖYRKSSDGTNSEnЖЖEAYRAFИ
+63ae223dbe40,Shield of Water,Alliances,"Token, Fundamental Training",blue,T,,,,,,,,,"YRЖYRKSSDGTNSEnЖЖEAYRAFИ
 The next time trained Character would take DMG,
 prevent that DMU, then sacritice all Shield of Water
 Trainings attached to it.",,machine,https://bluthelden.com/cdn/shop/files/BL_TK-057_Shield_of_water.png?v=1785846790&width=3200
@@ -1388,7 +1385,7 @@ Remove 3 Egg counters: Search your Spell Deck for a
 Lizard Character Card and put it turned into play.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-20_Lizard_Egg.png?v=1781882025&width=3200
 32a26d14b96b,Lizard Skypatrol,Alliances,"Character, Lizard",blue,L,4,2,4,2,4,4,,,"1, [Turn]: Create a Shield of Water Training Token and
 attach it to this Character.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-22_Lizard_Skypatrol.png?v=1781882026&width=3200
-c513d6b68ad4,"Rex, Dragon of Deception",Alliances,"Epic Character, Lizard",blue,,4,2,4,,4,4,,,"Magic Control (Whenever this Character becomes the
+c513d6b68ad4,"Rex, Dragon of Deception",Alliances,"Epic Character, Lizard",blue,L,4,2,4,4,4,4,,,"Magic Control (Whenever this Character becomes the
 target of a Spell or Ability your opponent controls, if it is
 unturned, reduce the Spellpower of that Spell or Ability by 1.
 If it has no Spellpower value, it gains Spellpower equal to 5
@@ -1398,7 +1395,7 @@ minus this Character's RES instead.)",,machine,https://bluthelden.com/cdn/shop/f
 Spell. (Put it from the Reaction Chain into its owner's
 Graveyard.)
 3: Put one Interrupt counter on this Artifact.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-33_Spell_Disruptor.png?v=1781882030&width=3200
-6f065018f8cb,"Waron, Water Dragon",Alliances,"Epic Character, Dragon",blue,L,,2,4,3,4,5,,,"Drowning Touch (Characters damaged by this Character
+6f065018f8cb,"Waron, Water Dragon",Alliances,"Epic Character, Dragon",blue,L,5,2,4,3,4,5,,,"Drowning Touch (Characters damaged by this Character
 get a Drenched counter. A drenched Character gets 1 INI -1
 counter at the end of each round.)
 Magic Control
@@ -1428,13 +1425,13 @@ eca5c4ff2c56,Banner of Stone,Alliances,Mythic Artifact,brown,L,3,,,,,,,,"When Ba
 Stone Goat Character Token and one Lerium Token.
 Characters you control gain POW/HP +0/+1.",,machine,https://bluthelden.com/cdn/shop/files/BR-062_Banner_of_Earth.png?v=1785846661&width=3200
 5e17fef64d5c,Bludgeon Worm,Alliances,"Character, Stone",brown,N,4,1,5,4,3,3,,,"""I will find you!""",,machine,https://bluthelden.com/cdn/shop/files/BR-063_Bludgeon_Wurm.png?v=1785846661&width=3200
-b0d60c89587b,Brokk Sparkshaper,Alliances,"Epic Character, Dwarf",brown,L,,2,,4,2,3,,,"When Brokk Sparkshaper enters play, create one 2/2
+b0d60c89587b,Brokk Sparkshaper,Alliances,"Epic Character, Dwarf",brown,L,4,2,2,4,2,3,,,"When Brokk Sparkshaper enters play, create one 2/2
 Goat Stone Character Token.
 2, [Turn], sacrifice 5 Lerium and target Goat you control:
 create one 6/6 Stone Giant Character Token with
 Dual Slot in the same Slot.",,machine,https://bluthelden.com/cdn/shop/files/BR-064_Brokk_Sparkshaper.png?v=1785846662&width=3200
 e99d120f218e,Bronmark Brigade,Alliances,"Character, Dwarf",brown,K,4,2,4,5,3,3,,,,,machine,https://bluthelden.com/cdn/shop/files/BR-065_Bronmark_Brigade.png?v=1785846662&width=3200
-c083a7dbea23,Bronmarks Guard,Alliances,"Character, Dwarf",brown,K,,1,2,3,2,2,,,"[Turn]: Ranged Combat (It deals DMG equal to its Power to
+c083a7dbea23,Bronmarks Guard,Alliances,"Character, Dwarf",brown,K,4,1,2,3,2,2,,,"[Turn]: Ranged Combat (It deals DMG equal to its Power to
 target Character in a War Zone within the same Lane.
 Activate only as combat action and only if this card is in the
 Back Row.)
@@ -1453,7 +1450,7 @@ in the same Lane.)",,machine,https://bluthelden.com/cdn/shop/files/BR-069_Durnin
 bb6b96d2c009,Dwarven Adventurer,Alliances,"Character, Dwarf",brown,N,3,1,4,4,3,3,,,"If you control a LVL 2 Resource, 2, [Turn]: Rise into
 Norrumin Ironfist.",,machine,https://bluthelden.com/cdn/shop/files/BR-070_Dwarven_Adventurer.png?v=1785846662&width=3200
 ce0441dc99ee,Dwarf Maiden,Alliances,"Character, Dwarf",brown,K,3,1,3,3,3,3,,,"When Dwarf Maiden dies, create 2 Lerium Tokens.",,machine,https://bluthelden.com/cdn/shop/files/BR-071_Dwarf_Maiden.png?v=1785846662&width=3200
-54ed89eb88a8,Dwarven Miner,Alliances,"Character, Dwarf",brown,K,,1,3,3,3,3,,,"When Dwarven Miner enters play, create 2 Lerium
+54ed89eb88a8,Dwarven Miner,Alliances,"Character, Dwarf",brown,K,4,1,3,3,3,3,,,"When Dwarven Miner enters play, create 2 Lerium
 Tokens. (It's an Artifact Token with Sacrifice this Artifact:
 Target Stone Character you control gains POW/HP +0/+1
 until the end of this round.i)
@@ -1479,7 +1476,7 @@ gains Punch until the end of round.""",,machine,https://bluthelden.com/cdn/shop/
 df4744e5d60a,Hardened by Lerium,Alliances,Martial Training,brown,K,3,,,,,,,,"You may sacrifice 3 Lerium instead of paying this
 Training's ASP costs to summon it.
 Trained Character gains POW/HP +1/+1.",,machine,https://bluthelden.com/cdn/shop/files/BR-080_Hardened_by_Lerium.png?v=1785846661&width=3200
-c7af70b1081f,Juggernaut of the Bronmark,Alliances,"Character, Dwarf Giant",brown,K,,2,6,6,2,4,,,"Juggernaut of the Bronmark doesn't unturn at the
+c7af70b1081f,Juggernaut of the Bronmark,Alliances,"Character, Dwarf Giant",brown,K,5,2,6,6,2,4,,,"Juggernaut of the Bronmark doesn't unturn at the
 beginning of rounds.
 Sacrifice 1 Lerium: Unturn Juggernaut of the
 Bronmark. Activate only once per round.",,machine,https://bluthelden.com/cdn/shop/files/BR-081_Juggernaut_of_the_Bronmark.png?v=1785846662&width=3200
@@ -1489,7 +1486,7 @@ gains INI+1 and POW/HP +1/+1 tor each Lerium you
 sacrificed until the end of the round.",,machine,https://bluthelden.com/cdn/shop/files/BR-082_Lerium_Core.png?v=1785846662&width=3200
 3e78c9f8a336,Lerium Dealer,Alliances,"Character, Dwarf",brown,N,3,1,4,2,3,2,,,"[Turn], sacrifice 1 Lerium: Put 1 POW/HP +0/+1 counter on
 target Character in the same Lane.",,machine,https://bluthelden.com/cdn/shop/files/BR-083_Lerium_Dealer.png?v=1785846662&width=3200
-646a9649e32c,Lerium Guard,Alliances,"Character, Dwarf",brown,K,4,2,,5,3,3,,,"When Lerium Guard enters play, create 2 Lerium
+646a9649e32c,Lerium Guard,Alliances,"Character, Dwarf",brown,K,4,2,4,5,3,3,,,"When Lerium Guard enters play, create 2 Lerium
 Tokens. (It's an Artifact Token with Sacrifice this Artifact:
 Target Stone Character you control gains POW/HP +0/+1
 until the end ofthis roundạ)",,machine,https://bluthelden.com/cdn/shop/files/BR-084_Lerium_Guard.png?v=1785846661&width=3200
@@ -1506,7 +1503,7 @@ If you do, Rise Dwarven Adventurer.
 When Norrumin Ironfist enters play, you may sacritice
 up to 3 Lerium. If you do, put that many POW/HP +1/+1
 counters on it.",,machine,https://bluthelden.com/cdn/shop/files/BR-088_Norrumin_Ironfist.png?v=1785846663&width=3200
-93cfb7a51e90,Retrieval Commando,Alliances,"Character, Dwarf",brown,N,,1,2,2,2,2,,,"When Retrieval Commando enters play, you may
+93cfb7a51e90,Retrieval Commando,Alliances,"Character, Dwarf",brown,N,3,1,2,2,2,2,,,"When Retrieval Commando enters play, you may
 shuffle any number of Stone Character cards from
 your Graveyard into your Spell Deck. If you do, create
 one Lerium Token.",,machine,https://bluthelden.com/cdn/shop/files/BR-089_Retrieval_Commando.png?v=1785846662&width=3200
@@ -1526,16 +1523,16 @@ additional cost to cast this Spell.",,machine,https://bluthelden.com/cdn/shop/fi
 the War Zone into the Safety Zone.)",,machine,https://bluthelden.com/cdn/shop/files/BR-095_Stonebound.png?v=1785846660&width=3200
 fb4f36cacd17,Stonebound Riches,Alliances,Spell,brown,K,3,,,,,,,,"Create a 2/2 Worm Token with Emerge 3 in target
 War Zone.",,machine,https://bluthelden.com/cdn/shop/files/BR-096_Stonebound_Riches.png?v=1785846662&width=3200
-d6de9c29b187,Stonemason,Alliances,"Character, Dwarf",brown,K,3,1,2,,3,3,,,"[Turn], sacrifice 1 Lerium: Target Stone Character
+d6de9c29b187,Stonemason,Alliances,"Character, Dwarf",brown,K,3,1,2,4,3,3,,,"[Turn], sacrifice 1 Lerium: Target Stone Character
 regenerates 1 HP.",,machine,https://bluthelden.com/cdn/shop/files/BR-097_Stonemason.png?v=1785846661&width=3200
 6f5306041aaf,Stoneix Arkeia,Alliances,Spell,brown,N,1,,,,,,,,"Create 3 Lerium Tokens. (It's an Artifact Token with
 «Sacrifice this Artifact: Target Stone Character you control
 gains POW/HP +0/+1 until the end of this round."")",,machine,https://bluthelden.com/cdn/shop/files/BR-098_Stoneix_Arkeia.png?v=1785846663&width=3200
-84d128d0bd09,Stoneworm,Alliances,"Character, Stone",brown,L,,2,6,6,,3,,,"When Stoneworm enters play, create 2 Lerium Tokens.
+84d128d0bd09,Stoneworm,Alliances,"Character, Stone",brown,L,6,2,6,6,4,3,,,"When Stoneworm enters play, create 2 Lerium Tokens.
 (It's an Artifact Token with ""Sacrifice this Artifact: Target
 Stone Character you control gains POW/HP +0/+1 until the
 end of this round."")",,machine,https://bluthelden.com/cdn/shop/files/BR-099_Stonewurm.png?v=1785846662&width=3200
-b5bf92853d6a,Strongarm Weapon Smith,Alliances,"Character, Dwarf",brown,N,,2,3,3,3,2,,,"When Strongarm Weapon Smith enters play, create 1
+b5bf92853d6a,Strongarm Weapon Smith,Alliances,"Character, Dwarf",brown,N,3,2,3,3,3,2,,,"When Strongarm Weapon Smith enters play, create 1
 Lerium Token. (It's an Artifact Token with Sacrifice this
 Artifact: Target Stone Character you control gains POW/HP
 +O/+1 until the end of this round."")
@@ -1545,7 +1542,7 @@ db14e5a44a01,Tail Swipe,Alliances,Spell,brown,K,3,,,,,,4,,"As an additional cost
 sacrifice 2 Lerium.
 Deal 1 DMO to every Character in target War Lone.
 It this Spell' s additional cost was paid, deal 2 DMG",,machine,https://bluthelden.com/cdn/shop/files/BR-101_Tail_Swipe.png?v=1785846662&width=3200
-9d464615b5c9,The Giant Golem,Alliances,"Character, Stone",brown,F,,2,,7,3,3,,,"Dual Slot (This Character occupies two Slots in the War
+9d464615b5c9,The Giant Golem,Alliances,"Character, Stone",brown,F,6,2,7,7,3,3,,,"Dual Slot (This Character occupies two Slots in the War
 Sacrifice 1 Lerium Token: This Character gains Punch
 until the end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BR-102_Giant_Golem.png?v=1785846662&width=3200
 d9beba3d3f49,The Rockaxe,Alliances,Mythic Artifact,brown,F,4,,,,,,,,"[Turn], sacrifice 5 Lerium: Target Dwarf you control gets
@@ -1553,7 +1550,7 @@ POW/HP +2/+2, Speed and Targeted Strike until the
 end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BR-103_The_Rockaxe.png?v=1785846661&width=3200
 c716221dd8c8,The Walls of Bronmark,Alliances,"Character, Stone Barrier",brown,L,3,1,0,7,2,1,,,"Sacrifice 1 Lerium: The Walls of Bronmark gains
 POW/HP +1/+1 until the end of the round.",,machine,https://bluthelden.com/cdn/shop/files/BR-104_The_walls_of_Bronmark.png?v=1785846661&width=3200
-8267309289a3,"Vorax, the Worm",Alliances,"Epic Character, Stone",brown,L,,2,4,,3,2,,,"Dual Slot (This Character occupies two Slots in the War
+8267309289a3,"Vorax, the Worm",Alliances,"Epic Character, Stone",brown,L,6,2,4,6,3,2,,,"Dual Slot (This Character occupies two Slots in the War
 If you control a Worm Token, pay 2 ASP less to
 summon Vorax, the Worm, then Rise Worm Token.
 When Vorax, the Worm emerges in your opponent's
@@ -1603,7 +1600,7 @@ until the end of this roundi)
 8e154c61a4d2,Lerium,Alliances,Token Artifact,brown,T,,,,,,,,,"Sacrifice this Artifact: Target Stone Character you
 control gains POW/HP +0/+1 until the end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BR-TK-117_Lerium.png?v=1785846662&width=3200
 2731e7121f1a,Goat,Alliances,"Token Character, Stone, Goat",brown,T,,,2,2,2,3,,,,,machine,https://bluthelden.com/cdn/shop/files/BR-TK-02a_Goat_Stone_Token.png?v=1783769544&width=3200
-d84c0c20cb27,Stone Giant,Alliances,"Token Character, Stone",brown,T,,,,,,,,,"З СЕ 166
+d84c0c20cb27,Stone Giant,Alliances,"Token Character, Stone",brown,T,,,6,6,3,3,,,"З СЕ 166
 Dual Slot",,machine,https://bluthelden.com/cdn/shop/files/BR-TK119_Stone_Giant.png?v=1785846661&width=3200
 5ced66cdc004,Worm,Alliances,"Token Character, Stone",brown,T,,,2,2,3,2,,,"Emerge 3 - ([Turn], sacrifice 3 Lerium Tokens, banish this token):
 Search your hand or Spell Deck for a card named Vorax,
@@ -1670,10 +1667,10 @@ ASP, where is the number of sacrificed Characters to
 cast this Spell. Then put Fire Token into target War",,machine,https://bluthelden.com/cdn/shop/files/RD_129_Burning_Rites.png?v=1785846952&width=3200
 6c82184adf6e,Elite Warrior of the Burning Plains,Alliances,"Character, Orc",red,L,4,2,4,3,3,4,,,"As long as you control a Chieftain of War, this
 Character gains Two-Handed Combat and Speed.",,machine,https://bluthelden.com/cdn/shop/files/RD_130_Elite_Warrior_of_the_Burning_Plains.png?v=1785846952&width=3200
-92d1a2966858,Fireshaman,Alliances,"Character, Orc",red,N,,2,2,4,3,2,,,": Deal 2 DMG to target Character in the War
+92d1a2966858,Fireshaman,Alliances,"Character, Orc",red,N,4,2,2,4,3,2,,,": Deal 2 DMG to target Character in the War
 Zone in the same Lane. Activate only if you control a
 Chieftain of Magic.",,machine,https://bluthelden.com/cdn/shop/files/RD_131_FIreshaman.png?v=1785846952&width=3200
-3a927405245c,"Krakhan, the Hellfire",Alliances,"Epic Character, Demon",red,F,,2,5,4,4,5,,,"When Krakhan, the Hellfire enters play, deal 5 DMG to
+3a927405245c,"Krakhan, the Hellfire",Alliances,"Epic Character, Demon",red,F,6,2,5,4,4,5,,,"When Krakhan, the Hellfire enters play, deal 5 DMG to
 target Character. If that Character dies this round,
 create a Fire Token in the War Zone in the same Lane.
 As long as Krakhan, the Hellfire is in a War Zone, Fire
@@ -1684,16 +1681,16 @@ fa4e3bdaa149,Fireblast,Alliances,Spell,red,K,4,,,,,,3,,"STERaNVnet
 Deal 2 DMG to target Character and 1 DMG to target
 Sovereign.",,machine,https://bluthelden.com/cdn/shop/files/RD_134_Fireblast.png?v=1785846951&width=3200
 a7661539cac5,Firebolt,Alliances,Spell,red,N,2,,,,,,3,,Deal 2 DMG to target Character.,,machine,https://bluthelden.com/cdn/shop/files/RD_135_Firebolt.png?v=1785846951&width=3200
-8903845d1f3f,Firedemon,Alliances,"Character, Demon",red,N,,2,4,4,3,3,,,"When Firedemon enters play, create a Fire Token in
+8903845d1f3f,Firedemon,Alliances,"Character, Demon",red,N,5,2,4,4,3,3,,,"When Firedemon enters play, create a Fire Token in
 the War Zone in the same Lane.
 If Firedemon would take DMG from Fire, prevent 1 of
 that DMG.",,machine,https://bluthelden.com/cdn/shop/files/RD_136_Firedemon.png?v=1785846952&width=3200
-a08d84e2532f,Firedragon,Alliances,"Character, Dragon",red,L,5,2,6,,4,5,,,"When Firedragon attacks, you may pay 2 ASP. If you
+a08d84e2532f,Firedragon,Alliances,"Character, Dragon",red,L,5,2,6,4,4,5,,,"When Firedragon attacks, you may pay 2 ASP. If you
 do, create 2 Fire Token in the same War Zone and deal
 2 DMG to target Character in the same War Zone.
 If this Character would take DMG from a Fire, prevent
 1 of that DMG.",,machine,https://bluthelden.com/cdn/shop/files/RD_137_Firedragon.png?v=1785846953&width=3200
-150eb898a2f8,Fireelemental,Alliances,"Character, Elemental",red,N,,1,4,2,3,4,,,"When Fireelemental enters play, put a Fire Token into
+150eb898a2f8,Fireelemental,Alliances,"Character, Elemental",red,N,3,1,4,2,3,4,,,"When Fireelemental enters play, put a Fire Token into
 the War Zone in the same Lane.
 If you control a LVL 2 Resource, 2, [Turn]: Rise into
 Greater Fireelemental.
@@ -1704,7 +1701,7 @@ regenerate that much HP instead.",,machine,https://bluthelden.com/cdn/shop/files
 709df8ff0342,Firestorm,Alliances,Spell,red,L,5,,,,,,5,,"Create a Fire Token in target War Zone. Then deal 1
 DMG for each Fire in that War Zone to any number of
 Characters in that Lane.",,machine,https://bluthelden.com/cdn/shop/files/RD_140_Firestorm.png?v=1785846952&width=3200
-d7c496f76973,Firewall,Alliances,"Character, Barrier",red,K,2,1,3,2,2,,,,"This Character gains POW/HP +1/+0 for each Fire in
+d7c496f76973,Firewall,Alliances,"Character, Barrier",red,K,2,1,3,2,2,1,,,"This Character gains POW/HP +1/+0 for each Fire in
 the same War Zone. If this Character would take DMG
 from a Fire, regenerate that much HP to it instead.",,machine,https://bluthelden.com/cdn/shop/files/RD_141_Firewall.png?v=1785846952&width=3200
 3418ebf7ed04,Flames of Khrakan,Alliances,Fundamental Training,red,L,3,,,,,,,,"Trained Character gains: 2, [Turn]: Deal 2 DMG to Target
@@ -1715,9 +1712,9 @@ you control a Chieftain of War, Strategy or Magic.",,machine,https://bluthelden.
 to target Character in a War Zone within the same Lane.
 Activate only as a combat action and only if this card is in
 the Back Row.)",,machine,https://bluthelden.com/cdn/shop/files/RD_144_Goblin_Archer.png?v=1785846952&width=3200
-81247977a842,Goblin Fire,Alliances,Spell,red,,1,,,,,,3,,Deal 1 DMG to every Character in target War Zone.,,machine,https://bluthelden.com/cdn/shop/files/RD_145_Goblin_Fire.png?v=1785846952&width=3200
+81247977a842,Goblin Fire,Alliances,Spell,red,L,1,,,,,,3,,Deal 1 DMG to every Character in target War Zone.,,machine,https://bluthelden.com/cdn/shop/files/RD_145_Goblin_Fire.png?v=1785846952&width=3200
 d4185faa3657,Goblin Skewer,Alliances,"Character, Goblin",red,N,3,1,3,2,2,3,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_146_GOblin_skewer.png?v=1785846952&width=3200
-8cbe640fa17d,Goblin Slayer,Alliances,"Character, Goblin",red,,2,1,2,2,2,3,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_147_GOblin_Slayer.png?v=1785846952&width=3200
+8cbe640fa17d,Goblin Slayer,Alliances,"Character, Goblin",red,K,2,1,2,2,2,3,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_147_GOblin_Slayer.png?v=1785846952&width=3200
 7fc4c7c80462,Greater Fireelemental,Alliances,"Character, Elemental",red,N,5,2,6,3,4,5,,,"If you control Fireelemental, you may pay 2 less to
 summon Greater Fireelemental.
 If you do, Rise Fireelemental. (Place this card on
@@ -1728,8 +1725,8 @@ Token in the War Zone in the same Lane.
 If this Character would take DMG from a Fire,
 regenerate that much HP to it instead.
 PENSOANTS",,machine,https://bluthelden.com/cdn/shop/files/RD_148_Greater_Fireelemental.png?v=1785846953&width=3200
-281a11cbdbd1,Horde Leader,Alliances,"Character, Orc",red,,4,2,4,4,3,4,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_149_Horde_Leader.png?v=1785846952&width=3200
-d6a5766e3923,Mad Pyromancer,Alliances,"Character, Goblin",red,K,,2,3,3,2,2,,,"When Mad Pyromancer enters play or is turned face
+281a11cbdbd1,Horde Leader,Alliances,"Character, Orc",red,L,4,2,4,4,3,4,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_149_Horde_Leader.png?v=1785846952&width=3200
+d6a5766e3923,Mad Pyromancer,Alliances,"Character, Goblin",red,K,4,2,3,3,2,2,,,"When Mad Pyromancer enters play or is turned face
 up, create a Fire Token in the War Zone in the same
 Lane. Then deal DMG equal to the number of Fire in
 that War Zone to target Character in that War Zone.",,machine,https://bluthelden.com/cdn/shop/files/RD_150_Mad_Pyromancer.png?v=1785846952&width=3200
@@ -1737,7 +1734,7 @@ that War Zone to target Character in that War Zone.",,machine,https://bluthelden
 counter for each Fire you control in the same Lane.",,machine,https://bluthelden.com/cdn/shop/files/RD_151_Nahela_the_Flameborn.png?v=1785846953&width=3200
 74ff265f1364,Novice of Pyrana,Alliances,"Character, Human",red,K,2,1,2,2,3,2,,,"[Turn], sacrifice Novice of Pyrana: Create a Fire Token in
 target War Zone.",,machine,https://bluthelden.com/cdn/shop/files/RD_152_Novice_of_pyrana.png?v=1785846952&width=3200
-420c126a4826,Orc Archer,Alliances,"Character, Orc",red,N,,2,3,2,3,4,,,"•: Ranged Combat (It deals DMG equal to its Power
+420c126a4826,Orc Archer,Alliances,"Character, Orc",red,N,4,2,3,2,3,4,,,"•: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as a combat action and only if this card is in
 the Back Row.)",,machine,https://bluthelden.com/cdn/shop/files/RD_153_ORC_Archer.png?v=1785846953&width=3200
@@ -1824,7 +1821,7 @@ and POW/HP +1/+0.
 1: Create a Fire Token in target War Zone. Activate
 only if you control a Chieftain of War, Magic and",,machine,https://bluthelden.com/cdn/shop/files/RD_D-36_Rerkis_Flag_of_the_Hordes.png?v=1782382062&width=3200
 043b5b497399,Ogre,Alliances,"Character, Ogre",red,K,4,2,5,3,3,3,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_D-28_Ogre.png?v=1782382065&width=3200
-a0aef33a3c97,War Drums of the Horde,Alliances,Artifact,red,,3,,,,,,,,"War Drums of the Horde enters play with 2 Drum
+a0aef33a3c97,War Drums of the Horde,Alliances,Artifact,red,L,3,,,,,,,,"War Drums of the Horde enters play with 2 Drum
 counters on it.
 Remove 1 Drum counter: Characters with Horde you
 control, gain POW/HP +1/+0 until the end of this
@@ -1857,7 +1854,7 @@ only once per round",'+2,machine,https://bluthelden.com/cdn/shop/files/PU_182__M
 performing a combat action.)
 ®, pay 1 LP: Gain 1 ASP.
 •: Put 1 RES+1 counter on target Fairy.",'+2,machine,https://bluthelden.com/cdn/shop/files/PU_183_Lysera_The_Last_Light_Fairy.png?v=1785845291&width=3200
-2e0c589aa407,Arcane Spider,Alliances,"Character, Spider",purple,N,,2,2,4,3,,,,"When Arcane Spider enters play or is turned face up,
+2e0c589aa407,Arcane Spider,Alliances,"Character, Spider",purple,N,4,2,2,4,3,2,,,"When Arcane Spider enters play or is turned face up,
 banish target other Character in the same Lane. When
 Arcane Spider leaves play, return that Character into play
 in a Slot of its owner's choice.",,machine,https://bluthelden.com/cdn/shop/files/PU_184_Arcane_Spider.png?v=1785845291&width=3200
@@ -1902,18 +1899,18 @@ and RES until the end of this round.",,machine,https://bluthelden.com/cdn/shop/f
 17dda1ada648,Golden Orchard,Alliances,Mythic Artifact,purple,F,3,,,,,,,,"2: Put 2 RES-1 counter on target Fairy you control, if
 you do, gain 3 ASP. Then, it that Character has 0 or
 less RES, banish it.",,machine,https://bluthelden.com/cdn/shop/files/PU_197_golden_orchard.png?v=1785845290&width=3200
-8101fe7b71b4,Guardian of the Last Light,Alliances,"Character, Fairy",purple,K,,2,2,2,2,2,,,"®, put 1 RES-1 counter on Guardian of the Last Light:
+8101fe7b71b4,Guardian of the Last Light,Alliances,"Character, Fairy",purple,K,3,2,2,2,2,2,,,"®, put 1 RES-1 counter on Guardian of the Last Light:
 Create an Alliance Training Token and attach it to this
 Character. Then, if its RES is 0 or less, banish Guardian of
 the Last Light.",,machine,https://bluthelden.com/cdn/shop/files/PU_198_guardian_of_the_last_light.png?v=1785845290&width=3200
 03059d97f2e0,Gremlins,Alliances,"Character, Fairy",purple,K,3,1,2,1,2,2,,,"When Gremlins enters play, destroy target Artifact.",,machine,https://bluthelden.com/cdn/shop/files/PU_199_gremlins.png?v=1785845290&width=3200
 1421b3f35361,Honor Guard,Alliances,"Character, Fairy",purple,N,4,2,2,4,4,3,,,,,machine,https://bluthelden.com/cdn/shop/files/PU_200_honor_guard.png?v=1785845291&width=3200
 21568c8e3fa5,Illusion Dust,Alliances,Spell,purple,N,4,,,,,,,,"Return target Artifact, Ritual or Training to its owner's",,machine,https://bluthelden.com/cdn/shop/files/PU_201_Illusion_Dust.png?v=1785845290&width=3200
-4aad05bc0f91,Illuminated Fairy,Alliances,"Character, Fairy",purple,N,2,1,,,2,4,,,"When Illuminated Fairy attacks, Characters your
+4aad05bc0f91,Illuminated Fairy,Alliances,"Character, Fairy",purple,N,2,1,1,2,2,4,,,"When Illuminated Fairy attacks, Characters your
 opponent controls in the same War Zone gain RES-1 until
 the end of the round.",,machine,https://bluthelden.com/cdn/shop/files/PU_202_illuminated_fairy.png?v=1785845291&width=3200
 9499f046ead7,Lysera's Blessing,Alliances,Training,purple,K,3,,,,,,4,,Switch trained character's RES and POW,,machine,https://bluthelden.com/cdn/shop/files/PU_203_lyserias_blessing.png?v=1785845291&width=3200
-992d501c0b65,Magical Infusion,Alliances,Spell,purple,,2,,,,,,,,"Put 1 RES+1 counter on target Character. Then, if that
+992d501c0b65,Magical Infusion,Alliances,Spell,purple,K,2,,,,,,,,"Put 1 RES+1 counter on target Character. Then, if that
 character's RES is 4 or greater, use String of Destiny
 2. (Look at the 2 top or bottom cards of your Spell Deck.
 You nay put them on top or bottomof your Spel Deck in",,machine,https://bluthelden.com/cdn/shop/files/PU_204_Magical_infusion.png?v=1785845290&width=3200
@@ -1937,18 +1934,18 @@ Fraya, Baroness ot Truth.",,machine,https://bluthelden.com/cdn/shop/files/PU_211
 • trained Character gains Barrier or
 • trained Character gains
 «O, [Turn]: Use String of Destiny 1.""",,machine,https://bluthelden.com/cdn/shop/files/PU_212_Pact_With_a_fae.png?v=1785845290&width=3200
-e3dce45a60bd,Pixie Assassin,Alliances,"Character, Fairy",purple,N,,1,2,2,3,3,,,"®, put 1 RES-1 counter on this Character: Put 1
+e3dce45a60bd,Pixie Assassin,Alliances,"Character, Fairy",purple,N,3,1,2,2,3,3,,,"®, put 1 RES-1 counter on this Character: Put 1
 Madness counter on target Character in the same Lane.
 Then if Pixie Assassin's RES is 0 or less, banish it.",,machine,https://bluthelden.com/cdn/shop/files/PU_213_Pixie_Assassin.png?v=1785845291&width=3200
-25ff21c84d82,Pixie Trickster,Alliances,"Character, Fairy",purple,L,,2,4,3,3,3,,,"X: Gain control of target Artifact an opponent
+25ff21c84d82,Pixie Trickster,Alliances,"Character, Fairy",purple,L,3,2,1,3,3,3,,,"X: Gain control of target Artifact an opponent
 controls if its ASP cost is equal to X or less. Put X RES-1
 counters on Pixie Trickster. Then, if Pixie Tricksters RES
 becomes 0 or less this way, banish it.",,machine,https://bluthelden.com/cdn/shop/files/PU_214_pixie_trickster.png?v=1785845290&width=3200
-2f916ad3697e,Pollen Fairy,Alliances,"Character, Fairy",purple,K,2,1,1,,3,3,,,"•: Ranged Combat (It deals DMG equal to its Power
+2f916ad3697e,Pollen Fairy,Alliances,"Character, Fairy",purple,K,2,1,1,2,3,3,,,"•: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as combat action and only if this card is in the
 Back Row.)",,machine,https://bluthelden.com/cdn/shop/files/PU_215_Pollen_FAiry.png?v=1785845291&width=3200
-ebfae2ef5d6f,Pollen Gun,Alliances,"Character, Fairy",purple,N,,2,2,2,4,3,,,"®: Ranged Combat (It deals DMG equal to its Power
+ebfae2ef5d6f,Pollen Gun,Alliances,"Character, Fairy",purple,N,3,2,2,2,4,3,,,"®: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as combat action and only if this card is in the
 Back Row.)
@@ -1968,14 +1965,14 @@ fad2fe578c3f,Seal of the Last Light,Alliances,Ritual,purple,K,4,,,,,,,,"When Sea
 Slot in a War Zone. As long as this Ritual is in play, that
 Slot counts as occupied. (Characters can't be placed into
 that Slot.)",,machine,https://bluthelden.com/cdn/shop/files/PU_221_seal_of_the_last_light.png?v=1785845290&width=3200
-f6d7609b7263,Soldiers of the Convenant,Alliances,"Character, Fairy",purple,K,3,1,,3,2,3,,,,,machine,https://bluthelden.com/cdn/shop/files/PU_222_Soldiers_of_the_covenant.png?v=1785845292&width=3200
+f6d7609b7263,Soldiers of the Covenant,Alliances,"Character, Fairy",purple,K,3,1,2,3,2,3,,,,,machine,https://bluthelden.com/cdn/shop/files/PU_222_Soldiers_of_the_covenant.png?v=1785845292&width=3200
 3593e3282a79,Soul Recall,Alliances,Spell,purple,L,4,,,,,,4,,"Return up to four target Characters you control to
 their owner's hand. Then return that many Characters
 your opponent controls to their owner's hand.",,machine,https://bluthelden.com/cdn/shop/files/PU_223_Soul_REcall.png?v=1785845290&width=3200
 abc0c7349d44,Starlight,Alliances,Spell,purple,K,1,,,,,,4,,Target Character gains Flying until the end of the next,,machine,https://bluthelden.com/cdn/shop/files/PU_224_Starlight.png?v=1785845289&width=3200
 0c25711990b1,Stellar Magic,Alliances,Spell,purple,N,3,,,,,,5,,"Return an Artifact, Character, Ritual or Training to its
 owner's hand.",,machine,https://bluthelden.com/cdn/shop/files/PU_225_Stellar_Magic.png?v=1785845291&width=3200
-a94354042837,Summoning of the Protector,Alliances,Ritual,purple,,5,,,,,,,,"When this Ritual enters play, create one 1/2 Fighting
+a94354042837,Summoning of the Protector,Alliances,Ritual,purple,F,5,,,,,,,,"When this Ritual enters play, create one 1/2 Fighting
 Fairy Character Token with Flying and Alliance. It
 gains Untargetable until the end of this round.
 Second Round: At the beginning of your turn, use
@@ -1983,13 +1980,13 @@ String of Destiny 4.
 Third Round: At the beginning of your turn, reveal the
 top card of your Spell Deck. If it is a Character card, put
 it into play in target Slot. Then sacrifice this Ritual.",,machine,https://bluthelden.com/cdn/shop/files/PU_226_Summoning_of_theProtector.png?v=1785845291&width=3200
-80f41aedc1b9,Voice of the Fae Court,Alliances,"Character, Fairy",purple,K,,1,2,2,3,2,,,"When Voice of the Fae Court enters play, target Character
+80f41aedc1b9,Voice of the Fae Court,Alliances,"Character, Fairy",purple,K,3,1,2,2,3,2,,,"When Voice of the Fae Court enters play, target Character
 in the same Lane gains Untargetable until the end of the",,machine,https://bluthelden.com/cdn/shop/files/PU_227_Voice_of_the_fae_court.png?v=1785845291&width=3200
-719f76cd9ea5,Whispering Pixie,Alliances,"Character, Fairy",purple,L,,2,2,3,3,4,,,"When Whispering Pixie enters play, use String of
+719f76cd9ea5,Whispering Pixie,Alliances,"Character, Fairy",purple,L,4,2,2,3,3,4,,,"When Whispering Pixie enters play, use String of
 Destiny 2. (Look at the 2 top or bottom cards of your Spell
 Deck. You may put them on top or bottom of your Spell Deck
 in any order.)",,machine,https://bluthelden.com/cdn/shop/files/PU_228_WHispering_Pixie.png?v=1785845291&width=3200
-818cf70fa568,Wise Fairy,Alliances,"Character, Fairy",purple,K,4,2,,3,,3,,,"[Turn]: Use String of Destiny 2. (Look at the 2 top or bottom
+818cf70fa568,Wise Fairy,Alliances,"Character, Fairy",purple,K,4,2,1,3,3,3,,,"[Turn]: Use String of Destiny 2. (Look at the 2 top or bottom
 cards ofyour Spell Deck. You may put them on top or bottom
 ofyour Spell Deck in any order.)",,machine,https://bluthelden.com/cdn/shop/files/PU_229_Wise_FAiry.png?v=1785845291&width=3200
 d8f7d89a5bf2,Forest of Wishes,Alliances,Resource,purple,L,,2,,,,,,,"®: Gain 1 ASP. Gain 2 ASP instead, if you control a
@@ -2034,8 +2031,8 @@ instead.)",,machine,https://bluthelden.com/cdn/shop/files/PU_239_Alliance_Token.
 d79dab2b091f,Fighting Fairy,Alliances,"Token Character, Fairy",purple,T,,,4,2,2,3,,,"Alliance (Ifyour Sovereign would take DMG from any
 combat actions, you may redirect that DMG to trained
 Character instead.)",,machine,https://bluthelden.com/cdn/shop/files/PU_240_Fighting_Fairy_Token.png?v=1785845291&width=3200
-43fd93c49b9a,Barrier between the Worlds,Alliances,"Token Character, Barrier",purple,T,,,,6,3,1,,,,,machine,https://bluthelden.com/cdn/shop/files/PU_241_Barrier_Between_worlds_Token.png?v=1785845290&width=3200
-ce4f3621f0c2,Fairy of the Wind,Alliances,"Character, Fairy",purple,F,4,2,,,,,,,"440 C4 1/23
+43fd93c49b9a,Barrier between the Worlds,Alliances,"Token Character, Barrier",purple,T,,,0,6,3,1,,,,,machine,https://bluthelden.com/cdn/shop/files/PU_241_Barrier_Between_worlds_Token.png?v=1785845290&width=3200
+ce4f3621f0c2,Fairy of the Wind,Alliances,"Character, Fairy",purple,F,4,2,2,3,4,4,4,,"440 C4 1/23
 When Fairy of the Wind enters play, return up to 3
 Characters your opponent controls and up to one Artifact
 or Ritual to its owners' hand.
@@ -2067,7 +2064,7 @@ c6ef568a6f47,Equilibra's Resource,Alliances,Equilibra Resource,grey,L,,2,,,,,,,"
 card you play from your hand, that has additional ASP
 costs from your Sovereign costs 1 ASP less to play.",,machine,https://bluthelden.com/cdn/shop/files/EQ_245_Equilibra_s_Resource.png?v=1789038817&width=3200
 e56b1116c04c,Forge,Alliances,Equilibra Resource,grey,K,,1,,,,,,,'@: Gain 1 ASP.,,machine,https://bluthelden.com/cdn/shop/files/EQ_246_FORGE_Anthony_Catillaz.png?v=1789038818&width=3200
-22ccddbf4169,Karma Hatchling,Alliances,Spell,grey,,2,,,,,,4,,"If target Character deals DMG during the next combat
+22ccddbf4169,Karma Hatchling,Alliances,Spell,grey,K,2,,,,,,4,,"If target Character deals DMG during the next combat
 phase, it takes the same amount in return.",,machine,https://bluthelden.com/cdn/shop/files/EQ_247_KARMA_HATCHLING_Jounes_Erojo.png?v=1789038818&width=3200
 389e8e23ea2f,Priest,Alliances,Equilibra Character,grey,K,1,1,4,2,4,2,,,"•: Gain 1 ASP, as long as this Character remains",,machine,https://bluthelden.com/cdn/shop/files/EQ_248_PRIEST_Amar_Sekarwangi.png?v=1789038817&width=3200
 bd1645f1f645,Sanctuary of Hope,Alliances,Equilibra Resource,grey,L,,2,,,,,,,"Sanctuary of Hope enters play with 2 Hope counters.
@@ -2134,14 +2131,14 @@ Zone would take DMG, this Character takes that DMG
 instead.)",,machine,https://bluthelden.com/cdn/shop/files/BL_D-14_Ebb_Guardian.png?v=1781882024&width=3200
 32acfcc2a2ea,Elixir of Life,Alliances,Spell,blue,N,2,,,,,,,,Unturn target Character you control.,,machine,https://bluthelden.com/cdn/shop/files/BL_D-16_Elixir_of_Life.png?v=1781882024&width=3200
 b0f987d4623e,Elixir of Life,Alliances,Spell,blue,N,2,,,,,,,,Unturn target Character you control.,,machine,https://bluthelden.com/cdn/shop/files/BL_D-15_Elixir_of_Life.png?v=1781882024&width=3200
-ea0f5f120c73,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,,1,4,,3,3,,,"Drowning Touch (Characters damaged by this Character
+ea0f5f120c73,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,2,1,1,2,3,3,,,"Drowning Touch (Characters damaged by this Character
 get a Drenched counter. They gain 1 INI-1 counter at the
 end of each round.)
 •: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as a combat action and only if this card is in
 the Back Row.)",,machine,https://bluthelden.com/cdn/shop/files/BL_D-17_Harpoon_Hunter.png?v=1781882025&width=3200
-7f564ee80b3e,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,,1,4,,3,3,,,"Drowning Touch (Characters damaged by this Character
+7f564ee80b3e,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,2,1,1,2,3,3,,,"Drowning Touch (Characters damaged by this Character
 get a Drenched counter. They gain 1 INI-1 counter at the
 end of each round.)
 •: Ranged Combat (It deals DMG equal to its Power
@@ -2163,7 +2160,7 @@ attach it to this Character.",,machine,https://bluthelden.com/cdn/shop/files/BL_
 attach it to this Character.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-26_Lizard_Keeper.png?v=1781882028&width=3200
 32df081427b1,Lizardkeeper,Alliances,"Character, Lizard",blue,N,4,1,4,2,4,4,,,"O, [Turn]: Create a Shield of Water Training Token ande
 attach it to this Character.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-25_Lizard_Keeper.png?v=1781882026&width=3200
-068743b8e66f,"Rex, Dragon of Deception",Alliances,"Epic Character, Lizard",blue,,4,2,4,,4,4,,,"Magic Control (Whenever this Character becomes the
+068743b8e66f,"Rex, Dragon of Deception",Alliances,"Epic Character, Lizard",blue,L,4,2,4,4,4,4,,,"Magic Control (Whenever this Character becomes the
 target of a Spell or Ability your opponent controls, if it is
 unturned, reduce the Spellpower of that Spell or Ability by 1.
 If it has no Spellpower value, it gains Spellpower equal to 5
@@ -2183,7 +2180,7 @@ Graveyard.)
 3: Put one Interrupt counter on this Artifact.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-32_Spell_Disruptor.png?v=1781882029&width=3200
 d8db8e7501a5,Wave,Alliances,Spell,blue,L,5,,,,,,5,,Deal 2 DMG to all non-Lizard Characters in target Lane.,,machine,https://bluthelden.com/cdn/shop/files/BL_D-35_Wave.png?v=1781882029&width=3200
 0d26d6fbac2b,Wave,Alliances,Spell,blue,L,5,,,,,,5,,Deal 2 DMG to all non-Lizard Characters in target Lane.,,machine,https://bluthelden.com/cdn/shop/files/BL_D-34_Wave.png?v=1781882030&width=3200
-ffe3ebeaa3c0,"Waron, Water Dragon",Alliances,"Epic Character, Dragon",blue,L,,2,4,3,4,5,,,"Drowning Touch (Characters damaged by this Character
+ffe3ebeaa3c0,"Waron, Water Dragon",Alliances,"Epic Character, Dragon",blue,L,5,2,4,3,4,5,,,"Drowning Touch (Characters damaged by this Character
 get a Drenched counter. A drenched Character gets 1 INI -1
 counter at the end of each round.)
 Magic Control
@@ -2191,13 +2188,13 @@ Magic Control
 attach it to this Character.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-36_Waron_Water_Dragon.png?v=1781882030&width=3200
 73fed58bc2c4,Water Jet,Alliances,Spell,blue,K,1,,,,,,3,,"Move target Character without turning it or spending
 its action. If it can't be moved, turn it instead.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-38_Water_Jet.png?v=1781882031&width=3200
-6f8aa1a0ca4a,Waterpriestress,Alliances,"Character, Lizard",blue,N,,2,4,,3,2,,,"If you control Novice of the Water you may pay 2 less
+6f8aa1a0ca4a,Waterpriestress,Alliances,"Character, Lizard",blue,N,4,2,1,4,3,2,,,"If you control Novice of the Water you may pay 2 less
 to summon Waterpriestress.
 If you do, Rise Novice of the Water.
 O: Gain O ASP as long as this Character remains
 3: Target Character in the same Lane gains
 Unblockable until the end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-40_Waterpriestress.png?v=1781882032&width=3200
-473c000d848f,Waterpriestress,Alliances,"Character, Lizard",blue,N,,2,4,,3,2,,,"If you control Novice of the Water you may pay 2 less
+473c000d848f,Waterpriestress,Alliances,"Character, Lizard",blue,N,4,2,1,4,3,2,,,"If you control Novice of the Water you may pay 2 less
 to summon Waterpriestress.
 If you do, Rise Novice of the Water.
 O: Gain O ASP as long as this Character remains
@@ -2237,12 +2234,12 @@ create a turned 5/5 Serpent of the Deep Token with
 «3: This Character gains Unblockable until end of this
 : Create a 5/5 Serpent of the Deep Token, activate
 only if you control no Serpent.",,machine,https://bluthelden.com/cdn/shop/files/BL_D-49_Issh_Kala_Daughter_of_Tirash_Ka.png?v=1781882034&width=3200
-4ae59401672a,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,,2,2,2,,,"If you control a LVL 2 Resource, : Rise (Search your
+4ae59401672a,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,1,2,2,2,,,"If you control a LVL 2 Resource, : Rise (Search your
 Spell Deck for a card named Waterpriestress and place
 it on this slot. Transfer all counters from Novice of the
 Water to it. Then destroy Novice of the Water.)
 •: Gain 1 ASP, as long as this Character remains",,machine,https://bluthelden.com/cdn/shop/files/BL_D-50_Novice_of_the_water.png?v=1781882035&width=3200
-ea38137d0191,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,,2,2,2,,,"If you control a LVL 2 Resource, : Rise (Search your
+ea38137d0191,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,1,2,2,2,,,"If you control a LVL 2 Resource, : Rise (Search your
 Spell Deck for a card named Waterpriestress and place
 it on this slot. Transfer all counters from Novice of the
 Water to it. Then destroy Novice of the Water.)
@@ -2305,7 +2302,7 @@ Deal DMG to target Character equal to the sacrificed
 Character's POW.",,machine,https://bluthelden.com/cdn/shop/files/RD_D-10_Baerenkatapult.png?v=1782382064&width=3200
 b51320adf791,Elite Warrior of the Burning Plains,Alliances,"Character, Orc",red,L,4,2,4,3,3,4,,,"As long as you control a Chieftain of War, this
 Character gains Two-Handed Combat and Speed.",,machine,https://bluthelden.com/cdn/shop/files/RD_D-11_Elite_Warrior_of_the_Burning_Plains.png?v=1782382064&width=3200
-a60c85ef6f79,Fireshaman,Alliances,"Character, Orc",red,N,,2,2,4,3,2,,,": Deal 2 DMG to target Character in the War
+a60c85ef6f79,Fireshaman,Alliances,"Character, Orc",red,N,4,2,2,4,3,2,,,": Deal 2 DMG to target Character in the War
 Zone in the same Lane. Activate only if you control a
 Chieftain of Magic.",,machine,https://bluthelden.com/cdn/shop/files/RD_D-14_FIreshaman.png?v=1782382063&width=3200
 ac0fdaa7085a,Flames of Khrakan,Alliances,Fundamental Training,red,L,3,,,,,,,,"Trained Character gains: 2, [Turn]: Deal 2 DMG to Target
@@ -2318,8 +2315,8 @@ Activate only as a combat action and only if this card is in
 the Back Row.)",,machine,https://bluthelden.com/cdn/shop/files/RD_D-20_Goblin_Archer.png?v=1782382064&width=3200
 dc20834541c4,Goblin Fire,Alliances,Spell,red,N,1,,,,,,3,,Deal 1 DMG to every Character in target War Zone.,,machine,https://bluthelden.com/cdn/shop/files/RD_D-22_Goblin_Fire.png?v=1782382064&width=3200
 29d2f8578025,Goblin Skewer,Alliances,"Character, Goblin",red,N,3,1,3,2,2,3,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_D-23_GOblin_skewer.png?v=1782382064&width=3200
-8f1b0dd75a7e,Horde Leader,Alliances,"Character, Orc",red,,4,2,4,4,3,4,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_D-25_Horde_Leader.png?v=1782382064&width=3200
-e005537a46cf,Orc Archer,Alliances,"Character, Orc",red,N,,2,3,2,3,4,,,"•: Ranged Combat (It deals DMG equal to its Power
+8f1b0dd75a7e,Horde Leader,Alliances,"Character, Orc",red,L,4,2,4,4,3,4,,,,,machine,https://bluthelden.com/cdn/shop/files/RD_D-25_Horde_Leader.png?v=1782382064&width=3200
+e005537a46cf,Orc Archer,Alliances,"Character, Orc",red,N,4,2,3,2,3,4,,,"•: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as a combat action and only if this card is in
 the Back Row)",,machine,https://bluthelden.com/cdn/shop/files/RD_D-29_ORC_Archer.png?v=1782382065&width=3200
@@ -2409,11 +2406,11 @@ other Character in the same Lane. Then, if the trained
 Character has 0 or less RES, banish it.",,machine,https://bluthelden.com/cdn/shop/files/PU_D-21_Magical_Raindrop.png?v=1783244419&width=3200
 5cf035f37fd7,Messenger Fae,Alliances,"Character, Fairy",purple,K,2,1,4,2,3,4,,,®: Return Messenger Fae to its owner's hand.,,machine,https://bluthelden.com/cdn/shop/files/PU_D-23_messenger_fae.png?v=1783244418&width=3200
 3d78069230c9,Not Your Time,Alliances,Spell,purple,K,2,,,,,,3,,Return target Character to its owner's hand.,,machine,https://bluthelden.com/cdn/shop/files/PU_D-24_not_your_time.png?v=1783244417&width=3200
-ac355275934a,Pollen Fairy,Alliances,"Character, Fairy",purple,K,2,1,1,,3,3,,,"•: Ranged Combat (It deals DMG equal to its Power
+ac355275934a,Pollen Fairy,Alliances,"Character, Fairy",purple,K,2,1,1,2,3,3,,,"•: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as combat action and only if this card is in the
 Back Row.)",,machine,https://bluthelden.com/cdn/shop/files/PU_D-28_Pollen_FAiry.png?v=1783244420&width=3200
-43f38f0dca63,Pollen Gun,Alliances,"Character, Fairy",purple,N,,2,2,2,4,3,,,"®: Ranged Combat (It deals DMG equal to its Power
+43f38f0dca63,Pollen Gun,Alliances,"Character, Fairy",purple,N,3,2,2,2,4,3,,,"®: Ranged Combat (It deals DMG equal to its Power
 to target Character in a War Zone within the same Lane.
 Activate only as combat action and only if this card is in the
 Back Row.)
@@ -2422,7 +2419,7 @@ same Lane.",,machine,https://bluthelden.com/cdn/shop/files/PU_D-30_Pollen_Gun.pn
 af2ca3dd8f16,Protector of the Mirrorblossom,Alliances,"Character, Human",purple,N,4,2,2,6,4,4,,,"Sacrifice Protector of the Mirrorblossom: Redirect the
 next DMG a Fairy you control would take this round to a
 Character your opponent controls instead.",,machine,https://bluthelden.com/cdn/shop/files/PU_D-32_Protector_of_the_mirrorblossom.png?v=1783244419&width=3200
-cbfc3d42a664,"Ralin, Toshi's Brother",Alliances,"Epic Character, Human",purple,L,,2,5,5,5,5,,,"When Ralin, Toshi's Brother enters play, return up to one
+cbfc3d42a664,"Ralin, Toshi's Brother",Alliances,"Epic Character, Human",purple,L,5,2,5,5,5,5,,,"When Ralin, Toshi's Brother enters play, return up to one
 target Character your opponent controls in the same Lane
 to its owner's hand. Then create 1 Alliance Training Token
 and attach it to Ralin, Toshis Brother.
@@ -2437,7 +2434,7 @@ their owner's hands. Then return up to that many
 Characters your opponent controls to their owners'",,machine,https://bluthelden.com/cdn/shop/files/PU_D-37_Soul_REcall.png?v=1783244418&width=3200
 11e5b2eaef3a,Stellar Magic,Alliances,Spell,purple,N,3,,,,,,5,,"Return an Artifact, Character, Ritual or Training to its
 owner's hand.",,machine,https://bluthelden.com/cdn/shop/files/PU_D-39_Stellar_Magic.png?v=1783244419&width=3200
-363471639f30,Whispering Pixie,Alliances,"Character, Fairy",purple,L,,2,2,3,3,4,,,"When Whispering Pixie enters play, use String of
+363471639f30,Whispering Pixie,Alliances,"Character, Fairy",purple,L,4,2,2,3,3,4,,,"When Whispering Pixie enters play, use String of
 Destiny 2. (Look at the 2 top or bottom cards ofyour Spell
 Deck. You may put them on top or bottom of your Spell Deck
 in any order)",,machine,https://bluthelden.com/cdn/shop/files/PU_D-41_WHispering_Pixie.png?v=1783244419&width=3200
@@ -2509,16 +2506,16 @@ Once per round, if you create a non-Character Token,
 create 1 additional Token of the same kind.",,machine,https://bluthelden.com/cdn/shop/files/BR-D-20_Ring_of_Earth.png?v=1783769545&width=3200
 b69eacd24b5c,Rumbin the Goat Herder,Alliances,"Epic Character, Dwarf",brown,N,4,2,3,4,3,3,,,"When Rumbin the Goat Herder enters play, create a
 2/2 Goat Stone Character Token.",,machine,https://bluthelden.com/cdn/shop/files/BR-D-22_Rumbin_the_Goat_Herder.png?v=1783769543&width=3200
-32ee8d52234d,Stone Giant,Alliances,"Character, Stone",brown,L,6,2,6,,3,3,,,"Dual Slot (This Character occupies two Slots in the War
+32ee8d52234d,Stone Giant,Alliances,"Character, Stone",brown,L,6,2,6,6,3,3,,,"Dual Slot (This Character occupies two Slots in the War
 Overrun (When this Character enters play, it deals DMG
 equal to its POW to target Character your opponent controls
 in the same Lane)",,machine,https://bluthelden.com/cdn/shop/files/BR-D-27_Stone_Giant.png?v=1783769545&width=3200
-bfe8309c2c3d,Stonemason,Alliances,"Character, Dwarf",brown,K,3,1,2,,3,3,,,"[Turn], sacrifice 1 Lerium: Target Stone Character
+bfe8309c2c3d,Stonemason,Alliances,"Character, Dwarf",brown,K,3,1,2,4,3,3,,,"[Turn], sacrifice 1 Lerium: Target Stone Character
 regenerates 1 HP.",,machine,https://bluthelden.com/cdn/shop/files/BR-D-29_Stonemason.png?v=1783769539&width=3200
 8f4f9c1d64ad,Stoneix Arkeia,Alliances,Spell,brown,N,1,,,,,,,,"Create 3 Lerium Tokens. (It's an Artifact Token with
 «Sacrifice this Artifact: Target Stone Character you control
 gains POW/HP +0/+1 until the end of this round.i)",,machine,https://bluthelden.com/cdn/shop/files/BR-D-32_Stoneix_Arkeia.png?v=1783769545&width=3200
-e19dd1bb8065,Stoneworm,Alliances,"Character, Stone",brown,L,,2,6,6,,3,,,"When Stoneworm enters play, create 2 Lerium Tokens.
+e19dd1bb8065,Stoneworm,Alliances,"Character, Stone",brown,L,6,2,6,6,4,3,,,"When Stoneworm enters play, create 2 Lerium Tokens.
 (It's an Artifact Token with ""Sacrifice this Artifact: Target
 Stone Character you control gains POW/HP +0/+1 until the
 end of this roundi)",,machine,https://bluthelden.com/cdn/shop/files/BR-D-34_Stonewurm.png?v=1783769543&width=3200
@@ -2526,10 +2523,10 @@ ebdd3b2d8c11,Tail Swipe,Alliances,Spell,brown,K,3,,,,,,4,,"As an additional cost
 sacrifice 2 Lerium.
 Deal 1 DMO to every Character in target War Lone.
 It this Spell' s additional cost was paid, deal 2 DMG",,machine,https://bluthelden.com/cdn/shop/files/BR-D-36_Tail_Swipe.png?v=1783769541&width=3200
-ab1cf79dd829,The Giant Golem,Alliances,"Character, Stone",brown,F,,2,,7,3,3,,,"Dual Slot (This Character occupies two Slots in the War
+ab1cf79dd829,The Giant Golem,Alliances,"Character, Stone",brown,F,6,2,7,7,3,3,,,"Dual Slot (This Character occupies two Slots in the War
 Sacrifice 1 Lerium Token: This Character gains Punch
 until the end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BR-D-37_Giant_Golem.png?v=1783769541&width=3200
-c24dc21b5ce8,"Vorax, the Worm",Alliances,"Epic Character, Stone",brown,L,,2,4,,3,2,,,"Dual Slot (This Character occupies two Slots in the War
+c24dc21b5ce8,"Vorax, the Worm",Alliances,"Epic Character, Stone",brown,L,6,2,4,6,3,2,,,"Dual Slot (This Character occupies two Slots in the War
 If you control a Worm Token, pay 2 ASP less to
 summon Vorax, the Worm, then Rise Worm Token.
 When Vorax, the Worm emerges in your opponent's
@@ -2573,5 +2570,5 @@ until the end of this roundi)
 [Turn]: Create 1 Lerium Token.",,machine,https://bluthelden.com/cdn/shop/files/BR-D-60_Stone_Treasure.png?v=1783769543&width=3200
 9f41179a768d,Lerium,Alliances,Token Artifact,brown,T,,,,,,,,,"Sacrifice this Artifact: Target Stone Character you
 control gains POW/HP +0/+1 until the end of this round.",,machine,https://bluthelden.com/cdn/shop/files/BR-TK-01a_LeriumToken.png?v=1783769544&width=3200
-dc9b3a6103a8,Stone Giant,Alliances,"Token Character, Stone",brown,T,,,,,,,,,"З СЕ 166
+dc9b3a6103a8,Stone Giant,Alliances,"Token Character, Stone",brown,T,,,6,6,3,3,,,"З СЕ 166
 Dual Slot",,machine,https://bluthelden.com/cdn/shop/files/BR-TK03a_Stone_Giant_Token.png?v=1783769539&width=3200

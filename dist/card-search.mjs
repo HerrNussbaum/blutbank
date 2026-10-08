@@ -49,4 +49,20 @@ function matches(card,filters={}) {
   }
   return true;
 }
-export const CardSearch={names,numeric,normalize,label,text,query,matches};
+// Keep distinct names distinct; ignore case, spacing and typographic punctuation only.
+const nameKey = name => normalize(name).replace(/[^\p{L}\p{N}]/gu,'');
+function group(cards,filters={}) {
+  const groups=new Map();
+  for(const card of cards){
+    const key=nameKey(card.name)||card.id;
+    if(!groups.has(key))groups.set(key,{key,name:card.name,variants:[]});
+    groups.get(key).variants.push(card);
+  }
+  return [...groups.values()].map(g=>{
+    const hits=g.variants.filter(c=>matches(c,filters));
+    // Prefer a regular printing when it matches, while preserving every variant.
+    const card=hits.find(c=>!c.variant&&!/promo|organized|winner/i.test(c.group||''))||hits[0];
+    return {...g,card,matches:hits};
+  }).filter(g=>g.card);
+}
+export const CardSearch={names,numeric,normalize,label,text,query,matches,nameKey,group};

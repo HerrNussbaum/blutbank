@@ -1,0 +1,9 @@
+{
+  "name": "blutbank",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "python3 scripts/build_content.py",
+    "test": "node scripts/validate.mjs && node scripts/test-card-search.mjs"
+  }
+}

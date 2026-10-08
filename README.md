@@ -46,6 +46,41 @@ Ein Eintrag in `content/cards.json` hat eine stabile `id`, `name`, `code`, `set`
 
 Kartenbilder werden direkt vom offiziellen Bluthelden-CDN geladen; die Website benötigt dafür Internetzugriff. Kartennamen und Bilder bleiben in ihrer Originalsprache. Vorhandene offizielle Hinweise/Errata erscheinen ebenfalls in ihrer Originalsprache. Namen aus Bilddateien sind im Detail ausdrücklich gekennzeichnet und können redaktionell korrigiert werden. Einträge zählen Abbildungen und Varianten, nicht einzigartige spielmechanische Karten.
 
+## Kartentexte und Eigenschaftensuche
+
+Alle 729 erfassten Abbildungen und Varianten besitzen eine strukturierte Textfassung in `content/card-texts.json`. Dies sind maschinelle Transkriptionen, keine vollständig geprüften offiziellen Kartendaten. Insbesondere kleine Zahlen, Kosten und Symbole können fehlen oder fehlerhaft sein. Das Kartenbild und offizielle Errata bleiben maßgeblich. Kartentexte bleiben in ihrer gedruckten Sprache; die Bedienung ist deutsch und englisch.
+
+Die Suche kombiniert Wörter, `"genaue Wortfolgen"` und Zahlenvergleiche wie `asp<=4 pow>=3`. Filter gibt es für Edition, Farbe, Kartentyp, Untertyp, Seltenheit, Begriffe im Kartentext, Traits, Pool/Binding/Rise sowie Bereiche für ASP, LVL, RES, INI, POW, HP, MAG und LP. Alle Bedingungen werden mit UND verbunden. Filter bleiben beim Sprachwechsel erhalten und lassen sich über die Adresse teilen. Fehlende Werte (`null`) bedeuten unbekannt oder nicht aufgedruckt und werden niemals als 0 behandelt. Erwähnte Schlüsselwörter bedeuten nicht zwingend, dass die Karte die Fähigkeit selbst hat.
+
+### Korrekturen ohne Texterkennung
+
+1. Die stabile Karten-ID im JSON-Download oder Direktlink nachsehen.
+2. In `content/card-overrides.json` einen Eintrag unter dieser ID ergänzen. Nur korrigierte Felder angeben, zum Beispiel:
+
+```json
+{"cca2d2102a69": {"stats": {"asp": 4}, "reviewedFields": ["stats.asp"]}}
+```
+
+3. `npm run build` und `npm test` ausführen. Der Build wendet Korrekturen auf die Textdaten an und erzeugt die Website sowie JSON-/CSV-Downloads. Dafür werden nur Python 3 und Node.js benötigt, keine Texterkennung oder Bilddateien. Arrays werden ersetzt, Unterobjekte wie `stats` zusammengeführt. `status: "reviewed"` erst setzen, wenn der gesamte Datensatz anhand des Originals geprüft wurde.
+
+Neue Karten benötigen zusätzlich zu `content/cards.json` einen Textdatensatz unter derselben ID. Der Build prüft die vollständige Zuordnung. `rawText` bewahrt die ursprüngliche Erkennung; `rulesText` enthält den bearbeitbaren Regeltext, `source` verweist auf das Originalbild. Die Tests prüfen Suchverhalten, unbekannte Werte, Datenzuordnung und Regelverweise.
+
+### Maschinelle Erfassung wiederholen (optional, macOS)
+
+Die bereits eingecheckten Textdaten reichen für Pflege und Veröffentlichung aus. Für eine neue Erfassung werden macOS/Apple Vision, Swift, Tesseract sowie Python mit Pillow und NumPy benötigt. Die folgenden Schritte laden die offiziellen Bilder, erkennen Texte und Zahlen und übernehmen anschließend die manuellen Korrekturen:
+
+```sh
+python3 scripts/download_card_images.py
+python3 scripts/run_card_ocr.py
+python3 scripts/extract_card_values.py
+python3 scripts/refine_card_levels.py
+python3 scripts/build_card_texts.py
+npm run build
+npm test
+```
+
+Zwischenergebnisse liegen ausschließlich unter `.cache/` und werden nicht veröffentlicht. Nach jedem Import müssen neue oder geänderte Karten visuell geprüft werden. Layoutbasierte Erkennung ist bei neuen Kartengestaltungen anzupassen.
+
 ## Karten neu importieren
 
 Die gespeicherten Quellseiten liegen unter `sources/`. Zum Aktualisieren diese vier Seiten in die entsprechenden Dateien herunterladen:

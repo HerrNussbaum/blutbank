@@ -2,3 +2,5 @@
 __pycache__/
 .sites-runtime/
 *.tar.gz
+
+.cache/

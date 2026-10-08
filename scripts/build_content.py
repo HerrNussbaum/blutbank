@@ -25,4 +25,27 @@ assert all(not t['rule'] or t['rule'] in {s['id'] for s in source} for t in term
 save('glossary.json',terms)
 print(f'{len(source)} bilingual sections; {len(terms)} glossary entries')
 
-save('cards.json',json.loads((ROOT/'content/cards.json').read_text()))
+cards=json.loads((ROOT/'content/cards.json').read_text())
+texts=json.loads((ROOT/'content/card-texts.json').read_text())
+assert set(texts)=={c['id'] for c in cards}, 'Every card needs a text record'
+overrides=json.loads((ROOT/'content/card-overrides.json').read_text())
+assert set(overrides)<=set(texts), 'Correction references an unknown card ID'
+for id, patch in overrides.items():
+ for key,value in patch.items():
+  if isinstance(value,dict): texts[id][key].update(value)
+  else: texts[id][key]=value
+for c in cards:
+ d=texts[c['id']]
+ d['keywords']=[t['en'] for t in terms if t['kind']=='Keyword' and re.search(r'(?<!\w)'+re.escape(t['en'])+r'(?!\w)',d['rulesText'],re.I)]
+ c['text']=d
+save('cards.json',cards)
+save('card-texts.json',[{'id':c['id'],'name':c['name'],'set':c['set'],**texts[c['id']]} for c in cards])
+import csv
+with (ROOT/'dist/data/card-texts.csv').open('w',newline='',encoding='utf-8-sig') as f:
+ columns=['id','name','set','typeLine','colors','rarity','asp','level','pow','hp','res','ini','magic','lp','rulesText','additionalCostsText','status','source']
+ writer=csv.DictWriter(f,fieldnames=columns);writer.writeheader()
+ for c in cards:
+  d=texts[c['id']];row={k:d.get(k,'') for k in columns};row.update(id=c['id'],name=c['name'],set=c['set'],colors=', '.join(d['colors']),**d['stats'])
+  # Spreadsheet-safe export for source text beginning with formula characters.
+  row={k:("'"+v if isinstance(v,str) and v.startswith(('=','+','-','@')) else v) for k,v in row.items()}
+  writer.writerow(row)

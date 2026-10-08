@@ -1,0 +1,163 @@
+{
+  "cca2d2102a69": {
+    "stats": {
+      "asp": 4
+    },
+    "reviewedFields": [
+      "stats.asp"
+    ]
+  },
+  "54a2dfc78854": {
+    "stats": {
+      "asp": 4,
+      "magic": 4
+    },
+    "reviewedFields": [
+      "stats.asp",
+      "stats.magic"
+    ]
+  },
+  "9d7645b2b87e": {
+    "stats": {
+      "asp": 4,
+      "level": 2,
+      "res": 5
+    },
+    "mechanics": {
+      "pool": true
+    },
+    "colors": [
+      "white"
+    ],
+    "reviewedFields": [
+      "stats",
+      "mechanics.pool",
+      "colors"
+    ]
+  },
+  "4bee77b4f168": {
+    "stats": {
+      "asp": 4,
+      "level": 1,
+      "res": 3,
+      "ini": 4,
+      "pow": 2,
+      "hp": 3
+    },
+    "reviewedFields": [
+      "stats"
+    ]
+  },
+  "f8dbbb09d20f": {
+    "stats": {
+      "asp": 2,
+      "level": 1,
+      "res": 2,
+      "ini": 3,
+      "pow": 3,
+      "hp": 3
+    },
+    "mechanics": {
+      "rise": true
+    },
+    "reviewedFields": [
+      "stats",
+      "mechanics.rise"
+    ]
+  },
+  "7086e7323b11": {
+    "stats": {
+      "level": 2
+    },
+    "mechanics": {
+      "pool": true,
+      "binding": true
+    },
+    "reviewedFields": [
+      "stats.level",
+      "mechanics"
+    ]
+  },
+  "d0859d36e880": {
+    "stats": {
+      "lp": 30
+    },
+    "additionalCostsText": "Green / Blue: +0 ASP; Brown / Purple: +1 ASP; Red / Orange: +2 ASP; Black: cannot be played.",
+    "reviewedFields": [
+      "stats.lp",
+      "additionalCostsText"
+    ]
+  },
+  "cde4a87c9714": {
+    "types": [
+      "Character"
+    ],
+    "typeLine": "Elf",
+    "subtypes": [
+      "Elf"
+    ],
+    "stats": {
+      "asp": 3,
+      "res": 3,
+      "ini": 4,
+      "pow": 2,
+      "hp": 3
+    },
+    "rulesText": "2 ASP: Create one 1/2 Creeper Plant Token in target Slot.",
+    "reviewedFields": [
+      "typeLine",
+      "subtypes",
+      "stats",
+      "rulesText"
+    ]
+  },
+  "94e5bfd53f7f": {
+    "types": [
+      "Spell"
+    ],
+    "typeLine": "Spell",
+    "subtypes": [],
+    "stats": {
+      "asp": 2
+    },
+    "rulesText": "Choose one: Sacrifice target Character you control, to gain 1 ASP or Bloodrush 1 to target Character you control. (It gains POW/HP +1/+1. Banish it at the end of this round.)",
+    "reviewedFields": [
+      "typeLine",
+      "types",
+      "stats.asp",
+      "rulesText"
+    ]
+  },
+  "7c202ab6d014": {
+    "types": [
+      "Token"
+    ],
+    "typeLine": "Token",
+    "subtypes": [
+      "Tree"
+    ],
+    "rulesText": "Part 2",
+    "reviewedFields": [
+      "typeLine",
+      "types",
+      "subtypes",
+      "rulesText"
+    ]
+  },
+  "7be6b2c6dd9a": {
+    "types": [
+      "Reference"
+    ],
+    "typeLine": "Rule card · Front",
+    "subtypes": [],
+    "rarity": null
+  },
+  "54c2b5434ba5": {
+    "types": [
+      "Reference"
+    ],
+    "typeLine": "Rule card · Back",
+    "subtypes": [],
+    "rarity": null
+  }
+}

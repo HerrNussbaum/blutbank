@@ -22,7 +22,7 @@ jobs:
       - name: Generate content
         run: python3 scripts/build_content.py
       - name: Validate rules, terms and references
-        run: node scripts/validate.mjs
+        run: npm test
       - name: Configure Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5

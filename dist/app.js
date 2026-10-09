@@ -1,5 +1,5 @@
 import {CardSearch} from './card-search.mjs';
-import {mountProxy} from './proxy-printer.mjs';
+import {mountProxy} from './proxy-printer.mjs?v=2';
 const $=s=>document.querySelector(s);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let de=[],en=[],cards=[],terms=[],state={},cardFilters={},limit=48,searchTimer; const t=(a,b)=>state.lang==='en'?b:a;
 const url=(view,id='',lang=state.lang)=>`#/${lang}/${view}${id?'/'+encodeURIComponent(id):''}${view==='cards'&&state.view==='cards'&&location.hash.includes('?')?'?'+location.hash.split('?')[1]:''}`;

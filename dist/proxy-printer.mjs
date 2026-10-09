@@ -1,8 +1,9 @@
+import {createPDF,loadPDFImage} from './proxy-pdf.mjs';
 import {CardSearch} from './card-search.mjs';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function parseList(input){
- return input.split(/\r?\n/).map((line,i)=>({line:line.trim(),number:i+1})).filter(x=>x.line).map(({line,number})=>{
-  const m=/^(\d+)\s*(?:[x×]\s*|\s+)(.+)$/i.exec(line);
+ return input.replace(/[\u200B-\u200D\u2060\uFEFF]/g,'').replace(/\\r\\n|\\n/g,'\n').replace(/(^|[\r\n\u2028\u2029])[\t ]*[-*•·][\t ]+/g,'$1').replace(/[\t ]+(?=\d+\s*[x×✕]\s)/gi,'\n').split(/\r\n|[\r\n\u2028\u2029]/).map((line,i)=>({line:line.trim().replace(/^(?:[-*•·]\s+|[☐□]\s*)/,'').trim(),number:i+1})).filter(x=>x.line).map(({line,number})=>{
+  const m=/^(\d+)\s*(?:[x×✕]\s*|\s+)(.+)$/i.exec(line);
   const quantity=m?Number(m[1]):1,name=m?m[2].trim():line;
   return {number,name,quantity,error:!name||!Number.isSafeInteger(quantity)||quantity<1||quantity>300||/^[-+\d]/.test(name)};
  });
@@ -24,7 +25,7 @@ export function mountProxy(root,cards,lang){
  <div class="proxy-actions"><button class="pill" id="proxy-resolve">${t('Liste übernehmen','Resolve list')}</button><span>${t('Bis zu 300 Karten · 9 pro A4-Seite','Up to 300 cards · 9 per A4 page')}</span></div>
  <div id="proxy-rows"></div><datalist id="proxy-names">${groups.map(g=>`<option value="${esc(g.name)}"></option>`).join('')}</datalist>
  <details class="advanced-filters"><summary>${t('Druckformat','Print size')}</summary><p>${t('Voreinstellung: 63 × 88 mm. Bilder werden vollständig eingepasst. Bei Bedarf kleinere Maße wählen.','Default: 63 × 88 mm. Images are fitted without cropping. Choose smaller dimensions if needed.')}</p><div class="proxy-actions"><label>${t('Breite (mm)','Width (mm)')} <input id="proxy-width" type="number" min="40" max="63" step="0.1" value="${width}"></label><label>${t('Höhe (mm)','Height (mm)')} <input id="proxy-height" type="number" min="60" max="88" step="0.1" value="${height}"></label></div></details>
- <div class="proxy-actions"><button class="pill" id="proxy-preview">${t('Druckvorschau erstellen','Prepare print preview')}</button><button class="pill" id="proxy-print" disabled>${t('Drucken / als PDF speichern','Print / save as PDF')}</button></div>
+ <div class="proxy-actions"><button class="pill" id="proxy-preview">${t('Druckvorschau erstellen','Prepare print preview')}</button><button class="pill" id="proxy-pdf">${t('PDF herunterladen','Download PDF')}</button><button class="pill" id="proxy-print" disabled>${t('Drucken / als PDF speichern','Print / save as PDF')}</button></div>
  <p id="proxy-status" role="status" aria-live="polite"></p><p class="muted">${t('Im Druckdialog: A4, Hochformat, 100 % / tatsächliche Größe, keine Ränder sowie Kopf- und Fußzeilen ausschalten. Als Ziel „Als PDF speichern“ wählen. Die gestrichelten Linien helfen beim Ausschneiden.','In the print dialog: A4 portrait, 100% / actual size, no margins, and disable headers and footers. Select “Save as PDF” as the destination. Dashed lines guide cutting.')}</p><div id="proxy-preview-area"></div><p class="source-box">© Bluthelden · ${t('Proxy-Ausdrucke für private Testspiele. Kartenbilder werden von der offiziellen Quelle geladen.','Proxy prints for private playtesting. Card images load from the official source.')}</p>`;
  const $=s=>root.querySelector(s),status=message=>$('#proxy-status').textContent=message;
  function invalidate(){generation++;$('#proxy-print').disabled=true;$('#proxy-preview-area').replaceChildren();frame=null;}
@@ -58,6 +59,21 @@ export function mountProxy(root,cards,lang){
    $('#proxy-print').disabled=false;status(t(`${total} Karten · ${Math.ceil(total/9)} A4-Seiten · bereit zum Drucken.`,`${total} cards · ${Math.ceil(total/9)} A4 pages · ready to print.`));
   };
   current.srcdoc=html;$('#proxy-preview-area').append(current);
+ };
+ $('#proxy-pdf').onclick=async()=>{
+  if(!rows.length){$('#proxy-resolve').click();}
+  if(!rows.length||rows.some(r=>r.error||!r.id)){status(t('Bitte alle unbekannten oder ungültigen Zeilen korrigieren.','Please correct all unknown or invalid lines.'));return;}
+  const ids=rows.flatMap(r=>Array(r.quantity).fill(r.id));
+  if(ids.length>300){status(t('Maximal 300 Karten pro Druckauftrag.','Maximum 300 cards per print job.'));return;}
+  try{printDocument([],width,height)}catch{status(t('Breite muss 40–63 mm, Höhe 60–88 mm betragen.','Width must be 40–63 mm, height 60–88 mm.'));return;}
+  const token=generation,button=$('#proxy-pdf'),jobWidth=width,jobHeight=height;button.disabled=true;
+  status(t('PDF wird erstellt …','Creating PDF …'));
+  try{
+   const images=new Map();for(const id of new Set(ids)){const card=cards.find(c=>c.id===id);try{images.set(id,await loadPDFImage(card.original))}catch{throw Error(t('Bild konnte nicht geladen werden: ','Could not load image: ')+card.name)}}
+   if(token!==generation||!button.isConnected)return;
+   const blob=createPDF(ids,images,jobWidth,jobHeight),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='blutbank-proxies.pdf';a.click();setTimeout(()=>URL.revokeObjectURL(url),60000);
+   status(t(`${ids.length} Karten · ${Math.ceil(ids.length/9)} A4-Seiten · PDF erstellt.`,`${ids.length} cards · ${Math.ceil(ids.length/9)} A4 pages · PDF created.`));
+  }catch(error){if(token===generation&&button.isConnected)status(error.message)}finally{button.disabled=false;}
  };
  $('#proxy-print').onclick=()=>{if(frame&&!$('#proxy-print').disabled){frame.contentWindow.focus();frame.contentWindow.print()}};
  renderRows();

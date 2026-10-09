@@ -143,3 +143,9 @@ Die 151 priorisierten Einträge mit Erkennungslücken wurden gezielt geprüft: s
 ### Karten nach Namen gruppieren
 
 Katalog und Archivsuche zeigen pro Kartenname einen Treffer. Groß-/Kleinschreibung, Leerzeichen und typografische Satzzeichen werden beim Vergleich vereinheitlicht; ähnlich klingende Namen werden nicht automatisch zusammengelegt. Eine passende reguläre Ausgabe wird bevorzugt. Bei aktiven Filtern muss eine einzelne Ausgabe alle Bedingungen erfüllen; Bedingungen verschiedener Ausgaben werden nicht vermischt. Beim Öffnen sind alle Ausgaben über Bildminiaturen auswählbar. Jede Ausgabe behält ihre eigenen Texte, Eigenschaften, Quellen und Direktlinks. Leere Eigenschaften und Textabschnitte werden ausgeblendet; gedruckte Nullwerte bleiben sichtbar.
+
+### Proxy-Drucker
+
+Unter `#/de/proxy` bzw. `#/en/proxy` eine Karte pro Zeile eingeben: `4 Zayas Ritual`, `2x Amazon Rider` oder einen Namen ohne Anzahl für eine Kopie. Nach dem Übernehmen lassen sich Namen korrigieren und Druckvarianten auswählen. Maximal 300 Karten je Auftrag. Unbekannte Namen, ungültige Mengen und Bildfehler blockieren den Druck.
+
+Die Vorschau verwendet A4 mit höchstens neun Karten in einem 3×3-Raster. Standardformat 63 × 88 mm, bei Bedarf verkleinerbar; Bilder bleiben vollständig sichtbar. Über „Drucken / als PDF speichern“ öffnet sich der Druckdialog des Browsers. A4, Hochformat, 100 %/tatsächliche Größe, keine Ränder und keine Kopf-/Fußzeilen einstellen. Die Liste bleibt während Navigation und Sprachwechsel im aktuellen Tab erhalten, wird aber nicht an einen Server übertragen oder dauerhaft gespeichert. Kartenbilder werden vom offiziellen CDN geladen.

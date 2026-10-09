@@ -20,7 +20,7 @@ assert(cards.some(c=>c.set==='Origin')&&cards.some(c=>c.set==='Alliances'));
 let script=readFileSync(resolve(root,'dist/app.js'),'utf8');
 script=script.slice(0,script.indexOf("$('.skip')"));
 const context=vm.createContext({console,CardSearch,document:{querySelector:()=>null}});
-vm.runInContext(script.replace(/^import .*;\n/,''),context);
+vm.runInContext(script.replace(/^import .*;\n/gm,''),context);
 context.data={de,en,terms,cards};
 vm.runInContext('de=data.de;en=data.en;terms=data.terms;cards=data.cards;state={lang:"de"};',context);
 const render=(text,lang='de')=>{context.input=text;context.language=lang;return vm.runInContext('state.lang=language;linkText(input)',context)};

@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "python3 scripts/build_content.py",
-    "test": "node scripts/validate.mjs && node scripts/test-card-search.mjs && node scripts/test-proxy-printer.mjs"
+    "build": "python3 scripts/build_content.py && node scripts/update_card_identities.mjs",
+    "test": "node scripts/validate.mjs && node scripts/test-card-search.mjs && node scripts/test-proxy-printer.mjs && node scripts/test-deck-model.mjs",
+    "build:hosting": "python3 scripts/build_hosting.py"
   }
 }

@@ -20,9 +20,11 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Generate content
-        run: python3 scripts/build_content.py
+        run: npm run build
       - name: Validate rules, terms and references
         run: npm test
+      - name: Test PHP API
+        run: python3 scripts/test-server.py
       - name: Configure Pages
         if: github.event_name != 'pull_request'
         uses: actions/configure-pages@v5

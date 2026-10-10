@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {webcrypto} from 'node:crypto';
+import {serialize,deserialize} from 'node:v8';
+globalThis.crypto??=webcrypto;globalThis.structuredClone??=v=>deserialize(serialize(v));
+const {indexCards,newDeck,validateDeck,addCard,importText,deckStats,DeckStore}=await import('../dist/deck-model.mjs');
+const cards=JSON.parse(readFileSync(new URL('../dist/data/cards.json',import.meta.url))),ids=JSON.parse(readFileSync(new URL('../dist/data/card-identities.json',import.meta.url))),index=indexCards(cards,ids);
+assert.equal(new Set(index.map(g=>g.id)).size,index.length);
+let d=newDeck('Test'),g=index.find(g=>g.variants.length>1);d=addCard(d,g);d=addCard(d,g);assert.equal(d.entries[0].quantity,2);d=addCard(d,g,g.variants.find(c=>c.id!==g.card.id).id);assert.equal(deckStats(d,index).total,3);validateDeck(d,index);
+assert.throws(()=>validateDeck({...d,entries:[{...d.entries[0],quantity:-1}]},index));assert.throws(()=>validateDeck({...d,entries:[{...d.entries[0],printingId:'missing'}]},index));
+const mem=new Map(),storage={getItem:k=>mem.get(k)||null,setItem:(k,v)=>mem.set(k,v)},store=new DeckStore(storage);store.save(d,index);assert.equal(store.read()[0].name,'Test');store.save({...d,trashed:true},index);assert.equal(store.read().length,1);assert.equal(store.read()[0].trashed,true);
+const input=importText('3x Cursed Command\n2x Oracle',index);assert.equal(input.errors.length,0);assert.equal(input.entries.reduce((n,e)=>n+e.quantity,0),5);assert.equal(importText('2x nonexistent',index).errors.length,1);
+mem.set(store.key,'broken');assert.throws(()=>store.read());assert.equal(mem.get(store.key),'broken');
+console.log('Deck model: stable identities, versions, quantities, validation, persistence and imports passed.');
+globalThis.localStorage=storage;
+await import('../dist/deck-builder.mjs');await import('../dist/deck-online.mjs');
+console.log('Deck UI modules load successfully.');

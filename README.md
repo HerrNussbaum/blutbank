@@ -151,3 +151,7 @@ Unter `#/de/proxy` bzw. `#/en/proxy` eine Karte pro Zeile eingeben: `4 Zayas Rit
 Die Vorschau verwendet A4 mit höchstens neun Karten in einem 3×3-Raster. Standardformat 63 × 88 mm, bei Bedarf verkleinerbar; Bilder bleiben vollständig sichtbar. Über „Drucken / als PDF speichern“ öffnet sich der Druckdialog des Browsers. A4, Hochformat, 100 %/tatsächliche Größe, keine Ränder und keine Kopf-/Fußzeilen einstellen. Die Liste bleibt während Navigation und Sprachwechsel im aktuellen Tab erhalten, wird aber nicht an einen Server übertragen oder dauerhaft gespeichert. Kartenbilder werden vom offiziellen CDN geladen.
 
 Der Proxy-Drucker bietet außerdem **PDF herunterladen**: erzeugt direkt eine A4-PDF mit eingebetteten Kartenbildern, ohne Browser-Druckdialog. Wiederholte Karten teilen sich ein Bildobjekt. Kopierte Listen dürfen Aufzählungszeichen, unsichtbare Trennzeichen oder durch Leerzeichen getrennte `3x Name`-Einträge enthalten.
+
+## Deckbuilder
+
+Unter `#/de/decks` bzw. `#/en/decks`: lokale Deckverwaltung, Import/Export, Kartenbereiche, Versionswahl, ASP-Verteilung und Proxy-Übergabe. Die optionale Online-Anbindung verwendet PHP und MySQL; Einrichtung und Grenzen siehe [HOSTING.md](docs/HOSTING.md). GitHub Pages bleibt ohne Online-Konten nutzbar.

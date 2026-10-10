@@ -4,3 +4,6 @@ __pycache__/
 *.tar.gz
 
 .cache/
+server/vendor/
+server/private/config.php
+release/

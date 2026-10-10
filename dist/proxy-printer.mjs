@@ -16,6 +16,7 @@ export function printDocument(items,width=63,height=88){
  </style></head><body>${paginate(items).map(page=>`<section class="sheet">${page.map(c=>`<div class="card"><img src="${esc(c.original)}" alt="${esc(c.name)}"></div>`).join('')}</section>`).join('')}</body></html>`;
 }
 let draft='',rows=[],width=63,height=88;
+export function setProxyDeck(entries,cards){rows=entries.map((e,i)=>({number:i+1,name:cards.find(c=>c.id===e.id).name,quantity:e.quantity,id:e.id,error:false}));draft=rows.map(r=>`${r.quantity}x ${r.name}`).join('\n');}
 export function mountProxy(root,cards,lang){
  const t=(de,en)=>lang==='en'?en:de,groups=CardSearch.group(cards),byKey=new Map(groups.map(g=>[g.key,g]));
  let generation=0,frame;

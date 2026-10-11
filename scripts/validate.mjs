@@ -46,3 +46,15 @@ context.input=de.find(r=>r.id==='13.3').body;
 const table=vm.runInContext('renderBody(input)',context);
 assert.equal((table.match(/<table>/g)||[]).length,2,'REL tables must render semantically');
 console.log(`Validated ${de.length} bilingual sections, ${terms.length} terms, ${cards.length} card variants and ${links} internal references.`);
+// Landing search shares matching with the full archive and preserves deep links.
+context.location={hash:''};
+assert.equal(vm.runInContext('readState().view',context),'home');
+context.location.hash='#/en/home/Oracle';
+assert.equal(vm.runInContext('readState().id',context),'Oracle');
+assert.equal(vm.runInContext('readState().lang',context),'en');
+context.location.hash='#/de/rules/4.9.3';
+assert.equal(vm.runInContext('readState().id',context),'4.9.3');
+assert(vm.runInContext('findResults("Oracle").cc.some(x=>x.card.name==="Oracle")',context));
+assert(vm.runInContext('findResults("ASP").tt.length>0 && findResults("ASP").rr.length>0',context));
+assert.equal(vm.runInContext('findResults("").cc.length',context),0);
+console.log('Landing routes and shared card, term and rule search passed.');

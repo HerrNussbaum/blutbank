@@ -33,3 +33,9 @@ Lange Inhalte dürfen die Seite verlängern. Lesbarkeit und freie Ränder haben 
 ## Prüfung
 
 Regeln, Begriffsregister, Kartenarchiv, Kartenseite, erweiterte Suche, Proxy-Drucker und Deckeditor wurden im Browser geprüft. Bei 390 Pixel Breite zeigen die geprüften Ansichten keine seitlichen Überläufe und behalten beidseitig 24 Pixel Rand. Die vorhandenen automatischen Inhalts-, Such-, Proxy- und Deckprüfungen bestehen weiterhin.
+
+## Suche als Startseite
+
+Die Startseite enthält als einziges zentrales Element eine große Suchleiste. Sie steht bereits im initialen HTML und wartet nicht auf die Kartendaten. Die Kopfzeile blendet nach 360 Millisekunden innerhalb von 240 Millisekunden ein; ihr Platz ist reserviert, sodass nichts springt. Bei reduzierter Bewegung entfällt die Animation. Die Kopfzeile hebt sich mit einem Verlauf von dunklem Blutrot über ein gedämpftes Rotbraun zu Schwarz ab.
+
+Suchergebnisse erscheinen nach 120 Millisekunden Eingabepause, mit einer begrenzten Vorschau aus Karten, Regeln und Begriffen sowie Links zu allen Ergebnissen. Suche und Sprache bleiben in der URL erhalten; das Schließen einer Karte führt zur Suche zurück. Fließtexte verwenden durchgehend Blocksatz und automatische Silbentrennung; Navigation, Beschriftungen und tabellarische Werte behalten ihre natürliche Ausrichtung.

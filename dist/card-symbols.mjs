@@ -6,3 +6,10 @@ export function symbolText(value) {
     .replace(/\[ASP\s*:?\s*(\d+|X)\]|\[(\d+|X)\s*ASP\]/gi, (_, a, b) => `{${a || b}}`);
 }
 export const aspText = value => value == null || value === '' ? '' : `{${value}}`;
+
+/** OCR line wrapping follows the printed image, not the available text column. */
+export function cardFlow(value) {
+  return symbolText(value).split(/\n{2,}/).map(paragraph =>
+    paragraph.replace(/\n(?!\{(?:T|X|\d+)\}|[•●]\s)/g, ' ')
+  ).join('\n\n');
+}

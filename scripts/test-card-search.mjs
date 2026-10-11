@@ -75,3 +75,5 @@ assert.equal(symbolText('{T}: Generate {X}. Cost: X ASP.'),'{T}: Generate {X}. C
 assert.equal(aspText(0),'{0}');assert.equal(aspText(null),'');
 for(const c of cards)assert(!/\[Turn\]|\b\d+ ASP\b/.test(c.text.rulesText),'Built text uses shared symbol notation');
 console.log('Advanced filters, symbol notation, literal turn text and zero/missing stats passed.');
+const {cardFlow}=await import('../dist/card-symbols.mjs');
+assert.equal(cardFlow('Draw a\ncard.\n[Turn]: Generate\n2 ASP.\n\nAnother ability.'),'Draw a card.\n{T}: Generate {2}.\n\nAnother ability.');

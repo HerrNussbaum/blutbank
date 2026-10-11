@@ -39,3 +39,15 @@ Regeln, Begriffsregister, Kartenarchiv, Kartenseite, erweiterte Suche, Proxy-Dru
 Die Startseite enthält als einziges zentrales Element eine große Suchleiste. Sie steht bereits im initialen HTML und wartet nicht auf die Kartendaten. Die Kopfzeile blendet nach 360 Millisekunden innerhalb von 240 Millisekunden ein; ihr Platz ist reserviert, sodass nichts springt. Bei reduzierter Bewegung entfällt die Animation. Die Kopfzeile hebt sich mit einem Verlauf von dunklem Blutrot über ein gedämpftes Rotbraun zu Schwarz ab.
 
 Suchergebnisse erscheinen nach 120 Millisekunden Eingabepause, mit einer begrenzten Vorschau aus Karten, Regeln und Begriffen sowie Links zu allen Ergebnissen. Suche und Sprache bleiben in der URL erhalten; das Schließen einer Karte führt zur Suche zurück. Fließtexte verwenden durchgehend Blocksatz und automatische Silbentrennung; Navigation, Beschriftungen und tabellarische Werte behalten ihre natürliche Ausrichtung.
+
+## Deckansichten und einheitliche Suche
+
+Die Navigation lautet Regeln, Karten, Meine Decks und Proxies. Begriffe bleiben als Suchtreffer und über Querverweise erreichbar. Suchfelder tragen ein Lupensymbol links. Die leere Startsuche hat keinen Platzhalter und erhält den Tastaturfokus. Gemischte Suchtreffer stehen in zwei Spalten: Karten links, Begriffe vor Regeln rechts; auf schmalen Bildschirmen untereinander.
+
+Fließtext bleibt im Blocksatz, automatische Silbentrennung entfällt. Regelabsätze und verschachtelte nummerierte bzw. unnummerierte Listen werden semantisch gerendert; Listen bleiben linksbündig.
+
+Bestehende Decks öffnen in der Präsentation. Neue Decks starten im Editor. Die Präsentation und geteilte Decks verwenden dieselbe Komponente (`deck-presentation.mjs`) mit Text-/Bildansicht, Gruppierung, Sortierung und Statistiken. Die ASP-Kurve bezieht sich auf das Spell-Deck, andere Statistiken auf das Deck ohne Merkliste. Mehrfarbige Karten können mehrfach in der Farbverteilung zählen.
+
+Der Editor zeigt links die Suche mit Filtern und Namenslisten, rechts Deckbereiche, Mengen und Seltenheiten. Kartenvorschauen sind per Hover, Fokus und Antippen erreichbar. Kopienlimits zählen Varianten und Deckbereiche zusammen, ohne Merkliste. Die Prüfung ersetzt keine vollständige Format-/Herrscher- und Bannlistenprüfung. Änderungen speichern lokal automatisch; Online-Speichern und Freigabe bleiben bewusste Aktionen. Entfernen ist rückgängig machbar.
+
+Beschreibung und Titelkarte werden separat bearbeitet. Die optionalen Felder `summary` (300 Zeichen) und `coverPrintingId` ergänzen das bisherige Deckformat rückwärtskompatibel. Die Titelkarte muss im Deck enthalten sein. Lokaler Speicher, JSON-Export, Online-Speichern und geteilte Decks erhalten diese Felder. Beschreibungstext unterstützt sichere Überschriften und Listen, kein HTML.

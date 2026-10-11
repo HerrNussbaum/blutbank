@@ -19,8 +19,8 @@ for(const t of terms){assert(t.de&&t.en&&t.deText&&t.enText,`Missing translation
 for(const c of cards){assert(c.name&&c.id&&c.source,`Incomplete card: ${c.id}`);for(const key of ['image','original','source'])assert.equal(new URL(c[key]).protocol,'https:')}
 assert(cards.some(c=>c.set==='Origin')&&cards.some(c=>c.set==='Alliances'));
 let script=readFileSync(resolve(root,'dist/app.js'),'utf8');
-script=script.slice(0,script.indexOf("$('.skip')"));
-const context=vm.createContext({console,CardSearch,symbolText,aspText,document:{querySelector:()=>null,addEventListener:()=>{}}});
+script=script.slice(0,script.indexOf("// UI initialization"));
+const context=vm.createContext({console,location:{hash:""},URLSearchParams,CardSearch,symbolText,aspText,document:{querySelector:()=>null,addEventListener:()=>{}}});
 vm.runInContext(script.replace(/^import .*;\n/gm,''),context);
 context.data={de,en,terms,cards};
 vm.runInContext('de=data.de;en=data.en;terms=data.terms;cards=data.cards;state={lang:"de"};',context);
@@ -58,3 +58,10 @@ assert(vm.runInContext('findResults("Oracle").cc.some(x=>x.card.name==="Oracle")
 assert(vm.runInContext('findResults("ASP").tt.length>0 && findResults("ASP").rr.length>0',context));
 assert.equal(vm.runInContext('findResults("").cc.length',context),0);
 console.log('Landing routes and shared card, term and rule search passed.');
+context.input='Ein Absatz.\n\n1. Erster Punkt\n • Unterpunkt\n • Noch ein Unterpunkt\n2. Zweiter Punkt\n\nAbschluss.';
+const lists=vm.runInContext('renderParagraphs(input)',context);
+assert(lists.includes('<ol start="1"><li>Erster Punkt<ul>'));
+assert(lists.includes('</ul></li><li value="2">Zweiter Punkt'));
+assert(lists.endsWith('</ol><p>Abschluss.</p>'));
+assert.equal((lists.match(/<li/g)||[]).length,4);
+console.log('Rule paragraphs and nested numbered/bulleted lists passed.');

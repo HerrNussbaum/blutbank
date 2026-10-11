@@ -14,8 +14,10 @@ function validateDeckData(array $d,array $identities,array $cards): array {
  if(($d['schemaVersion']??null)!==1||!is_string($d['id']??null)||!preg_match('/^[\w-]{1,80}$/D',$d['id'])||!is_string($d['name']??null)||trim($d['name'])===''||strlen($d['name'])>480||!is_string($d['description']??null)||strlen($d['description'])>20000||!is_array($d['entries']??null)||count($d['entries'])>600)throw new InvalidArgumentException('Invalid deck');
  $seen=[];$sum=0;$entries=[];
  foreach($d['entries'] as $e){$p=$e['printingId']??'';$zone=$e['zone']??'';$n=$e['quantity']??null;if(!is_string($p)||!isset($cards[$p])||($identities[$p]??$p)!==($e['cardId']??null)||!in_array($zone,['sovereign','rune','pool','spell','maybe'],true)||!is_int($n)||$n<1||$n>300||isset($seen[$p.':'.$zone]))throw new InvalidArgumentException('Invalid card');$seen[$p.':'.$zone]=true;$sum+=$n;$entries[]=['cardId'=>$e['cardId'],'printingId'=>$p,'zone'=>$zone,'quantity'=>$n];}
+ $summary=$d['summary']??'';$cover=$d['coverPrintingId']??'';
+ if(!is_string($summary)||strlen($summary)>1200||!is_string($cover)||($cover!==''&&!in_array($cover,array_column($entries,'printingId'),true)))throw new InvalidArgumentException('Invalid deck description or cover');
  if($sum>600)throw new InvalidArgumentException('Too many cards');
- return ['schemaVersion'=>1,'id'=>$d['id'],'name'=>trim($d['name']),'description'=>$d['description'],'format'=>'free','entries'=>$entries,'trashed'=>(bool)($d['trashed']??false),'updatedAt'=>gmdate('c')];
+ return ['schemaVersion'=>1,'id'=>$d['id'],'name'=>trim($d['name']),'description'=>$d['description'],'summary'=>$summary,'coverPrintingId'=>$cover,'format'=>'free','entries'=>$entries,'trashed'=>(bool)($d['trashed']??false),'updatedAt'=>gmdate('c')];
 }
 function sendLogin(array $config,string $email,string $token,string $lang): void {
  $link=$config['origin'].'/#/'.$lang.'/account?token='.$token;

@@ -31,8 +31,11 @@ with tempfile.TemporaryDirectory(prefix='blutbank-api-') as tmp:
    assert call(c,'login',{'token':token},result['csrf'])[0]==401
    return result['csrf']
   csrf=login(a,'a@example.test');cards=json.loads((p/'public/data/cards.json').read_text());ids=json.loads((p/'public/data/card-identities.json').read_text());card=cards[0]
-  deck={'schemaVersion':1,'id':'test-deck','name':'Integration deck','description':'','entries':[{'cardId':ids[card['id']],'printingId':card['id'],'zone':'spell','quantity':2}]}
+  deck={'schemaVersion':1,'id':'test-deck','name':'Integration deck','description':'# Plan\n- Draw cards','summary':'Test summary','coverPrintingId':card['id'],'entries':[{'cardId':ids[card['id']],'printingId':card['id'],'zone':'spell','quantity':2}]}
   assert call(a,'save',{'deck':deck,'revision':None},csrf)==(200,{'revision':1})
+  saved=call(a,'list')[1]['decks'][0]['deck'];assert saved['summary']==deck['summary'] and saved['coverPrintingId']==card['id']
+  invalid={**deck,'coverPrintingId':'missing'};assert call(a,'save',{'deck':invalid,'revision':1},csrf)[0]==400
+  legacy={k:v for k,v in deck.items() if k not in ['summary','coverPrintingId']};legacy['id']='legacy-deck';assert call(a,'save',{'deck':legacy,'revision':None},csrf)[0]==200
   assert call(a,'save',{'deck':deck,'revision':0},csrf)[0]==409
   assert call(a,'save',{'deck':deck,'revision':1},csrf)==(200,{'revision':2})
   b=client();bcsrf=login(b,'b@example.test');assert call(b,'list')[1]['decks']==[];assert call(b,'save',{'deck':deck,'revision':2},bcsrf)[0]==409;assert call(b,'share',{'id':deck['id']},bcsrf)[0]==404

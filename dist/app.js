@@ -1,13 +1,17 @@
 import {symbolText,aspText,cardFlow} from './card-symbols.mjs?v=2';
-import {mountDeckBuilder} from './deck-builder.mjs';
-import {mountAccount,mountShared} from './deck-online.mjs';
+import {mountDeckBuilder} from './deck-builder.mjs?v=2';
+import {mountAccount,mountShared} from './deck-online.mjs?v=2';
 import {CardSearch} from './card-search.mjs';
 import {mountProxy} from './proxy-printer.mjs?v=3';
 const $=s=>document.querySelector(s);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let dataReady=false;
 let de=[],en=[],cards=[],terms=[],state={},cardFilters={},limit=48,searchTimer,cardReturn=null,pendingCardReturn=null,pendingArchiveRestore=null; const t=(a,b)=>state.lang==='en'?b:a;
-const url=(view,id='',lang=state.lang)=>`#/${lang}/${view}${id?'/'+encodeURIComponent(id):''}${['cards','card'].includes(view)&&['cards','card'].includes(state.view)&&location.hash.includes('?')?'?'+location.hash.split('?')[1]:''}`;
-const labels=()=>({rules:t('Turnierregeln','Tournament rules'),glossary:t('Begriffsregister','Glossary'),cards:t('Kartenarchiv','Card archive'),proxy:t('Proxy-Drucker','Proxy printer'),decks:t('Meine Decks','My decks')});
+const url=(view,id='',lang=state.lang)=>{
+ const query=location.hash.split('?')[1]||'';
+ const suffix=['cards','card'].includes(view)&&['cards','card'].includes(state.view)&&query?'?'+query:view==='decks'&&id&&state.view==='decks'&&new URLSearchParams(query).get('mode')==='edit'?'?mode=edit':'';
+ return `#/${lang}/${view}${id?'/'+encodeURIComponent(id):''}${suffix}`;
+};
+const labels=()=>({rules:t('Regeln','Rules'),cards:t('Karten','Cards'),decks:t('Meine Decks','My decks'),proxy:'Proxies'});
 async function start() {
   window.addEventListener('hashchange', render);
   if(readState().view==='home')render();
@@ -64,11 +68,28 @@ function linkText(text, current = '') {
   return out + esc(text.slice(last));
 }
 
+// Lists retain their hierarchy and natural spacing independently of prose alignment.
+function renderParagraphs(text){
+  const lines=text.split('\n');let out='',paragraph=[],stack=[];
+  const flush=()=>{if(paragraph.length){out+='<p>'+linkText(paragraph.join(' '))+'</p>';paragraph=[];}};
+  const close=()=>{const x=stack.pop();out+='</li></'+x.tag+'>';};
+  for(const line of lines){
+    const m=/^(\s*)([•●▪◦*-]|o(?=\s)|\d+[.)])\s+(.+)$/.exec(line);
+    if(m){flush();const indent=m[1].length,number=parseInt(m[2],10),tag=Number.isNaN(number)?'ul':'ol';
+      while(stack.length&&(indent<stack.at(-1).indent||(indent===stack.at(-1).indent&&tag!==stack.at(-1).tag)))close();
+      if(!stack.length||indent>stack.at(-1).indent){out+=`<${tag}${tag==='ol'?` start="${number}"`:''}><li>`;stack.push({indent,tag});}
+      else out+=`</li><li${tag==='ol'?` value="${number}"`:''}>`;
+      out+=linkText(m[3]);
+    }else if(!line.trim()){flush();}
+    else {while(stack.length)close();paragraph.push(line.trim());}
+  }
+  flush();while(stack.length)close();return out;
+}
 // Content supports plain paragraphs, lists and simple Markdown tables.
 function renderBody(body) {
   const chunks = body.split(/(\n?\|[^\n]+\|\n\|[ :|\-]+\|\n(?:\|[^\n]+\|(?:\n|$))+)/g);
   return chunks.map(chunk => {
-    if (!chunk.trim().startsWith('|')) return linkText(chunk);
+    if (!chunk.trim().startsWith('|')) return renderParagraphs(chunk);
     const rows=chunk.trim().split('\n').map(line=>line.split('|').slice(1,-1).map(x=>x.trim()));
     return '<div class="table-wrap"><table><thead><tr>'+rows[0].map(x=>'<th scope="col">'+linkText(x)+'</th>').join('')+'</tr></thead><tbody>'+rows.slice(2).map(row=>'<tr>'+row.map(x=>'<td>'+linkText(x)+'</td>').join('')+'</tr>').join('')+'</tbody></table></div>';
   }).join('');
@@ -92,14 +113,14 @@ function render(){
   if(!dataReady){$('#content').innerHTML=`<p role="status">${t('Archiv wird geladen …','Loading archive …')}</p>`;return;}
   sidebar();
   if(state.view==='rules')rules();if(state.view==='cards')catalog();if(state.view==='card')cardPage();
-  if(state.view==='decks')mountDeckBuilder($('#content'),cards,state.lang,state.id);if(state.view==='shared')mountShared($('#content'),cards,state.lang,state.id);if(state.view==='account')mountAccount($('#content'),cards,state.lang);if(state.view==='proxy')mountProxy($('#content'),cards,state.lang);if(state.view==='glossary')glossary();if(state.view==='search')search();
+  if(state.view==='decks'){const restore=pendingArchiveRestore;pendingArchiveRestore=null;mountDeckBuilder($('#content'),cards,state.lang,state.id).then(()=>{if(restore&&state.view==='decks')window.scrollTo(0,restore.scroll||0);});}if(state.view==='shared'){pendingArchiveRestore=null;mountShared($('#content'),cards,state.lang,state.id);}if(state.view==='account')mountAccount($('#content'),cards,state.lang);if(state.view==='proxy')mountProxy($('#content'),cards,state.lang);if(state.view==='glossary')glossary();if(state.view==='search')search();
   archiveFooter();window.scrollTo({top:0,behavior:'instant'});
   if(state.view==='rules'&&state.id.includes('.'))requestAnimationFrame(()=>document.getElementById('rule-'+state.id)?.scrollIntoView({behavior:'instant'}));
 }
 function home(){
   if(!dataReady&&!state.id)state.id=$('#home-query')?.value||'';
   const restore=pendingArchiveRestore;pendingArchiveRestore=null;
-  $('#content').innerHTML=`<section class="home-search"><h1 class="visually-hidden">${t('Blutbank durchsuchen','Search Blutbank')}</h1><form id="home-search-form" role="search"><label class="visually-hidden" for="home-query">${t('Regeln, Begriffe und Karten durchsuchen','Search rules, terms and cards')}</label><input id="home-query" type="search" autocomplete="off" placeholder="${t('Was suchst du?','Search Blutbank …')}" value="${esc(state.id)}"><button aria-label="${t('Suchen','Search')}" type="submit"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></svg></button></form></section><div id="home-status" class="home-status" role="status" aria-live="polite"></div><section id="home-results" aria-label="${t('Suchergebnisse','Search results')}"></section>`;
+  $('#content').innerHTML=`<section class="home-search"><h1 class="visually-hidden">${t('Blutbank durchsuchen','Search Blutbank')}</h1><form id="home-search-form" role="search"><label class="visually-hidden" for="home-query">${t('Regeln, Begriffe und Karten durchsuchen','Search rules, terms and cards')}</label><input id="home-query" type="search" autocomplete="off"  value="${esc(state.id)}"><button aria-label="${t('Suchen','Search')}" type="submit"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></svg></button></form></section><div id="home-status" class="home-status" role="status" aria-live="polite"></div><section id="home-results" aria-label="${t('Suchergebnisse','Search results')}"></section>`;
   $('#home-query').addEventListener('input',e=>{
     const q=e.target.value;state.id=q;history.replaceState(null,'',url('home',q));
     document.querySelectorAll('#languages a').forEach(a=>a.href=url('home',q,a.lang));
@@ -107,6 +128,7 @@ function home(){
   });
   $('#home-search-form').addEventListener('submit',e=>{e.preventDefault();clearTimeout(searchTimer);homeResults();$('#home-results a')?.focus();});
   homeResults();
+  if(!restore)requestAnimationFrame(()=>$('#home-query')?.focus({preventScroll:true}));
   if(restore)requestAnimationFrame(()=>{document.querySelector(`[data-card="${CSS.escape(restore.focus||'')}"]`)?.focus({preventScroll:true});window.scrollTo(0,restore.scroll||0);});
 }
 function homeResults(){
@@ -116,18 +138,21 @@ function homeResults(){
   if(!dataReady){status.textContent=t('Das Archiv wird geladen …','Loading the archive …');return;}
   const {rr,tt,cc}=findResults(q);
   status.textContent=`${cc.length} ${t('Karten','cards')} · ${rr.length} ${t('Regeln','rules')} · ${tt.length} ${t('Begriffe','terms')}`;
-  results.innerHTML=(!cc.length&&!rr.length&&!tt.length?`<p>${t('Keine Treffer. Versuche einen anderen Suchbegriff.','No results. Try another search term.')}</p>`:'')+
-    (cc.length?`<section><h2>${t('Karten','Cards')}</h2><div class="card-grid">${cc.slice(0,4).map(cardHTML).join('')}</div><a class="home-more" href="#/${state.lang}/cards?q=${encodeURIComponent(q)}">${t('Alle Karten anzeigen','Show all cards')} (${cc.length})</a></section>`:'')+
-    (rr.length?`<section><h2>${t('Regeln','Rules')}</h2>${rr.slice(0,3).map(r=>`<a class="result" href="${ruleId(r.id)}"><h3>${esc(r.id)} ${esc(r.title)}</h3><p>${esc(r.body.slice(0,190))}${r.body.length>190?'…':''}</p></a>`).join('')}</section>`:'')+
-    (tt.length?`<section><h2>${t('Begriffe','Terms')}</h2>${tt.slice(0,3).map(x=>`<a class="result" href="${url('glossary',x.id)}"><h3>${esc(x[state.lang])}</h3><p>${esc(x[state.lang+'Text'].slice(0,190))}</p></a>`).join('')}</section>`:'')+
-    (rr.length>3||tt.length>3?`<a class="home-more" href="${url('search',q)}">${t('Alle Suchergebnisse anzeigen','Show all search results')}</a>`:'');
+  results.innerHTML=(!cc.length&&!rr.length&&!tt.length?`<p>${t('Keine Treffer. Versuche einen anderen Suchbegriff.','No results. Try another search term.')}</p>`:'')+`<div class="search-results-columns">
+    ${cc.length?`<section class="search-card-results"><h2>${t('Karten','Cards')}</h2><div class="card-grid">${cc.slice(0,8).map(cardHTML).join('')}</div><a class="home-more" href="#/${state.lang}/cards?q=${encodeURIComponent(q)}">${t('Alle Karten anzeigen','Show all cards')} (${cc.length})</a></section>`:''}
+    <div class="search-text-results">${tt.length?`<section><h2>${t('Begriffe','Terms')}</h2>${tt.slice(0,3).map(x=>`<a class="result" href="${url('glossary',x.id)}"><h3>${esc(x[state.lang])}</h3><p>${esc(x[state.lang+'Text'].slice(0,190))}</p></a>`).join('')}</section>`:''}
+    ${rr.length?`<section><h2>${t('Regeln','Rules')}</h2>${rr.slice(0,3).map(r=>`<a class="result" href="${ruleId(r.id)}"><h3>${esc(r.id)} ${esc(r.title)}</h3><p>${esc(r.body.slice(0,190))}${r.body.length>190?'…':''}</p></a>`).join('')}</section>`:''}
+    ${rr.length>3||tt.length>3?`<a class="home-more" href="${url('search',q)}">${t('Alle Suchergebnisse anzeigen','Show all search results')}</a>`:''}</div></div>`;
   bindCards();
 }
 function sidebar(){const menuWasOpen=$('.chapters')?.classList.contains('open');$('#sidebar').innerHTML=`<div class="searchbox"><input id="search" aria-label="${t('Archiv durchsuchen','Search archive')}" placeholder="${t('Regel, Begriff oder Karte …','Rule, term or card …')}" value="${state.view==='search'?esc(state.id):''}"></div><p class="search-hint">${t('Das gesamte Archiv durchsuchen','Search the entire archive')}</p><button class="menu-button" aria-expanded="false">${t('Kapitel anzeigen','Show chapters')}</button><div class="aside-label">${t('Kapitelübersicht','Chapters')}</div><nav class="chapters" aria-label="${t('Kapitel','Chapters')}">${source().filter(s=>!s.id.includes('.')).map(s=>`<a href="${ruleId(s.id)}" class="${state.view==='rules'&&state.id.split('.')[0]===s.id?'active':''}"><span>${s.id.padStart(2,'0')}</span>${esc(s.title)}</a>${state.view==='rules'&&state.id.split('.')[0]===s.id?`<div class="chapter-sections">${source().filter(part=>part.id.startsWith(s.id+'.')).map(part=>`<a href="${ruleId(part.id)}" class="${part.id===state.id?'selected':''}" ${part.id===state.id?'aria-current="location"':''} style="--depth:${part.id.split('.').length-2}"><span>${part.id}</span>${esc(part.title)}</a>`).join('')}</div>`:''}`).join('')}<a href="${url('glossary')}"><span>A–Z</span>${t('Begriffe & Keywords','Terms & keywords')}</a></nav>`;$('#search').addEventListener('keydown',e=>{if(e.key==='Enter'){location.hash=url('search',e.target.value.trim());}});$('#search').addEventListener('input',e=>{clearTimeout(searchTimer);const q=e.target.value;searchTimer=setTimeout(()=>{history.replaceState(null,'',url('search',q));state={...state,view:'search',id:q};document.body.dataset.view='search';document.body.classList.remove('catalog');$('#languages').innerHTML=['de','en'].map(l=>`<a href="${url('search',q,l)}" lang="${l}" aria-label="${l==='de'?'Deutsch':'English'}" class="${state.lang===l?'active':''}">${l.toUpperCase()}</a>`).join('');document.querySelectorAll('#tabs a').forEach(a=>a.classList.remove('active'));document.title=t('Suche','Search')+' · Blutbank';search();archiveFooter();},200)});$('.menu-button').onclick=e=>{const open=$('.chapters').classList.toggle('open');e.target.setAttribute('aria-expanded',open)};if(menuWasOpen){$('.chapters').classList.add('open');$('.menu-button').setAttribute('aria-expanded','true')}}
 function rules(){const chapter=state.id.split('.')[0];const current=source().find(s=>s.id===chapter);if(!current){$('#content').innerHTML=`<h1>${t('Regel nicht gefunden','Rule not found')}</h1><a href="${ruleId('1')}">${t('Zur Übersicht','Back to the rules')}</a>`;return}const list=source().filter(s=>s.id===chapter||s.id.startsWith(chapter+'.'));$('#content').innerHTML=`<div class="eyebrow">${t('Kapitel','Chapter')} ${chapter}</div><h1>${esc(current.title)}</h1>${list.map((s,i)=>!i&&!s.body?'':`<section class="rule" id="rule-${s.id}">${i?`<div class="rule-head"><a class="rule-number" href="${ruleId(s.id)}">${s.id}</a><h2>${esc(s.title)}</h2></div>`:''}${s.body?`<div class="rule-copy">${renderBody(s.body)}</div>`:''}${s.body?`<div class="rule-actions"><button data-copy="${ruleId(s.id)}">${t('Abschnitt verlinken','Copy section link')}</button><a href="TournamentRulebook_de.pdf#page=${de.find(x=>x.id===s.id)?.page||1}" target="_blank" rel="noopener">${t('Im Original lesen','Read the original')}</a></div>`:''}</section>`).join('')}<div class="page-links">${+chapter>1?`<a href="${ruleId(String(+chapter-1))}">${t('Vorheriges Kapitel','Previous chapter')}</a>`:'<span></span>'}${+chapter<15?`<a href="${ruleId(String(+chapter+1))}">${t('Nächstes Kapitel','Next chapter')}</a>`:''}</div>`;document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=async()=>{const link=location.href.split('#')[0]+b.dataset.copy;try{await navigator.clipboard.writeText(link);toast(t('Link kopiert','Link copied'))}catch{prompt(t('Link zum Abschnitt','Section link'),link)}})}
 function toast(msg){$('#toast').textContent=msg;$('#toast').style.display='block';setTimeout(()=>$('#toast').style.display='none',2000)}
 function findResults(q){const norm=s=>s.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');const match=s=>norm(s).includes(norm(q));const rr=q?source().filter(s=>match(s.id+' '+s.title+' '+s.body)):[];rr.sort((a,b)=>(norm(b.id)===norm(q)?100:match(b.title)?10:0)-(norm(a.id)===norm(q)?100:match(a.title)?10:0));const tt=q?terms.filter(x=>match(x.de+' '+x.en+' '+x.aliases.join(' ')+' '+x[state.lang+'Text'])):[];tt.sort((a,b)=>(norm(b[state.lang])===norm(q)?100:match(b[state.lang])?10:0)-(norm(a[state.lang])===norm(q)?100:match(a[state.lang])?10:0));const cc=q?CardSearch.group(cards,{q}):[];return {rr,tt,cc};}
-function search(){const q=state.id.trim();const {rr,tt,cc}=findResults(q);const norm=s=>s.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');$('#content').innerHTML=`<div class="eyebrow">${t('ARCHIVSUCHE','ARCHIVE SEARCH')}</div><h1>${q?esc(q):t('Was möchtest du nachschlagen?','What are you looking for?')}</h1><p class="muted">${q?`${rr.length} ${t('Regeln','rules')} · ${tt.length} ${t('Begriffe','terms')} · ${cc.length} ${t('Karten','cards')}`:t('Suche nach Regelnummern, Begriffen oder Kartennamen.','Search for rule numbers, terms or card names.')}</p>${q&&!rr.length&&!tt.length&&!cc.length?`<div class="empty">${t('Keine Treffer. Versuche einen kürzeren oder englischen Begriff.','No results. Try a shorter term or a German keyword.')}</div>`:''}${tt.map(x=>`<a class="result" href="${url('glossary',x.id)}"><small>${t('BEGRIFF','TERM')}</small><h3>${esc(x[state.lang])}</h3><p>${esc(x[state.lang+'Text'].slice(0,190))}</p></a>`).join('')}${rr.map(s=>`<a class="result" href="${ruleId(s.id)}"><small>${t('REGEL','RULE')} ${s.id}</small><h3>${esc(s.title)}</h3><p>${esc(s.body.slice(Math.max(0,norm(s.body).indexOf(norm(q))-65),Math.max(0,norm(s.body).indexOf(norm(q))-65)+230))}…</p></a>`).join('')}${cc.length?`<h2>${t('Karten','Cards')}</h2><div class="card-grid">${cc.slice(0,60).map(cardHTML).join('')}</div>${cc.length>60?`<a href="${url('cards')}">${t('Weitere Karten im Archiv','More cards in the archive')}</a>`:''}`:''}`;bindCards()}
+function search(){
+ const q=state.id.trim(),{rr,tt,cc}=findResults(q);
+ $('#content').innerHTML=`<h1>${q?esc(q):t('Suche','Search')}</h1><p class="muted">${cc.length} ${t('Karten','cards')} · ${tt.length} ${t('Begriffe','terms')} · ${rr.length} ${t('Regeln','rules')}</p><div class="search-results-columns">${cc.length?`<section class="search-card-results"><h2>${t('Karten','Cards')}</h2><div class="card-grid">${cc.slice(0,60).map(cardHTML).join('')}</div></section>`:''}<div class="search-text-results">${tt.length?`<h2>${t('Begriffe','Terms')}</h2>`:''}${tt.map(x=>`<a class="result" href="${url('glossary',x.id)}"><h3>${esc(x[state.lang])}</h3><p>${esc(x[state.lang+'Text'])}</p></a>`).join('')}${rr.length?`<h2>${t('Regeln','Rules')}</h2>`:''}${rr.map(r=>`<a class="result" href="${ruleId(r.id)}"><h3>${esc(r.id)} ${esc(r.title)}</h3><p>${esc(r.body.slice(0,230))}…</p></a>`).join('')}</div></div>${q&&!rr.length&&!tt.length&&!cc.length?`<p>${t('Keine Treffer.','No results.')}</p>`:''}`;bindCards();
+}
 function cardHTML(group){
   const c=group.card||group,d=c.text||{},hint=`${c.id}-hint`;
   return `<a class="card" href="${url('card',c.id)}" data-card="${c.id}" aria-label="${esc(c.name)}" aria-describedby="${hint}"><img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" decoding="async" width="750" height="1047"><span class="card-hint" id="${hint}" role="tooltip"><strong>${esc(c.name)} ${aspText(d.stats?.asp)}</strong>${d.typeLine?`<span>${esc(d.typeLine)}</span>`:''}${d.rulesText?`<span class="hint-rules">${esc(cardFlow(d.rulesText))}</span>`:''}<small>${esc(c.set)}${group.variants?.length>1?` · ${group.variants.length} ${t('Versionen','versions')}`:''}</small></span></a>`;
@@ -142,7 +167,7 @@ function catalog(){
   cardFilters=readCardFilters();const restore=pendingArchiveRestore||history.state?.archive;pendingArchiveRestore=null;
   if(restore?.hash===location.hash)limit=restore.limit||48;
   const options=field=>[...new Set(cards.flatMap(c=>c.text?.[field]||[]))].sort((a,b)=>cardLabel(a).localeCompare(cardLabel(b),state.lang));
-  $('#content').innerHTML=`<div class="catalog-heading"><h1>${t('Kartenarchiv','Card archive')}</h1></div>
+  $('#content').innerHTML=`<div class="catalog-heading"><h1>${t('Karten','Cards')}</h1></div>
     <form class="catalog-search" id="quick-search"><label class="sr-only" for="card-search">${t('Karten durchsuchen','Search cards')}</label><input id="card-search" class="pill" value="${esc(cardFilters.q||'')}" placeholder="${t('Karten durchsuchen …','Search cards …')}" type="search"><button class="pill" type="submit">${t('Suchen','Search')}</button></form>
     <details class="advanced-filters" id="advanced-search" ${restore?.advanced?'open':''}><summary>${t('Erweiterte Suche','Advanced search')}<span id="active-filters"></span></summary>
     <form id="advanced-form">
@@ -195,7 +220,7 @@ function cardPage(){
   const d=c.text||{},variants=cards.filter(x=>CardSearch.nameKey(x.name)===CardSearch.nameKey(c.name));
   const stats=CardSearch.numeric.filter(k=>k!=='asp'&&d.stats?.[k]!=null);
   const properties=[[t('Farbe','Color'),(d.colors||[]).map(cardLabel).join(', ')],[t('Typen','Types'),(d.types||[]).filter(v=>!d.typeLine?.includes(v)).map(cardLabel).join(', ')],[t('Untertypen','Subtypes'),(d.subtypes||[]).filter(v=>!d.typeLine?.includes(v)).join(', ')],[t('Zusätze','Traits'),(d.traits||[]).filter(v=>!d.typeLine?.includes(v)).join(', ')],[t('Mechaniken','Mechanics'),Object.entries(d.mechanics||{}).filter(([,v])=>v===true).map(([k])=>k[0].toUpperCase()+k.slice(1)).join(', ')]];
-  $('#content').innerHTML=`<div class="card-page-toolbar"><a href="${url('cards')}">${t('Kartenarchiv','Card archive')}</a><button class="close" id="close-card" aria-label="${t('Schließen und zur Suche zurückkehren','Close and return to search')}" title="${t('Zurück zur Suche (Esc)','Return to search (Esc)')}">×</button></div>
+  $('#content').innerHTML=`<div class="card-page-toolbar"><a href="${url('cards')}">${t('Karten','Cards')}</a><button class="close" id="close-card" aria-label="${t('Schließen und zur Suche zurückkehren','Close and return to search')}" title="${t('Zurück zur Suche (Esc)','Return to search (Esc)')}">×</button></div>
     <article class="card-page ${c.notes?'has-notes':''}" aria-label="${esc(c.name)}">
       <div class="card-page-art"><img class="selected-card-image" src="${esc(c.original.replace('width=3200','width=1250'))}" alt="${esc(c.name)}" width="750" height="1047"><div class="card-page-tools"><button class="text-button" id="copy-card-text">${t('Text kopieren','Copy text')}</button><button class="text-button" id="copy-card-link">${t('Link kopieren','Copy link')}</button><a href="${esc(c.source)}" target="_blank" rel="noopener">${t('Offizieller Spoiler','Official spoiler')} ↗</a></div></div>
       <div class="card-page-text"><div class="card-title-line"><h1>${esc(c.name)}</h1>${d.stats?.asp!=null?`<span class="asp-cost" title="${t('ASP-Kosten','ASP cost')}">${aspText(d.stats.asp)}</span>`:''}</div>
@@ -244,5 +269,18 @@ function glossary() {
   }
 }
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&state.view==='card'){e.preventDefault();closeCard()}});
+document.addEventListener('click',e=>{
+ const a=e.target.closest('a[href]');if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||!a||a.hasAttribute('data-card')||!/^#\/(de|en)\/card\//.test(a.getAttribute('href')))return;
+ if(['decks','shared'].includes(state.view)){pendingCardReturn={hash:location.hash,scroll:window.scrollY};}
+});
+// UI initialization
+function decorateSearch(){
+ document.querySelectorAll('input[type="search"], #search, #deck-search, input[data-filter="name"], input[data-filter="text"], input[data-filter="artist"], input[data-filter="flavor"]').forEach(input=>{
+  if(input.closest('.search-field, #home-search-form'))return;
+  const wrap=document.createElement('span');wrap.className='search-field';input.before(wrap);wrap.append(input);
+ });
+}
+new MutationObserver(decorateSearch).observe(document.querySelector('#content'),{childList:true,subtree:true});
+new MutationObserver(decorateSearch).observe(document.querySelector('#sidebar'),{childList:true,subtree:true});
 $('.skip').addEventListener('click',e=>{e.preventDefault();$('#content').focus();$('#content').scrollIntoView()});
 start();

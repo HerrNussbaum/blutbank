@@ -180,6 +180,23 @@ body[data-view=account] #content, body[data-view=shared] #content { max-width: 7
 .card-errata h2 { font-size: 27px; margin: 4px 0 18px; }
 .transcription-status { font-size: 16px; color: var(--muted); margin: 28px 0 0; line-height: 1.55; }
 
+/* Fine dividers make the card's information groups easier to scan. */
+.card-page { --card-divider: #373030; }
+.card-page-text > .card-rules { border-top: 1px solid var(--primary); padding-top: 20px; margin-top: 20px; }
+.card-type-line { margin-bottom: 0; }
+.card-extra, .card-flavor, .card-stats, .card-facts:not(:empty) { border-top: 1px solid var(--card-divider); padding-top: 18px; }
+.card-facts:empty { display: none; }
+.card-facts > div { padding-block: 8px; }
+.card-facts > div + div { border-top: 1px solid #292525; }
+.card-printings { border-left: 1px solid var(--card-divider); padding-left: 24px; }
+.printing-current { border-bottom: 1px solid var(--primary); padding-bottom: 18px; }
+.printing-link + .printing-link { border-top: 1px solid var(--card-divider); }
+.printing-link.selected { border-left: 2px solid var(--primary); padding-left: 10px; }
+.card-errata { border-top: 1px solid var(--card-divider); padding-top: 22px; }
+@media(max-width:1150px) {
+  .card-printings { border-left: 0; padding-left: 0; border-top: 1px solid var(--card-divider); padding-top: 24px; }
+}
+
 /* Tools: keep borders on editable controls, not on every section. */
 #proxy-list { display: block; width: 100%; resize: vertical; background: var(--surface); color: var(--text); border: 1px solid var(--border); border-radius: 5px; padding: 16px; font: inherit; margin: 10px 0 20px; }
 .proxy-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; margin: 24px 0; }

@@ -51,3 +51,7 @@ Bestehende Decks öffnen in der Präsentation. Neue Decks starten im Editor. Die
 Der Editor zeigt links die Suche mit Filtern und Namenslisten, rechts Deckbereiche, Mengen und Seltenheiten. Kartenvorschauen sind per Hover, Fokus und Antippen erreichbar. Kopienlimits zählen Varianten und Deckbereiche zusammen, ohne Merkliste. Die Prüfung ersetzt keine vollständige Format-/Herrscher- und Bannlistenprüfung. Änderungen speichern lokal automatisch; Online-Speichern und Freigabe bleiben bewusste Aktionen. Entfernen ist rückgängig machbar.
 
 Beschreibung und Titelkarte werden separat bearbeitet. Die optionalen Felder `summary` (300 Zeichen) und `coverPrintingId` ergänzen das bisherige Deckformat rückwärtskompatibel. Die Titelkarte muss im Deck enthalten sein. Lokaler Speicher, JSON-Export, Online-Speichern und geteilte Decks erhalten diese Felder. Beschreibungstext unterstützt sichere Überschriften und Listen, kein HTML.
+
+## Struktur der Kartendetailseiten
+
+Auf Wunsch sind Kartendetails wieder durch feine Linien gegliedert: Blutrot trennt den Regeltext vom Kartenkopf und markiert die aktuelle Edition; dunkle graubraune Linien teilen Zusatzkosten, Werte, Eigenschaften, Druckversionen und Errata. Am Desktop trennt eine senkrechte Linie die Editionsspalte, auf kleineren Geräten eine waagerechte Linie. Freie Ränder und gut lesbare Schriftgrößen bleiben bestehen.

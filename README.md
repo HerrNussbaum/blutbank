@@ -155,3 +155,12 @@ Der Proxy-Drucker bietet außerdem **PDF herunterladen**: erzeugt direkt eine A4
 ## Deckbuilder
 
 Unter `#/de/decks` bzw. `#/en/decks`: lokale Deckverwaltung, Import/Export, Kartenbereiche, Versionswahl, ASP-Verteilung und Proxy-Übergabe. Die optionale Online-Anbindung verwendet PHP und MySQL; Einrichtung und Grenzen siehe [HOSTING.md](docs/HOSTING.md). GitHub Pages bleibt ohne Online-Konten nutzbar.
+
+### Kartenansicht und Suchoberfläche
+
+- Die Schrift **EB Garamond** liegt einschließlich OFL-Lizenz unter `dist/fonts/eb-garamond/`; beim Aufruf werden keine externen Schriftanbieter kontaktiert.
+- `#/de/card/<Druck-ID>` und `#/en/card/<Druck-ID>` sind direkt verlinkbare Kartenseiten. Bestehende `cards/<Druck-ID>`-Links bleiben gültig. Versionen behalten eigene IDs; Suchergebnisse bleiben nach Namen gruppiert.
+- „×“ bzw. Escape stellt Suchfilter, Trefferanzahl, Scrollposition und Fokus wieder her. Filter stehen in der URL, die Rückkehrposition im jeweiligen Browser-Verlaufseintrag.
+- Die erweiterte Suche nutzt `CardSearch.matches` in `dist/card-search.mjs`: getrennte Name/Text-Felder, Farbvergleich (enthält/genau/höchstens), Seltenheiten, Typ-Ausschluss, Zahlenvergleiche, Edition, Künstler und Sortierung. Mehrere Bedingungen müssen dieselbe Druckversion treffen.
+- `dist/card-symbols.mjs` vereinheitlicht bekannte Turn-Symbole als `{T}` und ASP-Beträge als `{N}`. Der Inhalts-Build übernimmt dieselbe Notation in redaktionelle Kartenfelder sowie JSON-/CSV-Exporte. Unverändertes `rawText` bleibt als OCR-Quellbeleg erhalten; normale Wörter wie „turn“ werden nicht als Symbol umgedeutet.
+- Kartendaten bleiben in `content/` pflegbar; `npm run build` erstellt die Ausgaben. Die Kartenseite blendet nicht erfasste Werte aus. Auf kleinen Bildschirmen werden die Spalten untereinander dargestellt, ohne Text abzuschneiden.

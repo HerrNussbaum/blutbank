@@ -34,8 +34,15 @@ for id, patch in overrides.items():
  for key,value in patch.items():
   if isinstance(value,dict): texts[id][key].update(value)
   else: texts[id][key]=value
+def symbols(value):
+ value=re.sub(r'\[(?:Turn|Tap|T)\]|\{(?:Turn|Tap)\}|[↷↻⟳]', '{T}',value,flags=re.I)
+ value=re.sub(r'\b(\d+|X)\s+ASP\b',r'{\1}',value,flags=re.I)
+ return re.sub(r'\[ASP\s*:?\s*(\d+|X)\]|\[(\d+|X)\s*ASP\]',lambda m:'{'+(m[1] or m[2])+'}',value,flags=re.I)
 for c in cards:
  d=texts[c['id']]
+ for field in ['rulesText','additionalCostsText','flavorText']:
+  if field in d: d[field]=symbols(d[field])
+ c['notes']=symbols(c.get('notes',''))
  d['keywords']=[t['en'] for t in terms if t['kind']=='Keyword' and re.search(r'(?<!\w)'+re.escape(t['en'])+r'(?!\w)',d['rulesText'],re.I)]
  c['text']=d
 save('cards.json',cards)

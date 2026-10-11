@@ -51,3 +51,27 @@ const grouped=S.group(cards);
 assert.equal(grouped.reduce((n,g)=>n+g.variants.length,0),cards.length,'No printing lost');
 assert.equal(new Set(grouped.map(g=>g.key)).size,grouped.length);
 console.log(`Grouping: ${cards.length} printings in ${grouped.length} name groups; variant filtering passed.`);
+
+// Advanced filters combine on the same printing, including exact/subset colors.
+assert(S.matches(fixture,{name:'uberwachter',text:'"Draw a card"'}));
+assert(!S.matches(fixture,{name:'Flying'}),'Name searches must not match rules text');
+assert(!S.matches(fixture,{text:'Überwächter'}),'Text searches must not match card names');
+assert(S.matches(fixture,{colors:'green',colorMode:'exact',rarities:'K,N'}));
+assert(!S.matches(fixture,{colors:'green,blue',colorMode:'exact'}));
+assert(S.matches(fixture,{colors:'green,blue',colorMode:'atmost'}));
+assert(!S.matches(fixture,{colors:'green,blue',colorMode:'include'}));
+assert(!S.matches(fixture,{excludeType:'Character'}));
+assert(S.matches(fixture,{aspValue:'0',aspOp:'='}));
+assert(S.matches(fixture,{powValue:'2',powOp:'>'}));
+assert(!S.matches(fixture,{hpValue:'0',hpOp:'!='}),'Missing stats cannot pass inequality');
+assert(!S.matches(fixture,{aspValue:'NaN',aspOp:'='}));
+assert(S.matches(fixture,{q:'pow!=2'}));
+const symbolFixture={...fixture,text:{...fixture.text,rulesText:'[Turn]: Generate 2 ASP. Once per turn.'}};
+assert(S.matches(symbolFixture,{q:'{T} {2}'}));
+assert(S.matches(symbolFixture,{text:'{T}'}));
+const {symbolText,aspText}=await import('../dist/card-symbols.mjs');
+assert.equal(symbolText('[Turn], 3 ASP: Turn target Character. Once per turn.'),'{T}, {3}: Turn target Character. Once per turn.');
+assert.equal(symbolText('{T}: Generate {X}. Cost: X ASP.'),'{T}: Generate {X}. Cost: {X}.');
+assert.equal(aspText(0),'{0}');assert.equal(aspText(null),'');
+for(const c of cards)assert(!/\[Turn\]|\b\d+ ASP\b/.test(c.text.rulesText),'Built text uses shared symbol notation');
+console.log('Advanced filters, symbol notation, literal turn text and zero/missing stats passed.');

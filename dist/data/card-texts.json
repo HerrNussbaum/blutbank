@@ -34,7 +34,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n[Turn], Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats <→ Lose stats\nLose Life > Gain Life\nSacrifice Zayas Ritual then.",
+    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n{T}, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats <→ Lose stats\nLose Life > Gain Life\nSacrifice Zayas Ritual then.",
     "additionalCostsText": "",
     "rawText": "ZAYAS RITUAL\nRitual\nWhen Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n©, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats <→ Lose stats\nLose Life > Gain Life\nSacrifice Zayas Ritual then.\nN 219 ORI•EN ©24 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -129,7 +129,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nWhen Tobin Frostwing enters play, search your Spell\nDeck for a Bird Character and put it into your hand.\n0, [Turn]: Put 1 POW/HP +1/+1 counter on target Bird you",
+    "rulesText": "Advisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nWhen Tobin Frostwing enters play, search your Spell\nDeck for a Bird Character and put it into your hand.\n0, {T}: Put 1 POW/HP +1/+1 counter on target Bird you",
     "additionalCostsText": "",
     "rawText": "TOBIN FROSTWING, BIRD GENERAL\nMythic Character, Human Advisor\n5\nAdvisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nWhen Tobin Frostwing enters play, search your Spell\nDeck for a Bird Character and put it into your hand.\n0, ©: Put 1 POW/HP +1/+1 counter on target Bird you\ncontrol.\nF WH PR-015 ORL-EN ©2 Bluthelden® Art: Alexander Zimmermann",
     "status": "machine",
@@ -182,7 +182,7 @@
     "keywords": [
       "Ranged Combat"
     ],
-    "rulesText": "Target Character with Ranged Combat gets\nTwin Shot until the end of this round. (This Character's\nRanged Combat deals DMG equal to its POW to up to two\nCharacters, or double its POW to one Character.)\nWhenever a Character dies from Ranged Combat\ndealt by a Character you control, choose one: Put 1\nPOW/HP +1/+1 counter on target Character you control, or gain 1 ASP at the beginning of the next round.",
+    "rulesText": "Target Character with Ranged Combat gets\nTwin Shot until the end of this round. (This Character's\nRanged Combat deals DMG equal to its POW to up to two\nCharacters, or double its POW to one Character.)\nWhenever a Character dies from Ranged Combat\ndealt by a Character you control, choose one: Put 1\nPOW/HP +1/+1 counter on target Character you control, or gain {1} at the beginning of the next round.",
     "additionalCostsText": "",
     "rawText": "MART THE DRAGON HUNTER\nMythic Character, Human Advisor\n5\nAdvisor\nTarget Character with Ranged Combat gets\nTwin Shot until the end of this round. (This Character's\nRanged Combat deals DMG equal to its POW to up to two\nCharacters, or double its POW to one Character.)\nWhenever a Character dies from Ranged Combat\ndealt by a Character you control, choose one: Put 1\nPOW/HP +1/+1 counter on target Character you con-\ntrol, or gain 1 ASP at the beginning of the next round.\nF GR PR-022 ORI•EN 02 Bluthelden® Art. Jounes Erojo",
     "status": "machine",
@@ -287,7 +287,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Crypt Walker enters play, return an Undead Character from your Graveyard to your hand.\n[Turn] Gain 1 ASP, as long as this Character remains Bound.",
+    "rulesText": "When Crypt Walker enters play, return an Undead Character from your Graveyard to your hand.\n{T} Gain {1}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "CRYPT WALKER\nCharacter, Undead\n†22\n3\nWhen Crypt Walker enters play, return an Undead.\nCharacter from your Graveyard to your hand.\n• Gain O ASP, as long as this Character remains\nBound.\nN BK PR-019 ORI•EN ©2 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -447,7 +447,7 @@
       "Advisor",
       "Spectral Ward"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nSpectral Ward\nWhen Erojo, Warden of the Beyond enters play, create a\nShadow Token in target War Zone.\n1 ASP, [Turn]: All Characters in target War Zone gain POW/HP -1/-1\nequal to the number of Shadow Tokens in that War Zone.",
+    "rulesText": "Advisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nSpectral Ward\nWhen Erojo, Warden of the Beyond enters play, create a\nShadow Token in target War Zone.\n{1}, {T}: All Characters in target War Zone gain POW/HP -1/-1\nequal to the number of Shadow Tokens in that War Zone.",
     "additionalCostsText": "",
     "rawText": "EROJO, WARDEN OF THE BEYOND\nMythic Character, Spirit Advisor\n2\nAdvisor (You have to place this card in the Advisor slot. It is\nstill a Character that can be the target of spells or abilities.)\nSpectral Ward\nWhen Erojo, Warden of the Beyond enters play, create a\nShadow Token in target War Zone.\n: All Characters in target War Zone gain POW/HP -1/-1\nequal to the number of Shadow Tokens in that War Zone.\nF ORPR-016 ORI•EN ©28 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -507,7 +507,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Resources you control enter play turned.\nYou may put an addtional Resource into play once\nper Round.\n[Turn]: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
+    "rulesText": "Resources you control enter play turned.\nYou may put an addtional Resource into play once\nper Round.\n{T}: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
     "additionalCostsText": "",
     "rawText": "RUNE OF LEROS\nEquilibra Resource, Rune\nResources you control enter play turned.\nYou may put an addtional Resource into play once\nper Round.\n©: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.\nF GRPR-020 ALI•EN ©2 Bluthelden® Art: Anna Lesnikova",
     "status": "machine",
@@ -549,7 +549,7 @@
     },
     "keywords": [],
     "rulesText": ", Pay 1 LP: Gain O ASP.\nQ, Pay 4 LP: Summon a Miracle card from your hand.\n2: Target Character regenerates 2 HP.\nUse this ability only once per round.",
-    "additionalCostsText": "Green / Blue: +0 ASP; Brown / Purple: +1 ASP; Red / Orange: +2 ASP; Black: cannot be played.",
+    "additionalCostsText": "Green / Blue: +{0}; Brown / Purple: +{1}; Red / Orange: +{2}; Black: cannot be played.",
     "rawText": "30 SIRUNIAN SEEHOFF, KING OF FALKENHEIM\nWhite Sovereign\n+0\n+2\n, Pay 1 LP: Gain O ASP.\nQ, Pay 4 LP: Summon a Miracle card from your hand.\n2: Target Character regenerates 2 HP.\nUse this ability only once per round.\nF 001 ORI-EN 024 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
     "source": "https://bluthelden.com/cdn/shop/files/WH01_Sirunian_Seehoff_WHITE_SOVEREIGN.png?v=1749546341&width=3200",
@@ -594,7 +594,7 @@
     "keywords": [
       "Speed"
     ],
-    "rulesText": "[Turn], Pay 1 LP: Gain O ASP.\n2,0: Search your Spell Deck tor a Human with 4 ASP\nor less and put it into your hand.\nBirds you control have Speed.\n(They don't turn when performing a combat action.)",
+    "rulesText": "{T}, Pay 1 LP: Gain O ASP.\n2,0: Search your Spell Deck tor a Human with {4}\nor less and put it into your hand.\nBirds you control have Speed.\n(They don't turn when performing a combat action.)",
     "additionalCostsText": "",
     "rawText": "VALDAR STORMWING, GENERAL OF THE FALCON GUARD\nWhite Sovereign\n©, Pay 1 LP: Gain O ASP.\n2,0: Search your Spell Deck tor a Human with 4 ASP\nor less and put it into your hand.\nBirds you control have Speed.\n(They don't turn when performing a combat action.)\nF 058 ORI•EN ©24 Bluthelden® Art: Amar Sekarwangi",
     "status": "machine",
@@ -637,7 +637,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "2 ASP, [Turn]: Target Character in the same Lane gains RES +1 or -1 until the end of the round. This effect ignores the target’s Magic Resistance.",
+    "rulesText": "{2}, {T}: Target Character in the same Lane gains RES +1 or -1 until the end of the round. This effect ignores the target’s Magic Resistance.",
     "additionalCostsText": "",
     "rawText": "ALCHEMIST OF RESISTANCE\nCharacter, Human\n3 3\n2, ©: Target Character in the same Lane gains RES +1\nor -1 until the end of the round. This effect ignores the\ntarget's Magic Resistance.\nORI•EN ©24 Bluthelden® Art: André Bueno",
     "status": "machine",
@@ -836,7 +836,7 @@
     "keywords": [
       "Ranged Combat"
     ],
-    "rulesText": "[Turn]: Ranged Combat (It deals DMG equal to its Power to\ntarget Character in a War Zone within the same Lane.\nActivate only as combat action and only if this card is in the\nBack Row.)",
+    "rulesText": "{T}: Ranged Combat (It deals DMG equal to its Power to\ntarget Character in a War Zone within the same Lane.\nActivate only as combat action and only if this card is in the\nBack Row.)",
     "additionalCostsText": "",
     "rawText": "ARCHER OF THE GUARD\nCharacter, Human\n2 3\n©: Ranged Combat (It deals DMG equal to its Power to\ntarget Character in a War Zone within the same Lane.\nActivate only as combat action and only if this card is in the\nBack Row.)\nK 006 ORI•EN ©24 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -1361,7 +1361,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "1, [Turn]: Create one 1/1 Falcon Token\nwith Flying to target Slot.",
+    "rulesText": "1, {T}: Create one 1/1 Falcon Token\nwith Flying to target Slot.",
     "additionalCostsText": "",
     "rawText": "FALCONER 1\nCharacter, Human =\n3 2 3\n1, ©: Create one 1/1 Falcon Token\nwith Flying to target Slot.\nN 018 ORI•EN ©24 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -1542,7 +1542,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Target Sovereign regenerates 1 HP.\n1, [Turn]: Prevent 1 DMG to target Character you control.",
+    "rulesText": "{T}: Target Sovereign regenerates 1 HP.\n1, {T}: Prevent 1 DMG to target Character you control.",
     "additionalCostsText": "",
     "rawText": "HEALING WIZARD\nCharacter, Human Bird\n4\nFlying\n©: Target Sovereign regenerates 1 HP.\n1, ©: Prevent 1 DMG to target Character you control.\nK 022 ORI•EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -1720,7 +1720,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Alchemist of Strength, pay ASP less\nto summon Master Alchemist of Strength, then Rise\nAlchemist of Strength. (Place this card on Alchemist\nof Strength. Transfer all counters from Alchemist of\nStrength to it. Then destroy Alchemist of Strength.)\n2, [Turn], Put 1 POW/HP +1/+1 counter on target Character\nin the Lane.",
+    "rulesText": "If you control Alchemist of Strength, pay ASP less\nto summon Master Alchemist of Strength, then Rise\nAlchemist of Strength. (Place this card on Alchemist\nof Strength. Transfer all counters from Alchemist of\nStrength to it. Then destroy Alchemist of Strength.)\n2, {T}, Put 1 POW/HP +1/+1 counter on target Character\nin the Lane.",
     "additionalCostsText": "",
     "rawText": "MASTER ALCHEMIST OF STRENGTH\nCharacter, Human\n2\n3\nIf you control Alchemist of Strength, pay ASP less\nto summon Master Alchemist of Strength, then Rise\nAlchemist of Strength. (Place this card on Alchemist\nof Strength. Transfer all counters from Alchemist of\nStrength to it. Then destroy Alchemist of Strength.)\n2, ©, Put 1 POW/HP +1/+1 counter on target Character\nin the Lane.\nN 026 ORI•EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -1774,7 +1774,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Young Blacksmith, pay 2 ASP less to\nsummon Master Blacksmith, then Rise Young Blacksmith.\n(Place this card on Young Blacksmith. Transfer all\ncounters from Young Blacksmith to it. Then destroy\nYoung Blacksmith.)\n[Turn]: Gain 2 ASP, as long as this Character remains Bound.",
+    "rulesText": "If you control Young Blacksmith, pay {2} less to\nsummon Master Blacksmith, then Rise Young Blacksmith.\n(Place this card on Young Blacksmith. Transfer all\ncounters from Young Blacksmith to it. Then destroy\nYoung Blacksmith.)\n{T}: Gain {2}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "MASTER BLACKSMITH\nCharacter, Human\n3 3 2 3\nIf you control Young Blacksmith, pay 2 ASP less to\nsummon Master Blacksmith, then Rise Young Blacksmith.\n(Place this card on Young Blacksmith. Transfer all\ncounters from Young Blacksmith to it. Then destroy\nYoung Blacksmith.)\n©: Gain 2 ASP, as long as this Character remains Bound.\nN 027 ORI•EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -1825,7 +1825,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Target Character in the same Lane regenerates 1 HP.\n[Turn]: Medica provides an antidote to target Character in the\nsame Lane. (Remove all degenerative effect counters from\nthat Character immediately.)",
+    "rulesText": "{T}: Target Character in the same Lane regenerates 1 HP.\n{T}: Medica provides an antidote to target Character in the\nsame Lane. (Remove all degenerative effect counters from\nthat Character immediately.)",
     "additionalCostsText": "",
     "rawText": "MEDICA\nCharacter, Human\n3 3 2 2\n©: Target Character in the same Lane regenerates 1 HP.\n©: Medica provides an antidote to target Character in the\nsame Lane. (Remove all degenerative effect counters from\nthat Character immediately.)\nN 028 ORI •EN ©24 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -1996,7 +1996,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP.\nWhenever a Character regenerates HP, it regenerates\nthat many HP +1.",
+    "rulesText": "{T}: Gain O ASP.\nWhenever a Character regenerates HP, it regenerates\nthat many HP +1.",
     "additionalCostsText": "",
     "rawText": "RING OF WISDOM\nMythic Artifact\n©: Gain O ASP.\nWhenever a Character regenerates HP, it regenerates\nthat many HP +1.\nF 032 ORI•EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -2135,7 +2135,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Shield of Wisdom enters play with 3 Wisdom counters\nRemove 1 Wisdom counter: Prevent 1 DMG to target\nCharacter you control. Then, if that Character is still\nalive, choose one for every prevented DMG this way:\nPut 1 RES +1 counter, or 2 INI +1 counter, or 1 POW/HP\n+1/+1 counter on that Character.\nUse this ability only once per round.\n2, [Turn]: Put 1 Wisdom Counter on Shield of Wisdom.",
+    "rulesText": "Shield of Wisdom enters play with 3 Wisdom counters\nRemove 1 Wisdom counter: Prevent 1 DMG to target\nCharacter you control. Then, if that Character is still\nalive, choose one for every prevented DMG this way:\nPut 1 RES +1 counter, or 2 INI +1 counter, or 1 POW/HP\n+1/+1 counter on that Character.\nUse this ability only once per round.\n2, {T}: Put 1 Wisdom Counter on Shield of Wisdom.",
     "additionalCostsText": "",
     "rawText": "SHIELD OF WISDOM\nArtifact\nShield of Wisdom enters play with 3 Wisdom counters\non it.\nRemove 1 Wisdom counter: Prevent 1 DMG to target\nCharacter you control. Then, if that Character is still\nalive, choose one for every prevented DMG this way:\nPut 1 RES +1 counter, or 2 INI +1 counter, or 1 POW/HP\n+1/+1 counter on that Character.\nUse this ability only once per round.\n2, ©: Put 1 Wisdom Counter on Shield of Wisdom.\nF 035 ORI•EN ©24 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -2183,7 +2183,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Apprentice, pay 2 ASP less to summon\nSilas, the Protection Mage, then Rise Apprentice.\n(Place this card on Apprentice. Transfer all counters from\nÀpprentice to it. Then destroy Apprentice.)\n): Create one Healing Vessel Token (It's an artifact\nwith \"[Turn], Sacrifice this artifact: Target character\nregenerates 1 HP.\").",
+    "rulesText": "If you control Apprentice, pay {2} less to summon\nSilas, the Protection Mage, then Rise Apprentice.\n(Place this card on Apprentice. Transfer all counters from\nÀpprentice to it. Then destroy Apprentice.)\n): Create one Healing Vessel Token (It's an artifact\nwith \"{T}, Sacrifice this artifact: Target character\nregenerates 1 HP.\").",
     "additionalCostsText": "",
     "rawText": "SILAS, THE PROTECTION MAGE\nEpic Character, Human Wizard\n3 1 2\nIf you control Apprentice, pay 2 ASP less to summon\nSilas, the Protection Mage, then Rise Apprentice.\n(Place this card on Apprentice. Transfer all counters from\nÀpprentice to it. Then destroy Apprentice.)\n): Create one Healing Vessel Token (It's an artifact\nwith \"©, Sacrifice this artifact: Target character\nregenerates 1 HP.\").\nK 036 ORI•EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -2379,7 +2379,7 @@
       "First Damage",
       "Rise"
     ],
-    "rulesText": "If you control Swordsman, pay 2 ASP less to summon\nSwordmaster Kaelric Dawnlight then Rise Swordsman.\n(Place this card on Swordsman. Transfer all counters from\nSwordsman to it. Then destroy Swordsman.)\nFirst Damage (This Character deals its combat DMG first.)",
+    "rulesText": "If you control Swordsman, pay {2} less to summon\nSwordmaster Kaelric Dawnlight then Rise Swordsman.\n(Place this card on Swordsman. Transfer all counters from\nSwordsman to it. Then destroy Swordsman.)\nFirst Damage (This Character deals its combat DMG first.)",
     "additionalCostsText": "",
     "rawText": "SWORDMASTER KAELRIC DAWNLIGHT\nEpic Character, Human\n5 4 3\nIf you control Swordsman, pay 2 ASP less to summon\nSwordmaster Kaelric Dawnlight then Rise Swordsman.\n(Place this card on Swordsman. Transfer all counters from\nSwordsman to it. Then destroy Swordsman.)\nFirst Damage (This Character deals its combat DMG first.)\nN 040 ORI-EN 024 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -2750,7 +2750,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "When Arion, Paladin of the Falcon Guard enters play, create\none 1/1 Falcon Token with Flying in target War Zone.\n[Turn]: Gain O ASP as long as this Character remains Bound.",
+    "rulesText": "When Arion, Paladin of the Falcon Guard enters play, create\none 1/1 Falcon Token with Flying in target War Zone.\n{T}: Gain O ASP as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "ARION, PALADIN OF THE FALCON GUARD\nEpic Character, Human\n3 3 3 2\nWhen Arion, Paladin of the Falcon Guard enters play, create\none 1/1 Falcon Token with Flying in target War Zone.\n©: Gain O ASP as long as this Character remains Bound.\nN 048 ORI-EN ©24 Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -2793,7 +2793,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "If you play Camorrus Tower on another LVL1 Resource,\nthat Resource becomes a Training attached to\nCamorrus Tower with the following effect: \"Whenever\nyou gain ASP, you gain that much ASP plus one.\n[Turn]: Gain O ASP.\n2: Increase the Magic Value of one of your spells by 2\nuntil the end of the turn.",
+    "rulesText": "If you play Camorrus Tower on another LVL1 Resource,\nthat Resource becomes a Training attached to\nCamorrus Tower with the following effect: \"Whenever\nyou gain ASP, you gain that much ASP plus one.\n{T}: Gain O ASP.\n2: Increase the Magic Value of one of your spells by 2\nuntil the end of the turn.",
     "additionalCostsText": "",
     "rawText": "CAMORRUS TOWER\nMythic Resource\nIf you play Camorrus Tower on another LVL1 Resource,\nthat Resource becomes a Training attached to\nCamorrus Tower with the following effect: \"Whenever\nyou gain ASP, you gain that much ASP plus one.\n©: Gain O ASP.\n2: Increase the Magic Value of one of your spells by 2\nuntil the end of the turn.\nN 049 ORI-EN ©24 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -2839,7 +2839,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "Forge of Heroes enters play with one Hero counter.\nQ: Add one Hero counter.\n[Turn], Remove X Hero counters: For each counter removed,\nchoose one: Target Character gains 1 RES +1, 1 INI +1, or 1\nPOW/HP +1/+1 counter.\n1, [Turn]: Rise target Character you control with Rise.\nTransfer all counters to the Risen Character, then remove\nthe original from the game. It may move without turning\nand using an action.",
+    "rulesText": "Forge of Heroes enters play with one Hero counter.\nQ: Add one Hero counter.\n{T}, Remove X Hero counters: For each counter removed,\nchoose one: Target Character gains 1 RES +1, 1 INI +1, or 1\nPOW/HP +1/+1 counter.\n1, {T}: Rise target Character you control with Rise.\nTransfer all counters to the Risen Character, then remove\nthe original from the game. It may move without turning\nand using an action.",
     "additionalCostsText": "",
     "rawText": "FORGE OF HEROES\nResource\nForge of Heroes enters play with one Hero counter.\nQ: Add one Hero counter.\n©, Remove X Hero counters: For each counter removed,\nchoose one: Target Character gains 1 RES +1, 1 INI +1, or 1\nPOW/HP +1/+1 counter.\n1, ©: Rise target Character you control with Rise.\nTransfer all counters to the Risen Character, then remove\nthe original from the game. It may move without turning\nand using an action.\nN 050 ORI•EN ©24 Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
@@ -2882,7 +2882,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "As long as this Character remains Bound, Characters\nwith Flying treat this Lane as if they don't have Flying\nfor combat actions.\n[Turn]: Gain O ASP, as long as this Character remains",
+    "rulesText": "As long as this Character remains Bound, Characters\nwith Flying treat this Lane as if they don't have Flying\nfor combat actions.\n{T}: Gain O ASP, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "GUARDIAN OF THE SHIELD DOME\nCharacter, Human_\nL₴* Nãi Đ\n3 2 3\nAs long as this Character remains Bound, Characters\nwith Flying treat this Lane as if they don't have Flying\nfor combat actions.\n©: Gain O ASP, as long as this Character remains\nBound.\nN 051 ORI•EN ©24 Bluthelden® Art: Alexander Zimmermann",
     "status": "machine",
@@ -2972,7 +2972,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor slot.\nIt is still a character that can be the target of spells or\nabilities.)\n, Remove 1 Peace counter: Choose a Lane.\nCharacters in that Lane can't deal any DMG in this round.\nO, [Turn]: Put 1 Peace counter on this Advisor.",
+    "rulesText": "Advisor (You have to place this card in the Advisor slot.\nIt is still a character that can be the target of spells or\nabilities.)\n, Remove 1 Peace counter: Choose a Lane.\nCharacters in that Lane can't deal any DMG in this round.\nO, {T}: Put 1 Peace counter on this Advisor.",
     "additionalCostsText": "",
     "rawText": "MAGISTER TILLION OF WEIDENHEIM\nMythic Character, Human Advisor\n5\nAdvisor (You have to place this card in the Advisor slot.\nIt is still a character that can be the target of spells or\nabilities.)\n, Remove 1 Peace counter: Choose a Lane.\nCharacters in that Lane can't deal any DMG in this round.\nO, ©: Put 1 Peace counter on this Advisor.\nF 053 ORI•EN ©24 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -3013,7 +3013,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP. Gain 2 ASP instead, if you control at\nleast three Resources with different names.\n[Turn]: Create one \"Healing Vessel\" Token.\n(It's an Artifact Token with \"[Turn], Sacrifice this Artifact:\nTarget Character regenerates 1 HPi)",
+    "rulesText": "{T}: Gain O ASP. Gain {2} instead, if you control at\nleast three Resources with different names.\n{T}: Create one \"Healing Vessel\" Token.\n(It's an Artifact Token with \"{T}, Sacrifice this Artifact:\nTarget Character regenerates 1 HPi)",
     "additionalCostsText": "",
     "rawText": "THE RIVER FORGE\nResource\nHOHO!MER\n©: Gain O ASP. Gain 2 ASP instead, if you control at\nleast three Resources with different names.\n©: Create one \"Healing Vessel\" Token.\n(It's an Artifact Token with \"©, Sacrifice this Artifact:\nTarget Character regenerates 1 HPi)\n054 ORI •EN 034 Bluthelden® Art Jounes Erojo",
     "status": "machine",
@@ -3060,7 +3060,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control a LVL 2 Resource, U, O: Rise (Search\nyour Spell Deck for a card named Master Blacksmith\nand place it on this slot. Iransfer all counters from Young\nBlacksmith to it. Then destroy Young Blacksmith.)\n[Turn]: Gain O ASP, as long as this Character remains",
+    "rulesText": "If you control a LVL 2 Resource, U, O: Rise (Search\nyour Spell Deck for a card named Master Blacksmith\nand place it on this slot. Iransfer all counters from Young\nBlacksmith to it. Then destroy Young Blacksmith.)\n{T}: Gain O ASP, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "YOUNG BLACKSMITH\nCharacter, Human\n2 2 1 1\nIf you control a LVL 2 Resource, U, O: Rise (Search\nyour Spell Deck for a card named Master Blacksmith\nand place it on this slot. Iransfer all counters from Young\nBlacksmith to it. Then destroy Young Blacksmith.)\n©: Gain O ASP, as long as this Character remains\nBound.\nK 055 ORI •EN ©24 Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -3167,7 +3167,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "X1°1++10 T\n[Turn], Sacrifice this Artifact: Target Character regenerates 1 HP.",
+    "rulesText": "X1°1++10 T\n{T}, Sacrifice this Artifact: Target Character regenerates 1 HP.",
     "additionalCostsText": "",
     "rawText": "HEALING VESSEL\nToken, Artifact\n• Sa\nX1°1++10 T\n©, Sacrifice this Artifact: Target Character regenerates 1 HP.\nT 057 ORI-EN ©4 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -3256,7 +3256,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Horns of Camorrus enter play with 2 Horn counters on them.\nRemove 1 Horn counter from Horns of Camorrus, [Turn]: Put 1\nRES +1 counter, 1INI +1 counter, and 1 POW/HP +1/+1 counter\non all Characters you control. If there is no counter on it,\nsacrifice Horns of Camorrus.\nF WH D-21 ORI•EN ©24 Bluthelden®",
+    "rulesText": "Horns of Camorrus enter play with 2 Horn counters on them.\nRemove 1 Horn counter from Horns of Camorrus, {T}: Put 1\nRES +1 counter, 1INI +1 counter, and 1 POW/HP +1/+1 counter\non all Characters you control. If there is no counter on it,\nsacrifice Horns of Camorrus.\nF WH D-21 ORI•EN ©24 Bluthelden®",
     "additionalCostsText": "",
     "rawText": "HORNS OF CAMORRUS\nArtifact\nHorns of Camorrus enter play with 2 Horn counters on them.\nRemove 1 Horn counter from Horns of Camorrus, ©: Put 1\nRES +1 counter, 1INI +1 counter, and 1 POW/HP +1/+1 counter\non all Characters you control. If there is no counter on it,\nsacrifice Horns of Camorrus.\nF WH D-21 ORI•EN ©24 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -3860,7 +3860,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Druide of the Earth, pay 2 ASP less to\nsummon Drumin, the Druide, then Rise Druide of the\nEarth. (Place this card on Druide of the Earth. Transfer\nall counters from Druide of the Earth to it. Then destroy\nDruide of the Earth.)\nD: Create a Fundamental Training called Growth\nand attach it to target Character you control. It has:\n\"Trained Character gains POW/HP +2/+1.\"",
+    "rulesText": "If you control Druide of the Earth, pay {2} less to\nsummon Drumin, the Druide, then Rise Druide of the\nEarth. (Place this card on Druide of the Earth. Transfer\nall counters from Druide of the Earth to it. Then destroy\nDruide of the Earth.)\nD: Create a Fundamental Training called Growth\nand attach it to target Character you control. It has:\n\"Trained Character gains POW/HP +2/+1.\"",
     "additionalCostsText": "",
     "rawText": "DRUMIN, THE DRUIDE\nEpic Character, Druide\n2\n2 3 4 5\nIf you control Druide of the Earth, pay 2 ASP less to\nsummon Drumin, the Druide, then Rise Druide of the\nEarth. (Place this card on Druide of the Earth. Transfer\nall counters from Druide of the Earth to it. Then destroy\nDruide of the Earth.)\nD: Create a Fundamental Training called Growth\nand attach it to target Character you control. It has:\n\"Trained Character gains POW/HP +2/+1.\"\nK 068 ORI•EN ®½¾ Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
@@ -4403,7 +4403,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], 2: Create one 1/2 Creeper Plant Token in target Slot in\nthe same Lane.",
+    "rulesText": "{T}, 2: Create one 1/2 Creeper Plant Token in target Slot in\nthe same Lane.",
     "additionalCostsText": "",
     "rawText": "GARDENER\nCharacter, Elf\n2 2 1/1\n©, 2: Create one 1/2 Creeper Plant Token in target Slot in\nthe same Lane.\nK 080 ORI•EN ©2 Bluthelden® Art: Amar Sekarwangi",
     "status": "machine",
@@ -4635,7 +4635,7 @@
       "Punch",
       "Rise"
     ],
-    "rulesText": "If you control Dragon Babe, pay 3 ASP less, then Rise\nDragon Babe. (Place this card on Dragon Babe. Transfer\nall counters from Dragon Babe to it. Then remove\nDragon Babe from the game.)\nPunch (Ifthis Character deals DMG to another Character\nthat exceeds its HP, the excess DMG is dealt to the\nopponent's Sovereign.)\n2: It gains POW/HP +1/+1 until end of turn.",
+    "rulesText": "If you control Dragon Babe, pay {3} less, then Rise\nDragon Babe. (Place this card on Dragon Babe. Transfer\nall counters from Dragon Babe to it. Then remove\nDragon Babe from the game.)\nPunch (Ifthis Character deals DMG to another Character\nthat exceeds its HP, the excess DMG is dealt to the\nopponent's Sovereign.)\n2: It gains POW/HP +1/+1 until end of turn.",
     "additionalCostsText": "",
     "rawText": "NIDHOGG, THE APPEALING DRAGON\nEpic Character, Dragon\n3 4 5\nIf you control Dragon Babe, pay 3 ASP less, then Rise\nDragon Babe. (Place this card on Dragon Babe. Transfer\nall counters from Dragon Babe to it. Then remove\nDragon Babe from the game.)\nPunch (Ifthis Character deals DMG to another Character\nthat exceeds its HP, the excess DMG is dealt to the\nopponent's Sovereign.)\nFlying\n2: It gains POW/HP +1/+1 until end of turn.\nL 085 ORI•EN ©24 Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -4818,7 +4818,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "3, [Turn]: Put up to 2 POW/HP +1/+1 counter on up to two\ntarget Characters you control.",
+    "rulesText": "3, {T}: Put up to 2 POW/HP +1/+1 counter on up to two\ntarget Characters you control.",
     "additionalCostsText": "",
     "rawText": "POWER OF NATURE\nArtifact\n3, ©: Put up to 2 POW/HP +1/+1 counter on up to two\ntarget Characters you control.\nN 089 ORI-EN ©34 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -4904,7 +4904,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1: Gain 1 ASP.\nWhenever Characters you control attack, they gain",
+    "rulesText": "1: Gain {1}.\nWhenever Characters you control attack, they gain",
     "additionalCostsText": "",
     "rawText": "RING OF NATURE\nMythic Artifact\n1: Gain 1 ASP.\nWhenever Characters you control attack, they gain\nPunch.\nF 091 ORI•EN ©24 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -5400,7 +5400,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "2 ASP: Create one 1/2 Creeper Plant Token in target Slot.",
+    "rulesText": "{2}: Create one 1/2 Creeper Plant Token in target Slot.",
     "additionalCostsText": "",
     "rawText": "WOOD ELF\nElf\n3 4 2 3\n2: Create one 1/2 Creeper Plant Token in target Slot.\nK 102 ORI •EN ®ź¾ Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
@@ -5530,7 +5530,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.\n•: Create one 1/2 Creeper Plant Token in target Slot in\nthe same Lane.",
+    "rulesText": "•: Gain {1}.\n•: Create one 1/2 Creeper Plant Token in target Slot in\nthe same Lane.",
     "additionalCostsText": "",
     "rawText": "CREEPER FIELD\nResource\n1\n•: Gain 1 ASP.\n•: Create one 1/2 Creeper Plant Token in target Slot in\nthe same Lane.\nN 105 ORI•EN ©2 Bluthelden® Art: Agustin Vergara Koller",
     "status": "machine",
@@ -5618,7 +5618,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "As long as this Character is trained, Training spells summon\ninto the same Lane cost 1 ASP less.\n®: Gain 1 ASP, as long as this Character remains Bound.",
+    "rulesText": "As long as this Character is trained, Training spells summon\ninto the same Lane cost {1} less.\n®: Gain {1}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "ELF OF THE MAGICAL ENCOUNTER\nCharacter, Elf\n76O\n2 3 12\nAs long as this Character is trained, Training spells summon\ninto the same Lane cost 1 ASP less.\n®: Gain 1 ASP, as long as this Character remains Bound.\nK 107 ORI•EN ©24 Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -5702,7 +5702,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP.\n1: Gain 2 ASP. Activate only if you control three or\nmore Unbound Characters in the same Lane.",
+    "rulesText": "®: Gain {1}.\n1: Gain {2}. Activate only if you control three or\nmore Unbound Characters in the same Lane.",
     "additionalCostsText": "",
     "rawText": "THE TWO RIVERS\nResource\n®: Gain 1 ASP.\n1: Gain 2 ASP. Activate only if you control three or\nmore Unbound Characters in the same Lane.\nL 109 VORILEN 0¾ Bluthelden® Art: Lavinia",
     "status": "machine",
@@ -5745,7 +5745,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When The Unified enters play, create a Training called\nGrowth and attach it to target Character you control in\nthe same Lane. It gains POW/HP +2/+1.\n[Turn]: Gain 1 ASP, as long as this Character remains Bound.",
+    "rulesText": "When The Unified enters play, create a Training called\nGrowth and attach it to target Character you control in\nthe same Lane. It gains POW/HP +2/+1.\n{T}: Gain {1}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "THE UNIFIED\nCharacter, Human\n2\n3\nWhen The Unified enters play, create a Training called\nGrowth and attach it to target Character you control in\nthe same Lane. It gains POW/HP +2/+1.\n©: Gain 1 ASP, as long as this Character remains Bound.\nK 110 ORI•EN ©24 Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -5796,7 +5796,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Every Flora in this Lane gains RES +1 and POW/HP +1/+1.\n®: Gain 1 ASP.",
+    "rulesText": "Every Flora in this Lane gains RES +1 and POW/HP +1/+1.\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "ULFRED BRIGBUCK'S GARDEN\nEpic Resource\nEvery Flora in this Lane gains RES +1 and POW/HP +1/+1.\n®: Gain 1 ASP.\nF 111 * ORI-EN ©34 Bluthelden® Art: Anna Lesnikova",
     "status": "machine",
@@ -5846,7 +5846,7 @@
       "Advisor",
       "Fuse"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n[Turn]: Create one 1/2 Creeper Plant Token in target Slot.\n: Choose 3 Creeper Plant Tokens in target Lane and\nfuse them into one Giant Creeper Plant Token. Place the\nfused Token on an unoccupied Slot in the same Lane.",
+    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n{T}: Create one 1/2 Creeper Plant Token in target Slot.\n: Choose 3 Creeper Plant Tokens in target Lane and\nfuse them into one Giant Creeper Plant Token. Place the\nfused Token on an unoccupied Slot in the same Lane.",
     "additionalCostsText": "",
     "rawText": "ULFRED BRIGBUCK, THE WISE\nMythic Character, Elf Advisor\n5\nAdvisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n©: Create one 1/2 Creeper Plant Token in target Slot.\n2, : Choose 3 Creeper Plant Tokens in target Lane and\nfuse them into one Giant Creeper Plant Token. Place the\nfused Token on an unoccupied Slot in the same Lane.\nF 112 ORI •EN ©24 Bluthelden® Art: Anna Lesnikova",
     "status": "machine",
@@ -6029,7 +6029,7 @@
       "Spread",
       "Tactical Shift"
     ],
-    "rulesText": "All Flora you control gain RES +1, INI +1 and POW/HP +1/+0.\n®, Pay 1 LP: Gain 1 ASP.\n3: Spread (Target a Flora you control. Create a copy of\nit and place it in an unoccupied Slot in the same Lane.)\nO: Target Character you control gains Tactical Shift until\nthe end of the round. (It may move once per round without\nturning and using an action.) Use this ability once per round.",
+    "rulesText": "All Flora you control gain RES +1, INI +1 and POW/HP +1/+0.\n®, Pay 1 LP: Gain {1}.\n3: Spread (Target a Flora you control. Create a copy of\nit and place it in an unoccupied Slot in the same Lane.)\nO: Target Character you control gains Tactical Shift until\nthe end of the round. (It may move once per round without\nturning and using an action.) Use this ability once per round.",
     "additionalCostsText": "+0\n+2",
     "rawText": "ELARIA WINDWHISPER, KEEPER OF THE GALE\nGreen Sovereign\n+0\n+2\nAll Flora you control gain RES +1, INI +1 and POW/HP +1/+0.\n®, Pay 1 LP: Gain 1 ASP.\n3: Spread (Target a Flora you control. Create a copy of\nit and place it in an unoccupied Slot in the same Lane.)\nO: Target Character you control gains Tactical Shift until\nthe end of the round. (It may move once per round without\nturning and using an action.) Use this ability once per round.\nF 116 ORI-EN ©24 Bluthelden® Art: Helge C. Balzer",
     "status": "machine",
@@ -6269,7 +6269,7 @@
     "keywords": [
       "Lord of the Dead"
     ],
-    "rulesText": "Lord of the Dead - Whenever a nontoken Character you\ncontrol dies, create one 2/2 Skeleton Token.\n®, Pay 1 LP: Gain 1 ASP.\n[Turn], Pay 4 LP: Search your Graveyard for an Undead\nCharacter and place it to target Slot.\nPay 2 LP, Sacrifice two Characters you control:\nDestroy target Character. You can use this ability only\nonce per round.",
+    "rulesText": "Lord of the Dead - Whenever a nontoken Character you\ncontrol dies, create one 2/2 Skeleton Token.\n®, Pay 1 LP: Gain {1}.\n{T}, Pay 4 LP: Search your Graveyard for an Undead\nCharacter and place it to target Slot.\nPay 2 LP, Sacrifice two Characters you control:\nDestroy target Character. You can use this ability only\nonce per round.",
     "additionalCostsText": "+0\n+1\n+2",
     "rawText": "30 BARABAS ULFARAN, PRINCE OF NACHTHEIM\nBlack Sovereign\n+0\n+1\n+2\nLord of the Dead - Whenever a nontoken Character you\ncontrol dies, create one 2/2 Skeleton Token.\n®, Pay 1 LP: Gain 1 ASP.\n©, Pay 4 LP: Search your Graveyard for an Undead\nCharacter and place it to target Slot.\nPay 2 LP, Sacrifice two Characters you control:\nDestroy target Character. You can use this ability only\nonce per round.\nF 117 ORI•EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -6316,7 +6316,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Nascent Necromancer, pay 2 ASP less\nto summon Baal, the Necromancer, then Rise Nascent\nNecromancer. Place this card on Nascent Necromancer.\nTransfer all counters from Nascent Necromancer to it.\nThen destroy Nascent Necromancer.)\n•: Banish two cards from your Graveyard: Create\none Skeleton Token in target War Zone. (It's a POW/HP\n2/2 Character with \"This Character must attack every\nround, if able. Sacrifice it at the end of the round.?)",
+    "rulesText": "If you control Nascent Necromancer, pay {2} less\nto summon Baal, the Necromancer, then Rise Nascent\nNecromancer. Place this card on Nascent Necromancer.\nTransfer all counters from Nascent Necromancer to it.\nThen destroy Nascent Necromancer.)\n•: Banish two cards from your Graveyard: Create\none Skeleton Token in target War Zone. (It's a POW/HP\n2/2 Character with \"This Character must attack every\nround, if able. Sacrifice it at the end of the round.?)",
     "additionalCostsText": "",
     "rawText": "BAAL, THE NECROMANCER\nEpic Character, Undead\n3 3 4\nIf you control Nascent Necromancer, pay 2 ASP less\nto summon Baal, the Necromancer, then Rise Nascent\nNecromancer. Place this card on Nascent Necromancer.\nTransfer all counters from Nascent Necromancer to it.\nThen destroy Nascent Necromancer.)\n•: Banish two cards from your Graveyard: Create\none Skeleton Token in target War Zone. (It's a POW/HP\n2/2 Character with \"This Character must attack every\nround, if able. Sacrifice it at the end of the round.?)\nK 118 ORI•EN ©4 Błuthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -6486,7 +6486,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Choose one: Sacrifice target Character you control, to gain 1 ASP or Bloodrush 1 to target Character you control. (It gains POW/HP +1/+1. Banish it at the end of this round.)",
+    "rulesText": "Choose one: Sacrifice target Character you control, to gain {1} or Bloodrush 1 to target Character you control. (It gains POW/HP +1/+1. Banish it at the end of this round.)",
     "additionalCostsText": "",
     "rawText": "BLOOD\n773dS\nChoose one: Sacrifice target Character you control, to\ngain O ASP or Bloodrush 1 to target Character you\ncontrol. (It gains POW/HP +1/+1. Banish it at the end of this\nround.)\nK 122 ORI•EN ©24 Bluthelden® Art: Amar Sekarwangi",
     "status": "machine",
@@ -6534,7 +6534,7 @@
     "keywords": [
       "Poison"
     ],
-    "rulesText": "2,[Turn]: Put 1 Poison counter on each of up to two target\nCharacters. (A poisoned Character takes 1 DMG at the\nbeginning of each combat phase, starting next round.)",
+    "rulesText": "2,{T}: Put 1 Poison counter on each of up to two target\nCharacters. (A poisoned Character takes 1 DMG at the\nbeginning of each combat phase, starting next round.)",
     "additionalCostsText": "",
     "rawText": "BLOOD CHALICE\nArtifact\n2,©: Put 1 Poison counter on each of up to two target\nCharacters. (A poisoned Character takes 1 DMG at the\nbeginning of each combat phase, starting next round.)\nN 123 ORI-EN ©24 Bluthelden® Art: Enrico Castelli",
     "status": "machine",
@@ -7024,7 +7024,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Demon Summoner, pay 2 ASP less to\nsummon Demon Pactmaker, then Rise Demon Summoner.\n(Place this card on Demon Summoner. Transfer all counters\nfrom Demon Summoner to it. Then destroy Demon\nSummoner.)\n, Banish two Characters from your Graveyard: Create\none 2/2 Mutant Demon Token in target War Zone. It has\n\"2, [Turn]: Rise.\"",
+    "rulesText": "If you control Demon Summoner, pay {2} less to\nsummon Demon Pactmaker, then Rise Demon Summoner.\n(Place this card on Demon Summoner. Transfer all counters\nfrom Demon Summoner to it. Then destroy Demon\nSummoner.)\n, Banish two Characters from your Graveyard: Create\none 2/2 Mutant Demon Token in target War Zone. It has\n\"2, {T}: Rise.\"",
     "additionalCostsText": "",
     "rawText": "DEMON PACTMAKER\nEpic Character, Human\n4 3 3\nIf you control Demon Summoner, pay 2 ASP less to\nsummon Demon Pactmaker, then Rise Demon Summoner.\n(Place this card on Demon Summoner. Transfer all counters\nfrom Demon Summoner to it. Then destroy Demon\nSummoner.)\n, Banish two Characters from your Graveyard: Create\none 2/2 Mutant Demon Token in target War Zone. It has\n\"2, ©: Rise.\"\nK 134 ORI-EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -7331,7 +7331,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "2, [Turn]: Gain control of target Training or Artifact. Your\nopponent creates one 2/2 Mutant Demon Token in a\nWar Zone of their choice. It has \"Q, [Turn]: Rise\".",
+    "rulesText": "2, {T}: Gain control of target Training or Artifact. Your\nopponent creates one 2/2 Mutant Demon Token in a\nWar Zone of their choice. It has \"Q, {T}: Rise\".",
     "additionalCostsText": "",
     "rawText": "MASTER THIEF, VARIC\nEpic Character, Human\n3 4\n2, ©: Gain control of target Training or Artifact. Your\nopponent creates one 2/2 Mutant Demon Token in a\nWar Zone of their choice. It has \"Q, ©: Rise\".\nN 141 ORI•EN ©24 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -7469,7 +7469,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control a LVL 2 Resource, 2, [Turn]: Rise (Search your\nSpell Deck for a card named Baal, the Necromancer and\nplace it on this slot. Transfer all counters from Nascent\nNecromancer to it. Then destroy Nascent Necromancer.)",
+    "rulesText": "If you control a LVL 2 Resource, 2, {T}: Rise (Search your\nSpell Deck for a card named Baal, the Necromancer and\nplace it on this slot. Transfer all counters from Nascent\nNecromancer to it. Then destroy Nascent Necromancer.)",
     "additionalCostsText": "",
     "rawText": "NASCENT NECROMANCER\nCharacter, Human\n3 2 2 2\nIf you control a LVL 2 Resource, 2, ©: Rise (Search your\nSpell Deck for a card named Baal, the Necromancer and\nplace it on this slot. Transfer all counters from Nascent\nNecromancer to it. Then destroy Nascent Necromancer.)\nK 144 ORI•EN ®½¾ Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -7510,7 +7510,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1, [Turn], Sacrifice one Character you control:\nDestroy target Character. Then banish No Reliance.",
+    "rulesText": "1, {T}, Sacrifice one Character you control:\nDestroy target Character. Then banish No Reliance.",
     "additionalCostsText": "",
     "rawText": "NO RELIANCE\nArtifact\n1, ©, Sacrifice one Character you control:\nDestroy target Character. Then banish No Reliance.\nN 145 ORI • EN ©2° Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -7731,7 +7731,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "D: Gain 1 ASP.\nO: Create one Blood Trinket Token. It has®, Sacrifice\nthis Artifact: Gain O ASP.\"",
+    "rulesText": "D: Gain {1}.\nO: Create one Blood Trinket Token. It has®, Sacrifice\nthis Artifact: Gain O ASP.\"",
     "additionalCostsText": "",
     "rawText": "RING OF MIGHT\nArtifact\nD: Gain 1 ASP.\nO: Create one Blood Trinket Token. It has®, Sacrifice\nthis Artifact: Gain O ASP.\"\nF 150 ORI•EN ©24 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -8003,7 +8003,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Mutant Demon Token, pay 2 ASP less to\nsummon Two-Headed Demon, then Rise Mutant Demon\nToken. (Place this card on Mutant Demon Token. Transfer\nall counters from Mutant Demon Token to it. Then destroy\nMutant Demon Token.)\nThis Character comes into play with Bloodrush 4. (It gains\nPOW/HP +4/+4. Banish it at the end of this round.)",
+    "rulesText": "If you control Mutant Demon Token, pay {2} less to\nsummon Two-Headed Demon, then Rise Mutant Demon\nToken. (Place this card on Mutant Demon Token. Transfer\nall counters from Mutant Demon Token to it. Then destroy\nMutant Demon Token.)\nThis Character comes into play with Bloodrush 4. (It gains\nPOW/HP +4/+4. Banish it at the end of this round.)",
     "additionalCostsText": "",
     "rawText": "TWO-HEADED DEMON\nCharacter, Demon\n3 6 2 2\nIf you control Mutant Demon Token, pay 2 ASP less to\nsummon Two-Headed Demon, then Rise Mutant Demon\nToken. (Place this card on Mutant Demon Token. Transfer\nall counters from Mutant Demon Token to it. Then destroy\nMutant Demon Token.)\nThis Character comes into play with Bloodrush 4. (It gains\nPOW/HP +4/+4. Banish it at the end of this round.)\nK -157 ORI •EN ©24 Bluthelden®.Art: Agustín Vergara Koller",
     "status": "machine",
@@ -8278,7 +8278,7 @@
       "Advisor",
       "Rise"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n•, Sacrifice another target Character: Create one Blood\nTrinket Token.\nWhenever a Character your opponent controls dies, you\nmay pay 2, ®. If you do create one 2/2 Mutant Demon\nToken in target War Zone. It has \"2, [Turn]: Rise\".",
+    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n•, Sacrifice another target Character: Create one Blood\nTrinket Token.\nWhenever a Character your opponent controls dies, you\nmay pay 2, ®. If you do create one 2/2 Mutant Demon\nToken in target War Zone. It has \"2, {T}: Rise\".",
     "additionalCostsText": "",
     "rawText": "ARCHDEMON KANGOR\nMythic Character, Demon Advisor\nAdvisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n•, Sacrifice another target Character: Create one Blood\nTrinket Token.\nWhenever a Character your opponent controls dies, you\nmay pay 2, ®. If you do create one 2/2 Mutant Demon\nToken in target War Zone. It has \"2, ©: Rise\".\nL 163 ORI•EN ©24 Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -8321,7 +8321,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain 1 ASP, as long as this Character remains Bound.\n2, C, Sacritice one Bound Character, sacritice\nDemon Brood: Search your Spell Deck or Pool Deck for a\ncard and add it into your hand. Then shuffle your Decks.",
+    "rulesText": "{T}: Gain {1}, as long as this Character remains Bound.\n2, C, Sacritice one Bound Character, sacritice\nDemon Brood: Search your Spell Deck or Pool Deck for a\ncard and add it into your hand. Then shuffle your Decks.",
     "additionalCostsText": "",
     "rawText": "DEMON BROOD\nCharacter, Demon\n2 1\n©: Gain 1 ASP, as long as this Character remains Bound.\n2, C, Sacritice one Bound Character, sacritice\nDemon Brood: Search your Spell Deck or Pool Deck for a\ncard and add it into your hand. Then shuffle your Decks.\nK 164 ORI•EN ©24 Bluthelden® Art: Darline Herbst",
     "status": "machine",
@@ -8448,7 +8448,7 @@
     "keywords": [
       "Poison"
     ],
-    "rulesText": "Poison Cellar enters play with 3 Cellar counters.\nO: Gain 1 ASP.\n1, Remove 1 Cellar counter: Put 1 Poison counter on\ntarget Character. (A poisoned Character takes 1 DMG at\nthe beginning of each combat phase, starting next round.)",
+    "rulesText": "Poison Cellar enters play with 3 Cellar counters.\nO: Gain {1}.\n1, Remove 1 Cellar counter: Put 1 Poison counter on\ntarget Character. (A poisoned Character takes 1 DMG at\nthe beginning of each combat phase, starting next round.)",
     "additionalCostsText": "",
     "rawText": "POISON CELLAR\nResource\nPoison Cellar enters play with 3 Cellar counters.\nO: Gain 1 ASP.\n1, Remove 1 Cellar counter: Put 1 Poison counter on\ntarget Character. (A poisoned Character takes 1 DMG at\nthe beginning of each combat phase, starting next round.)\nL 167 ORI • EN ©24 Bluthelden® rt: Kane Matos",
     "status": "machine",
@@ -8489,7 +8489,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP. Gain 2 ASP instead, if you control at\nleast three Resources with different names.\n•: Create one Blood Trinket Token. It has®, Sacrifice\nthis Artifact: Gain OASP.)",
+    "rulesText": "®: Gain {1}. Gain {2} instead, if you control at\nleast three Resources with different names.\n•: Create one Blood Trinket Token. It has®, Sacrifice\nthis Artifact: Gain OASP.)",
     "additionalCostsText": "",
     "rawText": "RITUAL PLACE\nResource\n®: Gain 1 ASP. Gain 2 ASP instead, if you control at\nleast three Resources with different names.\n•: Create one Blood Trinket Token. It has®, Sacrifice\nthis Artifact: Gain OASP.)\nL 168 ORI-EN ©24 Bluthelden® Art: Tessa Nook",
     "status": "machine",
@@ -8532,7 +8532,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Harmful Demon comes into play, you lose 1 LP.\n®: Gain 1 ASP, as long as this Character remains Bound.",
+    "rulesText": "When Harmful Demon comes into play, you lose 1 LP.\n®: Gain {1}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "HARMFUL DEMON\nCharacter, Demon\n2 2 2\nWhen Harmful Demon comes into play, you lose 1 LP.\n®: Gain 1 ASP, as long as this Character remains Bound.\nK 169 ORI•EN ©24 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -8575,7 +8575,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "At the beginning of your turn, roll a D6:\nOn a 1-3: Xalgiris Tower deals 1 DMG to all Characters you\ncontrol in its Lane.\nOn a 4-6: All Characters you control in its Lane may move\nto the Combat Lone, without turning and using an action.\nThey gain Bloodrush 3. (They gain POW/HP +3/+3 until\nthe end of this round. Banish them at the end of this round)\n®: Gain 1 ASP.",
+    "rulesText": "At the beginning of your turn, roll a D6:\nOn a 1-3: Xalgiris Tower deals 1 DMG to all Characters you\ncontrol in its Lane.\nOn a 4-6: All Characters you control in its Lane may move\nto the Combat Lone, without turning and using an action.\nThey gain Bloodrush 3. (They gain POW/HP +3/+3 until\nthe end of this round. Banish them at the end of this round)\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "XALGIRIS TOWER\nEpic Resource\nAt the beginning of your turn, roll a D6:\nOn a 1-3: Xalgiris Tower deals 1 DMG to all Characters you\ncontrol in its Lane.\nOn a 4-6: All Characters you control in its Lane may move\nto the Combat Lone, without turning and using an action.\nThey gain Bloodrush 3. (They gain POW/HP +3/+3 until\nthe end of this round. Banish them at the end of this round)\n®: Gain 1 ASP.\nL 170 ORI•EN ©24 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -8955,7 +8955,7 @@
       "Advisor",
       "Rise"
     ],
-    "rulesText": "If you control Ascendant Darklord, pay 2 ASP less\nto summon Kalakai, Undead Emissary, then Rise\nAscendant Darklord. When this card is Risen or comes\ninto play, you must place it in the Advisor Slot. If there\nis already an Advisor, it dies and is replaced by this card.\nPay 2 LP and sacrifice another Character you control:\nTarget Character loses 2 HP and is Zombified until\nthe end of next round. If the Character dies while being\nZombified, it becomes a 1/2 Zombie Token under your\nORI•EN 02 Bluthelden® Art: Amar Sekarwangi",
+    "rulesText": "If you control Ascendant Darklord, pay {2} less\nto summon Kalakai, Undead Emissary, then Rise\nAscendant Darklord. When this card is Risen or comes\ninto play, you must place it in the Advisor Slot. If there\nis already an Advisor, it dies and is replaced by this card.\nPay 2 LP and sacrifice another Character you control:\nTarget Character loses 2 HP and is Zombified until\nthe end of next round. If the Character dies while being\nZombified, it becomes a 1/2 Zombie Token under your\nORI•EN 02 Bluthelden® Art: Amar Sekarwangi",
     "additionalCostsText": "",
     "rawText": "KALAKAI, UNDEAD EMISSARY\nMythic Character, Undead Adivsor\nIf you control Ascendant Darklord, pay 2 ASP less\nto summon Kalakai, Undead Emissary, then Rise\nAscendant Darklord. When this card is Risen or comes\ninto play, you must place it in the Advisor Slot. If there\nis already an Advisor, it dies and is replaced by this card.\nPay 2 LP and sacrifice another Character you control:\nTarget Character loses 2 HP and is Zombified until\nthe end of next round. If the Character dies while being\nZombified, it becomes a 1/2 Zombie Token under your\ncontrol.\nFBKD-20 ORI•EN 02 Bluthelden® Art: Amar Sekarwangi",
     "status": "machine",
@@ -9218,7 +9218,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": ", Pay 1LP : Gain 1 ASP,\n, Pay 2 LP: Create one Shadow Token in target War\n1: Once per round, when you create the fourth\nShadow Token in any Lane, you may create one 1/2\nGhost Token.",
+    "rulesText": ", Pay 1LP : Gain {1},\n, Pay 2 LP: Create one Shadow Token in target War\n1: Once per round, when you create the fourth\nShadow Token in any Lane, you may create one 1/2\nGhost Token.",
     "additionalCostsText": "+2",
     "rawText": "KAELA AL SHAMAL, SHAMAN KING\nOrange Sovereign\n+ 0\n+2\n, Pay 1LP : Gain 1 ASP,\n, Pay 2 LP: Create one Shadow Token in target War\nZone.\n1: Once per round, when you create the fourth\nShadow Token in any Lane, you may create one 1/2\nGhost Token.\nF 176 ORI •EN ©24 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -10195,7 +10195,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], Sacrifice three Spectral Moth Tokens: Change\nthe target of a spell or activated ability an opponent\ncontrols with a single target. (You may not change to an\nillegal target.)",
+    "rulesText": "{T}, Sacrifice three Spectral Moth Tokens: Change\nthe target of a spell or activated ability an opponent\ncontrols with a single target. (You may not change to an\nillegal target.)",
     "additionalCostsText": "",
     "rawText": "• MIRROR OF THE PAST\nArtifact\n©, Sacrifice three Spectral Moth Tokens: Change\nthe target of a spell or activated ability an opponent\ncontrols with a single target. (You may not change to an\nillegal target.)\nN 198 ORI •EN ©24 Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -10242,7 +10242,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control Tribal Shaman pay 2 ASP less to summon\nMistheart, the Ghost Shaman, then Rise Tribal Shaman.\n(Place this card on Tribal Shaman. Transfer all countersfrom\nTribal Shaman to it. Then destroy Tribal Shaman.)\n1, Sacrifice two Shadow Tokens: Create a Fundemantal\nTraining Token called Mistheart's Punishment withThis\nCharacter doesn't unturn anymoret and attach it to target\nCharacter in the same Lane.",
+    "rulesText": "If you control Tribal Shaman pay {2} less to summon\nMistheart, the Ghost Shaman, then Rise Tribal Shaman.\n(Place this card on Tribal Shaman. Transfer all countersfrom\nTribal Shaman to it. Then destroy Tribal Shaman.)\n1, Sacrifice two Shadow Tokens: Create a Fundemantal\nTraining Token called Mistheart's Punishment withThis\nCharacter doesn't unturn anymoret and attach it to target\nCharacter in the same Lane.",
     "additionalCostsText": "",
     "rawText": "MISTHEART, THE GHOST SHAMAN\nEpic Character, Spirit\n5 3 1 2\nIf you control Tribal Shaman pay 2 ASP less to summon\nMistheart, the Ghost Shaman, then Rise Tribal Shaman.\n(Place this card on Tribal Shaman. Transfer all countersfrom\nTribal Shaman to it. Then destroy Tribal Shaman.)\n1, Sacrifice two Shadow Tokens: Create a Fundemantal\nTraining Token called Mistheart's Punishment withThis\nCharacter doesn't unturn anymoret and attach it to target\nCharacter in the same Lane.\nN 199 ORI •EN ©24 Bluthelden® Art: Pri Araújo",
     "status": "machine",
@@ -10614,7 +10614,7 @@
     "keywords": [
       "Fear"
     ],
-    "rulesText": "®: Gain 1 ASP.\nOnce per Lane each round, when a Shadow Token\nenters play, you may choose a Character an opponent\ncontrols in that Lane. That Character gains Fear. (Roll a\nD6 . If the result is equal to or higher than that Character's\nRES, turn it. It remains turned until the end of the next\nArt: María Trigueros",
+    "rulesText": "®: Gain {1}.\nOnce per Lane each round, when a Shadow Token\nenters play, you may choose a Character an opponent\ncontrols in that Lane. That Character gains Fear. (Roll a\nD6 . If the result is equal to or higher than that Character's\nRES, turn it. It remains turned until the end of the next\nArt: María Trigueros",
     "additionalCostsText": "",
     "rawText": "RING OF GHOSTS\nMythic Artifact\n®: Gain 1 ASP.\nOnce per Lane each round, when a Shadow Token\nenters play, you may choose a Character an opponent\ncontrols in that Lane. That Character gains Fear. (Roll a\nD6 . If the result is equal to or higher than that Character's\nRES, turn it. It remains turned until the end of the next\nround.)\nF 207 ORI•EN ©2 Bluthelden® Art: María Trigueros",
     "status": "machine",
@@ -11189,7 +11189,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n[Turn], Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats <→ Lose stats\nLose Life > Gain Life\nSacrifice Zayas Ritual then.",
+    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n{T}, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats <→ Lose stats\nLose Life > Gain Life\nSacrifice Zayas Ritual then.",
     "additionalCostsText": "",
     "rawText": "ZAYAS RITUAL\nRitual\nWhen Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n©, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats <→ Lose stats\nLose Life > Gain Life\nSacrifice Zayas Ritual then.\nN 219 ORI•EN ©24 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -11327,7 +11327,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP. If you control at least five Moths,\ngain 2 ASP instead.",
+    "rulesText": "®: Gain {1}. If you control at least five Moths,\ngain {2} instead.",
     "additionalCostsText": "",
     "rawText": "COCOON TREE\nResource\n®: Gain 1 ASP. If you control at least five Moths,\ngain 2 ASP instead.\nL 222 ORI-EN 024 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -11373,7 +11373,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Train target Resource.\n®: Choose a Character with Binding in the trained\nResource. Either unturn it if it is turned, or turn it if it is\nunturned to gain 1 ASP. That Character doesn't unturn at\nthe beginning of the next round.",
+    "rulesText": "Train target Resource.\n®: Choose a Character with Binding in the trained\nResource. Either unturn it if it is turned, or turn it if it is\nunturned to gain {1}. That Character doesn't unturn at\nthe beginning of the next round.",
     "additionalCostsText": "",
     "rawText": "DANCE OF GHOSTS\nResource, Fundamental Training\nTrain target Resource.\n®: Choose a Character with Binding in the trained\nResource. Either unturn it if it is turned, or turn it if it is\nunturned to gain 1 ASP. That Character doesn't unturn at\nthe beginning of the next round.\nF 223 ORI•EN ©24 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -11461,7 +11461,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.\n[Turn]: Create one Shadow Token in target War Zone.",
+    "rulesText": "•: Gain {1}.\n{T}: Create one Shadow Token in target War Zone.",
     "additionalCostsText": "",
     "rawText": "JUNGLE OF SPIRITS\nResource\n•: Gain 1 ASP.\n©: Create one Shadow Token in target War Zone.\nL 225 ORI • EN ®½4 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -11502,7 +11502,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": ": Gain 1 ASP.\n2, [Turn]: Create one Smith Ghost Token and bind it to target\nResource. It is a 0/4 Token Character, Spirit with Madness\nandi [Turn]: Gain O ASP, as long as this Character remains",
+    "rulesText": ": Gain {1}.\n2, {T}: Create one Smith Ghost Token and bind it to target\nResource. It is a 0/4 Token Character, Spirit with Madness\nandi {T}: Gain O ASP, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "SACRED SITE\nResource\n: Gain 1 ASP.\n2, ©: Create one Smith Ghost Token and bind it to target\nResource. It is a 0/4 Token Character, Spirit with Madness\nandi ©: Gain O ASP, as long as this Character remains\nBound.\"\nN 226 ORI•EN ©24 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -11545,7 +11545,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP, as long as this Character remains Bound.\n[Turn]: Create one Shadow Token.",
+    "rulesText": "®: Gain {1}, as long as this Character remains Bound.\n{T}: Create one Shadow Token.",
     "additionalCostsText": "",
     "rawText": "SHADOW SUMMONER\nCharacter, Spirit\n3\n®: Gain 1 ASP, as long as this Character remains Bound.\n©: Create one Shadow Token.\nN 227 ORI-EN ©24 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -11594,7 +11594,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP. Instead gain 2 ASP if you control 4\nShadow Tokens in the same Lane.",
+    "rulesText": "®: Gain {1}. Instead gain {2} if you control 4\nShadow Tokens in the same Lane.",
     "additionalCostsText": "",
     "rawText": "SHAMAN TENT\nResource\n®: Gain 1 ASP. Instead gain 2 ASP if you control 4\nShadow Tokens in the same Lane.\nN 228 ORI-EN 024 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -11873,7 +11873,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "®, Pay 1 LP: Gain 1 ASP.\nWhenever your opponent summons a permanent\ncard, create one 1/1 Spectral Moth Token with Flying.\n•, Pay 2 LP, Sacrifice three Spectral Moth Tokens:\nChange the target of a spell or ability your opponent\ncontrols.",
+    "rulesText": "®, Pay 1 LP: Gain {1}.\nWhenever your opponent summons a permanent\ncard, create one 1/1 Spectral Moth Token with Flying.\n•, Pay 2 LP, Sacrifice three Spectral Moth Tokens:\nChange the target of a spell or ability your opponent\ncontrols.",
     "additionalCostsText": "",
     "rawText": "30 NOCTARA, QUEEN OF MOTHS\nOrange Sovereign\n®, Pay 1 LP: Gain 1 ASP.\nWhenever your opponent summons a permanent\ncard, create one 1/1 Spectral Moth Token with Flying.\n•, Pay 2 LP, Sacrifice three Spectral Moth Tokens:\nChange the target of a spell or ability your opponent\ncontrols.\nF 234 ORI-EN ©½4Bluthelden® Art: Florian Stitz",
     "status": "machine",
@@ -12071,7 +12071,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Every Character in the War Zone in this Lane gains RES-1.\n®: Gain 1 ASP.\n•: Gain 2 ASP. Activate only if you control three\nShadow Tokens in this Lane.\nORI•EN ©24 Bluthelden®",
+    "rulesText": "Every Character in the War Zone in this Lane gains RES-1.\n®: Gain {1}.\n•: Gain {2}. Activate only if you control three\nShadow Tokens in this Lane.\nORI•EN ©24 Bluthelden®",
     "additionalCostsText": "",
     "rawText": "BLOOMING FRUIT\nResource\nEvery Character in the War Zone in this Lane gains RES-1.\n®: Gain 1 ASP.\n•: Gain 2 ASP. Activate only if you control three\nShadow Tokens in this Lane.\nF ORD-43 ORI•EN ©24 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -12155,7 +12155,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "Trainings in the same Lane cost 1 ASP less to summon.\n@: Gain 1 ASP.\n1, @: Rise target Character you control that has Rise.\nTransfer all counters to the Risen Character, then destroy\nthe original. It may move this round, without turning and\nusing an action.",
+    "rulesText": "Trainings in the same Lane cost {1} less to summon.\n@: Gain {1}.\n1, @: Rise target Character you control that has Rise.\nTransfer all counters to the Risen Character, then destroy\nthe original. It may move this round, without turning and\nusing an action.",
     "additionalCostsText": "",
     "rawText": "ARENA TRAINING\nEquilibra Resource\nTrainings in the same Lane cost 1 ASP less to summon.\n@: Gain 1 ASP.\n1, @: Rise target Character you control that has Rise.\nTransfer all counters to the Risen Character, then destroy\nthe original. It may move this round, without turning and\nusing an action.\nN 236 ORI •EN ©24 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -12321,7 +12321,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "@: Gain 1 ASP.",
+    "rulesText": "@: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FERTILE FIELD\nEquilibra Resource\n₴\n@: Gain 1 ASP.\nK 240 ORI•EN ©24 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -12362,7 +12362,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "@: Gain 1 ASP.",
+    "rulesText": "@: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FORGE\nEquilibra Resource\nYãO\n@: Gain 1 ASP.\nK 241 ORI •EN ©4 Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -12444,7 +12444,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain 1 ASP, as long as this Character remains Bound.",
+    "rulesText": "{T}: Gain {1}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "PRIEST\nEquilibra Character\n2 12\n©: Gain 1 ASP, as long as this Character remains Bound.\nK 243 ORI•EN ©24 Bluthelden® ° Art: Amar Sekarwangi",
     "status": "machine",
@@ -12578,7 +12578,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\nQ: Gain 1 ASP.\n[Turn]: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
+    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\nQ: Gain {1}.\n{T}: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
     "additionalCostsText": "",
     "rawText": "SOVEREIGN'S RUNE\nEquilibra Resource, Rune\nRune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\nQ: Gain 1 ASP.\n©: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.\nF 246 ORI•EN ©24 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -12619,7 +12619,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1: Gain 1 ASP, as long as this Character remains Bound.",
+    "rulesText": "1: Gain {1}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "SMITH\nEquilibra Character\n3 2\n1: Gain 1 ASP, as long as this Character remains Bound.\nK 247 ORI-EN ©34 Bluthelden® Art: Florian Stitz",
     "status": "machine",
@@ -12939,7 +12939,7 @@
     "keywords": [
       "Poison"
     ],
-    "rulesText": "Poison Cellar enters play with 3 Cellar counters\n: Gain 1 ASP.\nU, Remove 1 Cellar counter: Put 1 Poison counter on\ntarget Character. (A poisoned Character takes 1 DMG at\nthe beginning of each combat phase, starting next round.)",
+    "rulesText": "Poison Cellar enters play with 3 Cellar counters\n: Gain {1}.\nU, Remove 1 Cellar counter: Put 1 Poison counter on\ntarget Character. (A poisoned Character takes 1 DMG at\nthe beginning of each combat phase, starting next round.)",
     "additionalCostsText": "",
     "rawText": "POISON CELLAR\nResource\n11\nPoison Cellar enters play with 3 Cellar counters\n: Gain 1 ASP.\nU, Remove 1 Cellar counter: Put 1 Poison counter on\ntarget Character. (A poisoned Character takes 1 DMG at\nthe beginning of each combat phase, starting next round.)\nL 167 ORI - EN ©24 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -12982,7 +12982,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n[Turn], Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats → Lose stats\nLose Life → Gain Life\nSacrifice Zayas Ritual then.",
+    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n{T}, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats → Lose stats\nLose Life → Gain Life\nSacrifice Zayas Ritual then.",
     "additionalCostsText": "",
     "rawText": "ZAYAS RITUAL\nRitual\n11\nWhen Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n©, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats → Lose stats\nLose Life → Gain Life\nSacrifice Zayas Ritual then.\nN 219 ORI •EN ©24 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -13137,7 +13137,7 @@
     "keywords": [
       "Flying"
     ],
-    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n[Turn], Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats → Lose stats\nLose Life → Gain Life\nSacrifice Zayas Ritual then.",
+    "rulesText": "When Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n{T}, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats → Lose stats\nLose Life → Gain Life\nSacrifice Zayas Ritual then.",
     "additionalCostsText": "",
     "rawText": "ZAYAS RITUAL\nRitual\nCE\nWhen Zayas Ritual enters play, create two 1/1 Spectral\nMoth Tokens with Flying.\n©, Sacrifice three Spetral Moth Tokens: Replace one\nfunction of target spell or an activated ability your\nopponent controls. If it:\nDeals DMG → Regenerate HP\nGain stats → Lose stats\nLose Life → Gain Life\nSacrifice Zayas Ritual then.\nN 219 ORI •EN ©24 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -13305,7 +13305,7 @@
     "keywords": [
       "Surge"
     ],
-    "rulesText": "®, Pay1 LP: Gain 1 ASP.\n[Turn], Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost 1 ASP\nless to activate for their first activation each round.",
+    "rulesText": "®, Pay1 LP: Gain {1}.\n{T}, Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost {1}\nless to activate for their first activation each round.",
     "additionalCostsText": "",
     "rawText": "30 AIRELL THE BLUE, CHAIRMAN OF THE MAGES OF GLIMMERTAL\nBlue Sovereign\n23e59d\n®, Pay1 LP: Gain 1 ASP.\n©, Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost 1 ASP\nless to activate for their first activation each round.\nF BL PR-001 ALI • EN ©26 Bluthelden® Art: Helge C. Balzer",
     "status": "machine",
@@ -13346,7 +13346,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n[Turn], Pay 1 LP: Gain O ASP.\n[Turn], Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
+    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n{T}, Pay 1 LP: Gain O ASP.\n{T}, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
     "additionalCostsText": "+1\n+2",
     "rawText": "30 THORDRIN ROCKAXE, THE LERIUM GUÄRDIAN\nBrown Sovereign\n+1\n+2\nFortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n©, Pay 1 LP: Gain O ASP.\n©, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.\nF BR PR-002 ALI•EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -13387,7 +13387,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•, Pay 1 LP: Gain O ASP.\n[Turn], Pay 3 LP: Create a Fire Token in each War Zone.\n[Turn], sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.",
+    "rulesText": "•, Pay 1 LP: Gain O ASP.\n{T}, Pay 3 LP: Create a Fire Token in each War Zone.\n{T}, sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.",
     "additionalCostsText": "+2",
     "rawText": "PYRANA, THE EMBER-PRIESTRESS\nRed Sovereign\n+2\n•, Pay 1 LP: Gain O ASP.\n©, Pay 3 LP: Create a Fire Token in each War Zone.\n©, sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.\nSENAN\nF RD PR-003 ALI •EN 02% Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -13430,7 +13430,7 @@
     "keywords": [
       "Speed"
     ],
-    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, pay 1 LP: Gain 1 ASP.\n1, [Turn]: Put 1 RES+1 counter on target Fairy.",
+    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, pay 1 LP: Gain {1}.\n1, {T}: Put 1 RES+1 counter on target Fairy.",
     "additionalCostsText": "+2",
     "rawText": "LYSERA, THE LAST LIGHT FAIRY\nPurple Sovereign\n+2\nFairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, pay 1 LP: Gain 1 ASP.\n1, ©: Put 1 RES+1 counter on target Fairy.\nF PU PR-004 ALI•EN ©2% Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -13835,7 +13835,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Combat Veteran - Whenever this Character survives\nthe Combat Phase, choose one:\n• It gains 1 ASP.\n• Put 1 RES +1 counter and 1 POW/HP +1/+1 counter\n(A Character survives if it is in a Slot in the War Zone and\nhas performed a combat action at the end of the Combat",
+    "rulesText": "Combat Veteran - Whenever this Character survives\nthe Combat Phase, choose one:\n• It gains {1}.\n• Put 1 RES +1 counter and 1 POW/HP +1/+1 counter\n(A Character survives if it is in a Slot in the War Zone and\nhas performed a combat action at the end of the Combat",
     "additionalCostsText": "",
     "rawText": "GOKUEN SHIJIN\nCharacter, Oni\n4 3\nSpeed\nCombat Veteran - Whenever this Character survives\nthe Combat Phase, choose one:\n• It gains 1 ASP.\n• Put 1 RES +1 counter and 1 POW/HP +1/+1 counter\non it.\n(A Character survives if it is in a Slot in the War Zone and\nhas performed a combat action at the end of the Combat\nL EQPR-021 ALI•EN ©2% Bluthelden® Art: Florian Stitz",
     "status": "machine",
@@ -14070,7 +14070,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": ", Pay 1 LP: Gain 1 ASP.\nPay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\")\n1, Pay 4 LP: Unturn all Characters you control in target\nLane. You can use this ability only once per round.",
+    "rulesText": ", Pay 1 LP: Gain {1}.\nPay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\")\n1, Pay 4 LP: Unturn all Characters you control in target\nLane. You can use this ability only once per round.",
     "additionalCostsText": "+2",
     "rawText": "30 RHA'VELKOR, TRIBAL CHIEF\nBlue Sovereign\n+2\n, Pay 1 LP: Gain 1 ASP.\nPay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\")\n1, Pay 4 LP: Unturn all Characters you control in target\nLane. You can use this ability only once per round.\nF BL PR-009 VALIEN ©26 Bluthelden® Art: Agustín Vergara Koller",
     "status": "machine",
@@ -14111,7 +14111,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n[Turn], Pay 1 LP: Gain O ASP.\n[Turn], Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
+    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n{T}, Pay 1 LP: Gain O ASP.\n{T}, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
     "additionalCostsText": "",
     "rawText": "THORDRIN ROCKAXE, THE LERIUM GUÄRDIAN\nBrown Sovereign\nFortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n©, Pay 1 LP: Gain O ASP.\n©, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.\nF BRPR-012 ALI•EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -14154,7 +14154,7 @@
     "keywords": [
       "Speed"
     ],
-    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action)\n®, Pay 1 LP: Gain 1 ASP.\n1, [Turn]: Put 1 RES +1 counter on target Fairy.",
+    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action)\n®, Pay 1 LP: Gain {1}.\n1, {T}: Put 1 RES +1 counter on target Fairy.",
     "additionalCostsText": "",
     "rawText": "LYSERA, THE LAST LIGHT FAIRY\nPurple Sovereign\nFairies you control have Speed (they don't turn, when\nperforming a combat action)\n®, Pay 1 LP: Gain 1 ASP.\n1, ©: Put 1 RES +1 counter on target Fairy.\nF PU PR-016 ALI•EN ©2° Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -14195,7 +14195,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": ", Pay 1 LP: Gain 1 ASP.\n, Pay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has &The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\"\n1, Pay 4 LP: Unturn all Characters you controll in target\nLane. You may use this ability only once per round.",
+    "rulesText": ", Pay 1 LP: Gain {1}.\n, Pay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has &The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\"\n1, Pay 4 LP: Unturn all Characters you controll in target\nLane. You may use this ability only once per round.",
     "additionalCostsText": "+2",
     "rawText": "30 RHA'VELKOR, TRIBAL CHIEF\nBlue Sovereign\n+2\n, Pay 1 LP: Gain 1 ASP.\n, Pay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has &The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\"\n1, Pay 4 LP: Unturn all Characters you controll in target\nLane. You may use this ability only once per round.\nF BL001 ALI-EN ©26 Bluthelden® Art: Agustín Vergara Koller",
     "status": "machine",
@@ -14238,7 +14238,7 @@
     "keywords": [
       "Surge"
     ],
-    "rulesText": "®, Pay1 LP: Gain 1 ASP.\n[Turn], Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost 1 ASP\nless to activate for their first activation each round.",
+    "rulesText": "®, Pay1 LP: Gain {1}.\n{T}, Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost {1}\nless to activate for their first activation each round.",
     "additionalCostsText": "",
     "rawText": "30 AIRELL THE BLUE, CHAIRMAN OF THE MAGES OF GLIMMERTAL\nBlue Sovereign\n®, Pay1 LP: Gain 1 ASP.\n©, Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost 1 ASP\nless to activate for their first activation each round.\nF BL002 ALI • EN ©26 Bluthelden® Art: Helge C. Balzer",
     "status": "machine",
@@ -14463,7 +14463,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Trained Characters' activated Abilities cost 1 ASP less\nto activate. This can't lower the costs to less than 1",
+    "rulesText": "Trained Characters' activated Abilities cost {1} less\nto activate. This can't lower the costs to less than 1",
     "additionalCostsText": "",
     "rawText": "BRILLIANCE\nFundamental Training\nTrained Characters' activated Abilities cost 1 ASP less\nto activate. This can't lower the costs to less than 1\nK BL007 ALI • EN ©26 Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
@@ -15208,7 +15208,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1, [Turn]: Create 1 Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "1, {T}: Create 1 Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARD SPEAR CARRIER 1\nCharacter, Lizard\n3 3 2\nSkyguard\n1, ©: Create 1 Shield of Water Training Token and\nattach it to this Character.\nN BL023 ALI•EN ©28 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -15251,7 +15251,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1, [Turn]: Create 1 Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "1, {T}: Create 1 Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARDKEEPER\nCharacter, Lizard\n2\n1, ©: Create 1 Shield of Water Training Token and\nattach it to this Character.\nN BL024 ALI-EN ©2% Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -15589,7 +15589,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.\nWhenever 1 or more INI -1 counters are put on a\nCharacter your opponent controls, put 1 additional\nINI -1 counter on it.",
+    "rulesText": "•: Gain {1}.\nWhenever 1 or more INI -1 counters are put on a\nCharacter your opponent controls, put 1 additional\nINI -1 counter on it.",
     "additionalCostsText": "",
     "rawText": "RING OF WAVES\nMythic Artifact\n•: Gain 1 ASP.\nWhenever 1 or more INI -1 counters are put on a\nCharacter your opponent controls, put 1 additional\nINI -1 counter on it.\nF BL032 ALI •EN ©28 Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -15673,7 +15673,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Sea Pearl enters play, gain O ASP.\nO, Sacrifice this Artifact: Gain 2 ASP.",
+    "rulesText": "When Sea Pearl enters play, gain O ASP.\nO, Sacrifice this Artifact: Gain {2}.",
     "additionalCostsText": "",
     "rawText": "SEA PEARL\nArtifact\nWhen Sea Pearl enters play, gain O ASP.\nO, Sacrifice this Artifact: Gain 2 ASP.\nK BL034 ALI • EN ©2% Bluthelden® Art: Amar Serkawangi",
     "status": "machine",
@@ -16271,7 +16271,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Magic Control\n3: Return target Artifact to its owner's Hand.\n[Turn]: Return target Token permanent to its owner's",
+    "rulesText": "Magic Control\n3: Return target Artifact to its owner's Hand.\n{T}: Return target Token permanent to its owner's",
     "additionalCostsText": "",
     "rawText": "AIRELL'S ASSISTANT, MAGICIAN GORDOS\nMythic Character, Human Advisor\n5\nMagic Control\n3: Return target Artifact to its owner's Hand.\n©: Return target Token permanent to its owner's\nHand.\nF BL047 ALI •EN ©28 Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -16315,7 +16315,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Magic Control\n•: Gain 1 ASP as long as this Character remains\n1, [Turn]: Increase the Spellpower of target Spell, Ability\nor Training by 1.",
+    "rulesText": "Magic Control\n•: Gain {1} as long as this Character remains\n1, {T}: Increase the Spellpower of target Spell, Ability\nor Training by 1.",
     "additionalCostsText": "",
     "rawText": "ARCANE CHANNELER\nCharacter, Human, Wizard\n2 R1|З\n3\nMagic Control\n•: Gain 1 ASP as long as this Character remains\nBound.\n1, ©: Increase the Spellpower of target Spell, Ability\nor Training by 1.\nN BL 048 ALI•EN ©ź6 Bluthelden® Art: Ragil Nursaleh",
     "status": "machine",
@@ -16356,7 +16356,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.\nUnce per round, when an Artitact enters play under\nyour control, gain U ASP.",
+    "rulesText": "•: Gain {1}.\nUnce per round, when an Artitact enters play under\nyour control, gain U ASP.",
     "additionalCostsText": "",
     "rawText": "ARCHIVES OF GLIMMERTAL\nResource\n•: Gain 1 ASP.\nUnce per round, when an Artitact enters play under\nyour control, gain U ASP.\nN BL 049 ALI•EN ©26 Bluthelden®- Art: Alvaro Hernán Ortiz",
     "status": "machine",
@@ -16397,7 +16397,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "sagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain 1 ASP.",
+    "rulesText": "sagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "BROOD CAVERN\nResource\nsagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain 1 ASP.\nN BL 050 ALI •EN ©38 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -16438,7 +16438,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP for each Coral Reef you control.",
+    "rulesText": "®: Gain {1} for each Coral Reef you control.",
     "additionalCostsText": "",
     "rawText": "CORAL REEF\nResource\n®: Gain 1 ASP for each Coral Reef you control.\nN BL 051 ALI•EN ©2 Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -16481,7 +16481,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "): Gain O ASP, gain 2 ASP if you control an Artifact\n2, Discard a Card: Turn target Character in the same",
+    "rulesText": "): Gain O ASP, gain {2} if you control an Artifact\n2, Discard a Card: Turn target Character in the same",
     "additionalCostsText": "",
     "rawText": "HIGH TOWER OF GLIMMERTAL\nMythic Resource\n): Gain O ASP, gain 2 ASP if you control an Artifact\ninstead.\n2, Discard a Card: Turn target Character in the same\nLane.\n35 62 81\nL BL 052 ALI•EN 038 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -16526,7 +16526,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control a LVL 2 Resource, 1, [Turn]: Rise into\nWaterpriestress\n[Turn]: Gain 1 ASP, as long as this Character remains",
+    "rulesText": "If you control a LVL 2 Resource, 1, {T}: Rise into\nWaterpriestress\n{T}: Gain {1}, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "NOVICE OF THE WATER\nCharacter, Lizard\n1\n2 2\nIf you control a LVL 2 Resource, 1, ©: Rise into\nWaterpriestress\n©: Gain 1 ASP, as long as this Character remains\nBound.\nN BL 053 ALI•EN ©28 Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -16577,7 +16577,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Gain 1 ASP, as long as this Character remains\n2, [Turn]: Unturn the Resource to which Seer of Ebb and\nFlow is Bound.",
+    "rulesText": "Gain {1}, as long as this Character remains\n2, {T}: Unturn the Resource to which Seer of Ebb and\nFlow is Bound.",
     "additionalCostsText": "",
     "rawText": "SEER OF EBB AND FLOW\nCharacter, Lizard\n2 2 2 3\nGain 1 ASP, as long as this Character remains\nBound.\n2, ©: Unturn the Resource to which Seer of Ebb and\nFlow is Bound.\nN BL 054 ALI • EN ©2% Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -16659,7 +16659,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP, gain 2 ASP instead if a Character is\nbound to this Resource.\n1,9: Return target Character that is bound to this\nResource to its owner's hand.",
+    "rulesText": "®: Gain {1}, gain {2} instead if a Character is\nbound to this Resource.\n1,9: Return target Character that is bound to this\nResource to its owner's hand.",
     "additionalCostsText": "",
     "rawText": "TEMPLE OF WATER\nResource\n®: Gain 1 ASP, gain 2 ASP instead if a Character is\nbound to this Resource.\n1,9: Return target Character that is bound to this\nResource to its owner's hand.\nBL056 ALI-EN - ©2: Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -16889,7 +16889,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1, [Turn]: Create a Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "1, {T}: Create a Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARD SKYPATROL\nCharacter, Lizard\n4 4 2\nFlying\n1, ©: Create a Shield of Water Training Token and\nattach it to this Character.\nL BLD-22_ALI •EN ©26 Bluthelden® Art: Agustín Vergara Koller",
     "status": "machine",
@@ -16983,7 +16983,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "This Artifact enters play with 1 Interrupt counter on it.\n1, [Turn], remove 1 Interrupt counter: Neutralize target\nSpell. (Put it from the Reaction Chain into its owner's\nGraveyard.)\n3: Put one Interrupt counter on this Artifact.",
+    "rulesText": "This Artifact enters play with 1 Interrupt counter on it.\n1, {T}, remove 1 Interrupt counter: Neutralize target\nSpell. (Put it from the Reaction Chain into its owner's\nGraveyard.)\n3: Put one Interrupt counter on this Artifact.",
     "additionalCostsText": "",
     "rawText": "SPELL DISRUPTOR\nArtifact\nThis Artifact enters play with 1 Interrupt counter on it.\n1, ©, remove 1 Interrupt counter: Neutralize target\nSpell. (Put it from the Reaction Chain into its owner's\nGraveyard.)\n3: Put one Interrupt counter on this Artifact.\nL BL D-33 ALI • EN ©26 Bluthelden® Art: Muhamad Fathi",
     "status": "machine",
@@ -17028,7 +17028,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Drowning Touch (Characters damaged by this Character\nget a Drenched counter. A drenched Character gets 1 INI -1\ncounter at the end of each round.)\nMagic Control\n1, [Turn]: Create a Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "Drowning Touch (Characters damaged by this Character\nget a Drenched counter. A drenched Character gets 1 INI -1\ncounter at the end of each round.)\nMagic Control\n1, {T}: Create a Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "WARON, WATER DRAGON\nEpic Character, Dragon\n4 5 3\nFlying\nDrowning Touch (Characters damaged by this Character\nget a Drenched counter. A drenched Character gets 1 INI -1\ncounter at the end of each round.)\nMagic Control\n1, ©: Create a Shield of Water Training Token and\nattach it to this Character.\nL BL D-37 ALI-EN ©2 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -17079,7 +17079,7 @@
     "keywords": [
       "Surge"
     ],
-    "rulesText": "ages snur\n•, Pay1 LP: Gain 1 ASP.\n[Turn], Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost 1 ASP\nless to activate for their first activation each round.",
+    "rulesText": "ages snur\n•, Pay1 LP: Gain {1}.\n{T}, Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost {1}\nless to activate for their first activation each round.",
     "additionalCostsText": "",
     "rawText": "30 AIRELL THE BLUE, CHAIRMAN OF THE MAGES OF GLIMMERTAL\nBlue Sovereign\nages snur 2059d\n•, Pay1 LP: Gain 1 ASP.\n©, Pay 2 LP: Return target Artifact to its owner's Hand.\nIf you have the Initiative at the beginning of your turn,\nArtifact cards in your hand have Surge until the end of round.\nActivated abilities of Artifacts you control cost 1 ASP\nless to activate for their first activation each round.\nF BLD-00 ALI • EN ©26 Bluthelden® Art: Helge C. Balzer",
     "status": "machine",
@@ -17123,7 +17123,7 @@
       "Ecstasy",
       "Punch"
     ],
-    "rulesText": "Breaker of Earth - Whenever a brown non-Token\npermanent enters play under your control, create a\nLerium Token.\n[Turn], Pay 1LP: Gain O ASP.\n[Turn], Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character\ngains Punch and Ecstasy until the end of this round.",
+    "rulesText": "Breaker of Earth - Whenever a brown non-Token\npermanent enters play under your control, create a\nLerium Token.\n{T}, Pay 1LP: Gain O ASP.\n{T}, Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character\ngains Punch and Ecstasy until the end of this round.",
     "additionalCostsText": "+2",
     "rawText": "KRADOR, SOVEREIGN OF STONE AND SOIL\nBrown Sovereign\n+2\nBreaker of Earth - Whenever a brown non-Token\npermanent enters play under your control, create a\nLerium Token.\n©, Pay 1LP: Gain O ASP.\n©, Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character\ngains Punch and Ecstasy until the end of this round.\nF BR060 ALI•EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -17164,7 +17164,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n[Turn], Pay 1 LP: Gain O ASP.\n[Turn], Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
+    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n{T}, Pay 1 LP: Gain O ASP.\n{T}, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
     "additionalCostsText": "+2",
     "rawText": "30 THORDRIN ROCKAXE, THE LERIUM GUÄRDIAN\nBrown Sovereign\n+2\nFortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n©, Pay 1 LP: Gain O ASP.\n©, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.\nF BR 061 ALI•EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -17297,7 +17297,7 @@
     "keywords": [
       "Dual Slot"
     ],
-    "rulesText": "When Brokk Sparkshaper enters play, create one 2/2\nGoat Stone Character Token.\n2, [Turn], sacrifice 5 Lerium and target Goat you control:\ncreate one 6/6 Stone Giant Character Token with\nDual Slot in the same Slot.",
+    "rulesText": "When Brokk Sparkshaper enters play, create one 2/2\nGoat Stone Character Token.\n2, {T}, sacrifice 5 Lerium and target Goat you control:\ncreate one 6/6 Stone Giant Character Token with\nDual Slot in the same Slot.",
     "additionalCostsText": "",
     "rawText": "BROKK SPARKSHAPER\nEpic Character, Dwarf\n2 3 4\nWhen Brokk Sparkshaper enters play, create one 2/2\nGoat Stone Character Token.\n2, ©, sacrifice 5 Lerium and target Goat you control:\ncreate one 6/6 Stone Giant Character Token with\nDual Slot in the same Slot.\nL BR064 ALI• EN ©2% Bluthelden® Art: André Bueno",
     "status": "machine",
@@ -17393,7 +17393,7 @@
     "keywords": [
       "Ranged Combat"
     ],
-    "rulesText": "[Turn]: Ranged Combat (It deals DMG equal to its Power to\ntarget Character in a War Zone within the same Lane.\nActivate only as combat action and only if this card is in the\nBack Row.)\n[Turn], Sacrifice 1 Lerium: Put 1 POW/HP +0/+1 counter on\nthis Character.",
+    "rulesText": "{T}: Ranged Combat (It deals DMG equal to its Power to\ntarget Character in a War Zone within the same Lane.\nActivate only as combat action and only if this card is in the\nBack Row.)\n{T}, Sacrifice 1 Lerium: Put 1 POW/HP +0/+1 counter on\nthis Character.",
     "additionalCostsText": "",
     "rawText": "BRONMARKS GUARD 1\nCharacter, Dwarf\n2 2 2 3\n©: Ranged Combat (It deals DMG equal to its Power to\ntarget Character in a War Zone within the same Lane.\nActivate only as combat action and only if this card is in the\nBack Row.)\n©, Sacrifice 1 Lerium: Put 1 POW/HP +0/+1 counter on\nthis Character.\nK BR066 ALI•EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -17581,7 +17581,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control a LVL 2 Resource, 2, [Turn]: Rise into\nNorrumin Ironfist.",
+    "rulesText": "If you control a LVL 2 Resource, 2, {T}: Rise into\nNorrumin Ironfist.",
     "additionalCostsText": "",
     "rawText": "DWARVEN ADVENTURER\nCharacter, Dwarf\n3 3\nIf you control a LVL 2 Resource, 2, ©: Rise into\nNorrumin Ironfist.\nN BR070 ALI•EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -17890,7 +17890,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], sacrifice this Artifact: Deal 2 DMG to target\nCharacter.\n[Turn], sacrifice 5 Lerium: Deal 2 DMG to target Character.",
+    "rulesText": "{T}, sacrifice this Artifact: Deal 2 DMG to target\nCharacter.\n{T}, sacrifice 5 Lerium: Deal 2 DMG to target Character.",
     "additionalCostsText": "",
     "rawText": "EXPLOSIVE LERIUM CORE\nArtifact\n©, sacrifice this Artifact: Deal 2 DMG to target\nCharacter.\n©, sacrifice 5 Lerium: Deal 2 DMG to target Character.\nN BR 077 г ALI •EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -18161,7 +18161,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], sacrifice 1 Lerium: Put 1 POW/HP +0/+1 counter on\ntarget Character in the same Lane.",
+    "rulesText": "{T}, sacrifice 1 Lerium: Put 1 POW/HP +0/+1 counter on\ntarget Character in the same Lane.",
     "additionalCostsText": "",
     "rawText": "LERIUM DEALER\nCharacter, Dwarf\n3 2 1 2\n©, sacrifice 1 Lerium: Put 1 POW/HP +0/+1 counter on\ntarget Character in the same Lane.\nN BR 083 ALI- EN ©28 Bluthelden® Art:Barticevich",
     "status": "machine",
@@ -18488,7 +18488,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "O: Gain 1 ASP.\nOnce per round, if you create a non-Character Token,\ncreate 1 additional Token of the same kind.",
+    "rulesText": "O: Gain {1}.\nOnce per round, if you create a non-Character Token,\ncreate 1 additional Token of the same kind.",
     "additionalCostsText": "",
     "rawText": "RING OF STONES\nMythic Artifact\nO: Gain 1 ASP.\nOnce per round, if you create a non-Character Token,\ncreate 1 additional Token of the same kind.\nF BR090 ALI•EN ©26 Bluthelden® Art: Amar Sekarwangi",
     "status": "machine",
@@ -18531,7 +18531,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], sacrifice 1 Lerium: Draw a card, then discard a card.",
+    "rulesText": "{T}, sacrifice 1 Lerium: Draw a card, then discard a card.",
     "additionalCostsText": "",
     "rawText": "ROCKAXE APPRAISER\nCharacter, Dwarf\n2 3\n©, sacrifice 1 Lerium: Draw a card, then discard a card.\nN BR 091 ALI•EN ©26 Bluthelden® Art: Alvaro Hernán Ortiz",
     "status": "machine",
@@ -18789,7 +18789,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], sacrifice 1 Lerium: Target Stone Character\nregenerates 1 HP.",
+    "rulesText": "{T}, sacrifice 1 Lerium: Target Stone Character\nregenerates 1 HP.",
     "additionalCostsText": "",
     "rawText": "STONEMASON\nCharacter, Dwarf\n3 3\n©, sacrifice 1 Lerium: Target Stone Character\nregenerates 1 HP.\nK BR 097 ALI • EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -18932,7 +18932,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Strongarm Weapon Smith enters play, create 1\nLerium Token. (It's an Artifact Token with Sacrifice this\nArtifact: Target Stone Character you control gains POW/HP\n+O/+1 until the end of this round.\")\n[Turn], sacrifice 2 Lerium: Put 2 POW/HP +1/+1 Counter on\ntarget Dwarf.",
+    "rulesText": "When Strongarm Weapon Smith enters play, create 1\nLerium Token. (It's an Artifact Token with Sacrifice this\nArtifact: Target Stone Character you control gains POW/HP\n+O/+1 until the end of this round.\")\n{T}, sacrifice 2 Lerium: Put 2 POW/HP +1/+1 Counter on\ntarget Dwarf.",
     "additionalCostsText": "",
     "rawText": "STRONGARM WEAPON SMITH\nCharacter, Dwarf\n3 2 3 3\nWhen Strongarm Weapon Smith enters play, create 1\nLerium Token. (It's an Artifact Token with Sacrifice this\nArtifact: Target Stone Character you control gains POW/HP\n+O/+1 until the end of this round.\")\n©, sacrifice 2 Lerium: Put 2 POW/HP +1/+1 Counter on\ntarget Dwarf.\nN BR 100 ALI •EN ©2% Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -19081,7 +19081,7 @@
       "Speed",
       "Targeted Strike"
     ],
-    "rulesText": "[Turn], sacrifice 5 Lerium: Target Dwarf you control gets\nPOW/HP +2/+2, Speed and Targeted Strike until the\nend of this round.",
+    "rulesText": "{T}, sacrifice 5 Lerium: Target Dwarf you control gets\nPOW/HP +2/+2, Speed and Targeted Strike until the\nend of this round.",
     "additionalCostsText": "",
     "rawText": "THE ROCKAXE\nMythic Artifact\n©, sacrifice 5 Lerium: Target Dwarf you control gets\nPOW/HP +2/+2, Speed and Targeted Strike until the\nend of this round.\nF BR 103 ALI•EN ©26 Bluthelden® Art: André Bueno",
     "status": "machine",
@@ -19174,7 +19174,7 @@
       "Fear",
       "Rise"
     ],
-    "rulesText": "Dual Slot (This Character occupies two Slots in the War\nIf you control a Worm Token, pay 2 ASP less to\nsummon Vorax, the Worm, then Rise Worm Token.\nWhen Vorax, the Worm emerges in your opponent's\nWar Zone, all other Characters in that War Zone gain Fear\nand retreat to the Back Row. If they can't retreat, destroy\nthem instead. Vorax, the Worm does not unturn at the\nbeginning of the next round.",
+    "rulesText": "Dual Slot (This Character occupies two Slots in the War\nIf you control a Worm Token, pay {2} less to\nsummon Vorax, the Worm, then Rise Worm Token.\nWhen Vorax, the Worm emerges in your opponent's\nWar Zone, all other Characters in that War Zone gain Fear\nand retreat to the Back Row. If they can't retreat, destroy\nthem instead. Vorax, the Worm does not unturn at the\nbeginning of the next round.",
     "additionalCostsText": "",
     "rawText": "VORAX, THE WORM\nEpic Character, Stone\n3 2 4\nDual Slot (This Character occupies two Slots in the War\nZone.)\nIf you control a Worm Token, pay 2 ASP less to\nsummon Vorax, the Worm, then Rise Worm Token.\nWhen Vorax, the Worm emerges in your opponent's\nWar Zone, all other Characters in that War Zone gain Fear\nand retreat to the Back Row. If they can't retreat, destroy\nthem instead. Vorax, the Worm does not unturn at the\nbeginning of the next round.\nL BR105 ALI•EN ©26 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -19231,7 +19231,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n[Turn]: Create two Lerium Tokens.\n[Turn], Sacrifice one Lerium: All Stone Characters you\ncontrol gain RES+1, INI+1, POW/HP +1/+1 until the end\nof this round.",
+    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n{T}: Create two Lerium Tokens.\n{T}, Sacrifice one Lerium: All Stone Characters you\ncontrol gain RES+1, INI+1, POW/HP +1/+1 until the end\nof this round.",
     "additionalCostsText": "",
     "rawText": "AETHONWYNN, MOTHER OF ALLSTONES\nMythic Character, Stone Advisor\n5\nAdvisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n©: Create two Lerium Tokens.\n©, Sacrifice one Lerium: All Stone Characters you\ncontrol gain RES+1, INI+1, POW/HP +1/+1 until the end\nof this round.\nF BR107 ALI • EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -19272,7 +19272,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain 1 ASP.\n[Turn], sacrifice 1 Lerium: Put 1 POW/HP +1/+1 counter on\ntarget Character.",
+    "rulesText": "{T}: Gain {1}.\n{T}, sacrifice 1 Lerium: Put 1 POW/HP +1/+1 counter on\ntarget Character.",
     "additionalCostsText": "",
     "rawText": "DWARVEN FURNACE\nResource\n©: Gain 1 ASP.\n©, sacrifice 1 Lerium: Put 1 POW/HP +1/+1 counter on\ntarget Character.\nK BR 108 ALI•EN ©26 Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -19315,7 +19315,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Guardian of the Treasury enters play, create a\nLerium Token.\n•: Gain 1 ASP as long as this Character remains Bound\n•: Create 1 Lerium Token.",
+    "rulesText": "When Guardian of the Treasury enters play, create a\nLerium Token.\n•: Gain {1} as long as this Character remains Bound\n•: Create 1 Lerium Token.",
     "additionalCostsText": "",
     "rawText": "GUARDIAN OF THE TREASURY\nCharacter, Dwarf\n3 3 2 3\nWhen Guardian of the Treasury enters play, create a\nLerium Token.\n•: Gain 1 ASP as long as this Character remains Bound\n•: Create 1 Lerium Token.\nN BR 109, ALI • EN ©2% Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -19358,7 +19358,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], sacrifice one Lerium: Gain 2 ASP as long as this\nCharacter remains Bound.",
+    "rulesText": "{T}, sacrifice one Lerium: Gain {2} as long as this\nCharacter remains Bound.",
     "additionalCostsText": "",
     "rawText": "LERIUM CUSTODIAN\nCharacter, Dwarf\n3 3\n©, sacrifice one Lerium: Gain 2 ASP as long as this\nCharacter remains Bound.\nN BR 110 ALI•EN ©26 Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -19401,7 +19401,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Q: Gain 1 ASP as long as this Character remains\n[Turn], sacrifice one Lerium: Put a POW/HP +1/+1 counter\non target Character.",
+    "rulesText": "Q: Gain {1} as long as this Character remains\n{T}, sacrifice one Lerium: Put a POW/HP +1/+1 counter\non target Character.",
     "additionalCostsText": "",
     "rawText": "LERIUM SMITH\nCharacter, Dwarf\n2 2 2 3\nQ: Gain 1 ASP as long as this Character remains\nBound.\n©, sacrifice one Lerium: Put a POW/HP +1/+1 counter\non target Character.\nK BR111 ALI•EN ©26 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -19445,7 +19445,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Load Goat enters play, create a POW/HP 2/2 Worm\nToken with Emerge 3 in your Warzone in the same Lane.\n[Turn]: Gain O ASP as long as this Character remains Bound.",
+    "rulesText": "When Load Goat enters play, create a POW/HP 2/2 Worm\nToken with Emerge 3 in your Warzone in the same Lane.\n{T}: Gain O ASP as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "LOAD GOAT\nCharacter, Stone, Goat\n3 3 3\nWhen Load Goat enters play, create a POW/HP 2/2 Worm\nToken with Emerge 3 in your Warzone in the same Lane.\n©: Gain O ASP as long as this Character remains Bound.\nN BR112 ALI •EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -19488,7 +19488,7 @@
     "keywords": [
       "Dual Slot"
     ],
-    "rulesText": "Peak of Eldor enters play with 1 Giant counter on it.\n[Turn]: Gain O ASP.\n3, remove 1 Giant counter, [Turn]: Create one 6/6 Stone\nGiant Character Token with Dual Slot. Place it in target\nWar Zone.",
+    "rulesText": "Peak of Eldor enters play with 1 Giant counter on it.\n{T}: Gain O ASP.\n3, remove 1 Giant counter, {T}: Create one 6/6 Stone\nGiant Character Token with Dual Slot. Place it in target\nWar Zone.",
     "additionalCostsText": "",
     "rawText": "PEAK OF ELDOR\nResource\nPeak of Eldor enters play with 1 Giant counter on it.\n©: Gain O ASP.\n3, remove 1 Giant counter, ©: Create one 6/6 Stone\nGiant Character Token with Dual Slot. Place it in target\nWar Zone.\nL BR113 ALI•EN ©2 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -19529,7 +19529,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP. Gain 2 ASP instead, if you control at\nleast two Stone Characters.\n[Turn]: Create a 2/2 Goat Stone Character Token in the\nsame Lane.",
+    "rulesText": "{T}: Gain O ASP. Gain {2} instead, if you control at\nleast two Stone Characters.\n{T}: Create a 2/2 Goat Stone Character Token in the\nsame Lane.",
     "additionalCostsText": "",
     "rawText": "STONE CAVE\nResource\n©: Gain O ASP. Gain 2 ASP instead, if you control at\nleast two Stone Characters.\n©: Create a 2/2 Goat Stone Character Token in the\nsame Lane.\nL BR 114 ALI • EN ®% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -19570,7 +19570,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "O: Gain 1 ASP.\n2: Deal 1 DMG to target Stone Character you control,\nthen deal 1 DMG to target Character in the same Lane.",
+    "rulesText": "O: Gain {1}.\n2: Deal 1 DMG to target Stone Character you control,\nthen deal 1 DMG to target Character in the same Lane.",
     "additionalCostsText": "",
     "rawText": "STONE KINGDOM\nResource\nO: Gain 1 ASP.\n2: Deal 1 DMG to target Stone Character you control,\nthen deal 1 DMG to target Character in the same Lane.\nL BR 115 ALI•EN ©% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -19611,7 +19611,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When this Resource enters play, create 1 Lerium\nToken. (It's an Artifact Token with \"Sacrifice this Artifact:\nTarget Stone Character you control gains POW/HP +0/+1\nuntil the end of this roundi)\n[Turn]: Gain O ASP.\n[Turn]: Create 1 Lerium Token.",
+    "rulesText": "When this Resource enters play, create 1 Lerium\nToken. (It's an Artifact Token with \"Sacrifice this Artifact:\nTarget Stone Character you control gains POW/HP +0/+1\nuntil the end of this roundi)\n{T}: Gain O ASP.\n{T}: Create 1 Lerium Token.",
     "additionalCostsText": "",
     "rawText": "STONE TREASURE\nResource\nWhen this Resource enters play, create 1 Lerium\nToken. (It's an Artifact Token with \"Sacrifice this Artifact:\nTarget Stone Character you control gains POW/HP +0/+1\nuntil the end of this roundi)\n©: Gain O ASP.\n©: Create 1 Lerium Token.\nN BR116 ALI•EN ©% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -19804,7 +19804,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Emerge 3 - ([Turn], sacrifice 3 Lerium Tokens, banish this token):\nSearch your hand or Spell Deck for a card named Vorax,\nthe Worm and put it turned into your opponent's War\nZone under their control in the same Lane.",
+    "rulesText": "Emerge 3 - ({T}, sacrifice 3 Lerium Tokens, banish this token):\nSearch your hand or Spell Deck for a card named Vorax,\nthe Worm and put it turned into your opponent's War\nZone under their control in the same Lane.",
     "additionalCostsText": "",
     "rawText": "WORM\nToken Character, Stone\n3 2 2 2\nEmerge 3 - (©, sacrifice 3 Lerium Tokens, banish this token):\nSearch your hand or Spell Deck for a card named Vorax,\nthe Worm and put it turned into your opponent's War\nZone under their control in the same Lane.\nT BRTK-120 ALI •EN ©26 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -19942,7 +19942,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Zagnaphein, Lerium Giant enters play, choose\none - Create 1 Lerium Token or deal 1 DMG to target\nCharacter your opponent controls.\n[Turn]: This Character deals 1 DMG to itself. Then choose\n• create 1 Lerium Token,\n• regenerate 1 HP to another target Character or\n• deal 1 DMG to target Character your opponent\ncontrols.",
+    "rulesText": "When Zagnaphein, Lerium Giant enters play, choose\none - Create 1 Lerium Token or deal 1 DMG to target\nCharacter your opponent controls.\n{T}: This Character deals 1 DMG to itself. Then choose\n• create 1 Lerium Token,\n• regenerate 1 HP to another target Character or\n• deal 1 DMG to target Character your opponent\ncontrols.",
     "additionalCostsText": "",
     "rawText": "5 ZAGNAPHEIN, LERIUM GIANT\nEpic Character, Stone\n4 4 4\nWhen Zagnaphein, Lerium Giant enters play, choose\none - Create 1 Lerium Token or deal 1 DMG to target\nCharacter your opponent controls.\n©: This Character deals 1 DMG to itself. Then choose\none -\n• create 1 Lerium Token,\n• regenerate 1 HP to another target Character or\n• deal 1 DMG to target Character your opponent\ncontrols.\nF BRD-40 ALI•EN ©2% Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -20030,7 +20030,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n[Turn], Pay 1 LP: Gain O ASP.\n[Turn], Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
+    "rulesText": "Fortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n{T}, Pay 1 LP: Gain O ASP.\n{T}, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.",
     "additionalCostsText": "+2",
     "rawText": "30 THORDRIN ROCKAXE, THE LERIUM GUÄRDIAN\nBrown Sovereign\n+2\nFortified - Whenever a trained Dwarf you control dies,\nyou may sacrifice 2 Lerium for each Training attached\nto it. If you do, return that Training Card from the\ngraveyard to play and attach it to target Dwarf.\n©, Pay 1 LP: Gain O ASP.\n©, Pay 4 LP: Deal 2 DMG to all Characters in target\nWar Zone or target Safety Zone in a Lane.\nF BRD-00 ALI•EN ©2% Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -20073,7 +20073,7 @@
     "keywords": [
       "Horde"
     ],
-    "rulesText": "•, Pay 1 LP : Gain 1 ASP.\n[Turn], Pay 2 LP: Create a Mythic Chieftain of War, Magic\nor Strategy Training Token and attach it to target\nCharacter with Horde you control.\nPay 4 LP, sacrifice a Chieftain: Deal X DMG to target\nCharacter, where X is equal to the number of\nCharacters with Horde you control.",
+    "rulesText": "•, Pay 1 LP : Gain {1}.\n{T}, Pay 2 LP: Create a Mythic Chieftain of War, Magic\nor Strategy Training Token and attach it to target\nCharacter with Horde you control.\nPay 4 LP, sacrifice a Chieftain: Deal X DMG to target\nCharacter, where X is equal to the number of\nCharacters with Horde you control.",
     "additionalCostsText": "",
     "rawText": "GRAK'NAR, THE BLOODRAGE\nRed Sovereign\n•, Pay 1 LP : Gain 1 ASP.\n©, Pay 2 LP: Create a Mythic Chieftain of War, Magic\nor Strategy Training Token and attach it to target\nCharacter with Horde you control.\nPay 4 LP, sacrifice a Chieftain: Deal X DMG to target\nCharacter, where X is equal to the number of\nCharacters with Horde you control.\nF RD 121 ALI •EN ©26 Bluthelden® Art: Alexander Zimmermann",
     "status": "machine",
@@ -20114,7 +20114,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®, Pay 1 LP: Gain O ASP.\n[Turn], Pay 3 LP: Create a Fire Token in each War Zone.\n[Turn], sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.",
+    "rulesText": "®, Pay 1 LP: Gain O ASP.\n{T}, Pay 3 LP: Create a Fire Token in each War Zone.\n{T}, sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.",
     "additionalCostsText": "+1\n+2",
     "rawText": "PYRANA, THE EMBER-PRIESTRESS\nRed Sovereign\nSE72хНI\n+1\n+2\n®, Pay 1 LP: Gain O ASP.\n©, Pay 3 LP: Create a Fire Token in each War Zone.\n©, sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.\nSENAN\nF RD 1220 ALI•EN ©2% Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -20778,7 +20778,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Firedragon attacks, you may pay 2 ASP. If you\ndo, create 2 Fire Token in the same War Zone and deal\n2 DMG to target Character in the same War Zone.\nIf this Character would take DMG from a Fire, prevent\n1 of that DMG.",
+    "rulesText": "When Firedragon attacks, you may pay {2}. If you\ndo, create 2 Fire Token in the same War Zone and deal\n2 DMG to target Character in the same War Zone.\nIf this Character would take DMG from a Fire, prevent\n1 of that DMG.",
     "additionalCostsText": "",
     "rawText": "5 FIREDRAGON\nCharacter, Dragon\n5\nFlying\nWhen Firedragon attacks, you may pay 2 ASP. If you\ndo, create 2 Fire Token in the same War Zone and deal\n2 DMG to target Character in the same War Zone.\nIf this Character would take DMG from a Fire, prevent\n1 of that DMG.\nL RD 137 ALI •EN 026 Bluthelden® Art: Agustín Vergara Koller",
     "status": "machine",
@@ -20831,7 +20831,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "When Fireelemental enters play, put a Fire Token into\nthe War Zone in the same Lane.\nIf you control a LVL 2 Resource, 2, [Turn]: Rise into\nGreater Fireelemental.\nIf this Character would take DMG from a Fire,\nregenerate that much HP to it instead.",
+    "rulesText": "When Fireelemental enters play, put a Fire Token into\nthe War Zone in the same Lane.\nIf you control a LVL 2 Resource, 2, {T}: Rise into\nGreater Fireelemental.\nIf this Character would take DMG from a Fire,\nregenerate that much HP to it instead.",
     "additionalCostsText": "",
     "rawText": "FIREELEMENTAL\nCharacter, Elemental\n3 4 4 2\nWhen Fireelemental enters play, put a Fire Token into\nthe War Zone in the same Lane.\nIf you control a LVL 2 Resource, 2, ©: Rise into\nGreater Fireelemental.\nIf this Character would take DMG from a Fire,\nregenerate that much HP to it instead.\nN RD 138 ALI EN ©% Bluthelden® Art: Agustín Vergara Koller",
     "status": "machine",
@@ -21021,7 +21021,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Trained Character gains: 2, [Turn]: Deal 2 DMG to Target\nCharacter in the same Lane. Deal an additional DMG it\nyou control a Chieftain of War, Strategy or Magic.",
+    "rulesText": "Trained Character gains: 2, {T}: Deal 2 DMG to Target\nCharacter in the same Lane. Deal an additional DMG it\nyou control a Chieftain of War, Strategy or Magic.",
     "additionalCostsText": "",
     "rawText": "FLAMES OF KHRAKAN\nFundamental Training\nTrained Character gains: 2, ©: Deal 2 DMG to Target\nCharacter in the same Lane. Deal an additional DMG it\nyou control a Chieftain of War, Strategy or Magic.\nL RD 142 ALI • EN ©28 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -21483,7 +21483,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], sacrifice Novice of Pyrana: Create a Fire Token in\ntarget War Zone.",
+    "rulesText": "{T}, sacrifice Novice of Pyrana: Create a Fire Token in\ntarget War Zone.",
     "additionalCostsText": "",
     "rawText": "NOVICE OF PYRANA\nCharacter, Human\n3 2 2\n©, sacrifice Novice of Pyrana: Create a Fire Token in\ntarget War Zone.\nK RD 152 ALI•EN ©28 Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -21917,7 +21917,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": ": Gain 1 ASP\nWhen Ring of Fire enters play, create a Fire Token in\ntarget War Zone.",
+    "rulesText": ": Gain {1}\nWhen Ring of Fire enters play, create a Fire Token in\ntarget War Zone.",
     "additionalCostsText": "",
     "rawText": "RING OF FIRE\nMythic Artifact\n: Gain 1 ASP\nWhen Ring of Fire enters play, create a Fire Token in\ntarget War Zone.\nF RD 162 ALI•EN ©26 Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -22171,7 +22171,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP.\n[Turn], sacrifice a Character: Gain 2 ASP.",
+    "rulesText": "{T}: Gain O ASP.\n{T}, sacrifice a Character: Gain {2}.",
     "additionalCostsText": "",
     "rawText": "ALTAR OF FLAMES\nResource\n©: Gain O ASP.\n©, sacrifice a Character: Gain 2 ASP.\nK RD 168 ALI•EN ©½6 Bluthelden® Art: ElWarlock",
     "status": "machine",
@@ -22218,7 +22218,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Ashura, Flame of Hatred enters play, you may\nsacrifice any number of Fire you control. Then create\nthat many plus 2 Fire Tokens in target War Zone.\n[Turn], sacrifice a Fire: Deal 1 DMG to target Character in\na War Zone.",
+    "rulesText": "When Ashura, Flame of Hatred enters play, you may\nsacrifice any number of Fire you control. Then create\nthat many plus 2 Fire Tokens in target War Zone.\n{T}, sacrifice a Fire: Deal 1 DMG to target Character in\na War Zone.",
     "additionalCostsText": "",
     "rawText": "ASHURA, FLAME OF HATRED\nMythic Character, Wizard, Advisor\nWhen Ashura, Flame of Hatred enters play, you may\nsacrifice any number of Fire you control. Then create\nthat many plus 2 Fire Tokens in target War Zone.\n©, sacrifice a Fire: Deal 1 DMG to target Character in\na War Zone.\nF RD 169 ALI • EN ©26 Bluthelden® Art: Juan Bisceglia",
     "status": "machine",
@@ -22259,7 +22259,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain O ASP.\n2, [Turn]: Create a Fire Token in the War Zone in the same",
+    "rulesText": "®: Gain O ASP.\n2, {T}: Create a Fire Token in the War Zone in the same",
     "additionalCostsText": "",
     "rawText": "BURNING PITS\nResource\n®: Gain O ASP.\n2, ©: Create a Fire Token in the War Zone in the same\nLane.\nL RD 170 ALI • EN ©ź⅞ Вluthelden® Art:André Bueno",
     "status": "machine",
@@ -22302,7 +22302,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP, then gain an additional O ASP for\neach Chieftain you control.",
+    "rulesText": "{T}: Gain O ASP, then gain an additional O ASP for\neach Chieftain you control.",
     "additionalCostsText": "",
     "rawText": "CITADEL OF THE ORC KING\nMythic Resource\n©: Gain O ASP, then gain an additional O ASP for\neach Chieftain you control.\nF RD 171 ALI • EN ©28 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -22388,7 +22388,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Living Flame enters play, create a Fire Token in\nthe War Zone of the same Lane.\n: Gain 1 ASP as long as Living Flame remains Bound.",
+    "rulesText": "When Living Flame enters play, create a Fire Token in\nthe War Zone of the same Lane.\n: Gain {1} as long as Living Flame remains Bound.",
     "additionalCostsText": "",
     "rawText": "LIVING FLAME\nCharacter, Elemental\n2 2\nWhen Living Flame enters play, create a Fire Token in\nthe War Zone of the same Lane.\n: Gain 1 ASP as long as Living Flame remains Bound.\nK RD 173 ALI•EN ©26 Bluthelden® Art: Juan Bisceglia",
     "status": "machine",
@@ -22431,7 +22431,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP, as long as this Character remains\nBound. Gain 2 ASP instead if you control a Chieftain\nof Strategy in the same Lane.",
+    "rulesText": "®: Gain {1}, as long as this Character remains\nBound. Gain {2} instead if you control a Chieftain\nof Strategy in the same Lane.",
     "additionalCostsText": "",
     "rawText": "MARSHALL OF THE BURNING PLAINS\nCharacter, Orc\n3 2 2 3\nHorde\n®: Gain 1 ASP, as long as this Character remains\nBound. Gain 2 ASP instead if you control a Chieftain\nof Strategy in the same Lane.\nZENANT\nN RD 174 TALI•EN ®% Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -22474,7 +22474,7 @@
     "keywords": [
       "Horde"
     ],
-    "rulesText": "®: Gain O ASP.\n2, [Turn]: Create a 3/2 Orc Fighter Token with Horde in the\nsame Lane.\nODANNARE TAEC",
+    "rulesText": "®: Gain O ASP.\n2, {T}: Create a 3/2 Orc Fighter Token with Horde in the\nsame Lane.\nODANNARE TAEC",
     "additionalCostsText": "",
     "rawText": "ORC VILLAGE\nResource\n®: Gain O ASP.\n2, ©: Create a 3/2 Orc Fighter Token with Horde in the\nsame Lane.\nODANNARE TAEC\nN RD 175 ALI •EN ©2% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -22517,7 +22517,7 @@
     "keywords": [
       "Horde"
     ],
-    "rulesText": "[Turn]: Gain O ASP, gain 2 ASP instead if you control at\nleast 3 Characters with Horde.",
+    "rulesText": "{T}: Gain O ASP, gain {2} instead if you control at\nleast 3 Characters with Horde.",
     "additionalCostsText": "",
     "rawText": "TOPSOIL OF THE GOBLINS\nResource\n₴\n©: Gain O ASP, gain 2 ASP instead if you control at\nleast 3 Characters with Horde.\nL RD 176 ALI•EN ©26 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -22938,7 +22938,7 @@
     "keywords": [
       "Horde"
     ],
-    "rulesText": "When Zura, Keeper of the Oaths enters play, create a\nMythic Chieftain of War, Magic or Strategy Training\nToken and attach it to target Character with Horde\nyou control.\n: Gain 1 ASP if you control a Chieftain of Magic. Put\n1INI+1 Counter on target Character with Horde, if you\ncontrol a Chieftain of Strategy. Put 1 POW/HP+1/+1\nCounter on target Character with Horde, if you control\na Chieftain of War.\nHANNISSEC TUICH",
+    "rulesText": "When Zura, Keeper of the Oaths enters play, create a\nMythic Chieftain of War, Magic or Strategy Training\nToken and attach it to target Character with Horde\nyou control.\n: Gain {1} if you control a Chieftain of Magic. Put\n1INI+1 Counter on target Character with Horde, if you\ncontrol a Chieftain of Strategy. Put 1 POW/HP+1/+1\nCounter on target Character with Horde, if you control\na Chieftain of War.\nHANNISSEC TUICH",
     "additionalCostsText": "",
     "rawText": "ZURA, KEEPER OF THE OATHS\nMythic Character, Orc Advisor\nHAGS3\n5\nHorde\nWhen Zura, Keeper of the Oaths enters play, create a\nMythic Chieftain of War, Magic or Strategy Training\nToken and attach it to target Character with Horde\nyou control.\n: Gain 1 ASP if you control a Chieftain of Magic. Put\n1INI+1 Counter on target Character with Horde, if you\ncontrol a Chieftain of Strategy. Put 1 POW/HP+1/+1\nCounter on target Character with Horde, if you control\na Chieftain of War.\nHANNISSEC TUICH\nF RDD-60 ALI•EN ©2% Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -22979,7 +22979,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•, Pay 1 LP: Gain O ASP.\n[Turn], Pay 3 LP: Create a Fire Token in each War Zone.\n[Turn], sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.",
+    "rulesText": "•, Pay 1 LP: Gain O ASP.\n{T}, Pay 3 LP: Create a Fire Token in each War Zone.\n{T}, sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.",
     "additionalCostsText": "+1\n+2",
     "rawText": "PYRANA, THE EMBER-PRIESTRESS\nRed Sovereign\nSE72хНI\n+1\n+2\n•, Pay 1 LP: Gain O ASP.\n©, Pay 3 LP: Create a Fire Token in each War Zone.\n©, sacrifice any number of Fire: Gain O ASP for each\nFire you sacrificed, then lose that much LP.\nSENANT\nF RDD-00 ALI•EN 02% Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -23022,7 +23022,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "All Fairies you control have Fairy Dust (Every time this\nCharacter would deal DMG to a Character your opponenu\ncontrols, put that many RES-1 counter on it instead. If that\nCharacter's RES becomes O or less this way, banish it.)\n, Pay 1 LP: Gain 1 ASP.\nPay 1 LP: Create an Alliance Training Token and attach\nit to target Fairy Character you control. Use this ability\nonly once per round",
+    "rulesText": "All Fairies you control have Fairy Dust (Every time this\nCharacter would deal DMG to a Character your opponenu\ncontrols, put that many RES-1 counter on it instead. If that\nCharacter's RES becomes O or less this way, banish it.)\n, Pay 1 LP: Gain {1}.\nPay 1 LP: Create an Alliance Training Token and attach\nit to target Fairy Character you control. Use this ability\nonly once per round",
     "additionalCostsText": "+2",
     "rawText": "20 MIRALYN WINDBLADE, BEARER OF THE COVENANT\nPurple Sovereign\n+2\nAll Fairies you control have Fairy Dust (Every time this\nCharacter would deal DMG to a Character your opponenu\ncontrols, put that many RES-1 counter on it instead. If that\nCharacter's RES becomes O or less this way, banish it.)\n, Pay 1 LP: Gain 1 ASP.\nPay 1 LP: Create an Alliance Training Token and attach\nit to target Fairy Character you control. Use this ability\nonly once per round\nF PU182 ALISEN ©g Bluthelden® Art: Anna Lesnikova",
     "status": "machine",
@@ -23065,7 +23065,7 @@
     "keywords": [
       "Speed"
     ],
-    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, pay 1 LP: Gain 1 ASP.\n•: Put 1 RES+1 counter on target Fairy.",
+    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, pay 1 LP: Gain {1}.\n•: Put 1 RES+1 counter on target Fairy.",
     "additionalCostsText": "+2",
     "rawText": "LYSERA, THE LAST LIGHT FAIRY\nPurple Sovereign\n+2\nFairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, pay 1 LP: Gain 1 ASP.\n•: Put 1 RES+1 counter on target Fairy.\nF PU183 ALI•EN ©2% Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -23678,7 +23678,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "2: Put 2 RES-1 counter on target Fairy you control, if\nyou do, gain 3 ASP. Then, it that Character has 0 or\nless RES, banish it.",
+    "rulesText": "2: Put 2 RES-1 counter on target Fairy you control, if\nyou do, gain {3}. Then, it that Character has 0 or\nless RES, banish it.",
     "additionalCostsText": "",
     "rawText": "GOLDEN ORCHARD\nMythic Artifact\n2: Put 2 RES-1 counter on target Fairy you control, if\nyou do, gain 3 ASP. Then, it that Character has 0 or\nless RES, banish it.\nF PU197 ALI-EN ©28 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -24346,7 +24346,7 @@
     "keywords": [
       "Barrier"
     ],
-    "rulesText": "When Pact with a Fae enters play, choose two:\n• Switch trained character's RES and POW values,\n• trained Character gains Barrier or\n• trained Character gains\n«O, [Turn]: Use String of Destiny 1.\"",
+    "rulesText": "When Pact with a Fae enters play, choose two:\n• Switch trained character's RES and POW values,\n• trained Character gains Barrier or\n• trained Character gains\n«O, {T}: Use String of Destiny 1.\"",
     "additionalCostsText": "",
     "rawText": "PACT WITH A FAE\nFundamental Training\nWhen Pact with a Fae enters play, choose two:\n• Switch trained character's RES and POW values,\n• trained Character gains Barrier or\n• trained Character gains\n«O, ©: Use String of Destiny 1.\"\nL PU 212 ALI-EN ©% Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -24726,7 +24726,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP.\nWhenever you return a permanent to its owner's\nhand, use String of Destiny 2. (Look at the 2 top or\nbottom cards ofyour Spell Deck. You may put them on top or\nbottom of your Spell Deck in any order.)",
+    "rulesText": "®: Gain {1}.\nWhenever you return a permanent to its owner's\nhand, use String of Destiny 2. (Look at the 2 top or\nbottom cards ofyour Spell Deck. You may put them on top or\nbottom of your Spell Deck in any order.)",
     "additionalCostsText": "",
     "rawText": "RING OF THE FAIRIES\nMythic Artifact\n®: Gain 1 ASP.\nWhenever you return a permanent to its owner's\nhand, use String of Destiny 2. (Look at the 2 top or\nbottom cards ofyour Spell Deck. You may put them on top or\nbottom of your Spell Deck in any order.)\nF PU220 ALI•EN ©% Bluthelden® Art: Anna Lesnikova",
     "status": "machine",
@@ -25139,7 +25139,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Use String of Destiny 2. (Look at the 2 top or bottom\ncards ofyour Spell Deck. You may put them on top or bottom\nofyour Spell Deck in any order.)",
+    "rulesText": "{T}: Use String of Destiny 2. (Look at the 2 top or bottom\ncards ofyour Spell Deck. You may put them on top or bottom\nofyour Spell Deck in any order.)",
     "additionalCostsText": "",
     "rawText": "WISE FAIRY\nCharacter, Fairy\n3 3\nFlying\n©: Use String of Destiny 2. (Look at the 2 top or bottom\ncards ofyour Spell Deck. You may put them on top or bottom\nofyour Spell Deck in any order.)\nK PU229 ALI-EN ©28 Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
@@ -25190,7 +25190,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "®: Gain 1 ASP. Gain 2 ASP instead, if you control a\nCharacter with Alliance in the same Lane.",
+    "rulesText": "®: Gain {1}. Gain {2} instead, if you control a\nCharacter with Alliance in the same Lane.",
     "additionalCostsText": "",
     "rawText": "FOREST OF WISHES\nResource\n®: Gain 1 ASP. Gain 2 ASP instead, if you control a\nCharacter with Alliance in the same Lane.\nL PU230 ALI•EN ©½8 Bluthêlden® Art:EIWarlock",
     "status": "machine",
@@ -25233,7 +25233,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "If a Character you control with Alliance in the same\nLane would take DMG, reduce it by 1.\n®: Gain 1 ASP.",
+    "rulesText": "If a Character you control with Alliance in the same\nLane would take DMG, reduce it by 1.\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "LYSANAS CREATION\nResource\nIf a Character you control with Alliance in the same\nLane would take DMG, reduce it by 1.\n®: Gain 1 ASP.\nN PU 231 ALI•EN®%B|uthelden® Art: EIWarlock",
     "status": "machine",
@@ -25276,7 +25276,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Nimblefix enters play, target Character in the same\nLane gains 1 RES-1 counter.\n®: Gain 1 ASP as long as this Character remains Bound.",
+    "rulesText": "When Nimblefix enters play, target Character in the same\nLane gains 1 RES-1 counter.\n®: Gain {1} as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "NIMBLEFIX\nCharacter, Fairy\n3 P1Ї2\n3\nWhen Nimblefix enters play, target Character in the same\nLane gains 1 RES-1 counter.\n®: Gain 1 ASP as long as this Character remains Bound.\nN PU232 ALI•EN ©2% Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -25317,7 +25317,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.\nWhenever you use String of Destiny, use that much\nplus 1 instead.",
+    "rulesText": "•: Gain {1}.\nWhenever you use String of Destiny, use that much\nplus 1 instead.",
     "additionalCostsText": "",
     "rawText": "PATH OF DREAMS\nResource\n•: Gain 1 ASP.\nWhenever you use String of Destiny, use that much\nplus 1 instead.\nL PU233 ALI•EN ©2⅞ Bluthelden® Art: Florian Stitz",
     "status": "machine",
@@ -25360,7 +25360,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "•: Gain 1 ASP.\nWhen Pollen Field enters play, your Sovereign\nregenerates 1 LP. Whenever a Character you control\ngains Alliance, your Sovereign regenerates 1 LP.",
+    "rulesText": "•: Gain {1}.\nWhen Pollen Field enters play, your Sovereign\nregenerates 1 LP. Whenever a Character you control\ngains Alliance, your Sovereign regenerates 1 LP.",
     "additionalCostsText": "",
     "rawText": "POLLEN FIELD\nResource\n•: Gain 1 ASP.\nWhen Pollen Field enters play, your Sovereign\nregenerates 1 LP. Whenever a Character you control\ngains Alliance, your Sovereign regenerates 1 LP.\nL PU 234 ALI •EN ©26 Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
@@ -25407,7 +25407,7 @@
       "Flying",
       "Alliance"
     ],
-    "rulesText": "When The Cat enters play, create one 1/2 Fighting Fairy\nCharacter Token with Flying and Alliance.\n•: Gain 1 ASP as long as this Character remains Bound.",
+    "rulesText": "When The Cat enters play, create one 1/2 Fighting Fairy\nCharacter Token with Flying and Alliance.\n•: Gain {1} as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "THE CAT\nCharacter, Fairy Cat\n3 3 2 2\nWhen The Cat enters play, create one 1/2 Fighting Fairy\nCharacter Token with Flying and Alliance.\n•: Gain 1 ASP as long as this Character remains Bound.\nN PU 235 ALI•EN ©2% Bluthelden® Art: Alexander Zimmermann",
     "status": "machine",
@@ -25448,7 +25448,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Twilight Grove enters play with 2 Light counters on it.\n®: Gain 1 ASP.\n, remove a Light counter: Put 1 RES+1 counter on\ntarget Character in the same Lane.",
+    "rulesText": "Twilight Grove enters play with 2 Light counters on it.\n®: Gain {1}.\n, remove a Light counter: Put 1 RES+1 counter on\ntarget Character in the same Lane.",
     "additionalCostsText": "",
     "rawText": "TWILIGHT GROVE\nResource\nTwilight Grove enters play with 2 Light counters on it.\n®: Gain 1 ASP.\n, remove a Light counter: Put 1 RES+1 counter on\ntarget Character in the same Lane.\nK PU236 ALI•EN ©26 Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -25539,7 +25539,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Wondrous Clearing enters play, use String of\nDestiny 2. (Look at the 2 top or bottom cards ofyour Spell\nDeck. You may put them on top or bottom of your Spell Deck\nin any order.)\n®: Gain 1 ASP.",
+    "rulesText": "When Wondrous Clearing enters play, use String of\nDestiny 2. (Look at the 2 top or bottom cards ofyour Spell\nDeck. You may put them on top or bottom of your Spell Deck\nin any order.)\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "WONDROUS CLEARING\nResource\nWhen Wondrous Clearing enters play, use String of\nDestiny 2. (Look at the 2 top or bottom cards ofyour Spell\nDeck. You may put them on top or bottom of your Spell Deck\nin any order.)\n®: Gain 1 ASP.\nN PU 238 ALI•EN ©2% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -25925,7 +25925,7 @@
     "keywords": [
       "Speed"
     ],
-    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, Pay 1 LP: Gain 1 ASP.\n1, [Turn]: Put 1 RES+1 counter on target Fairy.",
+    "rulesText": "Fairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, Pay 1 LP: Gain {1}.\n1, {T}: Put 1 RES+1 counter on target Fairy.",
     "additionalCostsText": "+2",
     "rawText": "LYSERA, THE LAST LIGHT FAIRY\nPurple Sovereign\n+2\nFairies you control have Speed (they don't turn, when\nperforming a combat action.)\n®, Pay 1 LP: Gain 1 ASP.\n1, ©: Put 1 RES+1 counter on target Fairy.\nF PUD-00 ALI•EN ©% Bluthelden®® Art: Bruno Moreira",
     "status": "machine",
@@ -26089,7 +26089,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP. Until the end of the round, the next\ncard you play from your hand, that has additional ASP\ncosts from your Sovereign costs 1 ASP less to play.",
+    "rulesText": "{T}: Gain O ASP. Until the end of the round, the next\ncard you play from your hand, that has additional ASP\ncosts from your Sovereign costs {1} less to play.",
     "additionalCostsText": "",
     "rawText": "EQUILIBRA'S RESOURCE\nEquilibra Resource\n©: Gain O ASP. Until the end of the round, the next\ncard you play from your hand, that has additional ASP\ncosts from your Sovereign costs 1 ASP less to play.\nL EQ245 ALI •EN 02% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -26130,7 +26130,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "@: Gain 1 ASP.",
+    "rulesText": "@: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FORGE\nEquilibra Resource\n@: Gain 1 ASP.\nK EQ246 ALI •EN ©2% Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -26216,7 +26216,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP, as long as this Character remains",
+    "rulesText": "•: Gain {1}, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "PRIEST\nEquilibra Character\n2 2\n•: Gain 1 ASP, as long as this Character remains\nBound.\nK EQ248 ALI •EN ©28 Bluthelden® ° Art: Amar Sekarwangi",
     "status": "machine",
@@ -26257,7 +26257,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Sanctuary of Hope enters play with 2 Hope counters.\nRemove 1 Hope counter, banish two cards from your\nhand: Gain 2 ASP.\n[Turn]: Gain O ASP.",
+    "rulesText": "Sanctuary of Hope enters play with 2 Hope counters.\nRemove 1 Hope counter, banish two cards from your\nhand: Gain {2}.\n{T}: Gain O ASP.",
     "additionalCostsText": "",
     "rawText": "SANCTUARY OF HOPE\nEquilibra Resource\nBOB9T\nSanctuary of Hope enters play with 2 Hope counters.\nRemove 1 Hope counter, banish two cards from your\nhand: Gain 2 ASP.\n©: Gain O ASP.\nL EQ249 ALI•EN ©% Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -26301,7 +26301,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n•: Gain 2 ASP as long as you control at least two\nPermanents with different colors.\n[Turn]: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
+    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n•: Gain {2} as long as you control at least two\nPermanents with different colors.\n{T}: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
     "additionalCostsText": "",
     "rawText": "RUNE OF BALANCE\nEquilibra Resource, Rune\nRune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n•: Gain 2 ASP as long as you control at least two\nPermanents with different colors.\n©: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.\nF EQ250 ALI•EN ©2% Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -26342,7 +26342,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": ", Pay 1 LP: Gain 1 ASP.\n, Pay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has &The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\"\n1, Pay 4 LP: Unturn all Characters you controll in target\nLane. You may use this ability only once per round.",
+    "rulesText": ", Pay 1 LP: Gain {1}.\n, Pay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has &The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\"\n1, Pay 4 LP: Unturn all Characters you controll in target\nLane. You may use this ability only once per round.",
     "additionalCostsText": "+2",
     "rawText": "30 RHA'VELKOR, TRIBAL CHIEF\nBlue Sovereign\n+ 0\n+2\nzsesszu\n, Pay 1 LP: Gain 1 ASP.\n, Pay 2 LP: Create a Shield of Water Training Token\nand attach it to target Character. (It has &The next time\ntrained Character would take DMG, prevent that DMG,\nthen sacrifice all Shield of Water Trainings attached to it.\"\n1, Pay 4 LP: Unturn all Characters you controll in target\nLane. You may use this ability only once per round.\nF BLD-01 ALI-EN ©26 Bluthelden® Art: Agustín Vergara Koller",
     "status": "machine",
@@ -26386,7 +26386,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n•: Gain 1 ASP.\n[Turn]: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
+    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n•: Gain {1}.\n{T}: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
     "additionalCostsText": "",
     "rawText": "SOVEREIGN'S RUNE\nEquilibra Resource, Rune\nRune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n•: Gain 1 ASP.\n©: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.\nF BLD-02 ALI•EN ©26 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -27168,7 +27168,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1, [Turn]: Create a Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "1, {T}: Create a Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARD SKYPATROL\nCharacter, Lizard\n4 4 2\nFlying\n1, ©: Create a Shield of Water Training Token and\nattach it to this Character.\nL BLD-21_ALI •EN ©26 Bluthelden® Art: Agustín Vergara Koller",
     "status": "machine",
@@ -27211,7 +27211,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1, [Turn]: Create a Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "1, {T}: Create a Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARD SPEAR CARRIER 1\nCharacter, Lizard\n3 3 3 2\n1, ©: Create a Shield of Water Training Token and\nattach it to this Character.\nN BLD-24 ALI •EN ©2% Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -27254,7 +27254,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1, [Turn]: Create a Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "1, {T}: Create a Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARD SPEAR CARRIER 1\nCharacter, Lizard\n3 3 3 2\n1, ©: Create a Shield of Water Training Token and\nattach it to this Character.\nN BLD-23 ALI • EN ©26 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -27297,7 +27297,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "O, [Turn]: Create a Shield of Water Training Token ande\nattach it to this Character.",
+    "rulesText": "O, {T}: Create a Shield of Water Training Token ande\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARDKEEPER\nCharacter, Lizard\n2\nO, ©: Create a Shield of Water Training Token ande\nattach it to this Character.\nN BLD-26 ALI•EN ©28 Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -27340,7 +27340,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "O, [Turn]: Create a Shield of Water Training Token ande\nattach it to this Character.",
+    "rulesText": "O, {T}: Create a Shield of Water Training Token ande\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "LIZARDKEEPER\nCharacter, Lizard\n2\nO, ©: Create a Shield of Water Training Token ande\nattach it to this Character.\nN BLD-25 ALI•EN ©2: Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -27436,7 +27436,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.\nWhenever 1 or more INI -1 counters are put on a\nCharacter your opponent controls, put an additional\nINI -1 counter on it.",
+    "rulesText": "•: Gain {1}.\nWhenever 1 or more INI -1 counters are put on a\nCharacter your opponent controls, put an additional\nINI -1 counter on it.",
     "additionalCostsText": "",
     "rawText": "RING OF WAVES\nMythic Artifact\n•: Gain 1 ASP.\nWhenever 1 or more INI -1 counters are put on a\nCharacter your opponent controls, put an additional\nINI -1 counter on it.\nF BLD-29 ALI •EN ©28 Bluthelden® Art: Carlos Manzano",
     "status": "machine",
@@ -27563,7 +27563,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "This Artifact enters play with 1 Interrupt counter on it.\n1, [Turn], remove 1 Interrupt counter: Neutralize target\nSpell. (Put it from the Reaction Chain into its owner's\nGraveyard.)\n3: Put one Interrupt counter on this Artifact.",
+    "rulesText": "This Artifact enters play with 1 Interrupt counter on it.\n1, {T}, remove 1 Interrupt counter: Neutralize target\nSpell. (Put it from the Reaction Chain into its owner's\nGraveyard.)\n3: Put one Interrupt counter on this Artifact.",
     "additionalCostsText": "",
     "rawText": "SPELL DISRUPTOR\nArtifact\nThis Artifact enters play with 1 Interrupt counter on it.\n1, ©, remove 1 Interrupt counter: Neutralize target\nSpell. (Put it from the Reaction Chain into its owner's\nGraveyard.)\n3: Put one Interrupt counter on this Artifact.\nSODE SA\nL BLD-32 ALI•EN ©26 Bluthelden® Art: Muhamad Fathi",
     "status": "machine",
@@ -27690,7 +27690,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Drowning Touch (Characters damaged by this Character\nget a Drenched counter. A drenched Character gets 1 INI -1\ncounter at the end of each round.)\nMagic Control\n1, [Turn]: Create a Shield of Water Training Token and\nattach it to this Character.",
+    "rulesText": "Drowning Touch (Characters damaged by this Character\nget a Drenched counter. A drenched Character gets 1 INI -1\ncounter at the end of each round.)\nMagic Control\n1, {T}: Create a Shield of Water Training Token and\nattach it to this Character.",
     "additionalCostsText": "",
     "rawText": "WARON, WATER DRAGON\nEpic Character, Dragon\n4 5 3\nFlying\nDrowning Touch (Characters damaged by this Character\nget a Drenched counter. A drenched Character gets 1 INI -1\ncounter at the end of each round.)\nMagic Control\n1, ©: Create a Shield of Water Training Token and\nattach it to this Character.\nL BL D-36 ALI -EN ©2 Bluthelden® Art: Bruno Moreira",
     "status": "machine",
@@ -27974,7 +27974,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "sagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain 1 ASP.",
+    "rulesText": "sagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "BROOD CAVERN\nResource\nsagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain 1 ASP.\nN BLD-44 ALI •EN ©38 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -28015,7 +28015,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "sagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain 1 ASP.",
+    "rulesText": "sagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "BROOD CAVERN\nResource\nsagYzLprr\nWhen Brood Cavern enters play, draw a card then\ndiscard a card.\n®: Gain 1 ASP.\nN BL D-43 ALI•EN ©38 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -28056,7 +28056,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP for each Coral Reef you control.",
+    "rulesText": "®: Gain {1} for each Coral Reef you control.",
     "additionalCostsText": "",
     "rawText": "CORAL REEF\nResource\n®: Gain 1 ASP for each Coral Reef you control.\nN BLD-46 ALI•EN ©2 Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -28097,7 +28097,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP for each Coral Reef you control.",
+    "rulesText": "®: Gain {1} for each Coral Reef you control.",
     "additionalCostsText": "",
     "rawText": "CORAL REEF\nResource\n®: Gain 1 ASP for each Coral Reef you control.\nN BLD-45 ALI•EN ©8 Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -28138,7 +28138,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "@: Gain 1 ASP.",
+    "rulesText": "@: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FERTILE FIELD\nEquilibra Resource\n@: Gain 1 ASP.\nK BLD-48 ALI • EN ©26 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -28179,7 +28179,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "@: Gain 1 ASP.",
+    "rulesText": "@: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FERTILE FIELD\nEquilibra Resource\n@: Gain 1 ASP.\nK BLD-47 ALI•EN ©26 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -28274,7 +28274,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control a LVL 2 Resource, : Rise (Search your\nSpell Deck for a card named Waterpriestress and place\nit on this slot. Transfer all counters from Novice of the\nWater to it. Then destroy Novice of the Water.)\n•: Gain 1 ASP, as long as this Character remains",
+    "rulesText": "If you control a LVL 2 Resource, : Rise (Search your\nSpell Deck for a card named Waterpriestress and place\nit on this slot. Transfer all counters from Novice of the\nWater to it. Then destroy Novice of the Water.)\n•: Gain {1}, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "NOVICE OF THE WATER\nCharacter, Lizard\n1\n2 2 2\nEXNAS\nIf you control a LVL 2 Resource, : Rise (Search your\nSpell Deck for a card named Waterpriestress and place\nit on this slot. Transfer all counters from Novice of the\nWater to it. Then destroy Novice of the Water.)\n•: Gain 1 ASP, as long as this Character remains\nBound:\nN. BL D-50 ALI • EN • ©26 Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -28327,7 +28327,7 @@
     "keywords": [
       "Rise"
     ],
-    "rulesText": "If you control a LVL 2 Resource, : Rise (Search your\nSpell Deck for a card named Waterpriestress and place\nit on this slot. Transfer all counters from Novice of the\nWater to it. Then destroy Novice of the Water.)\n•: Gain 1 ASP, as long as this Character remains",
+    "rulesText": "If you control a LVL 2 Resource, : Rise (Search your\nSpell Deck for a card named Waterpriestress and place\nit on this slot. Transfer all counters from Novice of the\nWater to it. Then destroy Novice of the Water.)\n•: Gain {1}, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "NOVICE OF THE WATER\nCharacter, Lizard\n1\n2 2\nEXNAS\nIf you control a LVL 2 Resource, : Rise (Search your\nSpell Deck for a card named Waterpriestress and place\nit on this slot. Transfer all counters from Novice of the\nWater to it. Then destroy Novice of the Water.)\n•: Gain 1 ASP, as long as this Character remains\nBound:\nN BL D-51 ALI •EN 026 Bluthelden® Art: Barticevich",
     "status": "machine",
@@ -28376,7 +28376,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP, as long as this Character remains",
+    "rulesText": "•: Gain {1}, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "PRIEST\nEquilibra Character\n2\n•: Gain 1 ASP, as long as this Character remains\nBound.\nK BLD-52 ALI •EN ©2% Bluthelden®° Art: Carlos Manzano",
     "status": "machine",
@@ -28499,7 +28499,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP, gain 2 ASP instead if a Character is\nbound to this Resource.\n1,9: Return target Character that is bound to this\nResource to its owner's hand.",
+    "rulesText": "®: Gain {1}, gain {2} instead if a Character is\nbound to this Resource.\n1,9: Return target Character that is bound to this\nResource to its owner's hand.",
     "additionalCostsText": "",
     "rawText": "TEMPLE OF WATER\nResource\n®: Gain 1 ASP, gain 2 ASP instead if a Character is\nbound to this Resource.\n1,9: Return target Character that is bound to this\nResource to its owner's hand.\nN BLD-59ALI-EN ©8 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -28684,7 +28684,7 @@
     "keywords": [
       "Horde"
     ],
-    "rulesText": "•, Pay 1LP: Gain 1 ASP.\n[Turn], Pay 2 LP: Create a Mythic Chieftain of War, Magic\nor Strategy Training Token and attach it to target\nCharacter with Horde you control.\nPay 4 LP, sacrifice a Chieftain: Deal X DMG to target\nCharacter, where X is equal to the number of\nCharacters with Horde you control.",
+    "rulesText": "•, Pay 1LP: Gain {1}.\n{T}, Pay 2 LP: Create a Mythic Chieftain of War, Magic\nor Strategy Training Token and attach it to target\nCharacter with Horde you control.\nPay 4 LP, sacrifice a Chieftain: Deal X DMG to target\nCharacter, where X is equal to the number of\nCharacters with Horde you control.",
     "additionalCostsText": "",
     "rawText": "GRAK'NAR, THE BLOODRAGE\nRed Sovereign\n•, Pay 1LP: Gain 1 ASP.\n©, Pay 2 LP: Create a Mythic Chieftain of War, Magic\nor Strategy Training Token and attach it to target\nCharacter with Horde you control.\nPay 4 LP, sacrifice a Chieftain: Deal X DMG to target\nCharacter, where X is equal to the number of\nCharacters with Horde you control.\nF RD D-01 ALI • EN ©26 Bluthelden® Art: Alexander Zimmermann",
     "status": "machine",
@@ -28728,7 +28728,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain 1 ASP.\n[Turn]: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
+    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain {1}.\n{T}: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
     "additionalCostsText": "",
     "rawText": "SOVEREIGN'S RUNE\nEquilibra Resource, Rune\nRune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain 1 ASP.\n©: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.\nF RDD-02 ALI•EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -29081,7 +29081,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Trained Character gains: 2, [Turn]: Deal 2 DMG to Target\nCharacter in the same Lane. Deal an additional DMG it\nyou control a Chieftain of War, Strategy or Magic.",
+    "rulesText": "Trained Character gains: 2, {T}: Deal 2 DMG to Target\nCharacter in the same Lane. Deal an additional DMG it\nyou control a Chieftain of War, Strategy or Magic.",
     "additionalCostsText": "",
     "rawText": "FLAMES OF KHRAKAN\nFundamental Training\nTrained Character gains: 2, ©: Deal 2 DMG to Target\nCharacter in the same Lane. Deal an additional DMG it\nyou control a Chieftain of War, Strategy or Magic.\nL RD D-15 ALI • EN ©28 Bluthelden® Art: Kane Matos",
     "status": "machine",
@@ -29529,7 +29529,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "Gain 1 ASP\nWhen Ring of Fire enters play, create a Fire Token in\ntarget War Zone.",
+    "rulesText": "Gain {1}\nWhen Ring of Fire enters play, create a Fire Token in\ntarget War Zone.",
     "additionalCostsText": "",
     "rawText": "RING OF FIRE\nMythic Artifact\nGain 1 ASP\nWhen Ring of Fire enters play, create a Fire Token in\ntarget War Zone.\nF RDD-38 ALI•EN ©2% Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -29613,7 +29613,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain O ASP.\n2, [Turn]: Create a Fire Token in the War Zone in the same",
+    "rulesText": "®: Gain O ASP.\n2, {T}: Create a Fire Token in the War Zone in the same",
     "additionalCostsText": "",
     "rawText": "BURNING PITS\nResource\n®: Gain O ASP.\n2, ©: Create a Fire Token in the War Zone in the same\nLane.\nL RD D-44 ALI•EN ©2% Bluthelden® Art:André Bueno",
     "status": "machine",
@@ -29656,7 +29656,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP, then gain an additional O ASP for\neach Chieftain you control.",
+    "rulesText": "{T}: Gain O ASP, then gain an additional O ASP for\neach Chieftain you control.",
     "additionalCostsText": "",
     "rawText": "CITADEL OF THE ORC KING\nMythic Resource\n©: Gain O ASP, then gain an additional O ASP for\neach Chieftain you control.\nF RD D-45 ALI • EN ©28 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -29697,7 +29697,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP.",
+    "rulesText": "®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FERTILE FIELD\nEquilibra Resource\n®: Gain 1 ASP.\nK RD D-46 ALI•EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -29738,7 +29738,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.",
+    "rulesText": "•: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FORGE\nEquilibra Resource\n76O\n•: Gain 1 ASP.\nK RDD-48 ALI•EN ©2% Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -29824,7 +29824,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "): Gain UASP, as long as this Character remains\nBound. Gain 2 ASP instead if you control a Chieftain\nof Strategy in the same Lane.",
+    "rulesText": "): Gain UASP, as long as this Character remains\nBound. Gain {2} instead if you control a Chieftain\nof Strategy in the same Lane.",
     "additionalCostsText": "",
     "rawText": "MARSHALL OF THE BURNING PLAINS\nCharacter, Orc\n3 2 2 3\nHorde\n): Gain UASP, as long as this Character remains\nBound. Gain 2 ASP instead if you control a Chieftain\nof Strategy in the same Lane.\nZENANT\nN RD D-53 CALI•EN ®% Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -29867,7 +29867,7 @@
     "keywords": [
       "Horde"
     ],
-    "rulesText": "®: Gain O ASP.\n2, [Turn]: Create a 3/2 Orc Fighter Token with Horde in the\nsame Lane.\nODANNARE TAEC",
+    "rulesText": "®: Gain O ASP.\n2, {T}: Create a 3/2 Orc Fighter Token with Horde in the\nsame Lane.\nODANNARE TAEC",
     "additionalCostsText": "",
     "rawText": "ORC VILLAGE\nResource\n®: Gain O ASP.\n2, ©: Create a 3/2 Orc Fighter Token with Horde in the\nsame Lane.\nODANNARE TAEC\nN RD D-55 ALI•EN ©26 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -29908,7 +29908,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP, as long as this Character remains",
+    "rulesText": "•: Gain {1}, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "PRIEST\nEquilibra Character\n2 2\n•: Gain 1 ASP, as long as this Character remains\nBound.\nK RD D-56 ALI•EN ©% Bluthelden®° Art: Amar Sekarwangi",
     "status": "machine",
@@ -29951,7 +29951,7 @@
     "keywords": [
       "Horde"
     ],
-    "rulesText": "ВЗUИНO 2OкМIС!\n[Turn]: Gain O ASP. Gain 2 ASP instead if you control at\nleast 3 Characters with Horde.",
+    "rulesText": "ВЗUИНO 2OкМIС!\n{T}: Gain O ASP. Gain {2} instead if you control at\nleast 3 Characters with Horde.",
     "additionalCostsText": "",
     "rawText": "TOPSOIL OF THE GOBLINS\nResource\n₴\nВЗUИНO 2OкМIС!\n©: Gain O ASP. Gain 2 ASP instead if you control at\nleast 3 Characters with Horde.\nL RDD-58 ALI•EN ©26 Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -30190,7 +30190,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "All Fairies you control have Fairy Dust (Every time this\nCharacter would deal DMG to a Character your opponenu\ncontrols, put that many RES-1 counter on it instead. If that\nCharacter's RES becomes O or less this way, banish it.)\n, Pay 1 LP: Gain 1 ASP.\nPay 1 LP: Create an Alliance Training Token and attach\nit to target Fairy Character you control. Use this ability\nonly once per round",
+    "rulesText": "All Fairies you control have Fairy Dust (Every time this\nCharacter would deal DMG to a Character your opponenu\ncontrols, put that many RES-1 counter on it instead. If that\nCharacter's RES becomes O or less this way, banish it.)\n, Pay 1 LP: Gain {1}.\nPay 1 LP: Create an Alliance Training Token and attach\nit to target Fairy Character you control. Use this ability\nonly once per round",
     "additionalCostsText": "+2",
     "rawText": "20 MIRALYN WINDBLADE, BEARER OF THE COVENANT\nPurple Sovereign\n+2\nAll Fairies you control have Fairy Dust (Every time this\nCharacter would deal DMG to a Character your opponenu\ncontrols, put that many RES-1 counter on it instead. If that\nCharacter's RES becomes O or less this way, banish it.)\n, Pay 1 LP: Gain 1 ASP.\nPay 1 LP: Create an Alliance Training Token and attach\nit to target Fairy Character you control. Use this ability\nonly once per round\nF PUD-01 ALI EN ©2% Bluthelden® Art: Anna Lesnikova",
     "status": "machine",
@@ -30234,7 +30234,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain 1 ASP.\n[Turn]: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
+    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain {1}.\n{T}: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
     "additionalCostsText": "",
     "rawText": "SOVEREIGN'S RUNE\nEquilibra Resource, Rune\nRune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain 1 ASP.\n©: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.\nF PUD-02 ALI•EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -30912,7 +30912,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP.\nWhenever you return a permanent to its owners'\nhand, use String of Destiny 2. (Look at the 2 top or\nbottom cards ofyour Spell Deck. You may put them on top or\nbottom of your Spell Deck in any order.)",
+    "rulesText": "®: Gain {1}.\nWhenever you return a permanent to its owners'\nhand, use String of Destiny 2. (Look at the 2 top or\nbottom cards ofyour Spell Deck. You may put them on top or\nbottom of your Spell Deck in any order.)",
     "additionalCostsText": "",
     "rawText": "RING OF THE FAIRIES\nMythic Artifact\n2\n®: Gain 1 ASP.\nWhenever you return a permanent to its owners'\nhand, use String of Destiny 2. (Look at the 2 top or\nbottom cards ofyour Spell Deck. You may put them on top or\nbottom of your Spell Deck in any order.)\nF PUD-36 ALI•EN ©6 Bluthelden® Art: Anna Lesnikova",
     "status": "machine",
@@ -31086,7 +31086,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "®: Gain 1 ASP.",
+    "rulesText": "®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FERTILE FIELD\nEquilibra Resource\n®: Gain 1 ASP.\nK PUD-45 ALI •EN ©26 Bluthelden® Art: James Binks",
     "status": "machine",
@@ -31127,7 +31127,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.",
+    "rulesText": "•: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FORGE\nEquilibra Resource\n76O\n•: Gain 1 ASP.\nK PUD-46 ALI•EN ©2%Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -31170,7 +31170,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "®: Gain 1 ASP. Gain 2 ASP instead, if you control a\nCharacter with Alliance in the same Lane.",
+    "rulesText": "®: Gain {1}. Gain {2} instead, if you control a\nCharacter with Alliance in the same Lane.",
     "additionalCostsText": "",
     "rawText": "FOREST OF WISHES\nResource\n®: Gain 1 ASP. Gain 2 ASP instead, if you control a\nCharacter with Alliance in the same Lane.\nL' PUD-47 ALI-EN ©2% Bluthêlden® Art:EIWarlock",
     "status": "machine",
@@ -31213,7 +31213,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "If a Character you control with Alliance in the same\nLane would take DMG, reduce it by 1.\n®: Gain 1 ASP.",
+    "rulesText": "If a Character you control with Alliance in the same\nLane would take DMG, reduce it by 1.\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "LYSANA'S CREATION\nResource\nIf a Character you control with Alliance in the same\nLane would take DMG, reduce it by 1.\n®: Gain 1 ASP.\nN PUD-50 ALI•EN ©½⅚ Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -31256,7 +31256,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Nimblefix enters play, put 1 RES -1 counter on\ntarget Character in the same Lane.\n: Gain 1 ASP as long as this Character remains",
+    "rulesText": "When Nimblefix enters play, put 1 RES -1 counter on\ntarget Character in the same Lane.\n: Gain {1} as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "NIMBLEFIX\nCharacter, Fairy\n3 3\nWhen Nimblefix enters play, put 1 RES -1 counter on\ntarget Character in the same Lane.\n: Gain 1 ASP as long as this Character remains\nBound.\nN PUD-52 ALI•EN ©2% Bluthelden® Art: Maria Trigueros",
     "status": "machine",
@@ -31299,7 +31299,7 @@
     "keywords": [
       "Alliance"
     ],
-    "rulesText": "•: Gain 1 ASP.\nWhen Pollen Field enters play, your Sovereign\nregenerates 1 LP. Whenever a Character you control\ngains Alliance, your Sovereign regenerates 1 LP.",
+    "rulesText": "•: Gain {1}.\nWhen Pollen Field enters play, your Sovereign\nregenerates 1 LP. Whenever a Character you control\ngains Alliance, your Sovereign regenerates 1 LP.",
     "additionalCostsText": "",
     "rawText": "POLLEN FIELD\nResource\n•: Gain 1 ASP.\nWhen Pollen Field enters play, your Sovereign\nregenerates 1 LP. Whenever a Character you control\ngains Alliance, your Sovereign regenerates 1 LP.\nL PU D-53 ALI•EN ©26 Bluthelden® Art: Luan Pereira Santos",
     "status": "machine",
@@ -31342,7 +31342,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP, as long as this Character remains",
+    "rulesText": "•: Gain {1}, as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "PRIEST\nCharacter, Priest\n2 2\n•: Gain 1 ASP, as long as this Character remains\nBound.\nK PUD-56 ALI•EN ©½⅚ Bluthelden® ° Art: Amar Sekarwangi",
     "status": "machine",
@@ -31383,7 +31383,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Wondrous Clearing enters play, use String of\nDestiny 2 (Look at the 2 top or bottom cards ofyour Spell\nDeck. You may put them on top or bottom of your Spell Deck\nin any order.)\n®: Gain 1 ASP.",
+    "rulesText": "When Wondrous Clearing enters play, use String of\nDestiny 2 (Look at the 2 top or bottom cards ofyour Spell\nDeck. You may put them on top or bottom of your Spell Deck\nin any order.)\n®: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "WONDROUS CLEARING\nResource\nWhen Wondrous Clearing enters play, use String of\nDestiny 2 (Look at the 2 top or bottom cards ofyour Spell\nDeck. You may put them on top or bottom of your Spell Deck\nin any order.)\n®: Gain 1 ASP.\nN PUD-58 ALI•EN ©% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -31430,7 +31430,7 @@
       "Flying",
       "Alliance"
     ],
-    "rulesText": "When The Cat enters play, create one 1/2 Fairy\nCharacter Token with Flying and Alliance.\n): Gain 1 ASP as long as this Character remains",
+    "rulesText": "When The Cat enters play, create one 1/2 Fairy\nCharacter Token with Flying and Alliance.\n): Gain {1} as long as this Character remains",
     "additionalCostsText": "",
     "rawText": "THE CAT\nCharacter, Fairy Cat\n3 Õ|з 2 2\nWhen The Cat enters play, create one 1/2 Fairy\nCharacter Token with Flying and Alliance.\n): Gain 1 ASP as long as this Character remains\nbound.\nN PUD-60 ALI•EN ©2 Bluthelden® Art: Alexander Zimmermann",
     "status": "machine",
@@ -31571,7 +31571,7 @@
       "Ecstasy",
       "Punch"
     ],
-    "rulesText": "Breaker of Earth - Whenever a brown non-Token permanent enters play under your control, create a Lerium\n[Turn], Pay 1LP: Gain O ASP.\n[Turn],Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character\ngains Punch and Ecstasy until the end of this round.",
+    "rulesText": "Breaker of Earth - Whenever a brown non-Token permanent enters play under your control, create a Lerium\n{T}, Pay 1LP: Gain O ASP.\n{T},Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character\ngains Punch and Ecstasy until the end of this round.",
     "additionalCostsText": "+2",
     "rawText": "KRADOR, SOVEREIGN OF STONE AND SOIL\nBrown Sovereign\n+2\nBreaker of Earth - Whenever a brown non-Token per-\nmanent enters play under your control, create a Lerium\nToken.\n©, Pay 1LP: Gain O ASP.\n©,Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character\ngains Punch and Ecstasy until the end of this round.\nF BRD-01 ALI•EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -31615,7 +31615,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain 1 ASP.\n[Turn]: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
+    "rulesText": "Rune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain {1}.\n{T}: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.",
     "additionalCostsText": "",
     "rawText": "SOVEREIGN'S RUNE\nEquilibra Resource, Rune\nRune (You have to place this card in the Rune Slot at the\nbeginning of the game.)\n@: Gain 1 ASP.\n©: Search your pool for an Advisor, a Character with\nBinding, or a Resource card and reveal it. Place the\nsearched card in its designated Slot without paying\nany costs. Then shuffle your pool.\nF BRD-02 ALI•EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -32000,7 +32000,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "O: Gain 1 ASP.\nOnce per round, if you create a non-Character Token,\ncreate 1 additional Token of the same kind.",
+    "rulesText": "O: Gain {1}.\nOnce per round, if you create a non-Character Token,\ncreate 1 additional Token of the same kind.",
     "additionalCostsText": "",
     "rawText": "RING OF STONES\nMythic Artifact\nO: Gain 1 ASP.\nOnce per round, if you create a non-Character Token,\ncreate 1 additional Token of the same kind.\nF BRD-20 ALI•EN ©2% Bluthelden® Art: Amar Serkawangi",
     "status": "machine",
@@ -32142,7 +32142,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn], sacrifice 1 Lerium: Target Stone Character\nregenerates 1 HP.",
+    "rulesText": "{T}, sacrifice 1 Lerium: Target Stone Character\nregenerates 1 HP.",
     "additionalCostsText": "",
     "rawText": "STONEMASON\nCharacter, Dwarf\n3 3\n©, sacrifice 1 Lerium: Target Stone Character\nregenerates 1 HP.\nK BRD-29 * ALI•EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -32386,7 +32386,7 @@
       "Fear",
       "Rise"
     ],
-    "rulesText": "Dual Slot (This Character occupies two Slots in the War\nIf you control a Worm Token, pay 2 ASP less to\nsummon Vorax, the Worm, then Rise Worm Token.\nWhen Vorax, the Worm emerges in your opponent's\nWar Zone, all other Characters in that War Zone gain Fear\nand retreat to the Back Row. If they can't retreat, destroy\nthem instead. Vorax, the Worm does not unturn at the\nbeginning of the next round.",
+    "rulesText": "Dual Slot (This Character occupies two Slots in the War\nIf you control a Worm Token, pay {2} less to\nsummon Vorax, the Worm, then Rise Worm Token.\nWhen Vorax, the Worm emerges in your opponent's\nWar Zone, all other Characters in that War Zone gain Fear\nand retreat to the Back Row. If they can't retreat, destroy\nthem instead. Vorax, the Worm does not unturn at the\nbeginning of the next round.",
     "additionalCostsText": "",
     "rawText": "VORAX, THE WORM\nEpic Character, Stone\n3 2 4\nDual Slot (This Character occupies two Slots in the War\nZone.)\nIf you control a Worm Token, pay 2 ASP less to\nsummon Vorax, the Worm, then Rise Worm Token.\nWhen Vorax, the Worm emerges in your opponent's\nWar Zone, all other Characters in that War Zone gain Fear\nand retreat to the Back Row. If they can't retreat, destroy\nthem instead. Vorax, the Worm does not unturn at the\nbeginning of the next round.\nL BRD-39 ALI•EN ©26 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -32484,7 +32484,7 @@
     "keywords": [
       "Advisor"
     ],
-    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n[Turn]: Create two Lerium Tokens.\n[Turn], Sacrifice one Lerium Token: All Stone Characters\nyou control gain RES +1, INI +1, POW/HP +1/+1 until the\nend of this round.",
+    "rulesText": "Advisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n{T}: Create two Lerium Tokens.\n{T}, Sacrifice one Lerium Token: All Stone Characters\nyou control gain RES +1, INI +1, POW/HP +1/+1 until the\nend of this round.",
     "additionalCostsText": "",
     "rawText": "AETHONWYNN, MOTHER OF ALLSTONES\nMythic Character, Stone Advisor\n5\nAdvisor (You have to place this card in the Advisor Slot. It is\nstill a Character that can be the target of spells or abilities.)\n©: Create two Lerium Tokens.\n©, Sacrifice one Lerium Token: All Stone Characters\nyou control gain RES +1, INI +1, POW/HP +1/+1 until the\nend of this round.\nF BRD-43 ALI•EN ©26 Bluthelden® Art: Rodolfo Costa",
     "status": "machine",
@@ -32525,7 +32525,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "•: Gain 1 ASP.",
+    "rulesText": "•: Gain {1}.",
     "additionalCostsText": "",
     "rawText": "FORGE\nEquilibra Resource\n76O\n•: Gain 1 ASP.\nK BRD-46 ALI•EN ©2% Bluthelden® Art: Anthony Catillaz",
     "status": "machine",
@@ -32568,7 +32568,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Guardian of the Treasury enters play, create a\nLerium Token.\n•: Gain 1 ASP as long as this Character remains Bound\n•: Create 1 Lerium Token.",
+    "rulesText": "When Guardian of the Treasury enters play, create a\nLerium Token.\n•: Gain {1} as long as this Character remains Bound\n•: Create 1 Lerium Token.",
     "additionalCostsText": "",
     "rawText": "GUARDIAN OF THE TREASURY\nCharacter, Dwarf\n3 3 2 3\nWhen Guardian of the Treasury enters play, create a\nLerium Token.\n•: Gain 1 ASP as long as this Character remains Bound\n•: Create 1 Lerium Token.\nN BRD-48 ALI • EN ©2% Bluthelden® Art: Thais Valandra",
     "status": "machine",
@@ -32612,7 +32612,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When Load Goat enters play, create a POW/HP 2/2 Worm\nToken with Emerge 3 in your Warzone in the same Lane.\n[Turn]: Gain O ASP as long as this Character remains Bound.",
+    "rulesText": "When Load Goat enters play, create a POW/HP 2/2 Worm\nToken with Emerge 3 in your Warzone in the same Lane.\n{T}: Gain O ASP as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "LOAD GOAT\nCharacter, Stone, Goat\n3 3 3\nWhen Load Goat enters play, create a POW/HP 2/2 Worm\nToken with Emerge 3 in your Warzone in the same Lane.\n©: Gain O ASP as long as this Character remains Bound.\nN BRD-50 ALI• EN ©2% Bluthelden® Art: James Binks",
     "status": "machine",
@@ -32655,7 +32655,7 @@
     "keywords": [
       "Dual Slot"
     ],
-    "rulesText": "Peak of Eldor enters play with 1 Giant counter on it.\n[Turn]: Gain O ASP.\n3, remove 1 Giant counter, Q: Create a 5/7 Stone Giant\nCharacter Token with Dual Slot. Place it in target War",
+    "rulesText": "Peak of Eldor enters play with 1 Giant counter on it.\n{T}: Gain O ASP.\n3, remove 1 Giant counter, Q: Create a 5/7 Stone Giant\nCharacter Token with Dual Slot. Place it in target War",
     "additionalCostsText": "",
     "rawText": "PEAK OF ELDOR\nResource\nPeak of Eldor enters play with 1 Giant counter on it.\n©: Gain O ASP.\n3, remove 1 Giant counter, Q: Create a 5/7 Stone Giant\nCharacter Token with Dual Slot. Place it in target War\nZone.\nL BRD-52 ALI•EN ©26 Bluthelden® Art: Jounes Erojo",
     "status": "machine",
@@ -32696,7 +32696,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "1: Gain 1 ASP, as long as this Character remains Bound.",
+    "rulesText": "1: Gain {1}, as long as this Character remains Bound.",
     "additionalCostsText": "",
     "rawText": "SMITH\nEquilibra Character\n3 2 2\n1: Gain 1 ASP, as long as this Character remains Bound.\nK BR D-53 ALI•EN©26 Bluthelden® Art: Florian Stitz",
     "status": "machine",
@@ -32737,7 +32737,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "[Turn]: Gain O ASP. Gain 2 ASP instead, if you control at\nleast two Stone Characters.\n[Turn]: Create a 2/2 Goat Stone Character Token in the\nsame Lane.",
+    "rulesText": "{T}: Gain O ASP. Gain {2} instead, if you control at\nleast two Stone Characters.\n{T}: Create a 2/2 Goat Stone Character Token in the\nsame Lane.",
     "additionalCostsText": "",
     "rawText": "STONE CAVE\nResource\n©: Gain O ASP. Gain 2 ASP instead, if you control at\nleast two Stone Characters.\n©: Create a 2/2 Goat Stone Character Token in the\nsame Lane.\nL BR D-55 ALI • EN ®% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -32778,7 +32778,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "O: Gain 1 ASP.\n2: Deal 1 DMG to target Stone Character you control,\nthen deal 1 DMG to target Character in the same Lane.",
+    "rulesText": "O: Gain {1}.\n2: Deal 1 DMG to target Stone Character you control,\nthen deal 1 DMG to target Character in the same Lane.",
     "additionalCostsText": "",
     "rawText": "STONE KINGDOM\nResource\nO: Gain 1 ASP.\n2: Deal 1 DMG to target Stone Character you control,\nthen deal 1 DMG to target Character in the same Lane.\nL BRD-57 ALI•EN ©2% Bluthelden® Art: Carl Haucke",
     "status": "machine",
@@ -32819,7 +32819,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When this Resource enters play, create 1 Lerium\nToken. (It's an Artifact Token with \"Sacrifice this Artifact:\nTarget Stone Character you control gains POW/HP +0/+1\nuntil the end of this roundi)\n[Turn]: Gain O ASP.\n[Turn]: Create 1 Lerium Token.",
+    "rulesText": "When this Resource enters play, create 1 Lerium\nToken. (It's an Artifact Token with \"Sacrifice this Artifact:\nTarget Stone Character you control gains POW/HP +0/+1\nuntil the end of this roundi)\n{T}: Gain O ASP.\n{T}: Create 1 Lerium Token.",
     "additionalCostsText": "",
     "rawText": "STONE TREASURE\nResource\nWhen this Resource enters play, create 1 Lerium\nToken. (It's an Artifact Token with \"Sacrifice this Artifact:\nTarget Stone Character you control gains POW/HP +0/+1\nuntil the end of this roundi)\n©: Gain O ASP.\n©: Create 1 Lerium Token.\nN BRD-60 ALI•EN ©% Bluthelden® Art: Carl Haucke",
     "status": "machine",

@@ -1,3 +1,4 @@
+import {symbolText} from './card-symbols.mjs';
 /** Pure card search shared by the catalogue, archive search and regression tests. */
 const names = {
   white:['Weiß','White'], black:['Schwarz','Black'], orange:['Orange','Orange'], green:['Grün','Green'],
@@ -11,20 +12,20 @@ const normalize = value => String(value ?? '').toLowerCase().normalize('NFD').re
 const label = (value,lang='de') => names[value]?.[lang==='en'?1:0] || value;
 function text(card) {
   const d=card.text || {};
-  return normalize([card.name,card.code,card.set,card.notes,d.typeLine,d.rawText,d.rulesText,d.additionalCostsText,d.collectorNumber,d.artist,
+  return normalize(symbolText([card.name,card.code,card.set,card.notes,d.typeLine,d.rawText,d.rulesText,d.additionalCostsText,d.collectorNumber,d.artist,
     ...(d.types||[]).flatMap(x=>[x,...(names[x]||[])]),...(d.colors||[]).flatMap(x=>[x,...(names[x]||[])]),
     ...(d.subtypes||[]),...(d.traits||[]),...(d.keywords||[]),d.rarity,...(names[d.rarity]||[]),
-    ...Object.entries(d.mechanics||{}).filter(([,v])=>v===true).map(([k])=>k)].join(' '));
+    ...Object.entries(d.mechanics||{}).filter(([,v])=>v===true).map(([k])=>k)].join(' ')));
 }
 function compare(value,operator,expected) {
   if(typeof value!=='number')return false;
-  return ({'=':value===expected,'>':value>expected,'>=':value>=expected,'<':value<expected,'<=':value<=expected})[operator] || false;
+  return ({'=':value===expected,'>':value>expected,'>=':value>=expected,'<':value<expected,'<=':value<=expected,'!=':value!==expected})[operator] || false;
 }
 function query(card,q) {
   const hay=text(card);
-  const parts=String(q||'').match(/"[^"]+"|\S+/g)||[];
+  const parts=symbolText(q).match(/"[^"]+"|\S+/g)||[];
   return parts.every(part=>{
-    const match=/^(asp|level|lvl|pow|hp|res|ini|magic|mag|lp)(<=|>=|=|<|>)(\d+)$/i.exec(part);
+    const match=/^(asp|level|lvl|pow|hp|res|ini|magic|mag|lp)(<=|>=|!=|=|<|>)(\d+)$/i.exec(part);
     if(match){const key=({lvl:'level',mag:'magic'})[match[1].toLowerCase()]||match[1].toLowerCase();return compare(card.text?.stats?.[key],match[2],Number(match[3]));}
     return hay.includes(normalize(part.replace(/^"|"$/g,'')));
   });
@@ -32,6 +33,18 @@ function query(card,q) {
 function matches(card,filters={}) {
   const d=card.text||{};
   if(!query(card,filters.q))return false;
+  for(const [key,value] of [['name',card.name],['text',d.rulesText],['artist',d.artist],['flavor',d.flavorText]]){
+    const words=symbolText(filters[key]||'').match(/"[^"]+"|\S+/g)||[];
+    if(!words.every(word=>normalize(symbolText(value)).includes(normalize(word.replace(/^"|"$/g,'')))))return false;
+  }
+  if(filters.language&&d.language!==filters.language)return false;
+  if(filters.excludeType&&(d.types||[]).includes(filters.excludeType))return false;
+  if(filters.colors){
+    const selected=filters.colors.split(','),actual=d.colors||[];
+    if(filters.colorMode==='exact' ? !(actual.length===selected.length&&selected.every(c=>actual.includes(c))) :
+       filters.colorMode==='atmost' ? !actual.every(c=>selected.includes(c)) : !selected.every(c=>actual.includes(c)))return false;
+  }
+  if(filters.rarities&&!filters.rarities.split(',').includes(d.rarity))return false;
   for(const key of ['set','group'])if(filters[key]&&card[key]!==filters[key])return false;
   for(const [key,field] of [['color','colors'],['type','types'],['subtype','subtypes'],['trait','traits'],['keyword','keywords']]){
     if(filters[key]&&!(d[field]||[]).includes(filters[key]))return false;
@@ -42,6 +55,10 @@ function matches(card,filters={}) {
   if(filters.status==='machine'&&d.status==='reviewed')return false;
   if(filters.unknown&&d.stats?.[filters.unknown]!=null)return false;
   for(const key of numeric){
+    if(filters[key+'Value']!==undefined&&filters[key+'Value']!==''){
+      const value=filters[key+'Value'];
+      if(!/^\d+$/.test(value)||!compare(d.stats?.[key],filters[key+'Op']||'=',Number(value)))return false;
+    }
     for(const [suffix,operator] of [['Min','>='],['Max','<=']]){
       const input=filters[key+suffix];
       if(input!==undefined&&input!==''&&(!/^\d+$/.test(input)||!compare(d.stats?.[key],operator,Number(input))))return false;
@@ -63,6 +80,15 @@ function group(cards,filters={}) {
     // Prefer a regular printing when it matches, while preserving every variant.
     const card=hits.find(c=>!c.variant&&!/promo|organized|winner/i.test(c.group||''))||hits[0];
     return {...g,card,matches:hits};
-  }).filter(g=>g.card);
+  }).filter(g=>g.card).sort((a,b)=>{
+    const key=filters.sort||'name';
+    if(numeric.includes(key)){
+      const av=a.card.text?.stats?.[key],bv=b.card.text?.stats?.[key];
+      const delta=(typeof av==='number'?av:Infinity)-(typeof bv==='number'?bv:Infinity);
+      if(delta)return delta;
+    }
+    if(key==='set'){const delta=a.card.set.localeCompare(b.card.set);if(delta)return delta;}
+    return a.name.localeCompare(b.name);
+  });
 }
 export const CardSearch={names,numeric,normalize,label,text,query,matches,nameKey,group};

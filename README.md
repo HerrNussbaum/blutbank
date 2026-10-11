@@ -164,3 +164,5 @@ Unter `#/de/decks` bzw. `#/en/decks`: lokale Deckverwaltung, Import/Export, Kart
 - Die erweiterte Suche nutzt `CardSearch.matches` in `dist/card-search.mjs`: getrennte Name/Text-Felder, Farbvergleich (enthält/genau/höchstens), Seltenheiten, Typ-Ausschluss, Zahlenvergleiche, Edition, Künstler und Sortierung. Mehrere Bedingungen müssen dieselbe Druckversion treffen.
 - `dist/card-symbols.mjs` vereinheitlicht bekannte Turn-Symbole als `{T}` und ASP-Beträge als `{N}`. Der Inhalts-Build übernimmt dieselbe Notation in redaktionelle Kartenfelder sowie JSON-/CSV-Exporte. Unverändertes `rawText` bleibt als OCR-Quellbeleg erhalten; normale Wörter wie „turn“ werden nicht als Symbol umgedeutet.
 - Kartendaten bleiben in `content/` pflegbar; `npm run build` erstellt die Ausgaben. Die Kartenseite blendet nicht erfasste Werte aus. Auf kleinen Bildschirmen werden die Spalten untereinander dargestellt, ohne Text abzuschneiden.
+
+Die Gestaltungsgrundsätze und die Überprüfung der einzelnen Seiten stehen in [docs/DESIGN.md](docs/DESIGN.md). Seitenbreite, Außenränder, Lesebreite und Kopfleistenhöhe werden zentral über die Variablen am Anfang von `dist/style.css` gepflegt.

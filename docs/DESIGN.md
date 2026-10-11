@@ -1,0 +1,35 @@
+# Gestaltung und Lesbarkeit
+
+## Befund der Überprüfung
+
+Die vorherige Gestaltung wirkte vor allem durch die Häufung kleiner Gestaltungselemente unruhig: Linien unter der Navigation, zwischen Regelabschnitten und Kartenwerten sowie Rahmen und rote Flächen innerhalb derselben Kartenseite. Diese Elemente konkurrierten mit den bereits auffälligen Kartenbildern und den farbigen Querverweisen.
+
+Regeltexte liefen am Desktop über zu lange Zeilen. Gleichzeitig waren einige Metadaten und Auswahlfelder im Deckbuilder nur 11–13 Pixel groß. Die komprimierte Kartenseite machte lange Errata durch eine schmale Spalte und kleine Schrift schwerer lesbar. Die einzelnen Bereiche verwendeten unterschiedliche Seitenbreiten und Abstände.
+
+## Gemeinsame Gestaltung
+
+- Garamond und die vorhandene Farbpalette bleiben erhalten.
+- Maximal 1200 Pixel Seitenbreite mit flexiblen Außenrändern; auf schmalen Geräten mindestens 24 Pixel pro Seite. Bei 1280 Pixel Bildschirmbreite beträgt der Rand 64 Pixel.
+- Längere Lesetexte sind auf 66 `ch` begrenzt. Fließtext liegt bei 19–20 Pixeln, übliche Beschriftungen bei 16–18 Pixeln.
+- Zusammengehörige Inhalte werden durch Nähe, Abstände und Überschriften gegliedert. Dekorative Trennlinien, Schatten und zusätzliche Inhaltsrahmen entfallen.
+- Rahmen bleiben bei Eingabefeldern und Schaltflächen erhalten. Tastaturfokus und Fehlermarkierungen bleiben sichtbar.
+- Rot kennzeichnet Links, aktive Navigation und ausgewählte Hauptaktionen. Nebenaktionen sind zurückhaltender gestaltet.
+- Die Styles stehen nach Komponenten geordnet in `dist/style.css`; ältere, inzwischen unbenutzte Dialog- und Katalogregeln wurden entfernt.
+
+## Anwendung auf die einzelnen Seiten
+
+| Bereich | Anpassung |
+| --- | --- |
+| Turnierregeln | Kürzere Textzeilen; Abschnitte durch Abstände getrennt; die linke Kapitelnavigation ohne Rahmen und rote Balken. |
+| Begriffsregister und Archivsuche | Gleiche Lesebreite, größere Auszüge und ruhigere Gliederung ohne Ergebnis-Trennlinien. |
+| Kartenarchiv | Vier größere Karten je Desktop-Zeile, freie Ränder, optionale Filter ohne umgebenden Rahmen. Quellen und Datenexporte liegen in einem aufklappbaren Bereich. |
+| Einzelkarte | Freie Anordnung ohne Textkasten oder roten Editionsblock; größere Texte und Werte. Ausführliche Hinweise stehen unter den Hauptinformationen in einer breiteren Lesespalte. |
+| Proxy-Drucker | Zentrierter Arbeitsbereich ohne Kapitelnavigation, gut lesbare Kartenliste und zurückhaltende Nebenaktionen. Die funktionalen Schnittmarken im Druck bleiben erhalten. |
+| Deckbuilder | Größere Namen und Auswahlfelder, offene Spalten ohne zusätzliche Rahmen; bei wenig Platz wechseln die Bereiche untereinander. |
+| Konto und geteilte Decks | Begrenzte Inhaltsbreite und gut lesbare Formulare, statt die gesamte Bildschirmbreite auszunutzen. |
+
+Lange Inhalte dürfen die Seite verlängern. Lesbarkeit und freie Ränder haben Vorrang vor dem Ziel, jede Information ohne Scrollen unterzubringen. Die mobile Ansicht schneidet keine Texte ab.
+
+## Prüfung
+
+Regeln, Begriffsregister, Kartenarchiv, Kartenseite, erweiterte Suche, Proxy-Drucker und Deckeditor wurden im Browser geprüft. Bei 390 Pixel Breite zeigen die geprüften Ansichten keine seitlichen Überläufe und behalten beidseitig 24 Pixel Rand. Die vorhandenen automatischen Inhalts-, Such-, Proxy- und Deckprüfungen bestehen weiterhin.

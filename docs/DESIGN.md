@@ -8,7 +8,7 @@ Regeltexte liefen am Desktop über zu lange Zeilen. Gleichzeitig waren einige Me
 
 ## Gemeinsame Gestaltung
 
-- Garamond und die vorhandene Farbpalette bleiben erhalten.
+- Fließtext verwendet Garamond, die vorhandene Farbpalette bleibt erhalten. Der Schriftzug BLUTBANK und die vier Reiter verwenden Regensburg Grunged Regular in Großbuchstaben. Die unveränderte Schriftdatei liegt lokal unter `dist/fonts/regensburg/`; `SOURCE.txt` dokumentiert Herkunft und Nutzungshinweise.
 - Maximal 1200 Pixel Seitenbreite mit flexiblen Außenrändern; auf schmalen Geräten mindestens 24 Pixel pro Seite. Bei 1280 Pixel Bildschirmbreite beträgt der Rand 64 Pixel.
 - Längere Lesetexte sind auf 66 `ch` begrenzt. Fließtext liegt bei 19–20 Pixeln, übliche Beschriftungen bei 16–18 Pixeln.
 - Zusammengehörige Inhalte werden durch Nähe, Abstände und Überschriften gegliedert. Dekorative Trennlinien, Schatten und zusätzliche Inhaltsrahmen entfallen.
@@ -55,3 +55,13 @@ Beschreibung und Titelkarte werden separat bearbeitet. Die optionalen Felder `su
 ## Struktur der Kartendetailseiten
 
 Auf Wunsch sind Kartendetails wieder durch feine Linien gegliedert: Blutrot trennt den Regeltext vom Kartenkopf und markiert die aktuelle Edition; dunkle graubraune Linien teilen Zusatzkosten, Werte, Eigenschaften, Druckversionen und Errata. Am Desktop trennt eine senkrechte Linie die Editionsspalte, auf kleineren Geräten eine waagerechte Linie. Freie Ränder und gut lesbare Schriftgrößen bleiben bestehen.
+
+## Organischer Hintergrund
+
+Der Hintergrund besteht aus einer sehr dunklen, weinroten Pigmenttextur mit feiner Körnung und ineinander verlaufenden Schlieren. `dist/blood-background.mjs` erzeugt sie lokal mit WebGL, ohne Bilddownloads oder zusätzliche Bibliotheken. Suchleiste, Kartenbild sowie das aktuell berührte oder fokussierte Bedienelement verdichten die Textur an ihren Konturen. Der Mauszeiger verdrängt die Maserung leicht und hinterlässt eine kurz ausklingende Strömung.
+
+Auch sichtbare Karten, Überschriften und Textabsätze verdrängen die Maserung unabhängig vom Mauszeiger. Wenn Inhalte neu gerendert, Bilder geladen oder Absätze ins Sichtfeld gescrollt werden, läuft eine einzelne weiche Welle von ihren Konturen nach außen und klingt innerhalb von rund zwei Sekunden ab. Hinter Text wird die Textur leicht abgedunkelt. Verschwindende Inhalte geben ihre Verdrängung sanft frei. Bis zu 16 sichtbare Inhaltsflächen wirken gleichzeitig; die Anzahl passt sich an die WebGL-Grenzen des Geräts an. Die Lage der Elemente wird nur nach Änderungen am Layout neu gemessen.
+
+Die Textur liegt hinter allen Inhalten und nimmt keine Eingaben entgegen. Nach dem Abklingen endet die Animationsschleife; während einer Interaktion werden höchstens 30 Bilder pro Sekunde und rund 650.000 Pixel berechnet. In inaktiven Tabs pausiert die Darstellung. Touch-Eingaben lösen keine Cursoranimation aus, und bei `prefers-reduced-motion` bleibt die Textur still. Ohne WebGL oder JavaScript bleibt eine statische CSS-Textur sichtbar. Druck und erzwungene Systemfarben blenden die dekorativen Ebenen aus.
+
+Startsuche und Suchergebnisse wurden bei 390 Pixel Breite, Regeltexte bei 1280 Pixel Breite geprüft: kein seitlicher Überlauf, Text und Bedienelemente bleiben lesbar. Die bestehenden Inhalts-, Such-, Proxy- und Deckprüfungen bestehen.

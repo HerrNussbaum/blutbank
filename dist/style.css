@@ -4,11 +4,18 @@
   font-weight: 400 800;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Regensburg Grunged';
+  src: url('fonts/regensburg/RegensburgGrunged.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 :root {
   color-scheme: dark;
   --primary: #8B1F1F;
   --secondary: #780606;
-  --background: #111111;
+  --background: #151113;
   --text: #CCCCCC;
   --highlight: #D45D5B;
   --muted: #AAAAAA;
@@ -21,7 +28,19 @@
 }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: calc(var(--header-height) + 24px); }
-body { margin: 0; background: var(--background); color: var(--text); font: 20px/1.65 'EB Garamond', Garamond, serif; }
+body { margin: 0; min-height: 100vh; position: relative; isolation: isolate; background: var(--background); color: var(--text); font: 20px/1.65 'EB Garamond', Garamond, serif; }
+/* A quiet, static texture also works without JavaScript or graphics acceleration. */
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: -2; pointer-events: none;
+  background:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='180' height='180'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Cpath fill='%23fff' opacity='.035' filter='url(%23n)' d='M0 0h180v180H0z'/%3E%3C/svg%3E"),
+    radial-gradient(ellipse at 12% 30%, #39171d55, transparent 62%),
+    radial-gradient(ellipse at 85% 80%, #41182040, transparent 58%),
+    var(--background);
+}
+.blood-background { position: fixed; inset: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; }
+@media print { body::before, .blood-background { display: none !important; } }
+@media (forced-colors: active) { body::before, .blood-background { display: none; } }
 a { color: var(--highlight); text-decoration: none; }
 a:hover { text-decoration: underline; text-underline-offset: .2em; }
 button, input, select, textarea { font: inherit; }
@@ -43,10 +62,11 @@ p { margin: 0 0 22px; }
 
 /* A common outer margin keeps every page aligned and comfortably away from the edge. */
 header { min-height: var(--header-height); padding: 16px max(var(--gutter), calc((100% - var(--page-width))/2)); display: flex; align-items: center; justify-content: space-between; gap: 24px; background: linear-gradient(110deg, #780606 0%, #391515 48%, #111111 100%); position: sticky; top: 0; z-index: 20; }
-.brand { font-size: 32px; line-height: 1.2; font-weight: 600; letter-spacing: -.6px; color: var(--text); }
+.brand, #tabs a { font-family: 'Regensburg Grunged', 'EB Garamond', serif; font-weight: 400; font-synthesis: none; text-transform: uppercase; letter-spacing: .035em; }
+.brand { font-size: 42px; line-height: 1.2; color: var(--text); }
 .brand:hover { text-decoration: none; }
 header nav { display: flex; align-items: center; flex-wrap: wrap; gap: 12px 26px; }
-header nav a { font-size: 18px; color: var(--muted); white-space: nowrap; }
+header nav a { font-size: 26px; line-height: 1.3; color: var(--muted); white-space: nowrap; }
 header nav a.active { color: var(--highlight); }
 header nav a:hover { color: var(--text); text-decoration: none; }
 .languages { display: flex; gap: 10px; }
@@ -255,7 +275,7 @@ mark { background: var(--secondary); color: var(--text); }
 }
 @media(max-width:760px) {
   :root { --header-height: 148px; --gutter: 24px; }
-  body { font-size: 19px; }header { position: static; min-height: 0; padding-block: 20px; }header nav { gap: 10px 20px; }header nav a { font-size: 17px; }.brand { font-size: 30px; }
+  body { font-size: 19px; }header { position: static; min-height: 0; padding-block: 20px; }header nav { gap: 10px clamp(8px, 3vw, 20px); }header nav a { font-size: clamp(18px, 5.65vw, 22px); }.brand { font-size: 40px; }
   .workspace { display: block; }#sidebar { position: static; height: auto; padding: 20px 0 8px; }#sidebar .aside-label { display: none; }
   #content { padding: 28px 0 56px; }.menu-button { display: block; margin-top: 18px; padding: 0; background: none; border: 0; color: var(--highlight); font-size: 18px; }
   .chapters { display: none; max-height: 380px; overflow: auto; margin-top: 20px; }.chapters.open { display: flex; }

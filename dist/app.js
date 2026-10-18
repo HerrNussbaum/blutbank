@@ -1,8 +1,8 @@
 import {symbolText,aspText,cardFlow} from './card-symbols.mjs?v=2';
-import {mountDeckBuilder} from './deck-builder.mjs?v=2';
-import {mountAccount,mountShared} from './deck-online.mjs?v=2';
+import {mountDeckBuilder} from './deck-builder.mjs?v=3';
+import {mountAccount,mountShared} from './deck-online.mjs?v=3';
 import {CardSearch} from './card-search.mjs';
-import {mountProxy} from './proxy-printer.mjs?v=3';
+import {mountProxy} from './proxy-printer.mjs?v=4';
 const $=s=>document.querySelector(s);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let dataReady=false;
 let de=[],en=[],cards=[],terms=[],state={},cardFilters={},limit=48,searchTimer,cardReturn=null,pendingCardReturn=null,pendingArchiveRestore=null; const t=(a,b)=>state.lang==='en'?b:a;
@@ -167,7 +167,7 @@ function catalog(){
   cardFilters=readCardFilters();const restore=pendingArchiveRestore||history.state?.archive;pendingArchiveRestore=null;
   if(restore?.hash===location.hash)limit=restore.limit||48;
   const options=field=>[...new Set(cards.flatMap(c=>c.text?.[field]||[]))].sort((a,b)=>cardLabel(a).localeCompare(cardLabel(b),state.lang));
-  $('#content').innerHTML=`<div class="catalog-heading"><h1>${t('Karten','Cards')}</h1></div>
+  $('#content').innerHTML=`<div class="catalog-heading visually-hidden"><h1>${t('Karten','Cards')}</h1></div>
     <form class="catalog-search" id="quick-search"><label class="sr-only" for="card-search">${t('Karten durchsuchen','Search cards')}</label><input id="card-search" class="pill" value="${esc(cardFilters.q||'')}" placeholder="${t('Karten durchsuchen …','Search cards …')}" type="search"><button class="pill" type="submit">${t('Suchen','Search')}</button></form>
     <details class="advanced-filters" id="advanced-search" ${restore?.advanced?'open':''}><summary>${t('Erweiterte Suche','Advanced search')}<span id="active-filters"></span></summary>
     <form id="advanced-form">

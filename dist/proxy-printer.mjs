@@ -21,7 +21,7 @@ export function mountProxy(root,cards,lang){
  const t=(de,en)=>lang==='en'?en:de,groups=CardSearch.group(cards),byKey=new Map(groups.map(g=>[g.key,g]));
  let generation=0,frame;
  const resolve=name=>byKey.get(CardSearch.nameKey(name))||groups.find(g=>g.variants.some(c=>c.id===name||c.code&&c.code.toLowerCase()===name.toLowerCase()));
- root.innerHTML=`<h1>${t('Proxy-Drucker','Proxy printer')}</h1><p>${t('Eine Karte pro Zeile, mit Anzahl davor. Ohne Anzahl wird eine Kopie verwendet.','One card per line, preceded by its quantity. Without a quantity, one copy is used.')}</p>
+ root.innerHTML=`<h1 class="visually-hidden">${t('Proxy-Drucker','Proxy printer')}</h1><p>${t('Eine Karte pro Zeile, mit Anzahl davor. Ohne Anzahl wird eine Kopie verwendet.','One card per line, preceded by its quantity. Without a quantity, one copy is used.')}</p>
  <label for="proxy-list">${t('Kartenliste','Card list')}</label><textarea id="proxy-list" rows="7" placeholder="4 Zayas Ritual&#10;2x Amazon Rider&#10;The Lie">${esc(draft)}</textarea>
  <div class="proxy-actions"><button class="pill" id="proxy-resolve">${t('Liste übernehmen','Resolve list')}</button><span>${t('Bis zu 300 Karten · 9 pro A4-Seite','Up to 300 cards · 9 per A4 page')}</span></div>
  <div id="proxy-rows"></div><datalist id="proxy-names">${groups.map(g=>`<option value="${esc(g.name)}"></option>`).join('')}</datalist>

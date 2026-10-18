@@ -168,7 +168,7 @@ function initBloodBackground() {
   const contentUniform = new Float32Array(contentLimit * 4);
   const contentStateUniform = new Float32Array(contentLimit * 2);
   const content = document.querySelector('#content');
-  const contentTargets = '.card, .selected-card-image, .presentation-card, .deck-cover > img, .deck-list-cover, h1, h2, h3, p, .rule-copy > ul, .rule-copy > ol, .card-rules, .card-errata > div, .glossary-item > .rule-copy, .deck-entry, .deck-search-result';
+  const contentTargets = '.deck-list > article, .card, .selected-card-image, .presentation-card, .deck-cover > img, .deck-list-cover, h1, h2, h3, p, .rule-copy > ul, .rule-copy > ol, .card-rules, .card-errata > div, .glossary-item > .rule-copy, .deck-entry, .deck-search-result';
   const contentFields = new Map();
   let hovered = null, width = 1, height = 1, frame = 0, lastDraw = 0, lost = false, suspended = false;
   let geometryDirty = true, contentDirty = true;
@@ -192,6 +192,7 @@ function initBloodBackground() {
     if (contentDirty && content) {
       for (const element of content.querySelectorAll(contentTargets)) {
         if (element.closest('.visually-hidden, .sr-only, .card-hint')) continue;
+        if (element.closest('.deck-list > article') && !element.matches('.deck-list > article')) continue;
         if (!contentFields.has(element)) contentFields.set(element, {
           element, visible: false, strength: 0, enteredAt: now, rect: null,
         });
@@ -203,7 +204,10 @@ function initBloodBackground() {
       const rect = field.element.isConnected ? field.element.getBoundingClientRect() : null;
       const visible = !!rect && rect.width > 12 && rect.height > 8
         && rect.bottom > 0 && rect.top < height && rect.right > 0 && rect.left < width;
-      if (visible && !field.visible) field.enteredAt = now;
+      if (visible && !field.visible) {
+        const delay = field.element.matches('.deck-reveal') ? parseFloat(getComputedStyle(field.element).animationDelay) * 1000 : 0;
+        field.enteredAt = now + (Number.isFinite(delay) ? delay : 0);
+      }
       if (visible) field.rect = rect;
       field.visible = visible;
     }
@@ -213,9 +217,9 @@ function initBloodBackground() {
     let settling = false;
     const visibleFields = [];
     for (const [element, field] of contentFields) {
-      const target = field.visible ? 1 : 0;
+      const target = field.visible && (reducedMotion.matches || now >= field.enteredAt) ? 1 : 0;
       field.strength = reducedMotion.matches ? target : field.strength + (target - field.strength) * ease;
-      const age = reducedMotion.matches ? 1 : Math.min(1, (now - field.enteredAt) / 1900);
+      const age = reducedMotion.matches ? 1 : Math.max(0, Math.min(1, (now - field.enteredAt) / 1900));
       if (Math.abs(target - field.strength) > .002 || (field.visible && age < 1)) settling = true;
       if (field.rect && field.strength > .002) visibleFields.push({ ...field, age });
       if (!element.isConnected && field.strength < .002) contentFields.delete(element);

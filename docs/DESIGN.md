@@ -65,3 +65,32 @@ Auch sichtbare Karten, Überschriften und Textabsätze verdrängen die Maserung 
 Die Textur liegt hinter allen Inhalten und nimmt keine Eingaben entgegen. Nach dem Abklingen endet die Animationsschleife; während einer Interaktion werden höchstens 30 Bilder pro Sekunde und rund 650.000 Pixel berechnet. In inaktiven Tabs pausiert die Darstellung. Touch-Eingaben lösen keine Cursoranimation aus, und bei `prefers-reduced-motion` bleibt die Textur still. Ohne WebGL oder JavaScript bleibt eine statische CSS-Textur sichtbar. Druck und erzwungene Systemfarben blenden die dekorativen Ebenen aus.
 
 Startsuche und Suchergebnisse wurden bei 390 Pixel Breite, Regeltexte bei 1280 Pixel Breite geprüft: kein seitlicher Überlauf, Text und Bedienelemente bleiben lesbar. Die bestehenden Inhalts-, Such-, Proxy- und Deckprüfungen bestehen.
+
+## Deck workspace refinement (2026-10-18)
+
+The deck overview uses compact, transparent bordered rows with the Sovereign and Rune on the left. New deck, Trash and Account share the upper-right action area; JSON import is nested under New deck. The redundant Cards / My decks / Proxy printer page headings remain accessible to assistive technology but are visually hidden.
+
+Deck presentation defaults to images. Sovereign and Rune sit side by side; type groups share available horizontal space. A right action rail contains the deck actions and presentation controls. Editing places the compact deck list on the left and card search on the right. Printing/zone changes are in an accessible modal opened by each row's ellipsis; quantities, remove and undo remain directly available. Existing deck JSON and backend storage require no migration.
+
+Rows and presentation cards have a 360 ms reveal, staggered by 45 ms (capped after ten items). The procedural background measures deck rows as content fields and delays their pigment response to match. Reduced-motion settings disable reveals. No continuous background animation was added.
+
+### Sovereign ASP costs
+
+`dist/deck-costs.mjs` owns pure, testable cost calculations, independent of display. Profiles are explicitly restricted to reviewed Sovereign names (case-insensitive, so reprints share their profile). New/unreviewed Sovereigns and ambiguous/missing colors return unknown, never a guessed zero. The known OCR false-positive Sovereign type on Dark Infiltration is not admitted by the reviewed name list.
+
+The following printed color bars were visually checked against the official card images on 2026-10-18. Same-color and Equilibra cards have no color surcharge. A forbidden color is a separate state, not a numeric cost.
+
+| Sovereign color | +0 | +1 | +2 | Forbidden |
+|---|---|---|---|---|
+| White | Green, Blue | Brown, Purple | Red, Orange | Black |
+| Green | White, Blue | Brown, Purple | Red, Black | Orange |
+| Black | Red, Orange | Brown, Purple | Green, Blue | White |
+| Orange | Red, Black | Brown, Purple | White, Blue | Green |
+| Blue | Green, White | Brown, Purple | Orange, Black | Red |
+| Brown | Red, Green | Black, White | Orange, Blue | Purple |
+| Red | Black, Orange | Brown, Purple | Green, White | Blue |
+| Purple | Orange, Blue | Black, White | Red, Green | Brown |
+
+Reviewed cards: Sirunian, Valdar, KingLomeling, Elaria, Barabas, Vorathis, Kaela, Noctara, Airell, Rha'Velkor, Krador, Thordrin, Pyrana, Grak'Nar, Lysera and Miralyn. Source image URLs are retained in `dist/data/cards.json`; representative printings: d0859d36e880, 1e9ff377912d, 67996634c395, c91eb97c6ad2, 0a443f510b68, fe9281027597, bed8b1e3fa7a, d1bc65b0894a, ff32861ae7cd, 72001b9155f6, 11d860a357e4, 15835eb31d9b, 0e5d95642b43, f009cfe75b2b, 6ba73460db36, 64621f0c3cc4. Rules 2.2.3, 2.4 and 4.5 explain the color bar, deck restrictions and additional costs.
+
+The optional surcharge toggle affects sorting, displayed costs, the Spell-deck histogram and weighted average/range. It does not simulate other card effects or claim full legality validation. Unknown and forbidden costs sort after known costs and are counted separately; neither is included in the mean. Considering cards are excluded from statistics. Tests cover every reviewed identity, zero and missing costs, forbidden colors, ambiguous Sovereigns, quantity weighting and considering exclusion.

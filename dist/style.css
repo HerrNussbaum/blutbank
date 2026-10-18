@@ -561,3 +561,11 @@ body[data-view=shared] #content { max-width:none; }
 .deck-text-view .leader-zones .presentation-groups { columns:1; }
 .deck-text-view .leader-zones .presentation-groups h3 { display:none; }
 @media(max-width:760px){.deck-text-view .presentation-groups { columns:1; }}
+
+/* Presentation controls precede actions; the rail follows normal page scrolling. */
+.deck-control-rail { position:static; top:auto; max-height:none; overflow:visible; }
+.deck-control-rail .deck-view-controls { margin:0 0 24px; }
+.presentation-images .presentation-card { height:254px; grid-template-rows:188px 48px; }
+.presentation-text .deck-hover { display:none!important; }
+.deck-floating-preview { position:fixed; z-index:1000; object-fit:contain; pointer-events:none; border-radius:10px; box-shadow:0 12px 35px #000a; }
+.deck-floating-preview[hidden] { display:none; }

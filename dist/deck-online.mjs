@@ -1,4 +1,4 @@
-import {mountPresentation} from './deck-presentation.mjs?v=3';
+import {mountPresentation} from './deck-presentation.mjs?v=4';
 import {DeckStore,validateDeck,indexCards} from './deck-model.mjs?v=2';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let config,csrf;

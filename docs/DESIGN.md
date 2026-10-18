@@ -100,3 +100,9 @@ The optional surcharge toggle affects sorting, displayed costs, the Spell-deck h
 The editor omits its redundant Deck list heading and success-only validation notice, combines Sovereign and Rune under one heading, and hides every search filter in the same disclosure. Search results have no count. Actual copy-limit violations still highlight the affected quantities, and the presentation retains the full deck checks. Actions are directly visible; text/JSON export share a format selector and export button. Saving privately and sharing remain separate actions.
 
 Image tiles now use identical 148 × 310 px frames, including the caption area. Text presentation renders only quantity and name, with no frame, cost or rarity. Names stay on one line; unusually long names remain readable by scrolling within the group. Columns flow independently to avoid blank rows below shorter categories.
+
+### Presentation cleanup and hover repair (2026-10-18)
+
+Image tiles now show only card name and quantity, in uniform 148 × 254 px frames. View/group/sort controls precede actions. The action rail uses ordinary document flow with no sticky positioning, height limit or internal scrollbar. Description/summary/cover editing and rendering have been removed; a small rename dialog preserves deck naming. Legacy metadata remains import-compatible and is not destructively removed from saved decks.
+
+Text-card previews are rendered once under `document.body`, outside the horizontal overflow containers and multi-column layout. Their fixed bounds are clamped to the viewport. Pointer hover and keyboard focus use the same preview; Escape, scrolling, resizing, view changes and navigation dismiss it. Listener cleanup prevents stale previews between decks. The original inline preview is hidden in text presentation.

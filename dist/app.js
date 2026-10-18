@@ -1,6 +1,6 @@
 import {symbolText,aspText,cardFlow} from './card-symbols.mjs?v=2';
-import {mountDeckBuilder} from './deck-builder.mjs?v=4';
-import {mountAccount,mountShared} from './deck-online.mjs?v=4';
+import {mountDeckBuilder} from './deck-builder.mjs?v=5';
+import {mountAccount,mountShared} from './deck-online.mjs?v=5';
 import {CardSearch} from './card-search.mjs';
 import {mountProxy} from './proxy-printer.mjs?v=4';
 const $=s=>document.querySelector(s);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

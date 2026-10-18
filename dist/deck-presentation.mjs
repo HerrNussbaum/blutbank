@@ -24,6 +24,7 @@ export function mountPresentation(root,deck,index,lang){
  for(const [id,change] of [['deck-view',v=>view=v],['deck-group',v=>group=v],['deck-sort',v=>sort=v]])root.querySelector('#'+id).onchange=e=>{change(e.target.value);draw();};
  root.querySelector('#deck-adjusted').onchange=e=>{adjusted=e.target.checked;draw();};
  function draw(){
+  root.classList.toggle('deck-text-view',view==='text');
   let reveal=0;
   const renderZone=z=>{
    const entries=deck.entries.filter(e=>e.zone===z).map(e=>({...e,card:entryCard(e,index)}));if(!entries.length)return '';
@@ -31,7 +32,7 @@ export function mountPresentation(root,deck,index,lang){
    const groups=new Map();for(const e of entries){const d=e.card.text||{},key=group==='type'?(d.types||[]).map(x=>CardSearch.label(x,lang)).join(' / '):group==='rarity'?rarityLabel(e.card,lang):group==='color'?(d.colors||[]).map(x=>CardSearch.label(x,lang)).join(' / '):'';if(!groups.has(key))groups.set(key,[]);groups.get(key).push(e);}
    return `<section class="presented-zone"><h2>${zoneLabels[z][lang==='en'?1:0]} <small>${entries.reduce((n,e)=>n+e.quantity,0)}</small></h2><div class="presentation-groups ${view==='images'?'image-groups':''}">${[...groups].map(([key,items])=>`<section style="--group-size:${Math.min(items.length,5)}">${key?`<h3>${esc(key)}</h3>`:''}<div class="${view==='images'?'presentation-images':'presentation-text'}">${items.map(e=>{
     const cost=aspCost(e.card,profile,adjusted),label=cost.status==='known'?`{${cost.value}}`:cost.status==='forbidden'?t('Ausgeschlossen','Forbidden'):t('ASP unbekannt','Unknown ASP');
-    return `<a class="presentation-card deck-glass deck-reveal ${view==='text'?'deck-card-name':''}" style="--reveal-index:${Math.min(reveal++,10)}" href="#/${lang}/card/${e.card.id}">${view==='images'?`<img src="${esc(e.card.image)}" alt="${esc(e.card.name)}" loading="lazy">`:''}<span class="presentation-quantity">${e.quantity}×</span><span class="presentation-name">${esc(e.card.name)}</span><small>${esc(rarityLabel(e.card,lang))}</small>${Number.isFinite(cost.base)?`<span class="presentation-cost ${cost.status==='forbidden'?'cost-forbidden':''}" title="${cost.surcharge?esc(`{${cost.base}} + {${cost.surcharge}}`):''}">${label}</span>`:''}${view==='text'?`<img class="deck-hover" src="${esc(e.card.image)}" alt="" loading="lazy">`:''}</a>`;
+    return `<a class="presentation-card ${view==='images'?'deck-glass deck-reveal':'deck-card-name'}" style="--reveal-index:${Math.min(reveal++,10)}" href="#/${lang}/card/${e.card.id}">${view==='images'?`<img src="${esc(e.card.image)}" alt="${esc(e.card.name)}" loading="lazy">`:''}<span class="presentation-quantity">${e.quantity}×</span><span class="presentation-name" title="${esc(e.card.name)}">${esc(e.card.name)}</span>${view==='images'?`<small>${esc(rarityLabel(e.card,lang))}</small>`:''}${view==='images'&&Number.isFinite(cost.base)?`<span class="presentation-cost ${cost.status==='forbidden'?'cost-forbidden':''}" title="${cost.surcharge?esc(`{${cost.base}} + {${cost.surcharge}}`):''}">${label}</span>`:''}${view==='text'?`<img class="deck-hover" src="${esc(e.card.image)}" alt="" loading="lazy">`:''}</a>`;
    }).join('')}</div></section>`).join('')}</div></section>`;
   };
   const leaders=renderZone('sovereign')+renderZone('rune');

@@ -1,10 +1,10 @@
-import {symbolText,aspText,cardFlow} from './card-symbols.mjs?v=2';
-import {mountDeckBuilder} from './deck-builder.mjs?v=5';
-import {mountAccount,mountShared} from './deck-online.mjs?v=5';
+import {symbolText,aspText,cardFlow,symbolHTML,costHTML,statIcon,mechanicHTML} from './card-symbols.mjs?v=3';
+import {mountDeckBuilder} from './deck-builder.mjs?v=9';
+import {mountAccount,mountShared} from './deck-online.mjs?v=8';
 import {CardSearch} from './card-search.mjs';
-import {mountProxy} from './proxy-printer.mjs?v=4';
+import {mountProxy} from './proxy-printer.mjs?v=5';
 const $=s=>document.querySelector(s);const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let dataReady=false;
+let dataReady=false,homeCompact=false;
 let de=[],en=[],cards=[],terms=[],state={},cardFilters={},limit=48,searchTimer,cardReturn=null,pendingCardReturn=null,pendingArchiveRestore=null; const t=(a,b)=>state.lang==='en'?b:a;
 const url=(view,id='',lang=state.lang)=>{
  const query=location.hash.split('?')[1]||'';
@@ -52,7 +52,7 @@ function linkText(text, current = '') {
   const rx = new RegExp(`(?<![\\p{L}\\p{N}_])(${pattern || '(?!)'})(?![\\p{L}\\p{N}_])|\\b((?:[0-9]+\\.)+[0-9]+)\\b|\\b((?:Kapitel|chapter)\\s+([0-9]+)(?![.0-9]))\\b|\\b((?:Anhang|Appendix)\\s+(?:III|II|I))\\b`, 'giu');
   let out = '', last = 0;
   for (const m of text.matchAll(rx)) {
-    out += esc(text.slice(last, m.index));
+    out += symbolHTML(text.slice(last, m.index));
     const targetRule = m[2] || m[4];
     if (targetRule && de.some(s => s.id === targetRule)) {
       out += `<a href="${ruleId(targetRule)}">${esc(m[0])}</a>`;
@@ -65,7 +65,7 @@ function linkText(text, current = '') {
     } else out += esc(m[0]);
     last = m.index + m[0].length;
   }
-  return out + esc(text.slice(last));
+  return out + symbolHTML(text.slice(last));
 }
 
 // Lists retain their hierarchy and natural spacing independently of prose alignment.
@@ -120,9 +120,11 @@ function render(){
 function home(){
   if(!dataReady&&!state.id)state.id=$('#home-query')?.value||'';
   const restore=pendingArchiveRestore;pendingArchiveRestore=null;
-  $('#content').innerHTML=`<section class="home-search"><h1 class="visually-hidden">${t('Blutbank durchsuchen','Search Blutbank')}</h1><form id="home-search-form" role="search"><label class="visually-hidden" for="home-query">${t('Regeln, Begriffe und Karten durchsuchen','Search rules, terms and cards')}</label><input id="home-query" type="search" autocomplete="off"  value="${esc(state.id)}"><button aria-label="${t('Suchen','Search')}" type="submit"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></svg></button></form></section><div id="home-status" class="home-status" role="status" aria-live="polite"></div><section id="home-results" aria-label="${t('Suchergebnisse','Search results')}"></section>`;
+  if(state.id.trim())homeCompact=true;
+  $('#content').innerHTML=`<section class="home-search${homeCompact?' has-query':''}"><h1 class="visually-hidden">${t('Blutbank durchsuchen','Search Blutbank')}</h1><form id="home-search-form" role="search"><label class="visually-hidden" for="home-query">${t('Regeln, Begriffe und Karten durchsuchen','Search rules, terms and cards')}</label><input id="home-query" type="search" autocomplete="off"  value="${esc(state.id)}"><button aria-label="${t('Suchen','Search')}" type="submit"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="7.5"/><path d="m16 16 6 6"/></svg></button></form></section><div id="home-status" class="home-status" role="status" aria-live="polite"></div><section id="home-results" aria-label="${t('Suchergebnisse','Search results')}"></section>`;
   $('#home-query').addEventListener('input',e=>{
     const q=e.target.value;state.id=q;history.replaceState(null,'',url('home',q));
+    if(q.trim()){homeCompact=true;$('.home-search').classList.add('has-query');}
     document.querySelectorAll('#languages a').forEach(a=>a.href=url('home',q,a.lang));
     clearTimeout(searchTimer);searchTimer=setTimeout(homeResults,120);
   });
@@ -134,6 +136,8 @@ function home(){
 function homeResults(){
   if(state.view!=='home')return;
   const q=state.id.trim(),results=$('#home-results'),status=$('#home-status');
+  if(q)homeCompact=true;
+  $('.home-search').classList.toggle('has-query',homeCompact);
   if(!q){results.innerHTML='';status.textContent='';return;}
   if(!dataReady){status.textContent=t('Das Archiv wird geladen …','Loading the archive …');return;}
   const {rr,tt,cc}=findResults(q);
@@ -146,7 +150,17 @@ function homeResults(){
   bindCards();
 }
 function sidebar(){const menuWasOpen=$('.chapters')?.classList.contains('open');$('#sidebar').innerHTML=`<div class="searchbox"><input id="search" aria-label="${t('Archiv durchsuchen','Search archive')}" placeholder="${t('Regel, Begriff oder Karte …','Rule, term or card …')}" value="${state.view==='search'?esc(state.id):''}"></div><p class="search-hint">${t('Das gesamte Archiv durchsuchen','Search the entire archive')}</p><button class="menu-button" aria-expanded="false">${t('Kapitel anzeigen','Show chapters')}</button><div class="aside-label">${t('Kapitelübersicht','Chapters')}</div><nav class="chapters" aria-label="${t('Kapitel','Chapters')}">${source().filter(s=>!s.id.includes('.')).map(s=>`<a href="${ruleId(s.id)}" class="${state.view==='rules'&&state.id.split('.')[0]===s.id?'active':''}"><span>${s.id.padStart(2,'0')}</span>${esc(s.title)}</a>${state.view==='rules'&&state.id.split('.')[0]===s.id?`<div class="chapter-sections">${source().filter(part=>part.id.startsWith(s.id+'.')).map(part=>`<a href="${ruleId(part.id)}" class="${part.id===state.id?'selected':''}" ${part.id===state.id?'aria-current="location"':''} style="--depth:${part.id.split('.').length-2}"><span>${part.id}</span>${esc(part.title)}</a>`).join('')}</div>`:''}`).join('')}<a href="${url('glossary')}"><span>A–Z</span>${t('Begriffe & Keywords','Terms & keywords')}</a></nav>`;$('#search').addEventListener('keydown',e=>{if(e.key==='Enter'){location.hash=url('search',e.target.value.trim());}});$('#search').addEventListener('input',e=>{clearTimeout(searchTimer);const q=e.target.value;searchTimer=setTimeout(()=>{history.replaceState(null,'',url('search',q));state={...state,view:'search',id:q};document.body.dataset.view='search';document.body.classList.remove('catalog');$('#languages').innerHTML=['de','en'].map(l=>`<a href="${url('search',q,l)}" lang="${l}" aria-label="${l==='de'?'Deutsch':'English'}" class="${state.lang===l?'active':''}">${l.toUpperCase()}</a>`).join('');document.querySelectorAll('#tabs a').forEach(a=>a.classList.remove('active'));document.title=t('Suche','Search')+' · Blutbank';search();archiveFooter();},200)});$('.menu-button').onclick=e=>{const open=$('.chapters').classList.toggle('open');e.target.setAttribute('aria-expanded',open)};if(menuWasOpen){$('.chapters').classList.add('open');$('.menu-button').setAttribute('aria-expanded','true')}}
-function rules(){const chapter=state.id.split('.')[0];const current=source().find(s=>s.id===chapter);if(!current){$('#content').innerHTML=`<h1>${t('Regel nicht gefunden','Rule not found')}</h1><a href="${ruleId('1')}">${t('Zur Übersicht','Back to the rules')}</a>`;return}const list=source().filter(s=>s.id===chapter||s.id.startsWith(chapter+'.'));$('#content').innerHTML=`<div class="eyebrow">${t('Kapitel','Chapter')} ${chapter}</div><h1>${esc(current.title)}</h1>${list.map((s,i)=>!i&&!s.body?'':`<section class="rule" id="rule-${s.id}">${i?`<div class="rule-head"><a class="rule-number" href="${ruleId(s.id)}">${s.id}</a><h2>${esc(s.title)}</h2></div>`:''}${s.body?`<div class="rule-copy">${renderBody(s.body)}</div>`:''}${s.body?`<div class="rule-actions"><button data-copy="${ruleId(s.id)}">${t('Abschnitt verlinken','Copy section link')}</button><a href="TournamentRulebook_de.pdf#page=${de.find(x=>x.id===s.id)?.page||1}" target="_blank" rel="noopener">${t('Im Original lesen','Read the original')}</a></div>`:''}</section>`).join('')}<div class="page-links">${+chapter>1?`<a href="${ruleId(String(+chapter-1))}">${t('Vorheriges Kapitel','Previous chapter')}</a>`:'<span></span>'}${+chapter<15?`<a href="${ruleId(String(+chapter+1))}">${t('Nächstes Kapitel','Next chapter')}</a>`:''}</div>`;document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=async()=>{const link=location.href.split('#')[0]+b.dataset.copy;try{await navigator.clipboard.writeText(link);toast(t('Link kopiert','Link copied'))}catch{prompt(t('Link zum Abschnitt','Section link'),link)}})}
+function rules(){
+  const chapter=state.id.split('.')[0],current=source().find(s=>s.id===chapter);
+  if(!current){$('#content').innerHTML=`<h1>${t('Regel nicht gefunden','Rule not found')}</h1><a href="${ruleId('1')}">${t('Zur Übersicht','Back to the rules')}</a>`;return;}
+  const list=source().filter(s=>s.id===chapter||s.id.startsWith(chapter+'.'));
+  $('#content').innerHTML=`<div class="eyebrow">${t('Kapitel','Chapter')} ${chapter}</div><h1>${esc(current.title)}</h1>${list.map((s,i)=>!i&&!s.body?'':`<section class="rule" id="rule-${s.id}">
+    <div class="rule-head"><a class="rule-number" href="${ruleId(s.id)}">${s.id}</a>${i?`<h2>${esc(s.title)}</h2>`:''}
+    <details class="action-menu rule-menu"><summary aria-label="${t('Aktionen für Abschnitt','Actions for section')} ${s.id}" title="${t('Abschnittsaktionen','Section actions')}">⋯</summary><div class="menu-items"><button data-copy="${ruleId(s.id)}">${t('Link kopieren','Copy link')}</button><a href="TournamentRulebook_de.pdf#page=${de.find(x=>x.id===s.id)?.page||1}" target="_blank" rel="noopener">${t('Im Original lesen','Read the original')}</a></div></details></div>
+    ${s.body?`<div class="rule-copy">${renderBody(s.body)}</div>`:''}</section>`).join('')}
+    <div class="page-links">${+chapter>1?`<a href="${ruleId(String(+chapter-1))}">${t('Vorheriges Kapitel','Previous chapter')}</a>`:'<span></span>'}${+chapter<15?`<a href="${ruleId(String(+chapter+1))}">${t('Nächstes Kapitel','Next chapter')}</a>`:''}</div>`;
+  document.querySelectorAll('[data-copy]').forEach(b=>b.onclick=()=>copyText(location.href.split('#')[0]+b.dataset.copy,t('Link kopiert','Link copied')));
+}
 function toast(msg){$('#toast').textContent=msg;$('#toast').style.display='block';setTimeout(()=>$('#toast').style.display='none',2000)}
 function findResults(q){const norm=s=>s.toLocaleLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'');const match=s=>norm(s).includes(norm(q));const rr=q?source().filter(s=>match(s.id+' '+s.title+' '+s.body)):[];rr.sort((a,b)=>(norm(b.id)===norm(q)?100:match(b.title)?10:0)-(norm(a.id)===norm(q)?100:match(a.title)?10:0));const tt=q?terms.filter(x=>match(x.de+' '+x.en+' '+x.aliases.join(' ')+' '+x[state.lang+'Text'])):[];tt.sort((a,b)=>(norm(b[state.lang])===norm(q)?100:match(b[state.lang])?10:0)-(norm(a[state.lang])===norm(q)?100:match(a[state.lang])?10:0));const cc=q?CardSearch.group(cards,{q}):[];return {rr,tt,cc};}
 function search(){
@@ -155,7 +169,7 @@ function search(){
 }
 function cardHTML(group){
   const c=group.card||group,d=c.text||{},hint=`${c.id}-hint`;
-  return `<a class="card" href="${url('card',c.id)}" data-card="${c.id}" aria-label="${esc(c.name)}" aria-describedby="${hint}"><img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" decoding="async" width="750" height="1047"><span class="card-hint" id="${hint}" role="tooltip"><strong>${esc(c.name)} ${aspText(d.stats?.asp)}</strong>${d.typeLine?`<span>${esc(d.typeLine)}</span>`:''}${d.rulesText?`<span class="hint-rules">${esc(cardFlow(d.rulesText))}</span>`:''}<small>${esc(c.set)}${group.variants?.length>1?` · ${group.variants.length} ${t('Versionen','versions')}`:''}</small></span></a>`;
+  return `<a class="card" href="${url('card',c.id)}" data-card="${c.id}" aria-label="${esc(c.name)}" aria-describedby="${hint}"><img src="${esc(c.image)}" alt="${esc(c.name)}" loading="lazy" decoding="async" width="750" height="1047"><span class="card-hint" id="${hint}" role="tooltip"><strong>${esc(c.name)} ${costHTML(d.stats?.asp)}</strong>${d.typeLine?`<span>${esc(d.typeLine)}</span>`:''}${d.rulesText?`<span class="hint-rules">${symbolHTML(cardFlow(d.rulesText))}</span>`:''}<small>${esc(c.set)}${group.variants?.length>1?` · ${group.variants.length} ${t('Versionen','versions')}`:''}</small></span></a>`;
 }
 const statLabels={asp:['ASP-Kosten','ASP cost'],level:['Level','Level'],pow:['Stärke (POW)','Power (POW)'],hp:['Trefferpunkte (HP)','Health (HP)'],res:['Resistenz (RES)','Resistance (RES)'],ini:['Initiative (INI)','Initiative (INI)'],magic:['Magiewert','Magic value'],lp:['Lebenspunkte (LP)','Life (LP)']};
 const cardLabel=value=>CardSearch.label(value,state.lang);
@@ -174,13 +188,14 @@ function catalog(){
       <div class="advanced-row"><h2>${t('Name & Text','Name & text')}</h2><div class="advanced-fields">${filterInput('name',t('Kartenname','Card name'))}${filterInput('text',t('Kartentext','Rules text'),t('z. B. Flying oder {T}','e.g. Flying or {T}'))}<p class="filter-help">${t('Wörter werden kombiniert, Anführungszeichen suchen eine Wortgruppe.','Words are combined; quotation marks match a phrase.')}</p></div></div>
       <div class="advanced-row"><h2>${t('Farben','Colors')}</h2><div class="advanced-fields">${filterChoices('colors',t('Kartenfarben','Card colors'),options('colors'))}<label>${t('Farbvergleich','Color comparison')}<select class="pill" data-filter="colorMode">${[['include',t('Enthält diese Farben','Including these colors')],['exact',t('Genau diese Farben','Exactly these colors')],['atmost',t('Höchstens diese Farben','At most these colors')]].map(([v,l])=>`<option value="${v}" ${cardFilters.colorMode===v?'selected':''}>${l}</option>`).join('')}</select></label><p class="filter-help">${t('„Enthält“ erlaubt weitere Farben. „Höchstens“ erlaubt Teilmengen der ausgewählten Farben.','“Including” allows additional colors. “At most” allows subsets of your selected colors.')}</p></div></div>
       <div class="advanced-row"><h2>${t('Typ & Fähigkeiten','Type & abilities')}</h2><div class="advanced-fields filter-columns">${filterSelect('type',t('Kartentyp ist','Card type is'),options('types'))}${filterSelect('excludeType',t('Kartentyp ist nicht','Card type is not'),options('types'))}${filterSelect('subtype',t('Untertyp','Subtype'),options('subtypes'))}${filterSelect('trait',t('Zusatz','Trait'),options('traits'))}${filterSelect('keyword',t('Begriff im Kartentext','Term in card text'),options('keywords'))}${filterSelect('mechanic',t('Mechanik','Mechanic'),['pool','binding','rise'])}</div></div>
-      <div class="advanced-row"><h2>${t('Werte','Stats')}</h2><div class="advanced-fields filter-columns">${CardSearch.numeric.map(k=>`<fieldset class="stat-filter"><legend>${t(...statLabels[k])}</legend><select class="pill" data-filter="${k}Op" aria-label="${t(...statLabels[k])} ${t('Vergleich','comparison')}">${['=','<=','>=','<','>','!='].map(op=>`<option value="${esc(op)}" ${cardFilters[k+'Op']===op?'selected':''}>${esc(op)}</option>`).join('')}</select><input class="pill" type="number" min="0" step="1" data-filter="${k}Value" value="${esc(cardFilters[k+'Value']||'')}" aria-label="${t(...statLabels[k])} ${t('Wert','value')}"></fieldset>`).join('')}<p class="filter-help">${t('Nur erfasste Zahlenwerte werden verglichen. Weitere Grenzen sind in der Suchleiste möglich: asp>=2 asp<=4.','Only recorded numeric values are compared. Add more bounds in the search bar: asp>=2 asp<=4.')}</p></div></div>
+      <div class="advanced-row"><h2>${t('Werte','Stats')}</h2><div class="advanced-fields filter-columns">${CardSearch.numeric.map(k=>`<fieldset class="stat-filter"><legend>${statIcon(k)}${t(...statLabels[k])}</legend><select class="pill" data-filter="${k}Op" aria-label="${t(...statLabels[k])} ${t('Vergleich','comparison')}">${['=','<=','>=','<','>','!='].map(op=>`<option value="${esc(op)}" ${cardFilters[k+'Op']===op?'selected':''}>${esc(op)}</option>`).join('')}</select><input class="pill" type="number" min="0" step="1" data-filter="${k}Value" value="${esc(cardFilters[k+'Value']||'')}" aria-label="${t(...statLabels[k])} ${t('Wert','value')}"></fieldset>`).join('')}<p class="filter-help">${t('Nur erfasste Zahlenwerte werden verglichen. Weitere Grenzen sind in der Suchleiste möglich: asp>=2 asp<=4.','Only recorded numeric values are compared. Add more bounds in the search bar: asp>=2 asp<=4.')}</p></div></div>
       <div class="advanced-row"><h2>${t('Edition & Druck','Set & printing')}</h2><div class="advanced-fields filter-columns">${filterSelect('set',t('Edition','Set'),[...new Set(cards.map(c=>c.set))])}${filterSelect('group',t('Spoiler-Gruppe','Spoiler group'),[...new Set(cards.map(c=>c.group))])}${filterSelect('language',t('Kartensprache','Card language'),options('language'))}${filterInput('artist',t('Künstler','Artist'))}${filterChoices('rarities',t('Seltenheit','Rarity'),[...new Set(cards.map(c=>c.text?.rarity).filter(Boolean))])}</div></div>
       <div class="advanced-row"><h2>${t('Weitere Optionen','More options')}</h2><div class="advanced-fields filter-columns">${filterSelect('unknown',t('Ohne erfassten Wert für','Without a recorded value for'),CardSearch.numeric)}<label>${t('Sortierung','Sort by')}<select class="pill" data-filter="sort">${[['name',t('Name','Name')],['asp',t('ASP-Kosten','ASP cost')],['level','Level'],['set',t('Edition','Set')]].map(([v,l])=>`<option value="${v}" ${cardFilters.sort===v?'selected':''}>${l}</option>`).join('')}</select></label>${filterInput('flavor',t('Flavourtext','Flavor text'))}</div></div>
       <div class="advanced-actions"><button class="pill" type="submit">${t('Mit diesen Optionen suchen','Search with these options')}</button><button class="text-button" id="reset-cards" type="button">${t('Alles zurücksetzen','Reset all')}</button></div>
     </form></details>
     <div class="catalog-results-heading"><p class="count" id="card-count" aria-live="polite"></p><button class="text-button" id="clear-filters" hidden>${t('Filter zurücksetzen','Clear filters')}</button></div><div class="card-grid" id="cards"></div><button class="pill more" id="more">${t('Weitere Karten laden','Load more cards')}</button>
     <details class="source-box"><summary>${t('Quellen & Textdaten','Sources & text data')}</summary><p>${t('Textfassungen sind teilweise maschinell erfasst. Maßgeblich sind Kartenbild und offizielle Errata.','Some text versions are machine-transcribed. Refer to the card image and official errata.')}</p><a href="data/card-texts.json" download>${t('Textdaten als JSON','Download text data (JSON)')}</a><a href="data/card-texts.csv" download>${t('Textdaten als CSV','Download text data (CSV)')}</a><p>© Bluthelden · <a href="https://bluthelden.com/pages/kartenspoiler" target="_blank" rel="noopener">Origin</a> · <a href="https://bluthelden.com/pages/2nd-edition-alliances" target="_blank" rel="noopener">Alliances</a></p></details>`;
+  organizeCardFilters();
   const quick=()=>{const q=$('#card-search').value.trim();if(q)cardFilters.q=q;else delete cardFilters.q;limit=48;saveCardFilters();fillCards()};
   $('#card-search').oninput=quick;$('#quick-search').onsubmit=e=>{e.preventDefault();quick()};
   $('#advanced-form').onsubmit=e=>{e.preventDefault();const legacy=Object.fromEntries(Object.entries(cardFilters).filter(([k])=>k==='q'||/Min$|Max$/.test(k)));cardFilters=legacy;
@@ -188,11 +203,47 @@ function catalog(){
     for(const key of ['colors','rarities']){const values=[...document.querySelectorAll(`[data-multi="${key}"]:checked`)].map(i=>i.value);if(values.length)cardFilters[key]=values.join(',')}
     for(const k of CardSearch.numeric)if(!cardFilters[k+'Value'])delete cardFilters[k+'Op'];
     if(!cardFilters.colors)delete cardFilters.colorMode;if(cardFilters.sort==='name')delete cardFilters.sort;
-    limit=48;saveCardFilters();fillCards();$('#advanced-search').open=false;$('#advanced-search summary').focus();
+    limit=48;saveCardFilters();fillCards();$('#advanced-search').open=false;$('#filter-toggle').focus();
   };
-  const reset=()=>{cardFilters={};saveCardFilters();catalog()};$('#reset-cards').onclick=reset;$('#clear-filters').onclick=reset;
+  const reset=()=>{cardFilters={};saveCardFilters();catalog()};$('#reset-cards').onclick=reset;$('#clear-filters').onclick=()=>{cardFilters=Object.fromEntries(Object.entries(cardFilters).filter(([key])=>['q','sort'].includes(key)));saveCardFilters();catalog();$('#filter-toggle').focus();};
   $('#more').onclick=()=>{limit+=48;fillCards()};fillCards();
   if(restore?.hash===location.hash)requestAnimationFrame(()=>{document.querySelector(`[data-card="${CSS.escape(restore.focus||'')}"]`)?.focus({preventScroll:true});window.scrollTo({top:restore.scroll||0,behavior:'instant'})});
+}
+function organizeCardFilters(){
+  const form=$('#advanced-form'),panel=$('#advanced-search'),toolbar=$('.catalog-results-heading');
+  toolbar.classList.add('catalog-toolbar');panel.before(toolbar);
+  const sort=form.querySelector('[data-filter="sort"]'),sortLabel=sort.closest('label');sort.id='catalog-sort';
+  toolbar.append(sortLabel);sortLabel.className='catalog-sort';
+  sort.onchange=()=>{if(sort.value==='name')delete cardFilters.sort;else cardFilters.sort=sort.value;limit=48;saveCardFilters();fillCards();};
+  const toggle=document.createElement('button');toggle.id='filter-toggle';toggle.className='pill filter-toggle';toggle.type='button';
+  toggle.setAttribute('aria-controls','advanced-search');toggle.setAttribute('aria-expanded',String(panel.open));
+  toggle.innerHTML=`${t('Filter','Filters')}<span id="active-filters"></span>`;
+  panel.querySelector('summary').replaceChildren();panel.querySelector('summary').hidden=true;
+  toggle.onclick=()=>panel.open=!panel.open;
+  panel.ontoggle=()=>toggle.setAttribute('aria-expanded',String(panel.open));
+  toolbar.insertBefore(toggle,$('#clear-filters'));toolbar.insertBefore(sortLabel,toggle);
+  form.onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();panel.open=false;toggle.focus();}};
+  const rows=[...form.querySelectorAll('.advanced-row')],actions=form.querySelector('.advanced-actions');
+  const groups=[{name:t('Grundfilter','Basic filters'),rows:rows.slice(0,3),open:true},{name:t('Werte','Stats'),rows:rows.slice(3,4)},{name:t('Druckversion & Weitere','Printing & more'),rows:rows.slice(4)}];
+  groups.forEach(group=>{
+    const section=document.createElement('details');section.className='filter-group';
+    section.open=!!group.open||group.rows.some(row=>[...row.querySelectorAll('input,select')].some(input=>input.type==='checkbox'?input.checked:!!input.value&&!input.dataset.filter?.endsWith('Op')&&input.dataset.filter!=='colorMode'));
+    const heading=document.createElement('summary');heading.textContent=group.name;section.append(heading,...group.rows);form.insertBefore(section,actions);
+  });
+  const chips=document.createElement('div');chips.id='filter-chips';chips.className='filter-chips';chips.setAttribute('aria-label',t('Aktive Filter','Active filters'));panel.before(chips);
+}
+function renderFilterChips(){
+  const labels={name:t('Name','Name'),text:t('Text','Text'),colors:t('Farbe','Color'),rarities:t('Seltenheit','Rarity'),type:t('Typ','Type'),excludeType:t('Ohne Typ','Exclude type'),subtype:t('Untertyp','Subtype'),trait:t('Zusatz','Trait'),keyword:t('Fähigkeit','Ability'),mechanic:t('Mechanik','Mechanic'),set:t('Edition','Set'),group:t('Gruppe','Group'),language:t('Sprache','Language'),artist:t('Illustration','Artist'),flavor:t('Flavourtext','Flavor text'),unknown:t('Unbekannter Wert','Unknown stat')};
+  const entries=Object.entries(cardFilters).filter(([key])=>!['q','sort','colorMode'].includes(key)&&!key.endsWith('Op'));
+  $('#filter-chips').innerHTML=entries.map(([key,value])=>{
+    const stat=/^(\w+)(Value|Min|Max)$/.exec(key),label=stat&&statLabels[stat[1]]?`${t(...statLabels[stat[1]])} ${stat[2]==='Value'?(cardFilters[stat[1]+'Op']||'='):stat[2]==='Min'?'≥':'≤'} ${value}`:`${labels[key]||key}: ${value.split(',').map(cardLabel).join(', ')}`;
+    return `<button type="button" class="filter-chip" data-clear-filter="${esc(key)}" title="${esc(label)}" aria-label="${esc(label)} · ${t('entfernen','remove')}">${esc(label)} <span aria-hidden="true">×</span></button>`;
+  }).join('');
+  $('#filter-chips').hidden=!entries.length;
+  document.querySelectorAll('[data-clear-filter]').forEach(button=>button.onclick=()=>{
+    const key=button.dataset.clearFilter;delete cardFilters[key];if(key.endsWith('Value'))delete cardFilters[key.replace(/Value$/,'Op')];if(key==='colors')delete cardFilters.colorMode;
+    saveCardFilters();catalog();$('#filter-toggle').focus();
+  });
 }
 function saveCardFilters(){
   const query=new URLSearchParams(cardFilters).toString();history.replaceState(null,'',`#/${state.lang}/cards`+(query?'?'+query:''));state.id='';
@@ -204,10 +255,11 @@ function fillCards(){
   $('#cards').innerHTML=items.length?items.slice(0,limit).map(cardHTML).join(''):`<p class="empty">${t('Keine passenden Karten. Entferne einen Filter oder ändere die Suche.','No matching cards. Remove a filter or change your search.')}</p>`;
   $('#card-count').textContent=`${items.length} ${t('Karten','cards')} · ${Math.min(limit,items.length)} ${t('angezeigt','shown')}`;
   const active=Object.keys(cardFilters).filter(k=>!['q','sort','colorMode'].includes(k)&&!k.endsWith('Op')).length;
-  $('#active-filters').textContent=active?` · ${active} ${t('aktive Filter','active filters')}`:'';$('#clear-filters').hidden=!Object.keys(cardFilters).length;
+  $('#active-filters').textContent=active?` · ${active}`:'';$('#clear-filters').hidden=!active;
+  renderFilterChips();
   $('#more').hidden=items.length<=limit;bindCards();
 }
-function bindCards(){document.querySelectorAll('[data-card]').forEach(b=>b.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();openCard(cards.find(c=>c.id===b.dataset.card))});document.querySelectorAll('.card img').forEach(im=>im.onerror=()=>{im.alt=t('Bild nicht verfügbar: ','Image unavailable: ')+im.alt;im.style.objectFit='contain'})}
+function bindCards(){document.querySelectorAll('[data-card]').forEach(b=>b.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();openCard(cards.find(c=>c.id===b.dataset.card))});document.querySelectorAll('.card > img').forEach(im=>im.onerror=()=>{im.alt=t('Bild nicht verfügbar: ','Image unavailable: ')+im.alt;im.style.objectFit='contain'})}
 function openCard(c){
   pendingCardReturn={hash:location.hash,limit,scroll:window.scrollY,focus:c.id,advanced:$('#advanced-search')?.open||false};
   history.replaceState({...history.state,archive:pendingCardReturn},'',location.href);location.hash=url('card',c.id);
@@ -219,17 +271,17 @@ function cardPage(){
   document.title=`${c.name} · ${c.set} · Blutbank`;
   const d=c.text||{},variants=cards.filter(x=>CardSearch.nameKey(x.name)===CardSearch.nameKey(c.name));
   const stats=CardSearch.numeric.filter(k=>k!=='asp'&&d.stats?.[k]!=null);
-  const properties=[[t('Farbe','Color'),(d.colors||[]).map(cardLabel).join(', ')],[t('Typen','Types'),(d.types||[]).filter(v=>!d.typeLine?.includes(v)).map(cardLabel).join(', ')],[t('Untertypen','Subtypes'),(d.subtypes||[]).filter(v=>!d.typeLine?.includes(v)).join(', ')],[t('Zusätze','Traits'),(d.traits||[]).filter(v=>!d.typeLine?.includes(v)).join(', ')],[t('Mechaniken','Mechanics'),Object.entries(d.mechanics||{}).filter(([,v])=>v===true).map(([k])=>k[0].toUpperCase()+k.slice(1)).join(', ')]];
+  const properties=[[t('Farbe','Color'),(d.colors||[]).map(cardLabel).join(', ')],[t('Typen','Types'),(d.types||[]).filter(v=>!d.typeLine?.includes(v)).map(cardLabel).join(', ')],[t('Untertypen','Subtypes'),(d.subtypes||[]).filter(v=>!d.typeLine?.includes(v)).join(', ')],[t('Zusätze','Traits'),(d.traits||[]).filter(v=>!d.typeLine?.includes(v)).join(', ')],[t('Mechaniken','Mechanics'),Object.entries(d.mechanics||{}).filter(([,v])=>v===true).map(([k])=>mechanicHTML(k)).join(', '),true]];
   $('#content').innerHTML=`<div class="card-page-toolbar"><a href="${url('cards')}">${t('Karten','Cards')}</a><button class="close" id="close-card" aria-label="${t('Schließen und zur Suche zurückkehren','Close and return to search')}" title="${t('Zurück zur Suche (Esc)','Return to search (Esc)')}">×</button></div>
     <article class="card-page ${c.notes?'has-notes':''}" aria-label="${esc(c.name)}">
-      <div class="card-page-art"><img class="selected-card-image" src="${esc(c.original.replace('width=3200','width=1250'))}" alt="${esc(c.name)}" width="750" height="1047"><div class="card-page-tools"><button class="text-button" id="copy-card-text">${t('Text kopieren','Copy text')}</button><button class="text-button" id="copy-card-link">${t('Link kopieren','Copy link')}</button><a href="${esc(c.source)}" target="_blank" rel="noopener">${t('Offizieller Spoiler','Official spoiler')} ↗</a></div></div>
-      <div class="card-page-text"><div class="card-title-line"><h1>${esc(c.name)}</h1>${d.stats?.asp!=null?`<span class="asp-cost" title="${t('ASP-Kosten','ASP cost')}">${aspText(d.stats.asp)}</span>`:''}</div>
+      <div class="card-page-art"><img class="selected-card-image" src="${esc(c.original.replace('width=3200','width=1250'))}" alt="${esc(c.name)}" width="750" height="1047"><div class="card-page-tools"><details class="action-menu"><summary>${t('Kopieren','Copy')} <span aria-hidden="true">⌄</span></summary><div class="menu-items"><button id="copy-card-text">${t('Kartentext kopieren','Copy card text')}</button><button id="copy-card-link">${t('Link kopieren','Copy link')}</button></div></details><a href="${esc(c.source)}" target="_blank" rel="noopener">${t('Offizieller Spoiler','Official spoiler')} ↗</a></div></div>
+      <div class="card-page-text"><div class="card-title-line"><h1>${esc(c.name)}</h1>${d.stats?.asp!=null?`<span class="asp-cost" title="${t('ASP-Kosten','ASP cost')}">${costHTML(d.stats.asp)}</span>`:''}</div>
         ${d.typeLine?`<p class="card-type-line">${esc(d.typeLine)}</p>`:''}
         ${d.rulesText?.trim()?`<div class="card-rules">${linkText(cardFlow(d.rulesText))}</div>`:''}
         ${d.additionalCostsText?`<section class="card-extra"><h2>${t('Zusatzkosten','Additional costs')}</h2><div class="card-rules">${linkText(cardFlow(d.additionalCostsText))}</div></section>`:''}
         ${d.flavorText?`<p class="card-flavor">${esc(symbolText(d.flavorText))}</p>`:''}
-        ${stats.length?`<dl class="card-stats">${stats.map(k=>`<div><dt>${t(...statLabels[k])}</dt><dd>${esc(d.stats[k])}</dd></div>`).join('')}</dl>`:''}
-        <dl class="card-facts">${properties.filter(([,v])=>v).map(([k,v])=>`<div><dt>${k}</dt><dd>${esc(v)}</dd></div>`).join('')}</dl>
+        ${stats.length?`<dl class="card-stats">${stats.map(k=>`<div><dt>${statIcon(k,d.stats[k])}${t(...statLabels[k])}</dt><dd>${esc(d.stats[k])}</dd></div>`).join('')}</dl>`:''}
+        <dl class="card-facts">${properties.filter(([,v])=>v).map(([k,v,html])=>`<div><dt>${k}</dt><dd>${html?v:esc(v)}</dd></div>`).join('')}</dl>
         ${d.artist?`<p class="card-artist">${t('Illustration','Illustration')}: ${esc(d.artist)}</p>`:''}
       </div>
       <aside class="card-printings"><div class="printing-current"><strong>${esc(c.set)}</strong><span>${[c.code,d.collectorNumber?'#'+d.collectorNumber:'',d.rarity?cardLabel(d.rarity):'',d.language?.toUpperCase(),c.variant].filter(Boolean).map(esc).join(' · ')}</span></div>
@@ -268,12 +320,20 @@ function glossary() {
     $('#content').innerHTML+=`<h2>${t('Erwähnt in','Mentioned in')}</h2><div class="backlinks">${refs.map(s=>`<a href="${ruleId(s.id)}">${s.id} · ${esc(s.title)}</a>`).join('')||t('Keine weiteren Verweise.','No additional references.')}</div>`;
   }
 }
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&state.view==='card'){e.preventDefault();closeCard()}});
+document.addEventListener('keydown',e=>{
+  if(e.key!=='Escape')return;
+  const menu=document.querySelector('.action-menu[open]');
+  if(menu){e.preventDefault();menu.open=false;menu.querySelector('summary').focus();return;}
+  if(!e.defaultPrevented&&state.view==='card'){e.preventDefault();closeCard();}
+});
 document.addEventListener('click',e=>{
  const a=e.target.closest('a[href]');if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey||!a||a.hasAttribute('data-card')||!/^#\/(de|en)\/card\//.test(a.getAttribute('href')))return;
  if(['decks','shared'].includes(state.view)){pendingCardReturn={hash:location.hash,scroll:window.scrollY};}
 });
 // UI initialization
+document.addEventListener('pointerdown',event=>document.querySelectorAll('.action-menu[open]').forEach(menu=>{if(!menu.contains(event.target))menu.open=false;}));
+document.addEventListener('click',event=>{const item=event.target.closest('.menu-items button,.menu-items a');if(item)item.closest('.action-menu').open=false;});
+document.addEventListener('toggle',event=>{if(event.target.matches('.action-menu[open]'))document.querySelectorAll('.action-menu[open]').forEach(menu=>{if(menu!==event.target)menu.open=false;});},true);
 function decorateSearch(){
  document.querySelectorAll('input[type="search"], #search, #deck-search, input[data-filter="name"], input[data-filter="text"], input[data-filter="artist"], input[data-filter="flavor"]').forEach(input=>{
   if(input.closest('.search-field, #home-search-form'))return;

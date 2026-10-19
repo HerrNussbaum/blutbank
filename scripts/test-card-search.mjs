@@ -77,3 +77,16 @@ for(const c of cards)assert(!/\[Turn\]|\b\d+ ASP\b/.test(c.text.rulesText),'Buil
 console.log('Advanced filters, symbol notation, literal turn text and zero/missing stats passed.');
 const {cardFlow}=await import('../dist/card-symbols.mjs');
 assert.equal(cardFlow('Draw a\ncard.\n[Turn]: Generate\n2 ASP.\n\nAnother ability.'),'Draw a card.\n{T}: Generate {2}.\n\nAnother ability.');
+
+const {symbolHTML,costHTML,statIcon,mechanicHTML}=await import('../dist/card-symbols.mjs');
+assert(symbolHTML('<script>{T} & {0}</script>').startsWith('&lt;script&gt;'));
+assert(symbolHTML('{T} {0} {X}').includes('turn-weiss.webp'));
+assert(symbolHTML('{T} {0} {X}').includes('asp-faehigkeit-weiss-0.webp'));
+assert.equal(costHTML(12),'{12}');
+assert.equal(costHTML(null),'');
+assert(costHTML(0).includes('alt="{0}"'));
+assert.equal(statIcon('level',3),'');
+for (const html of [symbolHTML('{T} {0} {X}'),costHTML(4),statIcon('hp'),statIcon('level',2),mechanicHTML('binding')]) {
+ for(const [,path] of html.matchAll(/src="([^"]+)"/g)) assert(readFileSync(new URL('../dist/'+path,import.meta.url)).length>0);
+}
+console.log('Accessible symbol rendering, HTML escaping, asset paths and unsupported-cost fallback passed.');

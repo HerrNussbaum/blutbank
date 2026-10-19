@@ -1,3 +1,4 @@
+import {bindCardPreview} from './card-hover-preview.mjs';
 import {symbolText,aspText,cardFlow,symbolHTML,costHTML,statIcon,mechanicHTML} from './card-symbols.mjs?v=3';
 import {mountDeckBuilder} from './deck-builder.mjs?v=9';
 import {mountAccount,mountShared} from './deck-online.mjs?v=8';
@@ -259,7 +260,7 @@ function fillCards(){
   renderFilterChips();
   $('#more').hidden=items.length<=limit;bindCards();
 }
-function bindCards(){document.querySelectorAll('[data-card]').forEach(b=>b.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();openCard(cards.find(c=>c.id===b.dataset.card))});document.querySelectorAll('.card > img').forEach(im=>im.onerror=()=>{im.alt=t('Bild nicht verfügbar: ','Image unavailable: ')+im.alt;im.style.objectFit='contain'})}
+function bindCards(){bindCardPreview();document.querySelectorAll('[data-card]').forEach(b=>b.onclick=e=>{if(e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;e.preventDefault();openCard(cards.find(c=>c.id===b.dataset.card))});document.querySelectorAll('.card > img').forEach(im=>im.onerror=()=>{im.alt=t('Bild nicht verfügbar: ','Image unavailable: ')+im.alt;im.style.objectFit='contain'})}
 function openCard(c){
   pendingCardReturn={hash:location.hash,limit,scroll:window.scrollY,focus:c.id,advanced:$('#advanced-search')?.open||false};
   history.replaceState({...history.state,archive:pendingCardReturn},'',location.href);location.hash=url('card',c.id);

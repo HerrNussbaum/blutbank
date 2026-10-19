@@ -123,3 +123,8 @@ Proxies bieten die Liste und die A4-Vorschau am Desktop nebeneinander. Liste pr�
 - Websymbole liegen in `dist/assets/symbols/`; Quelle ist das vom Nutzer bereitgestellte Paket `bluthelden-icons-v3`. Die KI-aufbereiteten Varianten sind keine unveränderten Originalausschnitte. WebP-Dateien sind verlustfrei komprimierte 128-Pixel-Ableitungen für scharfe kleine Darstellungen.
 - `card-symbols.mjs` trennt Textnotation und sichere HTML-Darstellung: ASP-Rahmen für Kartenkosten und Kostenkurve, weiße Fähigkeitkosten und Turn-Symbol im Fließtext, Statussymbole neben ausgeschriebenen Bezeichnungen sowie Pool/Binding/Rise bei Mechaniken.
 - Kopieren, Suche und Export behalten `{N}` / `{T}`. Nicht verfügbare Kostenwerte bleiben lesbarer Text; Levelsymbole werden nur für die tatsächlich vorhandenen Werte 1 und 2 eingesetzt. Deckkarten bleiben auf Name und Anzahl beschränkt.
+
+### Seitliche Kartenvorschau (2026-10-19)
+- Karten-Textvorschauen werden beim Hover und Tastaturfokus außerhalb des Kartenrasters neben der Karte platziert; am rechten Rand wechselt die Vorschau nach links. Die Höhe bleibt innerhalb des Fensters; lange Texte sind in der Vorschau scrollbar.
+- Die Symbole haben in Vorschauen feste Größen von 24 px (Text) und 30 px (ASP-Kopf). Bei weniger als 220 px seitlichem Platz bleibt die vollständige Kartenseite über den Kartenlink erreichbar, statt das Bild zu überdecken.
+- Escape, Navigation und Verlassen der Vorschau schließen sie. Die ursprüngliche Tooltip-ID und ihre Zuordnung zur Karte bleiben erhalten.

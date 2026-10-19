@@ -162,7 +162,7 @@ body[data-view=account] #content, body[data-view=shared] #content { max-width: 7
 .card > img { display: block; width: 100%; height: auto; aspect-ratio: 3200/4469; object-fit: contain; border-radius: 9px; }
 .card:hover, .card:focus-visible { text-decoration: none; z-index: 2; }
 .card-hint { display: none; position: absolute; inset: auto 8px 8px; padding: 16px; border-radius: 6px; background: #111111f5; color: var(--text); font-size: 17px; line-height: 1.45; max-height: calc(100% - 16px); overflow: auto; }
-.card:hover .card-hint, .card:focus-visible .card-hint { display: block; }
+.card-hint-floating { display:block; position:fixed; inset:auto; z-index:1000; box-sizing:border-box; box-shadow:0 10px 32px #0009; border:1px solid #780606; max-height:calc(100dvh - 24px); overflow:auto; }
 .card-hint strong, .card-hint span, .card-hint small { display: block; margin-bottom: 8px; }
 .card-hint strong { font-size: 21px; }.card-hint small { font-size: 16px; color: var(--muted); margin-bottom: 0; }
 .hint-rules { white-space: pre-line; }
@@ -762,3 +762,7 @@ body[data-view=proxy] #content { max-width:none; }
 .stat-filter legend .game-symbol{width:1.25rem;height:1.25rem;margin-left:0}
 .card-rules .game-symbol,.hint-rules .game-symbol{vertical-align:-.3em}
 .card-facts .game-symbol{margin-left:0}
+
+/* Explicit sizes prevent card-art rules from enlarging inline tooltip icons. */
+.card-hint img.game-symbol{display:inline-block;width:24px;height:24px;max-width:24px;max-height:24px;aspect-ratio:1;object-fit:contain;border-radius:0;vertical-align:-5px}
+.card-hint img.cost-symbol{width:30px;height:30px;max-width:30px;max-height:30px}

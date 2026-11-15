@@ -67,7 +67,7 @@ export async function alternativeTournamentBytes(deck, cards, fullName, nickname
     if (current) lines.push(current);
     return lines;
   };
-  const cell = (value, x, top, w, h, preferred = 10.5, font = regular) => {
+  const cell = (value, x, top, w, h, preferred = 10.5, font = regular, center = false) => {
     if (!value) return;
     let size = preferred,
       lines = wrap(value, w, size, font);
@@ -76,7 +76,15 @@ export async function alternativeTournamentBytes(deck, cards, fullName, nickname
       lines = wrap(value, w, size, font);
     }
     const start = top + (h - lines.length * size * 1.08) / 2;
-    lines.forEach((s, i) => text(s, x, start + i * size * 1.08, size, font));
+    lines.forEach((s, i) =>
+      text(
+        s,
+        center ? x + (w - font.widthOfTextAtSize(s, size)) / 2 : x,
+        start + i * size * 1.08,
+        size,
+        font,
+      ),
+    );
   };
   const index = new Map(cards.map((c) => [c.id, c]));
   const card = (e) => index.get(e.printingId);
@@ -127,14 +135,16 @@ export async function alternativeTournamentBytes(deck, cards, fullName, nickname
       rule(x, top + 18.5, colWidth);
       const e = rows[i];
       if (!e) continue;
-      cell(String(e.quantity), x + 4, top, 12, 18.5, 10, bold);
       const keys = [
         ...new Set(
           (card(e)?.text?.colors || []).map((k) => k.toLowerCase().replace(/^gray$/, 'grey')),
         ),
       ];
       const labels = keys.map((k) => palette[k]?.[0] || '?');
-      cell(labels.join(' '), x + 19, top, 23, 18.5, 6.5);
+      const label = labels.join(' ');
+      const labelSize = Math.min(10, 23 / Math.max(1, bold.widthOfTextAtSize(label, 1)));
+      cell(String(e.quantity), x + 4, top, 12, 18.5, labelSize, bold);
+      cell(label, x + 19, top, 23, 18.5, labelSize, bold, true);
       keys.forEach((key, j) =>
         rect(
           x + 43,
@@ -148,10 +158,19 @@ export async function alternativeTournamentBytes(deck, cards, fullName, nickname
     }
   });
   let lx = 28;
-  for (const [code, label] of Object.values(palette)) {
+  for (const [code, label, hex] of Object.values(palette)) {
     const value = code + ' ' + label;
-    text(value, lx, 551, 7);
-    lx += regular.widthOfTextAtSize(value, 7) + 14;
+    page.drawRectangle({
+      x: lx,
+      y: height - 559,
+      width: 7,
+      height: 7,
+      color: color(hex),
+      borderColor: ink,
+      borderWidth: 0.25,
+    });
+    text(value, lx + 11, 551, 7);
+    lx += regular.widthOfTextAtSize(value, 7) + 25;
   }
   rule(28, 568, width - 56);
   const total = (zones) =>

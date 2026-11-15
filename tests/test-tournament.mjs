@@ -50,6 +50,12 @@ try {
   assert(drawn.some((d) => d.text === 'RUNE'));
   assert(drawn.some((d) => d.text === 'Pool: 20     Spell: 40     Gesamt: 62'));
   assert(!drawn.some((d) => d.text.includes('NEVER PRINT ME')));
+  const blue = drawn.find((d) => d.text === 'BL' && d.y > 400 && d.x < 100);
+  const quantity = drawn.find(
+    (d) => d.text === '1' && Math.abs(d.y - blue.y) < 0.01 && d.x < blue.x,
+  );
+  assert.equal(blue.size, quantity.size, 'Color codes and quantities use the same font size');
+  assert(blue.x > 49, 'Color codes are centered toward the name column');
   assert(
     drawn.some((d) => d.text === 'W BL R'),
     'Multi-color cards retain every color label',

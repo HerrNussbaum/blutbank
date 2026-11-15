@@ -1,4 +1,4 @@
-import { htmlParagraphs } from '../public/html-utils.mjs';
+import { htmlParagraphs } from '../public/text-paragraphs.mjs';
 import assert from 'node:assert/strict';
 import { readFile, readdir } from 'node:fs/promises';
 import { spawnSync } from 'node:child_process';

@@ -1,4 +1,4 @@
-import { htmlParagraphs } from './html-utils.mjs';
+import { htmlParagraphs } from './text-paragraphs.mjs';
 import { catalogActionIcon } from './ui-icons.mjs';
 import { mountMeta } from './deck-meta.mjs';
 import liveAbilityDefinitions from './ability-reminder-definitions.mjs';

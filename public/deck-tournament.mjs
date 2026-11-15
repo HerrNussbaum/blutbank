@@ -1,6 +1,12 @@
 import { downloadName } from './download-name.mjs';
 let library;
-export async function tournamentBytes(deck, cards, fullName = '', nickname = '') {
+export async function tournamentBytes(
+  deck,
+  cards,
+  fullName = '',
+  nickname = '',
+  layout = 'official',
+) {
   if (!globalThis.PDFLib) {
     library ??= new Promise((resolve, reject) => {
       const s = document.createElement('script');
@@ -10,6 +16,10 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
       document.head.append(s);
     });
     await library;
+  }
+  if (layout === 'octenarius') {
+    const { alternativeTournamentBytes } = await import('./deck-tournament-alternative.mjs');
+    return alternativeTournamentBytes(deck, cards, fullName, nickname);
   }
   const pdf = await PDFLib.PDFDocument.load(await (await fetch('Decklist2026.pdf')).arrayBuffer()),
     page = pdf.getPages()[0],
@@ -764,12 +774,13 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
   box(sum(['pool', 'spell', 'rune', 'sovereign']), 879, 978, 634, 654, 36, true);
   return pdf.save();
 }
-export async function exportTournament(deck, cards) {
+export async function exportTournament(deck, cards, layout = 'official') {
   const dialog = document.createElement('dialog');
   dialog.className = 'deck-export-dialog';
   dialog.setAttribute('aria-labelledby', 'tournament-export-title');
   dialog.innerHTML =
     '<form method="dialog"><h2 id="tournament-export-title">Turnierbogen exportieren</h2><label>Vor- und Nachname<input name="fullName" autocomplete="name"></label><label>Nickname<input name="nickname"></label><p>Maybeboard wird nicht exportiert.</p><div class="export-dialog-actions"><button type="submit" value="cancel">Abbrechen</button><button class="export-primary" type="submit" value="export">PDF herunterladen</button></div><p role="status"></p></form>';
+  if (layout === 'octenarius') dialog.querySelector('h2').textContent = 'Octenarius-Turnierbogen';
   document.body.append(dialog);
   dialog.querySelector('form').onsubmit = async (e) => {
     if (e.submitter.value !== 'export') return;
@@ -780,11 +791,16 @@ export async function exportTournament(deck, cards) {
         cards,
         dialog.querySelector('[name=fullName]').value,
         dialog.querySelector('[name=nickname]').value,
+        layout,
       );
       const url = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' })),
         a = document.createElement('a');
       a.href = url;
-      a.download = downloadName(deck.name, 'pdf', 'Turnierbogen');
+      a.download = downloadName(
+        deck.name,
+        'pdf',
+        layout === 'octenarius' ? 'Turnierbogen kompakt' : 'Turnierbogen',
+      );
       a.click();
       setTimeout(() => URL.revokeObjectURL(url), 30000);
       dialog.close();

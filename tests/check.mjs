@@ -61,6 +61,7 @@ for (const name of [
   'test-deck-sync',
   'test-deck-account',
   'test-deck-legacy',
+  'test-tournament',
   'test-rulebook',
   'test-card-styleguide',
   'test-token-references',

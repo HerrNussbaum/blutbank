@@ -13,6 +13,7 @@
 | Anmeldung und API-Client                          | `public/deck-online.mjs`                                                 |
 | Serialisierte Speichervorgänge                    | `public/deck-sync.mjs`                                                   |
 | Öffentliche Deckübersicht                         | `public/deck-meta.mjs`                                                   |
+| Turnierbogen (offiziell und Octenarius) | `public/deck-tournament.mjs`, `public/deck-tournament-alternative.mjs` |
 | Exportdateinamen                                  | `public/download-name.mjs`                                               |
 | Proxydruck und PDF                                | `public/proxy-printer.mjs`, `public/proxy-pdf.mjs`                       |
 | Kartenredaktion                                   | `public/card-editor.mjs`, `private/card-editor.php`                      |

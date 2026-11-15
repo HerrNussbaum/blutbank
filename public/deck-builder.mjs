@@ -840,7 +840,12 @@ ${esc(deck.description || '')}</textarea>
       ><select id="deck-export-format">
         <option value="text">${t('Textliste', 'Text list')}</option>
         <option value="json">JSON</option>
-        <option value="tournament">${t('Turnierbogen (PDF)', 'Tournament sheet (PDF)')}</option>
+        <option value="tournament">
+          ${t('Offizieller Turnierbogen (PDF)', 'Official tournament sheet (PDF)')}
+        </option>
+        <option value="tournament-octenarius">
+          ${t('Octenarius-Turnierbogen (PDF)', 'Octenarius tournament sheet (PDF)')}
+        </option>
       </select>
       <div class="export-dialog-actions">
         <button type="button" data-cancel>${t('Abbrechen', 'Cancel')}</button
@@ -857,6 +862,8 @@ ${esc(deck.description || '')}</textarea>
       const format = dialog.querySelector('select').value;
       try {
         if (format === 'tournament') await exportTournament(deck, cards);
+        else if (format === 'tournament-octenarius')
+          await exportTournament(deck, cards, 'octenarius');
         else if (format === 'json')
           download(
             downloadName(deck.name, 'json'),

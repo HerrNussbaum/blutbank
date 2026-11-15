@@ -98,6 +98,12 @@ function cardRecords(PDO $db, array $config): array
     }
   }
   unset($card);
+  foreach ($cards as &$card) {
+    if (in_array($card['id'], ['19532e874bac', '549c4a48ddec'], true)) {
+      $card['text']['gameplayId'] = $card['gameplayId'];
+    }
+  }
+  unset($card);
   return array_map('normalizeCardReminders', $cards);
 }
 function cardAudit(
@@ -410,6 +416,9 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
   $id = $data['id'] ?? ($_GET['id'] ?? '');
   if (!is_string($id) || !preg_match('/^[a-f0-9]{12}$/D', $id)) {
     fail('Ungültige Karten-ID.');
+  }
+  if ($id === '688dcbaa3d2b') {
+    $id = 'cca2d2102a69';
   }
   $cards = array_column(cardRecords($db, $config), null, 'id');
   if (!isset($cards[$id])) {

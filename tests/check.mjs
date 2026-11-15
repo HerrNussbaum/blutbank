@@ -60,6 +60,7 @@ for (const name of [
   'test-deck-model',
   'test-deck-sync',
   'test-deck-account',
+  'test-deck-legacy',
   'test-rulebook',
   'test-card-styleguide',
   'test-token-references',

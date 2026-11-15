@@ -40,22 +40,73 @@ function rateLimit(PDO $db, string $bucket, int $limit, int $period): void
   }
   query($db, 'DELETE FROM rate_limits WHERE expires_at < ?', [$now]);
 }
-// BRD-27 is a regular Stone Giant, not a token; preserve old decks by printing identity.
+// Resolve retired printings and merged card identities while preserving deck quantities.
 function normalizeDeckCardIdentities(array $deck): array
 {
   if (!is_array($deck['entries'] ?? null)) {
     return $deck;
   }
-  foreach ($deck['entries'] as &$entry) {
+  $original = $deck['entries'];
+  $keys = [];
+  $duplicate = false;
+  foreach ($original as $entry) {
+    $key = ($entry['printingId'] ?? '') . ':' . ($entry['zone'] ?? '');
+    if (isset($keys[$key])) {
+      $duplicate = true;
+    }
+    $keys[$key] = true;
+  }
+  $aliases = [
+    '32ee8d52234d' => ['card-32ee8d52234d', 'card-32ee8d52234d-character'],
+    '19532e874bac' => ['card-19532e874bac', 'card-f52e689e92b1'],
+    '549c4a48ddec' => ['card-549c4a48ddec', 'card-20e14ad55c10'],
+  ];
+  $entries = [];
+  $positions = [];
+  foreach ($original as $entry) {
+    if (!is_array($entry)) {
+      $entries[] = $entry;
+      continue;
+    }
+    $retired = ($entry['printingId'] ?? '') === '688dcbaa3d2b';
+    if ($retired) {
+      $entry['printingId'] = 'cca2d2102a69';
+    }
+    $pair = $aliases[$entry['printingId'] ?? ''] ?? null;
+    if ($pair && ($entry['cardId'] ?? null) === $pair[0]) {
+      $entry['cardId'] = $pair[1];
+    }
+    $key = ($entry['printingId'] ?? '') . ':' . ($entry['zone'] ?? '');
+    $at = $positions[$key] ?? null;
     if (
-      is_array($entry) &&
-      ($entry['printingId'] ?? null) === '32ee8d52234d' &&
-      ($entry['cardId'] ?? null) === 'card-32ee8d52234d'
+      !$duplicate &&
+      $at !== null &&
+      ($retired || ($entries[$at]['_mergedAlias'] ?? false)) &&
+      ($entry['cardId'] ?? null) === ($entries[$at]['cardId'] ?? null) &&
+      is_int($entry['quantity'] ?? null) &&
+      $entry['quantity'] >= 1 &&
+      $entry['quantity'] <= 300 &&
+      is_int($entries[$at]['quantity'] ?? null) &&
+      $entries[$at]['quantity'] >= 1 &&
+      $entries[$at]['quantity'] <= 300
     ) {
-      $entry['cardId'] = 'card-32ee8d52234d-character';
+      $entries[$at]['quantity'] += $entry['quantity'];
+    } else {
+      $entry['_mergedAlias'] = $retired;
+      $positions[$key] = count($entries);
+      $entries[] = $entry;
+    }
+  }
+  foreach ($entries as &$entry) {
+    if (is_array($entry)) {
+      unset($entry['_mergedAlias']);
     }
   }
   unset($entry);
+  $deck['entries'] = $entries;
+  if (($deck['coverPrintingId'] ?? '') === '688dcbaa3d2b') {
+    $deck['coverPrintingId'] = 'cca2d2102a69';
+  }
   return $deck;
 }
 function validateDeckData(array $d, array $identities, array $cards): array

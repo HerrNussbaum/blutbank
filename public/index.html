@@ -1,0 +1,159 @@
+<!doctype html>
+
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#071e23" />
+    <title>Octenarius · Offizielle Bluthelden-Kartendatenbank & Regeln</title>
+    <meta
+      name="description"
+      content="Die offizielle Bluthelden-Kartendatenbank mit integriertem Regelwerk. Karten nach Namen suchen, aktuelle Kartentexte lesen und Regeln auf Deutsch und Englisch nachschlagen."
+    />
+    <link rel="icon" href="/favicon-clear.ico" type="image/x-icon" />
+    <link rel="icon" href="/favicon-clear-96.png" type="image/png" sizes="96x96" />
+    <link rel="icon" href="/favicon-clear-32.png" type="image/png" sizes="32x32" />
+    <link rel="icon" href="/favicon-clear-16.png" type="image/png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=classic-o-2" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Octenarius" />
+    <meta
+      property="og:title"
+      content="Octenarius · Offizielle Bluthelden-Kartendatenbank & Regeln"
+    />
+    <meta
+      property="og:description"
+      content="Die offizielle Bluthelden-Kartendatenbank mit integriertem Regelwerk. Karten nach Namen suchen, aktuelle Kartentexte lesen und Regeln auf Deutsch und Englisch nachschlagen."
+    />
+    <meta property="og:url" content="https://octenarius.com/" />
+    <meta
+      property="og:image"
+      content="https://octenarius.com/assets/brand/oct-nrs-preview-square.png"
+    />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+    <meta
+      property="og:image:alt"
+      content="OCT über NRS in Messing auf Petrol, eingefasst von zwei Messinglinien."
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Octenarius · Offizielle Bluthelden-Kartendatenbank & Regeln"
+    />
+    <meta
+      name="twitter:description"
+      content="Die offizielle Bluthelden-Kartendatenbank mit integriertem Regelwerk. Karten nach Namen suchen, aktuelle Kartentexte lesen und Regeln auf Deutsch und Englisch nachschlagen."
+    />
+    <meta
+      name="twitter:image"
+      content="https://octenarius.com/assets/brand/oct-nrs-preview-square.png"
+    />
+
+    <script>
+      if (!location.hash) {
+        const q = new URLSearchParams(location.search).get('suche');
+        if (q) {
+          history.replaceState(null, '', '/#/de/search/' + encodeURIComponent(q.slice(0, 200)));
+        }
+      }
+      document.documentElement.dataset.entry =
+        !location.hash || /^#\/(de|en)\/home(?:\/|$)/.test(location.hash) ? 'home' : 'page';
+    </script>
+    <script type="module" src="app.mjs"></script>
+
+    <script type="module" src="octenarius-atmosphere.mjs?v=4"></script>
+    <link rel="preload" href="/cms-rules" as="fetch" crossorigin="anonymous" />
+    <link rel="preload" href="/data/card-identities.json" as="fetch" crossorigin="anonymous" />
+    <link rel="canonical" href="https://octenarius.com/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Octenarius",
+        "alternateName": "Offizielle Bluthelden-Kartendatenbank",
+        "url": "https://octenarius.com/",
+        "description": "Die offizielle Bluthelden-Kartendatenbank mit integriertem Regelwerk.",
+        "inLanguage": ["de", "en"]
+      }
+    </script>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#content">Zum Inhalt / Skip to content</a>
+    <header>
+      <a class="brand" href="#/de/home">OCTENARIUS</a>
+      <nav id="tabs" aria-label="Hauptnavigation"></nav>
+      <nav class="oct-external-links" aria-label="Bluthelden und Community">
+        <a
+          href="https://bluthelden.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Bluthelden.com – offizielle Website"
+          title="Bluthelden.com – offizielle Website"
+          ><span
+            class="oct-link-logo"
+            style="--oct-logo: url('assets/links/bluthelden-com.png')"
+            aria-hidden="true"
+          ></span
+          ><span class="oct-community-label">Bluthelden</span></a
+        ><a
+          href="https://bluthelden.net"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Bluthelden.net – Organized Play"
+          title="Bluthelden.net – Organized Play"
+          ><span
+            class="oct-link-logo"
+            style="--oct-logo: url('assets/links/organized-play.svg')"
+            aria-hidden="true"
+          ></span
+          ><span class="oct-community-label">Organized Play</span></a
+        ><a
+          href="https://discord.gg/GWC37s7Wzg"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Bluthelden-Discord"
+          title="Bluthelden-Discord"
+          ><span
+            class="oct-link-logo"
+            style="--oct-logo: url('assets/links/discord.svg')"
+            aria-hidden="true"
+          ></span
+          ><span class="oct-community-label">Discord</span></a
+        >
+      </nav>
+      <div class="oct-controls"><div id="languages" class="languages"></div></div>
+    </header>
+    <div class="workspace">
+      <aside id="sidebar"></aside>
+      <main id="content" tabindex="-1">
+        <section class="home-search initial-search">
+          <form id="home-search-form" role="search">
+            <label class="visually-hidden" for="home-query"
+              >Octenarius durchsuchen / Search Octenarius</label
+            ><input
+              id="home-query"
+              type="search"
+              autocomplete="off"
+              autofocus
+              aria-label="Octenarius durchsuchen / Search Octenarius"
+            /><button type="submit" aria-label="Suchen / Search">⌕</button>
+          </form>
+          <p class="home-intro">
+            Die offizielle Bluthelden-Kartendatenbank mit integriertem Regelwerk.
+          </p>
+        </section>
+      </main>
+    </div>
+    <noscript
+      ><nav aria-label="Bluthelden-Referenz" style="padding: 1rem; text-align: center">
+        <a href="/bluthelden-suche">Bluthelden-Suche</a> · <a href="/karten">Karten nach Namen</a> ·
+        <a href="/regeln/de">Regelwerk</a> · <a href="/regeln/en">Rules in English</a>
+      </nav></noscript
+    >
+    <footer id="archive-footer"></footer>
+    <div id="toast" role="status"></div>
+  </body>
+</html>

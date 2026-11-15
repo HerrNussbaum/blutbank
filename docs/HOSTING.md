@@ -1,56 +1,45 @@
-# blutbank auf united-domains
+# Hosting
 
-Ziel: https://blutbank.nussbaum.page · PHP 8.5 · eigene MySQL-Datenbank.
+## Verzeichnisse und Voraussetzungen
 
-## Upload vorbereiten
+PHP >= 8.3, PDO SQLite oder PDO MySQL und Composer 2. Node.js/npm werden nur zur Formatierung und Prüfung benötigt, nicht zur Anzeige der Website. SMTP ist für Anmeldelinks erforderlich. Eine reine GitHub-Pages-Installation unterstützt keine PHP-Konten oder Deckspeicherung.
 
-1. `npm run build` und `npm test` ausführen.
-2. `composer install --working-dir=server --no-dev --prefer-dist` installiert PHPMailer gemäß eingecheckter composer.lock.
-3. `npm run build:hosting` erstellt `release/blutbank/`. Es enthält ausschließlich eine Konfigurationsvorlage, niemals die echte config.php.
+Das Web-Stammverzeichnis zeigt auf `/pfad/zu/octenarius/public`. Alle übrigen Verzeichnisse liegen außerhalb des öffentlichen Bereichs. `private/config.php`, SQLite-Dateien, Sessions, SMTP-Daten, Token und Sicherungen niemals veröffentlichen. Bei Apache `AllowOverride` für die vorhandene `.htaccess` aktivieren. HTTPS im Webserver konfigurieren; die Anwendung prüft HTTPS und die konfigurierte Origin bei schreibenden Anfragen.
 
-## Verzeichnis und Datenbank
+## Neue Installation
 
-Das vorhandene Zielverzeichnis der Subdomain muss auf den **public**-Unterordner zeigen:
+1. Repository klonen und `composer install --no-dev` im Projektverzeichnis ausführen.
+2. `php scripts/setup.php --origin=https://example.org --admin=admin@example.org` erzeugt eine leere SQLite-Datenbank sowie eine neue Konfiguration mit zufälligem Schlüssel. Eine vorhandene Konfiguration wird niemals überschrieben.
+3. Eigene SMTP-Zugangsdaten in `private/config.php` eintragen; Beispiel: `private/config.example.php`.
+4. Origin, Canonical- und Vorschaubild-URLs mit `python3 scripts/set-origin.py https://example.org` an die eigene Domain anpassen.
+5. `var/` und das private Sitzungsverzeichnis für den PHP-Prozess schreibbar machen. Konfigurationsdatei nur für den Betreiber/PHP-Prozess lesbar halten.
+6. Über Konto einen Anmeldelink für die konfigurierte Administratoradresse anfordern und Funktionen testen.
 
+Für MySQL zuerst `migrations/mysql-base.sql` und `migrations/mysql-card-editor.sql` in eine neue Datenbank einspielen und DSN/Benutzer/Passwort anpassen. Bestehende Installationen nicht erneut initialisieren. Die Regelredaktion legt ihre zusätzlichen Tabellen bedarfsgesteuert an.
+
+## Nginx
+
+```nginx
+root /srv/octenarius/public;
+location = /cms-rules { rewrite ^ /cms-rules.php last; }
+location ~ \.php$ {
+    include fastcgi_params;
+    fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
+    fastcgi_param HTTPS on;
+    fastcgi_pass unix:/run/php/php-fpm.sock;
+}
+location ~ \.(?:sqlite|sqlite3|db|sql|log|bak)$ { deny all; }
+location ~ \.mjs$ {
+    types { text/javascript mjs; }
+    add_header Cache-Control "no-cache";
+}
+location ~ \.(?:js|css|html)$ { add_header Cache-Control "no-cache"; }
 ```
-blutbank/
-  public/       <- Dokumentenstamm der Subdomain
-  private/      <- außerhalb des öffentlich erreichbaren Verzeichnisses
-  vendor/       <- außerhalb des öffentlich erreichbaren Verzeichnisses
-```
 
-Den Inhalt dieser drei Ordner hochladen. Die bestehende Website in ihrem eigenen Verzeichnis belassen. `schema.sql` in die neue, leere MySQL-Datenbank über die Datenbankverwaltung importieren; die SQL-Datei nicht öffentlich hochladen. Tabellen verwenden InnoDB. PHP benötigt PDO MySQL, OpenSSL und sessions.
+Socket und TLS-Konfiguration an den Server anpassen. `/handbuch` ist nur bei zusätzlicher Typemill-Installation erforderlich. Auf allen Servern muss `/cms-rules` zum PHP-Endpunkt führen.
 
-HTTPS-Zertifikat für blutbank.nussbaum.page aktivieren. Die API akzeptiert in Produktion nur HTTPS. PHP 8.5 für diese Subdomain wählen.
+## Sicherung und Aktualisierung
 
-## Konfiguration
+Datenbank konsistent sichern, außerdem `private/config.php`, CMS-Inhalte und redaktionelle Einstellungen. Backups außerhalb des Webroots mit eingeschränkten Rechten aufbewahren. Bei SQLite die Backup-API oder ein geeignetes Datenbankwerkzeug verwenden; eine Kopie während laufender Schreibvorgänge ist keine verlässliche Sicherung.
 
-Auf dem Server `private/config.example.php` nach `private/config.php` kopieren. Datenbankhost, Datenbankname, Benutzer und Passwort aus der Hostingverwaltung einsetzen. Einen zufälligen Schlüssel erzeugen (`php -r 'echo bin2hex(random_bytes(32));'`) und als app_key eintragen. Zugangsdaten weder ins Repository noch in den öffentlichen Ordner legen. `registration_enabled` zunächst false lassen.
-
-`public/deck-config.json` enthält im Upload-Paket bereits `{"api":"api.php"}`. Die GitHub-Pages-Fassung bleibt absichtlich ohne Online-Anbindung. Die statische Website und die API müssen unter derselben Domain erreichbar sein.
-
-## E-Mail und Freigabe
-
-Ein echtes Postfach (z. B. blutbank@nussbaum.page) erstellen und seine SMTP-Zugangsdaten in config.php eintragen. Vorgabe: smtps.udag.de, Port 587, STARTTLS. Port 465 verwendet TLS. TLS-Zertifikate werden regulär geprüft.
-
-Nach Einrichtung registration_enabled auf true setzen und zunächst mit der eigenen Adresse testen: Link anfordern, Eingang und Spam-Ordner prüfen, einmal anmelden, denselben Link erneut versuchen (muss abgewiesen werden). Ein Link gilt 15 Minuten. Bei SMTP-Fehlern zeigt die Oberfläche einen Fehler; Serverlogs enthalten keine Zugangsdaten. Die lokalen Tests verwenden ausschließlich einen simulierten Mailausgang. Tatsächliche Zustellung und die MySQL-Anbindung müssen auf dem Hoster geprüft werden.
-
-Danach zwei Testkonten verwenden: Deck speichern, in anderem Browser öffnen, prüfen, dass das zweite Konto das private Deck nicht sieht. Freigabelink erstellen, ohne Anmeldung öffnen, Freigabe widerrufen und erneut prüfen. Änderungen mit veraltetem Versionsstand müssen einen Konflikt melden. Eine vorhandene lokale Kartenliste wird beim Laden einer abweichenden Online-Liste als Sicherungskopie erhalten.
-
-## Betrieb und Grenzen dieser ersten Version
-
-- Gastdeckbau funktioniert vollständig lokal; Browserdaten sind nicht automatisch zwischen GitHub Pages und der neuen Domain übertragbar. Vor Umzug JSON exportieren und danach importieren.
-- Online-Speichern erfolgt ausdrücklich per Knopf. Lokale Änderungen werden automatisch für Name und Beschreibung während der Eingabe, für Mengen nach Bestätigung des Felds gespeichert.
-- Private Online-Decks sind Standard. Wer einen Freigabelink kennt, kann das freigegebene Deck lesen. Erneutes Freigeben erzeugt einen neuen Link; Widerruf macht den alten unbrauchbar.
-- Höchstens 200 Online-Decks pro Konto, 600 Karten inklusive Merkliste pro Deck, 300 Karten pro Proxy-Auftrag.
-- Papierkorb statt endgültigem Löschen. Online-Papierkorb wird beim nächsten Online-Speichern aktualisiert; keine automatische Kontolöschung in dieser Version.
-- Es gibt Hinweise zu Kopienlimits anhand der erfassten Seltenheit, noch keine vollständige Prüfung von Formaten, Herrschereinschränkungen oder Kartenzulässigkeit. Ungeprüfte Kartendaten bleiben eine Einschränkung.
-- Anmeldelinks sind auf drei Anfragen pro Adresse in 15 Minuten und 15 pro IP in einer Stunde begrenzt. Der Hosting-Mailtarif kann zusätzliche Versandlimits haben.
-- Datenbank und Konfiguration regelmäßig über die Hostingverwaltung sichern. Die Anwendung legt keine eigenen periodischen Backups an.
-
-## Entwicklung und Tests
-
-`npm test`: Regeln, Suche, Proxy-PDF und Deckmodell.
-`python3 scripts/test-server.py`: isolierter lokaler HTTP-Test mit PHP 8.5, SQLite und simuliertem E-Mail-Ausgang. Prüft Einmalverwendung, Sessions, CSRF, Origin, Besitzerprüfung, Versionskonflikte und Freigabewiderruf. MySQL-Produktionskonfiguration wird dadurch nicht ersetzt.
-
-Stabile Kartenidentitäten stehen in dist/data/card-identities.json. `npm run build` ergänzt neue Druckversionen. Bereits vergebene IDs nicht neu erzeugen. Konflikte beim Zusammenführen bislang getrennter Namen müssen ausdrücklich migriert werden.
+Quellcodeaktualisierungen überschreiben weder Konfiguration noch Datenbank, CMS-Inhalte oder Entwürfe. Ein isoliertes Testsystem mit einer privaten Datenkopie benutzen. Statische `public/data/`-Snapshots nicht als aktuelle produktive Datenbank zurückspielen.

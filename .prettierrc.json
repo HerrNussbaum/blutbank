@@ -1,0 +1,16 @@
+{
+  "singleQuote": true,
+  "printWidth": 100,
+  "tabWidth": 2,
+  "trailingComma": "all",
+  "embeddedLanguageFormatting": "auto",
+  "plugins": ["@prettier/plugin-php"],
+  "overrides": [
+    {
+      "files": "*.php",
+      "options": {
+        "phpVersion": "8.2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1753 @@
+﻿id,name,set,typeLine,colors,rarity,asp,level,res,ini,pow,hp,magic,lp,rulesText,additionalCostsText,flavorText
+cca2d2102a69,Zayas Ritual,Origin,Ritual,orange,N,4,,,,,,,,"When this Ritual enters play, create two 1/1 Spectral Moth Tokens with Flying.
+
+{T}, Sacrifice three Spetral Moth Tokens: Replace one function of target spell or an activated ability your opponent controls. If it:
+Deals DMG ↔ Regenerate HP
+Gain stats ↔ Lose stats
+Lose Life ↔ Gain Life
+Sacrifice Zayas Ritual then.",,
+54a2dfc78854,The Lie,Origin,Spell,black,F,4,,,,,,4,,"As an additional cost to cast The Lie, sacrifice a Character you control.
+
+Take control of target Character an opponent controls. Place it to target War Zone you control.",,
+9d7645b2b87e,"Tobin Frostwing, Bird General",Origin,"Mythic Character, Human Advisor",white,F,4,2,5,,,,,,"Advisor
+When Tobin Frostwing enters play, search your Spell Deck for a Bird Character and put it into your hand.
+{1}, {T}: Put 1 POW/HP +1/+1 Counter on target Bird you control.",,
+aa965e9c77b5,Mart the Dragon Hunter,Origin,"Mythic Character, Human Advisor",green,F,4,2,5,,,,,,"Advisor
+{2}, {T}: Target Character with Ranged Combat gets Twin Shot until the end of this round. (This Character's Ranged Combat deals DMG equal to its POW to up to two Characters, or double its POW to one Character.)
+Whenever a Character dies from Ranged Combat dealt by a Character you control, choose one:
+Put 1 POW/HP +1/+1 Counter on target Character you control,
+or gain {1} ASP at the beginning of the next round.",,
+976ed1199383,Wild Boar Token,Origin,"Token Character, Boar",green,T,,,3,3,2,2,,,,,"When the forest runs, it runs first."
+d372e5c24bc7,Crypt Walker,Origin,"Character, Undead",black,N,3,1,3,2,2,2,,,"When this Character enters play, return an Undead Character from your Graveyard to your hand.
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+6d57b3d7530d,Skeleton Token,Origin,"Token Character, Undead",black,T,,,1,2,2,2,,,"This Character must attack every round, if able.
+If this Character attacked, sacrifice it at the end of the round.",,
+53ed10bcbf91,Mutant Demon Token,Origin,"Token Character, Demon",black,T,,,3,2,2,2,,,"If you control a LVL 2 Resource, {2}, {T}. Rise (Search your Spell Deck for a card named Two-Headed Demon and place it on this slot. Transfer all Counters from Mutant Demon Token to it. Then destroy Mutant Demon Token)",,
+ec2852690de1,"Erojo, Warden of the Beyond",Origin,"Mythic Character, Spirit Advisor",orange,F,4,2,4,,,,,,"Advisor
+Spectral Ward
+When this Character enters play, create a Shadow Token in target War Zone.
+{1}, {T}: All Characters in target War Zone gain POW/HP -1/-1 equal to the number of Shadow Tokens in that War Zone until the end of the round.",,
+83ffeed6cc65,Rune of Leros,Origin,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Resources you control enter play turned.
+You may put an addtional Resource into play once per Round.
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+d0859d36e880,"Sirunian Seehoff, King of Falkenheim",Origin,White Sovereign,white,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+{T}, Pay 4 LP: Cast a Miracle card from your hand.
+{2}: Target Character regenerates 2 HP. Use this ability only once per round.",,
+1e9ff377912d,"Valdar Stormwing, General of the Falcon Guard",Origin,White Sovereign,white,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+{2}, {T}: Search your Spell Deck for a Human with {4} ASP costs or less and put it into your hand.
+Birds you control have Speed. (They don't turn when performing a combat action.)",,
+3c093632d870,Alchemist of Resistance,Origin,"Character, Human",white,N,3,1,6,3,1,3,,,"{2}, {T}: Target Character in the same Lane gains RES+1 or -1 until the end of the round. This effect ignores the target’s Magic Resistance.",,
+f8dbbb09d20f,Alchemist of Strength,Origin,"Character, Human",white,N,2,1,2,3,3,3,,,"If you control a LVL 2 Resource, {1}, {T} : Rise into Master Alchemist of Strength.",,
+4bee77b4f168,Amazon Rider,Origin,"Character, Human",white,K,4,1,3,4,2,3,,,Overrun,,
+0a70ee3e9db4,Apprentice,Origin,"Character, Human",white,K,2,1,3,3,1,1,,,"When this Character enters play, target Character in the same Lane regenerates 1 HP.
+If you control a LVL 2 Resource, {1}, {T}: Rise into Silas, the Protection Mage.",,
+e7419f1568e7,Archer of the Guard,Origin,"Character, Human",white,K,2,1,2,3,1,1,,,Ranged Combat,,
+a6c645c5602c,Avatar of Healing,Origin,Miracle,white,F,6,,,,,,,,Provide an antidote to every Character you control. All Characters you control regenerate 1 HP and gain protection from everything until the end of this round. (They can't be the target of spells or abilities your opponent controls. All DMG that would be dealt to them is prevented.),,
+7cd68152ff9d,Balm,Origin,Spell,white,K,3,,,,,,,,Target Character regenerates up to 3 HP.,,
+6f732f0eaf6e,Ban,Origin,Spell,white,N,4,,,,,,4,,"Banish target Artifact, Character, Ritual or Training.",,
+9d807ed08682,Banner of Wisdom,Origin,Mythic Artifact,white,L,4,,,,,,,,Al Humans you control gain RES+1 and POW/HP +1/+1.,,
+e1cbadba928d,Blade of The Ancients,Origin,Martial Training,white,N,4,,,,,,,,Trained Character gains First Damage. (This Character deals its combat DMG first.),,
+7549e0dca972,Blinding,Origin,Spell,white,K,2,,,,,,5,,Target Character can't attack nor defend during the next combat phase.,,
+465c891adfcd,Cape of Protection,Origin,Artifact,white,L,3,,,,,,,,"{T}: Target Character you control gets protection from everything until end of this round. (It can't be the target of spells or abilities your opponent controls. All DMG that would be dealt to it, is prevented.) Then destroy Cape of Protection at the end of the round.",,
+d9130d64b8c9,Consecrated Monk,Origin,"Character, Human",white,N,4,2,4,4,2,4,,,Defender,,
+ed88cdc1f406,Consecration Ritual,Origin,Spell,white,N,3,,,,,,,,Choose one: Until the end of the round target Character gains RES+2 or gains POW/HP +1/+2.,,
+1dfd0fa3fb99,Divine Storm,Origin,Miracle,white,L,6,,,,,,5,,Deal 1 DMG to all Characters your opponent controls.,,
+0368ea792508,Exile,Origin,Fundamental Training,white,N,4,,,,,,4,,"Banish the trained Character until Exile leaves play, then Exil becomes a Ritual instead of a Training. Place it into a Slot your Government Zone.",,
+d1c1d30cc6d4,Falconer,Origin,"Character, Human",white,N,3,1,3,4,2,3,,,{2} {T}: Create one 1/1 Falcon Token with Flying to target Slot.,,
+c15dd3b7f35a,Falcon Guard Diplomat,Origin,"Character, Human",white,K,2,1,2,3,1,2,,,"When this Character enters play, target Character can't attack nor defend during the next combat phase.",,
+161ddca31386,Golden Light Paladin,Origin,"Character, Human",white,N,4,1,4,4,2,4,,,"The first time this Character survives combat, regenerate it completely. Put 1 RES+1 Counter on it.",,
+d5639fce5ba2,Griffin,Origin,"Character, Bird",white,L,5,2,5,7,5,4,,,Flying,,
+e35106b66d82,Healing Wizard,Origin,"Character, Human Bird",white,K,3,2,4,4,1,2,,,"Flying
+{T}: Target Sovereign regenerates 1 LP.
+{1}, {T}: Prevent 1 DMG to target Character you control.",,
+ed979e1401f1,Heavens Amulet,Origin,Miracle,white,K,3,,,,,,,,During this round prevent up to 1DMG to all Characters you control in target Lane.,,
+12d37fb07492,Light of Retribution,Origin,Spell,white,K,2,,,,,,3,,"Deal 1 DMG to target Character. If it dies this way, gain 1 LP.",,
+3981be57bc0f,Magic Missle,Origin,Miracle,white,N,4,,,,,,4,,Deal up to 2 DMG to each of up to two target Characters.,,
+bbb9821d9d86,Master Alchemist of Strength,Origin,"Character, Human",white,N,4,2,4,4,4,3,,,"If you control Alchemist of Strength, pay {2} ASP less to summon Master Alchemist of Strength, then Rise Alchemist of Strength. (Place this card on Alchemist of Strength. Transfer all Counters from Alchemist of Strength to it. Then sacrifice Alchemist of Strength.)
+{2}, {T}: Put 1 POW/HP +1/+1 Counter on target Character in the Lane.",,
+92d20fd8105b,Master Blacksmith,Origin,"Character, Human",white,N,4,2,3,3,2,3,,,"If you control Young Blacksmith, pay {2} ASP less to summon Master Blacksmith, then Rise Young Blacksmith. (Place this card on Young Blacksmith. Transfer all Counters from Young Blacksmith to it. Then sacrifice Young Blacksmith.)
+{T}: Gain {2} ASP, as long as this Character remains Bound.",,
+870cd997311d,Medica,Origin,"Character, Human",white,N,2,1,3,3,2,2,,,"{T}: Target Character in the same Lane regenerates 1 HP.
+{T}: Medica provides an antidote to target Character in the same Lane. (Remove all degenerative effect Counters from that Character.)",,
+86a57eb7d095,Melody of Courage,Origin,Spell,white,K,2,,,,,,,,All Characters you control in target Lane gain 1 RES+1 Counter.,,
+581d5c7128ea,Nobleman,Origin,"Character, Human",white,K,3,1,2,3,2,2,,,"When this Character enters play, draw a card, then discard a card.",,
+57a2a9774c08,Prayer of the Ancestors,Origin,Artifact,white,K,3,,,,,,,,"{T}, Sacrifice this Artifact: All Characters you control in a War Zone in target Lane retreat without turning or using an action, if possible (if there is an empty Slot). If not, they remain in the War Zone.",,
+8c21d488821e,Ring of Wisdom,Origin,Mythic Artifact,white,F,3,,,,,,,,"{T}: Gain {1} ASP.
+Whenever a Character regenerates HP, it regenerates that many HP +1.",,
+82bb2778a1da,Royal Scout,Origin,"Character, Human",white,K,3,2,3,3,2,3,,,"Hideout
+
+As this Character enters play or is turned face up, target Character your opponent controls can't attack nor defend this round.",,
+b08c11642077,Sacred Talisman,Origin,Fundamental Training,white,K,3,,,,,,,,"Trained Character has: ""Reduce all DMG dealt to this Character by 1.""",,
+b4842f484af7,Shield of Wisdom,Origin,Artifact,white,F,3,,,,,,,,"This Artifact enters play with 3 Wisdom Counters on it.
+
+Remove 1 Wisdom Counter: Prevent 1 DMG to target Character you control. Then, if that Character is still alive, choose one for every prevented DMG this way: Put 1 RES+1 Counter, or 2 INI+1 Counter, or 1 POW/HP +1/+1 Counter on that Character. Use this ability only once per round.
+
+{2}, {T}: Put 1 Wisdom Counter on Shield of Wisdom.",,
+de87a97fb350,Silas the Protection Mage,Origin,"Epic Character, Human Wizard",white,K,4,2,4,3,1,2,,,"If you control Apprentice, pay {2} ASP less to summon Silas, the Protection Mage, then Rise Apprentice. (Place this card on Apprentice. Transfer all Counters from Apprentice to it. Then sacrifice Apprentice.)
+{1}, {T}: Create one Healing Vessel Token (It's an artifact with ""{T}, Sacrifice this artifact: Target character regenerates 1 HP."").",,
+47eb90a6d39e,Spearmen of the Sovereign’s Guard,Origin,"Character, Human_",white,K,4,2,4,4,3,3,,,Skyguard,,
+467bc75d7ac1,Swiftstrike,Origin,Martial Training,white,L,3,,,,,,,,Trained Character gains Targeted Strike.,,
+99c6e52042f9,Swordsman,Origin,"Character, Human",white,N,3,1,3,3,2,2,,,"If you control a LVL 2 Resource, {1}, {T}: Rise into Swordmaster Kaelric Dawnlight and place it on this slot.",,
+211ab8c71790,Swordmaster Kaelric Dawnlight,Origin,"Epic Character, Human",white,N,4,2,4,5,4,3,,,"If you control Swordsman, pay {2} ASP less to summon Swordmaster Kaelric Dawnlight then Rise Swordsman. (Place this card on Swordsman. Transfer all Counters from Swordsman to it. Then sacrifice Swordsman.)
+First Damage",,
+6ae92705028f,"Thalor, Falcon of Accuracy",Origin,"Character, Bird",white,L,4,2,3,4,2,3,,,"Flying
+Targeted Strike",,
+0a8981c4290b,Toshis Gift,Origin,Spell,white,N,4,,,,,,,,Target Character gains Speed and Two-Handed Combat.,,
+a24a6cd02937,War Falcon,Origin,"Character, Bird",white,K,3,1,3,3,1,2,,,Flying,,
+64bfe52cd805,Warrior of The Shieldwall,Origin,"Character, Human",white,L,4,2,2,4,2,6,,,"Surge
+Skyguard
+{T}: Protective Shield.",,
+298e64796878,Watch Dog,Origin,"Character, Dog",white,K,2,1,3,4,2,2,,,All other Characters you control in the same Lane gain INI+1.,,
+3001d477b23c,White Pegasus,Origin,"Character, Pegasus",white,K,3,1,3,3,2,2,,,Flying,,
+e6c10c910c75,Zyphor Teller of Tales,Origin,"Epic Character, Human",white,F,4,2,3,3,2,4,,,"When Zyphor, Teller of Lost Tales enters play, look at the top 3 cards of your Spell deck, draw one of them and put the rest back on top in any order.",,
+238a1564f3c3,"Arion, Paladin of the Falcon Guard",Origin,"Epic Character, Human",white,N,4,2,3,3,3,2,,,"When this Character enters play, create one 1/1 Falcon Token with Flying in target War Zone.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+7086e7323b11,Camorrus Tower,Origin,Mythic Resource,white,N,,2,,,,,,,"If you play Camorrus Tower on another LVL1 Resource, that Resource becomes a Training attached to Camorrus Tower with the following effect: ""Whenever you gain ASP from the trained Resource, gain that much plus one instead""
+
+{T}: Gain {1} ASP.
+
+{2}: Increase the Spellpower Value of one of your spells by 2 until the end of the turn.",,
+76e1f2eb4097,Forge of Heroes,Origin,Resource,white,N,,2,,,,,,,"This Resource enters play with one Hero Counter.
+{T}: Add one Hero Counter.
+{T}, Remove X Hero Counters: For each Counter removed, choose one: Target Character gains 1 RES+1, 1 INI+1, or 1 POW/HP +1/+1 Counter.
+{1}, {T}: Rise target Character you control with Rise. Transfer all Counters to the Risen Character, then remove the original from the game. It may move without turning and using an action.",,
+015b6bfd0712,Guardian of The Shield Dome,Origin,"Character, Human_",white,N,4,2,4,3,2,3,,,"As long as this Character remains Bound, Characters with Flying treat this Lane as if they don't have Flying for combat actions.
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+769e01072510,Holy Forge,Origin,Resource,white,L,,2,,,,,,,"This Resource enters play with 2 Protection Counters.
+{T}: Gain {1} ASP.
+{T}, Remove 1 Protection Counter from Holy Forge: Target Character in the same Lane gets protection from everything until end of this round. (It can't be the target of spells or abilities your opponent controls. All DMG that would be dealt to it, is prevented.) Holy Forge doesn't unturn next round.",,
+90cbc445940a,Magister Tillion of Weidenheim,Origin,"Mythic Character, Human Advisor",white,F,4,1,5,,,,,,"Advisor
+{2}, {T}, Remove 1 Peace Counter: Choose a Lane. Characters in that Lane can't deal any DMG in this round.
+{1}, {T}: Put 1 Peace Counter on this Advisor.",,
+16ed36a22e1a,The River Forge,Origin,Resource,white,L,,2,,,,,,,"{T}: Gain {1} ASP. Gain {2} ASP instead, if you control at least three Resources with different names.
+{T}: Create one ""Healing Vessel"" Token. (It's an Artifact Token with ""{T}, Sacrifice this Artifact: Target Character regenerates 1 HP."")",,
+20c365a0956a,Young Blacksmith,Origin,"Character, Human",white,K,1,1,2,2,1,1,,,"If you control a LVL 2 Resource, {1}, {T}: Rise into Master Blacksmith.
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+de6d829a687a,Falcon,Origin,"Token Character, Bird",white,T,,,3,3,1,1,,,Flying,,
+b8a79e09705c,Healing Vessel,Origin,"Token, Artifact",white,T,,,,,,,,,"{T}, Sacrifice this Artifact: Target Character regenerates 1 HP.",,
+de56dfced149,Flying Swords,Origin,Miracle,white,F,6,,,,,,5,,"Choose up to three target Characters in the Combat Zone. Flying Swords deal 4 DMG to up to one Character, 3 DMG to up to one other Character, and 2 DMG to up to one additional Character. If two or more Characters died this way, you gain 4 LP.",,
+5196adc8545d,Horns of Camorrus,Origin,Artifact,white,F,5,,,,,,,,"This Artifact enters play with 2 Horn Counters on it.
+
+{T}, Remove a Horn Counter from Horns of Camorrus: Put 1 RES+1 Counter, 1 INI+1 Counter, and 1 POW/HP +1/+1 Counter on all Characters you control. If there is no Counter on it, sacrifice Horns of Camorrus.",,
+1594d323378c,Sovereign’s Charge,Origin,Sovereign Training,white,F,3,,6,6,4,6,,,"When this Training enters play, attach it to your Sovereign.
+
+{3}, {T} your Sovereign: This Training becomes a Character instead of its other types with the Status values on this card. Place it into target War Zone. It has ""Skyguard"".",,
+41490da25258,"Toshi, the Blessed",Origin,"Epic Character, Human",white,L,4,2,4,5,3,3,,,"Speed
+Two-Handed Combat",,
+a7658198b7f6,"Valdar Stormwing, General of the Falcon Guard",Origin,White Sovereign,white,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+{2}, {T}: Search your Spell Deck for a Human with {4} ASP costs or less and put it into your hand.
+Birds you control have Speed. (They don't turn when performing a combat action.)",,
+67996634c395,"King Lomeling, Guardian of the Forest",Origin,Green Sovereign,green,F,,,,,,,,30,"Force of Nature - You can place one additional Character in each of your War Zones. (3 instead of 2.)
+{T}, Pay 1 LP: Gain {1} ASP.
+{T}, Pay 2 LP: Characters you control get +1/+1 until end of this round.",,
+2fd987e4d057,Avatarof the Forest,Origin,"Character, Avatar",green,L,5,2,4,6,5,4,,,"Punch
+Skyguard",,
+1e43d51001b2,Banner of Nature,Origin,Artifact,green,L,4,,,,,,,,"As Banner of Nature enters play, create one 1/2 Creeper Plant Token to target Slot.
+
+{2}: Banner of Nature becomes an Mythic Emblem with ""Every Character you control gain POW/HP + 1/+1, RES+1, INI+2"".",,
+6fef3c4a7c3c,Bow of Precision,Origin,Martial Training,green,N,3,,,,,,,,"If the Trained Character has Ranged Combat, it gains INI+1 and POW/HP +1/+0.",,
+52342f49c67c,Blossom Elf,Origin,"Character, Elf",green,N,4,1,4,4,2,3,,,"Whenever a Character you control in the same Lane gains ASP, it gains that many ASP plus one.",,
+8a1795362241,Centaur,Origin,"Character, Centaur",green,N,3,1,4,3,3,4,,,{T}: Protective Shield.,,
+f9e32ab1e15e,Council of Elders,Origin,Ritual,green,N,4,,,,,,,,"If you control three or more Elves, play with the top card of your Spell Deck revealed. If it's an Elf, you may summon it by paying its regular ASP.",,
+72d6bedc4acb,Dragon Babe,Origin,"Character, Dragon",green,N,3,1,2,2,2,2,,,"If you control a LVL 2 Resource, {2}, {T}: Rise into Nidhogg, The Appealing Dragon.",,
+77a9074fdefa,Druide of the Earth,Origin,"Character, Druide",green,K,2,1,4,3,2,2,,,"If you control a LVL 2 Resource, {2}, {T} : Rise into Drumin, The Druide.",,
+317df72e8a79,"Drumin, the Druid",Origin,"Epic Character, Druide",green,K,4,2,2,3,4,5,,,"If you control Druide of the Earth, pay {2} less to summon Drumin, the Druide, then Rise Druide of the Earth. (Place this card on Druide of the Earth. Transfer all Counters from Druide of the Earth to it. Then sacrifice Druide of the Earth.)
+
+{1}, {T}: Create a Fundamental Training called Growth and attach it to target Character you control. It has: ""Trained Character gains POW/HP +2/+1.""",,
+21180c53785f,Earthquake,Origin,Ritual,green,L,5,,,,,,5,,"When this Ritual enters play, deal 1 DMG to every Character in target War Zone.
+
+Second Round: At the beginning of your turn, deal 1 DMG to every Character with Flying in the Combat Zone.
+
+Third Round: At the beginning of your turn, Spread all Floras you control. (Create a copy of each Flora and place it in an unoccupied Slot in the same Lane.) Then banish Earthquake.",,
+1aecdee9dd29,Elf Warrior,Origin,"Character, Elf",green,N,4,1,4,5,2,4,,,Speed,,
+be58915911ff,Elven Gatekeeper,Origin,"Character, Elf",green,N,4,1,4,5,2,4,,,"When this Character enters play, target Character gains Tactical Shift until the end of the round.",,
+d7189032ca53,Elvish Boots,Origin,Martial Training,green,K,3,,,,,,,,Trained Character gains Tactical Shift.,,
+0d7d368b033d,Elvish Archer,Origin,"Character, Elf",green,K,2,1,2,4,1,2,,,"Ranged Combat.
+
+If a Charakter with Flying takes DMG by Elvish Archer, that Character loses Flying",,
+65e3790e2bde,Elvish Armor,Origin,Martial Training,green,K,2,,,,,,,,Trained Character gains POW/HP +0/+2.,,
+90a189a911a2,Elvish Picker,Origin,"Character, Elf",green,N,2,1,3,4,2,2,,,"If you control three different card types in the same Lane, Eifish Picker gains {1} ASP at the beginning of your turn.",,
+19a4f837a013,Fighting Tree,Origin,"Character, Tree",green,L,6,2,5,3,6,8,,,"Punch
+
+Dual Slot",,
+b791a4b77dea,Flute of Harmony,Origin,Spell,green,N,3,,,,,,,,"Draw three cards in any combination from your Spell- or Pooldeck and put them into the Banish Zone face down. You may look at them at any time and you may play one Flora card among the cards banished this way without paying its ASP cost as if it had Surge. At the end of this round, shuffle the remaining cards banished this way into your Spell Deck.",,
+1a4c5921226a,Fog,Origin,Spell,green,N,4,,,,,,,,All Characters you control gain Untargetable until the end of this round. (They can't be targeted by spells or abilities your opponents control until the end of this round.),,
+651d4b62463f,"Galion, Conquerer of Shadows",Origin,"Epic Character, Elf",green,N,4,2,4,4,3,3,,,{2}: Target Artifact becomes Untargetable.,,
+44eafe0fde17,Gardener,Origin,"Character, Elf",green,K,3,1,2,2,1,1,,,"{2}, {T}: Create one 1/2 Creeper Plant Token in target Slot in the same Lane.",,
+674a39de33cb,"Garran, Ironroot Protector",Origin,"Character, Flora",green,N,3,1,3,3,3,4,,,Punch,,
+9ffef488db12,Green Dragon,Origin,"Character, Dragon",green,F,5,2,6,7,4,4,,,Flying,,
+7ff079424c21,Luminary of Growth,Origin,"Character, Elf",green,N,4,1,3,3,1,2,,,"Hideout
+
+When this Character enters play or is turned face up, create two 1/2 Creeper Plant Tokens to two target Slots.",,
+c0f508adda10,Mammoth,Origin,"Character, Mammoth",green,N,4,2,4,3,3,4,,,"When this Character enters play, it fights up to one target Character in the same Lane. If it survives the fight, regenerate Mammoth completely.",,
+b8183c47968f,"Nidhogg, the Appealing Dragon",Origin,"Epic Character, Dragon",green,L,6,2,3,4,4,5,,,"If you control Dragon Babe, pay {3} less, then Rise Dragon Babe. (Place this card on Dragon Babe. Transfer all Counters from Dragon Babe to it. Then sacrifice Dragon Babe.)
+Flying
+
+Punch
+
+{2}: This Character gains POW/HP +1/+1 until end of turn.",,
+8388a8d3b7ee,"Paki, Master Marksman",Origin,"Epic Character, Human",green,L,4,2,3,5,2,3,,,Ranged Combat,,
+5a7e07e7b8f2,Peace of Mind,Origin,Spell,green,K,3,,,,,,,,Characters your opponent controls in target War Zone can’t attack this round.,,
+16c1c51d8a71,Porcupine Giant,Origin,"Character, Giant",green,N,5,2,5,3,4,6,,,"Thorn Defense
+
+Dual Slot",,
+f125c65067e9,Power of Nature,Origin,Artifact,green,N,2,,,,,,,,"{3}, {T}: Put up to 2 POW/HP +1/+1 Counter on up to two target Characters.",,
+b62601d7c3cb,Ranger,Origin,"Character, Human",green,K,3,1,3,3,2,3,,,,,"""I need no map. The trees remember the way."""
+0bd5330a4a97,Ring of Nature,Origin,Mythic Artifact,green,F,2,,,,,,,,"Whenever a Character you control attacks, it gains Punch.
+
+{T}: Gain {1} ASP.",,
+4e8784c39ff5,Seed,Origin,Spell,green,K,2,,,,,,,,Create one 1/2 Creeper Plant Token in target Slot.,,
+8084f7f92e95,Seed Rain,Origin,Spell,green,N,3,,,,,,,,"Create one 1/2 Creeper Plant Token in target Slot. At the beginning the your next turn, if this Token is still in play, sacrifice it and put a 4/4 Giant Creeper Plant Token into the same Slot.",,
+92b34e515d41,Staff of Enchantments,Origin,Martial Training,green,L,3,,,,,,,,"Trained Character gains POW/HP +1/+1 for each Training you control in the same Lane. It has ""Whenever this Character attacks, look at the top five Cards of your Spell Deck. You may reveal a Training Card from among them and put it into your hand. Put the rest on top in any order of your Spell Deck and shuffle your Spell Deck.""",,
+eda57c1fdfdb,Strength,Origin,Martial Training,green,K,4,,,,,,,,Trained Character gains POW/HP +4/+2.,,
+7704f682146f,Talking Trees,Origin,Spell,green,K,3,,,,,,,,Choose 3 Creeper Plant Token in target Lane and fuse them into one 4/4 Giant Creeper Plant Token. Place the fused Token into an unoccupied Slot in the same Lane.,,
+7d08e47ec084,Thunderclap,Origin,Spell,green,N,6,,,,,,5,,Deal 1 DMG to every Character in target Lane. Deal X additional DMG for each Training you control in the same Lane.,,
+3a01cb13d5d6,Tracker,Origin,"Character, Human",green,K,4,1,4,4,2,3,,,"Hideout
+
+When this Character enters play or is turned face up, all other Characters you control gain INI+2 until end of this round.",,
+00e72eb238ce,Ulfreds Hornets,Origin,"Character, Insect",green,K,2,1,2,3,1,2,,,"Flying
+
+Targeted Strike",,
+6f6821ab8e4d,Wild Boar,Origin,"Character, Boar",green,K,4,1,3,3,2,2,,,"Hideout
+
+When this Character enters play or is turned face up, create one 2/2 Wild Boar Token to target unoccupied Slot in the same Lane.",,
+1081029876cb,Wind Whispers,Origin,Ritual,green,K,3,,,,,,,,"Whenever a Training you control enters play, target Character you control gains Tactical Shift until the end of the round.",,
+cde4a87c9714,Wood Elf,Origin,Elf,green,K,3,2,3,4,2,3,,,{2}: Create one 1/2 Creeper Plant Token in target Slot.,,
+a2ee59abf917,Wonders of Nature,Origin,Spell,green,K,3,,,,,,,,Create up to two 1/2 Creeper Plant Tokens in up to two target Slots.,,
+9b839bca238d,Woodland Hawk,Origin,"Character, Bird",green,K,2,1,2,3,1,2,,,Flying,,
+6071dd4ebf47,Creeper Field,Origin,Resource,green,N,,1,,,,,,,"{T}: Gain {1} ASP.
+
+{T}: Create one 1/2 Creeper Plant Token in target Slot in the same Lane.",,
+2dd321b46a33,Forest Dwellers,Origin,"Character, Human",green,K,2,1,2,2,2,2,,,"Tactical Shift
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+5da9bc3f1873,Elf of the Magical Encounter,Origin,"Character, Elf",green,K,3,1,2,3,1,2,,,"As long as this Character is trained, Training spells summoned in the same Lane cost {1} ASP less.
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+e63b8f30e203,Nature’s Ally,Origin,"Character, Elf",green,N,3,2,3,3,1,3,,,"When Nature's Ally enters play, create one 1/2 Creeper Plant Token in target Slot in the same Lane.
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+ea9d61987402,The Two Rivers,Origin,Resource,green,L,,2,,,,,,,"{T}: Gain {1} ASP.
+
+{T}: Gain {2} ASP. Activate only if you control three or more Unbound Characters in the same Lane.",,
+91c022a42ae8,The Unified,Origin,"Character, Human",green,K,3,2,3,3,1,3,,,"When this Character enters play, create a Training called Growth with “Trained Character gains POW/HP +2/+1” and attach it to target Character you control in the same Lane.
+
+{T}: Gain {1} ASP, as long as this character remains Bound.",,
+075a46df9f69,Ulfred Brigbuck’s Garden,Origin,Epic Resource,green,F,,2,,,,,,,"Every Flora in this Lane gains RES+1 and POW/HP +1/+1.
+
+{T}: Gain {1} ASP.",,
+4121838c0457,"Ulfred Brigbuck, the Wise",Origin,"Mythic Character, Elf Advisor",green,F,3,2,5,,,,,,"Advisor
+
+{T}: Create one 1/2 Creeper Plant Token in target Slot.
+
+{2}, {T}: Choose 3 Creeper Plant Tokens in target Lane and fuse them into one Giant Creeper Plant Token. Place the fused Token on an unoccupied Slot in the same Lane.",,
+a7c27e478566,Creeper Plant Token,Origin,"Token Character, Flora",green,T,,,1,1,1,2,,,,,"""With every root, with every seed, it spreads relentlessly."""
+736feb66d12e,Giant Creeper Plant Token,Origin,"Token Character, Flora",green,T,,,2,3,4,4,,,Punch,,
+6598d8140c98,Growth,Origin,"Martial Training, Token",green,T,,,,,,,,,Trained Character gains POW/HP +2/+1.,,
+c91eb97c6ad2,"Elaria Windwhisper, Keeper of the Gale",Origin,Green Sovereign,green,F,,,,,,,,30,"All Flora you control gain RES+1, INI+1 and POW/HP +1/+0.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{3}, {T}: Spread.
+
+{0}: Target Character you control gains Tactical Shift until the end of the round. Use this ability once per round.",,
+0ff8b9ee0bf8,Growing Beast,Origin,"Character, Bear",green,L,4,2,1,1,1,1,,,"Punch
+
+Growing Beast gains RES+1, INI+1 and POW/HP +1/+1 for each other Unbound Character you control in the same Lane.",,
+6e4b640b22a2,Hornets Rage,Origin,Spell,green,F,6,,,,,,5,,Deal 2 DMG to up to five target Characters,,
+5e2bfbfdcfd8,Solidarity,Origin,Martial Training,green,N,2,,,,,,,,Trained Character gains POW/HP +1/+1.,,
+7c202ab6d014,Fighting Tree,Origin,Token,green,T,,,,,,,,,Part 2,,
+0a443f510b68,"Barabas Ulfaran, Prince of Nachtheim",Origin,Black Sovereign,black,F,,,,,,,,30,"Lord of the Dead - Whenever a nontoken Character you control dies, create one 2/2 Skeleton Token.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 4 LP: Return target Undead Character from your Graveyard to play in target Slot.
+
+Pay 2 LP, Sacrifice two Characters you control: Destroy target Character. You can use this ability only once per round.",,
+05952de3c9a8,"Baal, the Necromancer",Origin,"Epic Character, Undead",black,K,4,2,4,3,3,4,,,"If you control Nascent Necromancer, pay {2} less to summon Baal, the Necromancer, then Rise Nascent Necromancer. (Place this card on Nascent Necromancer. Transfer all Counters from Nascent Necromancer to it. Then sacrifice Nascent Necromancer.)
+
+{1}, {T}, Banish two cards from your Graveyard: Create one Skeleton Token in target War Zone. (It's a POW/HP 2/2 Character with ""This Character must attack every round, if able. Sacrifice it at the end of the round."")",,
+c1c6a21bf25a,Banner of Darkness,Origin,Mythic Artifact,black,N,3,,,,,,,,All non-black Characters gain RES-1 and INI-1.,,
+919b74f3127f,Barbarian Mercenary,Origin,"Character, Human",black,K,2,1,3,3,2,2,,,This Character can't block.,,
+67b580a36b0c,Black Mage,Origin,"Character, Wizard",black,N,3,2,3,2,2,2,,,"{T}, Pay 1 LP: Target Character gain RES-1 until the end of the turn. This effect ignores the target's Magic Resistance.",,
+94e5bfd53f7f,Blood,Origin,Spell,black,K,2,,,,,,,,"Choose one: Sacrifice target Character you control, if you do gain {1} ASP or Bloodrush 1 to target Character you control.",,
+c1ab454e9b80,Blood Chalice,Origin,Artifact,black,N,2,,,,,,5,,"{2}, {T}: Put 1 Poison Counter on each of up to two target Characters.",,
+c4b764c986f7,Bloodmonger Maiden,Origin,"Character, Human",black,N,4,2,3,2,1,3,,,"Whenever a Human you control dies, you may pay 2 LP. If you do, create one 2/2 Barbarian Mercenary Token in target War Zone. It has ""This Character can't block.""",,
+0d82085169e2,Blood Ritual,Origin,Spell,black,K,2,,,,,,3,,"As an additional cost to cast Blood Ritual, deal X DMG to target Character you control, where X can’t be greater than that characters HP.
+
+Blood Ritual deals X DMG to target Character your opponent controls.",,
+5725405ab80e,Blood Rush,Origin,Spell,black,N,3,,,,,,,,Target Character you control gains Bloodrush 2.,,
+32432757f4c3,Blood Victim,Origin,Spell,black,N,3,,,,,,,,"As an additional cost to cast Blood Victim, sacrifice target Resource.
+
+Draw a card.",,
+e938c47bc748,"Buragaor, Flying Demon",Origin,"Character, Demon",black,L,6,2,6,5,6,2,,,"Flying
+
+At the beginning of your turn this Character deals 1 DMG to another Character you control or to your Sovereign.",,
+1b0ed703e111,Dark Rider,Origin,"Character, Undead",black,L,5,2,5,4,4,5,,,"Flying
+
+Poisoned",,
+a9284ecc64ca,Dark Sorcerer,Origin,"Character, Wizard",black,N,3,1,3,3,2,3,,,"{T}: Discard two cards, then draw one card.",,
+405fd7c3f7c2,Demonflame,Origin,"Character, Demon",black,K,2,1,3,3,2,2,,,,,"""Your screams are but whispers in the void, and your struggles only fuel my hunger."""
+19d6deca0f37,Demonic Fire,Origin,Ritual,black,F,7,,,,,,6,,"When this Ritual enters play, create one 2/2 Mutant Demon Token in target War Zone. It has ""{2}, {T}: Rise"".
+
+Second Round: At the Beginning of your turn choose another War Zone. Demonic Fire deals 2 DMG to each Character in that chosen War Zone.
+
+Third Round: At the beginning of your turn repeat this damaging ability in the same War Zone. Sacrifice Demonic Fire then.",,
+dc4f714c34f5,Demon of the Avatar,Origin,"Character, Demon",black,L,4,2,5,4,3,4,,,"Flying
+
+{2}: Sacrife X Characters you control, deal X DMG to target Character.",,
+ca942e423d53,Demon Pactmaker,Origin,"Epic Character, Human",black,K,5,2,4,4,3,3,,,"If you control Demon Summoner, pay {2} less to summon Demon Pactmaker, then Rise Demon Summoner. (Place this card on Demon Summoner. Transfer all Counters from Demon Summoner to it. Then sacrifice Demon Summoner.)
+
+{1}, {T}, Banish two Characters from your Graveyard: Create one 2/2 Mutant Demon Token in target War Zone. It has ""2, {T}: Rise.""",,
+9f777da6bd74,Demon Summoner,Origin,"Character, Human",black,K,3,1,3,3,3,2,,,"If you control a LVL 2 Resource, {2}, {T}: Rise into Demon Pactmaker.",,
+e42be2632537,Devotion,Origin,Spell,black,N,3,,,,,,,,Discard X cards from your hand. Search your Spell Deck for a card with cost X or less and add it to your hand. Then shuffle your Spell Deck.,,
+76f9be20e8ee,Exodus,Origin,Spell,black,N,3,,,,,,4,,Destroy target Character.,,
+a29f9930b668,Fraud,Origin,Spell,black,L,5,,,,,,,,Target Opponent regenerates 2 LP and you lose 2 LP. Then return a character from that opponents Graveyard under your control into target War Zone . It gains Bloodrush 2.,,
+2b8d1fd6720b,"Half Alive, Half Dead",Origin,Spell,black,K,3,,,,,,,,Search your Graveyard for an Undead Character and place it in target War Zone.,,
+5b8bdb6e970f,Knight of Dread,Origin,"Character, Human",black,N,4,2,4,4,4,4,,,This Character can only be blocked by Characters with 3 or more POW.,,
+17e9cc9042be,"Master Thief, Varic",Origin,"Epic Character, Human",black,N,5,2,3,4,2,3,,,"{2}, {T}: Gain control of target Training or Artifact. Your opponent creates one 2/2 Mutant Demon Token in a War Zone of their choice. It has ""{2}, {T}: Rise"".",,
+67765bdf5c4f,Morning Star,Origin,"Character, Assassin",black,N,3,1,3,2,1,2,,,"Ranged Combat
+
+When this Character deals DMG another Character, put 1 Poison Counter on that Character.",,
+81b5fc9a7c85,"Murderous Assassin, Valara Ulfaran",Origin,"Epic Character, Human",black,N,4,2,4,5,3,5,,,Targeted Strike,,
+3606c47a467a,Nascent Necromancer,Origin,"Character, Human",black,K,2,1,3,2,2,2,,,"If you control a LVL 2 Resource, {2}, {T}: Rise into Baal, the Necromancer.",,
+edf74e8feff0,No Reliance,Origin,Artifact,black,N,3,,,,,,5,,"{1}, {T}, Sacrifice one Character you control: Destroy target Character. Then banish No Reliance.",,
+7e5307118daf,Outcast from Falkenheim,Origin,"Character, Human",black,N,4,1,3,3,3,4,,,Poisoned,,
+7949f249a2c8,Poisoned Blood,Origin,Spell,black,K,3,,,,,,4,,"This Spell deals 1 DMG to target Character, then put 1 Poison Counter on it.",,
+667dfd082c45,"Raymond, Harbinger of Cunning",Origin,"Epic Character, Human",black,F,5,2,5,4,4,4,,,"Whenever a nontoken Undead Character enters play, draw one card, then discard a card.",,
+a95f22a65ac0,Revival,Origin,Spell,black,K,2,,,,,,,,Search your Graveyard for an Undead Character and add it into your hand.,,
+3fbb369b0b3d,Ring of Might,Origin,Artifact,black,F,2,,,,,,,,"{T}: Gain {1} ASP.
+
+{1}: Create one Blood Trinket Token. It has ""Sacrifice this Artifact: Gain {1} ASP.""",,
+060880ca0fac,Sacrifice,Origin,Spell,black,K,4,,,,,,,,Target opponent sacrifices a Character.,,
+8595a7eba8be,Sell-Sword,Origin,"Character, Human",black,K,3,1,3,3,3,3,,,"Punch
+
+If this Character survives combat, roll a D6:
+On a 1-2: It changes sides. Your opponent may place it unturned to an unoccupied Slot in the same Lane. Sacrifice it at the end of the next round.",,
+3bcb96637a4b,Skeleton Warrior,Origin,"Character,Undead",black,K,2,1,1,1,2,2,,,"This Character must attack every round, if able.",,
+71bad37ab4ab,Slave of the Abyss,Origin,"Character, Human",black,K,2,1,1,2,1,1,,,"Hideout
+
+As this Character enters play or is turned tace up, it immediately explodes, dealing 1 DMG to all Characters your opponent controls and to itselt in the same War Zone.",,
+886cfb7e623d,Storm of Violence,Origin,Martial Training,black,N,3,,,,,,,,"You may only train a Legendary, Fabulous, or Epic Character.
+
+The trained Character gains POW/HP +1/+0.
+
+Whenever the trained Character destroys another Character, put the top card of your Spell Deck into your Graveyard.",,
+aad01215d642,Two-Headed Demon,Origin,"Character, Demon",black,K,5,2,3,6,2,2,,,"If you control Mutant Demon Token, pay {2} less to summon Two-Headed Demon, then Rise Mutant Demon Token. (Place this card on Mutant Demon Token. Transfer all Counters from Mutant Demon Token to it. Then sacrifice Mutant Demon Token.)
+
+This Character comes into play with Bloodrush 4.",,
+736e354e5c73,Undead Priest,Origin,"Character, Undead",black,K,3,2,4,3,3,2,,,Poison,,
+80f0afd17799,Vampire Soldier,Origin,"Character, Undead",black,N,4,2,4,3,3,4,,,Poison,,
+62dc57093720,Visitation of the Plague,Origin,Spell,black,N,5,,,,,,4,,"Choose up to two War Zones. Deal 2 DMG to each Character in the first chosen War Zone. If you chose a second War Zone, deal 1 DMG to each Character there.",,
+e99d10b4c63c,Xalgiris Staff of Darkness,Origin,Mythic Artifact,black,N,4,,,,,,,,Summoning a Demon card or creating a Demon costs {1} less.,,
+f16ddfd90267,Zombie Warrior,Origin,"Character, Undead",black,K,2,1,2,1,2,2,,,,,"""Once a warrior, now just hunger."""
+937feff9ef16,Archdemon Kangor,Origin,"Mythic Character, Demon Advisor",black,L,5,2,5,,,,,,"Advisor
+
+Whenever a Character your opponent controls dies, you may pay {2}. If you do create one 2/2 Mutant Demon Token in target War Zone. It has ""{2}, {T}: Rise"".
+
+{T}, Sacrifice another Character: Create one Blood Trinket Token.",,
+b4e0818d50d6,Demon Brood,Origin,"Character, Demon",black,K,3,1,4,2,3,1,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.
+
+{2}, {T}, Sacrifice one Bound Character, sacrifice Demon Brood: Search your Spell Deck or Pool Deck for a card and add it into your hand. Then shuffle your Decks.",,
+e13eaaba4aa6,Blood Priest,Origin,"Character, Undead",black,K,2,1,2,2,2,2,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.
+
+{1}: Create one Blood Trinket Token. It has ""{T}, Sacrifice this Artifact: Gain {1} ASP.""",,
+58811e24cbdf,Burial Chamber,Origin,Resource,black,K,,2,,,,,,,"When this Resource enters play, create one 2/2 Skeleton Token. It has 'This Character must attack every round, if able. Sacrifice it at the end of the round.""
+
+{T}: Gain {1} ASP.
+
+{T}: Sacrifice one Character you control: Create one 2/2 Skeleton Token. It has 'This Character must attack every round, if able. If it attacked, sacrifice it at the end of the round.""",,
+eeda1652be0d,Poison Cellar,Origin,Resource,black,L,,2,,,,,,,"This Resource enters play with 3 Cellar Counters.
+
+{T}: Gain {1} ASP.
+
+{1}, Remove 1 Cellar Counter: Put 1 Poison Counter on target Character.",,
+2f56ce5b8c11,Ritual Place,Origin,Resource,black,L,,2,,,,,,,"{T}: Gain {1} ASP. Gain {2} ASP instead, if you control at least three Resources with different names.
+
+{T}: Create one Blood Trinket Token. It has ""{T}, Sacrifice this Artifact: Gain {1} ASP.""",,
+4fd96563d00f,Harmful Demon,Origin,"Character, Demon",black,K,1,1,2,2,3,2,,,"When this Character comes into play, you lose 1 LP.
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+49d2118d9834,Xalgiris Tower,Origin,Epic Resource,black,L,,2,,,,,,,"At the beginning of your turn, roll a D6:
+
+On a 1-3: Xalgiris Tower deals 1 DMG to all Characters you control in its Lane.
+
+On a 4-6: All Characters you control in its Lane may move to the Combat Lane, without turning and using an action. They gain Bloodrush 3.
+
+{T}: Gain {1} ASP.",,
+67529f84897b,Barbarian Mercenary Token,Origin,"Token Character, Human",black,T,,,3,3,2,2,,,Barbarian Mercenary Token can't block.,,
+65c49f2f6a0d,Blood Trinket,Origin,Token Artifact,black,T,,,,,,,,,"{T}, Sacrifice this Artifact: Gain {1} ASP.",,
+2f27c4c91fed,Mutant Demon Token,Origin,"Token Character, Demon",black,T,,,3,2,2,2,,,"If you control a LVL 2 Resource, {2}, {T}. Rise (Search your Spell Deck for a card named Two-Headed Demon and place it on this slot. Transfer all Counters from Mutant Demon Token to it. Then destroy Mutant Demon Token)",,
+e5724745b956,Skeleton Token,Origin,"Token Character, Undead",black,T,,,1,2,2,2,,,"This Character must attack every round, if able.
+If this Character attacked, sacrifice it at the end of the round.",,
+fe9281027597,"Vorathis, Demonlord General",Origin,Black Sovereign,black,F,,,,,,,,30,"Whenever you would gain ASP from a source with Bloodmage, you may create one Blood Trinket Token instead.
+
+Bloodmage
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 5 LP: Summon a Demon card from your hand.",,
+95cf3ee93471,Ascendant Darklord,Origin,"Character, Undead",black,F,5,,5,3,3,5,,,"Whenever this Character destroys another Character, put a Level Counter on it.
+
+Once it has 3 Level Counters, you may Rise it for 0 into Kalakai, Undead Emissary.",,
+026046c8cba1,Dark Infiltration,Origin,Sovereign Training,black,F,,,,,,,,,"Attach this Training only to your Sovereign. The trained Sovereign has:
+""{T}, Pay 2 LP: Choose up to 3 target Characters in target Safety Zone your opponent controls. Put 1 Poison Counter on each chosen Character. Sacrifice Dark Infiltration at the end of this round.""",,
+b1bf248ba944,"Kalakai, Undead Emissary",Origin,"Mythic Character, Undead Advisor",black,F,6,,6,,,,,,"If you control Ascendant Darklord, pay {2} less to summon Kalakai, Undead Emissary, then Rise Ascendant Darklord. When this card is Risen or comes into play, you must place it in the Advisor Slot. If there is already an Advisor, sacrifice that Character and is replaced by this card.
+
+Pay 2 LP and sacrifice another Character you control: Target Character loses 2 HP and is Zombified until the end of next round. If the Character dies while being Zombified, it becomes a 1/2 Zombie Token under your control.",,
+54b16b340768,Merciless Warrior,Origin,"Character, Undead",black,L,5,2,5,4,4,3,,,Untargetable,,
+33bb522fa82f,"Nekravar, Advisor of the Damned",Origin,"Mythic Character, Undead Advisor",black,F,5,2,5,,,,,,"Advisor
+
+{3}, {T}, Sacrifice another Character you control: Summon target Character from your graveyard without paying its ASP cost, it gains Bloodrush 2.",,
+540714eca9d2,Prison,Origin,Fundamental Training,black,N,4,1,,,,,5,,"Intiltrate - When this Training enters play, train target Character an opponent controls in it's safety zone. That character loses all abilities (it has no rules text) and its base INI, RES, and PW become 0. Its HP remains unchanged.",,
+56cd5aa44acb,Zombie Token,Origin,"Token Character, Undead",black,T,,,1,1,1,2,,,,,"""Still dead. Still dangerous."""
+bed8b1e3fa7a,"Kaela al Shamal, Shaman King",Origin,Orange Sovereign,orange,F,,,,,,,,30,"{T}, Pay 1LP : Gain {1} ASP.
+
+{T}, Pay 2 LP: Create one Shadow Token in target War Zone.
+
+{1}: Once until the end of the round, when you create the fourth Shadow Token in any Lane, you may create one 1/2 Ghost Token.",,
+ce9ee0765699,Amulet of Ghosts,Origin,Artifact,orange,N,3,,,,,,,,"Whenever a Spirit dies, put 1 Time Counter on Amulet of Ghosts.
+
+{3}, remove 4 Time Counters: Create a Copy of target Spirit you control.",,
+4957f7df2018,Avatar of Control,Origin,"Character, Spirit",orange,F,5,2,5,5,4,6,,,"Flying
+
+If you control two other Spirits in the same Lane, Avatar of Control gains Spectral Ward.",,
+e89de24584da,Bloodline Scion,Origin,Fundamental Training,orange,K,3,,,,,,,,"If Trained Character dies or is banished, create a copy of it and place it in this Slot.",,
+f38ce3cc7866,Bowpiper,Origin,"Character, Converter",orange,N,3,1,2,4,0,1,,,"Ranged Combat
+
+Paralyze - When this card uses Ranged Combat, roll a D6 for each Character in the affected War Zone. On a 1-3, turn that Character. It remains turned until the end of the next round.",,
+90993b867fda,"Chaska, Forefather of Kaela",Origin,"Epic Character, Spirit",orange,L,5,2,5,5,4,4,,,"Spectral Ward
+
+Whenever this Character attacks, deal 1 DMG to target Character in the same Lane.",,
+6fe5605af54f,Chaska’s Flag of the Ghosts,Origin,Mythic Artifact,orange,L,3,,,,,,,,"In every War Zone in which you control a Shadow Token, non-Spirit Characters gain RES-1, INI-1 and POW/HP -1/-1.",,
+952e6b9a23d6,Cocoon,Origin,Artifact,orange,L,3,,,,,,,,{T}: Create one 1/1 Spectral Moth Token with Flying.,,
+3cd2a8639d1e,Cocoon Lover,Origin,"Character, Human",orange,K,2,1,2,2,1,1,,,"When this Character enters play, create one 1/1 Spectral Moth Token with Flying.",,
+312c86deea09,Cursed Command,Origin,Artifact,orange,N,3,,,,,,,,"Cursed Command enters play with 2 Curse Counters.
+
+{T}, Remove a Curse Counter: Change the target of a spell or activated ability an opponent controls with a single target. (You may not change to an illegal target.)
+
+If this Artifact has no Counters on it, sacrifice it.",,
+043bfa0c36c2,Dance of Illusion,Origin,Spell,orange,K,3,,,,,,4,,"Choose a War Zone. Roll a D6 for each Character in this War Zone:
+
+On a 1, 3 or 5: The Character gains RES+1, INI+1 and POW/HP +1/+0 until the end of the round.
+
+On a 2, 4 or 6: If the Character isn't turned, turn it. It doesn't unturn at the beginning of the next round.",,
+c41471d03c95,Drums of the Jungle,Origin,Fundamental Training,orange,K,2,,,,,,4,,Trained Character has Madness.,,
+e156e73a15e6,Ethereal Enchantment,Origin,Martial Training,orange,K,3,,,,,,,,"Train target Moth. It gains RES+1, INI+1 and POW/HP +1/+1.",,
+01f54e532a45,Ghost,Origin,"Character, Spirit",orange,K,2,1,2,2,1,2,,,,,"""Whispers linger where footsteps have vanished."""
+0a16cf513a15,Ghostly Apparition,Origin,Spell,orange,N,2,,,,,,4,,"Choose a War Zone and roll a D6:
+
+On a 1-4: You may move a Character your opponent controls at random (roll a dice). If it is turned, unturn it. If it can't be moved (if there is no empty slot), turn it. It doesn't unturn at the beginning of the next round.
+
+On a 5-6: Ghostly Apparition deals 1 DMG to every Character your opponent controls in the Lane.",,
+cb96fccd4c3d,Ghost Mist,Origin,Spell,orange,L,5,,,,,,,,Create up to one Shadow Token in each Lane.,,
+c6b40d39e360,Ghost of the Alchemist,Origin,"Character, Spirit",orange,N,3,1,3,3,2,2,,,"When Ghost of the Alchimist enters play, target Character gains 1 RES-1 Counter. This effect ignores the target's Magic Resistance.",,
+c838e0dd9358,God of Ghosts,Origin,"Epic Character, Spirit",orange,L,5,2,5,5,3,3,,,"Spectral Ward
+
+Whenever another Spirit enters play, put 1 POW/HP +1/+1 Counter on God of Ghosts.",,
+7db045cfe0b0,Herbal Decoction,Origin,Spell,orange,K,3,,,,,,3,,"Until the end of this round target Character loses all abilities (it has no rules text) and its base, RES, INI and PW become 0. Its HP remains unchanged.",,
+7f3544c394ef,Mask of Illusion,Origin,Fundamental Training,orange,K,2,,,,,,4,,"Train target Character.
+
+At the beginning of the combat phase roll a D6 for every other Character your opponent controls in the same War Zone:
+
+On a 1,3 or 5: That Character destroys Mask of Illusion.
+
+On a 2, 4 or 6: That Character attacks the trained Character (without damaging it) and becomes turned.",,
+ae58645f146a,Medium,Origin,"Character, Human",orange,K,2,1,4,3,0,3,,,"{T}: Create one Shadow Token.
+{3}, {T}, Sacrifice three Shadow Tokens: Deal 2 DMG to target Sovereign.",,
+1624b327873a,Minor Illusion,Origin,Spell,orange,N,2,,,,,,4,,"Gain control of target Bound Character until the end of this round. If it is turned, unturn it. Move it to an adjacent Zone and turn it. If it can't be moved (if there is no empty slot), turn it. It doesn't unturn at the beginning of the next round.",,
+6830b6c6d13b,Mirrorof the Past,Origin,Artifact,orange,N,4,,,,,,,,"{T}, Sacrifice three Spectral Moth Tokens: Change the target of a spell or activated ability an opponent controls with a single target. (You may not change to an illegal target.)",,
+bd0b062c5404,"Mistheart, the Ghost Shaman",Origin,"Epic Character, Spirit",orange,N,5,2,5,3,1,2,,,"If you control Tribal Shaman pay {2} less to summon Mistheart, the Ghost Shaman, then Rise Tribal Shaman. (Place this card on Tribal Shaman. Transfer all countersfrom Tribal Shaman to it. Then sacrifice Tribal Shaman.)
+
+{1}, {T}, Sacrifice two Shadow Tokens: Create a Fundemantal Training Token called Mistheart's Punishment with ""This Character doesn't unturn anymore"" and attach it to target Character in the same Lane.",,
+eb8c29c13b61,Moth Conjurer,Origin,"Character, Moth",orange,K,3,1,3,3,1,2,,,{2}: Create one 1/1 Spectral Moth Token with Flying.,,
+fdbb1ca4f1a6,Mother of the Spectral Moth Swarm,Origin,"Character, Moth",orange,N,3,2,2,3,2,2,,,"Flying
+
+Surge
+
+When this Character enters play, target spell, or activated ability loses its rule text.",,
+1495d0f85b7d,Offspring,Origin,Spell,orange,N,3,,,,,,4,,"Banish target Character.
+
+At the beginning of the next round, return it to an unoccupied Slot under its owner's control. Put 1 RES+1 Counter and 1 POW/HP +1/+1 Counter on it.",,
+da098d4a667d,Oblation,Origin,Spell,orange,N,4,,,,,,,,Your opponent sacrifices a Character of their choice.,,
+968e9c9b9340,Palisades Wall,Origin,"Character, Barrier",orange,K,2,1,5,1,0,6,,,"Barrier
+
+Once per round, whenever this Character takes combat DMG, create one Shadow Token in the same Lane.",,
+3a77d05e439e,Pipe of Peace,Origin,Fundamental Training,orange,N,3,,,,,,3,,Trained Character can't attack anymore.,,
+86e5f7493528,Purple Smoke,Origin,Spell,orange,K,3,,,,,,,,Put 1 Madness Counter on up to two target Characters.,,
+b16f2cef8494,Ring of Ghosts,Origin,Mythic Artifact,orange,F,2,,,,,,,,"Once per Lane each round, when a Shadow Token enters play, you may choose a Character an opponent controls in that Lane. That Character gains Fear.
+
+{T}: Gain {1} ASP.",,
+121e923571ce,Shadow Caster,Origin,"Character, Human",orange,K,3,1,4,3,1,2,,,"{2}, {T}: Create one Shadow Token to target Slot in a War Zone.",,
+08d6aab91314,Small Ghost,Origin,"Character, Spirit",orange,N,2,1,3,3,1,2,,,Flying,,
+eedf4fa414f4,Snake Charmer,Origin,"Character, Human",orange,K,2,1,3,3,2,4,,,"When this Character blocks or is blocked by another Character, roll a D6:
+
+On a 1,3 or 5: Put 1 Poison Counter on Snake Charmer.
+
+On a 2, 4 or 6: The other Character retreats before taking DMG. If it cannot be moved (if there is no empty slot), it takes the combat DMG. Then turn it. It doesn't unturn at the beginning of the next round.",,
+a418fa031fd5,Snake Trap,Origin,"Character, Barrier",orange,K,3,1,4,1,1,6,,,Barrier,,
+d653b0a90cce,Soul of Confusion,Origin,"Character, Human",orange,N,3,1,3,4,3,6,,,"Madness
+
+{T}, Sacrifice three Moth Tokens: Deal 1 DMG to target Character.",,
+fe5594f8b521,Spectral Bolt,Origin,Spell,orange,K,3,,,,,,,,Create three 1/1 Spectral Moth Tokens with Flying.,,
+2ca81c284949,Spirit Wolf,Origin,"Character, Spirit",orange,K,3,1,3,3,3,2,,,Spectral Ward,,
+9843dc84cfaf,The Invisible Ones,Origin,"Character, Spirit",orange,N,4,2,4,3,3,3,,,"Flying
+
+Spectral Ward",,
+ed554508ec2c,Tribal Shaman,Origin,"Character, Human",orange,N,3,1,4,3,1,2,,,"If you control a LVL 2 Resource, {2}, {T}: Rise into Mistheart, the Ghost Shaman.",,
+4ea5d750264c,Tribal Witch,Origin,"Character, Human",orange,K,3,1,4,2,1,4,,,"{2}, Sacrifice one Moth or one Shadow: Create one 1/2 Ghost Token.",,
+75d05322f927,Wondrous Proliferation,Origin,Spell,orange,N,4,,,,,,,,"If possible double the number of Spectral Moth Tokens you control and put them in the same Lane, as the excisting ones.",,
+8e5e2aa69897,"Zaya, Blood Moon Oracle",Origin,"Epic Character, Human",orange,K,3,2,4,3,1,4,,,Whenever you create a Spectral Moth Token in this Lane create one additional Spectral Moth Token in the same Lane.,,
+f8f54eb384f6,"Chaska, King of the Legend",Origin,"Mythic Character, Spirit Advisor",orange,F,5,2,5,,,,,,"Advisor
+
+{T}: Target other Character you control gains Indestructible and Ecstasy.",,
+58c6296d259f,Cocoon Tree,Origin,Resource,orange,L,,2,,,,,,,"{T}: Gain {1} ASP. If you control at least five Moths, gain {2} ASP instead.",,
+2be30ae06344,Dance of Ghosts,Origin,"Resource, Fundamental Training",orange,F,,,,,,,,,"Train target Resource.
+
+{T}: Choose one: Unturn a Character bound to the trained Resource or turn a Character Bound to this Resource and gain {1} ASP. That Character doesn't unturn at the beginning of the next round.",,
+8e9c912a4b8b,"Hyla, Priest of the Swarm",Origin,"Epic Character, Moth",orange,K,2,2,2,2,1,2,,,"When this Character enters play, create two 1/1 Spectral Moth Tokens with Flying.
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+75136a6c8c41,Jungle of Spirits,Origin,Resource,orange,L,,2,,,,,,,"{T}: Gain {1} ASP.
+
+{T}: Create one Shadow Token in target War Zone.",,
+60da08322df4,Sacred Site,Origin,Resource,orange,N,,1,,,,,,,"{T}: Gain {1} ASP.
+
+{2}, {T}: Create one Smith Ghost Token and bind it to target Resource. It is a 0/4 Token Character, Spirit with Madness and ""{T}: Gain {1} ASP, as long as this Character remains Bound.""",,
+736c16e79e51,Shadow Summoner,Origin,"Character, Spirit",orange,N,2,2,4,3,1,3,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.
+{T}: Create one Shadow Token in target War Zone.",,
+b234e2c72130,Shaman Tent,Origin,Resource,orange,N,,2,,,,,,,{T}: Gain {1} ASP. Instead gain {2} ASP if you control 4 Shadow Tokens in the same Lane.,,
+e8cab20d3dd1,Ghost Token,Origin,"Token Character, Spirit",orange,T,,,2,2,1,2,,,,,"""Whispers linger where footsteps have vanished."""
+105a16271800,Mistheart’s Punishment,Origin,"Token, Fundamental Training",orange,T,,,,,,,,,Trained Character doesn't unturn anymore.,,
+d596b4ab8c08,Shadow Token,Origin,Token,orange,T,,,,,,,,,"Shadow Tokens can only be placed in any War Zone without occupying a Slot.
+
+If 4 or more Shadow Tokens are in a War Zone, all Characters in that zone gain Madness.",,
+1ee7165dceb1,Smith Ghost,Origin,"Token Character, Spirit",orange,T,,,1,2,0,4,,,"Madness
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+bdc5676aa323,Spectral Moth (Token),Origin,"Token Character, Moth",orange,T,,,1,2,1,1,,,Flying,,
+d1bc65b0894a,"Noctara, Queen of the Moths",Origin,Orange Sovereign,orange,F,,,,,,,,30,"Whenever your opponent summons a permanent card, create one 1/1 Spectral Moth Token with Flying.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP, Sacrifice three Spectral Moth Tokens: Change the target of a spell or ability your opponent controls.",,
+6994c8c0cb66,"Ghostking, Arvelian Seehoff of Falkenheim",Origin,"Epic Character, Spirit",orange,L,5,2,6,4,3,4,,,"Ghostking, Arvelian Seehoff of Falkenheim can be summoned only into a War Zone.
+
+When this Character enters play, each Character in the same War Lone gains Fear.",,
+0be3ffa6aafe,Spirit of Mastery,Origin,Fundamental Training,orange,L,5,,,,,,4,,"Banish target Character an opponent controls. Then this Training becomes a copy of that Character, summoned to target War Zone. It's a Spirit in addition to it's other types.
+
+If this Training dies, return the banished Character to play in a War Zone of it's owner's choice.",,
+3deaf0c12e9a,"Thalvoryn, Spirit of the Dragon",Origin,"Epic Character, Spirit",orange,L,5,2,4,4,4,3,,,Flying,,
+fdf26f59f959,Blooming Fruit,Origin,Resource,orange,F,,,,,,,,,"Every Character in the War Zone in this Lane gains RES-1.
+
+{T}: Gain {1} ASP.
+
+{T}: Gain {2} ASP. Activate only if you control three Shadow Tokens in this Lane.",,
+0a51a8d24aab,Antimagic,Origin,Equilibra Spell,grey,K,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+7c1cf722b924,Arena Training,Origin,Equilibra Resource,grey,N,,2,,,,,,,"Trainings in the same Lane cost {1} less to summon.
+
+{T}: Gain {1} ASP.
+
+{1}, {T}: Rise target Character you control that has Rise. The risen Character may move this round, without turning and using an action.",,
+811aa95b6da3,Divine Healing,Origin,Equilibra Spell,grey,N,2,,,,,,,,"Regenerate 1 HP on target Character or regenerate 1 LP to your Sovereign. Draw a card, then discard one at the end the round.",,
+02c11f77c340,Diverted Power,Origin,Equilibra Spell,grey,N,2,,,,,,3,,"Deal 1 DMG to target Character or reduce 1 LP to target Sovereign. Draw one card, then discard one at the end the round.",,
+5c96e294f555,Equilibra’s Blessing,Origin,Mythic Equilibra Artifact,grey,N,2,,,,,,,,"Each time a Character you control rises, put a Counter on Equilibra's Blessing.
+
+Remove 2 Counters from Equilibra's Blessing: All Characters you control gain RES+2, INI+2 and POW/ HP +1/+1 until the end of the round.",,
+32c4746cfc02,Fertile Field,Origin,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+340537081b2d,Forge,Origin,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+8716a22c39d2,Karma Hatchling,Origin,Spell,grey,K,2,,,,,,4,,"If target Character deals DMG during the next combat phase, it takes the same amount in return.",,
+669898a25bc7,Priest,Origin,Equilibra Character,grey,K,1,1,4,2,1,2,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+5260b7850ae3,Rise,Origin,Equilibra Spell,grey,K,1,,,,,,,,Rise target Character you control with Rise immediately without turning.,,
+6d4393f0ffb5,Rune of the Wise,Origin,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune
+
+For all Characters you control Rise costs {1} less permanentely.
+
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+b344d89af992,Sovereign’s Rune,Origin,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune
+
+{T}: Gain {1} ASP.
+
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+0d145a2c12b6,Smith,Origin,Equilibra Character,grey,K,2,1,3,2,2,3,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+bbeb89f7f038,Strong Mind,Origin,Fundamental Training,grey,K,2,,,,,,,,Target Character gains 1 RES+1 Counter.,,
+076f732826fb,War Drummer,Origin,Equilibra Character,grey,K,2,1,3,3,3,2,,,{2}: Target Character you control in the same Lane gains INI+1.,,
+7be6b2c6dd9a,Rule Card F,Origin,Front,grey,,,,,,,,,,"Phases and Start of the Round:
+
+1. Draw Step - Each player draws a card.
+
+2. Unturn Step each Player
+
+3. Mainphase Initiative Player (Turn Player 1)
+
+4. Mainphase Player 2 (Turn Player 2)
+
+5. Combat Phase (No cards are allowed to summon from the hand, only acticvate abilities.)
+
+6. Endphase (Both Players may summon only ""Spells"" from their hands. Initiative Player starts.)
+
+7. End of the Round",,
+54c2b5434ba5,Rule Card B,Origin,Back,grey,,,,,,,,,,"Combat Phase and Rules
+
+1. The Character with the highest INI begins. Choose a combat action for that character: attack, move or take no action.
+
+2. When attacking, the character is turned. The opponent may now choose a defender with an available action. In general, a character can only act when it is not turned.
+
+3. After resolving, the character with the next highest INI acts, and so on.
+
+4. Repeat this process lane by lane. Note: All combat actions are determined by the characters' INI values.
+
+Abilities from permanent cards (e.g. Equipment, Training, Artifacts) may be activated at any time.
+
+Important: If a character is turned, it loses its RES and INI until it is unturned.",,
+41fc1db142a6,"Thalor, Falcon of Accuracy",Origin,"Character, Bird",white,L,4,2,3,4,2,3,,,"Flying
+Targeted Strike",,
+ee37ad941634,"Zyphor, Teller of Lost Tales",Origin,"Epic Character, Human",white,F,4,2,3,3,2,4,,,"When this Character enters play, look at the top 3 cards of your Spell deck, draw one card and put the rest back on top in any order.",,
+f89474bf8e21,Poison Cellar,Origin,Resource,black,L,,2,,,,,,,"This Resource enters play with 3 Cellar Counters.
+
+{T}: Gain {1} ASP.
+
+{1}, Remove 1 Cellar Counter: Put 1 Poison Counter on target Character.",,
+4dfaf98899c6,Zayas Ritual,Origin,Ritual,orange,N,4,,,,,,,,"When this Ritual enters play, create two 1/1 Spectral Moth Tokens with Flying.
+
+{T}, Sacrifice three Spetral Moth Tokens: Replace one function of target spell or an activated ability your opponent controls. If it:
+Deals DMG ↔ Regenerate HP
+Gain stats ↔ Lose stats
+Lose Life ↔ Gain Life
+Sacrifice Zayas Ritual then.",,
+6c5c8b637b13,Warrior of the Shieldwall,Origin,"Character, Human",white,L,4,2,2,4,2,6,,,"Surge
+Skyguard
+{T}: Protective Shield.",,
+e0d1b5ae81c1,Staff of Enchantments,Origin,Martial Training,green,L,3,,,,,,,,"Trained Character gains POW/HP +1/+1 for each Training you control in the same Lane. It has ""Whenever this Character attacks, look at the top five Cards of your Spell Deck. You may reveal a Training Card from among them and put it into your hand. Put the rest on top in any order of your Spell Deck and shuffle your Spell Deck.""",,
+14d34d564f40,Zayas Ritual,Origin,Ritual,orange,N,4,,,,,,,,"When this Ritual enters play, create two 1/1 Spectral Moth Tokens with Flying.
+
+{T}, Sacrifice three Spetral Moth Tokens: Replace one function of target spell or an activated ability your opponent controls. If it:
+Deals DMG ↔ Regenerate HP
+Gain stats ↔ Lose stats
+Lose Life ↔ Gain Life
+Sacrifice Zayas Ritual then.",,
+f45318b662d3,Zayas Ritual,Origin,Ritual,orange,N,4,,,,,,,,"When this Ritual enters play, create two 1/1 Spectral Moth Tokens with Flying.
+
+{T}, Sacrifice three Spetral Moth Tokens: Replace one function of target spell or an activated ability your opponent controls. If it:
+Deals DMG ↔ Regenerate HP
+Gain stats ↔ Lose stats
+Lose Life ↔ Gain Life
+Sacrifice Zayas Ritual then.",,
+b161aa46b4fc,The Lie,Origin,Spell,black,F,4,,,,,,4,,"As an additional cost to cast The Lie, sacrifice a Character you control.
+
+Take control of target Character an opponent controls. Place it to target War Zone you control.",,
+20e39c2a1cce,The Lie,Origin,Spell,black,F,4,,,,,,4,,"As an additional cost to cast The Lie, sacrifice a Character you control.
+
+Take control of target Character an opponent controls. Place it to target War Zone you control.",,
+4a4352b21436,"Airell the Blue, Chairman of the Mages of Glimmertal",Alliances,Blue Sovereign,blue,F,,,,,,,,30,"{T}, Pay1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Return target Artifact to its owner's Hand.
+
+If you have the Initiative at the beginning of your turn, Artifact cards in your hand have Surge until the end of round.
+
+Activated abilities of Artifacts you control cost {1} ASP less to activate for their first activation each round.",,
+15835eb31d9b,"Thordrin Rockaxe, the Lerium Guardian",Alliances,Brown Sovereign,brown,F,,,,,,,,30,"Fortified - Whenever a trained Dwarf you control dies, you may sacrifice 2 Lerium for each Training attached to it. If you do, return that Training Card from the graveyard to play and attach it to target Dwarf.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 4 LP: Deal 2 DMG to all Characters in target War Zone or target Safety Zone in a Lane.",,
+cabc3019d4aa,"Pyrana, the Ember-Priestress",Alliances,Red Sovereign,red,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 3 LP: Create a Fire Token in each War Zone.
+
+{T}, sacrifice any number of Fire: Gain {1} ASP for each Fire you sacrificed, then lose that much LP.",,
+56350fb74aaf,"Lysera, The Last Light Fairy",Alliances,Purple Sovereign,purple,F,,,,,,,,20,"Fairies you control have Speed.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{1}, {T}: Put 1 RES+1 Counter on target Fairy.",,
+3a8a8e69b92d,Lindwurm Cleaver,Alliances,Mythic Martial Training,grey,L,3,,,,,,,,Trained Character gains Bludgeon.,,
+bd7753a9c13f,Loo Taku the Present,Alliances,Fundamental Training,grey,N,2,,,,,,,,"Train only a bound Character you control.
+
+Reduce the extra costs for summoning Characters and Trainings in this Lane by 1.",,
+e12aa2fa4cbf,Orc Baby,Alliances,"Character, Orc",red,K,2,1,2,2,2,2,,,Horde,,
+56bb2bb395a9,Rockaxe Loyalist,Alliances,"Character, Dwarf",brown,K,3,2,3,2,2,2,,,"Whenever you sacrifice a Lerium, Rockaxe Loyalist gains POW/HP +1/+0 until the end of round.",,
+bbe2d4d418d9,Stellar Magic,Alliances,Spell,purple,N,3,,,,,,5,,"Return an Artifact, Character, Ritual or Training to its owner's hand.",,
+8177aa3942b3,Lindwurm Cleaver,Alliances,Mythic Martial Training,grey,L,3,,,,,,,,Trained Character gains Bludgeon.,,
+beb922dbe7e7,High Curator of Tirash’Ka,Alliances,"Character, Lizard",blue,F,5,2,6,3,3,5,,,"{1}, {T}: Unturn your Sovereign. This ability costs an additional amount of ASP equal to the extra costs to summon this Character.",,
+92447c09a006,"Nik, Teller of Tales",Alliances,"Mythic Character, Human Advisor",grey,F,4,2,5,,,,,,"Activate only at the end of the round,
+{T} : Choose one:
+• Your Sovereign loses 1 LP. Draw 1 card.
+• Your Sovereign regenerates 1 LP. Banish 1 card from your hand.",,
+c118c281a4af,Gokuen Shijin,Alliances,"Character, Oni",grey,L,4,2,4,4,3,4,,,"Speed
+
+Combat Veteran - Whenever this Character survives the Combat Phase, choose one:
+• You gain {1} ASP or
+• Put 1 RES+1 Counter and 1 POW/HP +1/+1 Counter on it.
+
+(A Character survives if it is in a Slot in the War Zone and has performed a combat action at the end of the Combat)",,
+a5eba95f6cf6,Bärenkatapult,Alliances,Spell,red,L,3,,,,,,4,,"As an additional cost to cast this Spell, sacrifice a Character.
+
+Deal DMG to target Character equal to the sacrificed Character's POW.",,
+60f7f9f14112,Fizrak Lizard,Alliances,"Character, Lizard",blue,K,2,1,2,2,1,3,,,"When Fizrak enters play, put 1 Drenched Counter on target Character in the same Lane.",,
+4cf81255b90a,Sigun Stone Dragon,Alliances,"Epic Character, Stone",brown,L,4,2,4,3,4,4,,,Sacrifice 2 Lerium Tokens: This Character gains POW/HP +1/+1 until the end of this round.,,
+eccd4e0b8924,"Kimrethil, Space and Time Traveller",Alliances,"Mythic Character, Human Advisor",blue,L,5,2,5,,,,,,"Advisor
+
+{3}, {T}: Return a permanent you control with ASP costs to your hand. You may summon a permanent card trom your hand, without paying its ASP costs, if that permanent has equal or less ASP costs than the card you returned.",,
+72001b9155f6,"Rha'Velkor, Tribal Chief",Alliances,Blue Sovereign,blue,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Create a Shield of Water Training Token and attach it to target Character.
+
+{1}, Pay 4 LP: Unturn all Characters you control in target Lane. You can use this ability only once per round.",,
+194d57a03c83,"Thordrin Rockaxe, the Lerium Guardian",Alliances,Brown Sovereign,brown,F,,,,,,,,30,"Fortified - Whenever a trained Dwarf you control dies, you may sacrifice 2 Lerium for each Training attached to it. If you do, return that Training Card from the graveyard to play and attach it to target Dwarf.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 4 LP: Deal 2 DMG to all Characters in target War Zone or target Safety Zone in a Lane.",,
+75d9a9b0c6c8,"Lysera, The Last Light Fairy",Alliances,Purple Sovereign,purple,F,,,,,,,,20,"Fairies you control have Speed.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{1}, {T}: Put 1 RES+1 Counter on target Fairy.",,
+5a17332ef4d1,"Rha'Velkor, Tribal Chief",Alliances,Blue Sovereign,blue,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Create a Shield of Water Training Token and attach it to target Character.
+
+{1}, Pay 4 LP: Unturn all Characters you control in target Lane. You can use this ability only once per round.",,
+ff32861ae7cd,"Airell the Blue, Chairman of the Mages of Glimmertal",Alliances,Blue Sovereign,blue,F,,,,,,,,30,"{T}, Pay1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Return target Artifact to its owner's Hand.
+
+If you have the Initiative at the beginning of your turn, Artifact cards in your hand have Surge until the end of round.
+
+Activated abilities of Artifacts you control cost {1} ASP less to activate for their first activation each round.",,
+af84de8cee9f,Arcane Treasure,Alliances,Artifact,blue,L,4,,,,,,,,"Whenever a non-Token Artifact enters play under your control, put an Arcane Counter on this Artifact.
+
+{1}, {T}, Remove X Arcane Counters: Gain {X} ASP.",,
+a90675be6c80,Astral Lizard,Alliances,"Character, Lizard",blue,K,2,1,3,2,2,3,,,Magic Control,,
+a785e82afca6,Avatar of Water,Alliances,"Epic Character, Avatar",blue,F,6,2,4,5,5,5,,,"When this Character enters play, every Drenched Character gains 1 INI-1 Counter.
+
+Drowning Touch",,
+4e69f6d46008,Banner of the Tribes,Alliances,Mythic Artifact,blue,L,3,,,,,,,,"Characters you control gain INI+1 and RES+1 as long as they remain unturned.
+
+Characters you control gain POW/HP +1/+1 as long as they remain turned.",,
+7bae4f9627dc,Brilliance,Alliances,Fundamental Training,blue,K,3,,,,,,,,Trained Characters' activated Abilities cost {1} ASP less to activate. This can't lower the costs to less than {1}.,,
+567654ef1c3d,Captain Draken,Alliances,"Epic Character, Human",blue,L,5,2,4,4,4,5,,,"When this Character enters play, create a Mythic Artifact Token named The Seagull with ""{2}, {T}: Return a Character you control named Captain Draken to your hand."" and ""{3}, {T}: Put a Character card named Captain Draken from your hand into target Slot in your Back Row.""",,
+624a94566938,Collector of Treasures,Alliances,"Character, Human",blue,K,3,2,3,3,2,3,,,"When this Character enters play, return an Artifact Card from your Graveyard into your Hand.",,
+12f924c5df67,Drowning Grasp,Alliances,Spell,blue,K,2,,,,,,3,,Put a Drenched Counter on target Character.,,
+be16faa0ab54,Ebb Guardian,Alliances,"Character, Lizard",blue,K,2,1,3,3,2,3,,,{T}: Protective Shield.,,
+0c10dee7007c,Elixir of Life,Alliances,Spell,blue,N,2,,,,,,,,"Surge
+
+Unturn target Character you control.",,
+405f2379e206,Field Nullifier,Alliances,"Character, Wizard, Human",blue,L,4,2,4,2,1,4,4,,"Magic Control
+
+{2}, {T}: Return target Character in the same Lane to its owner's hand.",,
+4f47086e069f,Fizrak Lizard,Alliances,"Character, Lizard",blue,K,2,1,2,2,1,3,,,"When Fizrak enters play, put 1 Drenched Counter on target Character in the same Lane.",,
+f42c0ce5bf47,Foresight,Alliances,Spell,blue,N,3,,,,,,,,"Look at the top 4 Cards of your Spell Deck. Draw one of them, then put the rest back on top in any order.",,
+25acf35791e0,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,2,1,3,3,1,2,,,"Drowning Touch
+
+Ranged Combat",,
+d470e7645c97,Healing Water,Alliances,Spell,blue,K,2,,,,,,,,Regenerate up to 3 HP to target Character.,,
+5e8522c7fe93,High Curator of Tirash’Ka,Alliances,"Character, Lizard",blue,F,5,2,6,3,3,5,,,"{1}, {T}: Unturn your Sovereign. This ability costs an additional amount of ASP equal to the extra costs to summon this Character.",,
+5ecbf1e448cf,High Wizard of Glimmertal,Alliances,"Epic Character, Wizard, Human",blue,L,5,2,5,3,3,6,,,"If you control a Wizard of Glimmertal you may pay {2} less to summon High Wizard of Glimmertal. If you do, Rise Wizard of Glimmertal.
+
+Magic Control
+
+{2}, {T}: Neutralize target Spell on the Reaction Chain.",,
+db3db58a3612,Hydra,Alliances,"Character, Hydra",blue,N,5,2,3,3,5,4,,,"This Character enters play with 1 Head Counter.
+
+{3}, remove a Head Counter: Hydra regenerates 3 HP.",,
+a97f394bcbd4,Hydromancer,Alliances,"Character, Wizard, Human",blue,K,3,1,3,3,2,3,,,"When this Character enters play, put 1 Drenched Counter on target Character in the same Lane.",,
+844548a951dd,"Lezikar, Arcane Seer",Alliances,"Epic Character, Wizard, Human",blue,L,3,2,4,3,3,3,,,"{T}: Choose one -
+• Look at the top Card of your Spell and Pool Deck or
+• Look at the top Card of your opponent's Spell and Pool Deck.",,
+4e189ab10de5,Lizard Spear Carrier,Alliances,"Character, Lizard",blue,N,3,1,3,3,3,2,,,"Skyguard
+
+{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+8352764a0b45,Lizardkeeper,Alliances,"Character, Lizard",blue,N,5,2,4,4,4,2,,,"{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+4a5ee2bd8c85,Low Tide,Alliances,Fundamental Training,blue,K,3,,,,,,3,,"When this Training enters play, turn trained Character.
+
+Trained Character doesn't unturn at the beginning of each round. It gains ""{2}: Unturn this Character"".",,
+0aa429c87782,Magic Crystal,Alliances,Artifact,blue,K,2,,,,,,,,"When this Artifact enters play, draw a card.
+
+{2}, Sacrifice this Artifact: Draw a card.",,
+b9d33322eae7,Magic Seal,Alliances,Ritual,blue,N,3,,,,,,3,,"When this Ritual enters play, banish target Character.
+
+When this Ritual leaves play, its owner returns the banished Character into play under their control.",,
+53d01e94f46f,Orb of Supression,Alliances,Mythic Artifact,blue,L,2,,,,,,4,,"This Artifact enters play with 2 Arcane Counters on it.
+
+{1}, {T}, remove 1 Arcane Counter: Target Character loses all Rule Text until the end of round.
+
+When there are no Arcane Counters on this Artifact, sacrifice it.",,
+5f0c00d7ca7b,Orb of the Sea,Alliances,Artifact,blue,K,2,,,,,,4,,"This Artifact enters play with 2 Arcane Counters on it.
+
+{T}, remove 1 Arcane Counter: Turn target Character.
+
+When there are no Arcane Counters on this Artifact, sacrifice it.",,
+905e588e95ac,Orb of the Sky,Alliances,Artifact,blue,N,2,,,,,,,,"This Artifact enters play with 2 Arcane Counters on it.
+
+{1}, {T}, remove 1 Arcane Counter: Target Character gains Flying until the end of the round.
+
+When there are no Arcane Counters on this Artifact, sacrifice it.",,
+f0a5ee28f5e3,Ruinous Wave,Alliances,Spell,blue,K,2,,,,,,3,,"Surge
+
+Deal 2 DMG to target Character. If that Character is turned, deal 1 additional DMG.",,
+a0c2c17aa918,Ring of Waves,Alliances,Mythic Artifact,blue,F,2,,,,,,,,"Whenever 1 or more INI-1 counters are put on a Character your opponent controls, put 1 additional INI-1 Counter on it.
+
+{T}: Gain {1} ASP.",,
+9ffe27c0e07c,Sage of the Waves,Alliances,"Character, Lizard",blue,K,3,1,3,2,3,3,,,"When this Character enters play, you may turn or unturn target Character or Artifact.",,
+47e6ffe89105,Sea Pearl,Alliances,Artifact,blue,K,3,,,,,,,,"When this Artifact enters play, gain {1} ASP.
+
+{1}, Sacrifice this Artifact: Gain {2} ASP.",,
+cdcc720f3b9a,Seafolk of Glimmertal,Alliances,"Character, Human",blue,K,4,1,3,3,3,4,,,,,"""Glimmertal ahoi!"""
+3552a1c39cbf,Secrets of Glimmertal,Alliances,Fundamental Training,blue,L,4,,,,,,,,"Trained Character gains ""{2}, {T}: Look at the top 3 Cards ofyour Spell Deck, draw one of them, then put the rest on top in any order.""",,
+bafb35b753aa,The Seer,Alliances,"Character, Wizard",blue,N,2,1,2,3,2,3,,,"When this Character enters play, you may look at your opponent's hand.",,
+797b58059dd7,Teleportation,Alliances,Spell,blue,L,2,,,,,,4,,"Surge
+
+Banish target Character, then return it to target free Slot in a War Zone.",,
+1cc6fe2103e1,Tide Guardian,Alliances,"Character, Serpent",blue,K,2,1,3,3,2,3,,,Targeted Strike,,
+2e030f958a21,Wall of Water,Alliances,"Character, Elemental",blue,N,3,1,2,1,1,6,,,"Barrier
+
+Drowning Touch",,
+e8785e7e122c,Water Jet,Alliances,Spell,blue,K,1,,,,,,3,,"Move target Character without turning it or spending its action. If it can't be moved, turn it instead.",,
+158541af529a,Water Play,Alliances,Artifact Training,blue,N,3,,,,,,,,"When this Water Play enters play, attach it to target Artifact you control. It becomes a Character with Drowning Touch and RES 2, INI 2 and POW/HP 3/4. Place it into target War Zone.",,
+af8266b0af83,Waterpriestress,Alliances,"Character, Lizard",blue,N,4,2,3,2,1,4,,,"If you control Novice of the Water you may pay {2} less to summon Waterpriestress. If you do, Rise Novice of the Water.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.
+
+{3}: Target Character in the same Lane gains Unblockable until the end of this round.",,
+b51ddf894bb1,Wave,Alliances,Spell,blue,L,5,,,,,,5,,"Surge
+
+Deal 2 DMG to all non-Lizard Characters in target Lane.",,
+a6062ab2b5af,Wizard of Glimmertal,Alliances,Character,blue,N,3,1,3,3,3,3,,,"Magic Control
+
+If you control a LVL 2 Resource, {2}, {T} Rise into High Wizard of Glimmertal.",,
+b554688173c7,Wizard of Lizards,Alliances,"Character, Lizard Wizard",blue,K,2,1,3,3,2,2,,,"Magic Control
+
+When this Character enters play, unturn target Character you control in the same Lane.",,
+197de1094861,"Airell's Assistant, Magician Gordos",Alliances,"Mythic Character, Human Advisor",blue,F,6,2,5,,,,,,"Magic Control
+{3}: Return target Artifact to its owner's Hand.
+{T}: Return target Token permanent to its owner's Hand.",,
+2d6656467406,Arcane Channeler,Alliances,"Character, Human, Wizard",blue,N,4,2,3,2,1,3,,,"Magic Control
+
+{T}: Gain {1} ASP as long as this Character remains Bound.
+
+{1}, {T}: Increase the Spellpower of target Spell, Ability or Training by 1.",,
+4530a52b7a09,Archives of Glimmertal,Alliances,Resource,blue,N,,1,,,,,,,"{T}: Gain {1} ASP.
+
+Once per round, when an Artifact enters play under your control, gain {1} ASP.",,
+90214fc53cb1,Brood Cavern,Alliances,Resource,blue,N,,1,,,,,,,"When this Resource enters play, draw a card then discard a card.
+
+{T}: Gain {1} ASP.",,
+d1707f4181a2,Coral Reef,Alliances,Resource,blue,N,,2,,,,,,,{T}: Gain {1} ASP for each Coral Reef you control.,,
+79c9e55fe232,High Tower of Glimmertal,Alliances,Mythic Resource,blue,L,,2,,,,,,,"{T}: Gain {1} ASP, gain {2} ASP if you control an Artifact instead.
+
+{2}, Discard a Card: Turn target Character in the same Lane.",,
+7086568b4266,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,2,2,1,2,,,"If you control a LVL 2 Resource, {1}, {T}: Rise into Waterpriestress.
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+eaf698f745f0,Seer of Ebb and Flow,Alliances,"Character, Lizard",blue,N,3,2,2,2,2,3,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.
+
+{2}, {T}: Unturn the Resource to which Seer of Ebb and Flow is Bound.",,
+6de402d06ee4,Subsea Flow,Alliances,Resource,blue,N,,1,,,,,,,"When this Resource enters play, turn or unturn target Character in the same Lane.
+
+{T}: Gain {1} ASP.",,
+04d46a1e9b5c,Temple of Water,Alliances,Resource,blue,L,,2,,,,,,,"{T}: Gain {1} ASP, gain {2} ASP instead if a Character is bound to this Resource.
+
+{1},{T}: Return target Character that is bound to this Resource to its owner's hand.",,
+63ae223dbe40,Shield of Water,Alliances,"Token, Fundamental Training",blue,T,,,,,,,,,"The next time trained Character would take DMG, prevent that DMG, then sacrifice all Shield of Water Trainings attached to it.",,
+95ddd3f3f913,Serpent of the Deep,Alliances,"Token Character, Serpent",blue,T,,,5,5,5,5,,,{3}: This Character gains Unblockable until the end of the round. (It can't be blocked.),,
+e22688a2cecd,The Seagull,Alliances,Mythic Token Artifact,blue,T,,,,,,,,,"{2}, {T}: Return a Character you control named Captain Draken to your hand.
+
+{3}, {T}: Put a Character card named Captain Draken from your hand into target Slot in your Back Row.",,
+f3c94ef4ae67,Lizard Egg,Alliances,Mythic Artifact,blue,L,3,,,,,,,,"Whenever a Character you control becomes the target of a Spell or Ability your opponent controls, put 1 Egg Counter on Lizard Egg.
+
+Remove 3 Egg Counters: Search your Spell Deck for a Lizard Character Card and put it turned into play.",,
+32a26d14b96b,Lizard Skypatrol,Alliances,"Character, Lizard",blue,L,4,2,4,4,4,2,,,"Flying
+
+{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+c513d6b68ad4,"Rex, Dragon of Deception",Alliances,"Epic Character, Lizard, Dragon",blue,L,4,2,4,4,4,4,,,"Flying
+
+Magic Control",,
+6c37f2b73daa,Spell Disruptor,Alliances,Artifact,blue,L,3,,,,,,,,"This Artifact enters play with 1 Interrupt Counter on it.
+
+{1}, {T}, remove an Interrupt Counter: Neutralize target Spell.
+
+{3}: Put one Interrupt Counter on this Artifact.",,
+6f065018f8cb,"Waron, Water Dragon",Alliances,"Epic Character, Dragon",blue,L,5,2,4,5,4,3,,,"Flying
+
+Drowning Touch
+
+Magic Control
+
+{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+aac7663227d2,"Airell The Blue, Chairman of the Mages of Glimmertal",Alliances,Blue Sovereign,blue,F,,,,,,,,30,"{T}, Pay1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Return target Artifact to its owner's Hand.
+
+If you have the Initiative at the beginning of your turn, Artifact cards in your hand have Surge until the end of round.
+
+Activated abilities of Artifacts you control cost {1} ASP less to activate for their first activation each round.",,
+11d860a357e4,"Krador, Sovereign of Stone and Soil",Alliances,Brown Sovereign,brown,F,,,,,,,,30,"Breaker of Earth - Whenever a brown non-Token permanent enters play under your control, create a Lerium Token.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character gains Punch and Ecstasy until the end of this round.",,
+e340ef90a247,"Thordrin Rockaxe, the Lerium Guardian",Alliances,Brown Sovereign,brown,F,,,,,,,,30,"Fortified - Whenever a trained Dwarf you control dies, you may sacrifice 2 Lerium for each Training attached to it. If you do, return that Training Card from the graveyard to play and attach it to target Dwarf.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 4 LP: Deal 2 DMG to all Characters in target War Zone or target Safety Zone in a Lane.",,
+eca5c4ff2c56,Banner of Stone,Alliances,Mythic Artifact,brown,L,3,,,,,,,,"When this Artifact enters play, create one 2/2 Stone Goat Character Token and one Lerium Token.
+
+Characters you control gain POW/HP +0/+1.",,
+5e17fef64d5c,Bludgeon Worm,Alliances,"Character, Stone",brown,N,4,1,3,3,5,4,,,,,"""I will find you!"""
+b0d60c89587b,Brokk Sparkshaper,Alliances,"Epic Character, Dwarf",brown,L,4,2,2,3,2,4,,,"When this Character enters play, create one 2/2 Goat Stone Character Token.
+
+{2}, {T}, sacrifice 5 Lerium and a Goat you control: create one 6/6 Stone Giant Character Token with Dual Slot in the same Slot.",,
+e99d120f218e,Bronmark Brigade,Alliances,"Character, Dwarf",brown,K,4,2,3,3,4,5,,,Punch,,
+c083a7dbea23,Bronmarks Guard,Alliances,"Character, Dwarf",brown,K,4,1,2,2,2,3,,,"Ranged Combat
+
+{T}, Sacrifice 1 Lerium: Put 1 POW/HP +0/+1 Counter on this Character.",,
+0f1f6ed058b9,Discipline,Alliances,Martial Training,brown,N,3,,,,,,,,"Trained Character gains RES+1, INI+1 and POW/HP +0/+1.",,
+5c6f369b2c3a,Domain of the Stones,Alliances,Mythic Artifact,brown,L,4,,,,,,,,"Whenever a Character enters play under your control, you may sacrifice one Lerium. If you do, put 1 POW/HP +1/+1 Counter on that Character. If it is a Stone Character, you may sacrifice one additional Lerium. If you do put 1 additional POW/HP +1/+1 Counter on it.",,
+03c1df40f9f5,"Durnin, Dwarf of Valor",Alliances,"Epic Character, Dwarf",brown,L,5,2,3,3,4,4,,,Overrun,,
+bb6b96d2c009,Dwarven Adventurer,Alliances,"Character, Dwarf",brown,N,3,1,3,3,4,4,,,"If you control a LVL 2 Resource, {2}, {T}: Rise into Norrumin Ironfist.",,
+ce0441dc99ee,Dwarf Maiden,Alliances,"Character, Dwarf",brown,K,3,1,3,3,3,3,,,"When this Character dies, create two Lerium Tokens.",,
+54ed89eb88a8,Dwarven Miner,Alliances,"Character, Dwarf",brown,K,4,1,3,3,3,3,,,"When this Character enters play, create two Lerium Tokens.
+
+{T}, Sacrifice Dwarven Miner: Create two Lerium Tokens.",,
+39cd4f177fec,Dwarfs of the Bronmark,Alliances,"Character, Dwarf",brown,K,2,1,3,2,2,3,,,"When Dwarts of the Bronmark enters play, create two Lerium Tokens.",,
+a7ae5bab60a4,Enhanced Armor,Alliances,Martial Training,brown,K,3,,,,,,,,Trained Character gains POW/HP +0/+3.,,
+adb4a2927933,Enhanced Armament,Alliances,Martial Training,brown,K,3,,,,,,,,Trained Character gains POW/HP +3/+0.,,
+11530343ee4d,Earth's Breath,Alliances,Spell,brown,L,4,,,,,,5,,"As an additional cost to cast this Spell, you may sacrifice 2 Lerium.
+
+Deal 2 DMG to all Characters in target Lane. If the additional cost was paid, deal an additional 1DMG to up to two target Characters in that Lane.",,
+c60872bf45a3,Explosive Lerium Core,Alliances,Artifact,brown,N,3,,,,,,4,,"{T}, sacrifice this Artifact: Deal 2 DMG to target Character.
+
+{T}, sacrifice 5 Lerium: Deal 2 DMG to target Character.",,
+558f93791260,Forgehand Veteran,Alliances,"Character, Dwarf",brown,N,3,1,3,3,3,3,,,"When this Character enters play, you may sacrifice 2 Lerium. If you do, put 1 POW/HP +1/+1 Counter on target Character in the same Lane.",,
+8d6901719a69,Hammerfists,Alliances,Fundamental Training,brown,N,1,,,,,,,,"Trained Character has ""Sacrifice 1 Lerium: This Character gains Punch until the end of round.""",,
+df4744e5d60a,Hardened by Lerium,Alliances,Martial Training,brown,K,3,,,,,,,,"You may sacrifice 3 Lerium instead of paying this Training's ASP costs to summon it.
+
+Trained Character gains POW/HP +1/+1.",,
+c7af70b1081f,Juggernaut of the Bronmark,Alliances,"Character, Dwarf Giant",brown,K,5,2,2,4,6,6,,,"Juggernaut of the Bronmark doesn't unturn at the beginning of rounds.
+
+Sacrifice 1 Lerium: Unturn Juggernaut of the Bronmark. Activate only once per round.",,
+deb3e3ead00a,Lerium Core,Alliances,Artifact,brown,F,2,,,,,,,,"When you control no Lerium, sacrifice Lerium Core.
+
+{T}, sacrifice any number of Lerium: Target Character gains INI+1 and POW/HP +1/+1 for each Lerium you sacrificed until the end of the round.",,
+3e78c9f8a336,Lerium Dealer,Alliances,"Character, Dwarf",brown,N,3,1,3,2,1,2,,,"{T}, sacrifice 1 Lerium: Put 1 POW/HP +0/+1 Counter on target Character in the same Lane.",,
+646a9649e32c,Lerium Guard,Alliances,"Character, Dwarf",brown,K,4,2,3,3,4,5,,,"When this Character enters play, create two Lerium Tokens.",,
+09e03b2f62db,Lerium in the Veins,Alliances,Fundamental Training,brown,K,2,,,,,,,,"Trained Character becomes a Stone in addition to its other Types and has ""Sacrifice 1 Lerium: This Character gains POW/HP +1/+1 until the end of the round.""",,
+bfb8bcd42eee,Lerium Platearmor,Alliances,Martial Training,brown,K,4,,,,,,,,Trained Character gains POW/HP +0/+5 and Defender.,,
+2530000bc4cc,Mining Troop,Alliances,"Character, Dwarf",brown,K,3,1,3,2,3,4,,,"When this Character enters play, banish any number of Stone Character cards from your Graveyard. Create that many Lerium Tokens.",,
+a889fccdc4f3,Norrumin Ironfist,Alliances,"Epic Character, Dwarf",brown,N,4,2,3,3,3,3,,,"If you control Dwarven Adventurer, you may pay {2} less to summon Norrumin Ironfist. If you do, Rise Dwarven Adventurer.
+
+When this Character enters play, you may sacrifice up to 3 Lerium. If you do, put that many POW/HP +1/+1 Counters on it.",,
+93cfb7a51e90,Retrieval Commando,Alliances,"Character, Dwarf",brown,N,3,1,2,2,2,2,,,"When this Character enters play, you may shuffle any number of Stone Character cards from your Graveyard into your Spell Deck. If you do, create one Lerium Token.",,
+20e14ad55c10,Ring of Stones,Alliances,Mythic Artifact,brown,F,2,,,,,,,,"Once per round, if you create a non-Character Token, create an additional Token of the same kind.
+
+{T}: Gain {1} ASP.",,
+0e14742449ff,Rockaxe Appraiser,Alliances,"Character, Dwarf",brown,N,3,2,2,2,1,3,,,"{T}, sacrifice 1 Lerium: Draw a card, then discard a card.",,
+ac1cc0c745cd,Rumbin the Goat Herder,Alliances,"Epic Character, Dwarf",brown,N,4,2,3,3,3,4,,,"When this Character enters play, create one 2/2 Goat Stone Character Token.",,
+8704198fe952,Sandscorpion,Alliances,"Character, Stone",brown,N,3,1,2,3,3,4,,,,,"""Born of dust, hardened by the sun."""
+acf143e04ca9,Save Passage,Alliances,Spell,brown,L,3,,,,,,,,"As an additional cost to cast Save Passage, you may sacrifice 3 Lerium.
+
+Target Character gains Indestructible until the end of round. Choose an additional target if you paid the additional cost to cast this Spell.",,
+2b323b7a0316,Stonebound,Alliances,Fundamental Training,brown,N,2,,,,,,4,,Trained Character can't retreat. (It can't be moved from the War Zone into the Safety Zone.),,
+fb4f36cacd17,Stonebound Riches,Alliances,Spell,brown,K,3,,,,,,,,Create a 2/2 Worm Token with Emerge 3 in target War Zone.,,
+d6de9c29b187,Stonemason,Alliances,"Character, Dwarf",brown,K,3,1,3,3,2,4,,,"{T}, sacrifice 1 Lerium: Target Stone Character regenerates 1 HP.",,
+6f5306041aaf,Stoneix Arkeia,Alliances,Spell,brown,N,1,,,,,,,,Create three Lerium Tokens.,,
+84d128d0bd09,Stoneworm,Alliances,"Character, Stone",brown,L,6,2,4,3,6,6,,,"When this Character enters play, create two Lerium Tokens.",,
+b5bf92853d6a,Strongarm Weapon Smith,Alliances,"Character, Dwarf",brown,N,3,2,3,2,3,3,,,"When this Character enters play, create a Lerium Token.
+
+{T}, sacrifice two Lerium: Put 2 POW/HP +1/+1 Counter on target Dwarf.",,
+db14e5a44a01,Tail Swipe,Alliances,Spell,brown,K,3,,,,,,4,,"As an additional cost to cast this Spell, you may sacrifice 2 Lerium.
+
+Deal 1 DMG to every Character in target War Zone. If this Spell' s additional cost was paid, deal 2 DMG instead.",,
+9d464615b5c9,The Giant Golem,Alliances,"Character, Stone",brown,F,6,2,3,3,7,7,,,"Dual Slot
+
+Sacrifice 1 Lerium Token: This Character gains Punch until the end of this round.",,
+d9beba3d3f49,The Rockaxe,Alliances,Mythic Artifact,brown,F,4,,,,,,,,"{T}, sacrifice 5 Lerium: Target Dwarf you control gets POW/HP +2/+2, Speed and Targeted Strike until the end of this round.",,
+c716221dd8c8,The Walls of Bronmark,Alliances,"Character, Stone Barrier",brown,L,3,1,2,1,0,7,,,"Barrier
+
+Sacrifice 1 Lerium: The Walls of Bronmark gains POW/HP +1/+1 until the end of the round.",,
+8267309289a3,"Vorax, the Worm",Alliances,"Epic Character, Stone",brown,L,6,2,3,2,4,6,,,"Dual Slot
+
+If you control a Worm Token, pay {2} less to summon Vorax, the Worm, then Rise Worm Token.
+
+When this Character emerges in your opponent's War Zone, all other Characters in that War Zone gain Fear and retreat to the Back Row. If they can't retreat, destroy them instead. Vorax, the Worm does not unturn at the beginning of the next round.",,
+57b929813a0e,"Aethonwynn, Mother of all Stones",Alliances,"Mythic Character, Stone Advisor",brown,F,5,2,5,,,,,,"Advisor
+
+{T}: Create two Lerium Tokens.
+
+{T}, Sacrifice one Lerium: All Stone Characters you control gain RES+1, INI+1, POW/HP +1/+1 until the end of this round.",,
+30074fd30071,Dwarven Furnace,Alliances,Resource,brown,K,,1,,,,,,,"{T}: Gain {1} ASP.
+
+{T}, sacrifice 1 Lerium: Put 1 POW/HP +1/+1 Counter on target Character.",,
+3de6eb794cef,Guardian of the Treasury,Alliances,"Character, Dwarf",brown,N,3,2,3,3,2,3,,,"When this Character enters play, create a Lerium Token.
+{T}: Gain {1} ASP as long as this Character remains Bound.
+{T}: Create a Lerium Token.",,
+4094240396c4,Lerium Custodian,Alliances,"Character, Dwarf",brown,N,4,2,3,3,3,3,,,"{T}, sacrifice one Lerium: Gain {2} ASP as long as this Character remains Bound.",,
+a4251e32e6d2,Lerium Smith,Alliances,"Character, Dwarf",brown,K,2,1,2,2,2,3,,,"{T}: Gain {1} ASP as long as this Character remains Bound.
+
+{T}, sacrifice one Lerium: Put a POW/HP +1/+1 Counter on target Character.",,
+ac997d30788c,Load Goat,Alliances,"Character, Stone, Goat",brown,N,4,2,3,3,3,4,,,"When this Character enters play, create a POW/HP 2/2 Worm Token with Emerge 3 in your War Zone in the same Lane.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+3770861a209e,Peak of Eldor,Alliances,Resource,brown,L,,2,,,,,,,"This Resource enters play with a Giant Counter on it.
+
+{T}: Gain {1}ASP.
+
+{3}, {T}, remove a Giant Counter: Create one 6/6 Stone Giant Character Token with Dual Slot. Place it in target War Zone.",,
+87567bf5384c,Stones Cave,Alliances,Resource,brown,L,,2,,,,,,,"{T}: Gain {1} ASP. Gain {2} ASP instead, if you control at least two Stone Characters.
+
+{T}: Create a 2/2 Goat Stone Character Token in the same Lane.",,
+c7d6f8462390,Stones Kingdom,Alliances,Resource,brown,L,,2,,,,,,,"{T}: Gain {1} ASP.
+
+{2}: Deal 1 DMG to target Stone Character you control, then deal 1 DMG to target Character in the same Lane.",,
+1f77f6dcd47d,Stone Treasure,Alliances,Resource,brown,N,,1,,,,,,,"When this Resource enters play, create a Lerium Token.
+
+{T}: Gain {1} ASP.
+
+{T}: Create a Lerium Token.",,
+8e154c61a4d2,Lerium,Alliances,Token Artifact,brown,T,,,,,,,,,Sacrifice this Artifact: Target Stone Character you control gains POW/HP +0/+1 until the end of this round.,,
+2731e7121f1a,Goat,Alliances,"Token Character, Stone, Goat",brown,T,,,2,3,2,2,,,,,Meeeh
+d84c0c20cb27,Stone Giant,Alliances,"Token Character, Stone",brown,T,,,3,3,6,6,,,Dual Slot,,
+5ced66cdc004,Worm,Alliances,"Token Character, Stone",brown,T,,,3,2,2,2,,,"Emerge 3 - ({T}, sacrifice 3 Lerium Tokens, banish this token): Search your hand or Spell Deck for a card named Vorax, the Worm and put it turned into your opponent's War Zone under their control in the same Lane.",,
+765b4a1219f5,Pact of the Legendary Stone,Alliances,Martial Training,brown,F,3,,,,,,,,"As an additional cost to summon Pact Of The Legendary Stone, sacrifice 1 Lerium Token.
+
+Trained Character becomes a Stone in addition to its other Types. It gains POW/HP +2/+2, Punch and Untargetable.",,
+02a87a5d7509,"Sigun, Stone Dragon",Alliances,"Epic Character, Stone",brown,L,4,2,4,3,4,4,,,Sacrifice 2 Lerium Tokens: This Character gains POW/HP +1/+1 until the end of this round.,,
+4a70ffcc0b4d,"Zagnaphein, Lerium Giant",Alliances,"Epic Character, Stone",brown,F,5,2,4,4,4,6,,,"When this Character enters play, choose one:
+• Create a Lerium Token or
+• Deal 1 DMG to target Character your opponent controls.
+
+{T}: This Character deals 1 DMG to itself. Then choose one:
+• Create a Lerium Token,
+• Regenerate 1 HP to another target Character or
+• Deal 1 DMG to target Character your opponent controls.",,
+975d91f3e255,Zagnapheins Talisma,Alliances,Martial Training,brown,N,3,,,,,,,,Trained Character gains Punch and POW/HP +2/+2.,,
+7fdd065c9366,"Thordrin Rockaxe, The Lerium Guardian",Alliances,Brown Sovereign,brown,F,,,,,,,,30,"Fortified - Whenever a trained Dwarf you control dies, you may sacrifice 2 Lerium for each Training attached to it. If you do, return that Training Card from the graveyard to play and attach it to target Dwarf.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 4 LP: Deal 2 DMG to all Characters in target War Zone or target Safety Zone in a Lane.",,
+f009cfe75b2b,"Grak'Nar, the Bloodrage",Alliances,Red Sovereign,red,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Create a Mythic Chieftain of War, Chieftain of Magic or Chieftain of Strategy Training Token and attach it to target Character with Horde you control.
+
+Pay 4 LP, sacrifice a Chieftain: Deal X DMG to target Character, where X is equal to the number of Characters with Horde you control.",,
+0e5d95642b43,"Pyrana, the Ember-Priestress",Alliances,Red Sovereign,red,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 3 LP: Create a Fire Token in each War Zone.
+
+{T}, sacrifice any number of Fire: Gain {1} ASP for each Fire you sacrificed, then lose that much LP.",,
+5188b5532af1,Abominable Beast of the Orcs,Alliances,"Character, Beast",red,N,4,2,2,3,5,3,,,"Horde
+
+Punch",,
+470d3c8e6a77,Amulet of the Scum,Alliances,Artifact,red,N,3,,,,,,,,"Whenever a Character with Horde you control dies, put one Time Counter on Amulet of the Scum.
+
+{2}, remove three Time Counters: Create a Mythic Chieftain of War, Chieftain of Magic or Chieftain of Strategy Training Token and attach it to target Character with Horde you control.",,
+98b3c5c08c6c,Ashling,Alliances,"Character, Elemental",red,K,4,2,3,3,2,2,,,"If this Character would take DMG from Fire, put 1 POW/HP +1/+1 Counter on it instead.",,
+c3854f6430fd,Assembling of the Chieftains,Alliances,Ritual,red,F,6,,,,,,,,"When this Ritual enters play, create three 3/2 Orc Fighter Tokens with Horde.
+
+Second Round: At the beginning of your Turn, create a Mythic Chieftain of War, Chieftain of Magic or Chieftain of Strategy Training Token and attach it to target Character with Horde you control.
+
+Third Round: Repeat the second round Ability, then sacrifice this Ritual.",,
+e3f836ba5f06,Bärenkatapult,Alliances,Spell,red,L,3,,,,,,4,,"As an additional cost to cast this Spell, sacrifice a Character.
+
+Deal DMG to target Character equal to the sacrificed Character's POW.",,
+8e5a4f4a4749,Burning Plains Skirmisher,Alliances,"Character, Orc",red,K,3,1,3,2,2,3,,,Horde,,
+3a85afaf32cb,Burning Rites,Alliances,Spell,red,L,X,,,,,,,,Sacrifice up to X Characters. Gain {1} ASP for each Characters you sacrificed this way. Then put X Fire Token into target War Zone.,,
+6c82184adf6e,Elite Warrior of the Burning Plains,Alliances,"Character, Orc",red,L,4,2,3,4,4,3,,,"Horde
+
+As long as you control a Chieftain of War, this Character gains Two-Handed Combat and Speed.",,
+92d1a2966858,Fireshaman,Alliances,"Character, Orc",red,N,4,2,3,2,2,4,,,"Horde
+
+{2}, {T}: Deal 2 DMG to target Character in the War Zone in the same Lane. Activate only if you control a Chieftain of Magic.",,
+3a927405245c,"Krakhan, the Hellfire",Alliances,"Epic Character, Demon",red,F,6,2,4,5,5,4,,,"Flying
+
+When this Character enters play, deal 5 DMG to target Character. If that Character dies this round, create a Fire Token in the War Zone in the same Lane.
+
+As long as this Character is in a War Zone, Fire Tokens in that War Zone lose all activated abilities.",,
+2ab8f7d0660c,Fireball,Alliances,Spell,red,L,X,,,,,,1,,"When you cast Fireball, increase its Spellpower equal to X. Deal X DMG to all Characters in target War Zone.",,
+fa4e3bdaa149,Fireblast,Alliances,Spell,red,K,4,,,,,,3,,Deal 2 DMG to target Character and 1 DMG to target Sovereign.,,
+a7661539cac5,Firebolt,Alliances,Spell,red,N,2,,,,,,3,,Deal 2 DMG to target Character.,,
+8903845d1f3f,Firedemon,Alliances,"Character, Demon",red,N,5,2,3,3,4,4,,,"Flying
+
+When this Character enters play, create a Fire Token in the War Zone in the same Lane.
+
+If this Character would take DMG from Fire, prevent 1 of that DMG.",,
+a08d84e2532f,Firedragon,Alliances,"Character, Dragon",red,L,5,2,4,5,6,4,,,"Flying
+
+When this Character attacks, you may pay {2}. If you do, create two Fire Token in the same War Zone and deal 2 DMG to target Character in the same War Zone.
+
+If this Character would take DMG from a Fire, prevent 1 of that DMG.",,
+150eb898a2f8,Fireelemental,Alliances,"Character, Elemental",red,N,3,1,3,4,4,2,,,"If you control a LVL 2 Resource, {2}, {T}: Rise into Greater Fireelemental.
+
+When this Character enters play, put a Fire Token into the War Zone in the same Lane.
+
+If this Character would take DMG from a Fire, regenerate that much HP to it instead.",,
+edc9fa8b30bb,Fireimmunity,Alliances,Fundamental Training,red,N,3,,,,,,,,"If trained Character would take DMG from a Fire, regenerate that much HP instead.",,
+709df8ff0342,Firestorm,Alliances,Spell,red,L,5,,,,,,5,,Create a Fire Token in target War Zone. Then deal 1 DMG for each Fire in that War Zone to any number of Characters in that Lane.,,
+d7c496f76973,Firewall,Alliances,"Character, Barrier",red,K,2,1,2,1,3,2,,,"Barrier
+
+This Character gains POW/HP +1/+0 for each Fire in the same War Zone. If this Character would take DMG from a Fire, regenerate that much HP to it instead.",,
+3418ebf7ed04,Flames of Khrakan,Alliances,Fundamental Training,red,L,3,,,,,,,,"Trained Character gains: ""{2}, {T}: Deal 2 DMG to Target Character in the same Lane. Deal an additional DMG if you control a Chieftain of War, a Chieftain of Strategy or a Chieftain of Magic.""",,
+22d2d2e8f5a3,Goblin,Alliances,"Character, Goblin",red,K,2,1,2,2,2,2,,,Horde,,
+0eeb6f168b47,Goblin Archer,Alliances,"Character, Goblin",red,N,3,1,2,3,1,2,,,"Horde
+
+Ranged Combat",,
+81247977a842,Goblin Fire,Alliances,Spell,red,L,1,,,,,,3,,Deal 1 DMG to every Character in target War Zone.,,
+d4185faa3657,Goblin Skewer,Alliances,"Character, Goblin",red,N,3,1,2,3,3,2,,,"Horde
+
+Skyguard",,
+8cbe640fa17d,Goblin Slayer,Alliances,"Character, Goblin",red,K,2,1,2,3,2,2,,,"Horde
+Speed",,
+7fc4c7c80462,Greater Fireelemental,Alliances,"Character, Elemental",red,N,5,2,4,5,6,3,,,"If you control Fireelemental, you may pay {2} less to summon Greater Fireelemental. If you do, Rise Fireelemental. (Place this card on Fireelemental. Transfer all Counters to it. Then sacrifice Fireelemental.)
+
+When this Character enters play, create a Fire Token in the War Zone in the same Lane.
+
+ If this Character would take DMG from a Fire, regenerate that much HP to it instead.",,
+281a11cbdbd1,Horde Leader,Alliances,"Character, Orc",red,L,4,2,3,4,4,4,,,Horde,,
+d6a5766e3923,Mad Pyromancer,Alliances,"Character, Goblin",red,K,4,2,2,2,3,3,,,"Hideout
+
+When this Character enters play or is turned face up, create a Fire Token in the War Zone in the same Lane. Then deal DMG equal to the number of Fire in that War Zone to target Character in that War Zone.",,
+27a5f5f20534,Nahela the Flameborn,Alliances,"Epic Character, Demon",red,L,5,2,3,4,2,2,,,This Character enters play with 1 POW/HP +1/+1 Counter for each Fire you control in the same Lane.,,
+74ff265f1364,Novice of Pyrana,Alliances,"Character, Human",red,K,2,1,3,2,2,2,,,"{T}, sacrifice Novice of Pyrana: Create a Fire Token in target War Zone.",,
+420c126a4826,Orc Archer,Alliances,"Character, Orc",red,N,4,2,3,4,3,2,,,"Horde
+
+Ranged Combat",,
+70bc32be5449,Orc Scout,Alliances,"Character, Orc",red,K,2,1,2,3,3,2,,,Horde,,
+615fbef8606b,Orcish Warhound,Alliances,"Character, Dog",red,N,2,1,2,3,2,2,,,"When this Character enters play, target Character you control gains Tactical Shift until the end of the round.",,
+3c65f491156c,Orcish Warrior,Alliances,"Character, Orc",red,K,3,1,3,3,4,2,,,Horde,,
+c316ec4a1418,Pyromancer,Alliances,"Character, Human",red,N,4,2,3,3,1,4,,,{T}: Create a Fire Token in target War Zone in the same Lane.,,
+4ce6d9a1999d,Pyromancer's Apprentice,Alliances,"Character, Human",red,K,2,1,2,2,1,2,,,"When this Character enters play, create a Fire Token in target War Zone in the same Lane.",,
+a2001ffc9d47,Promise of Power,Alliances,Spell,red,K,3,,,,,,,,"Target Character gains POW/HP +2/+0 until the end of this round. If that Character dies this round, create a Fire Token in the War Zone of the same Lane.",,
+9bb4ae81d780,Promise of Revenge,Alliances,Spell,red,N,3,,,,,,3,,"Gain control of target Character and place it into a free Slot in your War Zone in the same Lane. If it is turned, unturn it. After the next combat phase, return it to its owner's control in a free Slot in that player's War Zone in that Lane. If you can't sacrifice it instead.",,
+650793b71594,Reign of Blood,Alliances,Ritual,red,N,4,,,,,,,,"When this Ritual enters play, choose a War Zone.
+
+Whenever a Fire deals DMG to a Character in that War Zone, it deals an additional DMG.",,
+1d3ab7aa7291,Ring of Fire,Alliances,Mythic Artifact,red,F,3,,,,,,,,"When this Artifact enters play, create a Fire Token in target War Zone.
+
+{T}: Gain {1} ASP.",,
+f6421928bd28,Sparkling,Alliances,"Character, Elemental",red,K,3,1,2,2,1,1,,,"If this Character would take DMG from Fire, put 1 POW/HP +1/+0 Counter on it instead.",,
+4aa539cb048c,Spitefang Marauder,Alliances,"Character, Human",red,K,3,1,2,3,3,2,,,Horde,,
+d480aa620db2,War Axe,Alliances,Artifact,red,K,2,,,,,,,,"This Artifact enters play turned.
+
+ You may choose not to unturn War Axe at the beginning of the round.
+
+{T}: Target Character gains POW/HP +2/+0 as long as this Artifact is turned.",,
+5f9767d39b8f,War Fire,Alliances,"Character, Elemental",red,K,3,1,2,2,2,2,,,"Whenever this Character would take DMG from Fire, put 1 POW/HP +1/+0 Counter on it instead.",,
+64b480d3b944,War Ogre,Alliances,"Character, Orc",red,N,4,2,2,3,5,4,,,"Horde
+
+Punch",,
+01d64d9d2eed,Altar of Flames,Alliances,Resource,red,K,,1,,,,,,,"{T}: Gain {1} ASP.
+
+{T}, sacrifice a Character: Gain {2} ASP.",,
+53217df38d9e,"Ashura, Flame of Hatred",Alliances,"Mythic Character, Wizard, Advisor",red,F,6,2,4,,,,,,"When this Character enters play, you may sacrifice any number of Fire you control. Then create that many plus 2 Fire Tokens in target War Zone.
+
+{T}, sacrifice a Fire: Deal 1 DMG to target Character in a War Zone.",,
+e8df2f3ad3d5,Burning Pits,Alliances,Resource,red,L,,2,,,,,,,"{T}: Gain {1} ASP.
+
+{2}, {T}: Create a Fire Token in the War Zone in the same Lane.",,
+ed746274b2af,Citadel of the Orc King,Alliances,Mythic Resource,red,F,,2,,,,,,,"{T}: Gain {1} ASP, then gain an additional {1} ASP for each Chieftain you control.",,
+31b7c467db42,Goblin Priest,Alliances,"Character, Goblin",red,N,2,1,2,2,1,2,,,"Horde
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+c98adf023947,Living Flame,Alliances,"Character, Elemental",red,K,2,1,2,2,2,1,,,"When this Character enters play, create a Fire Token in the War Zone of the same Lane.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+aefc38f6c6ee,Marshall of the Burning Plains,Alliances,"Character, Orc",red,N,3,2,3,2,2,3,,,"Horde
+
+{T}: Gain {1} ASP, as long as this Character remains Bound. Gain {2} ASP instead if you control a Chieftain of Strategy in the same Lane.",,
+c865ff5e6432,Orc Village,Alliances,Resource,red,N,,1,,,,,,,"{T}: Gain {1} ASP.
+
+{2}, {T}: Create a 3/2 Orc Fighter Token with Horde in the same Lane.",,
+bdc0f4ec1b66,Topsoil of the Goblins,Alliances,Resource,red,L,,2,,,,,,,"{T}: Gain {1} ASP, gain {2} ASP instead if you control at least 3 Characters with Horde.",,
+0e3719b0cb7b,Chieftain of Magic,Alliances,"Mythic Fundamental Training, Token",red,T,,,,,,,,,"Trained Character becomes a Chieftain of Magic in addition to its other Card Types.
+
+Other Characters with Horde in the same Lane gain RES+1 for each Character with Horde you control in that Lane.",,
+d0fcb45f76b0,Chieftain of Strategy,Alliances,"Mythic Fundamental Training, Token",red,T,,,,,,,,,"Trained Character becomes a Chieftain of Strategy in addition to its other Card Types.
+
+Other Characters with Horde in the same Lane gain INI+1 for each Character with Horde you control in that Lane.",,
+f5b645646f83,Chieftain of War,Alliances,"Mythic Fundamental Training, Token",red,T,,,,,,,,,"Trained Character becomes a Chieftain of War in addition to its other Card Types.
+
+Other Characters with Horde in the same Lane gain POW/HP +1/+0 for each Character with Horde you control in that Lane.",,
+07038d97e96a,Orc Fighter,Alliances,"Character, Orc",red,K,,1,2,3,3,2,,,Horde,,
+e29acf80a9f4,Fire,Alliances,Fire Token,red,T,,,,,,,,,"Place Fire only in a War Zone. It doesn't occupy a Slot.
+
+At the end of combat this deals 1 DMG to each Character in the same War Zone.
+
+{2}: Banish this Token. Every Player may activate this ability.",,
+627fc4a92dc4,Rerkis Flag of the Hordes,Alliances,Mythic Artifact,red,L,3,,,,,,,,"Characters with Horde you control gain RES+1, INI+1 and POW/HP +1/+0.
+
+{1}: Create a Fire Token in target War Zone. Activate only if you control a Chieftain of War, a Chieftain of Magic and a Chieftain of Strategy.",,
+043b5b497399,Ogre,Alliances,"Character, Ogre",red,K,4,2,3,3,5,3,,,Horde,,
+a0aef33a3c97,War Drums of the Horde,Alliances,Artifact,red,L,3,,,,,,,,"This Artifact enters play with 2 Drum Counters on it.
+
+Remove 1 Drum Counter: Characters with Horde you control, gain POW/HP +1/+0 until the end of this round.
+
+Whenever a Character with Horde you control dies, put a Drum Counter on War Drums of the Horde.",,
+b95337f64d3a,"Zura, Keeper of the Oaths",Alliances,"Mythic Character, Orc Advisor",red,F,5,2,5,,,,,,"Horde
+
+When this Character enters play, create a Mythic Chieftain of War, Chieftain of Magic or Chieftain of Strategy Training Token and attach it to target Character with Horde you control.
+
+{T}: Gain {1} ASP if you control a Chieftain of Magic. Put 1 INI+1 Counter on target Character with Horde, if you control a Chieftain of Strategy. Put 1 POW/HP +1/+1 Counter on target Character with Horde, if you control a Chieftain of War.",,
+0e839fb7836a,"Pyrana, The Ember-Priestress",Alliances,Red Sovereign,red,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 3 LP: Create a Fire Token in each War Zone.
+
+{T}, sacrifice any number of Fire: Gain {1} ASP for each Fire you sacrificed, then lose that much LP.",,
+64621f0c3cc4,"Miralyn Windblade, Bearer of the Covenant",Alliances,Purple Sovereign,purple,F,,,,,,,,20,"All Fairies you control have Fairy Dust
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+Pay 1 LP: Create an Alliance Training Token and attach it to target Fairy Character you control. Use this ability only once per round.",,
+6ba73460db36,"Lysera, The Last Light Fairy",Alliances,Purple Sovereign,purple,F,,,,,,,,20,"Fairies you control have Speed.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{1}, {T}: Put 1 RES+1 Counter on target Fairy.",,
+2e0c589aa407,Arcane Spider,Alliances,"Character, Spider",purple,N,4,2,3,2,2,4,,,"Hideout
+When this Character enters play or is turned face up, banish target other Character in the same Lane. When this Character leaves play, return that Character into play in a Slot of its owner's choice.",,
+c7c6ea27ae70,"Akrasha, the Warden",Alliances,"Character, Arcane",purple,L,3,2,4,4,3,4,,,Teleport,,
+24c584d49f03,Amulet of Isa,Alliances,Artifact,purple,L,2,,,,,,,,"When this Artifact enters play you may look at your opponent's hand and put 1 Alertness Counter on it.
+
+{1}, remove an Alertness Counter: Neutralize target Spell or target permanent card on the reaction chain your opponent controls. (Put it from the reaction chain into its owner's Graveyard).
+
+Whenever a Character you control with Alliance dies, you may pay {2}. If you do put an Alertness Counter on this Artifact.",,
+5abb5fa55bbf,Banner of the Alliance,Alliances,Mythic Artifact,purple,L,3,,,,,,,,"When this Artifact enters play, create one 1/2 Fighting Fairy Character Token with Flying and Alliance.
+{T}: Create an Alliance Training Token and attach it to target Fairy Character you control.",,
+8fc17622e8b2,Binding Charm,Alliances,Spell,purple,K,2,,,,,,,,Target Slot in a War Zone becomes occupied until the end of the round. (Characters can't be placed into that Slot.),,
+23f1ff806d92,Captain of the Winged Blades,Alliances,"Character, Fairy",purple,L,4,2,5,5,2,4,,,"If you control Member of the Winged Blades, you may pay {2} less to summon Captain of the Winged Blades. If you do, Rise Member of the Winged Blades.
+
+Flying
+
+Empower - {T} or pay {2}: Switch this Character's POW and RES until the end of this round.",,
+6840d76973bd,Combat Fae,Alliances,"Character, Fairy",purple,N,3,1,3,4,1,3,,,"Flying
+
+Empower - {T} or pay {2}: Switch this Character's POW and RES until the end of this round.",,
+c15fb2627bef,Crest of the Windbladeguard,Alliances,Artifact,purple,K,3,,,,,,,,"When this Artifact enters play, switch the RES and POW of target Fairy you control until the end of this round.
+
+{2}, {T}: Switch the RES and POW of target Fairy you control until this end of round.",,
+12815c4656d2,Dizziness,Alliances,Spell,purple,N,3,,,,,,5,,Turn target Character. It doesn't unturn at the beginning of the next round.,,
+8184ddead42c,Enchanted Trinket,Alliances,Fundamental Training,purple,K,2,,,,,,,,"Trained Character gains POW/HP +1/+0.
+
+At the beginning of your turn, you may return this card to your hand. If you do, draw a card.",,
+4243c9ddcd42,Fairy Smith,Alliances,"Character, Fairy",purple,L,3,1,3,2,2,3,,,"Flying
+
+{2}, {T}: Put 1 RES+1 Counter on target Character you control.",,
+aa262239e28d,Fairy of Battle,Alliances,"Character, Fairy",purple,K,3,1,3,3,2,3,,,"Flying
+
+Veil",,
+10c83e8cf247,"Fraya, Baroness of Truth",Alliances,"Epic Character, Fairy",purple,K,4,2,5,5,4,3,,,"Flying
+
+Empower - {T} or pay {2}: Switch this Character's POW and RES until the end of this round.",,
+17dda1ada648,Golden Orchard,Alliances,Mythic Artifact,purple,F,3,,,,,,,,"{2}: Put 2 RES-1 Counter on target Fairy you control, if you do, gain {3} ASP. Then, it that Character has 0 or less RES, banish it.",,
+8101fe7b71b4,Guardian of the Last Light,Alliances,"Character, Fairy",purple,K,3,2,2,2,2,2,,,"Flying
+
+{T}, put 1 RES-1 Counter on Guardian of the Last Light: Create an Alliance Training Token and attach it to this Character. Then, if its RES is 0 or less, banish Guardian of the Last Light.",,
+03059d97f2e0,Gremlins,Alliances,"Character, Fairy",purple,K,3,1,2,2,2,1,,,"When this Character enters play, destroy target Artifact.",,
+1421b3f35361,Honor Guard,Alliances,"Character, Fairy",purple,N,4,2,4,3,2,4,,,"Flying
+
+Defender",,
+21568c8e3fa5,Illusion Dust,Alliances,Spell,purple,N,4,,,,,,,,"Surge
+
+Return target Artifact, Ritual or Training to its owner's hand.",,
+4aad05bc0f91,Illuminated Fairy,Alliances,"Character, Fairy",purple,N,2,1,2,4,1,2,,,"Flying
+
+When this Character attacks, Characters your opponent controls in the same War Zone gain RES-1 until the end of the round.",,
+9499f046ead7,Lysera's Blessing,Alliances,Training,purple,K,3,,,,,,4,,Switch trained character's RES and POW.,,
+992d501c0b65,Magical Infusion,Alliances,Spell,purple,K,2,,,,,,,,"Put 1 RES+1 Counter on target Character. Then, if that character's RES is 4 or greater, use String of Destiny 2.",,
+f747ac0f60e0,Magical Raindrop,Alliances,Fundamental Training,purple,N,2,,,,,,,,"Trained Character gains RES+1 and ""{1}, Put 1 RES-1 Counter on the trained Character: Put 1 POW/HP +0/+2 Counter on target other Character in the same Lane. Then, if the trained Character has 0 or less RES, banish it.""",,
+ccd5e75f62dc,Member of the Winged Blades,Alliances,"Character, Fairy",purple,N,2,1,3,3,2,2,,,"Flying
+
+If you control a LVL 2 Resource, {2}, {T}: Rise into Captain of the Winged Blades.",,
+5bc9f7f0547f,Messenger Fae,Alliances,"Character, Fairy",purple,K,2,1,3,4,1,2,,,"Flying
+
+{T}: Return Messenger Fae to its owner's hand.",,
+d5a57cc9caf2,Messenger of the Last Light,Alliances,"Character, Fairy",purple,K,3,1,3,3,2,2,,,"Flying
+
+Speed",,
+a76a865aa289,Mirage Squadron,Alliances,"Character, Fairy",purple,N,5,2,4,4,2,4,,,"Flying
+
+Empower - {T} or pay {2}: Mirage Squadron gains Two-Handed Combat until the end of this round.",,
+1fb391b0cdb0,Not Your Time,Alliances,Spell,purple,K,2,,,,,,3,,Return target Character to its owner's hand.,,
+989ffe1b0d46,Oracle,Alliances,Spell,purple,N,2,,,,,,,,"Surge
+
+You may cast Oracle only, if you control a LVL 2 Resource.
+
+Rise target LVL 1 Fairy you control into Fraya, Baroness ot Truth.",,
+4ac79013c348,Pact with a Fae,Alliances,Fundamental Training,purple,L,4,,,,,,4,,"When this Training enters play, choose two:
+
+• Switch trained character's RES and POW values,
+• trained Character gains Barrier or
+• trained Character gains: ""{1}, {T}: Use String of Destiny 1.""",,
+e3dce45a60bd,Pixie Assassin,Alliances,"Character, Fairy",purple,N,3,1,3,3,2,2,,,"Flying
+
+{T}, put 1 RES-1 Counter on this Character: Put 1 Madness Counter on target Character in the same Lane. Then if Pixie Assassin's RES is 0 or less, banish it.",,
+25ff21c84d82,Pixie Trickster,Alliances,"Character, Fairy",purple,L,3,2,3,3,1,3,,,"Flying
+{X}, {T}: Gain control of target Artifact an opponent controls if its ASP cost is equal to {X} or less. Put {X} RES-1 Counters on Pixie Trickster. Then, if Pixie Tricksters RES becomes 0 or less this way, banish it.",,
+2f916ad3697e,Pollen Fairy,Alliances,"Character, Fairy",purple,K,2,1,3,3,1,2,,,"Flying
+
+Ranged Combat",,
+ebfae2ef5d6f,Pollen Gun,Alliances,"Character, Fairy",purple,N,3,2,4,3,2,2,,,"Flying
+
+Ranged Combat
+
+{1}, {T}: Put 1 RES-1 Counter on target Character in the same Lane.",,
+90afc4c5f96a,Pollen Projectile,Alliances,Spell,purple,N,2,,,,,,,,Put 1 RES-1 Counter on up to two target Characters.,,
+addd30b708e5,Protector of the Mirrorblossom,Alliances,"Character, Human",purple,N,4,2,4,4,2,6,,,Sacrifice Protector of the Mirrorblossom: Redirect the next DMG a Fairy you control would take this round to a Character your opponent controls instead.,,
+ee7100387dc4,Redcaps,Alliances,"Character, Fairy",purple,N,4,2,2,3,3,3,,,First Damage,,
+054815cfe115,Ring of the Fairies,Alliances,Mythic Artifact,purple,F,2,,,,,,,,"Whenever you return a permanent to its owner's hand, use String of Destiny 2.
+
+{T}: Gain {1} ASP.",,
+fad2fe578c3f,Seal of the Last Light,Alliances,Ritual,purple,K,4,,,,,,,,"When this Ritual enters play, choose target Slot in a War Zone. As long as this Ritual is in play, that Slot counts as occupied.",,
+f6d7609b7263,Soldiers of the Covenant,Alliances,"Character, Fairy",purple,K,3,1,2,3,2,3,,,Flying,,
+3593e3282a79,Soul Recall,Alliances,Spell,purple,L,4,,,,,,4,,Return up to four target Characters you control to their owner's hand. Then return up to that many Characters your opponent controls to their owner's hand.,,
+abc0c7349d44,Starlight,Alliances,Spell,purple,K,1,,,,,,4,,Target Character gains Flying until the end of the next combat.,,
+0c25711990b1,Stellar Magic,Alliances,Spell,purple,N,3,,,,,,5,,"Return an Artifact, Character, Ritual or Training to its owner's hand.",,
+a94354042837,Summoning of the Protector,Alliances,Ritual,purple,F,5,,,,,,,,"When this Ritual enters play, create one 1/2 Fighting Fairy Character Token with Flying and Alliance. It gains Untargetable until the end of this round.
+
+Second Round: At the beginning of your turn, use String of Destiny 4.
+
+Third Round: At the beginning of your turn, reveal the top card of your Spell Deck. If it is a Character card, put it into play in target Slot. Then sacrifice this Ritual.",,
+80f41aedc1b9,Voice of the Fae Court,Alliances,"Character, Fairy",purple,K,3,1,3,2,2,2,,,"Flying
+
+When this Character enters play, target Character in the same Lane gains Untargetable until the end of the round.",,
+719f76cd9ea5,Whispering Pixie,Alliances,"Character, Fairy",purple,L,4,2,3,4,2,3,,,"Flying
+
+When this Character enters play, use String of Destiny 2.",,
+818cf70fa568,Wise Fairy,Alliances,"Character, Fairy",purple,K,4,2,3,3,1,3,,,"Flying
+
+{T}: Use String of Destiny 2.",,
+d8f7d89a5bf2,Forest of Wishes,Alliances,Resource,purple,L,,2,,,,,,,"{T}: Gain {1} ASP. Gain {2} ASP instead, if you control a Character with Alliance in the same Lane.",,
+8bd46d15cb21,Lysanas Creation,Alliances,Resource,purple,N,,1,,,,,,,"If a Character you control with Alliance in the same Lane would take DMG, reduce it by 1.
+
+{T}: Gain {1} ASP.",,
+94d4ccbcb2da,Nimblefix,Alliances,"Character, Fairy",purple,N,3,1,3,3,1,2,,,"When this Character enters play, target Character in the same Lane gains 1 RES-1 Counter.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+e9af0ff2a0c6,Path of Dreams,Alliances,Resource,purple,L,,2,,,,,,,"Whenever you use String of Destiny, use that much plus 1 instead.
+
+{T}: Gain {1} ASP.",,
+b8ebc94d3268,Pollen Field,Alliances,Resource,purple,L,,2,,,,,,,"When this Resource enters play, your Sovereign regenerates 1 LP.
+
+Whenever a Character you control gains Alliance, your Sovereign regenerates 1 LP.
+
+{T}: Gain {1} ASP.",,
+885b201221cc,The Cat,Alliances,"Character, Fairy Cat",purple,N,3,2,3,3,2,2,,,"When this Character enters play, create one 1/2 Fighting Fairy Character Token with Flying and Alliance.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+478e10ba5a8f,Twilight Grove,Alliances,Resource,purple,K,,1,,,,,,,"This Resource enters play with 2 Light Counters on it.
+
+{T}: Gain {1} ASP.
+
+{T}, remove a Light Counter: Put 1 RES+1 Counter on target Character in the same Lane.",,
+1c4fb54e9dbc,"Vindariell, Protector of the Gates",Alliances,"Mythic Character, Fairy Advisor",purple,F,5,2,4,,,,,,"Advisor
+
+When this Character enters play, create one 0/6 Barrier Between The Worlds Character Token with Barrier.
+
+{2}, {T}: Switch the RES and POW of target Character until the end of this round.",,
+a807a16c7e1c,Wondrous Clearing,Alliances,Resource,purple,N,,1,,,,,,,"When this Resource enters play, use String of Destiny 2.
+
+{T}: Gain {1} ASP.",,
+f52e689e92b1,Alliance Token,Alliances,"Fundamental Training, Token",purple,T,,,,,,,,,"When this Training enters play, regenerate 1 LP to your Sovereign. Trained Character gains Alliance.",,
+d79dab2b091f,Fighting Fairy,Alliances,"Token Character, Fairy",purple,T,,1,2,3,1,2,,,"Flying
+
+Alliance",,
+43fd93c49b9a,Barrier Between the Worlds,Alliances,"Token Character, Barrier",purple,T,,1,3,1,0,6,,,Barrier,,
+ce4f3621f0c2,Fairy of the Wind,Alliances,"Character, Fairy",purple,F,4,2,4,4,2,3,4,,"When this Character enters play, return up to 3 Characters your opponent controls and up to one Artifact or Ritual to its owners' hand.
+
+Flying
+
+Veil",,
+30333fcbad37,Lysana's Legacy,Alliances,Mythic Artifact,purple,L,3,,,,,,,,{T}: Target Character you control with Alliance becomes Untargetable until the end of the round.,,
+966c146e35a0,Pixie Dust,Alliances,Fundamental Training,purple,N,3,,,,,,4,,"Everytime trained Character would take DMG, put that many RES-1 Counters on it instead. If its RES becomes 0 or less this way, banish that Character.
+
+When this Training enters play, deal 1 DMG to the trained Character.",,
+eff2bdddadea,"Avenya, Lysana’s Daughter",Alliances,"Mythic Character, Fairy Advisor",purple,F,5,2,5,,,,,,"Advisor
+
+{T}: Put 1 POW/HP +0/+1 Counter on target Character. Then use String of Destiny 2.",,
+102f4d37abf3,"Lysera, The Last Light Fairy",Alliances,Purple Sovereign,purple,F,,,,,,,,20,"Fairies you control have Speed.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{1}, {T}: Put 1 RES+1 Counter on target Fairy.",,
+ecd35b198562,Ambush,Alliances,Equilibra Spell,grey,L,4,,,,,,4,,"Surge
+
+All Characters in target Lane lose their Rule Text until the end of the round.",,
+1677235f1036,Antimagic,Alliances,Equilibra Spell,grey,K,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+153fde0fe264,Diverted Power,Alliances,Equilibra Spell,grey,N,2,,,,,,3,,"Deal 1 DMG to target Character or reduce 1 LP to target Sovereign. Draw one card, then discard one at the end the round.",,
+c6ef568a6f47,Equilibra's Resource,Alliances,Equilibra Resource,grey,L,,2,,,,,,,"{T}: Gain {1} ASP. Until the end of the round, the next card you play from your hand, that has additional ASP costs from your Sovereign costs {1} ASP less to play.",,
+e56b1116c04c,Forge,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+22ccddbf4169,Karma Hatchling,Alliances,Spell,grey,K,2,,,,,,4,,"If target Character deals DMG during the next combat phase, it takes the same amount in return.",,
+389e8e23ea2f,Priest,Alliances,Equilibra Character,grey,K,1,1,4,2,1,2,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+bd1645f1f645,Sanctuary of Hope,Alliances,Equilibra Resource,grey,L,,2,,,,,,,"This Resource enters play with 2 Hope Counters.
+
+Remove 1 Hope Counter, banish two cards from your hand: Gain {2} ASP.
+
+{T}: Gain {1} ASP.",,
+15c52715d62e,Rune of Balance,Alliances,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune
+
+{T}: Gain {2} ASP as long as you control at least two Permanents with different colors.
+
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+6cd15fec7ab8,"Rha'Velkor, Tribal Chief",Alliances,Blue Sovereign,blue,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Create a Shield of Water Training Token and attach it to target Character.
+
+{1}, Pay 4 LP: Unturn all Characters you control in target Lane. You can use this ability only once per round.",,
+c65246eb6f2b,Sovereign's Rune,Alliances,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune
+
+{T}: Gain {1} ASP.
+
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+2f06d6c56adb,Antimagic,Alliances,Equilibra Spell,grey,K,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+c02457edf093,Antimagic,Alliances,Equilibra Spell,grey,K,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+0c3ed446b2ef,Astral Lizard,Alliances,"Character, Lizard",blue,K,2,1,3,2,2,3,,,Magic Control,,
+820759ae6ba3,Astral Lizard,Alliances,"Character, Lizard",blue,K,2,1,3,2,2,3,,,Magic Control,,
+031cb0ae0a25,Banner of the Tribes,Alliances,Mythic Artifact,blue,L,3,,,,,,,,"Characters you control gain INI+1 and RES+1 as long as they remain unturned.
+
+Characters you control gain POW/HP +1/+1 as long as they remain turned.",,
+4418ffbc7b75,Banner of the Tribes,Alliances,Mythic Artifact,blue,L,3,,,,,,,,"Characters you control gain INI+1 and RES+1 as long as they remain unturned.
+
+Characters you control gain POW/HP +1/+1 as long as they remain turned.",,
+d5fb3846efbf,Diverted Power,Alliances,Equilibra Spell,grey,N,2,,,,,,3,,"Deal 1 DMG to target Character or reduce 1 LP to target Sovereign. Draw one card, then discard one at the end the round.",,
+ac76871fa40e,Diverted Power,Alliances,Equilibra Spell,grey,N,2,,,,,,3,,"Deal 1 DMG to target Character or reduce 1 LP to target Sovereign. Draw one card, then discard one at the end the round.",,
+cae42fe2a13d,Drowning Grasp,Alliances,Spell,blue,N,2,,,,,,3,,Put a Drenched Counter on target Character.,,
+00175db6911c,Drowning Grasp,Alliances,Spell,blue,N,2,,,,,,3,,Put a Drenched Counter on target Character.,,
+88e4247dcd8f,Ebb Guardian,Alliances,"Character, Lizard",blue,L,2,1,3,3,2,3,,,{T}: Protective Shield.,,
+bae6feacf71c,Ebb Guardian,Alliances,"Character, Lizard",blue,L,2,1,3,3,2,3,,,{T}: Protective Shield.,,
+32acfcc2a2ea,Elixir of Life,Alliances,Spell,blue,N,2,,,,,,,,"Surge
+
+Unturn target Character you control.",,
+b0f987d4623e,Elixir of Life,Alliances,Spell,blue,N,2,,,,,,,,"Surge
+
+Unturn target Character you control.",,
+ea0f5f120c73,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,2,1,3,3,1,2,,,"Drowning Touch
+
+Ranged Combat",,
+7f564ee80b3e,Harpoon Hunter,Alliances,"Character, Lizard",blue,K,2,1,3,3,1,2,,,"Drowning Touch
+
+Ranged Combat",,
+468257060a9a,Lizard Egg,Alliances,Mythic Artifact,blue,L,3,,,,,,,,"Whenever a Character you control becomes the target of a Spell or Ability your opponent controls, put 1 Egg Counter on Lizard Egg.
+
+Remove 3 Egg Counters: Search your Spell Deck for a Lizard Character Card and put it turned into play.",,
+033701c421b3,Lizard Skypatrol,Alliances,"Character, Lizard",blue,L,4,2,4,4,4,2,,,"Flying
+
+{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+b050a0d7f828,Lizard Spear Carrier,Alliances,"Character, Lizard",blue,N,3,1,3,3,3,2,,,"Skyguard
+
+{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+8315ab53f598,Lizard Spear Carrier,Alliances,"Character, Lizard",blue,N,3,1,3,3,3,2,,,"Skyguard
+
+{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+63d46a5991b6,Lizardkeeper,Alliances,"Character, Lizard",blue,N,5,2,4,4,4,2,,,"{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+32df081427b1,Lizardkeeper,Alliances,"Character, Lizard",blue,N,5,2,4,4,4,2,,,"{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+068743b8e66f,"Rex, Dragon of Deception",Alliances,"Epic Character, Lizard, Dragon",blue,L,4,2,4,4,4,4,,,"Flying
+
+Magic Control",,
+04ef8283f7fa,Ring of Waves,Alliances,Mythic Artifact,blue,F,2,,,,,,,,"Whenever 1 or more INI-1 counters are put on a Character your opponent controls, put 1 additional INI-1 Counter on it.
+
+{T}: Gain {1} ASP.",,
+0cb4054ca311,Sage of the Waves,Alliances,"Character, Lizard",blue,K,3,1,3,2,3,3,,,"When this Character enters play, you may turn or unturn target Character or Artifact.",,
+8f5ad3a95cc8,Sage of the Waves,Alliances,"Character, Lizard",blue,K,3,1,3,2,3,3,,,"When this Character enters play, you may turn or unturn target Character or Artifact.",,
+407e29ef1f4f,Spell Disruptor,Alliances,Artifact,blue,L,3,,,,,,,,"This Artifact enters play with 1 Interrupt Counter on it.
+
+{1}, {T}, remove an Interrupt Counter: Neutralize target Spell.
+
+{3}: Put one Interrupt Counter on this Artifact.",,
+d8db8e7501a5,Wave,Alliances,Spell,blue,L,5,,,,,,5,,"Surge
+
+Deal 2 DMG to all non-Lizard Characters in target Lane.",,
+0d26d6fbac2b,Wave,Alliances,Spell,blue,L,5,,,,,,5,,"Surge
+
+Deal 2 DMG to all non-Lizard Characters in target Lane.",,
+ffe3ebeaa3c0,"Waron, Water Dragon",Alliances,"Epic Character, Dragon",blue,L,5,2,4,5,4,3,,,"Flying
+
+Drowning Touch
+
+Magic Control
+
+{1}, {T}: Create a Shield of Water Training Token and attach it to this Character.",,
+73fed58bc2c4,Water Jet,Alliances,Spell,blue,K,1,,,,,,3,,"Move target Character without turning it or spending its action. If it can't be moved, turn it instead.",,
+6f8aa1a0ca4a,Waterpriestress,Alliances,"Character, Lizard",blue,N,4,2,3,2,1,4,,,"If you control Novice of the Water you may pay {2} less to summon Waterpriestress. If you do, Rise Novice of the Water.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.
+
+{3}: Target Character in the same Lane gains Unblockable until the end of this round.",,
+473c000d848f,Waterpriestress,Alliances,"Character, Lizard",blue,N,4,2,3,2,1,4,,,"If you control Novice of the Water you may pay {2} less to summon Waterpriestress. If you do, Rise Novice of the Water.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.
+
+{3}: Target Character in the same Lane gains Unblockable until the end of this round.",,
+31c7fc12eddb,Wizard of Lizards,Alliances,"Character, Lizard Wizard",blue,K,2,1,3,3,2,2,,,"Magic Control
+
+When this Character enters play, unturn target Character you control in the same Lane.",,
+ac6c48fe9f47,Wizard of Lizards,Alliances,"Character, Lizard Wizard",blue,K,2,1,3,3,2,2,,,"Magic Control
+
+When this Character enters play, unturn target Character you control in the same Lane.",,
+64c5ff7f0a8d,Brood Cavern,Alliances,Resource,blue,N,,1,,,,,,,"When this Resource enters play, draw a card then discard a card.
+
+{T}: Gain {1} ASP.",,
+8e1287fcf493,Brood Cavern,Alliances,Resource,blue,N,,1,,,,,,,"When this Resource enters play, draw a card then discard a card.
+
+{T}: Gain {1} ASP.",,
+401b38051c1f,Coral Reef,Alliances,Resource,blue,N,,2,,,,,,,{T}: Gain {1} ASP for each Coral Reef you control.,,
+d3a428d8077a,Coral Reef,Alliances,Resource,blue,N,,2,,,,,,,{T}: Gain {1} ASP for each Coral Reef you control.,,
+5fc1073f40c1,Fertile Field,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+59a7fe9e150e,Fertile Field,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+6f1b92d14785,"Issh’Kala, Daughter of Tirash'Ka",Alliances,"Mythic Character, Lizard Advisor",blue,F,4,2,5,,,,,,"Advisor
+
+When Issh'Kala, Daughter of Tirash'Ka enters play, create a turned 5/5 Serpent of the Deep Token with ""{3}: This Character gains Unblockable until end of this round."".
+
+{4}, {T} : Create a 5/5 Serpent of the Deep Token, activate only if you control no Serpent.",,
+4ae59401672a,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,2,2,1,2,,,"If you control a LVL 2 Resource, {1}, {T}: Rise into Waterpriestress.
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+ea38137d0191,Novice of the Water,Alliances,"Character, Lizard",blue,N,2,1,2,2,1,2,,,"If you control a LVL 2 Resource, {1}, {T}: Rise into Waterpriestress.
+
+{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+62aff185a703,Priest,Alliances,Equilibra Character,grey,K,1,1,4,2,1,2,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+29b769c02388,Subsea Flow,Alliances,Resource,blue,N,,1,,,,,,,"When this Resource enters play, turn or unturn target Character in the same Lane.
+
+{T}: Gain {1} ASP.",,
+be648e2b13a3,Subsea Flow,Alliances,Resource,blue,N,,1,,,,,,,"When this Resource enters play, turn or unturn target Character in the same Lane.
+
+{T}: Gain {1} ASP.",,
+5ffd2cf40bde,Temple of Water,Alliances,Resource,blue,N,,2,,,,,,,"{T}: Gain {1} ASP, gain {2} ASP instead if a Character is bound to this Resource.
+
+{1},{T}: Return target Character that is bound to this Resource to its owner's hand.",,
+992737e38ca0,Shield of Water,Alliances,"Token, Fundamental Training",blue,T,,,,,,,,,"The next time trained Character would take DMG, prevent that DMG, then sacrifice all Shield of Water Trainings attached to it.",,
+7c29d18b4047,Shield of Water,Alliances,"Token, Fundamental Training",blue,T,,,,,,,,,"The next time trained Character would take DMG, prevent that DMG, then sacrifice all Shield of Water Trainings attached to it.",,
+ef7893a1bfcc,Serpent of the Deep,Alliances,"Token Character, Serpent",blue,T,,,5,5,5,5,,,{3}: This Character gains Unblockable until the end of the round. (It can't be blocked.),,
+f524e0ef5ec4,"Grak'Nar, the Bloodrage",Alliances,Red Sovereign,red,F,,,,,,,,30,"{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP: Create a Mythic Chieftain of War, Chieftain of Magic or Chieftain of Strategy Training Token and attach it to target Character with Horde you control.
+
+Pay 4 LP, sacrifice a Chieftain: Deal X DMG to target Character, where X is equal to the number of Characters with Horde you control.",,
+ac09d5e9fd10,Sovereign's Rune,Alliances,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune
+
+{T}: Gain {1} ASP.
+
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+a48fd9ac2b16,Abominable Beast of the Orcs,Alliances,"Character, Beast",red,N,4,2,2,3,5,3,,,"Horde
+
+Punch",,
+6e155b315ed2,Amulet of the Scum,Alliances,Artifact,red,N,3,,,,,,,,"Whenever a Character with Horde you control dies, put one Time Counter on Amulet of the Scum.
+
+{2}, remove three Time Counters: Create a Mythic Chieftain of War, Chieftain of Magic or Chieftain of Strategy Training Token and attach it to target Character with Horde you control.",,
+7ec9452bd53b,Antimagic,Alliances,Equilibra Spell,grey,K,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+f60c46ad8d5e,Antimagic,Alliances,Equilibra Spell,grey,F,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+490639e571ae,Bärenkatapult,Alliances,Spell,red,L,3,,,,,,4,,"As an additional cost to cast this Spell, sacrifice a Character.
+
+Deal DMG to target Character equal to the sacrificed Character's POW.",,
+b51320adf791,Elite Warrior of the Burning Plains,Alliances,"Character, Orc",red,L,4,2,3,4,4,3,,,"Horde
+
+As long as you control a Chieftain of War, this Character gains Two-Handed Combat and Speed.",,
+a60c85ef6f79,Fireshaman,Alliances,"Character, Orc",red,N,4,2,3,2,2,4,,,"Horde
+
+{2}, {T}: Deal 2 DMG to target Character in the War Zone in the same Lane. Activate only if you control a Chieftain of Magic.",,
+ac0fdaa7085a,Flames of Khrakan,Alliances,Fundamental Training,red,L,3,,,,,,,,"Trained Character gains: ""{2}, {T}: Deal 2 DMG to Target Character in the same Lane. Deal an additional DMG if you control a Chieftain of War, a Chieftain of Strategy or a Chieftain of Magic.""",,
+e798a4acecd8,Goblin,Alliances,"Character, Goblin",red,K,2,1,2,2,2,2,,,Horde,,
+e46456d0fb66,Goblin Archer,Alliances,"Character, Goblin",red,N,3,1,2,3,1,2,,,"Horde
+
+Ranged Combat",,
+dc20834541c4,Goblin Fire,Alliances,Spell,red,N,1,,,,,,3,,Deal 1 DMG to every Character in target War Zone.,,
+29d2f8578025,Goblin Skewer,Alliances,"Character, Goblin",red,N,3,1,2,3,3,2,,,"Horde
+
+Skyguard",,
+8f1b0dd75a7e,Horde Leader,Alliances,"Character, Orc",red,L,4,2,3,4,4,4,,,Horde,,
+e005537a46cf,Orc Archer,Alliances,"Character, Orc",red,N,4,2,3,4,3,2,,,"Horde
+
+Ranged Combat",,
+3c2f0f53424e,Orc Scout,Alliances,"Character, Orc",red,K,2,1,2,3,3,2,,,Horde,,
+3a6568054b2d,Orcish Warhound,Alliances,"Character, Dog",red,N,2,1,2,3,2,2,,,"When this Character enters play, target Character you control gains Tactical Shift until the end of the round.",,
+7774489a314a,Orcish Warrior,Alliances,"Character, Orc",red,K,3,1,3,3,4,2,,,Horde,,
+e037762053db,Ring of Fire,Alliances,Mythic Artifact,red,F,3,,,,,,,,"When this Artifact enters play, create a Fire Token in target War Zone.
+
+{T}: Gain {1} ASP.",,
+6d70e10c3d6b,Spitefang Marauder,Alliances,"Character, Human",red,K,3,1,2,3,3,2,,,Horde,,
+746ba6f3c9e3,Burning Pits,Alliances,Resource,red,L,,2,,,,,,,"{T}: Gain {1} ASP.
+
+{2}, {T}: Create a Fire Token in the War Zone in the same Lane.",,
+40d380e36aed,Citadel of the Orc King,Alliances,Mythic Resource,red,F,,2,,,,,,,"{T}: Gain {1} ASP, then gain an additional {1} ASP for each Chieftain you control.",,
+4416206bd940,Fertile Field,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+e9413e44e0be,Forge,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+4021a69e337b,Goblin Priest,Alliances,"Character, Goblin",red,N,2,1,2,2,1,2,,,"Horde
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+8ae7e79da615,Marshall of the Burning Plains,Alliances,"Character, Orc",red,N,3,2,3,2,2,3,,,"Horde
+
+{T}: Gain {1} ASP, as long as this Character remains Bound. Gain {2} ASP instead if you control a Chieftain of Strategy in the same Lane.",,
+25c9da05c157,Orc Village,Alliances,Resource,red,N,,1,,,,,,,"{T}: Gain {1} ASP.
+
+{2}, {T}: Create a 3/2 Orc Fighter Token with Horde in the same Lane.",,
+4ac51c82d953,Priest,Alliances,Equilibra Character,grey,K,1,1,4,2,1,2,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+02b7c2337980,Topsoil of the Goblins,Alliances,Resource,red,L,,2,,,,,,,"{T}: Gain {1} ASP, gain {2} ASP instead if you control at least 3 Characters with Horde.",,
+11dc093ed49c,Chieftain of Magic,Alliances,"Mythic Fundamental Training, Token",red,T,,,,,,,,,"Trained Character becomes a Chieftain of Magic in addition to its other Card Types.
+
+Other Characters with Horde in the same Lane gain RES+1 for each Character with Horde you control in that Lane.",,
+7d8b8c38d5e4,Chieftain of Strategy,Alliances,"Mythic Fundamental Training, Token",red,T,,,,,,,,,"Trained Character becomes a Chieftain of Strategy in addition to its other Card Types.
+
+Other Characters with Horde in the same Lane gain INI+1 for each Character with Horde you control in that Lane.",,
+40a43fe9250c,Chieftain of War,Alliances,"Mythic Fundamental Training, Token",red,T,,,,,,,,,"Trained Character becomes a Chieftain of War in addition to its other Card Types.
+
+Other Characters with Horde in the same Lane gain POW/HP +1/+0 for each Character with Horde you control in that Lane.",,
+94181a78d66b,Orc Fighter,Alliances,"Character, Orc",red,T,,1,2,3,3,2,,,Horde,,
+e09fa611b406,"Miralyn Windblade, Bearer of the Covenant",Alliances,Purple Sovereign,purple,F,,,,,,,,20,"All Fairies you control have Fairy Dust
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+Pay 1 LP: Create an Alliance Training Token and attach it to target Fairy Character you control. Use this ability only once per round.",,
+a81bcd4222b3,Sovereign's Rune,Alliances,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune
+
+{T}: Gain {1} ASP.
+
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+bf876b40e788,"Akrasha, the Warden",Alliances,"Character, Arcane",purple,L,3,2,4,4,3,4,,,Teleport,,
+2abcc3dfc0c6,Amulet of Isa,Alliances,Artifact,purple,L,2,,,,,,,,"When this Artifact enters play you may look at your opponent's hand and put 1 Alertness Counter on it.
+
+{1}, remove an Alertness Counter: Neutralize target Spell or target permanent card on the reaction chain your opponent controls. (Put it from the reaction chain into its owner's Graveyard).
+
+Whenever a Character you control with Alliance dies, you may pay {2}. If you do put an Alertness Counter on this Artifact.",,
+633b19aee79c,Antimagic,Alliances,Equilibra Spell,grey,K,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+888d751d76fc,Banner of the Alliance,Alliances,Mythic Artifact,purple,L,3,,,,,,,,"When this Artifact enters play, create one 1/2 Fighting Fairy Character Token with Flying and Alliance.
+{T}: Create an Alliance Training Token and attach it to target Fairy Character you control.",,
+0bf5a262e0ac,Enchanted Trinket,Alliances,Fundamental Training,purple,K,2,,,,,,,,"Trained Character gains POW/HP +1/+0.
+
+At the beginning of your turn, you may return this card to your hand. If you do, draw a card.",,
+2ec1c5f0e7df,Fairy of Battle,Alliances,"Character, Fairy",purple,K,3,1,3,3,2,3,,,"Flying
+
+Veil",,
+3d678ab897d0,Illusion Dust,Alliances,Spell,purple,N,4,,,,,,,,"Surge
+
+Return target Artifact, Ritual or Training to its owner's hand.",,
+1c1da35cabb8,Magical Raindrop,Alliances,Fundamental Training,purple,N,2,,,,,,,,"Trained Character gains RES+1 and ""{1}, Put 1 RES-1 Counter on the trained Character: Put 1 POW/HP +0/+2 Counter on target other Character in the same Lane. Then, if the trained Character has 0 or less RES, banish it.""",,
+5cf035f37fd7,Messenger Fae,Alliances,"Character, Fairy",purple,K,2,1,3,4,1,2,,,"Flying
+
+{T}: Return Messenger Fae to its owner's hand.",,
+3d78069230c9,Not Your Time,Alliances,Spell,purple,K,2,,,,,,3,,Return target Character to its owner's hand.,,
+ac355275934a,Pollen Fairy,Alliances,"Character, Fairy",purple,K,2,1,3,3,1,2,,,"Flying
+
+Ranged Combat",,
+43f38f0dca63,Pollen Gun,Alliances,"Character, Fairy",purple,N,3,2,4,3,2,2,,,"Flying
+
+Ranged Combat
+
+{1}, {T}: Put 1 RES-1 Counter on target Character in the same Lane.",,
+af2ca3dd8f16,Protector of the Mirrorblossom,Alliances,"Character, Human",purple,N,4,2,4,4,2,6,,,Sacrifice Protector of the Mirrorblossom: Redirect the next DMG a Fairy you control would take this round to a Character your opponent controls instead.,,
+cbfc3d42a664,"Ralin, Toshi's Brother",Alliances,"Epic Character, Human",purple,L,5,2,5,5,5,5,,,"When this Character enters play, return up to one target Character your opponent controls in the same Lane to its owner's hand. Then create an Alliance Training Token and attach it to Ralin, Toshis Brother.
+
+You may treat Ralin, Toshi's Brother as if he is a Fairy.",,
+65243ac4ad82,Ring of the Fairies,Alliances,Mythic Artifact,purple,F,2,,,,,,,,"Whenever you return a permanent to its owner's hand, use String of Destiny 2.
+
+{T}: Gain {1} ASP.",,
+02951d7de8ed,Soul Recall,Alliances,Spell,purple,L,4,,,,,,4,,Return up to four target Characters you control to their owner's hand. Then return up to that many Characters your opponent controls to their owner's hand.,,
+11e5b2eaef3a,Stellar Magic,Alliances,Spell,purple,N,3,,,,,,5,,"Return an Artifact, Character, Ritual or Training to its owner's hand.",,
+363471639f30,Whispering Pixie,Alliances,"Character, Fairy",purple,L,4,2,3,4,2,3,,,"Flying
+
+When this Character enters play, use String of Destiny 2.",,
+db925daa75be,Fertile Field,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+3892c78b2888,Forge,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+049c859c5aa6,Forest of Wishes,Alliances,Resource,purple,L,,2,,,,,,,"{T}: Gain {1} ASP. Gain {2} ASP instead, if you control a Character with Alliance in the same Lane.",,
+866f686f822b,Lysana's Creation,Alliances,Resource,purple,N,,1,,,,,,,"If a Character you control with Alliance in the same Lane would take DMG, reduce it by 1.
+
+{T}: Gain {1} ASP.",,
+b833c5b4659b,Nimblefix,Alliances,"Character, Fairy",purple,N,3,1,3,3,1,2,,,"When this Character enters play, target Character in the same Lane gains 1 RES-1 Counter.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+49e649ff0db2,Pollen Field,Alliances,Resource,purple,L,,2,,,,,,,"When this Resource enters play, your Sovereign regenerates 1 LP.
+
+Whenever a Character you control gains Alliance, your Sovereign regenerates 1 LP.
+
+{T}: Gain {1} ASP.",,
+d69e7c44bc2d,Priest,Alliances,Equilibra Character,grey,K,1,1,4,2,1,2,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+eb6dc4232a95,Wondrous Clearing,Alliances,Resource,purple,N,,1,,,,,,,"When this Resource enters play, use String of Destiny 2.
+
+{T}: Gain {1} ASP.",,
+f27ea2cd8c5d,The Cat,Alliances,"Character, Fairy Cat",purple,N,3,2,3,3,2,2,,,"When this Character enters play, create one 1/2 Fighting Fairy Character Token with Flying and Alliance.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+19532e874bac,Alliance Token,Alliances,"Fundamental Training, Token",purple,T,,,,,,,,,"When this Training enters play, regenerate 1 LP to your Sovereign. Trained Character gains Alliance.",,
+d3040d172479,Fighting Fairy,Alliances,"Token Character, Fairy",purple,T,,1,2,3,1,2,,,"Flying
+
+Alliance",,
+89fd5d0e7aa4,"Krador, Sovereign of Stone and Soil",Alliances,Brown Sovereign,brown,F,,,,,,,,30,"Breaker of Earth - Whenever a brown non-Token permanent enters play under your control, create a Lerium Token.
+
+{T}, Pay 1 LP: Gain {1} ASP.
+
+{T}, Pay 2 LP, Sacrifice 5 Lerium: Target Stone Character gains Punch and Ecstasy until the end of this round.",,
+55ca86adc123,Sovereigns Rune,Alliances,"Equilibra Resource, Rune",grey,F,,,,,,,,,"Rune
+
+{T}: Gain {1} ASP.
+
+{T}: Search your pool for an Advisor, a Character with Binding, or a Resource card and reveal it. Place the searched card in its designated Slot without paying any costs. Then shuffle your pool.",,
+b25f9f203545,Antimagic,Alliances,Equilibra Spell,grey,K,3,,,,,,,,"Destroy target Artifact, Ritual or Training.",,
+7284a7bee418,Banner of Stone,Alliances,Mythic Artifact,brown,L,3,,,,,,,,"When this Artifact enters play, create one 2/2 Stone Goat Character Token and one Lerium Token.
+
+Characters you control gain POW/HP +0/+1.",,
+a609605087fe,Bludgeon Worm,Alliances,"Character, Stone",brown,N,4,1,3,3,5,4,,,,,
+a544ae7a8619,Diverted Power,Alliances,Equilibra Spell,grey,N,2,,,,,,3,,"Deal 1 DMG to target Character or reduce 1 LP to target Sovereign. Draw one card, then discard one at the end the round.",,
+4d48106fb0f1,Domain of the Stones,Alliances,Mythic Artifact,brown,L,4,,,,,,,,"Whenever a Character enters play under your control, you may sacrifice one Lerium. If you do, put 1 POW/HP +1/+1 Counter on that Character. If it is a Stone Character, you may sacrifice one additional Lerium. If you do put 1 additional POW/HP +1/+1 Counter on it.",,
+c2d0040c9824,"Durnin, Dwarf of Valor",Alliances,"Epic Character, Dwarf",brown,L,5,2,3,3,4,4,,,Overrun,,
+46a3b4ed57aa,Dwarf Maiden,Alliances,"Character, Dwarf",brown,K,3,1,3,3,3,3,,,"When this Character dies, create two Lerium Tokens.",,
+c925672adfec,Earth's Breath,Alliances,Spell,brown,L,4,,,,,,5,,"As an additional cost to cast this Spell, you may sacrifice 2 Lerium.
+
+Deal 2 DMG to all Characters in target Lane. If the additional cost was paid, deal an additional 1DMG to up to two target Characters in that Lane.",,
+549c4a48ddec,Ring of Stones,Alliances,Mythic Artifact,brown,F,2,,,,,,,,"Once per round, if you create a non-Character Token, create an additional Token of the same kind.
+
+{T}: Gain {1} ASP.",,
+b69eacd24b5c,Rumbin the Goat Herder,Alliances,"Epic Character, Dwarf",brown,N,4,2,3,3,3,4,,,"When this Character enters play, create one 2/2 Goat Stone Character Token.",,
+32ee8d52234d,Stone Giant,Alliances,"Character, Stone",brown,L,6,2,3,3,6,6,,,"Dual Slot
+
+Overrun",,
+bfe8309c2c3d,Stonemason,Alliances,"Character, Dwarf",brown,K,3,1,3,3,2,4,,,"{T}, sacrifice 1 Lerium: Target Stone Character regenerates 1 HP.",,
+8f4f9c1d64ad,Stoneix Arkeia,Alliances,Spell,brown,N,1,,,,,,,,Create three Lerium Tokens.,,
+e19dd1bb8065,Stoneworm,Alliances,"Character, Stone",brown,L,6,2,4,3,6,6,,,"When this Character enters play, create two Lerium Tokens.",,
+ebdd3b2d8c11,Tail Swipe,Alliances,Spell,brown,K,3,,,,,,4,,"As an additional cost to cast this Spell, you may sacrifice 2 Lerium.
+
+Deal 1 DMG to every Character in target War Zone. If this Spell' s additional cost was paid, deal 2 DMG instead.",,
+ab1cf79dd829,The Giant Golem,Alliances,"Character, Stone",brown,F,6,2,3,3,7,7,,,"Dual Slot
+
+Sacrifice 1 Lerium Token: This Character gains Punch until the end of this round.",,
+c24dc21b5ce8,"Vorax, the Worm",Alliances,"Epic Character, Stone",brown,L,6,2,3,2,4,6,,,"Dual Slot
+
+If you control a Worm Token, pay {2} less to summon Vorax, the Worm, then Rise Worm Token.
+
+When this Character emerges in your opponent's War Zone, all other Characters in that War Zone gain Fear and retreat to the Back Row. If they can't retreat, destroy them instead. Vorax, the Worm does not unturn at the beginning of the next round.",,
+0b1d191aaf2d,Stonebound Riches,Alliances,Spell,brown,K,3,,,,,,,,Create a 2/2 Worm Token with Emerge 3 in target War Zone.,,
+b01881c17e77,Aethonwynn Mother of all Stones,Alliances,"Mythic Character, Stone Advisor",brown,F,5,2,5,,,,,,"Advisor
+
+{T}: Create two Lerium Tokens.
+
+{T}, Sacrifice one Lerium: All Stone Characters you control gain RES+1, INI+1, POW/HP +1/+1 until the end of this round.",,
+67956d37259f,Forge,Alliances,Equilibra Resource,grey,K,,1,,,,,,,{T}: Gain {1} ASP.,,
+c57a9dfaecc1,Guardian of the Treasury,Alliances,"Character, Dwarf",brown,N,3,2,3,3,2,3,,,"When this Character enters play, create a Lerium Token.
+{T}: Gain {1} ASP as long as this Character remains Bound.
+{T}: Create a Lerium Token.",,
+2a5d420cf0e0,Load Goat,Alliances,"Character, Stone, Goat",brown,N,4,2,3,3,3,4,,,"When this Character enters play, create a POW/HP 2/2 Worm Token with Emerge 3 in your War Zone in the same Lane.
+
+{T}: Gain {1} ASP as long as this Character remains Bound.",,
+fc249c334302,Peak of Eldor,Alliances,Resource,brown,L,,2,,,,,,,"This Resource enters play with a Giant Counter on it.
+
+{T}: Gain {1}ASP.
+
+{3}, {T}, remove a Giant Counter: Create one 6/6 Stone Giant Character Token with Dual Slot. Place it in target War Zone.",,
+d2ac67b57114,Smith,Alliances,Equilibra Character,grey,K,2,1,3,2,2,3,,,"{T}: Gain {1} ASP, as long as this Character remains Bound.",,
+bee9607c8326,Stones Cave,Alliances,Resource,brown,L,,2,,,,,,,"{T}: Gain {1} ASP. Gain {2} ASP instead, if you control at least two Stone Characters.
+
+{T}: Create a 2/2 Goat Stone Character Token in the same Lane.",,
+85cf33788dea,Stone Kingdom,Alliances,Resource,brown,L,,2,,,,,,,"{T}: Gain {1} ASP.
+
+{2}: Deal 1 DMG to target Stone Character you control, then deal 1 DMG to target Character in the same Lane.",,
+e60e2d938345,Stone Treasure,Alliances,Resource,brown,N,,1,,,,,,,"When this Resource enters play, create a Lerium Token.
+
+{T}: Gain {1} ASP.
+
+{T}: Create a Lerium Token.",,
+9f41179a768d,Lerium,Alliances,Token Artifact,brown,T,,,,,,,,,Sacrifice this Artifact: Target Stone Character you control gains POW/HP +0/+1 until the end of this round.,,
+dc9b3a6103a8,Stone Giant,Alliances,"Token Character, Stone",brown,T,,,3,3,6,6,,,Dual Slot,,
+112b52293580,Zarruk Skullcrusher,Alliances,"Epic Character, Dwarf",brown,N,3,2,3,3,3,3,,,"Punch
+
+Trainings used to summon Zarruk Skullcrusher cost {1} ASP less.",,

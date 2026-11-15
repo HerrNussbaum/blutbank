@@ -15,14 +15,57 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
     page = pdf.getPages()[0],
     font = await pdf.embedFont(PDFLib.StandardFonts.Helvetica);
   const scale = page.getWidth() / 1000;
-  // One font size for every card name, measured against the narrowest name column.
+  const cardNameSize = 40;
   const printableName = (value) => String(value || '').replace(/[^\x20-\x7e\u00a0-\u00ff]/g, '-');
-  const maxNameWidth = Math.max(
-    1,
-    ...cards.map((card) => font.widthOfTextAtSize(printableName(card.name), 1)),
-  );
-  const cardNameSize =
-    Math.floor(Math.min(28, ((792 - 724 - 4) * scale) / maxNameWidth) * 100) / 100;
+  const cardName = (value, left, right, top, bottom) => {
+    const text = printableName(value);
+    if (!text) return;
+    if (top === 76)
+      page.drawRectangle({
+        x: left * scale,
+        y: page.getHeight() - bottom * scale,
+        width: (right - left) * scale,
+        height: (bottom - top) * scale,
+        color: PDFLib.rgb(1, 1, 1),
+      });
+    const available = (right - left - 4) * scale;
+    const wrap = (size) => {
+      const lines = [];
+      let line = '';
+      for (const word of text.split(/\s+/)) {
+        if (line && font.widthOfTextAtSize(line + ' ' + word, size) > available) {
+          lines.push(line);
+          line = '';
+        }
+        for (const char of (line ? ' ' : '') + word) {
+          if (line && font.widthOfTextAtSize(line + char, size) > available) {
+            lines.push(line);
+            line = '';
+          }
+          line += char;
+        }
+      }
+      if (line) lines.push(line);
+      return lines;
+    };
+    let size = cardNameSize,
+      lines = wrap(size);
+    const height = () => font.heightAtSize(size) + (lines.length - 1) * size * 1.08;
+    while (size > 1 && height() > (bottom - top - 3) * scale) lines = wrap(--size);
+    const baseline =
+      page.getHeight() -
+      ((top + bottom) * scale) / 2 +
+      height() / 2 -
+      font.heightAtSize(size, { descender: false });
+    lines.forEach((line, i) =>
+      page.drawText(line, {
+        x: (left + 2) * scale,
+        y: baseline - i * size * 1.08,
+        size,
+        font,
+      }),
+    );
+  };
 
   const box = (value, left, right, top, bottom, maxSize = 30, center = false) => {
     value = String(value ?? '').replace(/[^\x20-\x7e\u00a0-\u00ff]/g, '-');
@@ -42,7 +85,7 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
     name = (e) => card(e)?.name || e.cardId;
   box(fullName, 292, 489, 48, 72, 36);
   box(nickname, 595, 821, 48, 72, 36);
-  box(
+  cardName(
     deck.entries
       .filter((e) => e.zone === 'sovereign')
       .map(name)
@@ -51,9 +94,8 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
     489,
     76,
     100,
-    cardNameSize,
   );
-  box(
+  cardName(
     deck.entries
       .filter((e) => e.zone === 'rune')
       .map(name)
@@ -62,7 +104,6 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
     821,
     76,
     100,
-    cardNameSize,
   );
   const pool = deck.entries.filter((e) => e.zone === 'pool'),
     spell = deck.entries.filter((e) => e.zone === 'spell');
@@ -693,7 +734,7 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
         top = 154 + (i % 20) * 23.63,
         bottom = top + 23.63;
       box(e.quantity, ...col.qty, top, bottom, 30, true);
-      box(name(e), ...col.name, top, bottom, cardNameSize);
+      cardName(name(e), ...col.name, top, bottom);
       const colors = card(e)?.text?.colors || [];
       ['white', 'black', 'orange', 'green', 'grey', 'purple', 'red', 'brown', 'blue'].forEach(
         (color, j) => {
@@ -725,8 +766,10 @@ export async function tournamentBytes(deck, cards, fullName = '', nickname = '')
 }
 export async function exportTournament(deck, cards) {
   const dialog = document.createElement('dialog');
+  dialog.className = 'deck-export-dialog';
+  dialog.setAttribute('aria-labelledby', 'tournament-export-title');
   dialog.innerHTML =
-    '<form method="dialog"><h2>Turnierbogen exportieren</h2><label>Vor- und Nachname<input name="fullName"></label><label>Nickname<input name="nickname"></label><p>Maybeboard wird nicht exportiert.</p><button value="cancel">Abbrechen</button><button value="export">PDF herunterladen</button><p role="status"></p></form>';
+    '<form method="dialog"><h2 id="tournament-export-title">Turnierbogen exportieren</h2><label>Vor- und Nachname<input name="fullName" autocomplete="name"></label><label>Nickname<input name="nickname"></label><p>Maybeboard wird nicht exportiert.</p><div class="export-dialog-actions"><button type="submit" value="cancel">Abbrechen</button><button class="export-primary" type="submit" value="export">PDF herunterladen</button></div><p role="status"></p></form>';
   document.body.append(dialog);
   dialog.querySelector('form').onsubmit = async (e) => {
     if (e.submitter.value !== 'export') return;

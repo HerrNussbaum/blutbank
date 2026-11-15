@@ -1371,8 +1371,13 @@ function catalog() {
       </form>
     </details>
     <div class="catalog-results-heading">
-      <p class="count" id="card-count" aria-live="polite"></p>
-      <button class="pill catalog-action" id="clear-filters" type="button" hidden>
+      <button
+        class="pill catalog-action"
+        id="clear-filters"
+        aria-label="${t('Filter zurücksetzen', 'Clear filters')}"
+        type="button"
+        hidden
+      >
         ${catalogActionIcon('reset')}<span>${t('Filter zurücksetzen', 'Clear filters')}</span>
       </button>
     </div>
@@ -1450,7 +1455,11 @@ function organizeCardFilters() {
     panel = $('#advanced-search'),
     toolbar = $('.catalog-results-heading');
   toolbar.classList.add('catalog-toolbar');
-  panel.before(toolbar);
+  const searchRow = document.createElement('div');
+  searchRow.className = 'catalog-search-row';
+  const search = $('#quick-search');
+  search.before(searchRow);
+  searchRow.append(search, toolbar);
   const sort = form.querySelector('[data-filter="sort"]'),
     sortLabel = sort.closest('label');
   sort.id = 'catalog-sort';
@@ -1482,6 +1491,7 @@ function organizeCardFilters() {
   toggle.onclick = () => (panel.open = !panel.open);
   const updateFilterToggle = () => {
     toggle.setAttribute('aria-expanded', String(panel.open));
+    toggle.setAttribute('aria-label', t('Filter', 'Filters'));
     toggle.querySelector('.filter-toggle-label').textContent = t('Filter', 'Filters');
   };
   panel.ontoggle = updateFilterToggle;
@@ -1627,8 +1637,6 @@ function fillCards() {
     : /* HTML */ `<p class="empty">
         ${t('Keine passenden Karten. Entferne einen Filter oder ändere die Suche.', 'No matching cards. Remove a filter or change your search.')}
       </p>`;
-  $('#card-count').textContent =
-    `${items.length} ${t('Karten', 'cards')} · ${Math.min(limit, items.length)} ${t('angezeigt', 'shown')}`;
   const active = Object.keys(cardFilters).filter(
     (k) => !['q', 'sort', 'colorMode'].includes(k) && !k.endsWith('Op'),
   ).length;

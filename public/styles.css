@@ -8809,8 +8809,8 @@ html {
   display: flex;
   align-items: center;
   gap: 0;
-  width: min(100%, 780px);
-  margin: 0 auto 32px;
+  width: 100%;
+  margin: 0;
   background: transparent;
   border: 0;
   border-bottom: 1px solid #a7803399;
@@ -8884,10 +8884,17 @@ html {
   border-color: #b79b58;
   color: #fff0c9;
 }
+#content .catalog-search-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 24px;
+  margin-bottom: 32px;
+}
 #content .catalog-toolbar {
-  align-items: end;
+  align-items: center;
   gap: 12px;
-  margin-bottom: 24px;
+  margin: 0;
 }
 #content .catalog-toolbar :is(#filter-toggle, #clear-filters) {
   min-width: 206px;
@@ -9110,16 +9117,45 @@ html {
   stroke-width: 2;
   color: var(--highlight);
 }
-@media (max-width: 530px) {
+@media (max-width: 760px) {
+  #content .catalog-search-row {
+    gap: 10px;
+  }
+  #content .catalog-toolbar {
+    gap: 6px;
+    flex-wrap: nowrap;
+  }
   #content .catalog-toolbar .catalog-sort,
   #content .catalog-toolbar #filter-toggle {
-    width: min(156px, calc((100% - 12px) / 2));
-    min-width: 0;
+    width: 44px;
+    min-width: 44px;
+    height: 44px;
     flex: none;
   }
-  #content .catalog-toolbar .catalog-sort #catalog-sort,
   #content .catalog-toolbar #filter-toggle {
-    font-size: 16px;
+    justify-content: center;
+    padding: 0;
+  }
+  #content .catalog-toolbar #filter-toggle :is(.filter-toggle-label, #active-filters),
+  #content .catalog-toolbar .catalog-sort::after {
+    display: none;
+  }
+  #content .catalog-toolbar .catalog-sort #catalog-sort {
+    color: transparent;
+    padding: 0;
+  }
+  #content .catalog-toolbar .catalog-sort option {
+    color: var(--text);
+    background: #17363c;
+  }
+  #content .catalog-toolbar #clear-filters {
+    min-width: 0;
+    width: 44px;
+    padding: 0;
+    flex: none;
+  }
+  #content .catalog-toolbar #clear-filters > span {
+    display: none;
   }
 }
 @media (pointer: coarse) {
@@ -10332,7 +10368,7 @@ body[data-view='glossary'] #content > .alphabet:first-child {
   display: block;
   margin-bottom: 8px;
 }
-.deck-export-dialog select {
+.deck-export-dialog :is(select, input) {
   box-sizing: border-box;
   width: 100%;
   height: 38px;
@@ -10342,6 +10378,10 @@ body[data-view='glossary'] #content > .alphabet:first-child {
   background: #17363c;
   color: inherit;
   font: inherit;
+}
+.deck-export-dialog input {
+  box-sizing: border-box;
+  width: 100%;
 }
 .export-dialog-actions {
   display: flex;
@@ -10359,7 +10399,7 @@ body[data-view='glossary'] #content > .alphabet:first-child {
   color: inherit;
   font: inherit;
 }
-.export-dialog-actions [type='submit'] {
+.export-dialog-actions :is([type='submit']:not([value='cancel']), .export-primary) {
   background: #6b562a;
   border-color: #b79b58;
   color: #fff0c9;
@@ -10467,8 +10507,10 @@ body[data-view='glossary'] #content > .alphabet:first-child {
 #content .catalog-toolbar .catalog-sort #catalog-sort {
   font-size: 15px;
 }
-#content .catalog-toolbar :is(#filter-toggle, .catalog-sort) {
-  width: 140px;
+@media (min-width: 761px) {
+  #content .catalog-toolbar :is(#filter-toggle, .catalog-sort) {
+    width: 140px;
+  }
 }
 .export-dialog-actions button {
   font-size: 15px;

@@ -92,7 +92,7 @@ export async function mountDeckBuilder(root, cards, lang, id) {
       return;
     }
     if (!index) {
-      const response = await fetch('data/card-identities.json');
+      const response = await fetch('data/card-identities.json', { cache: 'no-store' });
       if (!response.ok) throw Error('Card identities unavailable');
       index = indexCards(cards, await response.json());
     }

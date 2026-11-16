@@ -43,6 +43,29 @@ function gameplayFields(): array
     'surcharges',
   ];
 }
+// Upgrade known legacy Zyphor values without replacing later editorial changes or drafts.
+function normalizeLegacyCardRecord(array $card): array
+{
+  if (!in_array($card['id'] ?? '', ['e6c10c910c75', 'ee37ad941634'], true)) {
+    return $card;
+  }
+  if (
+    in_array($card['name'] ?? '', ['Zyphor Teller of Tales', 'Zyphor, Teller of Lost Tales'], true)
+  ) {
+    $card['name'] = 'Zyphor, Teller of Lost Tales';
+    $card['nameFromFilename'] = false;
+  }
+  $legacy = [
+    'When this Character enters play, look at the top 3 cards of your Spell deck, draw one card and put the rest back on top in any order.',
+    'When Zyphor, Teller of Lost Tales enters play, look at the top 3 cards of your Spell deck, draw one card and put the rest back on top in any order.',
+  ];
+  $text = preg_replace('/\s+/', ' ', trim($card['text']['rulesText'] ?? ''));
+  if (in_array($text, $legacy, true)) {
+    $card['text']['rulesText'] =
+      'When Zyphor, Teller of Lost Tales enters play, look at the top 3 cards of your Spell deck, draw one of them and put the rest back on top in any order.';
+  }
+  return $card;
+}
 function cardRecords(PDO $db, array $config): array
 {
   $cards = json_decode(
@@ -65,7 +88,7 @@ function cardRecords(PDO $db, array $config): array
       if (!isset($map[$row['card_id']])) {
         continue;
       }
-      $body = json_decode($row['body'], true);
+      $body = normalizeLegacyCardRecord(json_decode($row['body'], true));
       $published[$row['card_id']] = $body;
       $key = $map[$row['card_id']]['gameplayId'] ?? $row['card_id'];
       $shared[$key] = $body['text'];
@@ -99,7 +122,10 @@ function cardRecords(PDO $db, array $config): array
   }
   unset($card);
   foreach ($cards as &$card) {
-    if (in_array($card['id'], ['19532e874bac', '549c4a48ddec'], true)) {
+    $card = normalizeLegacyCardRecord($card);
+    if (
+      in_array($card['id'], ['19532e874bac', '549c4a48ddec', 'e6c10c910c75', 'ee37ad941634'], true)
+    ) {
       $card['text']['gameplayId'] = $card['gameplayId'];
     }
   }

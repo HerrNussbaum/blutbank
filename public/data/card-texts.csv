@@ -99,7 +99,7 @@ Skyguard
 {T}: Protective Shield.",,
 298e64796878,Watch Dog,Origin,"Character, Dog",white,K,2,1,3,4,2,2,,,All other Characters you control in the same Lane gain INI+1.,,
 3001d477b23c,White Pegasus,Origin,"Character, Pegasus",white,K,3,1,3,3,2,2,,,Flying,,
-e6c10c910c75,Zyphor Teller of Tales,Origin,"Epic Character, Human",white,F,4,2,3,3,2,4,,,"When Zyphor, Teller of Lost Tales enters play, look at the top 3 cards of your Spell deck, draw one of them and put the rest back on top in any order.",,
+e6c10c910c75,"Zyphor, Teller of Lost Tales",Origin,"Epic Character, Human",white,F,4,2,3,3,2,4,,,"When Zyphor, Teller of Lost Tales enters play, look at the top 3 cards of your Spell deck, draw one of them and put the rest back on top in any order.",,
 238a1564f3c3,"Arion, Paladin of the Falcon Guard",Origin,"Epic Character, Human",white,N,4,2,3,3,3,2,,,"When this Character enters play, create one 1/1 Falcon Token with Flying in target War Zone.
 
 {T}: Gain {1} ASP as long as this Character remains Bound.",,
@@ -603,7 +603,7 @@ Abilities from permanent cards (e.g. Equipment, Training, Artifacts) may be acti
 Important: If a character is turned, it loses its RES and INI until it is unturned.",,
 41fc1db142a6,"Thalor, Falcon of Accuracy",Origin,"Character, Bird",white,L,4,2,3,4,2,3,,,"Flying
 Targeted Strike",,
-ee37ad941634,"Zyphor, Teller of Lost Tales",Origin,"Epic Character, Human",white,F,4,2,3,3,2,4,,,"When this Character enters play, look at the top 3 cards of your Spell deck, draw one card and put the rest back on top in any order.",,
+ee37ad941634,"Zyphor, Teller of Lost Tales",Origin,"Epic Character, Human",white,F,4,2,3,3,2,4,,,"When Zyphor, Teller of Lost Tales enters play, look at the top 3 cards of your Spell deck, draw one of them and put the rest back on top in any order.",,
 f89474bf8e21,Poison Cellar,Origin,Resource,black,L,,2,,,,,,,"This Resource enters play with 3 Cellar Counters.
 
 {T}: Gain {1} ASP.

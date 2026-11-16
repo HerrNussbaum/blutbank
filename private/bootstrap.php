@@ -60,6 +60,7 @@ function normalizeDeckCardIdentities(array $deck): array
     '32ee8d52234d' => ['card-32ee8d52234d', 'card-32ee8d52234d-character'],
     '19532e874bac' => ['card-19532e874bac', 'card-f52e689e92b1'],
     '549c4a48ddec' => ['card-549c4a48ddec', 'card-20e14ad55c10'],
+    'ee37ad941634' => ['card-ee37ad941634', 'card-e6c10c910c75'],
   ];
   $entries = [];
   $positions = [];

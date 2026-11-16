@@ -2913,7 +2913,7 @@
   },
   {
     "id": "e6c10c910c75",
-    "name": "Zyphor Teller of Tales",
+    "name": "Zyphor, Teller of Lost Tales",
     "set": "Origin",
     "rarity": "F",
     "collectorNumber": "047",
@@ -14012,7 +14012,7 @@
       "review.info",
       "review.text"
     ],
-    "gameplayId": "card-ee37ad941634",
+    "gameplayId": "card-e6c10c910c75",
     "typeLine": "Epic Character, Human",
     "types": [
       "Character"
@@ -14042,7 +14042,7 @@
       "rise": null
     },
     "keywords": [],
-    "rulesText": "When this Character enters play, look at the top 3 cards of your Spell deck, draw one card and put the rest back on top in any order.",
+    "rulesText": "When Zyphor, Teller of Lost Tales enters play, look at the top 3 cards of your Spell deck, draw one of them and put the rest back on top in any order.",
     "additionalCostsText": ""
   },
   {

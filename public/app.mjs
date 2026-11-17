@@ -1906,8 +1906,8 @@ function cardPage() {
             </section>`
           : ''
       }
+      ${tokenProvenance(c)}
     </div>
-    ${tokenProvenance(c)}
   </article>`;
   addCardEditorLink();
   updateCardEditorAccess();

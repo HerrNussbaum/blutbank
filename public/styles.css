@@ -850,14 +850,15 @@ body[data-view='shared'] #content {
   text-decoration: none;
 }
 .card-errata {
-  font-size: 19px;
-  line-height: 1.65;
+  font-size: 17px;
+  line-height: 1.5;
   max-width: var(--reading-width);
   overflow-wrap: normal;
 }
 .card-errata h2 {
-  font-size: 27px;
-  margin: 4px 0 18px;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0 0 12px;
 }
 .transcription-status {
   font-size: 16px;
@@ -3625,8 +3626,8 @@ body[data-view='proxy'] #content {
 }
 .card-errata p {
   margin: 0 0 1em;
-  font-size: 20px;
-  line-height: 1.6;
+  font-size: inherit;
+  line-height: inherit;
 }
 .card-errata p:last-child {
   margin-bottom: 0;
@@ -5387,15 +5388,17 @@ body[data-view='users'] #sidebar {
   height: 36px;
 }
 .card-page .token-creators {
-  grid-column: 2/-1;
   width: 100%;
-  margin-top: 12px;
+  font-size: 17px;
+  line-height: 1.5;
+  margin-top: 24px;
   border-top: 1px solid var(--card-divider);
   padding-top: 20px;
 }
 .token-creators h2 {
-  font-size: 24px;
-  margin: 0 0 14px;
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0 0 12px;
 }
 .token-creator-links {
   display: flex;
@@ -5425,9 +5428,6 @@ body[data-view='users'] #sidebar {
 @media (max-width: 780px) {
   .card-page-text {
     padding-right: 42px;
-  }
-  .card-page .token-creators {
-    margin-top: 0;
   }
   .token-creators {
     align-self: stretch;

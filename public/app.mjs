@@ -1813,9 +1813,9 @@ function tokenProvenance(c) {
   const creators = tokenCreators(c, cards);
   if (!creators.length) return '';
   return /* HTML */ `<section class="token-creators">
-    <h2>${t('Erzeugt durch', 'Created by')}</h2>
+    <h2>${t('Diese Karten erzeugen den Token', 'Cards that create this token')}</h2>
     <div class="token-creator-links">
-      ${creators.map((card) => /* HTML */ `<a href="${url('card', card.id)}">${esc(card.name)}</a>`).join('')}
+      ${creators.map((card) => /* HTML */ `<a class="token-creator-link" data-deck-preview href="${url('card', card.id)}"><img src="${esc(card.image || card.original)}" alt="" loading="lazy" width="36" height="50" /><span>${esc(card.name)}</span><span class="token-creator-arrow" aria-hidden="true">→</span><template>${cardFace(card, true)}</template></a>`).join('')}
     </div>
   </section>`;
 }
@@ -1909,6 +1909,7 @@ function cardPage() {
       ${tokenProvenance(c)}
     </div>
   </article>`;
+  bindCardPreview();
   addCardEditorLink();
   updateCardEditorAccess();
   document.querySelectorAll('[data-version]').forEach(

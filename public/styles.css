@@ -3617,8 +3617,7 @@ body[data-view='proxy'] #content {
 }
 
 .card-errata {
-  border-top: 0;
-  padding-top: 0;
+  padding-top: 20px;
   margin-top: 24px;
 }
 .card-errata > div {
@@ -4277,14 +4276,15 @@ body[data-view='proxy'] #content {
   margin: 0 !important;
 }
 .card-ability-references {
-  margin-top: 22px;
+  margin-top: 24px;
   padding-top: 14px;
   border-top: 1px solid var(--card-divider, #355052);
-  font-size: calc(1em - 0.5px);
+  font-size: min(17px, calc(1em - 0.5px));
+  line-height: 1.5;
   color: var(--muted);
 }
 .card-ability-references h3 {
-  font-size: 16px;
+  font-size: var(--card-section-heading, 16px);
   line-height: 1.3;
   margin: 0 0 6px;
   text-align: left;
@@ -4418,7 +4418,7 @@ body[data-view='proxy'] #content {
   border-top: 1px solid var(--card-divider, #355052);
 }
 .card-token-references > h3 {
-  font-size: 16px;
+  font-size: var(--card-section-heading, 16px);
   margin: 0 0 14px;
 }
 .referenced-token {
@@ -5377,6 +5377,7 @@ body[data-view='users'] #sidebar {
 }
 
 .card-page-text {
+  --card-section-heading: 20px;
   position: relative;
   padding-right: 48px;
 }

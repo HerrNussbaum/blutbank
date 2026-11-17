@@ -850,7 +850,6 @@ body[data-view='shared'] #content {
   text-decoration: none;
 }
 .card-errata {
-  grid-column: 2/-1;
   font-size: 19px;
   line-height: 1.65;
   max-width: var(--reading-width);
@@ -3619,6 +3618,7 @@ body[data-view='proxy'] #content {
 .card-errata {
   border-top: 0;
   padding-top: 0;
+  margin-top: 24px;
 }
 .card-errata > div {
   max-width: 66ch;

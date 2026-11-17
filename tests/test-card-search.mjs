@@ -241,3 +241,20 @@ assert.equal(
   ])[0].card.id,
   'new',
 );
+
+const typedCard = {
+  ...fixture,
+  name: 'Spell in the name',
+  text: { ...fixture.text, typeLine: 'Epic Character, Human', rulesText: 'Summon an Artifact.' },
+};
+assert(S.matches(typedCard, { typeLine: 'epic human' }));
+assert(S.matches(typedCard, { typeLine: 'HUMAN character' }));
+assert(
+  !S.matches(typedCard, { typeLine: 'Spell' }),
+  'Type-line filtering must not match the card name',
+);
+assert(
+  !S.matches(typedCard, { typeLine: 'Artifact' }),
+  'Type-line filtering must not match rules text',
+);
+assert(!S.matches(typedCard, { typeLine: 'Human Elf' }), 'All type-line terms must occur');

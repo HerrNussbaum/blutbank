@@ -1278,7 +1278,7 @@ function catalog() {
         <div class="advanced-row">
           <h2>${t('Name & Text', 'Name & text')}</h2>
           <div class="advanced-fields">
-            ${filterInput('name', t('Kartenname', 'Card name'))}${filterInput('text', t('Kartentext', 'Rules text'))}
+            ${filterInput('name', t('Kartenname', 'Card name'))}${filterInput('text', t('Kartentext', 'Rules text'))}${filterInput('typeLine', t('Typzeile', 'Type line'))}
           </div>
         </div>
         <div class="advanced-row">
@@ -1557,6 +1557,7 @@ function organizeCardFilters() {
 function renderFilterChips() {
   const labels = {
     name: t('Name', 'Name'),
+    typeLine: t('Typzeile', 'Type line'),
     text: t('Text', 'Text'),
     colors: t('Farbe', 'Color'),
     rarities: t('Seltenheit', 'Rarity'),
@@ -1895,17 +1896,18 @@ function cardPage() {
         </section>
       </aside>
     </div>
-    <div class="card-page-text">${cardFace(c)}</div>
-
+    <div class="card-page-text">
+      ${cardFace(c)}
+      ${
+        c.notes
+          ? /* HTML */ `<section class="card-errata">
+              <h2>${t('Hinweise & Errata', 'Notes & errata')}</h2>
+              <div>${renderParagraphs(c.notes)}</div>
+            </section>`
+          : ''
+      }
+    </div>
     ${tokenProvenance(c)}
-    ${
-      c.notes
-        ? /* HTML */ `<section class="card-errata">
-            <h2>${t('Hinweise & Errata', 'Notes & errata')}</h2>
-            <div>${renderParagraphs(c.notes)}</div>
-          </section>`
-        : ''
-    }
   </article>`;
   addCardEditorLink();
   updateCardEditorAccess();

@@ -99,6 +99,7 @@ function matches(card, filters = {}) {
   if (!query(card, filters.q)) return false;
   for (const [key, value] of [
     ['name', card.name],
+    ['typeLine', d.typeLine],
     ['text', expandedRules(d.rulesText, d.language)],
     ['artist', d.artist],
     ['flavor', d.flavorText],

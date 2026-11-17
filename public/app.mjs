@@ -1,3 +1,4 @@
+import { expandCards } from './card-catalog.mjs';
 import { htmlParagraphs } from './text-paragraphs.mjs';
 import { catalogActionIcon } from './ui-icons.mjs';
 import { mountMeta } from './deck-meta.mjs';
@@ -97,12 +98,13 @@ async function loadCards() {
       if (endpoint.origin !== location.origin) throw Error('Invalid API origin');
       onlineCardApi = endpoint.href;
       endpoint.searchParams.set('action', 'cards');
+      endpoint.searchParams.set('view', 'catalog');
       const r = await fetch(endpoint, { cache: 'no-store', credentials: 'same-origin' });
       if (!r.ok) throw Error('Kartendaten nicht verfügbar');
-      return (await r.json()).cards;
+      return expandCards((await r.json()).cards);
     }
   }
-  return (await fetch('data/cards.json?v=card-editor-1')).json();
+  return expandCards(await (await fetch('data/cards.json?v=card-editor-1')).json());
 }
 
 function renderLanguageSwitcher(view = state.view, id = state.id) {
@@ -1246,6 +1248,7 @@ function filterChoices(key, title, values) {
 
 function catalog() {
   cardFilters = readCardFilters();
+  for (const key of ['type', 'excludeType', 'subtype', 'trait']) delete cardFilters[key];
   const restore = pendingArchiveRestore || history.state?.archive;
   pendingArchiveRestore = null;
   if (restore?.hash === location.hash) limit = restore.limit || 48;
@@ -1306,9 +1309,9 @@ function catalog() {
           </div>
         </div>
         <div class="advanced-row">
-          <h2>${t('Typ & Fähigkeiten', 'Type & abilities')}</h2>
+          <h2>${t('Fähigkeiten & Mechaniken', 'Abilities & mechanics')}</h2>
           <div class="advanced-fields filter-columns">
-            ${filterSelect('type', t('Kartentyp ist', 'Card type is'), options('types'))}${filterSelect('excludeType', t('Kartentyp ist nicht', 'Card type is not'), options('types'))}${filterSelect('subtype', t('Untertyp', 'Subtype'), options('subtypes'))}${filterSelect('trait', t('Zusatz', 'Trait'), options('traits'))}${filterSelect('keyword', t('Begriff im Kartentext', 'Term in card text'), options('keywords'))}${filterSelect('mechanic', t('Mechanik', 'Mechanic'), ['pool', 'binding', 'rise'])}
+            ${filterSelect('keyword', t('Begriff im Kartentext', 'Term in card text'), options('keywords'))}${filterSelect('mechanic', t('Mechanik', 'Mechanic'), ['pool', 'binding', 'rise'])}
           </div>
         </div>
         <div class="advanced-row">
@@ -1776,18 +1779,6 @@ function cardFace(c, preview = false) {
       true,
     ],
     [
-      t('Typen', 'Types'),
-      (d.types || [])
-        .filter((v) => !d.typeLine?.includes(v))
-        .map(cardLabel)
-        .join(', '),
-    ],
-    [
-      t('Untertypen', 'Subtypes'),
-      (d.subtypes || []).filter((v) => !d.typeLine?.includes(v)).join(', '),
-    ],
-    [t('Zusätze', 'Traits'), (d.traits || []).filter((v) => !d.typeLine?.includes(v)).join(', ')],
-    [
       t('Mechaniken', 'Mechanics'),
       Object.entries(d.mechanics || {})
         .filter(([k, v]) => v === true && !['pool', 'rise'].includes(k))
@@ -1837,11 +1828,13 @@ function cardPage() {
   }
   document.title = `${c.name} · ${c.set} · Octenarius`;
   const d = c.text || {},
-    variants = cards.filter((x) =>
-      c.gameplayId
-        ? x.gameplayId === c.gameplayId
-        : CardSearch.nameKey(x.name) === CardSearch.nameKey(c.name),
-    );
+    variants = cards
+      .filter((x) => !x.archived || x.id === c.id)
+      .filter((x) =>
+        c.gameplayId
+          ? x.gameplayId === c.gameplayId
+          : CardSearch.nameKey(x.name) === CardSearch.nameKey(c.name),
+      );
 
   $('#content').innerHTML = /* HTML */ ` <article class="card-page" aria-label="${esc(c.name)}">
     <div class="card-page-art">
@@ -1893,7 +1886,7 @@ function cardPage() {
                       ><span class="printing-edition">${esc(v.set)}</span
                       ><span class="printing-meta"
                         >${[v.code || v.text?.collectorNumber || '', v.text?.language?.toUpperCase()].filter(Boolean).map(esc).join(' · ')}</span
-                      >${v.text?.rarity || v.variant ? /* HTML */ `<span class="printing-detail">${[v.text?.rarity ? cardLabel(v.text.rarity) : '', v.variant].filter(Boolean).map(esc).join(' · ')}</span>` : ''}</span
+                      >${v.text?.rarity || v.variant ? /* HTML */ `<span class="printing-detail">${[v.text?.rarity ? cardLabel(v.text.rarity) : '', v.variant, v.archived ? t('archiviert', 'archived') : ''].filter(Boolean).map(esc).join(' · ')}</span>` : ''}</span
                     ></a
                   >`,
               )

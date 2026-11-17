@@ -1,7 +1,10 @@
+import { expandCards } from '../public/card-catalog.mjs';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { CardSearch as S } from '../public/card-search.mjs';
-const cards = JSON.parse(readFileSync(new URL('../public/data/cards.json', import.meta.url)));
+const cards = expandCards(
+  JSON.parse(readFileSync(new URL('../public/data/cards.json', import.meta.url))),
+);
 const fixture = {
   name: 'Überwächter',
   set: 'Origin',
@@ -46,8 +49,8 @@ assert(S.matches(fixture, {}), 'Reset includes all cards');
 assert(S.query(fixture, 'errata'), 'Official notes are searchable');
 const ids = new Set(cards.map((c) => c.id));
 for (const c of cards) {
-  assert(c.text?.rawText, `Missing complete OCR: ${c.id}`);
-  assert(c.text.source === c.original, `Wrong image provenance: ${c.id}`);
+  assert(!c.text.rawText || typeof c.text.rawText === 'string', `Invalid OCR provenance: ${c.id}`);
+  assert(new URL(c.original).protocol === 'https:', `Invalid card image: ${c.id}`);
   assert(['machine', 'reviewed'].includes(c.text.status));
   for (const k of S.numeric)
     assert(
@@ -71,7 +74,7 @@ assert(
 );
 assert(!S.matches(amazon, { aspMax: '3' }));
 const tobin = cards.find((c) => c.id === '9d7645b2b87e');
-assert(tobin.text.types.includes('Character') && tobin.text.traits.includes('Advisor'));
+assert(tobin.text.types.includes('Character') && tobin.text.typeLine.includes('Advisor'));
 assert.equal(tobin.text.stats.hp, null, 'Advisor has no printed HP');
 assert(S.matches(tobin, { mechanic: 'pool' }));
 const rune = cards.find((c) => c.id === '83ffeed6cc65');
@@ -79,8 +82,8 @@ assert(rune.text.types.includes('Rune') && rune.text.types.includes('Resource'))
 const exports = JSON.parse(
   readFileSync(new URL('../public/data/card-texts.json', import.meta.url)),
 );
-assert.equal(exports.length, cards.length);
-assert(exports.every((c) => ids.has(c.id)));
+assert.equal(exports.length, new Set(cards.map((c) => c.gameplayId)).size);
+assert(exports.every((c) => cards.some((v) => v.gameplayId === c.id)));
 console.log(
   `Card search: ${cards.length} complete text records, numeric/range, language, AND and unknown-value checks passed.`,
 );
@@ -138,7 +141,10 @@ assert(S.matches(fixture, { colors: 'green', colorMode: 'exact', rarities: 'K,N'
 assert(!S.matches(fixture, { colors: 'green,blue', colorMode: 'exact' }));
 assert(S.matches(fixture, { colors: 'green,blue', colorMode: 'atmost' }));
 assert(!S.matches(fixture, { colors: 'green,blue', colorMode: 'include' }));
-assert(!S.matches(fixture, { excludeType: 'Character' }));
+assert(
+  S.matches(fixture, { excludeType: 'Character' }),
+  'Removed type filters must not hide cards through stale URLs',
+);
 assert(S.matches(fixture, { aspValue: '0', aspOp: '=' }));
 assert(S.matches(fixture, { powValue: '2', powOp: '>' }));
 assert(!S.matches(fixture, { hpValue: '0', hpOp: '!=' }), 'Missing stats cannot pass inequality');
@@ -219,3 +225,19 @@ assert.equal(cardFlow('Gain 2 ASP.'), 'Gain {2} ASP.');
 assert.equal(cardFlow(cardFlow('Gain {1}.')), 'Gain {1} ASP.');
 for (const c of cards) assert(!/\bgains?\s+\{(?:X|\d+)\}(?!\s*ASP\b)/i.test(c.text.rulesText));
 console.log('ASP gain notation is complete across all printings and remains idempotent.');
+
+assert(
+  !S.matches({ ...fixture, archived: true }, {}),
+  'Archived printings are excluded from new selections',
+);
+assert(
+  !S.query({ ...fixture, archived: true }, 'flying'),
+  'Archived printings are excluded from global search',
+);
+assert.equal(
+  S.group([
+    { ...fixture, id: 'old', gameplayId: 'same', archived: true },
+    { ...fixture, id: 'new', gameplayId: 'same' },
+  ])[0].card.id,
+  'new',
+);

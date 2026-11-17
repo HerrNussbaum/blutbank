@@ -257,12 +257,7 @@ if ($action === 'save') {
     fail('Das angemeldete Konto hat sich geändert. / Account changed.', 409);
   }
   $cards = cardRecords($db, $config);
-  $ids = json_decode(
-    file_get_contents(__DIR__ . '/data/card-identities.json'),
-    true,
-    512,
-    JSON_THROW_ON_ERROR,
-  );
+  $ids = array_column($cards, 'gameplayId', 'id');
   try {
     $deck = validateDeckData($data['deck'] ?? [], $ids, array_column($cards, null, 'id'));
   } catch (Throwable) {

@@ -398,7 +398,7 @@ export async function mountDeckBuilder(root, cards, lang, id) {
         <details class="deck-filter-menu" ${filterMenuOpen ? 'open' : ''}>
           <summary>${overviewIcon('filter')}<span>${t('Filter', 'Filter')}</span></summary>
           <div class="deck-search-filters">
-            ${filterSelect('color', t('Farbe', 'Color'), [...new Set(cards.flatMap((c) => c.text?.colors || []))].sort())}${filterSelect('type', t('Typ', 'Type'), [...new Set(cards.flatMap((c) => c.text?.types || []))].sort())}${filterSelect('rarity', t('Seltenheit', 'Rarity'), ['K', 'N', 'L', 'F'])}<label
+            ${filterSelect('color', t('Farbe', 'Color'), [...new Set(cards.flatMap((c) => c.text?.colors || []))].sort())}${filterSelect('rarity', t('Seltenheit', 'Rarity'), ['K', 'N', 'L', 'F'])}<label
               >${t('ASP maximal', 'Maximum ASP')}<input
                 type="number"
                 min="0"
@@ -661,7 +661,15 @@ export async function mountDeckBuilder(root, cards, lang, id) {
         </select></label
       ><label
         >${t('Version', 'Printing')}<select name="printing">
-          ${g.variants.map((v, n) => /* HTML */ `<option value="${v.id}" ${v.id === entry.printingId ? 'selected' : ''}>${esc(v.set)} · ${esc(v.code || '')} · ${esc(v.variant || n + 1)}</option>`).join('')}
+          ${g.variants
+            .filter((v) => !v.archived || v.id === entry.printingId)
+            .map(
+              (v, n) =>
+                /* HTML */ `<option value="${v.id}" ${v.id === entry.printingId ? 'selected' : ''}>
+                  ${esc(v.set)} · ${esc(v.code || '')} · ${esc(v.variant || n + 1)}
+                </option>`,
+            )
+            .join('')}
         </select></label
       >
       <div class="deck-toolbar">

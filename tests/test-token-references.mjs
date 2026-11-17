@@ -1,3 +1,4 @@
+import { expandCards } from '../public/card-catalog.mjs';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {
@@ -8,7 +9,9 @@ import {
   renderCardLinks,
   tokenCreators,
 } from '../public/token-references.mjs';
-const cards = JSON.parse(fs.readFileSync(new URL('../public/data/cards.json', import.meta.url)));
+const cards = expandCards(
+  JSON.parse(fs.readFileSync(new URL('../public/data/cards.json', import.meta.url))),
+);
 assert.equal(
   referencedTokens('Create two Spectral Moth Tokens. Sacrifice three Spetral Moth Tokens.', cards)
     .length,

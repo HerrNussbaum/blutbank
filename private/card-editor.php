@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
 require_once __DIR__ . '/card-reminders.php';
+require_once __DIR__ . '/card-catalog.php';
 function cardRole(PDO $db, ?array $user, array $config): string
 {
   if (!$user || !($config['card_editor_enabled'] ?? false)) {
@@ -31,14 +32,13 @@ function gameplayFields(): array
 {
   return [
     'typeLine',
-    'types',
-    'subtypes',
-    'traits',
+    'rarity',
     'colors',
     'stats',
     'mechanics',
     'keywords',
     'rulesText',
+    'flavorText',
     'additionalCostsText',
     'surcharges',
   ];
@@ -68,11 +68,13 @@ function normalizeLegacyCardRecord(array $card): array
 }
 function cardRecords(PDO $db, array $config): array
 {
-  $cards = json_decode(
-    file_get_contents(__DIR__ . '/../public/data/cards.json'),
-    true,
-    512,
-    JSON_THROW_ON_ERROR,
+  $cards = expandCatalog(
+    json_decode(
+      file_get_contents(__DIR__ . '/../public/data/cards.json'),
+      true,
+      512,
+      JSON_THROW_ON_ERROR,
+    ),
   );
   $map = array_column($cards, null, 'id');
   $published = [];
@@ -89,28 +91,55 @@ function cardRecords(PDO $db, array $config): array
         continue;
       }
       $body = normalizeLegacyCardRecord(json_decode($row['body'], true));
+      $body['text']['typeLine'] = consolidatedTypeLine($body['text']);
       $published[$row['card_id']] = $body;
+      foreach ($body['versions'] ?? [] as $version) {
+        $version = catalogVersion($version);
+        $version['original'] = $version['image'];
+        $version['image'] = printingThumbnail($version['image']);
+        $base = $map[$row['card_id']];
+        $base = array_replace($base, $version);
+        $base['text'] = array_replace($map[$row['card_id']]['text'], $version['text'] ?? []);
+        $found = false;
+        foreach ($cards as &$printing) {
+          if ($printing['id'] === $version['id']) {
+            $printing = $base;
+            $found = true;
+            break;
+          }
+        }
+        unset($printing);
+        if (!$found) {
+          $cards[] = $base;
+        }
+      }
       $key = $map[$row['card_id']]['gameplayId'] ?? $row['card_id'];
-      $shared[$key] = $body['text'];
+      $shared[$key] = $body;
     }
   }
   foreach ($cards as &$card) {
     $id = $card['id'];
     $key = $card['gameplayId'] ?? $id;
     $source = $card['gameplaySourceId'] ?? $id;
-    if (isset($published[$id])) {
+    if (isset($published[$id]) && !isset($published[$id]['versions'])) {
       $card = array_replace($card, $published[$id]);
+      $card['id'] = $id;
       $card['gameplayId'] = $key;
       $card['gameplaySourceId'] = $source;
     }
     if (isset($shared[$key])) {
+      foreach (['name', 'notes'] as $commonField) {
+        if (array_key_exists($commonField, $shared[$key])) {
+          $card[$commonField] = $shared[$key][$commonField];
+        }
+      }
       foreach (gameplayFields() as $field) {
-        if (array_key_exists($field, $shared[$key])) {
-          $card['text'][$field] = $shared[$key][$field];
+        if (array_key_exists($field, $shared[$key]['text'])) {
+          $card['text'][$field] = $shared[$key]['text'][$field];
         }
       }
       $review = array_values(array_diff($card['text']['reviewedFields'] ?? [], ['review.text']));
-      if (in_array('review.text', $shared[$key]['reviewedFields'] ?? [], true)) {
+      if (in_array('review.text', $shared[$key]['text']['reviewedFields'] ?? [], true)) {
         $review[] = 'review.text';
       }
       $card['text']['reviewedFields'] = $review;
@@ -130,7 +159,62 @@ function cardRecords(PDO $db, array $config): array
     }
   }
   unset($card);
-  return array_map('normalizeCardReminders', $cards);
+  return array_map(function ($c) {
+    $c['text']['types'] = cardTypes($c['text']['typeLine'] ?? '');
+    unset($c['text']['subtypes'], $c['text']['traits'], $c['versions']);
+    return normalizeCardReminders($c);
+  }, $cards);
+}
+function refreshCardCatalog(PDO $db, array $config): void
+{
+  $lock = fopen(__DIR__ . '/card-catalog.lock', 'c');
+  if (!$lock || !flock($lock, LOCK_EX)) {
+    error_log('Card snapshot lock unavailable');
+    return;
+  }
+  try {
+    $catalog = compactCatalog(cardRecords($db, $config));
+    $directory = __DIR__ . '/../public/data/';
+    $identities = json_decode(file_get_contents($directory . 'card-identities.json'), true);
+    $gameplay = [];
+    foreach ($catalog as $c) {
+      foreach ($c['versions'] as $v) {
+        $identities[$v['id']] = $c['id'];
+      }
+      $gameplay[$c['id']] = [
+        'sourceId' => $c['sourceId'],
+        'name' => $c['name'],
+        'text' => $c['text'],
+      ];
+    }
+    foreach (
+      [
+        'cards.json' => $catalog,
+        'card-texts.json' => cardTextCatalog($catalog),
+        'card-identities.json' => $identities,
+        'card-gameplay.json' => $gameplay,
+      ]
+      as $name => $data
+    ) {
+      $json = json_encode($data, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
+      $temp = tempnam($directory, '.catalog-');
+      if (
+        $temp === false ||
+        file_put_contents($temp, $json) === false ||
+        !rename($temp, $directory . $name)
+      ) {
+        if ($temp && is_file($temp)) {
+          unlink($temp);
+        }
+        error_log('Card snapshot write unavailable: ' . $name);
+      } else {
+        chmod($directory . $name, 0644);
+      }
+    }
+  } finally {
+    flock($lock, LOCK_UN);
+    fclose($lock);
+  }
 }
 function cardAudit(
   PDO $db,
@@ -158,7 +242,9 @@ function cardAudit(
 }
 function cardPatch(array $card, array $patch): array
 {
-  if (array_diff(array_keys($patch), ['card', 'text', 'textReviewed', 'infoReviewed'])) {
+  if (
+    array_diff(array_keys($patch), ['card', 'text', 'textReviewed', 'infoReviewed', 'versions'])
+  ) {
     throw new InvalidArgumentException('Unknown fields');
   }
   foreach (['card', 'text'] as $part) {
@@ -183,7 +269,13 @@ function cardPatch(array $card, array $patch): array
     }
     $card[$key] = $value;
   }
-  $lists = ['types', 'subtypes', 'traits', 'colors'];
+  $lists = ['colors'];
+  if (isset($patch['versions'])) {
+    $card['versions'] = validatedVersions($patch['versions'], $card['versions'] ?? []);
+  }
+  $card['text']['types'] = cardTypes(
+    $patch['text']['typeLine'] ?? ($card['text']['typeLine'] ?? ''),
+  );
   $strings = [
     'typeLine',
     'rulesText',
@@ -292,14 +384,17 @@ function cardPatch(array $card, array $patch): array
     in_array('review.text', $fields, true) && in_array('review.info', $fields, true)
       ? 'reviewed'
       : 'machine';
-  return normalizeCardReminders($card);
+  return storedCard(normalizeCardReminders($card));
 }
 function cardEditorAction(PDO $db, array $config, ?array $user, string $action, array $data): void
 {
   if (in_array($action, ['cards', 'cards-download', 'texts-download', 'cards-csv'], true)) {
     $cards = cardRecords($db, $config);
     if ($action === 'cards') {
-      respond(['cards' => $cards]);
+      respond([
+        'cards' => ($_GET['view'] ?? '') !== 'catalog' ? $cards : compactCatalog($cards),
+        'schemaVersion' => 2,
+      ]);
     }
     if ($action === 'cards-csv') {
       header('Content-Type: text/csv; charset=utf-8');
@@ -354,14 +449,8 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
     );
     echo json_encode(
       $action === 'texts-download'
-        ? array_map(
-          fn($c) => array_merge(
-            ['id' => $c['id'], 'name' => $c['name'], 'set' => $c['set']],
-            $c['text'],
-          ),
-          $cards,
-        )
-        : $cards,
+        ? cardTextCatalog(compactCatalog($cards))
+        : compactCatalog($cards),
       JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE,
     );
     exit();
@@ -450,8 +539,15 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
   if (!isset($cards[$id])) {
     fail('Karte nicht gefunden.', 404);
   }
-  $id = $cards[$id]['gameplaySourceId'] ?? $id;
+  $requestedId = $id;
+  $hasExistingDraft = query($db, 'SELECT card_id FROM card_drafts WHERE card_id=?', [
+    $id,
+  ])->fetchColumn();
+  $id = $hasExistingDraft ? $id : $cards[$id]['gameplaySourceId'] ?? $id;
   $published = $cards[$id];
+  $published['versions'] = compactCatalog(
+    array_values(array_filter($cards, fn($c) => $c['gameplayId'] === $published['gameplayId'])),
+  )[0]['versions'];
   $pubRevision =
     (int) (query($db, 'SELECT revision FROM card_published WHERE card_id=?', [
       $id,
@@ -459,6 +555,12 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
     0);
   $draft = query($db, 'SELECT * FROM card_drafts WHERE card_id=?', [$id])->fetch() ?: null;
   if ($action === 'card-load') {
+    if ($draft) {
+      $old = json_decode($draft['body'], true);
+      $old['versions'] ??= $published['versions'];
+      $old['versions'] = array_map('catalogVersion', $old['versions']);
+      $draft['body'] = json_encode($old);
+    }
     respond([
       'card' => $published,
       'publishedRevision' => $pubRevision,
@@ -466,11 +568,15 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
       'permissions' => $permissions,
     ]);
   }
+  $historyIds = array_column($published['versions'], 'id');
+  $historySlots = implode(',', array_fill(0, count($historyIds), '?'));
   if ($action === 'card-history') {
     $rows = query(
       $db,
-      'SELECT a.id,a.action,a.before_body,a.after_body,a.note,a.created_at,u.email AS actor FROM card_audit a JOIN users u ON u.id=a.actor_id WHERE a.card_id=? ORDER BY a.created_at DESC,a.id DESC LIMIT 100',
-      [$id],
+      'SELECT a.id,a.action,a.before_body,a.after_body,a.note,a.created_at,u.email AS actor FROM card_audit a JOIN users u ON u.id=a.actor_id WHERE a.card_id IN (' .
+        $historySlots .
+        ') ORDER BY a.created_at DESC,a.id DESC LIMIT 100',
+      $historyIds,
     )->fetchAll();
     foreach ($rows as &$r) {
       $r['before'] = json_decode($r['before_body'], true);
@@ -530,6 +636,11 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
       );
     } catch (Throwable) {
       fail('Ungültige Kartenfelder.');
+    }
+    foreach ($body['versions'] ?? [] as $v) {
+      if (isset($cards[$v['id']]) && $cards[$v['id']]['gameplayId'] !== $published['gameplayId']) {
+        fail('Druckkennung gehört zu einer anderen Karte.', 409);
+      }
     }
     $expected = $data['revision'];
     $json = json_encode($body, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
@@ -623,8 +734,10 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
     } else {
       $event = query(
         $db,
-        'SELECT before_body FROM card_audit WHERE id=? AND card_id=? AND action IN (?,?)',
-        [$data['eventId'] ?? '', $id, 'publish', 'restore'],
+        'SELECT before_body FROM card_audit WHERE id=? AND card_id IN (' .
+          $historySlots .
+          ') AND action IN (?,?)',
+        array_merge([$data['eventId'] ?? ''], $historyIds, ['publish', 'restore']),
       )->fetchColumn();
       if (!$event) {
         fail('Version nicht gefunden.', 404);
@@ -633,6 +746,11 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
       $note = trim($data['note'] ?? '');
       if ($note === '' || strlen($note) > 2000) {
         fail('Bitte Wiederherstellung begründen.');
+      }
+    }
+    foreach ($next['versions'] ?? [] as $v) {
+      if (isset($cards[$v['id']]) && $cards[$v['id']]['gameplayId'] !== $published['gameplayId']) {
+        fail('Druckkennung gehört inzwischen zu einer anderen Karte.', 409);
       }
     }
     $db->beginTransaction();
@@ -648,6 +766,7 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
       $db->rollBack();
       fail('Entwurf inzwischen geändert.', 409);
     }
+    $next = storedCard($next);
     $json = json_encode($next, JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE);
     if ($pubRevision) {
       if (
@@ -677,6 +796,7 @@ function cardEditorAction(PDO $db, array $config, ?array $user, string $action, 
     }
     cardAudit($db, $id, substr($action, 5), $user['id'], $published, $next, $note);
     $db->commit();
+    refreshCardCatalog($db, $config);
     respond(['revision' => $pubRevision + 1, 'card' => $next]);
   }
   fail('Unknown card action', 404);

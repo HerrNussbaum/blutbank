@@ -13,14 +13,17 @@ export function indexCards(cards, identities) {
   // Deck identities, rather than editable display names, define a card's printings.
   const groups = new Map();
   for (const card of cards) {
-    const id = identities[card.id] || card.id;
+    const id = card.gameplayId || identities[card.id] || card.id;
     if (!groups.has(id)) groups.set(id, []);
     groups.get(id).push(card);
   }
   return [...groups]
     .map(([id, variants]) => {
       const card =
-        variants.find((c) => !c.variant && !/promo|organized|winner/i.test(c.group || '')) ||
+        variants.find(
+          (c) => !c.archived && !c.variant && !/promo|organized|winner/i.test(c.group || ''),
+        ) ||
+        variants.find((c) => !c.archived) ||
         variants[0];
       return {
         id,

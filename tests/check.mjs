@@ -22,7 +22,7 @@ const texts = JSON.parse(
 );
 assert.deepEqual(
   texts,
-  cards.map((card) => ({ id: card.id, name: card.name, set: card.set, ...card.text })),
+  cards.map((card) => ({ id: card.id, name: card.name, notes: card.notes, ...card.text })),
   'Static text downloads must match the card records used by a fresh installation',
 );
 for (const asset of [

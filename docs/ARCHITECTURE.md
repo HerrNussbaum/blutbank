@@ -37,3 +37,15 @@ Spielerische Kartenidentitäten und einzelne Druckversionen bleiben getrennt. De
 ## Optionales Regel-CMS
 
 Ist `typemill/content/` vorhanden, liest `cms-rules.php` den veröffentlichten CMS-Stand. Ohne CMS liefert der Endpunkt die mitgelieferten öffentlichen JSON-Daten. Die öffentliche Website funktioniert ohne Typemill; die integrierte CMS-Redaktion und deren PDF-Veröffentlichung erfordern die separat konfigurierte Typemill-Installation. CMS-Benutzerdateien, Entwürfe und Sessions gehören nicht ins Repository.
+
+## Kartenkatalog
+
+`public/data/cards.json` enthält eine Karte pro spielerischer Identität. `id`, `sourceId`, `name`, `notes` und `text` einschließlich Seltenheit sind gemeinsame Felder; `versions` enthält die stabilen Druckkennungen und die zugehörigen Editionen, Bilder und Druckangaben. Pro Druckversion gibt es eine Kartennummer und einen Kartenbild-Link; Vorschaubild-Adressen werden daraus abgeleitet. Die einzige gepflegte Typangabe ist `text.typeLine`. Interne Kategorien für Deckregeln und Darstellung werden daraus abgeleitet und nicht zusätzlich gespeichert.
+
+`private/card-catalog.php` und `public/card-catalog.mjs` erzeugen bei Bedarf Ansichten je Druckversion für Darstellung und bestehende Deckverweise. Diese Ansichten sind kein zweiter Datenbestand. Der Standard-API-Aufruf bleibt für ältere Browser kompatibel; `api.php?action=cards&view=catalog` und der JSON-Download liefern das gemeinsame Kartenmodell.
+
+Druckversionen werden im bestehenden Entwurfs-/Freigabeablauf bearbeitet. Bestehende Druckkennungen können nicht entfernt oder einer anderen Karte zugewiesen werden. Veröffentlichte gemeinsame Hinweise ersetzen frühere Hinweise vollständig, auch mit leerem Inhalt. Nach Freigabe werden JSON-Snapshots unter Dateisperre und mit atomarem Austausch aktualisiert. Die API liest weiterhin Datenbankveröffentlichungen ein, sodass ein fehlgeschlagener Snapshot-Schreibzugriff nicht die veröffentlichte Ansicht zurücksetzt.
+
+Historische Redaktionsdatensätze werden erhalten. Offene ältere Entwürfe sind über ihre bisherigen Druckkennungen erreichbar; der Verlauf umfasst sämtliche Druckversionen der Karte. Vor einer Live-Migration wird das neue Schema aus der aktuellen öffentlichen Kartenansicht erzeugt, ohne private Entwürfe zu exportieren oder Datenbanken zu ersetzen.
+
+„Version löschen“ setzt die Druckversion auf archiviert. Sie verschwindet aus Suche und neuer Auswahl; vorhandene Druckkennungen bleiben für Decks und direkte Links auflösbar. Wiederherstellen erfolgt über denselben Entwurfs-/Freigabeprozess. Die Druckversion wird nie physisch aus dem Katalog entfernt.

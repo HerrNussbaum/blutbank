@@ -1,3 +1,4 @@
+import { cardTypes, expandCards } from './card-catalog.mjs';
 import { editorIcon } from './ui-icons.mjs';
 import { cardStyleIssues } from './card-styleguide.mjs';
 
@@ -20,14 +21,17 @@ const labels = {
   additionalCostsText: 'Zusatzkosten',
   flavorText: 'Flavourtext',
   typeLine: 'Typzeile',
-  types: 'Typen',
-  subtypes: 'Untertypen',
-  traits: 'Zusätze',
   colors: 'Farben',
   rarity: 'Seltenheit',
   collectorNumber: 'Sammlernummer',
   artist: 'Illustration',
   language: 'Sprache',
+  set: 'Edition',
+  variant: 'Variante',
+  archived: 'Sichtbarkeit',
+  image: 'Kartenbild',
+  original: 'Kartenbild',
+  source: 'Quelle',
   asp: 'ASP',
   level: 'LVL',
   res: 'RES',
@@ -40,21 +44,9 @@ const labels = {
   binding: 'Binding',
   rise: 'Rise',
 };
-const cardFields = ['name', 'code', 'notes'],
-  textFields = [
-    'rulesText',
-    'flavorText',
-    'typeLine',
-    'types',
-    'subtypes',
-    'traits',
-    'colors',
-    'rarity',
-    'collectorNumber',
-    'artist',
-    'language',
-  ];
-const lists = new Set(['types', 'subtypes', 'traits', 'colors']),
+const cardFields = ['name', 'notes'],
+  textFields = ['rulesText', 'flavorText', 'typeLine', 'rarity', 'colors'];
+const lists = new Set(['colors']),
   stats = ['asp', 'level', 'res', 'ini', 'pow', 'hp', 'magic', 'lp'],
   mechanics = ['pool', 'binding', 'rise'];
 
@@ -67,12 +59,25 @@ function diff(before, after) {
       const x = a?.[key],
         y = b?.[key];
       if (x == null && y === '') continue;
+      if (key === 'versions') {
+        walk(
+          Object.fromEntries((x || []).map((v, i) => [i + 1, v])),
+          Object.fromEntries((y || []).map((v, i) => [i + 1, v])),
+          'Druckversion',
+        );
+        continue;
+      }
+      if (
+        ['id', 'gameplayId', 'gameplaySourceId', 'types', 'subtypes', 'traits', 'image'].includes(
+          key,
+        )
+      )
+        continue;
       const p = path ? path + '.' + key : key;
       if (
-        x &&
-        y &&
-        typeof x === 'object' &&
-        typeof y === 'object' &&
+        (x || y) &&
+        (x == null || typeof x === 'object') &&
+        (y == null || typeof y === 'object') &&
         !Array.isArray(x) &&
         !Array.isArray(y)
       )
@@ -80,10 +85,15 @@ function diff(before, after) {
       else if (JSON.stringify(x) !== JSON.stringify(y))
         lines.push(
           /* HTML */ `<div class="editor-diff-row">
-            <dt>${esc(labels[key] || p)}</dt>
+            <dt>
+              ${esc(p.startsWith('Druckversion.') ? 'Druckversion ' + p.split('.')[1] + ' · ' + (labels[key] || key) : labels[key] || p)}
+            </dt>
             <dd>
-              <del>${esc(Array.isArray(x) ? x.join(', ') : x)}</del
-              ><ins>${esc(Array.isArray(y) ? y.join(', ') : y)}</ins>
+              <del
+                >${esc(key === 'archived' ? (x ? 'Gelöscht' : 'Aktiv') : Array.isArray(x) ? x.join(', ') : x)}</del
+              ><ins
+                >${esc(key === 'archived' ? (y ? 'Gelöscht' : 'Aktiv') : Array.isArray(y) ? y.join(', ') : y)}</ins
+              >
             </dd>
           </div>`,
         );
@@ -97,7 +107,7 @@ function diff(before, after) {
 
 function surchargeFields(card) {
   const costs = cardSurcharges(card);
-  if (!card.text?.types?.includes('Sovereign')) return '';
+  if (!cardTypes(card.text?.typeLine).includes('Sovereign')) return '';
   const colors = {
     white: 'Weiß',
     blue: 'Blau',
@@ -198,7 +208,9 @@ export async function mountCardEditor(root, cards, lang, id, onPublished) {
         state = root.querySelector('#editor-filter').value;
       const items = cards.filter(
         (c) =>
-          (!c.gameplaySourceId || c.id === c.gameplaySourceId) &&
+          (!c.gameplaySourceId ||
+            c.id === c.gameplaySourceId ||
+            queue.some((d) => d.card_id === c.id)) &&
           (!q || `${c.name} ${c.code}`.toLowerCase().includes(q)) &&
           (state === 'all' ||
             (state === 'styleguide' && cardStyleIssues(c).length > 0) ||
@@ -341,7 +353,7 @@ export async function mountCardEditor(root, cards, lang, id, onPublished) {
               }
               if (action === 'publish' && done) {
                 await onPublished();
-                cards = (await api('cards')).cards;
+                cards = expandCards((await api('cards?view=catalog')).cards);
               }
               await refreshQueue();
               if (current) await load(current, true);
@@ -397,8 +409,11 @@ export async function mountCardEditor(root, cards, lang, id, onPublished) {
         patch.text.mechanics[k] =
           f.elements[k].value === '' ? null : f.elements[k].value === 'true';
       const base = loaded.draft?.body || loaded.card;
+      const versions = f._versions?.();
+      if (versions && JSON.stringify(versions) !== JSON.stringify(base.versions))
+        patch.versions = versions;
       const costInputs = [...f.querySelectorAll('[name^=surcharge_]')];
-      if (patch.text.types.includes('Sovereign') && costInputs.length) {
+      if (cardTypes(patch.text.typeLine).includes('Sovereign') && costInputs.length) {
         patch.text.surcharges = {};
         for (const input of costInputs) {
           if (patch.text.colors.includes(input.name.slice(10))) continue;
@@ -439,7 +454,8 @@ export async function mountCardEditor(root, cards, lang, id, onPublished) {
     }
 
     async function load(cardId, force = false) {
-      cardId = cards.find((c) => c.id === cardId)?.gameplaySourceId || cardId;
+      if (!queue.some((d) => d.card_id === cardId))
+        cardId = cards.find((c) => c.id === cardId)?.gameplaySourceId || cardId;
       if (!force && dirty && !confirm('Ungespeicherte Änderungen verwerfen?')) {
         root.querySelector('#editor-list').value = current;
         return;
@@ -530,7 +546,7 @@ ${esc(draft?.source_note || '')}</textarea></label
       for (const [key, label] of [
         ['text', 'Kartentext'],
         ['info', 'Werte & Typ'],
-        ['meta', 'Druck & Quelle'],
+        ['meta', 'Druckversionen'],
       ]) {
         const tab = document.createElement('button');
         tab.type = 'button';
@@ -573,13 +589,119 @@ ${esc(draft?.source_note || '')}</textarea></label
       fieldset.before(tabs);
       for (const label of [...fieldset.children].filter((el) => el.tagName === 'LABEL')) {
         const name = label.querySelector('[name]')?.name;
-        if (['name', 'rulesText', 'additionalCostsText', 'flavorText'].includes(name))
+        if (['name', 'notes', 'rulesText', 'additionalCostsText', 'flavorText'].includes(name))
           panels.text.append(label);
         else if (['code', 'notes', 'collectorNumber', 'artist', 'language'].includes(name))
           panels.meta.append(label);
-        else if (['typeLine', 'types', 'subtypes', 'traits', 'colors', 'rarity'].includes(name))
-          panels.info.append(label);
+        else if (['typeLine', 'rarity', 'colors'].includes(name)) panels.info.append(label);
       }
+      const versionHost = document.createElement('div');
+      versionHost.className = 'editor-versions';
+      const versionData = new Map();
+      const versionFields = {
+        set: 'Edition',
+        variant: 'Variante',
+        code: 'Kartennummer',
+        language: 'Sprache',
+        artist: 'Illustration',
+        image: 'Kartenbild-Link',
+      };
+      const addVersion = (version, fresh = false) => {
+        versionData.set(version.id, structuredClone(version));
+        const section = document.createElement('details');
+        section.className = 'editor-version';
+        section.dataset.printingId = version.id;
+        section.open = fresh;
+        section.innerHTML = `<summary>${esc([version.set, version.variant, version.code].filter(Boolean).join(' · ') || 'Neue Druckversion')}</summary><div class="editor-version-fields">${Object.entries(
+          versionFields,
+        )
+          .map(
+            ([key, label]) =>
+              `<label>${label}<input data-version-field="${key}" ${['image'].includes(key) ? 'type="url"' : ''} ${['image', 'set'].includes(key) ? 'required' : ''} value="${esc(version[key] ?? version.text?.[key] ?? '')}"></label>`,
+          )
+          .join('')}</div>`;
+        if (fresh) {
+          const remove = document.createElement('button');
+          remove.type = 'button';
+          remove.className = 'pill';
+          remove.textContent = 'Neue Druckversion entfernen';
+          remove.onclick = () => {
+            section.remove();
+            versionData.delete(version.id);
+            dirty = true;
+          };
+          section.append(remove);
+        }
+        if (!fresh) {
+          const remove = document.createElement('button');
+          remove.type = 'button';
+          remove.className = 'pill editor-delete-version';
+          const title = section.querySelector('summary').textContent;
+          const update = () => {
+            const archived = !!versionData.get(version.id).archived;
+            remove.textContent = archived ? 'Version wiederherstellen' : 'Version löschen';
+            section.querySelector('summary').textContent = title + (archived ? ' · gelöscht' : '');
+          };
+          remove.onclick = () => {
+            const v = versionData.get(version.id);
+            v.archived = !v.archived;
+            dirty = true;
+            update();
+          };
+          update();
+          section.append(remove);
+        }
+        const previewImage = () => {
+          const value = section.querySelector('[data-version-field=image]').value.trim();
+          if (!/^https:\/\//i.test(value)) return;
+          const image = body.querySelector('.editor-reference img');
+          const link = body.querySelector('.editor-reference > a');
+          image.src = value;
+          link.href = value;
+        };
+        section.addEventListener('toggle', () => {
+          if (section.open) previewImage();
+        });
+        section
+          .querySelector('[data-version-field=image]')
+          .addEventListener('change', previewImage);
+        versionHost.append(section);
+      };
+      (c.versions || response.card.versions || []).forEach((v) => addVersion(v));
+      const addButton = document.createElement('button');
+      addButton.type = 'button';
+      addButton.className = 'pill editor-add-version';
+      addButton.textContent = 'Druckversion hinzufügen';
+      addButton.disabled = !editable;
+      addButton.onclick = () => {
+        const id = crypto.randomUUID().replaceAll('-', '').slice(0, 12);
+        addVersion(
+          {
+            id,
+            set: '',
+            variant: '',
+            code: '',
+            group: '',
+            image: '',
+            source: c.source || '',
+            text: { language: 'en', artist: '' },
+          },
+          true,
+        );
+        dirty = true;
+      };
+      panels.meta.append(versionHost, addButton);
+      body.querySelector('#editor-form')._versions = () =>
+        [...versionHost.querySelectorAll('.editor-version')].map((section) => {
+          const v = structuredClone(versionData.get(section.dataset.printingId));
+          section.querySelectorAll('[data-version-field]').forEach((input) => {
+            const key = input.dataset.versionField,
+              value = input.value.trim();
+            if (['language', 'artist'].includes(key)) v.text[key] = value;
+            else v[key] = value;
+          });
+          return v;
+        });
       panels.info.append(
         fieldset.querySelector(':scope > .editor-numbers'),
         body.querySelector('.editor-mechanics'),
@@ -619,6 +741,7 @@ ${esc(draft?.source_note || '')}</textarea></label
         preview.name = form.elements.name.value;
         preview.text.rulesText = form.elements.rulesText.value;
         preview.text.typeLine = form.elements.typeLine.value;
+        preview.text.types = cardTypes(preview.text.typeLine);
         for (const key of stats)
           preview.text.stats[key] =
             form.elements[key].value === ''
@@ -741,13 +864,13 @@ ${esc(draft?.source_note || '')}</textarea></label
       body.querySelector('#editor-form').oninput = (e) => {
         dirty = true;
         updatePreview();
-        if (['types', 'colors'].includes(e.target.name)) {
+        if (['typeLine', 'colors'].includes(e.target.name)) {
           const f = body.querySelector('#editor-form');
           const updated = {
             ...c,
             text: {
               ...d,
-              types: f.elements.types.value.split(',').map((x) => x.trim()),
+              typeLine: f.elements.typeLine.value,
               colors: f.elements.colors.value.split(',').map((x) => x.trim()),
             },
           };
@@ -789,7 +912,7 @@ ${esc(draft?.source_note || '')}</textarea></label
           publishedRevision: loaded.publishedRevision,
         });
         await onPublished(result.card);
-        cards = (await api('cards')).cards;
+        cards = expandCards((await api('cards?view=catalog')).cards);
         await load(current, true);
         await refreshQueue();
         message('Karte veröffentlicht. Suche und Downloads verwenden denselben Stand.');
@@ -838,7 +961,7 @@ ${esc(draft?.source_note || '')}</textarea></label
                     note,
                   });
                   await onPublished(result.card);
-                  cards = (await api('cards')).cards;
+                  cards = expandCards((await api('cards?view=catalog')).cards);
                   await load(current, true);
                   message('Früherer Stand wiederhergestellt.');
                 })),

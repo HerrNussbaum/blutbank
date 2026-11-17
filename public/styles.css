@@ -3787,11 +3787,52 @@ body[data-view='proxy'] #content {
   background: var(--primary);
   color: #fff;
 }
+.editor-version {
+  margin-block: 12px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+}
+.editor-version summary {
+  font-weight: 500;
+}
+.editor-version-fields {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+  gap: 12px;
+  margin-top: 12px;
+}
+.editor-version-fields label {
+  min-width: 0;
+}
+.editor-version-fields input {
+  width: 100%;
+  box-sizing: border-box;
+}
+.editor-panel-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+.editor-versions {
+  width: 100%;
+  min-width: 0;
+}
+#editor-form .editor-add-version {
+  flex: none;
+  align-self: flex-start;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 34px;
+  padding: 6px 10px;
+  font-size: 15px;
+  line-height: 1.3;
+}
 .editor-field-panel[hidden] {
   display: none;
 }
-.editor-panel-info,
-.editor-panel-meta {
+.editor-panel-info {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 8px 14px;

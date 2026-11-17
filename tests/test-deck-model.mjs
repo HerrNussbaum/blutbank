@@ -1,3 +1,4 @@
+import { expandCards } from '../public/card-catalog.mjs';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 import { webcrypto } from 'node:crypto';
@@ -6,7 +7,9 @@ globalThis.crypto ??= webcrypto;
 globalThis.structuredClone ??= (v) => deserialize(serialize(v));
 const { indexCards, newDeck, validateDeck, addCard, importText, deckStats, DeckStore } =
   await import('../public/deck-model.mjs');
-const cards = JSON.parse(readFileSync(new URL('../public/data/cards.json', import.meta.url))),
+const cards = expandCards(
+    JSON.parse(readFileSync(new URL('../public/data/cards.json', import.meta.url))),
+  ),
   ids = JSON.parse(readFileSync(new URL('../public/data/card-identities.json', import.meta.url))),
   index = indexCards(cards, ids);
 assert.equal(new Set(index.map((g) => g.id)).size, index.length);

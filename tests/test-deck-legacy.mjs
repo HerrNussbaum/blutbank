@@ -1,3 +1,4 @@
+import { expandCards } from '../public/card-catalog.mjs';
 import assert from 'node:assert/strict';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
@@ -82,7 +83,9 @@ assert.deepEqual(
     ['ee37ad941634', 'card-e6c10c910c75', 3],
   ],
 );
-const records = JSON.parse(await readFile(new URL('../public/data/cards.json', import.meta.url)));
+const records = expandCards(
+  JSON.parse(await readFile(new URL('../public/data/cards.json', import.meta.url))),
+);
 const identities = JSON.parse(
   await readFile(new URL('../public/data/card-identities.json', import.meta.url)),
 );

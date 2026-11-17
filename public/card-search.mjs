@@ -54,8 +54,6 @@ function text(card) {
         d.artist,
         ...(d.types || []).flatMap((x) => [x, ...(names[x] || [])]),
         ...(d.colors || []).flatMap((x) => [x, ...(names[x] || [])]),
-        ...(d.subtypes || []),
-        ...(d.traits || []),
         ...(d.keywords || []),
         d.rarity,
         ...(names[d.rarity] || []),
@@ -82,6 +80,7 @@ function compare(value, operator, expected) {
 }
 
 function query(card, q) {
+  if (card.archived) return false;
   const hay = text(card);
   const parts = symbolText(q).match(/"[^"]+"|\S+/g) || [];
   return parts.every((part) => {
@@ -95,6 +94,7 @@ function query(card, q) {
 }
 
 function matches(card, filters = {}) {
+  if (card.archived) return false;
   const d = card.text || {};
   if (!query(card, filters.q)) return false;
   for (const [key, value] of [
@@ -112,7 +112,6 @@ function matches(card, filters = {}) {
       return false;
   }
   if (filters.language && d.language !== filters.language) return false;
-  if (filters.excludeType && (d.types || []).includes(filters.excludeType)) return false;
   if (filters.colors) {
     const selected = filters.colors.split(','),
       actual = d.colors || [];
@@ -129,9 +128,6 @@ function matches(card, filters = {}) {
   for (const key of ['set', 'group']) if (filters[key] && card[key] !== filters[key]) return false;
   for (const [key, field] of [
     ['color', 'colors'],
-    ['type', 'types'],
-    ['subtype', 'subtypes'],
-    ['trait', 'traits'],
     ['keyword', 'keywords'],
   ]) {
     if (filters[key] && !(d[field] || []).includes(filters[key])) return false;

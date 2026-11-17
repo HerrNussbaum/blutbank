@@ -10,6 +10,7 @@ with tempfile.TemporaryDirectory(prefix='blutbank-api-') as tmp:
     shutil.copy(root / 'public/api.php', p / 'public/api.php')
     shutil.copy(root / 'private/bootstrap.php', p / 'private/bootstrap.php')
     shutil.copy(root / 'private/card-editor.php', p / 'private/card-editor.php')
+    shutil.copy(root / 'private/card-catalog.php', p / 'private/card-catalog.php')
     shutil.copy(root / 'private/card-reminders.php', p / 'private/card-reminders.php')
     shutil.copy(root / 'private/rules-editor.php', p / 'private/rules-editor.php')
     shutil.copy(root / 'private/browser-session.php', p / 'private/browser-session.php')
@@ -31,7 +32,7 @@ with tempfile.TemporaryDirectory(prefix='blutbank-api-') as tmp:
         return urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
 
     def call(c, action, data=None, csrf='', origin_header=origin):
-        req = urllib.request.Request(origin + '/api.php?action=' + action.replace('?', '&'), data=json.dumps(data).encode() if data is not None else None, headers={'Content-Type': 'application/json', 'Origin': origin_header, 'X-CSRF-Token': csrf})
+        req = urllib.request.Request(origin + '/api.php?action=' + (('cards&view=printings' if action=='cards' else action).replace('?', '&')), data=json.dumps(data).encode() if data is not None else None, headers={'Content-Type': 'application/json', 'Origin': origin_header, 'X-CSRF-Token': csrf})
         try:
             r = c.open(req)
             return (r.status, json.load(r))
@@ -61,7 +62,7 @@ with tempfile.TemporaryDirectory(prefix='blutbank-api-') as tmp:
             assert call(c, 'login', {'token': token}, result['csrf'])[0] == 401
             return result['csrf']
         csrf = login(a, 'a@example.test')
-        cards = json.loads((p / 'public/data/cards.json').read_text())
+        cards = call(a, 'cards')[1]['cards']
         ids = json.loads((p / 'public/data/card-identities.json').read_text())
         card = cards[0]
         deck = {'schemaVersion': 1, 'id': 'test-deck', 'name': 'Integration deck', 'description': '# Plan\n- Draw cards', 'summary': 'Test summary', 'coverPrintingId': card['id'], 'entries': [{'cardId': ids[card['id']], 'printingId': card['id'], 'zone': 'spell', 'quantity': 2}]}
@@ -168,10 +169,10 @@ with tempfile.TemporaryDirectory(prefix='blutbank-api-') as tmp:
         queue = call(c, 'card-queue')[1]['drafts']
         assert queue[0]['source_note'] == 'Original card image' and queue[0]['author'] == 'b@example.test'
         dark = '026046c8cba1'
-        fix = {'text': {'types': ['Training'], 'typeLine': 'Sovereign Training'}, 'textReviewed': False, 'infoReviewed': False}
+        fix = {'text': {'typeLine': 'Training'}, 'textReviewed': False, 'infoReviewed': False}
         assert call(b, 'card-save', {'id': dark, 'revision': 0, 'patch': fix, 'sourceNote': 'Training, not Sovereign'}, bcsrf)[0] == 200
         corrected = call(b, 'card-load?id=' + dark)[1]['draft']['body']
-        assert corrected['text']['types'] == ['Training'] and (not corrected['text'].get('surcharges'))
+        assert corrected['text']['typeLine'] == 'Training' and 'types' not in corrected['text'] and (not corrected['text'].get('surcharges'))
         assert call(b, 'card-discard', {'id': dark, 'revision': 1}, bcsrf)[0] == 200
         assert call(guest, 'cards')[1]['cards'][0] == base
         assert call(b, 'card-save', {'id': cid, 'revision': 0, 'patch': patch, 'sourceNote': 'test'}, bcsrf)[0] == 409
@@ -192,15 +193,71 @@ with tempfile.TemporaryDirectory(prefix='blutbank-api-') as tmp:
         assert call(c, 'card-load?id=' + other['id'])[1]['card']['id'] == cid
         assert public['notes'] == 'Question?\n\nAnswer.'
         assert public.get('nameFromFilename') == base.get('nameFromFilename')
-        assert call(guest, 'cards-download')[1][0] == public
+        assert call(guest, 'cards-download')[1][0]['versions'][0]['id'] == public['id']
         assert call(guest, 'texts-download')[1][0]['rulesText'] == public['text']['rulesText']
-        assert json.loads((p / 'public/data/cards.json').read_text())[0] == base
+        assert json.loads((p / 'public/data/cards.json').read_text())[0]['text']['rulesText'] == 'Draw 3 cards.'
         history = call(c, 'card-history?id=' + cid)[1]['history']
         event = next((h for h in history if h['action'] == 'publish'))
-        assert event['actor'] == 'c@example.test' and event['before'] == base
+        assert event['actor'] == 'c@example.test' and event['before']['name'] == base['name']
         (status, result) = call(c, 'card-restore', {'id': cid, 'revision': 0, 'publishedRevision': 1, 'eventId': event['id'], 'note': 'Restore original'}, ccsrf)
         assert status == 200, result
         assert call(guest, 'cards')[1]['cards'][0] == base
+        # One canonical card, version CRUD, removed notes and existing deck links.
+        loaded = call(b, 'card-load?id=' + cid)[1]
+        versions = json.loads(json.dumps(loaded['card']['versions']))
+        original_ids = [v['id'] for v in versions]
+        versions[0]['image'] = 'https://example.org/updated-card.png'
+        new_version = json.loads(json.dumps(versions[0]))
+        new_version.update(id='abcdef123456', variant='Additional test printing', image='https://example.org/new-card.png')
+        versions.append(new_version)
+        patch2 = {'card': {'notes': ''}, 'text': {'typeLine': 'Epic Character, Human', 'rarity': 'L'}, 'versions': versions}
+        assert call(b, 'card-save', {'id': cid, 'revision': 0, 'patch': patch2, 'sourceNote': 'New printing and removed obsolete erratum'}, bcsrf)[0] == 200
+        assert not any(x['id'] == new_version['id'] for x in call(guest, 'cards')[1]['cards'])
+        assert call(b, 'card-submit', {'id': cid, 'revision': 1}, bcsrf)[0] == 200
+        published2 = call(c, 'card-publish', {'id': cid, 'revision': 2, 'publishedRevision': 2}, ccsrf)
+        assert published2[0] == 200, published2
+        canonical = call(guest, 'cards&view=catalog')[1]
+        assert canonical['schemaVersion'] == 2
+        group = next(x for x in canonical['cards'] if x['id'] == base['gameplayId'])
+        assert group['notes'] == '' and len(group['versions']) == len(versions), (group['notes'],len(group['versions']),len(versions),[v['id'] for v in group['versions']],len(published2[1]['card'].get('versions',[])),[(x['id'],[v['id'] for v in x['versions']]) for x in canonical['cards'] if any(v['id']=='abcdef123456' for v in x['versions'])])
+        assert not any(k in group['text'] for k in ['types', 'subtypes', 'traits'])
+        assert group['text']['rarity'] == 'L'
+        assert all('rarity' not in v['text'] and 'collectorNumber' not in v['text'] and 'original' not in v for v in group['versions'])
+        assert all(x in [v['id'] for v in group['versions']] for x in original_ids)
+        assert group['versions'][0]['image'] == 'https://example.org/updated-card.png'
+        visible = [x for x in call(guest, 'cards')[1]['cards'] if x['gameplayId'] == group['id']]
+        assert all(x['notes'] == '' and x['text']['typeLine'] == 'Epic Character, Human' for x in visible)
+        assert call(b, 'card-load?id=' + new_version['id'])[1]['card']['id'] == cid
+        new_deck = {**deck, 'id': 'new-printing-deck', 'coverPrintingId': new_version['id'], 'entries': [{'cardId': group['id'], 'printingId': new_version['id'], 'zone': 'spell', 'quantity': 2}]}
+        saved_new = call(a, 'save', {'deck': new_deck, 'revision': None}, csrf)
+        assert saved_new[0] == 200, (saved_new,new_deck)
+        stored = call(a, 'read-deck?id=new-printing-deck')[1]['deck']
+        assert stored['entries'][0]['printingId'] == new_version['id']
+        bad = json.loads(json.dumps(versions)); bad[0]['image'] = 'javascript:alert(1)'
+        assert call(b, 'card-save', {'id': cid, 'revision': 0, 'patch': {'versions': bad}, 'sourceNote': 'invalid link'}, bcsrf)[0] == 400
+        bad = versions[1:]
+        assert call(b, 'card-save', {'id': cid, 'revision': 0, 'patch': {'versions': bad}, 'sourceNote': 'must preserve existing printing'}, bcsrf)[0] == 400
+        snapshot = json.loads((p / 'public/data/cards.json').read_text())
+        assert len([x for x in snapshot if x['id'] == group['id']]) == 1
+        deletion_versions = json.loads(json.dumps(group['versions']))
+        next(v for v in deletion_versions if v['id'] == new_version['id'])['archived'] = True
+        assert call(b, 'card-save', {'id': cid, 'revision': 0, 'patch': {'versions': deletion_versions}, 'sourceNote': 'Remove test printing from public selection'}, bcsrf)[0] == 200
+        assert call(b, 'card-submit', {'id': cid, 'revision': 1}, bcsrf)[0] == 200
+        removed = call(c, 'card-publish', {'id': cid, 'revision': 2, 'publishedRevision': 3}, ccsrf)
+        assert removed[0] == 200, removed
+        archived = next(x for x in call(guest, 'cards')[1]['cards'] if x['id'] == new_version['id'])
+        assert archived['archived'] is True
+        assert call(a, 'read-deck?id=new-printing-deck')[1]['deck']['entries'][0]['printingId'] == new_version['id']
+        assert call(b, 'card-load?id=' + new_version['id'])[0] == 200
+        assert call(a, 'save', {'deck': new_deck, 'revision': 1}, csrf)[0] == 200
+        next(v for v in deletion_versions if v['id'] == new_version['id'])['archived'] = False
+        assert call(b, 'card-save', {'id': cid, 'revision': 0, 'patch': {'versions': deletion_versions}, 'sourceNote': 'Restore test printing'}, bcsrf)[0] == 200
+        assert call(b, 'card-submit', {'id': cid, 'revision': 1}, bcsrf)[0] == 200
+        assert call(c, 'card-publish', {'id': cid, 'revision': 2, 'publishedRevision': 4}, ccsrf)[0] == 200
+        restored = next(x for x in call(guest, 'cards')[1]['cards'] if x['id'] == new_version['id'])
+        assert restored['archived'] is False
+        print('Printing removal/restoration preserves old deck references and remains behind editorial approval.')
+        print('Canonical catalog: printing edit/add, secure image URLs, removed errata, snapshot and deck reference checks passed.')
         assert call(a, 'card-role', {'email': 'b@example.test', 'role': 'reader'}, csrf)[0] == 200
         assert call(b, 'card-queue')[0] == 403
         assert call(b, 'card-load?id=' + cid)[0] == 403
